@@ -8,6 +8,11 @@ def homepage():
     rm.render_homepage()
 
 
+@app.route('/test')
+def test():
+    return 'Hello'
+
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'GET':
