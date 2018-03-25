@@ -1,5 +1,5 @@
 """
-Contains database models for user-submitted content (comments, news articles)
+Contains database models for news articles
 """
 from finalwhistle import db
 from sqlalchemy.orm import validates
