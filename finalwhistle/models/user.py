@@ -8,7 +8,6 @@ class User(db.Model):
     """
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
 
-
     def is_authenticated(self):
         """
         This property should return True if the user is authenticated, i.e. they have provided valid credentials.
@@ -16,7 +15,6 @@ class User(db.Model):
         [1]: https://flask-login.readthedocs.io/en/latest/#your-user-class
         """
         return False
-
 
     def is_active(self):
         """
@@ -27,14 +25,13 @@ class User(db.Model):
         """
         return False
 
-
     def is_anonymous(self):
         """
-        This property should return True if this is an anonymous (guest) user. (Actual users should return False instead.) [1]
+        This property should return True if this is an anonymous (guest)
+        user. (Actual users should return False instead.) [1]
         [1]: https://flask-login.readthedocs.io/en/latest/#your-user-class
         """
         return False
-
 
     def get_id(self):
         """

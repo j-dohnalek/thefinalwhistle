@@ -15,10 +15,6 @@ GET /news
     view latest news sorted reverse chronologically
 GET /news/<news_id>
     view specific news story by id
-GET /leagues
-    defaults to viewing the most popular league
-GET /leagues/<league_id>
-    view league by idno point 
 GET /teams
     default teams view
 GET /teams/<team_id>
@@ -34,9 +30,9 @@ GET /register
     register a new account
 POST /register
     send registration request
-GET /register/reset-password
+GET /reset-password
     password reset process
-POST /register/reset-password
+POST /reset-password
     send password reset request
 GET /profile
     page for viewing and editing account settings (favourite team, blocked users)
