@@ -8,3 +8,7 @@ create a branch from develop, work on changes/features you want to make (which d
 http://flask.pocoo.org/docs/0.12/api/  
 
 http://flask.pocoo.org/docs/0.12/patterns/  
+
+http://flask.pocoo.org/docs/0.12/patterns/sqlalchemy/  
+
+http://flask-sqlalchemy.pocoo.org/2.3/quickstart/  

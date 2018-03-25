@@ -1,3 +1,7 @@
+"""
+Contains database models for users/accounts
+"""
+
 from finalwhistle import db
 
 
@@ -6,6 +10,7 @@ class User(db.Model):
     The User class must implement certain methods for Flask-Login compatibility [1]
     [1]: https://flask-login.readthedocs.io/en/latest/#your-user-class
     """
+    __tablename__ = 'users'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
 
     def is_authenticated(self):
