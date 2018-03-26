@@ -18,7 +18,7 @@ except KeyError:
     else:
         print('Trying to run outside of debug mode without OS provided secret key, exiting')
         exit(1)
-        
+
 # Initialise Flask extensions
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
