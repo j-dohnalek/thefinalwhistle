@@ -1,16 +1,55 @@
 """
 Database models for users/accounts
 """
-from finalwhistle import db
+from finalwhistle import db, bcrypt
 
 
 class User(db.Model):
     """
     The User class must implement certain methods for Flask-Login compatibility [1]
     [1]: https://flask-login.readthedocs.io/en/latest/#your-user-class
+
+    The blocked/restricted fields in the logical diagram could be move to a security group which
+    can be expanded to limit access to the commenting system and basic account actions (e.g. logging in).
+    If we want to keep the functionality of recording the dates the user was moved into the group, we'd
+    need a new table to record instances of a user's group changing
+
+    Passwords are safely stored via Flask-BCrypt [1]
+
+    [1] https://flask-bcrypt.readthedocs.io/en/latest/
     """
     __tablename__ = 'users'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    email = db.Column(db.String(60), nullable=False, unique=True)
+    username = db.Column(db.String(16), nullable=False, unique=True)
+    pw_hash = db.Column(db.Binary(60), nullable=False, unique=True)
+    registered_date = db.Column(db.DateTime, nullable=False)
+    last_login = db.Column(db.DateTime)
+    supported_team_id = db.Column(db.Integer, db.ForeignKey('teams.id'))
+    supported_team = db.relationship('Team')
+    usergroup_id = db.Column(db.Integer, db.ForeignKey('usergroups.id'))
+    usergroup = db.relationship('SecurityGroup')
+
+    def hash_password(self, password):
+        """
+        Generates hash of the password
+
+        In Python 3, you need to use decode(‘utf-8’) on generate_password_hash() [1]
+
+        [1] https://flask-bcrypt.readthedocs.io/en/latest/#usage
+        :param password: Supplied password
+        :return: Hash of the password
+        """
+        return bcrypt.generate_password_hash(password).decode('utf-8')
+
+    def password_valid(self, password):
+        """
+        Checks if supplied password is valid for the account
+
+        :param password: Supplied password
+        :return: True if password is correct
+        """
+        return bcrypt.check_password_hash(self.pw_hash, password)
 
     def is_authenticated(self):
         """
