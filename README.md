@@ -13,6 +13,11 @@ http://flask.pocoo.org/docs/0.12/patterns/sqlalchemy/
 
 http://flask-sqlalchemy.pocoo.org/2.3/quickstart/  
 
+[stackoverflow post about timestamps and databases](https://stackoverflow.com/a/33532154)
+
 http://flask.pocoo.org/docs/0.12/templating/  
 
 http://jinja.pocoo.org/docs/2.10/templates/  
+
+https://flask-wtf.readthedocs.io/en/stable/  
+
