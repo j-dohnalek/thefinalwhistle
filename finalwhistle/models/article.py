@@ -1,5 +1,5 @@
 """
-Contains database models for news articles
+Database models for news article system
 """
 from finalwhistle import db
 from sqlalchemy.orm import validates
@@ -14,7 +14,6 @@ class Article(db.Model):
     submitted_at = db.Column(db.DateTime, nullable=False)
     last_edited = db.Column(db.DateTime, nullable=False)
     status = db.Column(db.String, nullable=False)
-    category_id = db.Column(db.Integer, db.ForeignKey('article_categories.id'), nullable=False)
 
     # http://docs.sqlalchemy.org/en/rel_0_9/orm/mapped_attributes.html#simple-validators
     @validates('status')

@@ -1,7 +1,6 @@
 """
-Contains database models for users/accounts
+Database models for users/accounts
 """
-
 from finalwhistle import db
 
 
