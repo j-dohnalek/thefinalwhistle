@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 
 # MY LIBS ######################################################################
 
-from helper import grab_html, init_driver
+from helper import grab_html_by_class, init_driver
 
 
 # CONSTANTS ####################################################################
@@ -14,7 +14,7 @@ URL = "https://www.premierleague.com/managers"
 
 def main():
 
-    html = grab_html(init_driver(), class_name="managerName", url=URL)
+    html = grab_html_by_class(init_driver(), class_name="managerName", url=URL)
     soup = BeautifulSoup(html, "html.parser")
 
     managers_list = soup.find('tbody', attrs={'class': 'dataContainer'})
