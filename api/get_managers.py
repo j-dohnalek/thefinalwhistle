@@ -1,56 +1,51 @@
-from selenium.webdriver import Firefox
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
-import csv
 from bs4 import BeautifulSoup
+
+# MY LIBS ######################################################################
+
+from helper import grab_html, init_driver
+
+
+# CONSTANTS ####################################################################
+
+URL = "https://www.premierleague.com/managers"
+
+# FUNCTIONS ####################################################################
+
+
+def main():
+
+    html = grab_html(init_driver(), class_name="managerName", url=URL)
+    soup = BeautifulSoup(html, "html.parser")
+
+    managers_list = soup.find('tbody', attrs={'class': 'dataContainer'})
+
+    print('{ "managers": [')
+    for row in managers_list.findAll('tr'):
+
+        column_index = 0
+        manager_name, club_name_long, club_name_short = '', '', ''
+        for column in row.findAll('td'):
+
+            # Manager column
+            if column_index == 0:
+                manager_name = column.get_text()
+            # Team name
+            elif column_index == 1:
+                club_name_long = column.find('span', attrs={'class': 'long'}).get_text()
+                club_name_short = column.find('span', attrs={'class': 'short'}).get_text()
+            else:
+                break
+
+            column_index += 1
+
+        print('{')
+        print(' "manager": "', manager_name, '",')
+        print('"club_short": "', club_name_short, '",')
+        print('"club_long": "', club_name_long, '"')
+        print('},')
+
+    print(']}')
 
 
 if __name__ == "__main__":
-    
-    options = Options()
-    options.add_argument('-headless')
-    driver = Firefox(executable_path='./geckodriver', firefox_options=options)
-
-    #driver.set_window_size(1,0)
-
-    driver.get("https://www.premierleague.com/managers")
-    element = WebDriverWait(driver, 3).until(
-       EC.presence_of_element_located((By.CLASS_NAME, "managerName"))
-    )
-
-    html = driver.page_source
-    driver.quit()
-
-    soup = BeautifulSoup(html, "html.parser")
-
-    found_data = ""
-    parsed_lines = 1
-    for body in soup.findAll('tbody', attrs={'class': 'dataContainer'}):
-
-        for td in body.findAll('td'):
-
-            try:
-                unwanted = td.find('span',attrs={'short'})
-                unwanted.extract()
-            except AttributeError:
-                pass
-
-            found_data += td.text.strip() + ","
-
-            if parsed_lines % 3 == 0:
-                found_data += "|"
-
-            parsed_lines += 1
-
-
-    found_managers = found_data.split("|")[:-1]
-
-    with open('eggs.csv', 'w') as csvfile:
-        spamwriter = csv.writer(csvfile, delimiter=',', quotechar=',', quoting=csv.QUOTE_MINIMAL)
-        for manager in found_managers:
-            manager = manager.split(',')[:-1]
-            spamwriter.writerow(manager)
+    main()
