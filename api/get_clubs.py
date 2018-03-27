@@ -2,12 +2,9 @@ from bs4 import BeautifulSoup
 
 # MY LIBS ######################################################################
 
-from helper import grab_html, init_driver
+from helper import grab_html_by_class, init_driver
 
 # CONSTANTS ####################################################################
-
-# Wait to load page
-SCROLL_PAUSE_TIME = 0.5
 
 URL = "https://www.premierleague.com/clubs"
 
@@ -16,7 +13,7 @@ URL = "https://www.premierleague.com/clubs"
 
 def main():
 
-    html = grab_html(init_driver(), class_name="team", url=URL)
+    html = grab_html_by_class(init_driver(), class_name="team", url=URL)
     soup = BeautifulSoup(html, "html.parser")
 
     club_list = soup.find('tbody', attrs={'class': 'allTimeDataContainer'})
