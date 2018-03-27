@@ -2,7 +2,6 @@
 import json
 from bs4 import BeautifulSoup
 from pathlib import Path
-import sys
 
 # MY LIBS ######################################################################
 
@@ -72,8 +71,9 @@ def main():
     else:
         clubs = get_clubs()
 
-    club_players = {}
     for club_name, api_id in clubs.items():
+
+        club_players = {}
 
         players = []
         url = URL + '?se=79&cl={}'.format(api_id)
@@ -148,19 +148,18 @@ def main():
             player["weight"] = weight
 
             players.append(player)
-
             # end for
 
         club_players[club_name] = players
-        break
+
+        path = '{}.json'.format(club_name.replace(' ', '_'))
+
+        with open(PLAYERS, 'w') as outfile:
+            values = [{"team": k, "players": v} for k, v in club_players.items()]
+            json.dump(values, outfile, ensure_ascii=False, indent=4)
+            print('Writing to JSON complete')
 
     # end for
-
-    with open(PLAYERS, 'w') as outfile:
-        values = [{"team": k, "players": v} for k, v in club_players.items()]
-        json.dump(values, outfile, ensure_ascii=False, indent=4)
-        print('Writing to JSON complete')
-
     driver.quit()
 
 
