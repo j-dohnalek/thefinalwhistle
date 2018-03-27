@@ -15,7 +15,7 @@ SCROLL_PAUSE_TIME = 0.5
 
 def init_driver():
     """
-    Initialise the Firefox geckodriver
+    Initialise the Firefox GeckoDriver
     """
     print("Opening Driver")
     options = Options()
@@ -23,19 +23,49 @@ def init_driver():
     return Firefox(executable_path='./geckodriver', firefox_options=options)
 
 
-def grab_html(driver, class_name, url):
+def grab_html_by_class(driver, class_name, url, leave_open=False, scroll=True):
     """
     :param driver       : Firefox GeckoDriver
     :param class_name   : Wait for class attribute name before fetching HTML
     :param url          : Source URL
+    :param leave_open   : Do not close the Firefox GeckoDriver, default=False
+    :param scroll       : Allow to toggle scrolling to bottom of the page
     """
     print("Visiting url:", url)
     driver.get(url)
-    scroll_to_bottom(driver, SCROLL_PAUSE_TIME)
+
+    if scroll:
+        scroll_to_bottom(driver, SCROLL_PAUSE_TIME)
+
     wait_for_html_class(driver, class_name, 10)
 
     html = driver.page_source
-    driver.quit()
+    if not leave_open:
+        driver.quit()
+
+    return html
+
+
+def grab_html_by_xpath(driver, xpath, url, leave_open=False, scroll=True):
+    """
+    :param driver       : Firefox GeckoDriver
+    :param xpath        : Wait for xpath attribute before fetching HTML
+    :param url          : Source URL
+    :param leave_open   : Do not close the Firefox GeckoDriver, default=False
+    :param scroll       : Allow to toggle scrolling to bottom of the page
+    """
+    print("Visiting url:", url)
+    driver.get(url)
+
+    if scroll:
+        scroll_to_bottom(driver, SCROLL_PAUSE_TIME)
+
+    wait_for_html_class(driver, xpath, 10)
+
+    html = driver.page_source
+    if not leave_open:
+        driver.quit()
+
     return html
 
 
@@ -74,4 +104,16 @@ def wait_for_html_class(driver, page_element, timeout):
     print("Waiting ...")
     element = WebDriverWait(driver, timeout).until(
        EC.presence_of_element_located((By.CLASS_NAME, page_element))
+    )
+
+
+def wait_for_xpath(driver, xpath, timeout):
+    """
+    Allow the script to wait for HTML class to appear on page
+    :param page_element: HTML class attribute
+    :param driver: Selenium WebDriver
+    """
+    print("Waiting ...")
+    elems = WebDriverWait(driver, timeout).until(
+        EC.visibility_of_all_elements_located((By.XPATH, xpath))
     )
