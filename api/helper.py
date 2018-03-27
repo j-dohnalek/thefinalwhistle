@@ -3,6 +3,41 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 
+from selenium.webdriver import Firefox
+from selenium.webdriver.firefox.options import Options
+
+# CONSTANTS ####################################################################
+
+SCROLL_PAUSE_TIME = 0.5
+
+# FUNCTIONS ####################################################################
+
+
+def init_driver():
+    """
+    Initialise the Firefox geckodriver
+    """
+    print("Opening Driver")
+    options = Options()
+    options.add_argument('-headless')
+    return Firefox(executable_path='./geckodriver', firefox_options=options)
+
+
+def grab_html(driver, class_name, url):
+    """
+    :param driver       : Firefox GeckoDriver
+    :param class_name   : Wait for class attribute name before fetching HTML
+    :param url          : Source URL
+    """
+    print("Visiting url:", url)
+    driver.get(url)
+    scroll_to_bottom(driver, SCROLL_PAUSE_TIME)
+    wait_for_html_class(driver, class_name, 10)
+
+    html = driver.page_source
+    driver.quit()
+    return html
+
 
 def scroll_to_bottom(driver, scroll_pause):
     """
@@ -40,5 +75,3 @@ def wait_for_html_class(driver, page_element, timeout):
     element = WebDriverWait(driver, timeout).until(
        EC.presence_of_element_located((By.CLASS_NAME, page_element))
     )
-
-    element = None
