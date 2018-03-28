@@ -132,7 +132,6 @@ def main():
 
     match_counter = 1
     section = soup.find('section', attrs={'class': 'fixtures'})
-    match_data = []
 
     for fixture_date in section.findAll('time', attrs={'class': 'long'}):
 
@@ -140,6 +139,7 @@ def main():
         matches = section.find('div', attrs={'data-competition-matches-list': match_date})
         for match in matches.findAll('li', attrs={"class": "matchFixtureContainer"}):
 
+            match_data = []
 
             score = match.find('span', attrs={"class": "score"})
             match_id = match['data-comp-match-item']
@@ -160,11 +160,11 @@ def main():
             match_data.append(game_info)
 
             # Write the data to json
-            match_fname = "Match {} {} vs {} on {}".format(
+            match_fname = "Match {}: {} vs {} ID{}".format(
                 str(match_counter),
                 match['data-home'],
                 match['data-away'],
-                match_date
+                match_id
             )
 
             path = JSON_PATH.format(match_fname)
