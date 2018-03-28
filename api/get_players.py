@@ -1,32 +1,26 @@
 # -*- coding: utf-8 -*-
+
+
 import json
 from bs4 import BeautifulSoup
 from pathlib import Path
 
+
 # MY LIBS ######################################################################
+
 
 from helper import grab_html_by_class, init_driver
 
+
 # CONSTANTS ####################################################################
 
+
 URL = "https://www.premierleague.com/players"
-CLUBS = 'clubs2.json'
-PLAYERS = 'players.json'
+CLUBS = 'outstanding_clubs.json'
+PLAYERS_PATH = 'json/clubs'
+
 
 # FUNCTIONS ####################################################################
-
-
-def get_club_player():
-    """
-    Create a dictionary list of all clubs and their corresponding API id
-    """
-    club_list = {}
-    with open(PLAYERS) as json_data:
-        clubs = json.load(json_data)
-        for club in clubs:
-            club_list[club['team']] = club['players']
-
-    print(club_list)
 
 
 def get_clubs():
@@ -44,14 +38,17 @@ def get_clubs():
 
 def main():
 
-    driver = init_driver()
-
     clubs = {}
+
     my_file = Path(CLUBS)
+    # Check for the cached version of the club list if not exist fetch it from
+    # the website
     if not my_file.is_file():
 
+        driver = init_driver()
+
         class_name = "dropDown"
-        html = grab_html_by_class(driver, class_name, URL, leave_open=True)
+        html = grab_html_by_class(driver, class_name, URL)
         soup = BeautifulSoup(html, "html.parser")
 
         # Filter available clubs and their API ids
@@ -69,25 +66,30 @@ def main():
             json.dump(values, outfile, indent=4)
 
     else:
+        # Cached version
         clubs = get_clubs()
 
+    # Iterate over all clubs in premier league
     for club_name, api_id in clubs.items():
 
         club_players = {}
-
         players = []
+
+        # Fetch the HTML
         url = URL + '?se=79&cl={}'.format(api_id)
         class_name = "playerName"
-        html = grab_html_by_class(driver, class_name, url, leave_open=True)
+        html = grab_html_by_class(init_driver(), class_name, url)
         soup = BeautifulSoup(html, "html.parser")
 
-        managers_list = soup.find('tbody', attrs={'class': 'dataContainer'})
-        for row in managers_list.findAll('tr'):
+        # Fetch the list of players
+        players_list = soup.find('tbody', attrs={'class': 'dataContainer'})
+        for row in players_list.findAll('tr'):
 
             player = {}
+
+            # Fetch player name, position, and link
             column_index = 0
             player_name, position = '', ''
-
             for column in row.findAll('td'):
 
                 if column_index == 0:
@@ -103,38 +105,50 @@ def main():
 
                 # end for
 
-            player_html = grab_html_by_class(
-                init_driver(), 'number', player_link, leave_open=False, scroll=True)
+            # Fetch players dress number
+            player_html = grab_html_by_class(init_driver(), 'info', player_link)
             playersoup = BeautifulSoup(player_html, "html.parser")
+
             player_number = -1
             try:
                 player_number = playersoup.find('div', attrs={'class': 'number'}).get_text()
             except AttributeError:
                 pass
 
+            # Fetch players nationality, age, dob, height, weight
             column_index = 0
             personal_lists = playersoup.find('div', attrs={'class': 'personalLists'})
             nationality, age, dob, height, weight = '', '', '', '', ''
-
-            try:
-                for detail in personal_lists.findAll('div', attrs={'class': 'info'}):
-                    if column_index == 0:
+            for detail in personal_lists.findAll('div', attrs={'class': 'info'}):
+                if column_index == 0:
+                    try:
                         nationality = detail.get_text().replace('\n', '')
-                    elif column_index == 1:
+                    except AttributeError:
+                        pass
+                elif column_index == 1:
+                    try:
                         age = detail.get_text()
-                    elif column_index == 2:
+                    except AttributeError:
+                        pass
+                elif column_index == 2:
+                    try:
                         dob = detail.get_text()
-                    elif column_index == 3:
+                    except AttributeError:
+                        pass
+                elif column_index == 3:
+                    try:
                         height = detail.get_text()
-                    elif column_index == 4:
+                    except AttributeError:
+                        pass
+                elif column_index == 4:
+                    try:
                         weight = detail.get_text()
-                    else:
-                        break
+                    except AttributeError:
+                        pass
+                else:
+                    break
 
-                    column_index += 1
-
-            except AttributeError:
-                pass
+                column_index += 1
 
             print("Visit complete")
 
@@ -152,15 +166,14 @@ def main():
 
         club_players[club_name] = players
 
-        path = '{}.json'.format(club_name.replace(' ', '_'))
-
-        with open(PLAYERS, 'w') as outfile:
+        # Write the data to json
+        path = '{}/{}.json'.format(PLAYERS_PATH, club_name.replace(' ', '_'))
+        with open(path, 'w') as outfile:
             values = [{"team": k, "players": v} for k, v in club_players.items()]
             json.dump(values, outfile, ensure_ascii=False, indent=4)
-            print('Writing to JSON complete')
+            print('Writing JSON: {}'.format(path))
 
-    # end for
-    driver.quit()
+        # end for
 
 
 if __name__ == "__main__":
