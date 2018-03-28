@@ -31,3 +31,11 @@ import finalwhistle.views.admin
 import finalwhistle.views.data_views
 import finalwhistle.views.editor
 import finalwhistle.views.misc
+
+# Import all models to ensure they're loaded
+# This shouldn't be required later on once all models are referenced in other parts of the app
+# but for creating and testing a db, this works for now
+import finalwhistle.models.user
+import finalwhistle.models.comment
+import finalwhistle.models.user
+import finalwhistle.models.article
