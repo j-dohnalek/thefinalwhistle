@@ -31,6 +31,8 @@ def fetch_game_info(match_url, match_info):
     referee = soup.find('div', attrs={'class': 'referee'})
     if referee is not None:
         match_info['referee'] = referee.get_text().replace('\n', '').strip()
+    else:
+        match_info['referee'] = "Uknown"
 
     kick_off = soup.find('strong', attrs={'class': 'renderKOContainer'})
     if kick_off is not None:
@@ -52,7 +54,6 @@ def parse_events(event, match_info):
         event_info = event_type.get_text()
         match_event = {}
 
-        # Clean the unwanted information
         event_time = event.find('time', attrs={'class': 'min'})
         if event_time is not None:
             time_of_match = event_time.get_text()
@@ -94,14 +95,17 @@ def parse_events(event, match_info):
             if sub_on is not None:
                 player_in = sub_on.find('a', attrs={'class': 'name'})
                 unwanted = player_in.find('div', attrs={'class': 'icn'})
-                unwanted.extract()
-                substituted_in = player_in.get_text().replace('\n', '')
+                if unwanted is not None:
+                    unwanted.extract()
 
+                substituted_in = player_in.get_text().replace('\n', '')
                 match_event['in'] = substituted_in.strip()
 
             player_out = event.find('a', attrs={'class': 'name'})
             unwanted = player_out.find('div', attrs={'class': 'icn'})
-            unwanted.extract()
+            if unwanted is not None:
+                unwanted.extract()
+
             substituted_out = player_out.get_text().replace('\n', '').strip()
 
             match_event['out'] = substituted_out.strip()
@@ -128,13 +132,14 @@ def main():
 
     match_counter = 1
     section = soup.find('section', attrs={'class': 'fixtures'})
+    match_data = []
+
     for fixture_date in section.findAll('time', attrs={'class': 'long'}):
 
         match_date = fixture_date.get_text()
         matches = section.find('div', attrs={'data-competition-matches-list': match_date})
         for match in matches.findAll('li', attrs={"class": "matchFixtureContainer"}):
 
-            match_data = []
 
             score = match.find('span', attrs={"class": "score"})
             match_id = match['data-comp-match-item']
@@ -148,20 +153,27 @@ def main():
                 'home_team': match['data-home'],
                 'away_team': match['data-away'],
                 'score': score.get_text(),
-                'details': match_info
+                'url': match_url,
+                'details': match_info,
             }
 
             match_data.append(game_info)
 
             # Write the data to json
-            path = JSON_PATH.format("match"+str(match_counter))
+            match_fname = "Match {} {} vs {} on {}".format(
+                str(match_counter),
+                match['data-home'],
+                match['data-away'],
+                match_date
+            )
+
+            path = JSON_PATH.format(match_fname)
             with open(path, 'w') as outfile:
                 values = [v for v in match_data]
                 json.dump(values, outfile, ensure_ascii=False, indent=4)
                 print('Writing JSON: {}'.format(path))
-            match_counter += 1
-            return
 
+            match_counter += 1
 
 if __name__ == "__main__":
     main()

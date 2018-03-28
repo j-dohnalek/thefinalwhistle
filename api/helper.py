@@ -1,15 +1,17 @@
-import time
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.common.by import By
-
 from selenium.webdriver import Firefox
-from selenium.webdriver.firefox.options import Options
-
 from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.firefox.options import Options
+import time
+
+
 # CONSTANTS ####################################################################
 
-SCROLL_PAUSE_TIME = 0.5
+
+SCROLL_PAUSE_TIME = 1
+
 
 # FUNCTIONS ####################################################################
 

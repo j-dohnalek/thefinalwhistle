@@ -1,0 +1,155 @@
+[
+    {
+        "score": "1-2",
+        "away_team": "Everton",
+        "home_team": "Stoke",
+        "details": {
+            "substitutions": [
+                {
+                    "out": "26. Tom Davies",
+                    "in": "29. Dominic Calvert-Lewin",
+                    "minute": "53"
+                },
+                {
+                    "out": "32. Ramadan Sobhi",
+                    "in": "10. Eric Maxim Choupo-Moting",
+                    "minute": "72"
+                },
+                {
+                    "out": "22. Xherdan Shaqiri",
+                    "in": "9. Saido Berahino",
+                    "minute": "76"
+                },
+                {
+                    "out": "10. Eric Maxim Choupo-Moting",
+                    "in": "11. Jesé",
+                    "minute": "79"
+                },
+                {
+                    "out": "10. Wayne Rooney",
+                    "in": "2. Morgan Schneiderlin",
+                    "minute": "87"
+                },
+                {
+                    "out": "7. Yannick Bolasie",
+                    "in": "30. Mason Holgate",
+                    "additional": "2",
+                    "minute": "90"
+                }
+            ],
+            "goals": [
+                {
+                    "assist": "Dominic Calvert-Lewin",
+                    "own_goal": "false",
+                    "scorer": "14. Cenk Tosun",
+                    "minute": "69"
+                },
+                {
+                    "assist": "Joe Allen",
+                    "own_goal": "false",
+                    "scorer": "10. Eric Maxim Choupo-Moting",
+                    "minute": "77"
+                },
+                {
+                    "assist": "Theo Walcott",
+                    "own_goal": "false",
+                    "scorer": "14. Cenk Tosun",
+                    "minute": "84"
+                }
+            ],
+            "referee": "Martin Atkinson",
+            "kick_off": "15:00",
+            "cards": [
+                {
+                    "player": "16. Charlie Adam",
+                    "card": "red",
+                    "minute": "30"
+                },
+                {
+                    "player": "17. Ryan Shawcross",
+                    "card": "yellow",
+                    "minute": "55"
+                },
+                {
+                    "player": "6. Phil Jagielka",
+                    "card": "yellow",
+                    "minute": "82"
+                }
+            ]
+        },
+        "url": "https://www.premierleague.com/match/22648",
+        "date": "Saturday 17 March 2018"
+    },
+    {
+        "score": "0-2",
+        "away_team": "Crystal Palace",
+        "home_team": "Huddersfield",
+        "details": {
+            "substitutions": [
+                {
+                    "out": "15. Jeffrey Schlupp",
+                    "in": "7. Yohan Cabaye",
+                    "minute": "21"
+                },
+                {
+                    "out": "3. Scott Malone",
+                    "in": "15. Chris Löwe",
+                    "minute": "45"
+                },
+                {
+                    "out": "22. Tom Ince",
+                    "in": "17. Rajiv van La Parra",
+                    "minute": "61"
+                },
+                {
+                    "out": "21. Alex Pritchard",
+                    "in": "9. Elias Kachunga",
+                    "minute": "71"
+                },
+                {
+                    "out": "11. Wilfried Zaha",
+                    "in": "8. Ruben Loftus-Cheek",
+                    "minute": "89"
+                }
+            ],
+            "goals": [
+                {
+                    "own_goal": "false",
+                    "scorer": "5. James Tomkins",
+                    "minute": "23"
+                }
+            ],
+            "referee": "Mike Dean",
+            "kick_off": "15:00",
+            "cards": [
+                {
+                    "player": "7. Yohan Cabaye",
+                    "card": "yellow",
+                    "minute": "58"
+                },
+                {
+                    "player": "6. Jonathan Hogg",
+                    "card": "yellow",
+                    "minute": "70"
+                },
+                {
+                    "player": "10. Aaron Mooy",
+                    "card": "yellow",
+                    "minute": "78"
+                },
+                {
+                    "player": "29. Aaron Wan-Bissaka",
+                    "card": "yellow",
+                    "minute": "80"
+                },
+                {
+                    "player": "26. Christopher Schindler",
+                    "card": "yellow",
+                    "minute": "83"
+                }
+            ]
+        },
+        "url": "https://www.premierleague.com/match/22644",
+        "date": "Saturday 17 March 2018"
+    }
+]
