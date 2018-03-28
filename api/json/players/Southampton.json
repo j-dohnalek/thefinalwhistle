@@ -1,0 +1,267 @@
+[
+    {
+        "team": "Southampton",
+        "players": [
+            {
+                "name": "Jan Bednarek",
+                "position": "Defender",
+                "height": "189cm",
+                "age": "21",
+                "weight": "77kg",
+                "nationality": "Poland",
+                "dob": "12/04/1996",
+                "shirt_number": "35"
+            },
+            {
+                "name": "Fraser Forster",
+                "position": "Goalkeeper",
+                "height": "201cm",
+                "age": "30",
+                "weight": "93kg",
+                "nationality": "England",
+                "dob": "17/03/1988",
+                "shirt_number": "44"
+            },
+            {
+                "name": "Alex McCarthy",
+                "position": "Goalkeeper",
+                "height": "193cm",
+                "age": "28",
+                "weight": "79kg",
+                "nationality": "England",
+                "dob": "03/12/1989",
+                "shirt_number": "13"
+            },
+            {
+                "name": "Stuart Taylor",
+                "position": "Goalkeeper",
+                "height": "198cm",
+                "age": "37",
+                "weight": "85kg",
+                "nationality": "England",
+                "dob": "28/11/1980",
+                "shirt_number": "28"
+            },
+            {
+                "name": "Cédric Soares",
+                "position": "Defender",
+                "height": "172cm",
+                "age": "26",
+                "weight": "67kg",
+                "nationality": "Portugal",
+                "dob": "31/08/1991",
+                "shirt_number": "2"
+            },
+            {
+                "name": "Maya Yoshida",
+                "position": "Defender",
+                "height": "189cm",
+                "age": "29",
+                "weight": "78kg",
+                "nationality": "Japan",
+                "dob": "24/08/1988",
+                "shirt_number": "3"
+            },
+            {
+                "name": "Jack Stephens",
+                "position": "Defender",
+                "height": "185cm",
+                "age": "24",
+                "weight": "75kg",
+                "nationality": "England",
+                "dob": "27/01/1994",
+                "shirt_number": "5"
+            },
+            {
+                "name": "Jérémy Pied",
+                "position": "Defender",
+                "height": "173cm",
+                "age": "29",
+                "weight": "69kg",
+                "nationality": "France",
+                "dob": "23/02/1989",
+                "shirt_number": "26"
+            },
+            {
+                "name": "Sam McQueen",
+                "position": "Defender",
+                "height": "180cm",
+                "age": "23",
+                "weight": "70kg",
+                "nationality": "England",
+                "dob": "06/02/1995",
+                "shirt_number": "38"
+            },
+            {
+                "name": "Steven Davis",
+                "position": "Midfielder",
+                "height": "173cm",
+                "age": "33",
+                "weight": "70kg",
+                "nationality": "Northern Ireland",
+                "dob": "01/01/1985",
+                "shirt_number": "8"
+            },
+            {
+                "name": "Dusan Tadic",
+                "position": "Midfielder",
+                "height": "181cm",
+                "age": "29",
+                "weight": "76kg",
+                "nationality": "Serbia",
+                "dob": "20/11/1988",
+                "shirt_number": "11"
+            },
+            {
+                "name": "Oriol Romeu",
+                "position": "Midfielder",
+                "height": "183cm",
+                "age": "26",
+                "weight": "83kg",
+                "nationality": "Spain",
+                "dob": "24/09/1991",
+                "shirt_number": "14"
+            },
+            {
+                "name": "James Ward-Prowse",
+                "position": "Midfielder",
+                "height": "173cm",
+                "age": "23",
+                "weight": "66kg",
+                "nationality": "England",
+                "dob": "01/11/1994",
+                "shirt_number": "16"
+            },
+            {
+                "name": "Sofiane Boufal",
+                "position": "Midfielder",
+                "height": "170cm",
+                "age": "24",
+                "weight": "60kg",
+                "nationality": "Morocco",
+                "dob": "17/09/1993",
+                "shirt_number": "19"
+            },
+            {
+                "name": "Nathan Redmond",
+                "position": "Midfielder",
+                "height": "173cm",
+                "age": "24",
+                "weight": "69kg",
+                "nationality": "England",
+                "dob": "06/03/1994",
+                "shirt_number": "22"
+            },
+            {
+                "name": "Pierre-Emile Højbjerg",
+                "position": "Midfielder",
+                "height": "185cm",
+                "age": "22",
+                "weight": "84kg",
+                "nationality": "Denmark",
+                "dob": "05/08/1995",
+                "shirt_number": "23"
+            },
+            {
+                "name": "Jake Hesketh",
+                "position": "Midfielder",
+                "height": "168cm",
+                "age": "22",
+                "weight": "63kg",
+                "nationality": "England",
+                "dob": "27/03/1996",
+                "shirt_number": "42"
+            },
+            {
+                "name": "Shane Long",
+                "position": "Forward",
+                "height": "178cm",
+                "age": "31",
+                "weight": "81kg",
+                "nationality": "Ireland",
+                "dob": "22/01/1987",
+                "shirt_number": "7"
+            },
+            {
+                "name": "Charlie Austin",
+                "position": "Forward",
+                "height": "188cm",
+                "age": "28",
+                "weight": "84kg",
+                "nationality": "England",
+                "dob": "05/07/1989",
+                "shirt_number": "10"
+            },
+            {
+                "name": "Manolo Gabbiadini",
+                "position": "Forward",
+                "height": "181cm",
+                "age": "26",
+                "weight": "72kg",
+                "nationality": "Italy",
+                "dob": "26/11/1991",
+                "shirt_number": "20"
+            },
+            {
+                "name": "Mario Lemina",
+                "position": "Midfielder",
+                "height": "184cm",
+                "age": "24",
+                "weight": "85kg",
+                "nationality": "Gabon",
+                "dob": "01/09/1993",
+                "shirt_number": "18"
+            },
+            {
+                "name": "Wesley Hoedt",
+                "position": "Defender",
+                "height": "188cm",
+                "age": "24",
+                "weight": "77kg",
+                "nationality": "Netherlands",
+                "dob": "06/03/1994",
+                "shirt_number": "6"
+            },
+            {
+                "name": "Ryan Bertrand",
+                "position": "Defender",
+                "height": "179cm",
+                "age": "28",
+                "weight": "85kg",
+                "nationality": "England",
+                "dob": "05/08/1989",
+                "shirt_number": "21"
+            },
+            {
+                "name": "Josh Sims",
+                "position": "Midfielder",
+                "height": "",
+                "age": "21",
+                "weight": "",
+                "nationality": "England",
+                "dob": "28/03/1997",
+                "shirt_number": "39"
+            },
+            {
+                "name": "Michael Obafemi",
+                "position": "Forward",
+                "height": "169cm",
+                "age": "17",
+                "weight": "71kg",
+                "nationality": "Ireland",
+                "dob": "06/07/2000",
+                "shirt_number": "61"
+            },
+            {
+                "name": "Guido Carrillo",
+                "position": "Forward",
+                "height": "191cm",
+                "age": "26",
+                "weight": "87kg",
+                "nationality": "Argentina",
+                "dob": "25/05/1991",
+                "shirt_number": "9"
+            }
+        ]
+    }
+]

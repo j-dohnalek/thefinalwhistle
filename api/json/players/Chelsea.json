@@ -1,0 +1,277 @@
+[
+    {
+        "team": "Chelsea",
+        "players": [
+            {
+                "name": "Willy Caballero",
+                "position": "Goalkeeper",
+                "height": "186cm",
+                "age": "36",
+                "weight": "80kg",
+                "nationality": "Argentina",
+                "dob": "28/09/1981",
+                "shirt_number": "1"
+            },
+            {
+                "name": "Thibaut Courtois",
+                "position": "Goalkeeper",
+                "height": "199cm",
+                "age": "25",
+                "weight": "94kg",
+                "nationality": "Belgium",
+                "dob": "11/05/1992",
+                "shirt_number": "13"
+            },
+            {
+                "name": "Eduardo",
+                "position": "Goalkeeper",
+                "height": "187cm",
+                "age": "35",
+                "weight": "88kg",
+                "nationality": "Portugal",
+                "dob": "19/09/1982",
+                "shirt_number": "37"
+            },
+            {
+                "name": "Marcos Alonso",
+                "position": "Defender",
+                "height": "188cm",
+                "age": "27",
+                "weight": "84kg",
+                "nationality": "Spain",
+                "dob": "28/12/1990",
+                "shirt_number": "3"
+            },
+            {
+                "name": "Gary Cahill",
+                "position": "Defender",
+                "height": "193cm",
+                "age": "32",
+                "weight": "86kg",
+                "nationality": "England",
+                "dob": "19/12/1985",
+                "shirt_number": "24"
+            },
+            {
+                "name": "César Azpilicueta",
+                "position": "Defender",
+                "height": "178cm",
+                "age": "28",
+                "weight": "78kg",
+                "nationality": "Spain",
+                "dob": "28/08/1989",
+                "shirt_number": "28"
+            },
+            {
+                "name": "David Luiz",
+                "position": "Defender",
+                "height": "189cm",
+                "age": "30",
+                "weight": "84kg",
+                "nationality": "Brazil",
+                "dob": "22/04/1987",
+                "shirt_number": "30"
+            },
+            {
+                "name": "Cesc Fàbregas",
+                "position": "Midfielder",
+                "height": "180cm",
+                "age": "30",
+                "weight": "77kg",
+                "nationality": "Spain",
+                "dob": "04/05/1987",
+                "shirt_number": "4"
+            },
+            {
+                "name": "N'Golo Kanté",
+                "position": "Midfielder",
+                "height": "168cm",
+                "age": "26",
+                "weight": "68kg",
+                "nationality": "France",
+                "dob": "29/03/1991",
+                "shirt_number": "7"
+            },
+            {
+                "name": "Eden Hazard",
+                "position": "Midfielder",
+                "height": "173cm",
+                "age": "27",
+                "weight": "76kg",
+                "nationality": "Belgium",
+                "dob": "07/01/1991",
+                "shirt_number": "10"
+            },
+            {
+                "name": "Victor Moses",
+                "position": "Midfielder",
+                "height": "177cm",
+                "age": "27",
+                "weight": "79kg",
+                "nationality": "Nigeria",
+                "dob": "12/12/1990",
+                "shirt_number": "15"
+            },
+            {
+                "name": "Willian",
+                "position": "Midfielder",
+                "height": "175cm",
+                "age": "29",
+                "weight": "77kg",
+                "nationality": "Brazil",
+                "dob": "09/08/1988",
+                "shirt_number": "22"
+            },
+            {
+                "name": "Pedro",
+                "position": "Forward",
+                "height": "169cm",
+                "age": "30",
+                "weight": "65kg",
+                "nationality": "Spain",
+                "dob": "28/07/1987",
+                "shirt_number": "11"
+            },
+            {
+                "name": "Antonio Rüdiger",
+                "position": "Defender",
+                "height": "190cm",
+                "age": "25",
+                "weight": "85kg",
+                "nationality": "Germany",
+                "dob": "03/03/1993",
+                "shirt_number": "2"
+            },
+            {
+                "name": "Tiemoué Bakayoko",
+                "position": "Midfielder",
+                "height": "185cm",
+                "age": "23",
+                "weight": "77kg",
+                "nationality": "France",
+                "dob": "17/08/1994",
+                "shirt_number": "14"
+            },
+            {
+                "name": "Andreas Christensen",
+                "position": "Defender",
+                "height": "188cm",
+                "age": "21",
+                "weight": "78kg",
+                "nationality": "Denmark",
+                "dob": "10/04/1996",
+                "shirt_number": "27"
+            },
+            {
+                "name": "Álvaro Morata",
+                "position": "Forward",
+                "height": "189cm",
+                "age": "25",
+                "weight": "85kg",
+                "nationality": "Spain",
+                "dob": "23/10/1992",
+                "shirt_number": "9"
+            },
+            {
+                "name": "Davide Zappacosta",
+                "position": "Defender",
+                "height": "185cm",
+                "age": "25",
+                "weight": "70kg",
+                "nationality": "Italy",
+                "dob": "11/06/1992",
+                "shirt_number": "21"
+            },
+            {
+                "name": "Daniel Drinkwater",
+                "position": "Midfielder",
+                "height": "178cm",
+                "age": "28",
+                "weight": "79kg",
+                "nationality": "England",
+                "dob": "05/03/1990",
+                "shirt_number": "6"
+            },
+            {
+                "name": "Kyle Scott",
+                "position": "Midfielder",
+                "height": "172cm",
+                "age": "20",
+                "weight": "68kg",
+                "nationality": "United States",
+                "dob": "22/12/1997",
+                "shirt_number": "36"
+            },
+            {
+                "name": "Ethan Ampadu",
+                "position": "Defender",
+                "height": "183cm",
+                "age": "17",
+                "weight": "78kg",
+                "nationality": "Wales",
+                "dob": "14/09/2000",
+                "shirt_number": "44"
+            },
+            {
+                "name": "Dujon Sterling",
+                "position": "Midfielder",
+                "height": "186cm",
+                "age": "18",
+                "weight": "81kg",
+                "nationality": "England",
+                "dob": "24/10/1999",
+                "shirt_number": "66"
+            },
+            {
+                "name": "Callum Hudson-Odoi",
+                "position": "Midfielder",
+                "height": "182cm",
+                "age": "17",
+                "weight": "76kg",
+                "nationality": "England",
+                "dob": "07/11/2000",
+                "shirt_number": "70"
+            },
+            {
+                "name": "Ross Barkley",
+                "position": "Midfielder",
+                "height": "189cm",
+                "age": "24",
+                "weight": "76kg",
+                "nationality": "England",
+                "dob": "05/12/1993",
+                "shirt_number": "8"
+            },
+            {
+                "name": "Emerson",
+                "position": "Defender",
+                "height": "176cm",
+                "age": "23",
+                "weight": "63kg",
+                "nationality": "Italy",
+                "dob": "03/08/1994",
+                "shirt_number": "33"
+            },
+            {
+                "name": "Olivier Giroud",
+                "position": "Forward",
+                "height": "192cm",
+                "age": "31",
+                "weight": "88kg",
+                "nationality": "France",
+                "dob": "30/09/1986",
+                "shirt_number": "18"
+            },
+            {
+                "name": "Trevoh Chalobah",
+                "position": "Defender",
+                "height": "",
+                "age": "18",
+                "weight": "",
+                "nationality": "England",
+                "dob": "05/07/1999",
+                "shirt_number": -1
+            }
+        ]
+    }
+]
