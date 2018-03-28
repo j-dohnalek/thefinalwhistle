@@ -1,58 +1,20 @@
-from selenium.webdriver import Firefox
-from selenium.webdriver.common.by import By
-# from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
 from bs4 import BeautifulSoup
+import json
 
-import time
+
+# MY LIBS ######################################################################
+
+
+from helper import grab_html_by_class, init_driver
+
 
 # CONSTANTS ####################################################################
 
-# Wait to load page
-SCROLL_PAUSE_TIME = 0.5
+
+URL = "https://www.premierleague.com/results?team=FIRST&co=1&se=79&cl=-1"
+
 
 # FUNCTIONS ####################################################################
-
-
-def scroll_to_bottom(driver):
-    """
-    Scroll to the bottom of the page untill it stops loading
-    :param driver: Selenium WebDriver
-    """
-    print("Scrolling to the bottom ...")
-
-    # Get scroll height
-    last_height = driver.execute_script("return document.body.scrollHeight")
-
-    while True:
-        # Scroll down to bottom
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-
-        # Wait to load page
-        time.sleep(SCROLL_PAUSE_TIME)
-
-        # Calculate new scroll height and compare with last scroll height
-        new_height = driver.execute_script("return document.body.scrollHeight")
-        if new_height == last_height:
-            break
-        last_height = new_height
-
-    print("Scrolling complete")
-
-
-def wait_for_html_class(driver, page_element, timeout):
-    """
-    Allow the script to wait for HTML class to appear on page
-    :param page_element: HTML class attribute
-    :param driver: Selenium WebDriver
-    """
-    print("Waiting ...")
-    element = WebDriverWait(driver, timeout).until(
-       EC.presence_of_element_located((By.CLASS_NAME, page_element))
-    )
 
 
 def fetch_game_info(driver, match_url):
@@ -154,110 +116,13 @@ def fetch_game_info(driver, match_url):
                     print("Player:", player.get_text())
 
 
-def fetch_game_commentary_info(driver, match_url):
-
-    print("Match url", match_url)
-    driver.get(match_url)
-    wait_for_html_class(driver, "renderKOContainer", 10)
-
-    html = driver.page_source
-    print(html)
-    return
-    soup = BeautifulSoup(html, "html.parser")
-
-    referee = soup.find('div', attrs={'class': 'referee'})
-    if referee is not None:
-        print("Referee:", referee.get_text().replace('\n', '').strip())
-
-    kick_off = soup.find('strong', attrs={'class': 'renderKOContainer'})
-    if kick_off is not None:
-        print("Kick Off:", kick_off.get_text())
-
-    home_team = {}
-    line_up = soup.find('div', attrs={'data-index-class': 'home'})
-    for player in line_up.findAll('li', attrs={'class': 'player'}):
-
-        name = player.find('div', attrs={'class': 'name'})
-
-        number = player.find('div', attrs={'class': 'number'})
-        unwanted = player.find('span')
-        unwanted.extract()
-
-        unwanted = name.find('div')
-        if unwanted is not None:
-            unwanted.extract()
-        unwanted = name.find('span')
-        if unwanted is not None:
-            unwanted.extract()
-
-        name = name.get_text().replace('\n', '').strip()
-        home_team[int(number.get_text())] = name  # insert player to dictionary
-
-    print("Home Team")
-    print(home_team)
-
-    away_team = {}
-    player_index = 0
-    line_up = soup.find('div', attrs={'data-index-class': ''})
-    for player in line_up.findAll('li', attrs={'class': 'player'}):
-
-        name = player.find('div', attrs={'class': 'name'})
-
-        number = player.find('div', attrs={'class': 'number'})
-        unwanted = player.find('span')
-        unwanted.extract()
-
-        print(number.get_text())
-
-        unwanted = name.find('div')
-        if unwanted is not None:
-            unwanted.extract()
-        unwanted = name.find('span')
-        if unwanted is not None:
-            unwanted.extract()
-
-        name = name.get_text().replace('\n', '').strip()
-        away_team[player_index] = name  # insert player to dictionary
-        player_index += 1
-
-    print("Away Team")
-    print(away_team)
-
-    """
-    for commentary in soup.findAll('ul', attrs={'class': 'commentaryContainer'}):
-
-        for event in commentary.findAll('div', attrs={'class': 'substitution'}):
-
-            event_time = event.find('time').get_text()
-            event_details = event.find('p').get_text()
-
-            print(event_time, event_details)
-
-        for event in commentary.findAll('div', attrs={'class': 'card-yellow'}):
-
-            event_time = event.find('time').get_text()
-            event_details = event.find('p').get_text()
-
-            print(event_time, event_details)
-    """
-
-
 def main():
 
     url = "https://www.premierleague.com/results?team=FIRST&co=1&se=79&cl=-1"
 
-    print("Opening Driver")
-    options = Options()
-    options.add_argument('-headless')
-    driver = Firefox(executable_path='./geckodriver', firefox_options=options)
-
-    print("Visiting url", url)
-    driver.get(url)
-
-    scroll_to_bottom(driver)
-    wait_for_html_class(driver, "matchFixtureContainer", 10)
-
-    html = driver.page_source
+    class_name = "matchFixtureContainer"
+    driver = init_driver()
+    html = grab_html_by_class(driver, class_name, url)
     soup = BeautifulSoup(html, "html.parser")
 
     for section in soup.findAll('section', attrs={'class': 'fixtures'}):
@@ -280,7 +145,7 @@ def main():
 
                     print(match_date, home_team, score, away_team)
 
-                    fetch_game_commentary_info(driver, match_url)
+                    fetch_game_info(driver, match_url)
                     return
 
     driver.quit()
