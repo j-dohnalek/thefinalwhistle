@@ -6,6 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver import Firefox
 from selenium.webdriver.firefox.options import Options
 
+from selenium.common.exceptions import TimeoutException
 # CONSTANTS ####################################################################
 
 SCROLL_PAUSE_TIME = 0.5
@@ -34,10 +35,20 @@ def grab_html_by_class(driver, class_name, url, leave_open=False, scroll=True):
     print("Visiting url:", url)
     driver.get(url)
 
-    if scroll:
-        scroll_to_bottom(driver, SCROLL_PAUSE_TIME)
-
-    wait_for_html_class(driver, class_name, 10)
+    # Attempt to load page several times
+    attempts_to_load = 0
+    while attempts_to_load < 5:
+        # Scroll to the bottom of page
+        if scroll:
+            scroll_to_bottom(driver, SCROLL_PAUSE_TIME)
+        # Search for a class
+        try:
+            wait_for_html_class(driver, class_name, 10)
+            break
+        except TimeoutException:
+            print("Couldn't find class {}".format(class_name))
+            pass
+        attempts_to_load += 1
 
     html = driver.page_source
     if not leave_open:
@@ -59,6 +70,7 @@ def grab_html_by_xpath(driver, xpath, url, leave_open=False, scroll=True):
 
     if scroll:
         scroll_to_bottom(driver, SCROLL_PAUSE_TIME)
+
 
     wait_for_html_class(driver, xpath, 10)
 
@@ -105,6 +117,8 @@ def wait_for_html_class(driver, page_element, timeout):
     element = WebDriverWait(driver, timeout).until(
        EC.presence_of_element_located((By.CLASS_NAME, page_element))
     )
+
+    return True
 
 
 def wait_for_xpath(driver, xpath, timeout):
