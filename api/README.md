@@ -7,13 +7,16 @@ https://www.digitalocean.com/community/tutorials/how-to-scrape-web-pages-with-be
 http://www.techbeamers.com/selenium-webdriver-python-tutorial/
 
 ## Folders
-* json/
-..* club_ids.json
-..* clubs_and_stadiums.json
-..* fixtures_upon_28-March-2018.json
-..* managers.json
-* json/players/
-..* see for you self
+
+**json/**
++ club_ids.json
++ clubs_and_stadiums.json
++ fixtures_upon_28-March-2018.json
++ managers.json
+
+**json/players/**
++ see for you self
+
 ## Files
 ### get_clubs_and_stadiums.py
 Fetch all clubs and stadium they play on include club API id (API premier league uses to reference teams)
