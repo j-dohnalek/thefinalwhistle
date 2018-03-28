@@ -5,6 +5,7 @@ from finalwhistle import db, bcrypt
 from finalwhistle.helpers import new_uuid
 from sqlalchemy.sql import func
 
+
 def hash_password(password):
     """
     Generates hash of the password
@@ -51,8 +52,8 @@ class User(db.Model):
     usergroup_id = db.Column(db.Integer, db.ForeignKey('usergroups.id'), nullable=True)
     usergroup = db.relationship('UserGroup')
     # Access token is used for password reset requests and the 'remember me' function
-    access_token = db.Column(db.String, nullable=False, default=new_uuid)
-    access_token_expires_at = db.Column(db.DateTime, nullable=False)
+    access_token = db.Column(db.String, nullable=True)
+    access_token_expires_at = db.Column(db.DateTime, nullable=True)
 
     def __init__(self, email, username, password):
         """
@@ -74,14 +75,24 @@ class User(db.Model):
         """
         return bcrypt.check_password_hash(self.pw_hash, password)
 
+    def account_activated(self):
+        return self.activated is True
+
     def activate_account(self):
         """
-
-        :return: True if account has just been activated
+        :return: True if account is successfully activated
         """
-        if self.activated is not False:
+        # Return false if trying to activate an already active account
+        if self.account_activated():
             return False
+        self.activated = True
+        return self.activated
 
+    def account_disabled(self):
+        """
+        :return: True if account does not have function to login granted by their usergroup
+        """
+        return False
 
     def activation_token_valid(self, token):
         return self.activation_token == token
