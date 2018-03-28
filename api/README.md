@@ -6,5 +6,8 @@ https://www.digitalocean.com/community/tutorials/how-to-scrape-web-pages-with-be
 ### Selenium
 http://www.techbeamers.com/selenium-webdriver-python-tutorial/
 ## Files
-### get_results.py
+### get_clubs_and_stadiums.py
+### get_fixtures.py
 Fetch all the required data from premierleague.com for premier league matches. The data will include goals, cards, substitutions, etc.
+### get_managers.py
+### get_players.py
