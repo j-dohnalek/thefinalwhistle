@@ -13,4 +13,4 @@ Fetch all the required data from premierleague.com for premier league matches. T
 ### get_managers.py
 Fetch all managers and clubs they manage
 ### get_players.py
-Fetch all club, foreach club list all player with few details (dob, dress number, weight, nationality, height)
+Fetch all clubs, foreach club list all player with few details (dob, dress number, weight, nationality, height)
