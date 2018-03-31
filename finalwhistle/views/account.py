@@ -1,19 +1,22 @@
 from finalwhistle import app
 from finalwhistle.models.user import user_from_email
-from flask import request
+from finalwhistle.views.forms.login import LoginForm
+from flask import request, render_template
+
 
 #################################
 # guest account-related routing #
 #################################
 @app.route('/login', methods=['GET'])
 def login():
-    return 'login form'
+    login_form = LoginForm(request.form)
+    return render_template('login.html', form=login_form)
 
 
 @app.route('/login', methods=['POST'])
 def perform_login():
+    login_form = LoginForm(request.form)
     return 'login post'
-
 
 @app.route('/register', methods=['GET'])
 def register():

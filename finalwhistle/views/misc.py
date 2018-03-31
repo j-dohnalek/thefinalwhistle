@@ -1,3 +1,5 @@
+from flask import render_template
+
 from finalwhistle import app
 
 
@@ -6,7 +8,7 @@ from finalwhistle import app
 ################
 @app.route('/', methods=['GET'])
 def home():
-    return 'home'
+    return render_template('index.html')
 
 
 @app.route('/terms-of-service', methods=['GET'])
