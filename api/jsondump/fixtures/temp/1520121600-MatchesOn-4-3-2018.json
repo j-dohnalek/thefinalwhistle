@@ -1,0 +1,93 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "19. Marcus Rashford",
+                            "out": "39. Scott McTominay"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "8. Juan Mata",
+                            "out": "18. Ashley Young"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "23. Luke Shaw",
+                            "out": "25. Antonio Valencia"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "44. Jairo Riedewald",
+                            "out": "15. Jeffrey Schlupp"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Christian Benteke",
+                            "scorer": "10. Andros Townsend",
+                            "minute": "11"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Jeffrey Schlupp",
+                            "scorer": "3. Patrick van Aanholt",
+                            "minute": "48"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Antonio Valencia",
+                            "scorer": "12. Chris Smalling",
+                            "minute": "55"
+                        },
+                        {
+                            "own_goal": "false",
+                            "scorer": "9. Romelu Lukaku",
+                            "minute": "76"
+                        },
+                        {
+                            "own_goal": "false",
+                            "additional": "1",
+                            "scorer": "31. Nemanja Matic",
+                            "minute": "90"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "39. Scott McTominay",
+                            "card": "yellow",
+                            "minute": "42"
+                        },
+                        {
+                            "player": "18. Ashley Young",
+                            "card": "yellow",
+                            "minute": "57"
+                        },
+                        {
+                            "player": "10. Andros Townsend",
+                            "card": "yellow",
+                            "minute": "75"
+                        },
+                        {
+                            "player": "31. Nemanja Matic",
+                            "additional": "2",
+                            "card": "yellow",
+                            "minute": "90"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "20:00"
+                },
+                "away_team": "Man Utd",
+                "score": "2-3",
+                "home_team": "Crystal Palace",
+                "url": "https://www.premierleague.com/match/22624"
+            }
+        ],
+        "date": "Monday 5 March 2018"
+    }
+]

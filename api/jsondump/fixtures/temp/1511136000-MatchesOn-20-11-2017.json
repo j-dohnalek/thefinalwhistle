@@ -1,0 +1,66 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "69",
+                            "in": "20. André Ayew",
+                            "out": "7. Marko Arnautovic"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "3. Ben Chilwell",
+                            "out": "26. Riyad Mahrez"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "2",
+                            "in": "19. Islam Slimani",
+                            "out": "7. Demarai Gray"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "4",
+                            "in": "15. Diafra Sakho",
+                            "out": "26. Arthur Masuaku"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "scorer": "11. Marc Albrighton",
+                            "minute": "8"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Manuel Lanzini",
+                            "scorer": "8. Cheikhou Kouyaté",
+                            "minute": "45"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "20. André Ayew",
+                            "card": "yellow",
+                            "minute": "79"
+                        },
+                        {
+                            "player": "7. Demarai Gray",
+                            "card": "yellow",
+                            "minute": "79"
+                        }
+                    ],
+                    "referee": "Martin Atkinson",
+                    "kick_off": "20:00"
+                },
+                "away_team": "Leicester",
+                "score": "1-1",
+                "home_team": "West Ham",
+                "url": "https://www.premierleague.com/match/22471"
+            }
+        ],
+        "date": "Friday 24 November 2017"
+    }
+]

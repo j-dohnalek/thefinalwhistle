@@ -1,0 +1,96 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "5",
+                            "in": "10. Tammy Abraham",
+                            "out": "2. Wilfried Bony"
+                        },
+                        {
+                            "minute": "61",
+                            "in": "26. Tom Davies",
+                            "out": "2. Morgan Schneiderlin"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "18. Jordan Ayew",
+                            "out": "12. Nathan Dyer"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "31. Ademola Lookman",
+                            "out": "12. Aaron Lennon"
+                        },
+                        {
+                            "minute": "81",
+                            "in": "17. Sam Clucas",
+                            "out": "14. Tom Carroll"
+                        },
+                        {
+                            "minute": "89",
+                            "in": "9. Sandro Ramírez",
+                            "out": "10. Wayne Rooney"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Tom Carroll",
+                            "scorer": "8. Leroy Fer",
+                            "minute": "35"
+                        },
+                        {
+                            "own_goal": "false",
+                            "additional": "2",
+                            "scorer": "29. Dominic Calvert-Lewin",
+                            "minute": "45"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Wayne Rooney",
+                            "scorer": "18. Gylfi Sigurdsson",
+                            "minute": "64"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "30. Mason Holgate",
+                            "card": "yellow",
+                            "minute": "29"
+                        },
+                        {
+                            "player": "12. Nathan Dyer",
+                            "card": "yellow",
+                            "minute": "37"
+                        },
+                        {
+                            "player": "33. Federico Fernández",
+                            "card": "yellow",
+                            "minute": "52"
+                        },
+                        {
+                            "player": "43. Jonjoe Kenny",
+                            "card": "yellow",
+                            "minute": "83"
+                        },
+                        {
+                            "player": "8. Leroy Fer",
+                            "card": "yellow",
+                            "minute": "84"
+                        }
+                    ],
+                    "referee": "Jonathan Moss",
+                    "kick_off": "20:00"
+                },
+                "away_team": "Swansea",
+                "score": "3-1",
+                "home_team": "Everton",
+                "url": "https://www.premierleague.com/match/22516"
+            }
+        ],
+        "date": "Monday 18 December 2017"
+    }
+]

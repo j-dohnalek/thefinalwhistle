@@ -1,0 +1,64 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "76",
+                            "in": "18. Ashley Westwood",
+                            "out": "16. Steven Defour"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "14. Isaac Hayden",
+                            "out": "17. Ayoze Pérez"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "7. Jacob Murphy",
+                            "out": "11. Matt Ritchie"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "9. Dwight Gayle",
+                            "out": "10. Mohamed Diamé"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Johann Berg Gudmundsson",
+                            "scorer": "13. Jeff Hendrick",
+                            "minute": "74"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "17. Johann Berg Gudmundsson",
+                            "card": "yellow",
+                            "minute": "45"
+                        },
+                        {
+                            "player": "4. Jack Cork",
+                            "card": "yellow",
+                            "minute": "62"
+                        },
+                        {
+                            "player": "5. James Tarkowski",
+                            "card": "yellow",
+                            "minute": "75"
+                        }
+                    ],
+                    "referee": "Mike Dean",
+                    "kick_off": "20:00"
+                },
+                "away_team": "Newcastle",
+                "score": "1-0",
+                "home_team": "Burnley",
+                "url": "https://www.premierleague.com/match/22435"
+            }
+        ],
+        "date": "Monday 30 October 2017"
+    }
+]

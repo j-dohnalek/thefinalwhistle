@@ -1,0 +1,511 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "15. Diafra Sakho",
+                            "out": "14. Pedro Obiang"
+                        },
+                        {
+                            "minute": "62",
+                            "in": "30. Michail Antonio",
+                            "out": "7. Marko Arnautovic"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "41. Declan Rice",
+                            "out": "2. Winston Reid"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "54. Beni Baningime",
+                            "out": "10. Wayne Rooney"
+                        },
+                        {
+                            "minute": "89",
+                            "in": "31. Ademola Lookman",
+                            "out": "12. Aaron Lennon"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "in": "27. Nikola Vlasic",
+                            "out": "29. Dominic Calvert-Lewin"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "scorer": "10. Wayne Rooney",
+                            "minute": "18"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Jonjoe Kenny",
+                            "scorer": "10. Wayne Rooney",
+                            "minute": "28"
+                        },
+                        {
+                            "own_goal": "false",
+                            "scorer": "10. Wayne Rooney",
+                            "minute": "66"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Gylfi Sigurdsson",
+                            "scorer": "5. Ashley Williams",
+                            "minute": "78"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "5. Pablo Zabaleta",
+                            "card": "yellow",
+                            "minute": "26"
+                        },
+                        {
+                            "player": "18. Gylfi Sigurdsson",
+                            "card": "yellow",
+                            "minute": "35"
+                        },
+                        {
+                            "player": "26. Tom Davies",
+                            "card": "yellow",
+                            "minute": "53"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "20:00"
+                },
+                "away_team": "West Ham",
+                "score": "4-0",
+                "home_team": "Everton",
+                "url": "https://www.premierleague.com/match/22479"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "15. Diafra Sakho",
+                            "out": "14. Pedro Obiang"
+                        },
+                        {
+                            "minute": "62",
+                            "in": "30. Michail Antonio",
+                            "out": "7. Marko Arnautovic"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "41. Declan Rice",
+                            "out": "2. Winston Reid"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "54. Beni Baningime",
+                            "out": "10. Wayne Rooney"
+                        },
+                        {
+                            "minute": "89",
+                            "in": "31. Ademola Lookman",
+                            "out": "12. Aaron Lennon"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "in": "27. Nikola Vlasic",
+                            "out": "29. Dominic Calvert-Lewin"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "scorer": "10. Wayne Rooney",
+                            "minute": "18"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Jonjoe Kenny",
+                            "scorer": "10. Wayne Rooney",
+                            "minute": "28"
+                        },
+                        {
+                            "own_goal": "false",
+                            "scorer": "10. Wayne Rooney",
+                            "minute": "66"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Gylfi Sigurdsson",
+                            "scorer": "5. Ashley Williams",
+                            "minute": "78"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "5. Pablo Zabaleta",
+                            "card": "yellow",
+                            "minute": "26"
+                        },
+                        {
+                            "player": "18. Gylfi Sigurdsson",
+                            "card": "yellow",
+                            "minute": "35"
+                        },
+                        {
+                            "player": "26. Tom Davies",
+                            "card": "yellow",
+                            "minute": "53"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "20:00"
+                },
+                "away_team": "West Ham",
+                "score": "4-0",
+                "home_team": "Everton",
+                "url": "https://www.premierleague.com/match/22479"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "15. Diafra Sakho",
+                            "out": "14. Pedro Obiang"
+                        },
+                        {
+                            "minute": "62",
+                            "in": "30. Michail Antonio",
+                            "out": "7. Marko Arnautovic"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "41. Declan Rice",
+                            "out": "2. Winston Reid"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "54. Beni Baningime",
+                            "out": "10. Wayne Rooney"
+                        },
+                        {
+                            "minute": "89",
+                            "in": "31. Ademola Lookman",
+                            "out": "12. Aaron Lennon"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "in": "27. Nikola Vlasic",
+                            "out": "29. Dominic Calvert-Lewin"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "scorer": "10. Wayne Rooney",
+                            "minute": "18"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Jonjoe Kenny",
+                            "scorer": "10. Wayne Rooney",
+                            "minute": "28"
+                        },
+                        {
+                            "own_goal": "false",
+                            "scorer": "10. Wayne Rooney",
+                            "minute": "66"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Gylfi Sigurdsson",
+                            "scorer": "5. Ashley Williams",
+                            "minute": "78"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "5. Pablo Zabaleta",
+                            "card": "yellow",
+                            "minute": "26"
+                        },
+                        {
+                            "player": "18. Gylfi Sigurdsson",
+                            "card": "yellow",
+                            "minute": "35"
+                        },
+                        {
+                            "player": "26. Tom Davies",
+                            "card": "yellow",
+                            "minute": "53"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "20:00"
+                },
+                "away_team": "West Ham",
+                "score": "4-0",
+                "home_team": "Everton",
+                "url": "https://www.premierleague.com/match/22479"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "15. Diafra Sakho",
+                            "out": "14. Pedro Obiang"
+                        },
+                        {
+                            "minute": "62",
+                            "in": "30. Michail Antonio",
+                            "out": "7. Marko Arnautovic"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "41. Declan Rice",
+                            "out": "2. Winston Reid"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "54. Beni Baningime",
+                            "out": "10. Wayne Rooney"
+                        },
+                        {
+                            "minute": "89",
+                            "in": "31. Ademola Lookman",
+                            "out": "12. Aaron Lennon"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "in": "27. Nikola Vlasic",
+                            "out": "29. Dominic Calvert-Lewin"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "scorer": "10. Wayne Rooney",
+                            "minute": "18"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Jonjoe Kenny",
+                            "scorer": "10. Wayne Rooney",
+                            "minute": "28"
+                        },
+                        {
+                            "own_goal": "false",
+                            "scorer": "10. Wayne Rooney",
+                            "minute": "66"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Gylfi Sigurdsson",
+                            "scorer": "5. Ashley Williams",
+                            "minute": "78"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "5. Pablo Zabaleta",
+                            "card": "yellow",
+                            "minute": "26"
+                        },
+                        {
+                            "player": "18. Gylfi Sigurdsson",
+                            "card": "yellow",
+                            "minute": "35"
+                        },
+                        {
+                            "player": "26. Tom Davies",
+                            "card": "yellow",
+                            "minute": "53"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "20:00"
+                },
+                "away_team": "West Ham",
+                "score": "4-0",
+                "home_team": "Everton",
+                "url": "https://www.premierleague.com/match/22479"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "15. Diafra Sakho",
+                            "out": "14. Pedro Obiang"
+                        },
+                        {
+                            "minute": "62",
+                            "in": "30. Michail Antonio",
+                            "out": "7. Marko Arnautovic"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "41. Declan Rice",
+                            "out": "2. Winston Reid"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "54. Beni Baningime",
+                            "out": "10. Wayne Rooney"
+                        },
+                        {
+                            "minute": "89",
+                            "in": "31. Ademola Lookman",
+                            "out": "12. Aaron Lennon"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "in": "27. Nikola Vlasic",
+                            "out": "29. Dominic Calvert-Lewin"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "scorer": "10. Wayne Rooney",
+                            "minute": "18"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Jonjoe Kenny",
+                            "scorer": "10. Wayne Rooney",
+                            "minute": "28"
+                        },
+                        {
+                            "own_goal": "false",
+                            "scorer": "10. Wayne Rooney",
+                            "minute": "66"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Gylfi Sigurdsson",
+                            "scorer": "5. Ashley Williams",
+                            "minute": "78"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "5. Pablo Zabaleta",
+                            "card": "yellow",
+                            "minute": "26"
+                        },
+                        {
+                            "player": "18. Gylfi Sigurdsson",
+                            "card": "yellow",
+                            "minute": "35"
+                        },
+                        {
+                            "player": "26. Tom Davies",
+                            "card": "yellow",
+                            "minute": "53"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "20:00"
+                },
+                "away_team": "West Ham",
+                "score": "4-0",
+                "home_team": "Everton",
+                "url": "https://www.premierleague.com/match/22479"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "15. Diafra Sakho",
+                            "out": "14. Pedro Obiang"
+                        },
+                        {
+                            "minute": "62",
+                            "in": "30. Michail Antonio",
+                            "out": "7. Marko Arnautovic"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "41. Declan Rice",
+                            "out": "2. Winston Reid"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "54. Beni Baningime",
+                            "out": "10. Wayne Rooney"
+                        },
+                        {
+                            "minute": "89",
+                            "in": "31. Ademola Lookman",
+                            "out": "12. Aaron Lennon"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "in": "27. Nikola Vlasic",
+                            "out": "29. Dominic Calvert-Lewin"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "scorer": "10. Wayne Rooney",
+                            "minute": "18"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Jonjoe Kenny",
+                            "scorer": "10. Wayne Rooney",
+                            "minute": "28"
+                        },
+                        {
+                            "own_goal": "false",
+                            "scorer": "10. Wayne Rooney",
+                            "minute": "66"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Gylfi Sigurdsson",
+                            "scorer": "5. Ashley Williams",
+                            "minute": "78"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "5. Pablo Zabaleta",
+                            "card": "yellow",
+                            "minute": "26"
+                        },
+                        {
+                            "player": "18. Gylfi Sigurdsson",
+                            "card": "yellow",
+                            "minute": "35"
+                        },
+                        {
+                            "player": "26. Tom Davies",
+                            "card": "yellow",
+                            "minute": "53"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "20:00"
+                },
+                "away_team": "West Ham",
+                "score": "4-0",
+                "home_team": "Everton",
+                "url": "https://www.premierleague.com/match/22479"
+            }
+        ],
+        "date": "Wednesday 29 November 2017"
+    }
+]

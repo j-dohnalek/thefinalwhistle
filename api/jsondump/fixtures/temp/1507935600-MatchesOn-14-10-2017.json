@@ -1,0 +1,161 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "57",
+                            "in": "19. Sofiane Boufal",
+                            "out": "22. Nathan Redmond"
+                        },
+                        {
+                            "minute": "63",
+                            "in": "23. Mikel Merino",
+                            "out": "17. Ayoze Pérez"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "8. Steven Davis",
+                            "out": "14. Oriol Romeu"
+                        },
+                        {
+                            "minute": "68",
+                            "in": "9. Dwight Gayle",
+                            "out": "21. Joselu"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "10. Charlie Austin",
+                            "out": "7. Shane Long"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "7. Jacob Murphy",
+                            "out": "30. Christian Atsu"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "scorer": "14. Isaac Hayden",
+                            "minute": "20"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Nathan Redmond",
+                            "scorer": "20. Manolo Gabbiadini",
+                            "minute": "49"
+                        },
+                        {
+                            "own_goal": "false",
+                            "scorer": "17. Ayoze Pérez",
+                            "minute": "51"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "22. DeAndre Yedlin",
+                            "card": "yellow",
+                            "minute": "40"
+                        },
+                        {
+                            "player": "20. Manolo Gabbiadini",
+                            "card": "yellow",
+                            "minute": "77"
+                        },
+                        {
+                            "player": "14. Isaac Hayden",
+                            "card": "yellow",
+                            "minute": "79"
+                        }
+                    ],
+                    "referee": "Kevin Friend",
+                    "kick_off": "16:00"
+                },
+                "away_team": "Newcastle",
+                "score": "2-2",
+                "home_team": "Southampton",
+                "url": "https://www.premierleague.com/match/22418"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "57",
+                            "in": "19. Sofiane Boufal",
+                            "out": "22. Nathan Redmond"
+                        },
+                        {
+                            "minute": "63",
+                            "in": "23. Mikel Merino",
+                            "out": "17. Ayoze Pérez"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "8. Steven Davis",
+                            "out": "14. Oriol Romeu"
+                        },
+                        {
+                            "minute": "68",
+                            "in": "9. Dwight Gayle",
+                            "out": "21. Joselu"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "10. Charlie Austin",
+                            "out": "7. Shane Long"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "7. Jacob Murphy",
+                            "out": "30. Christian Atsu"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "scorer": "14. Isaac Hayden",
+                            "minute": "20"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Nathan Redmond",
+                            "scorer": "20. Manolo Gabbiadini",
+                            "minute": "49"
+                        },
+                        {
+                            "own_goal": "false",
+                            "scorer": "17. Ayoze Pérez",
+                            "minute": "51"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "22. DeAndre Yedlin",
+                            "card": "yellow",
+                            "minute": "40"
+                        },
+                        {
+                            "player": "20. Manolo Gabbiadini",
+                            "card": "yellow",
+                            "minute": "77"
+                        },
+                        {
+                            "player": "14. Isaac Hayden",
+                            "card": "yellow",
+                            "minute": "79"
+                        }
+                    ],
+                    "referee": "Kevin Friend",
+                    "kick_off": "16:00"
+                },
+                "away_team": "Newcastle",
+                "score": "2-2",
+                "home_team": "Southampton",
+                "url": "https://www.premierleague.com/match/22418"
+            }
+        ],
+        "date": "Sunday 15 October 2017"
+    }
+]

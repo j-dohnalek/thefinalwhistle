@@ -1,0 +1,71 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "73",
+                            "in": "25. Peter Crouch",
+                            "out": "22. Xherdan Shaqiri"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "20. Solly March",
+                            "out": "19. José Izquierdo"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "37. Isaiah Brown",
+                            "out": "13. Pascal Groß"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "21. Ezequiel Schelotto",
+                            "out": "11. Anthony Knockaert"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Xherdan Shaqiri",
+                            "scorer": "10. Eric Maxim Choupo-Moting",
+                            "minute": "28"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Davy Pröpper",
+                            "scorer": "13. Pascal Groß",
+                            "minute": "44"
+                        },
+                        {
+                            "own_goal": "false",
+                            "additional": "1",
+                            "scorer": "6. Kurt Zouma",
+                            "minute": "45"
+                        },
+                        {
+                            "own_goal": "false",
+                            "scorer": "19. José Izquierdo",
+                            "minute": "60"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "17. Glenn Murray",
+                            "card": "yellow",
+                            "minute": "42"
+                        }
+                    ],
+                    "referee": "Lee Mason",
+                    "kick_off": "20:00"
+                },
+                "away_team": "Stoke",
+                "score": "2-2",
+                "home_team": "Brighton",
+                "url": "https://www.premierleague.com/match/22454"
+            }
+        ],
+        "date": "Monday 20 November 2017"
+    }
+]

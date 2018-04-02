@@ -1,0 +1,151 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "59",
+                            "in": "30. Christian Atsu",
+                            "out": "7. Jacob Murphy"
+                        },
+                        {
+                            "minute": "69",
+                            "in": "2. Wilfried Bony",
+                            "out": "35. Renato Sanches"
+                        },
+                        {
+                            "minute": "69",
+                            "in": "10. Mohamed Diamé",
+                            "out": "14. Isaac Hayden"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "9. Dwight Gayle",
+                            "out": "21. Joselu"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "11. Luciano Narsingh",
+                            "out": "14. Tom Carroll"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Matt Ritchie",
+                            "scorer": "6. Jamaal Lascelles",
+                            "minute": "76"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "14. Isaac Hayden",
+                            "card": "yellow",
+                            "minute": "8"
+                        },
+                        {
+                            "player": "26. Kyle Naughton",
+                            "card": "yellow",
+                            "minute": "48"
+                        },
+                        {
+                            "player": "11. Matt Ritchie",
+                            "card": "yellow",
+                            "minute": "49"
+                        },
+                        {
+                            "player": "8. Leroy Fer",
+                            "card": "yellow",
+                            "minute": "80"
+                        },
+                        {
+                            "player": "9. Dwight Gayle",
+                            "card": "yellow",
+                            "minute": "87"
+                        }
+                    ],
+                    "referee": "Mike Jones",
+                    "kick_off": "16:00"
+                },
+                "away_team": "Newcastle",
+                "score": "0-1",
+                "home_team": "Swansea",
+                "url": "https://www.premierleague.com/match/22380"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "59",
+                            "in": "30. Christian Atsu",
+                            "out": "7. Jacob Murphy"
+                        },
+                        {
+                            "minute": "69",
+                            "in": "2. Wilfried Bony",
+                            "out": "35. Renato Sanches"
+                        },
+                        {
+                            "minute": "69",
+                            "in": "10. Mohamed Diamé",
+                            "out": "14. Isaac Hayden"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "9. Dwight Gayle",
+                            "out": "21. Joselu"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "11. Luciano Narsingh",
+                            "out": "14. Tom Carroll"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Matt Ritchie",
+                            "scorer": "6. Jamaal Lascelles",
+                            "minute": "76"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "14. Isaac Hayden",
+                            "card": "yellow",
+                            "minute": "8"
+                        },
+                        {
+                            "player": "26. Kyle Naughton",
+                            "card": "yellow",
+                            "minute": "48"
+                        },
+                        {
+                            "player": "11. Matt Ritchie",
+                            "card": "yellow",
+                            "minute": "49"
+                        },
+                        {
+                            "player": "8. Leroy Fer",
+                            "card": "yellow",
+                            "minute": "80"
+                        },
+                        {
+                            "player": "9. Dwight Gayle",
+                            "card": "yellow",
+                            "minute": "87"
+                        }
+                    ],
+                    "referee": "Mike Jones",
+                    "kick_off": "16:00"
+                },
+                "away_team": "Newcastle",
+                "score": "0-1",
+                "home_team": "Swansea",
+                "url": "https://www.premierleague.com/match/22380"
+            }
+        ],
+        "date": "Sunday 10 September 2017"
+    }
+]

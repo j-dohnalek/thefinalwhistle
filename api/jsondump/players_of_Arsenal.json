@@ -1,0 +1,327 @@
+[
+    {
+        "team": "club",
+        "players": [
+            {
+                "name": "Sead Kolasinac",
+                "position": "Defender",
+                "height": "183cm",
+                "age": "24",
+                "weight": "85kg",
+                "nationality": "Bosnia And Herzegovina",
+                "dob": "20/06/1993",
+                "shirt_number": "31"
+            },
+            {
+                "name": "David Ospina",
+                "position": "Goalkeeper",
+                "height": "183cm",
+                "age": "29",
+                "weight": "80kg",
+                "nationality": "Colombia",
+                "dob": "31/08/1988",
+                "shirt_number": "13"
+            },
+            {
+                "name": "Petr Cech",
+                "position": "Goalkeeper",
+                "height": "196cm",
+                "age": "35",
+                "weight": "90kg",
+                "nationality": "Czech Republic",
+                "dob": "20/05/1982",
+                "shirt_number": "33"
+            },
+            {
+                "name": "Per Mertesacker",
+                "position": "Defender",
+                "height": "198cm",
+                "age": "33",
+                "weight": "90kg",
+                "nationality": "Germany",
+                "dob": "29/09/1984",
+                "shirt_number": "4"
+            },
+            {
+                "name": "Laurent Koscielny",
+                "position": "Defender",
+                "height": "186cm",
+                "age": "32",
+                "weight": "75kg",
+                "nationality": "France",
+                "dob": "10/09/1985",
+                "shirt_number": "6"
+            },
+            {
+                "name": "Rob Holding",
+                "position": "Defender",
+                "height": "189cm",
+                "age": "22",
+                "weight": "75kg",
+                "nationality": "England",
+                "dob": "20/09/1995",
+                "shirt_number": "16"
+            },
+            {
+                "name": "Nacho Monreal",
+                "position": "Defender",
+                "height": "179cm",
+                "age": "32",
+                "weight": "72kg",
+                "nationality": "Spain",
+                "dob": "26/02/1986",
+                "shirt_number": "18"
+            },
+            {
+                "name": "Shkodran Mustafi",
+                "position": "Defender",
+                "height": "184cm",
+                "age": "25",
+                "weight": "82kg",
+                "nationality": "Germany",
+                "dob": "17/04/1992",
+                "shirt_number": "20"
+            },
+            {
+                "name": "Calum Chambers",
+                "position": "Defender",
+                "height": "182cm",
+                "age": "23",
+                "weight": "66kg",
+                "nationality": "England",
+                "dob": "20/01/1995",
+                "shirt_number": "21"
+            },
+            {
+                "name": "Héctor Bellerín",
+                "position": "Defender",
+                "height": "178cm",
+                "age": "23",
+                "weight": "74kg",
+                "nationality": "Spain",
+                "dob": "19/03/1995",
+                "shirt_number": "24"
+            },
+            {
+                "name": "Aaron Ramsey",
+                "position": "Midfielder",
+                "height": "178cm",
+                "age": "27",
+                "weight": "76kg",
+                "nationality": "Wales",
+                "dob": "26/12/1990",
+                "shirt_number": "8"
+            },
+            {
+                "name": "Jack Wilshere",
+                "position": "Midfielder",
+                "height": "172cm",
+                "age": "26",
+                "weight": "68kg",
+                "nationality": "England",
+                "dob": "01/01/1992",
+                "shirt_number": "10"
+            },
+            {
+                "name": "Mesut Özil",
+                "position": "Midfielder",
+                "height": "180cm",
+                "age": "29",
+                "weight": "76kg",
+                "nationality": "Germany",
+                "dob": "15/10/1988",
+                "shirt_number": "11"
+            },
+            {
+                "name": "Alex Iwobi",
+                "position": "Midfielder",
+                "height": "180cm",
+                "age": "21",
+                "weight": "75kg",
+                "nationality": "Nigeria",
+                "dob": "03/05/1996",
+                "shirt_number": "17"
+            },
+            {
+                "name": "Santiago Cazorla",
+                "position": "Midfielder",
+                "height": "168cm",
+                "age": "33",
+                "weight": "66kg",
+                "nationality": "Spain",
+                "dob": "13/12/1984",
+                "shirt_number": "19"
+            },
+            {
+                "name": "Granit Xhaka",
+                "position": "Midfielder",
+                "height": "185cm",
+                "age": "25",
+                "weight": "82kg",
+                "nationality": "Switzerland",
+                "dob": "27/09/1992",
+                "shirt_number": "29"
+            },
+            {
+                "name": "Mohamed Elneny",
+                "position": "Midfielder",
+                "height": "180cm",
+                "age": "25",
+                "weight": "70kg",
+                "nationality": "Egypt",
+                "dob": "11/07/1992",
+                "shirt_number": "35"
+            },
+            {
+                "name": "Ainsley Maitland-Niles",
+                "position": "Midfielder",
+                "height": "177cm",
+                "age": "20",
+                "weight": "71kg",
+                "nationality": "England",
+                "dob": "29/08/1997",
+                "shirt_number": "30"
+            },
+            {
+                "name": "Danny Welbeck",
+                "position": "Forward",
+                "height": "185cm",
+                "age": "27",
+                "weight": "73kg",
+                "nationality": "England",
+                "dob": "26/11/1990",
+                "shirt_number": "23"
+            },
+            {
+                "name": "Alexandre Lacazette",
+                "position": "Forward",
+                "height": "175cm",
+                "age": "26",
+                "weight": "73kg",
+                "nationality": "France",
+                "dob": "28/05/1991",
+                "shirt_number": "9"
+            },
+            {
+                "name": "Joe Willock",
+                "position": "Midfielder",
+                "height": "179cm",
+                "age": "18",
+                "weight": "71kg",
+                "nationality": "England",
+                "dob": "20/08/1999",
+                "shirt_number": "69"
+            },
+            {
+                "name": "Reiss Nelson",
+                "position": "Forward",
+                "height": "175cm",
+                "age": "18",
+                "weight": "71kg",
+                "nationality": "England",
+                "dob": "10/12/1999",
+                "shirt_number": "61"
+            },
+            {
+                "name": "Eddie Nketiah",
+                "position": "Forward",
+                "height": "175cm",
+                "age": "18",
+                "weight": "72kg",
+                "nationality": "England",
+                "dob": "30/05/1999",
+                "shirt_number": "62"
+            },
+            {
+                "name": "Matt Macey",
+                "position": "Goalkeeper",
+                "height": "198cm",
+                "age": "23",
+                "weight": "81kg",
+                "nationality": "England",
+                "dob": "09/09/1994",
+                "shirt_number": "54"
+            },
+            {
+                "name": "Vlad Dragomir",
+                "position": "Midfielder",
+                "height": "178cm",
+                "age": "18",
+                "weight": "75kg",
+                "nationality": "Romania",
+                "dob": "24/04/1999",
+                "shirt_number": "44"
+            },
+            {
+                "name": "Charlie Gilmour",
+                "position": "Midfielder",
+                "height": "",
+                "age": "19",
+                "weight": "",
+                "nationality": "Scotland",
+                "dob": "11/02/1999",
+                "shirt_number": "47"
+            },
+            {
+                "name": "Josh Da Silva",
+                "position": "Forward",
+                "height": "180cm",
+                "age": "19",
+                "weight": "75kg",
+                "nationality": "England",
+                "dob": "23/10/1998",
+                "shirt_number": "43"
+            },
+            {
+                "name": "Jordi Osei-Tutu",
+                "position": "Defender",
+                "height": "176cm",
+                "age": "19",
+                "weight": "70kg",
+                "nationality": "England",
+                "dob": "02/10/1998",
+                "shirt_number": -1
+            },
+            {
+                "name": "Dejan Iliev",
+                "position": "Goalkeeper",
+                "height": "195cm",
+                "age": "23",
+                "weight": "87kg",
+                "nationality": "Macedonia",
+                "dob": "25/02/1995",
+                "shirt_number": "50"
+            },
+            {
+                "name": "Konstantinos Mavropanos",
+                "position": "Defender",
+                "height": "194cm",
+                "age": "20",
+                "weight": "88kg",
+                "nationality": "Greece",
+                "dob": "11/12/1997",
+                "shirt_number": "27"
+            },
+            {
+                "name": "Henrikh Mkhitaryan",
+                "position": "Midfielder",
+                "height": "177cm",
+                "age": "29",
+                "weight": "75kg",
+                "nationality": "Armenia",
+                "dob": "21/01/1989",
+                "shirt_number": "7"
+            },
+            {
+                "name": "Pierre-Emerick Aubameyang",
+                "position": "Forward",
+                "height": "187cm",
+                "age": "28",
+                "weight": "80kg",
+                "nationality": "Gabon",
+                "dob": "18/06/1989",
+                "shirt_number": "14"
+            }
+        ]
+    }
+]

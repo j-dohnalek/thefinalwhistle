@@ -1,0 +1,80 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "63",
+                            "in": "3. Scott Malone",
+                            "out": "15. Chris Löwe"
+                        },
+                        {
+                            "minute": "64",
+                            "in": "20. André Ayew",
+                            "out": "17. Chicharito"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "11. Abdelhamid Sabiri",
+                            "out": "9. Elias Kachunga"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "15. Diafra Sakho",
+                            "out": "9. Andy Carroll"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "20. Laurent Depoitre",
+                            "out": "8. Philip Billing"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "in": "41. Declan Rice",
+                            "out": "14. Pedro Obiang"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "André Ayew",
+                            "scorer": "14. Pedro Obiang",
+                            "minute": "72"
+                        },
+                        {
+                            "own_goal": "false",
+                            "scorer": "20. André Ayew",
+                            "minute": "77"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "25. Zanka",
+                            "card": "yellow",
+                            "minute": "25"
+                        },
+                        {
+                            "player": "8. Philip Billing",
+                            "card": "yellow",
+                            "minute": "45"
+                        },
+                        {
+                            "player": "5. Pablo Zabaleta",
+                            "card": "yellow",
+                            "minute": "49"
+                        }
+                    ],
+                    "referee": "Kevin Friend",
+                    "kick_off": "20:00"
+                },
+                "away_team": "Huddersfield",
+                "score": "2-0",
+                "home_team": "West Ham",
+                "url": "https://www.premierleague.com/match/22381"
+            }
+        ],
+        "date": "Monday 11 September 2017"
+    }
+]

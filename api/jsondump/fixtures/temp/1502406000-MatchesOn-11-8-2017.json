@@ -1,0 +1,476 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "24",
+                            "in": "15. Jamie Murphy",
+                            "out": "37. Isaiah Brown"
+                        },
+                        {
+                            "minute": "60",
+                            "in": "17. Glenn Murray",
+                            "out": "10. Tomer Hemed"
+                        },
+                        {
+                            "minute": "68",
+                            "in": "19. Leroy Sané",
+                            "out": "3. Danilo"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "11. Anthony Knockaert",
+                            "out": "20. Solly March"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "7. Raheem Sterling",
+                            "out": "33. Gabriel Jesus"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "20. Bernardo Silva",
+                            "out": "10. Sergio Agüero"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "David Silva",
+                            "scorer": "10. Sergio Agüero",
+                            "minute": "70"
+                        },
+                        {
+                            "own_goal": "true",
+                            "scorer": "5. Lewis Dunk",
+                            "minute": "75"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "33. Gabriel Jesus",
+                            "card": "yellow",
+                            "minute": "29"
+                        },
+                        {
+                            "player": "7. Raheem Sterling",
+                            "card": "yellow",
+                            "minute": "82"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "17:30"
+                },
+                "away_team": "Man City",
+                "score": "0-2",
+                "home_team": "Brighton",
+                "url": "https://www.premierleague.com/match/22343"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "24",
+                            "in": "15. Jamie Murphy",
+                            "out": "37. Isaiah Brown"
+                        },
+                        {
+                            "minute": "60",
+                            "in": "17. Glenn Murray",
+                            "out": "10. Tomer Hemed"
+                        },
+                        {
+                            "minute": "68",
+                            "in": "19. Leroy Sané",
+                            "out": "3. Danilo"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "11. Anthony Knockaert",
+                            "out": "20. Solly March"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "7. Raheem Sterling",
+                            "out": "33. Gabriel Jesus"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "20. Bernardo Silva",
+                            "out": "10. Sergio Agüero"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "David Silva",
+                            "scorer": "10. Sergio Agüero",
+                            "minute": "70"
+                        },
+                        {
+                            "own_goal": "true",
+                            "scorer": "5. Lewis Dunk",
+                            "minute": "75"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "33. Gabriel Jesus",
+                            "card": "yellow",
+                            "minute": "29"
+                        },
+                        {
+                            "player": "7. Raheem Sterling",
+                            "card": "yellow",
+                            "minute": "82"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "17:30"
+                },
+                "away_team": "Man City",
+                "score": "0-2",
+                "home_team": "Brighton",
+                "url": "https://www.premierleague.com/match/22343"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "24",
+                            "in": "15. Jamie Murphy",
+                            "out": "37. Isaiah Brown"
+                        },
+                        {
+                            "minute": "60",
+                            "in": "17. Glenn Murray",
+                            "out": "10. Tomer Hemed"
+                        },
+                        {
+                            "minute": "68",
+                            "in": "19. Leroy Sané",
+                            "out": "3. Danilo"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "11. Anthony Knockaert",
+                            "out": "20. Solly March"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "7. Raheem Sterling",
+                            "out": "33. Gabriel Jesus"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "20. Bernardo Silva",
+                            "out": "10. Sergio Agüero"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "David Silva",
+                            "scorer": "10. Sergio Agüero",
+                            "minute": "70"
+                        },
+                        {
+                            "own_goal": "true",
+                            "scorer": "5. Lewis Dunk",
+                            "minute": "75"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "33. Gabriel Jesus",
+                            "card": "yellow",
+                            "minute": "29"
+                        },
+                        {
+                            "player": "7. Raheem Sterling",
+                            "card": "yellow",
+                            "minute": "82"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "17:30"
+                },
+                "away_team": "Man City",
+                "score": "0-2",
+                "home_team": "Brighton",
+                "url": "https://www.premierleague.com/match/22343"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "24",
+                            "in": "15. Jamie Murphy",
+                            "out": "37. Isaiah Brown"
+                        },
+                        {
+                            "minute": "60",
+                            "in": "17. Glenn Murray",
+                            "out": "10. Tomer Hemed"
+                        },
+                        {
+                            "minute": "68",
+                            "in": "19. Leroy Sané",
+                            "out": "3. Danilo"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "11. Anthony Knockaert",
+                            "out": "20. Solly March"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "7. Raheem Sterling",
+                            "out": "33. Gabriel Jesus"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "20. Bernardo Silva",
+                            "out": "10. Sergio Agüero"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "David Silva",
+                            "scorer": "10. Sergio Agüero",
+                            "minute": "70"
+                        },
+                        {
+                            "own_goal": "true",
+                            "scorer": "5. Lewis Dunk",
+                            "minute": "75"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "33. Gabriel Jesus",
+                            "card": "yellow",
+                            "minute": "29"
+                        },
+                        {
+                            "player": "7. Raheem Sterling",
+                            "card": "yellow",
+                            "minute": "82"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "17:30"
+                },
+                "away_team": "Man City",
+                "score": "0-2",
+                "home_team": "Brighton",
+                "url": "https://www.premierleague.com/match/22343"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "24",
+                            "in": "15. Jamie Murphy",
+                            "out": "37. Isaiah Brown"
+                        },
+                        {
+                            "minute": "60",
+                            "in": "17. Glenn Murray",
+                            "out": "10. Tomer Hemed"
+                        },
+                        {
+                            "minute": "68",
+                            "in": "19. Leroy Sané",
+                            "out": "3. Danilo"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "11. Anthony Knockaert",
+                            "out": "20. Solly March"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "7. Raheem Sterling",
+                            "out": "33. Gabriel Jesus"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "20. Bernardo Silva",
+                            "out": "10. Sergio Agüero"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "David Silva",
+                            "scorer": "10. Sergio Agüero",
+                            "minute": "70"
+                        },
+                        {
+                            "own_goal": "true",
+                            "scorer": "5. Lewis Dunk",
+                            "minute": "75"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "33. Gabriel Jesus",
+                            "card": "yellow",
+                            "minute": "29"
+                        },
+                        {
+                            "player": "7. Raheem Sterling",
+                            "card": "yellow",
+                            "minute": "82"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "17:30"
+                },
+                "away_team": "Man City",
+                "score": "0-2",
+                "home_team": "Brighton",
+                "url": "https://www.premierleague.com/match/22343"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "24",
+                            "in": "15. Jamie Murphy",
+                            "out": "37. Isaiah Brown"
+                        },
+                        {
+                            "minute": "60",
+                            "in": "17. Glenn Murray",
+                            "out": "10. Tomer Hemed"
+                        },
+                        {
+                            "minute": "68",
+                            "in": "19. Leroy Sané",
+                            "out": "3. Danilo"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "11. Anthony Knockaert",
+                            "out": "20. Solly March"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "7. Raheem Sterling",
+                            "out": "33. Gabriel Jesus"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "20. Bernardo Silva",
+                            "out": "10. Sergio Agüero"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "David Silva",
+                            "scorer": "10. Sergio Agüero",
+                            "minute": "70"
+                        },
+                        {
+                            "own_goal": "true",
+                            "scorer": "5. Lewis Dunk",
+                            "minute": "75"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "33. Gabriel Jesus",
+                            "card": "yellow",
+                            "minute": "29"
+                        },
+                        {
+                            "player": "7. Raheem Sterling",
+                            "card": "yellow",
+                            "minute": "82"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "17:30"
+                },
+                "away_team": "Man City",
+                "score": "0-2",
+                "home_team": "Brighton",
+                "url": "https://www.premierleague.com/match/22343"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "24",
+                            "in": "15. Jamie Murphy",
+                            "out": "37. Isaiah Brown"
+                        },
+                        {
+                            "minute": "60",
+                            "in": "17. Glenn Murray",
+                            "out": "10. Tomer Hemed"
+                        },
+                        {
+                            "minute": "68",
+                            "in": "19. Leroy Sané",
+                            "out": "3. Danilo"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "11. Anthony Knockaert",
+                            "out": "20. Solly March"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "7. Raheem Sterling",
+                            "out": "33. Gabriel Jesus"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "20. Bernardo Silva",
+                            "out": "10. Sergio Agüero"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "David Silva",
+                            "scorer": "10. Sergio Agüero",
+                            "minute": "70"
+                        },
+                        {
+                            "own_goal": "true",
+                            "scorer": "5. Lewis Dunk",
+                            "minute": "75"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "33. Gabriel Jesus",
+                            "card": "yellow",
+                            "minute": "29"
+                        },
+                        {
+                            "player": "7. Raheem Sterling",
+                            "card": "yellow",
+                            "minute": "82"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "17:30"
+                },
+                "away_team": "Man City",
+                "score": "0-2",
+                "home_team": "Brighton",
+                "url": "https://www.premierleague.com/match/22343"
+            }
+        ],
+        "date": "Saturday 12 August 2017"
+    }
+]

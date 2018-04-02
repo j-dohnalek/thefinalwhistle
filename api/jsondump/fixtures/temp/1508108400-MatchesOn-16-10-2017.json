@@ -1,0 +1,66 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "20. André Ayew",
+                            "out": "8. Cheikhou Kouyaté"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "20. Solly March",
+                            "out": "19. José Izquierdo"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "31. Edimilson Fernandes",
+                            "out": "7. Marko Arnautovic"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "37. Isaiah Brown",
+                            "out": "13. Pascal Groß"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "21. Ezequiel Schelotto",
+                            "out": "11. Anthony Knockaert"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Pascal Groß",
+                            "scorer": "17. Glenn Murray",
+                            "minute": "10"
+                        },
+                        {
+                            "own_goal": "false",
+                            "additional": "2",
+                            "assist": "Davy Pröpper",
+                            "scorer": "19. José Izquierdo",
+                            "minute": "45"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "17. Chicharito",
+                            "card": "yellow",
+                            "minute": "23"
+                        }
+                    ],
+                    "referee": "Martin Atkinson",
+                    "kick_off": "20:00"
+                },
+                "away_team": "Brighton",
+                "score": "0-3",
+                "home_team": "West Ham",
+                "url": "https://www.premierleague.com/match/22431"
+            }
+        ],
+        "date": "Friday 20 October 2017"
+    }
+]

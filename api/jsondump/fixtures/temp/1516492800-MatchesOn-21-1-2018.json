@@ -1,0 +1,59 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "64",
+                            "in": "14. Tom Carroll",
+                            "out": "12. Nathan Dyer"
+                        },
+                        {
+                            "minute": "68",
+                            "in": "20. Adam Lallana",
+                            "out": "21. Alex Oxlade-Chamberlain"
+                        },
+                        {
+                            "minute": "73",
+                            "in": "28. Danny Ings",
+                            "out": "5. Georginio Wijnaldum"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "2. Wilfried Bony",
+                            "out": "18. Jordan Ayew"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Federico Fernández",
+                            "scorer": "6. Alfie Mawson",
+                            "minute": "40"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "26. Andrew Robertson",
+                            "card": "yellow",
+                            "minute": "44"
+                        },
+                        {
+                            "player": "32. Joel Matip",
+                            "card": "yellow",
+                            "minute": "45"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "20:00"
+                },
+                "away_team": "Liverpool",
+                "score": "1-0",
+                "home_team": "Swansea",
+                "url": "https://www.premierleague.com/match/22580"
+            }
+        ],
+        "date": "Monday 22 January 2018"
+    }
+]

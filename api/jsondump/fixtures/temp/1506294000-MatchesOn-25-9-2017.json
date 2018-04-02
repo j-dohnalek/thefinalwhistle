@@ -1,0 +1,567 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "61",
+                            "in": "19. Sofiane Boufal",
+                            "out": "8. Steven Davis"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "20. Manolo Gabbiadini",
+                            "out": "22. Nathan Redmond"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "25. Peter Crouch",
+                            "out": "9. Saido Berahino"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "10. Charlie Austin",
+                            "out": "18. Mario Lemina"
+                        },
+                        {
+                            "minute": "87",
+                            "in": "14. Ibrahim Afellay",
+                            "out": "22. Xherdan Shaqiri"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "in": "8. Glen Johnson",
+                            "out": "18. Mame Biram Diouf"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Xherdan Shaqiri",
+                            "scorer": "18. Mame Biram Diouf",
+                            "minute": "40"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Shane Long",
+                            "scorer": "3. Maya Yoshida",
+                            "minute": "75"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Eric Maxim Choupo-Moting",
+                            "scorer": "25. Peter Crouch",
+                            "minute": "85"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "4. Joe Allen",
+                            "card": "yellow",
+                            "minute": "30"
+                        },
+                        {
+                            "player": "11. Dusan Tadic",
+                            "card": "yellow",
+                            "minute": "52"
+                        },
+                        {
+                            "player": "14. Oriol Romeu",
+                            "card": "yellow",
+                            "minute": "56"
+                        }
+                    ],
+                    "referee": "Mike Jones",
+                    "kick_off": "15:00"
+                },
+                "away_team": "Southampton",
+                "score": "2-1",
+                "home_team": "Stoke",
+                "url": "https://www.premierleague.com/match/22409"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "61",
+                            "in": "19. Sofiane Boufal",
+                            "out": "8. Steven Davis"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "20. Manolo Gabbiadini",
+                            "out": "22. Nathan Redmond"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "25. Peter Crouch",
+                            "out": "9. Saido Berahino"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "10. Charlie Austin",
+                            "out": "18. Mario Lemina"
+                        },
+                        {
+                            "minute": "87",
+                            "in": "14. Ibrahim Afellay",
+                            "out": "22. Xherdan Shaqiri"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "in": "8. Glen Johnson",
+                            "out": "18. Mame Biram Diouf"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Xherdan Shaqiri",
+                            "scorer": "18. Mame Biram Diouf",
+                            "minute": "40"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Shane Long",
+                            "scorer": "3. Maya Yoshida",
+                            "minute": "75"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Eric Maxim Choupo-Moting",
+                            "scorer": "25. Peter Crouch",
+                            "minute": "85"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "4. Joe Allen",
+                            "card": "yellow",
+                            "minute": "30"
+                        },
+                        {
+                            "player": "11. Dusan Tadic",
+                            "card": "yellow",
+                            "minute": "52"
+                        },
+                        {
+                            "player": "14. Oriol Romeu",
+                            "card": "yellow",
+                            "minute": "56"
+                        }
+                    ],
+                    "referee": "Mike Jones",
+                    "kick_off": "15:00"
+                },
+                "away_team": "Southampton",
+                "score": "2-1",
+                "home_team": "Stoke",
+                "url": "https://www.premierleague.com/match/22409"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "61",
+                            "in": "19. Sofiane Boufal",
+                            "out": "8. Steven Davis"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "20. Manolo Gabbiadini",
+                            "out": "22. Nathan Redmond"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "25. Peter Crouch",
+                            "out": "9. Saido Berahino"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "10. Charlie Austin",
+                            "out": "18. Mario Lemina"
+                        },
+                        {
+                            "minute": "87",
+                            "in": "14. Ibrahim Afellay",
+                            "out": "22. Xherdan Shaqiri"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "in": "8. Glen Johnson",
+                            "out": "18. Mame Biram Diouf"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Xherdan Shaqiri",
+                            "scorer": "18. Mame Biram Diouf",
+                            "minute": "40"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Shane Long",
+                            "scorer": "3. Maya Yoshida",
+                            "minute": "75"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Eric Maxim Choupo-Moting",
+                            "scorer": "25. Peter Crouch",
+                            "minute": "85"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "4. Joe Allen",
+                            "card": "yellow",
+                            "minute": "30"
+                        },
+                        {
+                            "player": "11. Dusan Tadic",
+                            "card": "yellow",
+                            "minute": "52"
+                        },
+                        {
+                            "player": "14. Oriol Romeu",
+                            "card": "yellow",
+                            "minute": "56"
+                        }
+                    ],
+                    "referee": "Mike Jones",
+                    "kick_off": "15:00"
+                },
+                "away_team": "Southampton",
+                "score": "2-1",
+                "home_team": "Stoke",
+                "url": "https://www.premierleague.com/match/22409"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "61",
+                            "in": "19. Sofiane Boufal",
+                            "out": "8. Steven Davis"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "20. Manolo Gabbiadini",
+                            "out": "22. Nathan Redmond"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "25. Peter Crouch",
+                            "out": "9. Saido Berahino"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "10. Charlie Austin",
+                            "out": "18. Mario Lemina"
+                        },
+                        {
+                            "minute": "87",
+                            "in": "14. Ibrahim Afellay",
+                            "out": "22. Xherdan Shaqiri"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "in": "8. Glen Johnson",
+                            "out": "18. Mame Biram Diouf"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Xherdan Shaqiri",
+                            "scorer": "18. Mame Biram Diouf",
+                            "minute": "40"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Shane Long",
+                            "scorer": "3. Maya Yoshida",
+                            "minute": "75"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Eric Maxim Choupo-Moting",
+                            "scorer": "25. Peter Crouch",
+                            "minute": "85"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "4. Joe Allen",
+                            "card": "yellow",
+                            "minute": "30"
+                        },
+                        {
+                            "player": "11. Dusan Tadic",
+                            "card": "yellow",
+                            "minute": "52"
+                        },
+                        {
+                            "player": "14. Oriol Romeu",
+                            "card": "yellow",
+                            "minute": "56"
+                        }
+                    ],
+                    "referee": "Mike Jones",
+                    "kick_off": "15:00"
+                },
+                "away_team": "Southampton",
+                "score": "2-1",
+                "home_team": "Stoke",
+                "url": "https://www.premierleague.com/match/22409"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "61",
+                            "in": "19. Sofiane Boufal",
+                            "out": "8. Steven Davis"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "20. Manolo Gabbiadini",
+                            "out": "22. Nathan Redmond"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "25. Peter Crouch",
+                            "out": "9. Saido Berahino"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "10. Charlie Austin",
+                            "out": "18. Mario Lemina"
+                        },
+                        {
+                            "minute": "87",
+                            "in": "14. Ibrahim Afellay",
+                            "out": "22. Xherdan Shaqiri"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "in": "8. Glen Johnson",
+                            "out": "18. Mame Biram Diouf"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Xherdan Shaqiri",
+                            "scorer": "18. Mame Biram Diouf",
+                            "minute": "40"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Shane Long",
+                            "scorer": "3. Maya Yoshida",
+                            "minute": "75"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Eric Maxim Choupo-Moting",
+                            "scorer": "25. Peter Crouch",
+                            "minute": "85"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "4. Joe Allen",
+                            "card": "yellow",
+                            "minute": "30"
+                        },
+                        {
+                            "player": "11. Dusan Tadic",
+                            "card": "yellow",
+                            "minute": "52"
+                        },
+                        {
+                            "player": "14. Oriol Romeu",
+                            "card": "yellow",
+                            "minute": "56"
+                        }
+                    ],
+                    "referee": "Mike Jones",
+                    "kick_off": "15:00"
+                },
+                "away_team": "Southampton",
+                "score": "2-1",
+                "home_team": "Stoke",
+                "url": "https://www.premierleague.com/match/22409"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "61",
+                            "in": "19. Sofiane Boufal",
+                            "out": "8. Steven Davis"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "20. Manolo Gabbiadini",
+                            "out": "22. Nathan Redmond"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "25. Peter Crouch",
+                            "out": "9. Saido Berahino"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "10. Charlie Austin",
+                            "out": "18. Mario Lemina"
+                        },
+                        {
+                            "minute": "87",
+                            "in": "14. Ibrahim Afellay",
+                            "out": "22. Xherdan Shaqiri"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "in": "8. Glen Johnson",
+                            "out": "18. Mame Biram Diouf"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Xherdan Shaqiri",
+                            "scorer": "18. Mame Biram Diouf",
+                            "minute": "40"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Shane Long",
+                            "scorer": "3. Maya Yoshida",
+                            "minute": "75"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Eric Maxim Choupo-Moting",
+                            "scorer": "25. Peter Crouch",
+                            "minute": "85"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "4. Joe Allen",
+                            "card": "yellow",
+                            "minute": "30"
+                        },
+                        {
+                            "player": "11. Dusan Tadic",
+                            "card": "yellow",
+                            "minute": "52"
+                        },
+                        {
+                            "player": "14. Oriol Romeu",
+                            "card": "yellow",
+                            "minute": "56"
+                        }
+                    ],
+                    "referee": "Mike Jones",
+                    "kick_off": "15:00"
+                },
+                "away_team": "Southampton",
+                "score": "2-1",
+                "home_team": "Stoke",
+                "url": "https://www.premierleague.com/match/22409"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "61",
+                            "in": "19. Sofiane Boufal",
+                            "out": "8. Steven Davis"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "20. Manolo Gabbiadini",
+                            "out": "22. Nathan Redmond"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "25. Peter Crouch",
+                            "out": "9. Saido Berahino"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "10. Charlie Austin",
+                            "out": "18. Mario Lemina"
+                        },
+                        {
+                            "minute": "87",
+                            "in": "14. Ibrahim Afellay",
+                            "out": "22. Xherdan Shaqiri"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "in": "8. Glen Johnson",
+                            "out": "18. Mame Biram Diouf"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Xherdan Shaqiri",
+                            "scorer": "18. Mame Biram Diouf",
+                            "minute": "40"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Shane Long",
+                            "scorer": "3. Maya Yoshida",
+                            "minute": "75"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Eric Maxim Choupo-Moting",
+                            "scorer": "25. Peter Crouch",
+                            "minute": "85"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "4. Joe Allen",
+                            "card": "yellow",
+                            "minute": "30"
+                        },
+                        {
+                            "player": "11. Dusan Tadic",
+                            "card": "yellow",
+                            "minute": "52"
+                        },
+                        {
+                            "player": "14. Oriol Romeu",
+                            "card": "yellow",
+                            "minute": "56"
+                        }
+                    ],
+                    "referee": "Mike Jones",
+                    "kick_off": "15:00"
+                },
+                "away_team": "Southampton",
+                "score": "2-1",
+                "home_team": "Stoke",
+                "url": "https://www.premierleague.com/match/22409"
+            }
+        ],
+        "date": "Saturday 30 September 2017"
+    }
+]

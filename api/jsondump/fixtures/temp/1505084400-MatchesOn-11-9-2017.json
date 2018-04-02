@@ -1,0 +1,66 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "65",
+                            "in": "33. Jordon Ibe",
+                            "out": "24. Ryan Fraser"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "19. José Izquierdo",
+                            "out": "11. Anthony Knockaert"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "17. Glenn Murray",
+                            "out": "13. Pascal Groß"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "9. Benik Afobe",
+                            "out": "18. Jermain Defoe"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "in": "4. Dan Gosling",
+                            "out": "17. Joshua King"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Pascal Groß",
+                            "scorer": "20. Solly March",
+                            "minute": "55"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Jordon Ibe",
+                            "scorer": "6. Andrew Surman",
+                            "minute": "67"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Jordon Ibe",
+                            "scorer": "18. Jermain Defoe",
+                            "minute": "73"
+                        }
+                    ],
+                    "cards": [],
+                    "referee": "Craig Pawson",
+                    "kick_off": "20:00"
+                },
+                "away_team": "Brighton",
+                "score": "2-1",
+                "home_team": "Bournemouth",
+                "url": "https://www.premierleague.com/match/22382"
+            }
+        ],
+        "date": "Friday 15 September 2017"
+    }
+]

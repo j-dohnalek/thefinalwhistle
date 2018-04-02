@@ -1,0 +1,66 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "72",
+                            "in": "35. Oleksandr Zinchenko",
+                            "out": "2. Kyle Walker"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "42. Yaya Touré",
+                            "out": "10. Sergio Agüero"
+                        },
+                        {
+                            "minute": "87",
+                            "in": "33. Gabriel Jesus",
+                            "out": "21. David Silva"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Leroy Sané",
+                            "scorer": "20. Bernardo Silva",
+                            "minute": "15"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Sergio Agüero",
+                            "scorer": "21. David Silva",
+                            "minute": "28"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Kyle Walker",
+                            "scorer": "19. Leroy Sané",
+                            "minute": "33"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "30. Nicolás Otamendi",
+                            "card": "yellow",
+                            "minute": "19"
+                        },
+                        {
+                            "player": "31. Sead Kolasinac",
+                            "card": "yellow",
+                            "minute": "32"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "19:45"
+                },
+                "away_team": "Man City",
+                "score": "0-3",
+                "home_team": "Arsenal",
+                "url": "https://www.premierleague.com/match/22612"
+            }
+        ],
+        "date": "Thursday 1 March 2018"
+    }
+]

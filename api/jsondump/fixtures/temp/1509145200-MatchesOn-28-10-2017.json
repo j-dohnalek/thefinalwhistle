@@ -1,0 +1,143 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "54. Beni Baningime",
+                            "out": "12. Aaron Lennon"
+                        },
+                        {
+                            "minute": "45",
+                            "in": "19. Oumar Niasse",
+                            "out": "11. Kevin Mirallas"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "18. Gylfi Sigurdsson",
+                            "out": "10. Wayne Rooney"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "20. Shinji Okazaki",
+                            "out": "26. Riyad Mahrez"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "11. Marc Albrighton",
+                            "out": "3. Ben Chilwell"
+                        },
+                        {
+                            "minute": "90",
+                            "in": "8. Kelechi Iheanacho",
+                            "out": "9. Jamie Vardy"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Riyad Mahrez",
+                            "scorer": "9. Jamie Vardy",
+                            "minute": "18"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Christian Fuchs",
+                            "scorer": "7. Demarai Gray",
+                            "minute": "29"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "26. Tom Davies",
+                            "card": "yellow",
+                            "minute": "20"
+                        },
+                        {
+                            "player": "17. Idrissa Gueye",
+                            "card": "yellow",
+                            "minute": "65"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "16:00"
+                },
+                "away_team": "Everton",
+                "score": "2-0",
+                "home_team": "Leicester",
+                "url": "https://www.premierleague.com/match/22437"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "54. Beni Baningime",
+                            "out": "12. Aaron Lennon"
+                        },
+                        {
+                            "minute": "45",
+                            "in": "19. Oumar Niasse",
+                            "out": "11. Kevin Mirallas"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "18. Gylfi Sigurdsson",
+                            "out": "10. Wayne Rooney"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "20. Shinji Okazaki",
+                            "out": "26. Riyad Mahrez"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "11. Marc Albrighton",
+                            "out": "3. Ben Chilwell"
+                        },
+                        {
+                            "minute": "90",
+                            "in": "8. Kelechi Iheanacho",
+                            "out": "9. Jamie Vardy"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Riyad Mahrez",
+                            "scorer": "9. Jamie Vardy",
+                            "minute": "18"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Christian Fuchs",
+                            "scorer": "7. Demarai Gray",
+                            "minute": "29"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "26. Tom Davies",
+                            "card": "yellow",
+                            "minute": "20"
+                        },
+                        {
+                            "player": "17. Idrissa Gueye",
+                            "card": "yellow",
+                            "minute": "65"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "16:00"
+                },
+                "away_team": "Everton",
+                "score": "2-0",
+                "home_team": "Leicester",
+                "url": "https://www.premierleague.com/match/22437"
+            }
+        ],
+        "date": "Sunday 29 October 2017"
+    }
+]

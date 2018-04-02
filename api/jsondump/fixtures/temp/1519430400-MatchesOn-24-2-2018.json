@@ -1,0 +1,165 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "64",
+                            "in": "14. Jesse Lingard",
+                            "out": "11. Anthony Martial"
+                        },
+                        {
+                            "minute": "73",
+                            "in": "11. Pedro",
+                            "out": "10. Eden Hazard"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "18. Olivier Giroud",
+                            "out": "15. Victor Moses"
+                        },
+                        {
+                            "minute": "81",
+                            "in": "4. Cesc Fàbregas",
+                            "out": "6. Daniel Drinkwater"
+                        },
+                        {
+                            "minute": "81",
+                            "in": "3. Eric Bailly",
+                            "out": "7. Alexis Sánchez"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Eden Hazard",
+                            "scorer": "22. Willian",
+                            "minute": "32"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Anthony Martial",
+                            "scorer": "9. Romelu Lukaku",
+                            "minute": "39"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Romelu Lukaku",
+                            "scorer": "14. Jesse Lingard",
+                            "minute": "75"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "7. N'Golo Kanté",
+                            "card": "yellow",
+                            "minute": "30"
+                        },
+                        {
+                            "player": "25. Antonio Valencia",
+                            "card": "yellow",
+                            "minute": "68"
+                        },
+                        {
+                            "player": "31. Nemanja Matic",
+                            "card": "yellow",
+                            "minute": "85"
+                        },
+                        {
+                            "player": "9. Álvaro Morata",
+                            "card": "yellow",
+                            "minute": "88"
+                        }
+                    ],
+                    "referee": "Martin Atkinson",
+                    "kick_off": "14:05"
+                },
+                "away_team": "Chelsea",
+                "score": "2-1",
+                "home_team": "Man Utd",
+                "url": "https://www.premierleague.com/match/22619"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "64",
+                            "in": "14. Jesse Lingard",
+                            "out": "11. Anthony Martial"
+                        },
+                        {
+                            "minute": "73",
+                            "in": "11. Pedro",
+                            "out": "10. Eden Hazard"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "18. Olivier Giroud",
+                            "out": "15. Victor Moses"
+                        },
+                        {
+                            "minute": "81",
+                            "in": "4. Cesc Fàbregas",
+                            "out": "6. Daniel Drinkwater"
+                        },
+                        {
+                            "minute": "81",
+                            "in": "3. Eric Bailly",
+                            "out": "7. Alexis Sánchez"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Eden Hazard",
+                            "scorer": "22. Willian",
+                            "minute": "32"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Anthony Martial",
+                            "scorer": "9. Romelu Lukaku",
+                            "minute": "39"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Romelu Lukaku",
+                            "scorer": "14. Jesse Lingard",
+                            "minute": "75"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "7. N'Golo Kanté",
+                            "card": "yellow",
+                            "minute": "30"
+                        },
+                        {
+                            "player": "25. Antonio Valencia",
+                            "card": "yellow",
+                            "minute": "68"
+                        },
+                        {
+                            "player": "31. Nemanja Matic",
+                            "card": "yellow",
+                            "minute": "85"
+                        },
+                        {
+                            "player": "9. Álvaro Morata",
+                            "card": "yellow",
+                            "minute": "88"
+                        }
+                    ],
+                    "referee": "Martin Atkinson",
+                    "kick_off": "14:05"
+                },
+                "away_team": "Chelsea",
+                "score": "2-1",
+                "home_team": "Man Utd",
+                "url": "https://www.premierleague.com/match/22619"
+            }
+        ],
+        "date": "Sunday 25 February 2018"
+    }
+]

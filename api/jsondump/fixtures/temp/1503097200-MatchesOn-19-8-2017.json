@@ -1,0 +1,193 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "68",
+                            "in": "7. Son Heung-Min",
+                            "out": "15. Eric Dier"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "11. Pedro",
+                            "out": "22. Willian"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "23. Michy Batshuayi",
+                            "out": "9. Álvaro Morata"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "17. Moussa Sissoko",
+                            "out": "33. Ben Davies"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "in": "9. Vincent Janssen",
+                            "out": "2. Kieran Trippier"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "scorer": "3. Marcos Alonso",
+                            "minute": "24"
+                        },
+                        {
+                            "own_goal": "true",
+                            "scorer": "23. Michy Batshuayi",
+                            "minute": "82"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Pedro",
+                            "scorer": "3. Marcos Alonso",
+                            "minute": "88"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "2. Antonio Rüdiger",
+                            "card": "yellow",
+                            "minute": "30"
+                        },
+                        {
+                            "player": "15. Eric Dier",
+                            "card": "yellow",
+                            "minute": "31"
+                        },
+                        {
+                            "player": "30. David Luiz",
+                            "card": "yellow",
+                            "minute": "38"
+                        },
+                        {
+                            "player": "5. Jan Vertonghen",
+                            "card": "yellow",
+                            "minute": "51"
+                        },
+                        {
+                            "player": "4. Toby Alderweireld",
+                            "card": "yellow",
+                            "minute": "83"
+                        },
+                        {
+                            "player": "3. Marcos Alonso",
+                            "card": "yellow",
+                            "minute": "87"
+                        },
+                        {
+                            "player": "10. Harry Kane",
+                            "card": "yellow",
+                            "minute": "88"
+                        }
+                    ],
+                    "referee": "Anthony Taylor",
+                    "kick_off": "16:00"
+                },
+                "away_team": "Chelsea",
+                "score": "1-2",
+                "home_team": "Spurs",
+                "url": "https://www.premierleague.com/match/22360"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "68",
+                            "in": "7. Son Heung-Min",
+                            "out": "15. Eric Dier"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "11. Pedro",
+                            "out": "22. Willian"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "23. Michy Batshuayi",
+                            "out": "9. Álvaro Morata"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "17. Moussa Sissoko",
+                            "out": "33. Ben Davies"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "in": "9. Vincent Janssen",
+                            "out": "2. Kieran Trippier"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "scorer": "3. Marcos Alonso",
+                            "minute": "24"
+                        },
+                        {
+                            "own_goal": "true",
+                            "scorer": "23. Michy Batshuayi",
+                            "minute": "82"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Pedro",
+                            "scorer": "3. Marcos Alonso",
+                            "minute": "88"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "2. Antonio Rüdiger",
+                            "card": "yellow",
+                            "minute": "30"
+                        },
+                        {
+                            "player": "15. Eric Dier",
+                            "card": "yellow",
+                            "minute": "31"
+                        },
+                        {
+                            "player": "30. David Luiz",
+                            "card": "yellow",
+                            "minute": "38"
+                        },
+                        {
+                            "player": "5. Jan Vertonghen",
+                            "card": "yellow",
+                            "minute": "51"
+                        },
+                        {
+                            "player": "4. Toby Alderweireld",
+                            "card": "yellow",
+                            "minute": "83"
+                        },
+                        {
+                            "player": "3. Marcos Alonso",
+                            "card": "yellow",
+                            "minute": "87"
+                        },
+                        {
+                            "player": "10. Harry Kane",
+                            "card": "yellow",
+                            "minute": "88"
+                        }
+                    ],
+                    "referee": "Anthony Taylor",
+                    "kick_off": "16:00"
+                },
+                "away_team": "Chelsea",
+                "score": "1-2",
+                "home_team": "Spurs",
+                "url": "https://www.premierleague.com/match/22360"
+            }
+        ],
+        "date": "Sunday 20 August 2017"
+    }
+]

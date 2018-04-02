@@ -1,0 +1,181 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "43",
+                            "in": "15. Diafra Sakho",
+                            "out": "8. Cheikhou Kouyaté"
+                        },
+                        {
+                            "minute": "45",
+                            "in": "33. Gabriel Jesus",
+                            "out": "3. Danilo"
+                        },
+                        {
+                            "minute": "69",
+                            "in": "7. Marko Arnautovic",
+                            "out": "10. Manuel Lanzini"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "25. Fernandinho",
+                            "out": "10. Sergio Agüero"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "20. André Ayew",
+                            "out": "30. Michail Antonio"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "in": "20. Bernardo Silva",
+                            "out": "19. Leroy Sané"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Aaron Cresswell",
+                            "scorer": "21. Angelo Ogbonna",
+                            "minute": "44"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Gabriel Jesus",
+                            "scorer": "30. Nicolás Otamendi",
+                            "minute": "57"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Kevin De Bruyne",
+                            "scorer": "21. David Silva",
+                            "minute": "83"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "41. Declan Rice",
+                            "card": "yellow",
+                            "minute": "17"
+                        },
+                        {
+                            "player": "17. Kevin De Bruyne",
+                            "card": "yellow",
+                            "minute": "59"
+                        },
+                        {
+                            "player": "13. Adrián",
+                            "additional": "4",
+                            "card": "yellow",
+                            "minute": "90"
+                        },
+                        {
+                            "player": "33. Gabriel Jesus",
+                            "additional": "5",
+                            "card": "yellow",
+                            "minute": "90"
+                        }
+                    ],
+                    "referee": "Mike Dean",
+                    "kick_off": "16:00"
+                },
+                "away_team": "West Ham",
+                "score": "2-1",
+                "home_team": "Man City",
+                "url": "https://www.premierleague.com/match/22488"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "43",
+                            "in": "15. Diafra Sakho",
+                            "out": "8. Cheikhou Kouyaté"
+                        },
+                        {
+                            "minute": "45",
+                            "in": "33. Gabriel Jesus",
+                            "out": "3. Danilo"
+                        },
+                        {
+                            "minute": "69",
+                            "in": "7. Marko Arnautovic",
+                            "out": "10. Manuel Lanzini"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "25. Fernandinho",
+                            "out": "10. Sergio Agüero"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "20. André Ayew",
+                            "out": "30. Michail Antonio"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "in": "20. Bernardo Silva",
+                            "out": "19. Leroy Sané"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Aaron Cresswell",
+                            "scorer": "21. Angelo Ogbonna",
+                            "minute": "44"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Gabriel Jesus",
+                            "scorer": "30. Nicolás Otamendi",
+                            "minute": "57"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Kevin De Bruyne",
+                            "scorer": "21. David Silva",
+                            "minute": "83"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "41. Declan Rice",
+                            "card": "yellow",
+                            "minute": "17"
+                        },
+                        {
+                            "player": "17. Kevin De Bruyne",
+                            "card": "yellow",
+                            "minute": "59"
+                        },
+                        {
+                            "player": "13. Adrián",
+                            "additional": "4",
+                            "card": "yellow",
+                            "minute": "90"
+                        },
+                        {
+                            "player": "33. Gabriel Jesus",
+                            "additional": "5",
+                            "card": "yellow",
+                            "minute": "90"
+                        }
+                    ],
+                    "referee": "Mike Dean",
+                    "kick_off": "16:00"
+                },
+                "away_team": "West Ham",
+                "score": "2-1",
+                "home_team": "Man City",
+                "url": "https://www.premierleague.com/match/22488"
+            }
+        ],
+        "date": "Sunday 3 December 2017"
+    }
+]

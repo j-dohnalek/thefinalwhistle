@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import json
-
+from datetime import datetime
 
 # MY LIBS ######################################################################
 
@@ -12,7 +12,8 @@ from helper import grab_html_by_class, init_driver
 
 
 URL = "https://www.premierleague.com/results?team=FIRST&co=1&se=79&cl=-1"
-JSON_PATH = 'json/fixtures/{}.json'
+JSON_PATH = 'jsondump/fixtures/{}.json'
+LAST_WEBSCRAPED_MATCHDAY = 'Saturday 17 March 2018'
 
 
 # FUNCTIONS ####################################################################
@@ -113,10 +114,10 @@ def parse_events(event, match_info):
 
         if "Card" in event_info:
 
-            if "Yellow Card" in event_info and "Second" not in event_info:
-                match_event['card'] = 'yellow'
-            elif "Red Card" in event_info:
+            if "Red Card" in event_info:
                 match_event['card'] = 'red'
+            else:
+                match_event['card'] = 'yellow'
 
             player = event.find('a', attrs={'class': 'name'})
             match_event['player'] = player.get_text().replace('\n', '').strip()
@@ -127,53 +128,53 @@ def parse_events(event, match_info):
 
 def main():
 
+    # The date for which the last game was obtained
+    last_scraped_matchdate = datetime.strptime(LAST_WEBSCRAPED_MATCHDAY, '%A %d %B %Y')
+
     html = grab_html_by_class(init_driver(), "matchFixtureContainer", URL)
     soup = BeautifulSoup(html, "html.parser")
-
-    match_counter = 1
     section = soup.find('section', attrs={'class': 'fixtures'})
-
     for fixture_date in section.findAll('time', attrs={'class': 'long'}):
 
         match_date = fixture_date.get_text()
+        matchdate = datetime.strptime(match_date, '%A %d %B %Y')
         matches = section.find('div', attrs={'data-competition-matches-list': match_date})
-        for match in matches.findAll('li', attrs={"class": "matchFixtureContainer"}):
 
-            match_data = []
+        if last_scraped_matchdate == matchdate:
+            print('Process complete')
+            return
+
+        match_container = {}  # Clear the data written to JSON
+        match_container[match_date] = []
+
+        for match in matches.findAll('li', attrs={"class": "matchFixtureContainer"}):
 
             score = match.find('span', attrs={"class": "score"})
             match_id = match['data-comp-match-item']
             match_url = 'https://www.premierleague.com/match/'+match_id
-
             match_info = {'goals': [], 'cards': [], 'substitutions': []}
-            match_info = fetch_game_info(match_url, match_info)
 
             game_info = {
-                'date': match_date,
                 'home_team': match['data-home'],
                 'away_team': match['data-away'],
                 'score': score.get_text(),
                 'url': match_url,
-                'details': match_info,
+                'details': fetch_game_info(match_url, match_info),
             }
 
-            match_data.append(game_info)
+            match_container[match_date].append(game_info)
 
-            # Write the data to json
-            match_fname = "Match {}: {} vs {} ID{}".format(
-                str(match_counter),
-                match['data-home'],
-                match['data-away'],
-                match_id
-            )
+        # Write the data to json for all matches on a particular day
+        timestamp = int(matchdate.timestamp())
+        path = JSON_PATH.format("{}-MatchesOn-{}-{}-{}".format(
+            timestamp, matchdate.day, matchdate.month, matchdate.year
+        ))
 
-            path = JSON_PATH.format(match_fname)
-            with open(path, 'w') as outfile:
-                values = [v for v in match_data]
-                json.dump(values, outfile, ensure_ascii=False, indent=4)
-                print('Writing JSON: {}'.format(path))
+        with open(path, 'w') as outfile:
+            values = [{"date": k, "fixtures": v} for k, v in match_container.items()]
+            json.dump(values, outfile, ensure_ascii=False, indent=4)
+            print('Writing JSON: {}'.format(path))
 
-            match_counter += 1
 
 if __name__ == "__main__":
     main()

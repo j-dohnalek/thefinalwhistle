@@ -1,0 +1,84 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "63",
+                            "in": "7. James Morrison",
+                            "out": "8. Jake Livermore"
+                        },
+                        {
+                            "minute": "64",
+                            "in": "9. Salomón Rondón",
+                            "out": "4. Hal Robson-Kanu"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "10. Matt Phillips",
+                            "out": "2. Nyom"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "12. Olivier Giroud",
+                            "out": "9. Alexandre Lacazette"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "11. Mesut Özil",
+                            "out": "7. Alexis Sánchez"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "in": "30. Ainsley Maitland-Niles",
+                            "out": "8. Aaron Ramsey"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "scorer": "9. Alexandre Lacazette",
+                            "minute": "20"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "6. Jonny Evans",
+                            "card": "yellow",
+                            "minute": "35"
+                        },
+                        {
+                            "player": "7. Alexis Sánchez",
+                            "card": "yellow",
+                            "minute": "44"
+                        },
+                        {
+                            "player": "25. Craig Dawson",
+                            "card": "yellow",
+                            "minute": "49"
+                        },
+                        {
+                            "player": "20. Grzegorz Krychowiak",
+                            "card": "yellow",
+                            "minute": "56"
+                        },
+                        {
+                            "player": "2. Nyom",
+                            "card": "yellow",
+                            "minute": "67"
+                        }
+                    ],
+                    "referee": "Robert Madley",
+                    "kick_off": "20:00"
+                },
+                "away_team": "West Brom",
+                "score": "2-0",
+                "home_team": "Arsenal",
+                "url": "https://www.premierleague.com/match/22392"
+            }
+        ],
+        "date": "Monday 25 September 2017"
+    }
+]

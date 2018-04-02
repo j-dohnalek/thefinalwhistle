@@ -1,0 +1,377 @@
+[
+    {
+        "club": "Everton",
+        "players": [
+            {
+                "name": "Davy Klaassen",
+                "position": "Midfielder",
+                "height": "179cm",
+                "age": "25",
+                "weight": "70kg",
+                "nationality": "Netherlands",
+                "dob": "21/02/1993",
+                "shirt_number": "20"
+            },
+            {
+                "name": "Joel Robles",
+                "position": "Goalkeeper",
+                "height": "195cm",
+                "age": "27",
+                "weight": "90kg",
+                "nationality": "Spain",
+                "dob": "17/06/1990",
+                "shirt_number": "33"
+            },
+            {
+                "name": "Maarten Stekelenburg",
+                "position": "Goalkeeper",
+                "height": "197cm",
+                "age": "35",
+                "weight": "92kg",
+                "nationality": "Netherlands",
+                "dob": "22/09/1982",
+                "shirt_number": "22"
+            },
+            {
+                "name": "Leighton Baines",
+                "position": "Defender",
+                "height": "170cm",
+                "age": "33",
+                "weight": "74kg",
+                "nationality": "England",
+                "dob": "11/12/1984",
+                "shirt_number": "3"
+            },
+            {
+                "name": "Ashley Williams",
+                "position": "Defender",
+                "height": "183cm",
+                "age": "33",
+                "weight": "77kg",
+                "nationality": "Wales",
+                "dob": "23/08/1984",
+                "shirt_number": "5"
+            },
+            {
+                "name": "Phil Jagielka",
+                "position": "Defender",
+                "height": "180cm",
+                "age": "35",
+                "weight": "87kg",
+                "nationality": "England",
+                "dob": "17/08/1982",
+                "shirt_number": "6"
+            },
+            {
+                "name": "Seamus Coleman",
+                "position": "Defender",
+                "height": "177cm",
+                "age": "29",
+                "weight": "67kg",
+                "nationality": "Ireland",
+                "dob": "11/10/1988",
+                "shirt_number": "23"
+            },
+            {
+                "name": "Ramiro Funes Mori",
+                "position": "Defender",
+                "height": "186cm",
+                "age": "27",
+                "weight": "78kg",
+                "nationality": "Argentina",
+                "dob": "05/03/1991",
+                "shirt_number": "25"
+            },
+            {
+                "name": "Jonjoe Kenny",
+                "position": "Defender",
+                "height": "176cm",
+                "age": "21",
+                "weight": "67kg",
+                "nationality": "England",
+                "dob": "15/03/1997",
+                "shirt_number": "43"
+            },
+            {
+                "name": "Morgan Schneiderlin",
+                "position": "Midfielder",
+                "height": "181cm",
+                "age": "28",
+                "weight": "75kg",
+                "nationality": "France",
+                "dob": "08/11/1989",
+                "shirt_number": "2"
+            },
+            {
+                "name": "James McCarthy",
+                "position": "Midfielder",
+                "height": "180cm",
+                "age": "27",
+                "weight": "72kg",
+                "nationality": "Ireland",
+                "dob": "12/11/1990",
+                "shirt_number": "16"
+            },
+            {
+                "name": "Idrissa Gueye",
+                "position": "Midfielder",
+                "height": "174cm",
+                "age": "28",
+                "weight": "66kg",
+                "nationality": "Senegal",
+                "dob": "26/09/1989",
+                "shirt_number": "17"
+            },
+            {
+                "name": "Tom Davies",
+                "position": "Midfielder",
+                "height": "180cm",
+                "age": "19",
+                "weight": "70kg",
+                "nationality": "England",
+                "dob": "30/06/1998",
+                "shirt_number": "26"
+            },
+            {
+                "name": "Yannick Bolasie",
+                "position": "Forward",
+                "height": "188cm",
+                "age": "28",
+                "weight": "84kg",
+                "nationality": "Congo",
+                "dob": "24/05/1989",
+                "shirt_number": "7"
+            },
+            {
+                "name": "Dominic Calvert-Lewin",
+                "position": "Forward",
+                "height": "176cm",
+                "age": "21",
+                "weight": "71kg",
+                "nationality": "England",
+                "dob": "16/03/1997",
+                "shirt_number": "29"
+            },
+            {
+                "name": "Michael Keane",
+                "position": "Defender",
+                "height": "191cm",
+                "age": "25",
+                "weight": "82kg",
+                "nationality": "England",
+                "dob": "11/01/1993",
+                "shirt_number": "4"
+            },
+            {
+                "name": "Wayne Rooney",
+                "position": "Forward",
+                "height": "176cm",
+                "age": "32",
+                "weight": "83kg",
+                "nationality": "England",
+                "dob": "24/10/1985",
+                "shirt_number": "10"
+            },
+            {
+                "name": "Cuco Martina",
+                "position": "Defender",
+                "height": "185cm",
+                "age": "28",
+                "weight": "77kg",
+                "nationality": "Curacao",
+                "dob": "25/09/1989",
+                "shirt_number": "15"
+            },
+            {
+                "name": "Oumar Niasse",
+                "position": "Forward",
+                "height": "182cm",
+                "age": "27",
+                "weight": "75kg",
+                "nationality": "Senegal",
+                "dob": "18/04/1990",
+                "shirt_number": "34"
+            },
+            {
+                "name": "Gylfi Sigurdsson",
+                "position": "Midfielder",
+                "height": "186cm",
+                "age": "28",
+                "weight": "79kg",
+                "nationality": "Iceland",
+                "dob": "08/09/1989",
+                "shirt_number": "18"
+            },
+            {
+                "name": "Nikola Vlasic",
+                "position": "Forward",
+                "height": "178cm",
+                "age": "20",
+                "weight": "72kg",
+                "nationality": "Croatia",
+                "dob": "04/10/1997",
+                "shirt_number": "27"
+            },
+            {
+                "name": "Jordan Pickford",
+                "position": "Goalkeeper",
+                "height": "185cm",
+                "age": "24",
+                "weight": "77kg",
+                "nationality": "England",
+                "dob": "07/03/1994",
+                "shirt_number": "1"
+            },
+            {
+                "name": "Mason Holgate",
+                "position": "Defender",
+                "height": "184cm",
+                "age": "21",
+                "weight": "63kg",
+                "nationality": "England",
+                "dob": "22/10/1996",
+                "shirt_number": "30"
+            },
+            {
+                "name": "Beni Baningime",
+                "position": "Midfielder",
+                "height": "178cm",
+                "age": "19",
+                "weight": "70kg",
+                "nationality": "Congo",
+                "dob": "09/09/1998",
+                "shirt_number": "54"
+            },
+            {
+                "name": "Morgan Feeney",
+                "position": "Defender",
+                "height": "190cm",
+                "age": "19",
+                "weight": "77kg",
+                "nationality": "England",
+                "dob": "08/02/1999",
+                "shirt_number": "48"
+            },
+            {
+                "name": "Mateusz Hewelt",
+                "position": "Goalkeeper",
+                "height": "186cm",
+                "age": "21",
+                "weight": "78kg",
+                "nationality": "Poland",
+                "dob": "23/09/1996",
+                "shirt_number": "41"
+            },
+            {
+                "name": "Michael Collins",
+                "position": "Defender",
+                "height": "",
+                "age": "17",
+                "weight": "",
+                "nationality": "England",
+                "dob": "22/09/2000",
+                "shirt_number": "69"
+            },
+            {
+                "name": "Nathan Broadhead",
+                "position": "Midfielder",
+                "height": "178cm",
+                "age": "19",
+                "weight": "73kg",
+                "nationality": "Wales",
+                "dob": "05/04/1998",
+                "shirt_number": "55"
+            },
+            {
+                "name": "Alex Denny",
+                "position": "Midfielder",
+                "height": "186cm",
+                "age": "17",
+                "weight": "81kg",
+                "nationality": "England",
+                "dob": "12/04/2000",
+                "shirt_number": "61"
+            },
+            {
+                "name": "Fraser Hornby",
+                "position": "Midfielder",
+                "height": "",
+                "age": "18",
+                "weight": "",
+                "nationality": "Scotland",
+                "dob": "13/09/1999",
+                "shirt_number": "67"
+            },
+            {
+                "name": "Stephen Duke-McKenna",
+                "position": "Midfielder",
+                "height": "",
+                "age": "17",
+                "weight": "",
+                "nationality": "England",
+                "dob": "17/08/2000",
+                "shirt_number": "68"
+            },
+            {
+                "name": "Anthony Gordon",
+                "position": "Midfielder",
+                "height": "",
+                "age": "17",
+                "weight": "",
+                "nationality": "England",
+                "dob": "24/02/2001",
+                "shirt_number": "70"
+            },
+            {
+                "name": "Shayne Lavery",
+                "position": "Forward",
+                "height": "",
+                "age": "19",
+                "weight": "",
+                "nationality": "Northern Ireland",
+                "dob": "08/12/1998",
+                "shirt_number": "63"
+            },
+            {
+                "name": "Cenk Tosun",
+                "position": "Forward",
+                "height": "183cm",
+                "age": "26",
+                "weight": "78kg",
+                "nationality": "Turkey",
+                "dob": "07/06/1991",
+                "shirt_number": "14"
+            },
+            {
+                "name": "Theo Walcott",
+                "position": "Forward",
+                "height": "176cm",
+                "age": "29",
+                "weight": "68kg",
+                "nationality": "England",
+                "dob": "16/03/1989",
+                "shirt_number": "11"
+            },
+            {
+                "name": "Eliaquim Mangala",
+                "position": "Defender",
+                "height": "188cm",
+                "age": "27",
+                "weight": "84kg",
+                "nationality": "France",
+                "dob": "13/02/1991",
+                "shirt_number": "13"
+            },
+            {
+                "name": "Luke Garbutt",
+                "position": "Defender",
+                "height": "179cm",
+                "age": "24",
+                "weight": "73kg",
+                "nationality": "England",
+                "dob": "21/05/1993",
+                "shirt_number": "29"
+            }
+        ]
+    }
+]

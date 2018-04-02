@@ -1,3 +1,15 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+################################################################################
+#
+#   COMP208 Final Whistle Project
+#
+#   Store the general functions for webscraping of key information from websites
+#
+################################################################################
+
+
 from selenium.webdriver import Firefox
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support import expected_conditions as EC
@@ -11,6 +23,7 @@ import time
 
 
 SCROLL_PAUSE_TIME = 1
+DEBUG = True
 
 
 # FUNCTIONS ####################################################################
@@ -20,7 +33,9 @@ def init_driver():
     """
     Initialise the Firefox GeckoDriver
     """
-    print("Opening Driver")
+    if DEBUG:
+        print("Opening Firefox GeckoDriver")
+
     options = Options()
     options.add_argument('-headless')
     return Firefox(executable_path='./geckodriver', firefox_options=options)
@@ -34,7 +49,10 @@ def grab_html_by_class(driver, class_name, url, leave_open=False, scroll=True):
     :param leave_open   : Do not close the Firefox GeckoDriver, default=False
     :param scroll       : Allow to toggle scrolling to bottom of the page
     """
-    print("Visiting url:", url)
+
+    if DEBUG:
+        print("Visiting url:", url)
+
     driver.get(url)
 
     # Attempt to load page several times
@@ -48,33 +66,10 @@ def grab_html_by_class(driver, class_name, url, leave_open=False, scroll=True):
             wait_for_html_class(driver, class_name, 10)
             break
         except TimeoutException:
-            print("Couldn't find class {}".format(class_name))
+            if DEBUG:
+                print("Couldn't find class {}".format(class_name))
             pass
         attempts_to_load += 1
-
-    html = driver.page_source
-    if not leave_open:
-        driver.quit()
-
-    return html
-
-
-def grab_html_by_xpath(driver, xpath, url, leave_open=False, scroll=True):
-    """
-    :param driver       : Firefox GeckoDriver
-    :param xpath        : Wait for xpath attribute before fetching HTML
-    :param url          : Source URL
-    :param leave_open   : Do not close the Firefox GeckoDriver, default=False
-    :param scroll       : Allow to toggle scrolling to bottom of the page
-    """
-    print("Visiting url:", url)
-    driver.get(url)
-
-    if scroll:
-        scroll_to_bottom(driver, SCROLL_PAUSE_TIME)
-
-
-    wait_for_html_class(driver, xpath, 10)
 
     html = driver.page_source
     if not leave_open:
@@ -88,7 +83,9 @@ def scroll_to_bottom(driver, scroll_pause):
     Scroll to the bottom of the page untill it stops loading
     :param driver: Selenium WebDriver
     """
-    print("Scrolling to the bottom ...")
+
+    if DEBUG:
+        print("Scrolling to the bottom ...")
 
     # Get scroll height
     last_height = driver.execute_script("return document.body.scrollHeight")
@@ -106,30 +103,18 @@ def scroll_to_bottom(driver, scroll_pause):
             break
         last_height = new_height
 
-    print("Scrolling complete")
-
 
 def wait_for_html_class(driver, page_element, timeout):
     """
     Allow the script to wait for HTML class to appear on page
     :param page_element: HTML class attribute
     :param driver: Selenium WebDriver
+    :return True if success, else throws TimeoutException
     """
-    print("Waiting ...")
+    print("Waiting for class", page_element, "to appear")
+
     element = WebDriverWait(driver, timeout).until(
        EC.presence_of_element_located((By.CLASS_NAME, page_element))
     )
 
     return True
-
-
-def wait_for_xpath(driver, xpath, timeout):
-    """
-    Allow the script to wait for HTML class to appear on page
-    :param page_element: HTML class attribute
-    :param driver: Selenium WebDriver
-    """
-    print("Waiting ...")
-    elems = WebDriverWait(driver, timeout).until(
-        EC.visibility_of_all_elements_located((By.XPATH, xpath))
-    )

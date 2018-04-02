@@ -1,0 +1,103 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "34",
+                            "in": "4. Cesc Fàbregas",
+                            "out": "22. Willian"
+                        },
+                        {
+                            "minute": "64",
+                            "in": "18. Olivier Giroud",
+                            "out": "11. Pedro"
+                        },
+                        {
+                            "minute": "65",
+                            "in": "37. Roberto Pereyra",
+                            "out": "11. Richarlison"
+                        },
+                        {
+                            "minute": "89",
+                            "in": "28. André Carrillo",
+                            "out": "7. Gerard Deulofeu"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "in": "18. Andre Gray",
+                            "out": "9. Troy Deeney"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "scorer": "10. Eden Hazard",
+                            "minute": "82"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Roberto Pereyra",
+                            "scorer": "2. Daryl Janmaat",
+                            "minute": "84"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Abdoulaye Doucouré",
+                            "scorer": "7. Gerard Deulofeu",
+                            "minute": "88"
+                        },
+                        {
+                            "own_goal": "false",
+                            "additional": "1",
+                            "assist": "Abdoulaye Doucouré",
+                            "scorer": "37. Roberto Pereyra",
+                            "minute": "90"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "14. Tiemoué Bakayoko",
+                            "card": "yellow",
+                            "minute": "25"
+                        },
+                        {
+                            "player": "14. Tiemoué Bakayoko",
+                            "card": "red",
+                            "minute": "30"
+                        },
+                        {
+                            "player": "11. Richarlison",
+                            "card": "yellow",
+                            "minute": "45"
+                        },
+                        {
+                            "player": "5. Sebastian Prödl",
+                            "card": "yellow",
+                            "minute": "50"
+                        },
+                        {
+                            "player": "30. David Luiz",
+                            "card": "yellow",
+                            "minute": "58"
+                        },
+                        {
+                            "player": "4. Cesc Fàbregas",
+                            "card": "yellow",
+                            "minute": "62"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "kick_off": "20:00"
+                },
+                "away_team": "Chelsea",
+                "score": "4-1",
+                "home_team": "Watford",
+                "url": "https://www.premierleague.com/match/22600"
+            }
+        ],
+        "date": "Monday 5 February 2018"
+    }
+]

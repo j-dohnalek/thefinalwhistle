@@ -1,0 +1,155 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "61",
+                            "in": "14. Jesse Lingard",
+                            "out": "19. Marcus Rashford"
+                        },
+                        {
+                            "minute": "66",
+                            "in": "9. Sandro Ramírez",
+                            "out": "26. Tom Davies"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "29. Dominic Calvert-Lewin",
+                            "out": "17. Idrissa Gueye"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "21. Ander Herrera",
+                            "out": "8. Juan Mata"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "11. Kevin Mirallas",
+                            "out": "10. Wayne Rooney"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "11. Anthony Martial",
+                            "out": "22. Henrikh Mkhitaryan"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Nemanja Matic",
+                            "scorer": "25. Antonio Valencia",
+                            "minute": "4"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Romelu Lukaku",
+                            "scorer": "22. Henrikh Mkhitaryan",
+                            "minute": "83"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Jesse Lingard",
+                            "scorer": "9. Romelu Lukaku",
+                            "minute": "89"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "5. Ashley Williams",
+                            "card": "yellow",
+                            "minute": "63"
+                        },
+                        {
+                            "player": "3. Eric Bailly",
+                            "card": "yellow",
+                            "minute": "82"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "16:00"
+                },
+                "away_team": "Everton",
+                "score": "4-0",
+                "home_team": "Man Utd",
+                "url": "https://www.premierleague.com/match/22387"
+            },
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "61",
+                            "in": "14. Jesse Lingard",
+                            "out": "19. Marcus Rashford"
+                        },
+                        {
+                            "minute": "66",
+                            "in": "9. Sandro Ramírez",
+                            "out": "26. Tom Davies"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "29. Dominic Calvert-Lewin",
+                            "out": "17. Idrissa Gueye"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "21. Ander Herrera",
+                            "out": "8. Juan Mata"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "11. Kevin Mirallas",
+                            "out": "10. Wayne Rooney"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "11. Anthony Martial",
+                            "out": "22. Henrikh Mkhitaryan"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "assist": "Nemanja Matic",
+                            "scorer": "25. Antonio Valencia",
+                            "minute": "4"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Romelu Lukaku",
+                            "scorer": "22. Henrikh Mkhitaryan",
+                            "minute": "83"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Jesse Lingard",
+                            "scorer": "9. Romelu Lukaku",
+                            "minute": "89"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "5. Ashley Williams",
+                            "card": "yellow",
+                            "minute": "63"
+                        },
+                        {
+                            "player": "3. Eric Bailly",
+                            "card": "yellow",
+                            "minute": "82"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "16:00"
+                },
+                "away_team": "Everton",
+                "score": "4-0",
+                "home_team": "Man Utd",
+                "url": "https://www.premierleague.com/match/22387"
+            }
+        ],
+        "date": "Sunday 17 September 2017"
+    }
+]

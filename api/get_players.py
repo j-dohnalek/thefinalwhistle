@@ -1,4 +1,20 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
+
+################################################################################
+#
+#   COMP208 Final Whistle Project
+#
+#   Obtain all teams of Premier League, for each of the team obtain all players
+#   1. Start at https://www.premierleague.com/players scraping all teams from a
+#   HTML dropdown caching the result.
+#   2. Select the team T from the dropdown, obtain all team members and a link
+#   for the players personal page
+#   3. Visit individual player page and obtain the information about the player
+#   4. Store all results in JSON File
+#
+################################################################################
 
 
 import json
@@ -16,8 +32,8 @@ from helper import grab_html_by_class, init_driver
 
 
 URL = "https://www.premierleague.com/players"
-CLUBS = 'outstanding_clubs.json'
-PLAYERS_PATH = 'json/clubs'
+CLUBS = 'tmp/outstanding_clubs.json'
+JSON_DUMP_PATH = 'jsondump/clubs'
 
 
 # FUNCTIONS ####################################################################
@@ -36,10 +52,12 @@ def get_clubs():
     return club_list
 
 
-def main():
-
+def get_cached_clubs():
+    """
+    Retrieved the cached version of clubs if exists
+    :return clubs dictionary
+    """
     clubs = {}
-
     my_file = Path(CLUBS)
     # Check for the cached version of the club list if not exist fetch it from
     # the website
@@ -69,9 +87,13 @@ def main():
         # Cached version
         clubs = get_clubs()
 
-    # Iterate over all clubs in premier league
-    for club_name, api_id in clubs.items():
 
+def main():
+
+    # Iterate over all clubs in premier league
+    for club_name, api_id in get_cached_clubs().items():
+
+        # Prepare the storage
         club_players = {}
         players = []
 
@@ -105,10 +127,11 @@ def main():
 
                 # end for
 
-            # Fetch players dress number
+            # Fetch information from players personal page
             player_html = grab_html_by_class(init_driver(), 'info', player_link)
             playersoup = BeautifulSoup(player_html, "html.parser")
 
+            # Player number is in separate div tag
             player_number = -1
             try:
                 player_number = playersoup.find('div', attrs={'class': 'number'}).get_text()
@@ -167,7 +190,7 @@ def main():
         club_players[club_name] = players
 
         # Write the data to json
-        path = '{}/{}.json'.format(PLAYERS_PATH, club_name.replace(' ', '_'))
+        path = '{}/players-{}.json'.format(JSON_DUMP_PATH, club_name.replace(' ', '_'))
         with open(path, 'w') as outfile:
             values = [{"team": k, "players": v} for k, v in club_players.items()]
             json.dump(values, outfile, ensure_ascii=False, indent=4)

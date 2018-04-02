@@ -1,0 +1,88 @@
+[
+    {
+        "fixtures": [
+            {
+                "details": {
+                    "substitutions": [
+                        {
+                            "minute": "53",
+                            "in": "18. James McArthur",
+                            "out": "7. Yohan Cabaye"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "26. Bakary Sako",
+                            "out": "8. Ruben Loftus-Cheek"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "34. Francis Coquelin",
+                            "out": "9. Alexandre Lacazette"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "24. Timothy Fosu-Mensah",
+                            "out": "34. Martin Kelly"
+                        },
+                        {
+                            "minute": "87",
+                            "in": "30. Ainsley Maitland-Niles",
+                            "out": "29. Granit Xhaka"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "own_goal": "false",
+                            "scorer": "20. Shkodran Mustafi",
+                            "minute": "25"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Wilfried Zaha",
+                            "scorer": "10. Andros Townsend",
+                            "minute": "49"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Alexandre Lacazette",
+                            "scorer": "7. Alexis Sánchez",
+                            "minute": "62"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Jack Wilshere",
+                            "scorer": "7. Alexis Sánchez",
+                            "minute": "66"
+                        },
+                        {
+                            "own_goal": "false",
+                            "assist": "Andros Townsend",
+                            "scorer": "5. James Tomkins",
+                            "minute": "89"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "21. Calum Chambers",
+                            "card": "yellow",
+                            "minute": "29"
+                        },
+                        {
+                            "player": "11. Wilfried Zaha",
+                            "additional": "2",
+                            "card": "yellow",
+                            "minute": "45"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "20:00"
+                },
+                "away_team": "Arsenal",
+                "score": "2-3",
+                "home_team": "Crystal Palace",
+                "url": "https://www.premierleague.com/match/22534"
+            }
+        ],
+        "date": "Thursday 28 December 2017"
+    }
+]
