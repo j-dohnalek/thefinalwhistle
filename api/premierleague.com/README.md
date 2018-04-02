@@ -11,6 +11,7 @@ http://www.techbeamers.com/selenium-webdriver-python-tutorial/
 Fetch all clubs and their premierleague.com API id
 ### get_fixtures.py
 Fetch all the required data from premierleague.com for premier league matches. The data will include goals, cards, substitutions, etc.
+Added functionality: Stop sourcing fixtures if a specified date is reached (i.e. Saturday 31 March 2018)
 ### get_managers.py
 Fetch all managers and clubs they manage
 ### get_players.py
