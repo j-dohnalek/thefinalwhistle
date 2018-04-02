@@ -1,5 +1,5 @@
 from finalwhistle import app
-from finalwhistle.models.user import attempt_login, create_new_user
+from finalwhistle.models.user import attempt_login, create_new_user, get_user_by_email
 from finalwhistle.views.forms.login import LoginForm
 from finalwhistle.views.forms.registration import RegistrationForm
 from flask import request, render_template, redirect, url_for
@@ -74,7 +74,7 @@ def verify_email():
         token = request.args['token']
     except KeyError:
         return "url missing 'username' and 'token' args"
-    user = user_from_email(email)
+    user = get_user_by_email(email)
     # attempt to activate account
     if user.activate_account(token):
         return 'your account has been activated and you have been logged in'

@@ -1,9 +1,10 @@
+# http://www.patricksoftwareblog.com/unit-testing-a-flask-application/
 import os
 import unittest
-
 from finalwhistle import app, db, mail
 
 TEST_DB = 'unittests.db'
+
 
 class AccountTests(unittest.TestCase):
     # executed before each test
@@ -13,6 +14,7 @@ class AccountTests(unittest.TestCase):
         app.config['DEBUG'] = False
         app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(app.config['BASEDIR'], TEST_DB)
         self.app = app.test_client()
+        # empty db of previous test data
         db.drop_all()
         db.create_all()
 

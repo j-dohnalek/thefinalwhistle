@@ -8,6 +8,7 @@ from flask_login import LoginManager
 # Create server and configure
 app = Flask(__name__)
 app.debug = True
+app.config['BASEDIR'] = os.path.dirname(os.path.realpath(__file__))
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(app.config['BASEDIR'], 'test.db')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 # Try to fetch secret key from OS

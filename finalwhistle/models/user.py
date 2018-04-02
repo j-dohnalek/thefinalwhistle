@@ -61,6 +61,7 @@ def create_new_user(email, username, password):
     except SQLAlchemyError:
         print('something went wrong when making a new account!')
         return None
+    # TODO: send activation email
     return new_user
 
 
@@ -84,7 +85,7 @@ class User(db.Model, UserMixin):
     activated = db.Column(db.Boolean, nullable=False, default=False)
     # The user is emailed the activation token which can be entered by attempting to login or by clicking
     # a link emailed to them
-    activation_token = db.Column(db.String, nullable=False, default=new_uuid)
+    activation_token = db.Column(db.String, nullable=False, default=new_uuid())
     registered_date = db.Column(db.DateTime, nullable=False, server_default=func.now())
     last_login = db.Column(db.DateTime, nullable=False, server_default=func.now())
     # Access token is used for password reset requests and the 'remember me' function
@@ -138,7 +139,7 @@ class User(db.Model, UserMixin):
         """
         return False
 
-    def activation_token_valid(self, token):
+    def verify_activation_token(self, token):
         return self.activation_token == token
 
     @staticmethod

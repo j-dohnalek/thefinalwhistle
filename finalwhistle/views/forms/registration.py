@@ -17,7 +17,8 @@ class RegistrationForm(FlaskForm):
         EqualTo('password_confirm', message='Passwords must match')
     ])
     password_confirm = PasswordField('repeat password', validators=[
-        InputRequired()
+        InputRequired(),
+        EqualTo('password', message='Passwords must match')
     ])
     accept_tos = BooleanField('I agree to the terms of service', validators=[
         InputRequired()
