@@ -5,10 +5,12 @@
     <title>Login test page</title>
 </head>
 <body>
+    {% from "template_helpers.html" import render_field %}
     <form method="POST" action="/login">
         {{ form.csrf_token }}
-        {{ form.email.label }} {{ form.email }} <br>
-        {{ form.password.label }} {{ form.password }} <br>
+        {{ render_field(form.email) }}
+        {{ render_field(form.password) }}
+        {{ render_field(form.remember_me) }}
         <input type="submit" value="Login">
     </form>
 </body>
