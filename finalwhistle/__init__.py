@@ -32,8 +32,8 @@ login.login_view = 'login'
 
 @login.user_loader
 def load_user(user_id):
-    from finalwhistle.models.user import user_from_id
-    return user_from_id(user_id)
+    from finalwhistle.models.user import get_user_by_id
+    return get_user_by_id(user_id)
 
 # Register url routes with app object [1]
 # [1]: http://flask.pocoo.org/docs/0.12/patterns/packages/#simple-packages

@@ -21,3 +21,9 @@ class RegistrationForm(FlaskForm):
         InputRequired()
     ])
     submit = SubmitField('submit')
+
+    def validate_username(self, username):
+        raise NotImplementedError
+
+    def validate_email(self, email):
+        raise NotImplementedError

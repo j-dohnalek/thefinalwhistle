@@ -1,5 +1,5 @@
 from finalwhistle import app
-from finalwhistle.models.user import attempt_login
+from finalwhistle.models.user import attempt_login, create_new_user
 from finalwhistle.views.forms.login import LoginForm
 from finalwhistle.views.forms.registration import RegistrationForm
 from flask import request, render_template, redirect, url_for
@@ -60,7 +60,16 @@ def perform_registration():
     registration_form = RegistrationForm()
     if registration_form.validate_on_submit():
         # TODO: account creation login
-        raise NotImplementedError
+        email = request.form['email']
+        username = request.form['username']
+        password = request.form['password']
+        # will return user object if account created successfully
+        if create_new_user(email=email,
+                           username=username,
+                           password=password):
+            raise NotImplementedError
+        else:
+            return 'something went wrong and your account wasn\'t created'
 
 @app.route('/reset-password', methods=['GET'])
 def reset_password():

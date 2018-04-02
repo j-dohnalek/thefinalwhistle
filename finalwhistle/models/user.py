@@ -1,6 +1,8 @@
 """
 Database models for users/accounts
 """
+from sqlalchemy.exc import SQLAlchemyError
+
 from finalwhistle import db, bcrypt
 from finalwhistle.helpers import new_uuid
 from sqlalchemy.sql import func
@@ -17,7 +19,7 @@ def hash_password(password):
     return bcrypt.generate_password_hash(password)
 
 
-def user_from_email(email):
+def get_user_by_email(email):
     """
     Get user object from email address
     :param email: email address
@@ -26,7 +28,7 @@ def user_from_email(email):
     return User.query.filter_by(email=email).first()
 
 
-def user_from_id(user_id):
+def get_user_by_id(user_id):
     """
     Get user object from id. Required for flask-login functionality [1]
     [1]: https://flask-login.readthedocs.io/en/latest/#how-it-works
@@ -43,10 +45,24 @@ def attempt_login(email, password):
     :param password: password
     :return: user object if password correct, else None
     """
-    user = user_from_email(email)
+    user = get_user_by_email(email)
     if user.password_valid(password):
         return user
     return None
+
+
+def create_new_user(email, username, password):
+    try:
+        new_user = User(email=email,
+                        username=username,
+                        password=password)
+        db.session.add(new_user)
+        db.session.commit()
+    except SQLAlchemyError:
+        print('something went wrong when making a new account!')
+        return None
+    return new_user
+
 
 class User(db.Model, UserMixin):
     """
@@ -133,7 +149,7 @@ class User(db.Model, UserMixin):
         :param password:
         :return: User object associated with the provided email if password is correct, otherwise None
         """
-        user = user_from_email(email)
+        user = get_user_by_email(email)
         if user.password_valid(password):
             return user
         else:
