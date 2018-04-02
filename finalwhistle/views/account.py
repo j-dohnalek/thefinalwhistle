@@ -9,15 +9,7 @@ from flask_login import login_required, login_user, logout_user
 #################################
 # guest account-related routing #
 #################################
-
-
-@app.route('/login', methods=['GET'])
-def login():
-    login_form = LoginForm()
-    return render_template('login.html', form=login_form)
-
-
-@app.route('/login', methods=['POST'])
+@app.route('/login', methods=['GET', 'POST'])
 def perform_login():
     login_form = LoginForm()
     if login_form.validate_on_submit():
@@ -35,28 +27,8 @@ def perform_login():
     return render_template('login.html', form=login_form)
 
 
-# testing login required
-@app.route('/restricted', methods=['GET'])
-@login_required
-def restricted():
-    return 'restricted page'
-
-
-@app.route("/logout")
-@login_required
-def logout():
-    logout_user()
-    return redirect(url_for('login'))
-
-
-@app.route('/register', methods=['GET'])
+@app.route('/register', methods=['GET', 'POST'])
 def register():
-    registration_form = RegistrationForm()
-    return render_template('register.html', form=registration_form)
-
-
-@app.route('/register', methods=['POST'])
-def perform_registration():
     registration_form = RegistrationForm()
     if registration_form.validate_on_submit():
         # TODO: account creation login
@@ -64,12 +36,22 @@ def perform_registration():
         username = request.form['username']
         password = request.form['password']
         # will return user object if account created successfully
-        if create_new_user(email=email,
-                           username=username,
-                           password=password):
-            raise NotImplementedError
+        new_user = create_new_user(email=email,
+                                   username=username,
+                                   password=password)
+        if new_user is not None:
+            return 'new user created'
         else:
             return 'something went wrong and your account wasn\'t created'
+    return render_template('register.html', form=registration_form)
+
+
+# testing login required
+@app.route('/restricted', methods=['GET'])
+@login_required
+def restricted():
+    return 'restricted page'
+
 
 @app.route('/reset-password', methods=['GET'])
 def reset_password():
@@ -103,11 +85,20 @@ def verify_email():
 #####################################
 # logged in account-related routing #
 #####################################
+@app.route("/logout")
+@login_required
+def logout():
+    logout_user()
+    return redirect(url_for('login'))
+
+
 @app.route('/profile/edit', methods=['GET'])
+@login_required
 def edit_profile():
     return 'edit own user profile'
 
 
 @app.route('/profile/<int:user_id>', methods=['GET'])
+@login_required
 def view_profile(id):
     return f'view user profile {id}'

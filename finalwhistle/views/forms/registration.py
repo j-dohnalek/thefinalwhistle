@@ -1,6 +1,8 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField, BooleanField
-from wtforms.validators import InputRequired, EqualTo
+from wtforms.validators import InputRequired, EqualTo, ValidationError
+
+from finalwhistle.models.user import User
 
 
 class RegistrationForm(FlaskForm):
@@ -23,7 +25,11 @@ class RegistrationForm(FlaskForm):
     submit = SubmitField('submit')
 
     def validate_username(self, username):
-        raise NotImplementedError
+        user = User.query.filter_by(username=username.data).first()
+        if user is not None:
+            raise ValidationError('Username already in use')
 
     def validate_email(self, email):
-        raise NotImplementedError
+        user = User.query.filter_by(email=email.data).first()
+        if user is not None:
+            raise ValidationError('Email already in use')

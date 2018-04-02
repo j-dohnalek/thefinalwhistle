@@ -6,7 +6,7 @@
 </head>
 <body>
     {% from "template_helpers.html" import render_field %}
-    <form method="POST" action="/login">
+    <form method="POST" action="/register">
         {{ form.csrf_token }}
         {{ render_field(form.email) }}
         {{ render_field(form.username) }}
