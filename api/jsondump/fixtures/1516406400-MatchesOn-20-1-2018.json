@@ -5,83 +5,83 @@
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "65",
-                            "in": "19. Sofiane Boufal",
-                            "out": "23. Pierre-Emile Højbjerg"
+                            "in": "Sofiane Boufal",
+                            "out": "Pierre-Emile Højbjerg",
+                            "minute": "65"
                         },
                         {
-                            "minute": "70",
-                            "in": "11. Erik Lamela",
-                            "out": "7. Son Heung-Min"
+                            "in": "Erik Lamela",
+                            "out": "Son Heung-Min",
+                            "minute": "70"
                         },
                         {
-                            "minute": "72",
-                            "in": "2. Kieran Trippier",
-                            "out": "24. Serge Aurier"
+                            "in": "Kieran Trippier",
+                            "out": "Serge Aurier",
+                            "minute": "72"
                         },
                         {
-                            "minute": "80",
-                            "in": "8. Steven Davis",
-                            "out": "18. Mario Lemina"
+                            "in": "Steven Davis",
+                            "out": "Mario Lemina",
+                            "minute": "80"
                         },
                         {
-                            "minute": "82",
-                            "in": "61. Michael Obafemi",
-                            "out": "20. Manolo Gabbiadini"
+                            "in": "Michael Obafemi",
+                            "out": "Manolo Gabbiadini",
+                            "minute": "82"
                         },
                         {
-                            "minute": "85",
-                            "in": "12. Victor Wanyama",
-                            "out": "19. Mousa Dembélé"
+                            "in": "Victor Wanyama",
+                            "out": "Mousa Dembélé",
+                            "minute": "85"
+                        }
+                    ],
+                    "referee": "Kevin Friend",
+                    "kick_off": "16:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "48",
+                            "player": "Jack Stephens"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "57",
+                            "player": "Moussa Sissoko"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "60",
+                            "player": "Oriol Romeu"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "75",
+                            "player": "Mousa Dembélé"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "78",
+                            "player": "Kieran Trippier"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Davinson Sánchez",
                             "own_goal": "true",
-                            "scorer": "6. Davinson Sánchez",
                             "minute": "15"
                         },
                         {
+                            "scorer": "Harry Kane",
                             "own_goal": "false",
-                            "assist": "Ben Davies",
-                            "scorer": "10. Harry Kane",
-                            "minute": "18"
+                            "minute": "18",
+                            "assist": "Ben Davies"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "5. Jack Stephens",
-                            "card": "yellow",
-                            "minute": "48"
-                        },
-                        {
-                            "player": "17. Moussa Sissoko",
-                            "card": "yellow",
-                            "minute": "57"
-                        },
-                        {
-                            "player": "14. Oriol Romeu",
-                            "card": "yellow",
-                            "minute": "60"
-                        },
-                        {
-                            "player": "19. Mousa Dembélé",
-                            "card": "yellow",
-                            "minute": "75"
-                        },
-                        {
-                            "player": "2. Kieran Trippier",
-                            "card": "yellow",
-                            "minute": "78"
-                        }
-                    ],
-                    "referee": "Kevin Friend",
-                    "kick_off": "16:00"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22578",
                 "away_team": "Spurs",
                 "score": "1-1",
-                "home_team": "Southampton",
-                "url": "https://www.premierleague.com/match/22578"
+                "home_team": "Southampton"
             }
         ],
         "date": "Sunday 21 January 2018"

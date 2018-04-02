@@ -5,55 +5,55 @@
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "63",
-                            "in": "25. Peter Crouch",
-                            "out": "11. Jesé"
+                            "in": "Peter Crouch",
+                            "out": "Jesé",
+                            "minute": "63"
                         },
                         {
-                            "minute": "85",
-                            "in": "20. Bernardo Silva",
-                            "out": "7. Raheem Sterling"
+                            "in": "Bernardo Silva",
+                            "out": "Raheem Sterling",
+                            "minute": "85"
                         },
                         {
-                            "minute": "88",
-                            "in": "32. Ramadan Sobhi",
-                            "out": "20. Geoff Cameron"
+                            "in": "Ramadan Sobhi",
+                            "out": "Geoff Cameron",
+                            "minute": "88"
                         },
                         {
+                            "in": "Ilkay Gündogan",
+                            "out": "Gabriel Jesus",
                             "minute": "90",
-                            "additional": "1",
-                            "in": "8. Ilkay Gündogan",
-                            "out": "33. Gabriel Jesus"
+                            "additional": "1"
+                        }
+                    ],
+                    "referee": "Jonathan Moss",
+                    "kick_off": "20:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "73",
+                            "player": "Joe Allen"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "David Silva",
                             "own_goal": "false",
-                            "assist": "Raheem Sterling",
-                            "scorer": "21. David Silva",
-                            "minute": "10"
+                            "minute": "10",
+                            "assist": "Raheem Sterling"
                         },
                         {
+                            "scorer": "David Silva",
                             "own_goal": "false",
-                            "assist": "Gabriel Jesus",
-                            "scorer": "21. David Silva",
-                            "minute": "50"
+                            "minute": "50",
+                            "assist": "Gabriel Jesus"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "4. Joe Allen",
-                            "card": "yellow",
-                            "minute": "73"
-                        }
-                    ],
-                    "referee": "Jonathan Moss",
-                    "kick_off": "20:00"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22639",
                 "away_team": "Man City",
                 "score": "0-2",
-                "home_team": "Stoke",
-                "url": "https://www.premierleague.com/match/22639"
+                "home_team": "Stoke"
             }
         ],
         "date": "Monday 12 March 2018"

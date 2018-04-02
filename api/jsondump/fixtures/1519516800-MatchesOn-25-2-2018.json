@@ -5,60 +5,60 @@
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "72",
-                            "in": "35. Oleksandr Zinchenko",
-                            "out": "2. Kyle Walker"
+                            "in": "Oleksandr Zinchenko",
+                            "out": "Kyle Walker",
+                            "minute": "72"
                         },
                         {
-                            "minute": "82",
-                            "in": "42. Yaya Touré",
-                            "out": "10. Sergio Agüero"
+                            "in": "Yaya Touré",
+                            "out": "Sergio Agüero",
+                            "minute": "82"
                         },
                         {
-                            "minute": "87",
-                            "in": "33. Gabriel Jesus",
-                            "out": "21. David Silva"
+                            "in": "Gabriel Jesus",
+                            "out": "David Silva",
+                            "minute": "87"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "19:45",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "19",
+                            "player": "Nicolás Otamendi"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "32",
+                            "player": "Sead Kolasinac"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Bernardo Silva",
                             "own_goal": "false",
-                            "assist": "Leroy Sané",
-                            "scorer": "20. Bernardo Silva",
-                            "minute": "15"
+                            "minute": "15",
+                            "assist": "Leroy Sané"
                         },
                         {
+                            "scorer": "David Silva",
                             "own_goal": "false",
-                            "assist": "Sergio Agüero",
-                            "scorer": "21. David Silva",
-                            "minute": "28"
+                            "minute": "28",
+                            "assist": "Sergio Agüero"
                         },
                         {
+                            "scorer": "Leroy Sané",
                             "own_goal": "false",
-                            "assist": "Kyle Walker",
-                            "scorer": "19. Leroy Sané",
-                            "minute": "33"
+                            "minute": "33",
+                            "assist": "Kyle Walker"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "30. Nicolás Otamendi",
-                            "card": "yellow",
-                            "minute": "19"
-                        },
-                        {
-                            "player": "31. Sead Kolasinac",
-                            "card": "yellow",
-                            "minute": "32"
-                        }
-                    ],
-                    "referee": "Andre Marriner",
-                    "kick_off": "19:45"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22612",
                 "away_team": "Man City",
                 "score": "0-3",
-                "home_team": "Arsenal",
-                "url": "https://www.premierleague.com/match/22612"
+                "home_team": "Arsenal"
             }
         ],
         "date": "Thursday 1 March 2018"

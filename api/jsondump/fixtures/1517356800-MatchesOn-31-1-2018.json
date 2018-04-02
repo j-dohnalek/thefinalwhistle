@@ -5,645 +5,645 @@
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "45",
-                            "in": "31. Sead Kolasinac",
-                            "out": "18. Nacho Monreal"
+                            "in": "Sead Kolasinac",
+                            "out": "Nacho Monreal",
+                            "minute": "45"
                         },
                         {
-                            "minute": "45",
-                            "in": "26. Tom Davies",
-                            "out": "4. Michael Keane"
+                            "in": "Tom Davies",
+                            "out": "Michael Keane",
+                            "minute": "45"
                         },
                         {
-                            "minute": "61",
-                            "in": "29. Dominic Calvert-Lewin",
-                            "out": "11. Theo Walcott"
+                            "in": "Dominic Calvert-Lewin",
+                            "out": "Theo Walcott",
+                            "minute": "61"
                         },
                         {
-                            "minute": "70",
-                            "in": "13. David Ospina",
-                            "out": "33. Petr Cech"
+                            "in": "David Ospina",
+                            "out": "Petr Cech",
+                            "minute": "70"
                         },
                         {
-                            "minute": "75",
-                            "in": "10. Jack Wilshere",
-                            "out": "8. Aaron Ramsey"
+                            "in": "Jack Wilshere",
+                            "out": "Aaron Ramsey",
+                            "minute": "75"
                         },
                         {
-                            "minute": "78",
-                            "in": "14. Cenk Tosun",
-                            "out": "19. Oumar Niasse"
+                            "in": "Cenk Tosun",
+                            "out": "Oumar Niasse",
+                            "minute": "78"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "24",
+                            "player": "Laurent Koscielny"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "50",
+                            "player": "Shkodran Mustafi"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "6"
+                            "minute": "6",
+                            "assist": "Henrikh Mkhitaryan"
                         },
                         {
+                            "scorer": "Laurent Koscielny",
                             "own_goal": "false",
-                            "assist": "Shkodran Mustafi",
-                            "scorer": "6. Laurent Koscielny",
-                            "minute": "14"
+                            "minute": "14",
+                            "assist": "Shkodran Mustafi"
                         },
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Alex Iwobi",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "19"
+                            "minute": "19",
+                            "assist": "Alex Iwobi"
                         },
                         {
+                            "scorer": "Pierre-Emerick Aubameyang",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "14. Pierre-Emerick Aubameyang",
-                            "minute": "37"
+                            "minute": "37",
+                            "assist": "Henrikh Mkhitaryan"
                         },
                         {
+                            "scorer": "Dominic Calvert-Lewin",
                             "own_goal": "false",
-                            "assist": "Cuco Martina",
-                            "scorer": "29. Dominic Calvert-Lewin",
-                            "minute": "64"
+                            "minute": "64",
+                            "assist": "Cuco Martina"
                         },
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "74"
+                            "minute": "74",
+                            "assist": "Henrikh Mkhitaryan"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "6. Laurent Koscielny",
-                            "card": "yellow",
-                            "minute": "24"
-                        },
-                        {
-                            "player": "20. Shkodran Mustafi",
-                            "card": "yellow",
-                            "minute": "50"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22592",
                 "away_team": "Everton",
                 "score": "5-1",
-                "home_team": "Arsenal",
-                "url": "https://www.premierleague.com/match/22592"
+                "home_team": "Arsenal"
             },
             {
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "45",
-                            "in": "31. Sead Kolasinac",
-                            "out": "18. Nacho Monreal"
+                            "in": "Sead Kolasinac",
+                            "out": "Nacho Monreal",
+                            "minute": "45"
                         },
                         {
-                            "minute": "45",
-                            "in": "26. Tom Davies",
-                            "out": "4. Michael Keane"
+                            "in": "Tom Davies",
+                            "out": "Michael Keane",
+                            "minute": "45"
                         },
                         {
-                            "minute": "61",
-                            "in": "29. Dominic Calvert-Lewin",
-                            "out": "11. Theo Walcott"
+                            "in": "Dominic Calvert-Lewin",
+                            "out": "Theo Walcott",
+                            "minute": "61"
                         },
                         {
-                            "minute": "70",
-                            "in": "13. David Ospina",
-                            "out": "33. Petr Cech"
+                            "in": "David Ospina",
+                            "out": "Petr Cech",
+                            "minute": "70"
                         },
                         {
-                            "minute": "75",
-                            "in": "10. Jack Wilshere",
-                            "out": "8. Aaron Ramsey"
+                            "in": "Jack Wilshere",
+                            "out": "Aaron Ramsey",
+                            "minute": "75"
                         },
                         {
-                            "minute": "78",
-                            "in": "14. Cenk Tosun",
-                            "out": "19. Oumar Niasse"
+                            "in": "Cenk Tosun",
+                            "out": "Oumar Niasse",
+                            "minute": "78"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "24",
+                            "player": "Laurent Koscielny"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "50",
+                            "player": "Shkodran Mustafi"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "6"
+                            "minute": "6",
+                            "assist": "Henrikh Mkhitaryan"
                         },
                         {
+                            "scorer": "Laurent Koscielny",
                             "own_goal": "false",
-                            "assist": "Shkodran Mustafi",
-                            "scorer": "6. Laurent Koscielny",
-                            "minute": "14"
+                            "minute": "14",
+                            "assist": "Shkodran Mustafi"
                         },
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Alex Iwobi",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "19"
+                            "minute": "19",
+                            "assist": "Alex Iwobi"
                         },
                         {
+                            "scorer": "Pierre-Emerick Aubameyang",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "14. Pierre-Emerick Aubameyang",
-                            "minute": "37"
+                            "minute": "37",
+                            "assist": "Henrikh Mkhitaryan"
                         },
                         {
+                            "scorer": "Dominic Calvert-Lewin",
                             "own_goal": "false",
-                            "assist": "Cuco Martina",
-                            "scorer": "29. Dominic Calvert-Lewin",
-                            "minute": "64"
+                            "minute": "64",
+                            "assist": "Cuco Martina"
                         },
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "74"
+                            "minute": "74",
+                            "assist": "Henrikh Mkhitaryan"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "6. Laurent Koscielny",
-                            "card": "yellow",
-                            "minute": "24"
-                        },
-                        {
-                            "player": "20. Shkodran Mustafi",
-                            "card": "yellow",
-                            "minute": "50"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22592",
                 "away_team": "Everton",
                 "score": "5-1",
-                "home_team": "Arsenal",
-                "url": "https://www.premierleague.com/match/22592"
+                "home_team": "Arsenal"
             },
             {
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "45",
-                            "in": "31. Sead Kolasinac",
-                            "out": "18. Nacho Monreal"
+                            "in": "Sead Kolasinac",
+                            "out": "Nacho Monreal",
+                            "minute": "45"
                         },
                         {
-                            "minute": "45",
-                            "in": "26. Tom Davies",
-                            "out": "4. Michael Keane"
+                            "in": "Tom Davies",
+                            "out": "Michael Keane",
+                            "minute": "45"
                         },
                         {
-                            "minute": "61",
-                            "in": "29. Dominic Calvert-Lewin",
-                            "out": "11. Theo Walcott"
+                            "in": "Dominic Calvert-Lewin",
+                            "out": "Theo Walcott",
+                            "minute": "61"
                         },
                         {
-                            "minute": "70",
-                            "in": "13. David Ospina",
-                            "out": "33. Petr Cech"
+                            "in": "David Ospina",
+                            "out": "Petr Cech",
+                            "minute": "70"
                         },
                         {
-                            "minute": "75",
-                            "in": "10. Jack Wilshere",
-                            "out": "8. Aaron Ramsey"
+                            "in": "Jack Wilshere",
+                            "out": "Aaron Ramsey",
+                            "minute": "75"
                         },
                         {
-                            "minute": "78",
-                            "in": "14. Cenk Tosun",
-                            "out": "19. Oumar Niasse"
+                            "in": "Cenk Tosun",
+                            "out": "Oumar Niasse",
+                            "minute": "78"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "24",
+                            "player": "Laurent Koscielny"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "50",
+                            "player": "Shkodran Mustafi"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "6"
+                            "minute": "6",
+                            "assist": "Henrikh Mkhitaryan"
                         },
                         {
+                            "scorer": "Laurent Koscielny",
                             "own_goal": "false",
-                            "assist": "Shkodran Mustafi",
-                            "scorer": "6. Laurent Koscielny",
-                            "minute": "14"
+                            "minute": "14",
+                            "assist": "Shkodran Mustafi"
                         },
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Alex Iwobi",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "19"
+                            "minute": "19",
+                            "assist": "Alex Iwobi"
                         },
                         {
+                            "scorer": "Pierre-Emerick Aubameyang",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "14. Pierre-Emerick Aubameyang",
-                            "minute": "37"
+                            "minute": "37",
+                            "assist": "Henrikh Mkhitaryan"
                         },
                         {
+                            "scorer": "Dominic Calvert-Lewin",
                             "own_goal": "false",
-                            "assist": "Cuco Martina",
-                            "scorer": "29. Dominic Calvert-Lewin",
-                            "minute": "64"
+                            "minute": "64",
+                            "assist": "Cuco Martina"
                         },
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "74"
+                            "minute": "74",
+                            "assist": "Henrikh Mkhitaryan"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "6. Laurent Koscielny",
-                            "card": "yellow",
-                            "minute": "24"
-                        },
-                        {
-                            "player": "20. Shkodran Mustafi",
-                            "card": "yellow",
-                            "minute": "50"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22592",
                 "away_team": "Everton",
                 "score": "5-1",
-                "home_team": "Arsenal",
-                "url": "https://www.premierleague.com/match/22592"
+                "home_team": "Arsenal"
             },
             {
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "45",
-                            "in": "31. Sead Kolasinac",
-                            "out": "18. Nacho Monreal"
+                            "in": "Sead Kolasinac",
+                            "out": "Nacho Monreal",
+                            "minute": "45"
                         },
                         {
-                            "minute": "45",
-                            "in": "26. Tom Davies",
-                            "out": "4. Michael Keane"
+                            "in": "Tom Davies",
+                            "out": "Michael Keane",
+                            "minute": "45"
                         },
                         {
-                            "minute": "61",
-                            "in": "29. Dominic Calvert-Lewin",
-                            "out": "11. Theo Walcott"
+                            "in": "Dominic Calvert-Lewin",
+                            "out": "Theo Walcott",
+                            "minute": "61"
                         },
                         {
-                            "minute": "70",
-                            "in": "13. David Ospina",
-                            "out": "33. Petr Cech"
+                            "in": "David Ospina",
+                            "out": "Petr Cech",
+                            "minute": "70"
                         },
                         {
-                            "minute": "75",
-                            "in": "10. Jack Wilshere",
-                            "out": "8. Aaron Ramsey"
+                            "in": "Jack Wilshere",
+                            "out": "Aaron Ramsey",
+                            "minute": "75"
                         },
                         {
-                            "minute": "78",
-                            "in": "14. Cenk Tosun",
-                            "out": "19. Oumar Niasse"
+                            "in": "Cenk Tosun",
+                            "out": "Oumar Niasse",
+                            "minute": "78"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "24",
+                            "player": "Laurent Koscielny"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "50",
+                            "player": "Shkodran Mustafi"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "6"
+                            "minute": "6",
+                            "assist": "Henrikh Mkhitaryan"
                         },
                         {
+                            "scorer": "Laurent Koscielny",
                             "own_goal": "false",
-                            "assist": "Shkodran Mustafi",
-                            "scorer": "6. Laurent Koscielny",
-                            "minute": "14"
+                            "minute": "14",
+                            "assist": "Shkodran Mustafi"
                         },
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Alex Iwobi",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "19"
+                            "minute": "19",
+                            "assist": "Alex Iwobi"
                         },
                         {
+                            "scorer": "Pierre-Emerick Aubameyang",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "14. Pierre-Emerick Aubameyang",
-                            "minute": "37"
+                            "minute": "37",
+                            "assist": "Henrikh Mkhitaryan"
                         },
                         {
+                            "scorer": "Dominic Calvert-Lewin",
                             "own_goal": "false",
-                            "assist": "Cuco Martina",
-                            "scorer": "29. Dominic Calvert-Lewin",
-                            "minute": "64"
+                            "minute": "64",
+                            "assist": "Cuco Martina"
                         },
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "74"
+                            "minute": "74",
+                            "assist": "Henrikh Mkhitaryan"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "6. Laurent Koscielny",
-                            "card": "yellow",
-                            "minute": "24"
-                        },
-                        {
-                            "player": "20. Shkodran Mustafi",
-                            "card": "yellow",
-                            "minute": "50"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22592",
                 "away_team": "Everton",
                 "score": "5-1",
-                "home_team": "Arsenal",
-                "url": "https://www.premierleague.com/match/22592"
+                "home_team": "Arsenal"
             },
             {
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "45",
-                            "in": "31. Sead Kolasinac",
-                            "out": "18. Nacho Monreal"
+                            "in": "Sead Kolasinac",
+                            "out": "Nacho Monreal",
+                            "minute": "45"
                         },
                         {
-                            "minute": "45",
-                            "in": "26. Tom Davies",
-                            "out": "4. Michael Keane"
+                            "in": "Tom Davies",
+                            "out": "Michael Keane",
+                            "minute": "45"
                         },
                         {
-                            "minute": "61",
-                            "in": "29. Dominic Calvert-Lewin",
-                            "out": "11. Theo Walcott"
+                            "in": "Dominic Calvert-Lewin",
+                            "out": "Theo Walcott",
+                            "minute": "61"
                         },
                         {
-                            "minute": "70",
-                            "in": "13. David Ospina",
-                            "out": "33. Petr Cech"
+                            "in": "David Ospina",
+                            "out": "Petr Cech",
+                            "minute": "70"
                         },
                         {
-                            "minute": "75",
-                            "in": "10. Jack Wilshere",
-                            "out": "8. Aaron Ramsey"
+                            "in": "Jack Wilshere",
+                            "out": "Aaron Ramsey",
+                            "minute": "75"
                         },
                         {
-                            "minute": "78",
-                            "in": "14. Cenk Tosun",
-                            "out": "19. Oumar Niasse"
+                            "in": "Cenk Tosun",
+                            "out": "Oumar Niasse",
+                            "minute": "78"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "24",
+                            "player": "Laurent Koscielny"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "50",
+                            "player": "Shkodran Mustafi"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "6"
+                            "minute": "6",
+                            "assist": "Henrikh Mkhitaryan"
                         },
                         {
+                            "scorer": "Laurent Koscielny",
                             "own_goal": "false",
-                            "assist": "Shkodran Mustafi",
-                            "scorer": "6. Laurent Koscielny",
-                            "minute": "14"
+                            "minute": "14",
+                            "assist": "Shkodran Mustafi"
                         },
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Alex Iwobi",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "19"
+                            "minute": "19",
+                            "assist": "Alex Iwobi"
                         },
                         {
+                            "scorer": "Pierre-Emerick Aubameyang",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "14. Pierre-Emerick Aubameyang",
-                            "minute": "37"
+                            "minute": "37",
+                            "assist": "Henrikh Mkhitaryan"
                         },
                         {
+                            "scorer": "Dominic Calvert-Lewin",
                             "own_goal": "false",
-                            "assist": "Cuco Martina",
-                            "scorer": "29. Dominic Calvert-Lewin",
-                            "minute": "64"
+                            "minute": "64",
+                            "assist": "Cuco Martina"
                         },
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "74"
+                            "minute": "74",
+                            "assist": "Henrikh Mkhitaryan"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "6. Laurent Koscielny",
-                            "card": "yellow",
-                            "minute": "24"
-                        },
-                        {
-                            "player": "20. Shkodran Mustafi",
-                            "card": "yellow",
-                            "minute": "50"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22592",
                 "away_team": "Everton",
                 "score": "5-1",
-                "home_team": "Arsenal",
-                "url": "https://www.premierleague.com/match/22592"
+                "home_team": "Arsenal"
             },
             {
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "45",
-                            "in": "31. Sead Kolasinac",
-                            "out": "18. Nacho Monreal"
+                            "in": "Sead Kolasinac",
+                            "out": "Nacho Monreal",
+                            "minute": "45"
                         },
                         {
-                            "minute": "45",
-                            "in": "26. Tom Davies",
-                            "out": "4. Michael Keane"
+                            "in": "Tom Davies",
+                            "out": "Michael Keane",
+                            "minute": "45"
                         },
                         {
-                            "minute": "61",
-                            "in": "29. Dominic Calvert-Lewin",
-                            "out": "11. Theo Walcott"
+                            "in": "Dominic Calvert-Lewin",
+                            "out": "Theo Walcott",
+                            "minute": "61"
                         },
                         {
-                            "minute": "70",
-                            "in": "13. David Ospina",
-                            "out": "33. Petr Cech"
+                            "in": "David Ospina",
+                            "out": "Petr Cech",
+                            "minute": "70"
                         },
                         {
-                            "minute": "75",
-                            "in": "10. Jack Wilshere",
-                            "out": "8. Aaron Ramsey"
+                            "in": "Jack Wilshere",
+                            "out": "Aaron Ramsey",
+                            "minute": "75"
                         },
                         {
-                            "minute": "78",
-                            "in": "14. Cenk Tosun",
-                            "out": "19. Oumar Niasse"
+                            "in": "Cenk Tosun",
+                            "out": "Oumar Niasse",
+                            "minute": "78"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "24",
+                            "player": "Laurent Koscielny"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "50",
+                            "player": "Shkodran Mustafi"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "6"
+                            "minute": "6",
+                            "assist": "Henrikh Mkhitaryan"
                         },
                         {
+                            "scorer": "Laurent Koscielny",
                             "own_goal": "false",
-                            "assist": "Shkodran Mustafi",
-                            "scorer": "6. Laurent Koscielny",
-                            "minute": "14"
+                            "minute": "14",
+                            "assist": "Shkodran Mustafi"
                         },
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Alex Iwobi",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "19"
+                            "minute": "19",
+                            "assist": "Alex Iwobi"
                         },
                         {
+                            "scorer": "Pierre-Emerick Aubameyang",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "14. Pierre-Emerick Aubameyang",
-                            "minute": "37"
+                            "minute": "37",
+                            "assist": "Henrikh Mkhitaryan"
                         },
                         {
+                            "scorer": "Dominic Calvert-Lewin",
                             "own_goal": "false",
-                            "assist": "Cuco Martina",
-                            "scorer": "29. Dominic Calvert-Lewin",
-                            "minute": "64"
+                            "minute": "64",
+                            "assist": "Cuco Martina"
                         },
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "74"
+                            "minute": "74",
+                            "assist": "Henrikh Mkhitaryan"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "6. Laurent Koscielny",
-                            "card": "yellow",
-                            "minute": "24"
-                        },
-                        {
-                            "player": "20. Shkodran Mustafi",
-                            "card": "yellow",
-                            "minute": "50"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22592",
                 "away_team": "Everton",
                 "score": "5-1",
-                "home_team": "Arsenal",
-                "url": "https://www.premierleague.com/match/22592"
+                "home_team": "Arsenal"
             },
             {
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "45",
-                            "in": "31. Sead Kolasinac",
-                            "out": "18. Nacho Monreal"
+                            "in": "Sead Kolasinac",
+                            "out": "Nacho Monreal",
+                            "minute": "45"
                         },
                         {
-                            "minute": "45",
-                            "in": "26. Tom Davies",
-                            "out": "4. Michael Keane"
+                            "in": "Tom Davies",
+                            "out": "Michael Keane",
+                            "minute": "45"
                         },
                         {
-                            "minute": "61",
-                            "in": "29. Dominic Calvert-Lewin",
-                            "out": "11. Theo Walcott"
+                            "in": "Dominic Calvert-Lewin",
+                            "out": "Theo Walcott",
+                            "minute": "61"
                         },
                         {
-                            "minute": "70",
-                            "in": "13. David Ospina",
-                            "out": "33. Petr Cech"
+                            "in": "David Ospina",
+                            "out": "Petr Cech",
+                            "minute": "70"
                         },
                         {
-                            "minute": "75",
-                            "in": "10. Jack Wilshere",
-                            "out": "8. Aaron Ramsey"
+                            "in": "Jack Wilshere",
+                            "out": "Aaron Ramsey",
+                            "minute": "75"
                         },
                         {
-                            "minute": "78",
-                            "in": "14. Cenk Tosun",
-                            "out": "19. Oumar Niasse"
+                            "in": "Cenk Tosun",
+                            "out": "Oumar Niasse",
+                            "minute": "78"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "24",
+                            "player": "Laurent Koscielny"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "50",
+                            "player": "Shkodran Mustafi"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "6"
+                            "minute": "6",
+                            "assist": "Henrikh Mkhitaryan"
                         },
                         {
+                            "scorer": "Laurent Koscielny",
                             "own_goal": "false",
-                            "assist": "Shkodran Mustafi",
-                            "scorer": "6. Laurent Koscielny",
-                            "minute": "14"
+                            "minute": "14",
+                            "assist": "Shkodran Mustafi"
                         },
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Alex Iwobi",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "19"
+                            "minute": "19",
+                            "assist": "Alex Iwobi"
                         },
                         {
+                            "scorer": "Pierre-Emerick Aubameyang",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "14. Pierre-Emerick Aubameyang",
-                            "minute": "37"
+                            "minute": "37",
+                            "assist": "Henrikh Mkhitaryan"
                         },
                         {
+                            "scorer": "Dominic Calvert-Lewin",
                             "own_goal": "false",
-                            "assist": "Cuco Martina",
-                            "scorer": "29. Dominic Calvert-Lewin",
-                            "minute": "64"
+                            "minute": "64",
+                            "assist": "Cuco Martina"
                         },
                         {
+                            "scorer": "Aaron Ramsey",
                             "own_goal": "false",
-                            "assist": "Henrikh Mkhitaryan",
-                            "scorer": "8. Aaron Ramsey",
-                            "minute": "74"
+                            "minute": "74",
+                            "assist": "Henrikh Mkhitaryan"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "6. Laurent Koscielny",
-                            "card": "yellow",
-                            "minute": "24"
-                        },
-                        {
-                            "player": "20. Shkodran Mustafi",
-                            "card": "yellow",
-                            "minute": "50"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22592",
                 "away_team": "Everton",
                 "score": "5-1",
-                "home_team": "Arsenal",
-                "url": "https://www.premierleague.com/match/22592"
+                "home_team": "Arsenal"
             }
         ],
         "date": "Saturday 3 February 2018"

@@ -5,74 +5,74 @@
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "63",
-                            "in": "3. Scott Malone",
-                            "out": "15. Chris Löwe"
+                            "in": "Scott Malone",
+                            "out": "Chris Löwe",
+                            "minute": "63"
                         },
                         {
-                            "minute": "64",
-                            "in": "20. André Ayew",
-                            "out": "17. Chicharito"
+                            "in": "André Ayew",
+                            "out": "Chicharito",
+                            "minute": "64"
                         },
                         {
-                            "minute": "75",
-                            "in": "11. Abdelhamid Sabiri",
-                            "out": "9. Elias Kachunga"
+                            "in": "Abdelhamid Sabiri",
+                            "out": "Elias Kachunga",
+                            "minute": "75"
                         },
                         {
-                            "minute": "82",
-                            "in": "15. Diafra Sakho",
-                            "out": "9. Andy Carroll"
+                            "in": "Diafra Sakho",
+                            "out": "Andy Carroll",
+                            "minute": "82"
                         },
                         {
-                            "minute": "83",
-                            "in": "20. Laurent Depoitre",
-                            "out": "8. Philip Billing"
+                            "in": "Laurent Depoitre",
+                            "out": "Philip Billing",
+                            "minute": "83"
                         },
                         {
+                            "in": "Declan Rice",
+                            "out": "Pedro Obiang",
                             "minute": "90",
-                            "additional": "3",
-                            "in": "41. Declan Rice",
-                            "out": "14. Pedro Obiang"
+                            "additional": "3"
+                        }
+                    ],
+                    "referee": "Kevin Friend",
+                    "kick_off": "20:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "25",
+                            "player": "Zanka"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "45",
+                            "player": "Philip Billing"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "49",
+                            "player": "Pablo Zabaleta"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Pedro Obiang",
                             "own_goal": "false",
-                            "assist": "André Ayew",
-                            "scorer": "14. Pedro Obiang",
-                            "minute": "72"
+                            "minute": "72",
+                            "assist": "André Ayew"
                         },
                         {
+                            "scorer": "André Ayew",
                             "own_goal": "false",
-                            "scorer": "20. André Ayew",
                             "minute": "77"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "25. Zanka",
-                            "card": "yellow",
-                            "minute": "25"
-                        },
-                        {
-                            "player": "8. Philip Billing",
-                            "card": "yellow",
-                            "minute": "45"
-                        },
-                        {
-                            "player": "5. Pablo Zabaleta",
-                            "card": "yellow",
-                            "minute": "49"
-                        }
-                    ],
-                    "referee": "Kevin Friend",
-                    "kick_off": "20:00"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22381",
                 "away_team": "Huddersfield",
                 "score": "2-0",
-                "home_team": "West Ham",
-                "url": "https://www.premierleague.com/match/22381"
+                "home_team": "West Ham"
             }
         ],
         "date": "Monday 11 September 2017"

@@ -5,64 +5,64 @@
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "64",
-                            "in": "20. André Ayew",
-                            "out": "17. Chicharito"
+                            "in": "André Ayew",
+                            "out": "Chicharito",
+                            "minute": "64"
                         },
                         {
-                            "minute": "74",
-                            "in": "11. Erik Lamela",
-                            "out": "17. Moussa Sissoko"
+                            "in": "Erik Lamela",
+                            "out": "Moussa Sissoko",
+                            "minute": "74"
                         },
                         {
-                            "minute": "74",
-                            "in": "12. Victor Wanyama",
-                            "out": "15. Eric Dier"
+                            "in": "Victor Wanyama",
+                            "out": "Eric Dier",
+                            "minute": "74"
                         },
                         {
-                            "minute": "82",
-                            "in": "18. Fernando Llorente",
-                            "out": "33. Ben Davies"
+                            "in": "Fernando Llorente",
+                            "out": "Ben Davies",
+                            "minute": "82"
                         },
                         {
-                            "minute": "85",
-                            "in": "9. Andy Carroll",
-                            "out": "10. Manuel Lanzini"
+                            "in": "Andy Carroll",
+                            "out": "Manuel Lanzini",
+                            "minute": "85"
+                        }
+                    ],
+                    "referee": "Mike Dean",
+                    "kick_off": "20:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "87",
+                            "player": "Andy Carroll"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Mark Noble"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Pedro Obiang",
                             "own_goal": "false",
-                            "assist": "Manuel Lanzini",
-                            "scorer": "14. Pedro Obiang",
-                            "minute": "70"
+                            "minute": "70",
+                            "assist": "Manuel Lanzini"
                         },
                         {
+                            "scorer": "Son Heung-Min",
                             "own_goal": "false",
-                            "assist": "Erik Lamela",
-                            "scorer": "7. Son Heung-Min",
-                            "minute": "84"
+                            "minute": "84",
+                            "assist": "Erik Lamela"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "9. Andy Carroll",
-                            "card": "yellow",
-                            "minute": "87"
-                        },
-                        {
-                            "player": "16. Mark Noble",
-                            "card": "yellow",
-                            "minute": "90"
-                        }
-                    ],
-                    "referee": "Mike Dean",
-                    "kick_off": "20:00"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22549",
                 "away_team": "West Ham",
                 "score": "1-1",
-                "home_team": "Spurs",
-                "url": "https://www.premierleague.com/match/22549"
+                "home_team": "Spurs"
             }
         ],
         "date": "Thursday 4 January 2018"

@@ -5,59 +5,59 @@
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "68",
-                            "in": "8. Jonjo Shelvey",
-                            "out": "14. Isaac Hayden"
+                            "in": "Jonjo Shelvey",
+                            "out": "Isaac Hayden",
+                            "minute": "68"
                         },
                         {
-                            "minute": "71",
-                            "in": "9. Dwight Gayle",
-                            "out": "21. Joselu"
+                            "in": "Dwight Gayle",
+                            "out": "Joselu",
+                            "minute": "71"
                         },
                         {
-                            "minute": "81",
-                            "in": "15. Jamie Murphy",
-                            "out": "11. Anthony Knockaert"
+                            "in": "Jamie Murphy",
+                            "out": "Anthony Knockaert",
+                            "minute": "81"
                         },
                         {
-                            "minute": "83",
-                            "in": "27. Jesús Gámez",
-                            "out": "18. Chancel Mbemba"
+                            "in": "Jesús Gámez",
+                            "out": "Chancel Mbemba",
+                            "minute": "83"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "16:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "13",
+                            "player": "Anthony Knockaert"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "77",
+                            "player": "Shane Duffy"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Jamaal Lascelles",
+                            "additional": "3"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Tomer Hemed",
                             "own_goal": "false",
-                            "assist": "Dale Stephens",
-                            "scorer": "10. Tomer Hemed",
-                            "minute": "51"
+                            "minute": "51",
+                            "assist": "Dale Stephens"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "11. Anthony Knockaert",
-                            "card": "yellow",
-                            "minute": "13"
-                        },
-                        {
-                            "player": "22. Shane Duffy",
-                            "card": "yellow",
-                            "minute": "77"
-                        },
-                        {
-                            "player": "6. Jamaal Lascelles",
-                            "additional": "3",
-                            "card": "yellow",
-                            "minute": "90"
-                        }
-                    ],
-                    "referee": "Andre Marriner",
-                    "kick_off": "16:00"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22393",
                 "away_team": "Newcastle",
                 "score": "1-0",
-                "home_team": "Brighton",
-                "url": "https://www.premierleague.com/match/22393"
+                "home_team": "Brighton"
             }
         ],
         "date": "Sunday 24 September 2017"

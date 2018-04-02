@@ -5,53 +5,53 @@
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "64",
-                            "in": "14. Tom Carroll",
-                            "out": "12. Nathan Dyer"
+                            "in": "Tom Carroll",
+                            "out": "Nathan Dyer",
+                            "minute": "64"
                         },
                         {
-                            "minute": "68",
-                            "in": "20. Adam Lallana",
-                            "out": "21. Alex Oxlade-Chamberlain"
+                            "in": "Adam Lallana",
+                            "out": "Alex Oxlade-Chamberlain",
+                            "minute": "68"
                         },
                         {
-                            "minute": "73",
-                            "in": "28. Danny Ings",
-                            "out": "5. Georginio Wijnaldum"
+                            "in": "Danny Ings",
+                            "out": "Georginio Wijnaldum",
+                            "minute": "73"
                         },
                         {
-                            "minute": "79",
-                            "in": "2. Wilfried Bony",
-                            "out": "18. Jordan Ayew"
+                            "in": "Wilfried Bony",
+                            "out": "Jordan Ayew",
+                            "minute": "79"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "20:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "44",
+                            "player": "Andrew Robertson"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "45",
+                            "player": "Joel Matip"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Alfie Mawson",
                             "own_goal": "false",
-                            "assist": "Federico Fernández",
-                            "scorer": "6. Alfie Mawson",
-                            "minute": "40"
+                            "minute": "40",
+                            "assist": "Federico Fernández"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "26. Andrew Robertson",
-                            "card": "yellow",
-                            "minute": "44"
-                        },
-                        {
-                            "player": "32. Joel Matip",
-                            "card": "yellow",
-                            "minute": "45"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "20:00"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22580",
                 "away_team": "Liverpool",
                 "score": "1-0",
-                "home_team": "Swansea",
-                "url": "https://www.premierleague.com/match/22580"
+                "home_team": "Swansea"
             }
         ],
         "date": "Monday 22 January 2018"

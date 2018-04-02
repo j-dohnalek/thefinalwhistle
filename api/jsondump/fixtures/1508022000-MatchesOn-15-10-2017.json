@@ -5,74 +5,74 @@
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "74",
-                            "in": "3. Ben Chilwell",
-                            "out": "2. Danny Simpson"
+                            "in": "Ben Chilwell",
+                            "out": "Danny Simpson",
+                            "minute": "74"
                         },
                         {
-                            "minute": "74",
-                            "in": "19. Islam Slimani",
-                            "out": "8. Kelechi Iheanacho"
+                            "in": "Islam Slimani",
+                            "out": "Kelechi Iheanacho",
+                            "minute": "74"
                         },
                         {
-                            "minute": "84",
-                            "in": "23. Gareth McAuley",
-                            "out": "22. Nacer Chadli"
+                            "in": "Gareth McAuley",
+                            "out": "Nacer Chadli",
+                            "minute": "84"
                         },
                         {
-                            "minute": "84",
-                            "in": "14. James McClean",
-                            "out": "19. Jay Rodriguez"
+                            "in": "James McClean",
+                            "out": "Jay Rodriguez",
+                            "minute": "84"
                         },
                         {
+                            "in": "Andy King",
+                            "out": "Vicente Iborra",
                             "minute": "90",
-                            "additional": "4",
-                            "in": "10. Andy King",
-                            "out": "21. Vicente Iborra"
+                            "additional": "4"
+                        }
+                    ],
+                    "referee": "Mike Dean",
+                    "kick_off": "20:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "8",
+                            "player": "Ahmed Hegazi"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "47",
+                            "player": "Boaz Myhill"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "62",
+                            "player": "Kelechi Iheanacho"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "68",
+                            "player": "Marc Albrighton"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Nacer Chadli",
                             "own_goal": "false",
-                            "scorer": "22. Nacer Chadli",
                             "minute": "63"
                         },
                         {
+                            "scorer": "Riyad Mahrez",
                             "own_goal": "false",
-                            "assist": "Islam Slimani",
-                            "scorer": "26. Riyad Mahrez",
-                            "minute": "80"
+                            "minute": "80",
+                            "assist": "Islam Slimani"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "26. Ahmed Hegazi",
-                            "card": "yellow",
-                            "minute": "8"
-                        },
-                        {
-                            "player": "13. Boaz Myhill",
-                            "card": "yellow",
-                            "minute": "47"
-                        },
-                        {
-                            "player": "8. Kelechi Iheanacho",
-                            "card": "yellow",
-                            "minute": "62"
-                        },
-                        {
-                            "player": "11. Marc Albrighton",
-                            "card": "yellow",
-                            "minute": "68"
-                        }
-                    ],
-                    "referee": "Mike Dean",
-                    "kick_off": "20:00"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22415",
                 "away_team": "West Brom",
                 "score": "1-1",
-                "home_team": "Leicester",
-                "url": "https://www.premierleague.com/match/22415"
+                "home_team": "Leicester"
             }
         ],
         "date": "Monday 16 October 2017"

@@ -5,65 +5,65 @@
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "73",
-                            "in": "25. Peter Crouch",
-                            "out": "22. Xherdan Shaqiri"
+                            "in": "Peter Crouch",
+                            "out": "Xherdan Shaqiri",
+                            "minute": "73"
                         },
                         {
-                            "minute": "74",
-                            "in": "20. Solly March",
-                            "out": "19. José Izquierdo"
+                            "in": "Solly March",
+                            "out": "José Izquierdo",
+                            "minute": "74"
                         },
                         {
-                            "minute": "84",
-                            "in": "37. Isaiah Brown",
-                            "out": "13. Pascal Groß"
+                            "in": "Isaiah Brown",
+                            "out": "Pascal Groß",
+                            "minute": "84"
                         },
                         {
-                            "minute": "84",
-                            "in": "21. Ezequiel Schelotto",
-                            "out": "11. Anthony Knockaert"
+                            "in": "Ezequiel Schelotto",
+                            "out": "Anthony Knockaert",
+                            "minute": "84"
+                        }
+                    ],
+                    "referee": "Lee Mason",
+                    "kick_off": "20:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "42",
+                            "player": "Glenn Murray"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Eric Maxim Choupo-Moting",
                             "own_goal": "false",
-                            "assist": "Xherdan Shaqiri",
-                            "scorer": "10. Eric Maxim Choupo-Moting",
-                            "minute": "28"
+                            "minute": "28",
+                            "assist": "Xherdan Shaqiri"
                         },
                         {
+                            "scorer": "Pascal Groß",
                             "own_goal": "false",
-                            "assist": "Davy Pröpper",
-                            "scorer": "13. Pascal Groß",
-                            "minute": "44"
+                            "minute": "44",
+                            "assist": "Davy Pröpper"
                         },
                         {
+                            "scorer": "Kurt Zouma",
                             "own_goal": "false",
-                            "additional": "1",
-                            "scorer": "6. Kurt Zouma",
-                            "minute": "45"
+                            "minute": "45",
+                            "additional": "1"
                         },
                         {
+                            "scorer": "José Izquierdo",
                             "own_goal": "false",
-                            "scorer": "19. José Izquierdo",
                             "minute": "60"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "17. Glenn Murray",
-                            "card": "yellow",
-                            "minute": "42"
-                        }
-                    ],
-                    "referee": "Lee Mason",
-                    "kick_off": "20:00"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22454",
                 "away_team": "Stoke",
                 "score": "2-2",
-                "home_team": "Brighton",
-                "url": "https://www.premierleague.com/match/22454"
+                "home_team": "Brighton"
             }
         ],
         "date": "Monday 20 November 2017"

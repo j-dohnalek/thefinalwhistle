@@ -5,80 +5,80 @@
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "65",
-                            "in": "15. Diafra Sakho",
-                            "out": "9. Andy Carroll"
+                            "in": "Diafra Sakho",
+                            "out": "Andy Carroll",
+                            "minute": "65"
                         },
                         {
-                            "minute": "74",
-                            "in": "26. Arthur Masuaku",
-                            "out": "7. Marko Arnautovic"
+                            "in": "Arthur Masuaku",
+                            "out": "Marko Arnautovic",
+                            "minute": "74"
                         },
                         {
-                            "minute": "84",
-                            "in": "37. Roberto Pereyra",
-                            "out": "19. Will Hughes"
+                            "in": "Roberto Pereyra",
+                            "out": "Will Hughes",
+                            "minute": "84"
                         },
                         {
-                            "minute": "86",
-                            "in": "25. José Holebas",
-                            "out": "21. Kiko Femenía"
+                            "in": "José Holebas",
+                            "out": "Kiko Femenía",
+                            "minute": "86"
                         },
                         {
+                            "in": "André Carrillo",
+                            "out": "Andre Gray",
                             "minute": "90",
-                            "additional": "7",
-                            "in": "28. André Carrillo",
-                            "out": "18. Andre Gray"
+                            "additional": "7"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "16:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "28",
+                            "player": "Andy Carroll"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "29",
+                            "player": "Miguel Britos"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "35",
+                            "player": "Marko Arnautovic"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "41",
+                            "player": "Pedro Obiang"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "83",
+                            "player": "Mark Noble"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Will Hughes",
                             "own_goal": "false",
-                            "assist": "Andre Gray",
-                            "scorer": "19. Will Hughes",
-                            "minute": "11"
+                            "minute": "11",
+                            "assist": "Andre Gray"
                         },
                         {
+                            "scorer": "Richarlison",
                             "own_goal": "false",
-                            "assist": "Will Hughes",
-                            "scorer": "11. Richarlison",
-                            "minute": "64"
+                            "minute": "64",
+                            "assist": "Will Hughes"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "9. Andy Carroll",
-                            "card": "yellow",
-                            "minute": "28"
-                        },
-                        {
-                            "player": "3. Miguel Britos",
-                            "card": "yellow",
-                            "minute": "29"
-                        },
-                        {
-                            "player": "7. Marko Arnautovic",
-                            "card": "yellow",
-                            "minute": "35"
-                        },
-                        {
-                            "player": "14. Pedro Obiang",
-                            "card": "yellow",
-                            "minute": "41"
-                        },
-                        {
-                            "player": "16. Mark Noble",
-                            "card": "yellow",
-                            "minute": "83"
-                        }
-                    ],
-                    "referee": "Andre Marriner",
-                    "kick_off": "16:00"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22460",
                 "away_team": "West Ham",
                 "score": "2-0",
-                "home_team": "Watford",
-                "url": "https://www.premierleague.com/match/22460"
+                "home_team": "Watford"
             }
         ],
         "date": "Sunday 19 November 2017"

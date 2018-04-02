@@ -5,75 +5,75 @@
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "4",
-                            "in": "19. Jay Rodriguez",
-                            "out": "15. Daniel Sturridge"
+                            "in": "Jay Rodriguez",
+                            "out": "Daniel Sturridge",
+                            "minute": "4"
                         },
                         {
+                            "in": "Oliver Burke",
+                            "out": "Chris Brunt",
+                            "minute": "45"
+                        },
+                        {
+                            "in": "Álvaro Morata",
+                            "out": "Olivier Giroud",
+                            "minute": "61"
+                        },
+                        {
+                            "in": "Gary Cahill",
+                            "out": "Andreas Christensen",
+                            "minute": "74"
+                        },
+                        {
+                            "in": "Claudio Yacob",
+                            "out": "Gareth Barry",
+                            "minute": "80"
+                        },
+                        {
+                            "in": "Willian",
+                            "out": "Pedro",
+                            "minute": "80"
+                        }
+                    ],
+                    "referee": "Lee Mason",
+                    "kick_off": "20:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
                             "minute": "45",
-                            "in": "17. Oliver Burke",
-                            "out": "11. Chris Brunt"
+                            "player": "Jonny Evans",
+                            "additional": "3"
                         },
                         {
-                            "minute": "61",
-                            "in": "9. Álvaro Morata",
-                            "out": "18. Olivier Giroud"
-                        },
-                        {
-                            "minute": "74",
-                            "in": "24. Gary Cahill",
-                            "out": "27. Andreas Christensen"
-                        },
-                        {
-                            "minute": "80",
-                            "in": "5. Claudio Yacob",
-                            "out": "18. Gareth Barry"
-                        },
-                        {
-                            "minute": "80",
-                            "in": "22. Willian",
-                            "out": "11. Pedro"
+                            "card": "yellow",
+                            "minute": "49",
+                            "player": "Kieran Gibbs"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Eden Hazard",
                             "own_goal": "false",
-                            "assist": "Olivier Giroud",
-                            "scorer": "10. Eden Hazard",
-                            "minute": "25"
+                            "minute": "25",
+                            "assist": "Olivier Giroud"
                         },
                         {
+                            "scorer": "Victor Moses",
                             "own_goal": "false",
-                            "scorer": "15. Victor Moses",
                             "minute": "63"
                         },
                         {
+                            "scorer": "Eden Hazard",
                             "own_goal": "false",
-                            "assist": "Álvaro Morata",
-                            "scorer": "10. Eden Hazard",
-                            "minute": "71"
+                            "minute": "71",
+                            "assist": "Álvaro Morata"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "6. Jonny Evans",
-                            "additional": "3",
-                            "card": "yellow",
-                            "minute": "45"
-                        },
-                        {
-                            "player": "3. Kieran Gibbs",
-                            "card": "yellow",
-                            "minute": "49"
-                        }
-                    ],
-                    "referee": "Lee Mason",
-                    "kick_off": "20:00"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22602",
                 "away_team": "West Brom",
                 "score": "3-0",
-                "home_team": "Chelsea",
-                "url": "https://www.premierleague.com/match/22602"
+                "home_team": "Chelsea"
             }
         ],
         "date": "Monday 12 February 2018"

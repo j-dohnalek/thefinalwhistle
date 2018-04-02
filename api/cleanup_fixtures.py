@@ -1,45 +1,55 @@
 import json
-from datetime import datetime
+import os
+
+
+def cleanup(name):
+    """
+    Cleanup the name if it contains the shirt number
+    :param name player name
+    :return name removed of dress number
+    """
+    if name.find('.') is not -1:
+        return name.split('.')[1].strip()
+    return name
 
 
 def main():
-    with open('list_of_fixtures28032018.json') as json_data:
-        fixtures = json.load(json_data)
+    """
+    Iterate over each fixture and cleanup player names
+    """
 
-        match_day = {}
-        match = {}
+    path = 'jsondump/fixtures/'
+    for f in list(os.listdir(path)):
+        filename = path+f
+        with open(filename) as json_data:
 
-        previous_match_day = None
-        for fixture in fixtures:
+            matchday = json.load(json_data)
+            for fixtures in matchday:
+                for fixture in fixtures['fixtures']:
 
-            if previous_match_day is None:
-                match_day[fixture['date']] = []
-                previous_match_day = fixture['date']
+                    for name in (fixture['details']['goals']):
 
-            if previous_match_day == fixture['date']:
-                pass
-            else:
-                matchday_dt = datetime.strptime(fixture['date'], '%A %d %B %Y')
+                        name['scorer'] = cleanup(name['scorer'])
 
-                timestamp = int(matchday_dt.timestamp())
-                path = 'temp/{}-MatchesOn-{}-{}-{}.json'.format(timestamp, matchday_dt.day, matchday_dt.month, matchday_dt.year)
-                with open(path, 'w') as outfile:
-                    values = [{"date": k, "fixtures": v} for k, v in match_day.items()]
-                    json.dump(values, outfile, ensure_ascii=False, indent=4)
-                    print('Writing JSON: {}'.format(path))
+                        try:
+                            name['assist'] = cleanup(name['assist'])
+                        except KeyError:
+                            pass
 
-                match = {}
-                match_day = {}
-                match_day[fixture['date']] = []
+                    for name in (fixture['details']['cards']):
+                        name['player'] = cleanup(name['player'])
 
-            match['url'] = fixture['url']
-            match['score'] = fixture['score']
-            match['details'] = fixture['details']
-            match['away_team'] = fixture['away_team']
-            match['home_team'] = fixture['home_team']
+                    for name in (fixture['details']['substitutions']):
+                        name['out'] = cleanup(name['out'])
 
-            match_day[fixture['date']].append(match)
-            previous_match_day = fixture['date']
+                        try:
+                            name['in'] = cleanup(name['in'])
+                        except KeyError:
+                            pass
+
+            with open(filename, 'w') as outfile:
+                json.dump(matchday, outfile, ensure_ascii=False, indent=4)
+                print('Writing JSON: {}'.format(filename))
 
 
 if __name__ == "__main__":

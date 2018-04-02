@@ -5,137 +5,137 @@
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "78",
-                            "in": "18. Olivier Giroud",
-                            "out": "22. Willian"
+                            "in": "Olivier Giroud",
+                            "out": "Willian",
+                            "minute": "78"
                         },
                         {
-                            "minute": "82",
-                            "in": "33. Emerson",
-                            "out": "11. Pedro"
+                            "in": "Emerson",
+                            "out": "Pedro",
+                            "minute": "82"
                         },
                         {
-                            "minute": "85",
-                            "in": "33. Gabriel Jesus",
-                            "out": "10. Sergio Agüero"
+                            "in": "Gabriel Jesus",
+                            "out": "Sergio Agüero",
+                            "minute": "85"
                         },
                         {
-                            "minute": "87",
-                            "in": "3. Danilo",
-                            "out": "35. Oleksandr Zinchenko"
+                            "in": "Danilo",
+                            "out": "Oleksandr Zinchenko",
+                            "minute": "87"
                         },
                         {
+                            "in": "Álvaro Morata",
+                            "out": "Eden Hazard",
+                            "minute": "90"
+                        },
+                        {
+                            "in": "Phil Foden",
+                            "out": "David Silva",
                             "minute": "90",
-                            "in": "9. Álvaro Morata",
-                            "out": "10. Eden Hazard"
+                            "additional": "3"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "16:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "24",
+                            "player": "Oleksandr Zinchenko"
                         },
                         {
-                            "minute": "90",
-                            "additional": "3",
-                            "in": "47. Phil Foden",
-                            "out": "21. David Silva"
+                            "card": "yellow",
+                            "minute": "47",
+                            "player": "Ilkay Gündogan"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "57",
+                            "player": "Antonio Rüdiger"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Bernardo Silva",
                             "own_goal": "false",
-                            "assist": "David Silva",
-                            "scorer": "20. Bernardo Silva",
-                            "minute": "46"
+                            "minute": "46",
+                            "assist": "David Silva"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "35. Oleksandr Zinchenko",
-                            "card": "yellow",
-                            "minute": "24"
-                        },
-                        {
-                            "player": "8. Ilkay Gündogan",
-                            "card": "yellow",
-                            "minute": "47"
-                        },
-                        {
-                            "player": "2. Antonio Rüdiger",
-                            "card": "yellow",
-                            "minute": "57"
-                        }
-                    ],
-                    "referee": "Michael Oliver",
-                    "kick_off": "16:00"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22627",
                 "away_team": "Chelsea",
                 "score": "1-0",
-                "home_team": "Man City",
-                "url": "https://www.premierleague.com/match/22627"
+                "home_team": "Man City"
             },
             {
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "78",
-                            "in": "18. Olivier Giroud",
-                            "out": "22. Willian"
+                            "in": "Olivier Giroud",
+                            "out": "Willian",
+                            "minute": "78"
                         },
                         {
-                            "minute": "82",
-                            "in": "33. Emerson",
-                            "out": "11. Pedro"
+                            "in": "Emerson",
+                            "out": "Pedro",
+                            "minute": "82"
                         },
                         {
-                            "minute": "85",
-                            "in": "33. Gabriel Jesus",
-                            "out": "10. Sergio Agüero"
+                            "in": "Gabriel Jesus",
+                            "out": "Sergio Agüero",
+                            "minute": "85"
                         },
                         {
-                            "minute": "87",
-                            "in": "3. Danilo",
-                            "out": "35. Oleksandr Zinchenko"
+                            "in": "Danilo",
+                            "out": "Oleksandr Zinchenko",
+                            "minute": "87"
                         },
                         {
+                            "in": "Álvaro Morata",
+                            "out": "Eden Hazard",
+                            "minute": "90"
+                        },
+                        {
+                            "in": "Phil Foden",
+                            "out": "David Silva",
                             "minute": "90",
-                            "in": "9. Álvaro Morata",
-                            "out": "10. Eden Hazard"
+                            "additional": "3"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "16:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "24",
+                            "player": "Oleksandr Zinchenko"
                         },
                         {
-                            "minute": "90",
-                            "additional": "3",
-                            "in": "47. Phil Foden",
-                            "out": "21. David Silva"
+                            "card": "yellow",
+                            "minute": "47",
+                            "player": "Ilkay Gündogan"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "57",
+                            "player": "Antonio Rüdiger"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Bernardo Silva",
                             "own_goal": "false",
-                            "assist": "David Silva",
-                            "scorer": "20. Bernardo Silva",
-                            "minute": "46"
+                            "minute": "46",
+                            "assist": "David Silva"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "35. Oleksandr Zinchenko",
-                            "card": "yellow",
-                            "minute": "24"
-                        },
-                        {
-                            "player": "8. Ilkay Gündogan",
-                            "card": "yellow",
-                            "minute": "47"
-                        },
-                        {
-                            "player": "2. Antonio Rüdiger",
-                            "card": "yellow",
-                            "minute": "57"
-                        }
-                    ],
-                    "referee": "Michael Oliver",
-                    "kick_off": "16:00"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22627",
                 "away_team": "Chelsea",
                 "score": "1-0",
-                "home_team": "Man City",
-                "url": "https://www.premierleague.com/match/22627"
+                "home_team": "Man City"
             }
         ],
         "date": "Sunday 4 March 2018"

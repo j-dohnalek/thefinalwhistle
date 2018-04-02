@@ -5,268 +5,268 @@
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "74",
-                            "in": "15. Chris Löwe",
-                            "out": "3. Scott Malone"
+                            "in": "Chris Löwe",
+                            "out": "Scott Malone",
+                            "minute": "74"
                         },
                         {
-                            "minute": "80",
-                            "in": "33. Gabriel Jesus",
-                            "out": "4. Vincent Kompany"
+                            "in": "Gabriel Jesus",
+                            "out": "Vincent Kompany",
+                            "minute": "80"
                         },
                         {
-                            "minute": "81",
-                            "in": "23. Collin Quaner",
-                            "out": "22. Tom Ince"
+                            "in": "Collin Quaner",
+                            "out": "Tom Ince",
+                            "minute": "81"
                         },
                         {
-                            "minute": "86",
-                            "in": "24. Steve Mounie",
-                            "out": "6. Jonathan Hogg"
+                            "in": "Steve Mounie",
+                            "out": "Jonathan Hogg",
+                            "minute": "86"
                         },
                         {
-                            "minute": "86",
-                            "in": "8. Ilkay Gündogan",
-                            "out": "10. Sergio Agüero"
+                            "in": "Ilkay Gündogan",
+                            "out": "Sergio Agüero",
+                            "minute": "86"
                         },
                         {
-                            "minute": "89",
-                            "in": "15. Eliaquim Mangala",
-                            "out": "21. David Silva"
+                            "in": "Eliaquim Mangala",
+                            "out": "David Silva",
+                            "minute": "89"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "kick_off": "16:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "56",
+                            "player": "Jonathan Hogg"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "63",
+                            "player": "Fernandinho"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "64",
+                            "player": "Scott Malone"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "87",
+                            "player": "David Silva"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Leroy Sané",
+                            "additional": "6"
+                        },
+                        {
+                            "card": "red",
+                            "minute": "90",
+                            "player": "Rajiv van La Parra",
+                            "additional": "6"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Nicolás Otamendi",
                             "own_goal": "true",
-                            "additional": "1",
-                            "scorer": "30. Nicolás Otamendi",
-                            "minute": "45"
+                            "minute": "45",
+                            "additional": "1"
                         },
                         {
+                            "scorer": "Raheem Sterling",
                             "own_goal": "false",
-                            "scorer": "7. Raheem Sterling",
                             "minute": "84"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "6. Jonathan Hogg",
-                            "card": "yellow",
-                            "minute": "56"
-                        },
-                        {
-                            "player": "25. Fernandinho",
-                            "card": "yellow",
-                            "minute": "63"
-                        },
-                        {
-                            "player": "3. Scott Malone",
-                            "card": "yellow",
-                            "minute": "64"
-                        },
-                        {
-                            "player": "21. David Silva",
-                            "card": "yellow",
-                            "minute": "87"
-                        },
-                        {
-                            "player": "19. Leroy Sané",
-                            "additional": "6",
-                            "card": "yellow",
-                            "minute": "90"
-                        },
-                        {
-                            "player": "17. Rajiv van La Parra",
-                            "additional": "6",
-                            "card": "red",
-                            "minute": "90"
-                        }
-                    ],
-                    "referee": "Craig Pawson",
-                    "kick_off": "16:00"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22464",
                 "away_team": "Man City",
                 "score": "1-2",
-                "home_team": "Huddersfield",
-                "url": "https://www.premierleague.com/match/22464"
+                "home_team": "Huddersfield"
             },
             {
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "74",
-                            "in": "15. Chris Löwe",
-                            "out": "3. Scott Malone"
+                            "in": "Chris Löwe",
+                            "out": "Scott Malone",
+                            "minute": "74"
                         },
                         {
-                            "minute": "80",
-                            "in": "33. Gabriel Jesus",
-                            "out": "4. Vincent Kompany"
+                            "in": "Gabriel Jesus",
+                            "out": "Vincent Kompany",
+                            "minute": "80"
                         },
                         {
-                            "minute": "81",
-                            "in": "23. Collin Quaner",
-                            "out": "22. Tom Ince"
+                            "in": "Collin Quaner",
+                            "out": "Tom Ince",
+                            "minute": "81"
                         },
                         {
-                            "minute": "86",
-                            "in": "24. Steve Mounie",
-                            "out": "6. Jonathan Hogg"
+                            "in": "Steve Mounie",
+                            "out": "Jonathan Hogg",
+                            "minute": "86"
                         },
                         {
-                            "minute": "86",
-                            "in": "8. Ilkay Gündogan",
-                            "out": "10. Sergio Agüero"
+                            "in": "Ilkay Gündogan",
+                            "out": "Sergio Agüero",
+                            "minute": "86"
                         },
                         {
-                            "minute": "89",
-                            "in": "15. Eliaquim Mangala",
-                            "out": "21. David Silva"
+                            "in": "Eliaquim Mangala",
+                            "out": "David Silva",
+                            "minute": "89"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "kick_off": "16:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "56",
+                            "player": "Jonathan Hogg"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "63",
+                            "player": "Fernandinho"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "64",
+                            "player": "Scott Malone"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "87",
+                            "player": "David Silva"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Leroy Sané",
+                            "additional": "6"
+                        },
+                        {
+                            "card": "red",
+                            "minute": "90",
+                            "player": "Rajiv van La Parra",
+                            "additional": "6"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Nicolás Otamendi",
                             "own_goal": "true",
-                            "additional": "1",
-                            "scorer": "30. Nicolás Otamendi",
-                            "minute": "45"
+                            "minute": "45",
+                            "additional": "1"
                         },
                         {
+                            "scorer": "Raheem Sterling",
                             "own_goal": "false",
-                            "scorer": "7. Raheem Sterling",
                             "minute": "84"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "6. Jonathan Hogg",
-                            "card": "yellow",
-                            "minute": "56"
-                        },
-                        {
-                            "player": "25. Fernandinho",
-                            "card": "yellow",
-                            "minute": "63"
-                        },
-                        {
-                            "player": "3. Scott Malone",
-                            "card": "yellow",
-                            "minute": "64"
-                        },
-                        {
-                            "player": "21. David Silva",
-                            "card": "yellow",
-                            "minute": "87"
-                        },
-                        {
-                            "player": "19. Leroy Sané",
-                            "additional": "6",
-                            "card": "yellow",
-                            "minute": "90"
-                        },
-                        {
-                            "player": "17. Rajiv van La Parra",
-                            "additional": "6",
-                            "card": "red",
-                            "minute": "90"
-                        }
-                    ],
-                    "referee": "Craig Pawson",
-                    "kick_off": "16:00"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22464",
                 "away_team": "Man City",
                 "score": "1-2",
-                "home_team": "Huddersfield",
-                "url": "https://www.premierleague.com/match/22464"
+                "home_team": "Huddersfield"
             },
             {
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "74",
-                            "in": "15. Chris Löwe",
-                            "out": "3. Scott Malone"
+                            "in": "Chris Löwe",
+                            "out": "Scott Malone",
+                            "minute": "74"
                         },
                         {
-                            "minute": "80",
-                            "in": "33. Gabriel Jesus",
-                            "out": "4. Vincent Kompany"
+                            "in": "Gabriel Jesus",
+                            "out": "Vincent Kompany",
+                            "minute": "80"
                         },
                         {
-                            "minute": "81",
-                            "in": "23. Collin Quaner",
-                            "out": "22. Tom Ince"
+                            "in": "Collin Quaner",
+                            "out": "Tom Ince",
+                            "minute": "81"
                         },
                         {
-                            "minute": "86",
-                            "in": "24. Steve Mounie",
-                            "out": "6. Jonathan Hogg"
+                            "in": "Steve Mounie",
+                            "out": "Jonathan Hogg",
+                            "minute": "86"
                         },
                         {
-                            "minute": "86",
-                            "in": "8. Ilkay Gündogan",
-                            "out": "10. Sergio Agüero"
+                            "in": "Ilkay Gündogan",
+                            "out": "Sergio Agüero",
+                            "minute": "86"
                         },
                         {
-                            "minute": "89",
-                            "in": "15. Eliaquim Mangala",
-                            "out": "21. David Silva"
+                            "in": "Eliaquim Mangala",
+                            "out": "David Silva",
+                            "minute": "89"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "kick_off": "16:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "56",
+                            "player": "Jonathan Hogg"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "63",
+                            "player": "Fernandinho"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "64",
+                            "player": "Scott Malone"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "87",
+                            "player": "David Silva"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Leroy Sané",
+                            "additional": "6"
+                        },
+                        {
+                            "card": "red",
+                            "minute": "90",
+                            "player": "Rajiv van La Parra",
+                            "additional": "6"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Nicolás Otamendi",
                             "own_goal": "true",
-                            "additional": "1",
-                            "scorer": "30. Nicolás Otamendi",
-                            "minute": "45"
+                            "minute": "45",
+                            "additional": "1"
                         },
                         {
+                            "scorer": "Raheem Sterling",
                             "own_goal": "false",
-                            "scorer": "7. Raheem Sterling",
                             "minute": "84"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "6. Jonathan Hogg",
-                            "card": "yellow",
-                            "minute": "56"
-                        },
-                        {
-                            "player": "25. Fernandinho",
-                            "card": "yellow",
-                            "minute": "63"
-                        },
-                        {
-                            "player": "3. Scott Malone",
-                            "card": "yellow",
-                            "minute": "64"
-                        },
-                        {
-                            "player": "21. David Silva",
-                            "card": "yellow",
-                            "minute": "87"
-                        },
-                        {
-                            "player": "19. Leroy Sané",
-                            "additional": "6",
-                            "card": "yellow",
-                            "minute": "90"
-                        },
-                        {
-                            "player": "17. Rajiv van La Parra",
-                            "additional": "6",
-                            "card": "red",
-                            "minute": "90"
-                        }
-                    ],
-                    "referee": "Craig Pawson",
-                    "kick_off": "16:00"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22464",
                 "away_team": "Man City",
                 "score": "1-2",
-                "home_team": "Huddersfield",
-                "url": "https://www.premierleague.com/match/22464"
+                "home_team": "Huddersfield"
             }
         ],
         "date": "Sunday 26 November 2017"

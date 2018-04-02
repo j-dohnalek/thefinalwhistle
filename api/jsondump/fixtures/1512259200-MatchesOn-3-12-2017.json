@@ -5,631 +5,631 @@
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "64",
-                            "in": "30. Christian Atsu",
-                            "out": "11. Matt Ritchie"
+                            "in": "Christian Atsu",
+                            "out": "Matt Ritchie",
+                            "minute": "64"
                         },
                         {
-                            "minute": "71",
-                            "in": "17. Ayoze Pérez",
-                            "out": "7. Jacob Murphy"
+                            "in": "Ayoze Pérez",
+                            "out": "Jacob Murphy",
+                            "minute": "71"
                         },
                         {
-                            "minute": "73",
-                            "in": "20. Shinji Okazaki",
-                            "out": "7. Demarai Gray"
+                            "in": "Shinji Okazaki",
+                            "out": "Demarai Gray",
+                            "minute": "73"
                         },
                         {
-                            "minute": "88",
-                            "in": "45. Aleksandar Mitrovic",
-                            "out": "21. Joselu"
+                            "in": "Aleksandar Mitrovic",
+                            "out": "Joselu",
+                            "minute": "88"
                         },
                         {
-                            "minute": "89",
-                            "in": "28. Christian Fuchs",
-                            "out": "26. Riyad Mahrez"
+                            "in": "Christian Fuchs",
+                            "out": "Riyad Mahrez",
+                            "minute": "89"
                         },
                         {
-                            "minute": "90",
-                            "in": "23. Leonardo Ulloa",
-                            "out": "9. Jamie Vardy"
+                            "in": "Leonardo Ulloa",
+                            "out": "Jamie Vardy",
+                            "minute": "90"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "12",
+                            "player": "Demarai Gray"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "75",
+                            "player": "Isaac Hayden"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "81",
+                            "player": "Florian Lejeune"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Joselu",
                             "own_goal": "false",
-                            "assist": "Dwight Gayle",
-                            "scorer": "21. Joselu",
-                            "minute": "4"
+                            "minute": "4",
+                            "assist": "Dwight Gayle"
                         },
                         {
+                            "scorer": "Riyad Mahrez",
                             "own_goal": "false",
-                            "assist": "Wilfred Ndidi",
-                            "scorer": "26. Riyad Mahrez",
-                            "minute": "20"
+                            "minute": "20",
+                            "assist": "Wilfred Ndidi"
                         },
                         {
+                            "scorer": "Demarai Gray",
                             "own_goal": "false",
-                            "assist": "Marc Albrighton",
-                            "scorer": "7. Demarai Gray",
-                            "minute": "60"
+                            "minute": "60",
+                            "assist": "Marc Albrighton"
                         },
                         {
+                            "scorer": "Dwight Gayle",
                             "own_goal": "false",
-                            "assist": "Mikel Merino",
-                            "scorer": "9. Dwight Gayle",
-                            "minute": "73"
+                            "minute": "73",
+                            "assist": "Mikel Merino"
                         },
                         {
+                            "scorer": "Ayoze Pérez",
                             "own_goal": "true",
-                            "scorer": "17. Ayoze Pérez",
                             "minute": "86"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "7. Demarai Gray",
-                            "card": "yellow",
-                            "minute": "12"
-                        },
-                        {
-                            "player": "14. Isaac Hayden",
-                            "card": "yellow",
-                            "minute": "75"
-                        },
-                        {
-                            "player": "20. Florian Lejeune",
-                            "card": "yellow",
-                            "minute": "81"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22497",
                 "away_team": "Leicester",
                 "score": "2-3",
-                "home_team": "Newcastle",
-                "url": "https://www.premierleague.com/match/22497"
+                "home_team": "Newcastle"
             },
             {
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "64",
-                            "in": "30. Christian Atsu",
-                            "out": "11. Matt Ritchie"
+                            "in": "Christian Atsu",
+                            "out": "Matt Ritchie",
+                            "minute": "64"
                         },
                         {
-                            "minute": "71",
-                            "in": "17. Ayoze Pérez",
-                            "out": "7. Jacob Murphy"
+                            "in": "Ayoze Pérez",
+                            "out": "Jacob Murphy",
+                            "minute": "71"
                         },
                         {
-                            "minute": "73",
-                            "in": "20. Shinji Okazaki",
-                            "out": "7. Demarai Gray"
+                            "in": "Shinji Okazaki",
+                            "out": "Demarai Gray",
+                            "minute": "73"
                         },
                         {
-                            "minute": "88",
-                            "in": "45. Aleksandar Mitrovic",
-                            "out": "21. Joselu"
+                            "in": "Aleksandar Mitrovic",
+                            "out": "Joselu",
+                            "minute": "88"
                         },
                         {
-                            "minute": "89",
-                            "in": "28. Christian Fuchs",
-                            "out": "26. Riyad Mahrez"
+                            "in": "Christian Fuchs",
+                            "out": "Riyad Mahrez",
+                            "minute": "89"
                         },
                         {
-                            "minute": "90",
-                            "in": "23. Leonardo Ulloa",
-                            "out": "9. Jamie Vardy"
+                            "in": "Leonardo Ulloa",
+                            "out": "Jamie Vardy",
+                            "minute": "90"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "12",
+                            "player": "Demarai Gray"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "75",
+                            "player": "Isaac Hayden"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "81",
+                            "player": "Florian Lejeune"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Joselu",
                             "own_goal": "false",
-                            "assist": "Dwight Gayle",
-                            "scorer": "21. Joselu",
-                            "minute": "4"
+                            "minute": "4",
+                            "assist": "Dwight Gayle"
                         },
                         {
+                            "scorer": "Riyad Mahrez",
                             "own_goal": "false",
-                            "assist": "Wilfred Ndidi",
-                            "scorer": "26. Riyad Mahrez",
-                            "minute": "20"
+                            "minute": "20",
+                            "assist": "Wilfred Ndidi"
                         },
                         {
+                            "scorer": "Demarai Gray",
                             "own_goal": "false",
-                            "assist": "Marc Albrighton",
-                            "scorer": "7. Demarai Gray",
-                            "minute": "60"
+                            "minute": "60",
+                            "assist": "Marc Albrighton"
                         },
                         {
+                            "scorer": "Dwight Gayle",
                             "own_goal": "false",
-                            "assist": "Mikel Merino",
-                            "scorer": "9. Dwight Gayle",
-                            "minute": "73"
+                            "minute": "73",
+                            "assist": "Mikel Merino"
                         },
                         {
+                            "scorer": "Ayoze Pérez",
                             "own_goal": "true",
-                            "scorer": "17. Ayoze Pérez",
                             "minute": "86"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "7. Demarai Gray",
-                            "card": "yellow",
-                            "minute": "12"
-                        },
-                        {
-                            "player": "14. Isaac Hayden",
-                            "card": "yellow",
-                            "minute": "75"
-                        },
-                        {
-                            "player": "20. Florian Lejeune",
-                            "card": "yellow",
-                            "minute": "81"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22497",
                 "away_team": "Leicester",
                 "score": "2-3",
-                "home_team": "Newcastle",
-                "url": "https://www.premierleague.com/match/22497"
+                "home_team": "Newcastle"
             },
             {
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "64",
-                            "in": "30. Christian Atsu",
-                            "out": "11. Matt Ritchie"
+                            "in": "Christian Atsu",
+                            "out": "Matt Ritchie",
+                            "minute": "64"
                         },
                         {
-                            "minute": "71",
-                            "in": "17. Ayoze Pérez",
-                            "out": "7. Jacob Murphy"
+                            "in": "Ayoze Pérez",
+                            "out": "Jacob Murphy",
+                            "minute": "71"
                         },
                         {
-                            "minute": "73",
-                            "in": "20. Shinji Okazaki",
-                            "out": "7. Demarai Gray"
+                            "in": "Shinji Okazaki",
+                            "out": "Demarai Gray",
+                            "minute": "73"
                         },
                         {
-                            "minute": "88",
-                            "in": "45. Aleksandar Mitrovic",
-                            "out": "21. Joselu"
+                            "in": "Aleksandar Mitrovic",
+                            "out": "Joselu",
+                            "minute": "88"
                         },
                         {
-                            "minute": "89",
-                            "in": "28. Christian Fuchs",
-                            "out": "26. Riyad Mahrez"
+                            "in": "Christian Fuchs",
+                            "out": "Riyad Mahrez",
+                            "minute": "89"
                         },
                         {
-                            "minute": "90",
-                            "in": "23. Leonardo Ulloa",
-                            "out": "9. Jamie Vardy"
+                            "in": "Leonardo Ulloa",
+                            "out": "Jamie Vardy",
+                            "minute": "90"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "12",
+                            "player": "Demarai Gray"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "75",
+                            "player": "Isaac Hayden"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "81",
+                            "player": "Florian Lejeune"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Joselu",
                             "own_goal": "false",
-                            "assist": "Dwight Gayle",
-                            "scorer": "21. Joselu",
-                            "minute": "4"
+                            "minute": "4",
+                            "assist": "Dwight Gayle"
                         },
                         {
+                            "scorer": "Riyad Mahrez",
                             "own_goal": "false",
-                            "assist": "Wilfred Ndidi",
-                            "scorer": "26. Riyad Mahrez",
-                            "minute": "20"
+                            "minute": "20",
+                            "assist": "Wilfred Ndidi"
                         },
                         {
+                            "scorer": "Demarai Gray",
                             "own_goal": "false",
-                            "assist": "Marc Albrighton",
-                            "scorer": "7. Demarai Gray",
-                            "minute": "60"
+                            "minute": "60",
+                            "assist": "Marc Albrighton"
                         },
                         {
+                            "scorer": "Dwight Gayle",
                             "own_goal": "false",
-                            "assist": "Mikel Merino",
-                            "scorer": "9. Dwight Gayle",
-                            "minute": "73"
+                            "minute": "73",
+                            "assist": "Mikel Merino"
                         },
                         {
+                            "scorer": "Ayoze Pérez",
                             "own_goal": "true",
-                            "scorer": "17. Ayoze Pérez",
                             "minute": "86"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "7. Demarai Gray",
-                            "card": "yellow",
-                            "minute": "12"
-                        },
-                        {
-                            "player": "14. Isaac Hayden",
-                            "card": "yellow",
-                            "minute": "75"
-                        },
-                        {
-                            "player": "20. Florian Lejeune",
-                            "card": "yellow",
-                            "minute": "81"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22497",
                 "away_team": "Leicester",
                 "score": "2-3",
-                "home_team": "Newcastle",
-                "url": "https://www.premierleague.com/match/22497"
+                "home_team": "Newcastle"
             },
             {
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "64",
-                            "in": "30. Christian Atsu",
-                            "out": "11. Matt Ritchie"
+                            "in": "Christian Atsu",
+                            "out": "Matt Ritchie",
+                            "minute": "64"
                         },
                         {
-                            "minute": "71",
-                            "in": "17. Ayoze Pérez",
-                            "out": "7. Jacob Murphy"
+                            "in": "Ayoze Pérez",
+                            "out": "Jacob Murphy",
+                            "minute": "71"
                         },
                         {
-                            "minute": "73",
-                            "in": "20. Shinji Okazaki",
-                            "out": "7. Demarai Gray"
+                            "in": "Shinji Okazaki",
+                            "out": "Demarai Gray",
+                            "minute": "73"
                         },
                         {
-                            "minute": "88",
-                            "in": "45. Aleksandar Mitrovic",
-                            "out": "21. Joselu"
+                            "in": "Aleksandar Mitrovic",
+                            "out": "Joselu",
+                            "minute": "88"
                         },
                         {
-                            "minute": "89",
-                            "in": "28. Christian Fuchs",
-                            "out": "26. Riyad Mahrez"
+                            "in": "Christian Fuchs",
+                            "out": "Riyad Mahrez",
+                            "minute": "89"
                         },
                         {
-                            "minute": "90",
-                            "in": "23. Leonardo Ulloa",
-                            "out": "9. Jamie Vardy"
+                            "in": "Leonardo Ulloa",
+                            "out": "Jamie Vardy",
+                            "minute": "90"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "12",
+                            "player": "Demarai Gray"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "75",
+                            "player": "Isaac Hayden"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "81",
+                            "player": "Florian Lejeune"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Joselu",
                             "own_goal": "false",
-                            "assist": "Dwight Gayle",
-                            "scorer": "21. Joselu",
-                            "minute": "4"
+                            "minute": "4",
+                            "assist": "Dwight Gayle"
                         },
                         {
+                            "scorer": "Riyad Mahrez",
                             "own_goal": "false",
-                            "assist": "Wilfred Ndidi",
-                            "scorer": "26. Riyad Mahrez",
-                            "minute": "20"
+                            "minute": "20",
+                            "assist": "Wilfred Ndidi"
                         },
                         {
+                            "scorer": "Demarai Gray",
                             "own_goal": "false",
-                            "assist": "Marc Albrighton",
-                            "scorer": "7. Demarai Gray",
-                            "minute": "60"
+                            "minute": "60",
+                            "assist": "Marc Albrighton"
                         },
                         {
+                            "scorer": "Dwight Gayle",
                             "own_goal": "false",
-                            "assist": "Mikel Merino",
-                            "scorer": "9. Dwight Gayle",
-                            "minute": "73"
+                            "minute": "73",
+                            "assist": "Mikel Merino"
                         },
                         {
+                            "scorer": "Ayoze Pérez",
                             "own_goal": "true",
-                            "scorer": "17. Ayoze Pérez",
                             "minute": "86"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "7. Demarai Gray",
-                            "card": "yellow",
-                            "minute": "12"
-                        },
-                        {
-                            "player": "14. Isaac Hayden",
-                            "card": "yellow",
-                            "minute": "75"
-                        },
-                        {
-                            "player": "20. Florian Lejeune",
-                            "card": "yellow",
-                            "minute": "81"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22497",
                 "away_team": "Leicester",
                 "score": "2-3",
-                "home_team": "Newcastle",
-                "url": "https://www.premierleague.com/match/22497"
+                "home_team": "Newcastle"
             },
             {
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "64",
-                            "in": "30. Christian Atsu",
-                            "out": "11. Matt Ritchie"
+                            "in": "Christian Atsu",
+                            "out": "Matt Ritchie",
+                            "minute": "64"
                         },
                         {
-                            "minute": "71",
-                            "in": "17. Ayoze Pérez",
-                            "out": "7. Jacob Murphy"
+                            "in": "Ayoze Pérez",
+                            "out": "Jacob Murphy",
+                            "minute": "71"
                         },
                         {
-                            "minute": "73",
-                            "in": "20. Shinji Okazaki",
-                            "out": "7. Demarai Gray"
+                            "in": "Shinji Okazaki",
+                            "out": "Demarai Gray",
+                            "minute": "73"
                         },
                         {
-                            "minute": "88",
-                            "in": "45. Aleksandar Mitrovic",
-                            "out": "21. Joselu"
+                            "in": "Aleksandar Mitrovic",
+                            "out": "Joselu",
+                            "minute": "88"
                         },
                         {
-                            "minute": "89",
-                            "in": "28. Christian Fuchs",
-                            "out": "26. Riyad Mahrez"
+                            "in": "Christian Fuchs",
+                            "out": "Riyad Mahrez",
+                            "minute": "89"
                         },
                         {
-                            "minute": "90",
-                            "in": "23. Leonardo Ulloa",
-                            "out": "9. Jamie Vardy"
+                            "in": "Leonardo Ulloa",
+                            "out": "Jamie Vardy",
+                            "minute": "90"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "12",
+                            "player": "Demarai Gray"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "75",
+                            "player": "Isaac Hayden"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "81",
+                            "player": "Florian Lejeune"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Joselu",
                             "own_goal": "false",
-                            "assist": "Dwight Gayle",
-                            "scorer": "21. Joselu",
-                            "minute": "4"
+                            "minute": "4",
+                            "assist": "Dwight Gayle"
                         },
                         {
+                            "scorer": "Riyad Mahrez",
                             "own_goal": "false",
-                            "assist": "Wilfred Ndidi",
-                            "scorer": "26. Riyad Mahrez",
-                            "minute": "20"
+                            "minute": "20",
+                            "assist": "Wilfred Ndidi"
                         },
                         {
+                            "scorer": "Demarai Gray",
                             "own_goal": "false",
-                            "assist": "Marc Albrighton",
-                            "scorer": "7. Demarai Gray",
-                            "minute": "60"
+                            "minute": "60",
+                            "assist": "Marc Albrighton"
                         },
                         {
+                            "scorer": "Dwight Gayle",
                             "own_goal": "false",
-                            "assist": "Mikel Merino",
-                            "scorer": "9. Dwight Gayle",
-                            "minute": "73"
+                            "minute": "73",
+                            "assist": "Mikel Merino"
                         },
                         {
+                            "scorer": "Ayoze Pérez",
                             "own_goal": "true",
-                            "scorer": "17. Ayoze Pérez",
                             "minute": "86"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "7. Demarai Gray",
-                            "card": "yellow",
-                            "minute": "12"
-                        },
-                        {
-                            "player": "14. Isaac Hayden",
-                            "card": "yellow",
-                            "minute": "75"
-                        },
-                        {
-                            "player": "20. Florian Lejeune",
-                            "card": "yellow",
-                            "minute": "81"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22497",
                 "away_team": "Leicester",
                 "score": "2-3",
-                "home_team": "Newcastle",
-                "url": "https://www.premierleague.com/match/22497"
+                "home_team": "Newcastle"
             },
             {
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "64",
-                            "in": "30. Christian Atsu",
-                            "out": "11. Matt Ritchie"
+                            "in": "Christian Atsu",
+                            "out": "Matt Ritchie",
+                            "minute": "64"
                         },
                         {
-                            "minute": "71",
-                            "in": "17. Ayoze Pérez",
-                            "out": "7. Jacob Murphy"
+                            "in": "Ayoze Pérez",
+                            "out": "Jacob Murphy",
+                            "minute": "71"
                         },
                         {
-                            "minute": "73",
-                            "in": "20. Shinji Okazaki",
-                            "out": "7. Demarai Gray"
+                            "in": "Shinji Okazaki",
+                            "out": "Demarai Gray",
+                            "minute": "73"
                         },
                         {
-                            "minute": "88",
-                            "in": "45. Aleksandar Mitrovic",
-                            "out": "21. Joselu"
+                            "in": "Aleksandar Mitrovic",
+                            "out": "Joselu",
+                            "minute": "88"
                         },
                         {
-                            "minute": "89",
-                            "in": "28. Christian Fuchs",
-                            "out": "26. Riyad Mahrez"
+                            "in": "Christian Fuchs",
+                            "out": "Riyad Mahrez",
+                            "minute": "89"
                         },
                         {
-                            "minute": "90",
-                            "in": "23. Leonardo Ulloa",
-                            "out": "9. Jamie Vardy"
+                            "in": "Leonardo Ulloa",
+                            "out": "Jamie Vardy",
+                            "minute": "90"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "12",
+                            "player": "Demarai Gray"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "75",
+                            "player": "Isaac Hayden"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "81",
+                            "player": "Florian Lejeune"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Joselu",
                             "own_goal": "false",
-                            "assist": "Dwight Gayle",
-                            "scorer": "21. Joselu",
-                            "minute": "4"
+                            "minute": "4",
+                            "assist": "Dwight Gayle"
                         },
                         {
+                            "scorer": "Riyad Mahrez",
                             "own_goal": "false",
-                            "assist": "Wilfred Ndidi",
-                            "scorer": "26. Riyad Mahrez",
-                            "minute": "20"
+                            "minute": "20",
+                            "assist": "Wilfred Ndidi"
                         },
                         {
+                            "scorer": "Demarai Gray",
                             "own_goal": "false",
-                            "assist": "Marc Albrighton",
-                            "scorer": "7. Demarai Gray",
-                            "minute": "60"
+                            "minute": "60",
+                            "assist": "Marc Albrighton"
                         },
                         {
+                            "scorer": "Dwight Gayle",
                             "own_goal": "false",
-                            "assist": "Mikel Merino",
-                            "scorer": "9. Dwight Gayle",
-                            "minute": "73"
+                            "minute": "73",
+                            "assist": "Mikel Merino"
                         },
                         {
+                            "scorer": "Ayoze Pérez",
                             "own_goal": "true",
-                            "scorer": "17. Ayoze Pérez",
                             "minute": "86"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "7. Demarai Gray",
-                            "card": "yellow",
-                            "minute": "12"
-                        },
-                        {
-                            "player": "14. Isaac Hayden",
-                            "card": "yellow",
-                            "minute": "75"
-                        },
-                        {
-                            "player": "20. Florian Lejeune",
-                            "card": "yellow",
-                            "minute": "81"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22497",
                 "away_team": "Leicester",
                 "score": "2-3",
-                "home_team": "Newcastle",
-                "url": "https://www.premierleague.com/match/22497"
+                "home_team": "Newcastle"
             },
             {
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "64",
-                            "in": "30. Christian Atsu",
-                            "out": "11. Matt Ritchie"
+                            "in": "Christian Atsu",
+                            "out": "Matt Ritchie",
+                            "minute": "64"
                         },
                         {
-                            "minute": "71",
-                            "in": "17. Ayoze Pérez",
-                            "out": "7. Jacob Murphy"
+                            "in": "Ayoze Pérez",
+                            "out": "Jacob Murphy",
+                            "minute": "71"
                         },
                         {
-                            "minute": "73",
-                            "in": "20. Shinji Okazaki",
-                            "out": "7. Demarai Gray"
+                            "in": "Shinji Okazaki",
+                            "out": "Demarai Gray",
+                            "minute": "73"
                         },
                         {
-                            "minute": "88",
-                            "in": "45. Aleksandar Mitrovic",
-                            "out": "21. Joselu"
+                            "in": "Aleksandar Mitrovic",
+                            "out": "Joselu",
+                            "minute": "88"
                         },
                         {
-                            "minute": "89",
-                            "in": "28. Christian Fuchs",
-                            "out": "26. Riyad Mahrez"
+                            "in": "Christian Fuchs",
+                            "out": "Riyad Mahrez",
+                            "minute": "89"
                         },
                         {
-                            "minute": "90",
-                            "in": "23. Leonardo Ulloa",
-                            "out": "9. Jamie Vardy"
+                            "in": "Leonardo Ulloa",
+                            "out": "Jamie Vardy",
+                            "minute": "90"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "12",
+                            "player": "Demarai Gray"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "75",
+                            "player": "Isaac Hayden"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "81",
+                            "player": "Florian Lejeune"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Joselu",
                             "own_goal": "false",
-                            "assist": "Dwight Gayle",
-                            "scorer": "21. Joselu",
-                            "minute": "4"
+                            "minute": "4",
+                            "assist": "Dwight Gayle"
                         },
                         {
+                            "scorer": "Riyad Mahrez",
                             "own_goal": "false",
-                            "assist": "Wilfred Ndidi",
-                            "scorer": "26. Riyad Mahrez",
-                            "minute": "20"
+                            "minute": "20",
+                            "assist": "Wilfred Ndidi"
                         },
                         {
+                            "scorer": "Demarai Gray",
                             "own_goal": "false",
-                            "assist": "Marc Albrighton",
-                            "scorer": "7. Demarai Gray",
-                            "minute": "60"
+                            "minute": "60",
+                            "assist": "Marc Albrighton"
                         },
                         {
+                            "scorer": "Dwight Gayle",
                             "own_goal": "false",
-                            "assist": "Mikel Merino",
-                            "scorer": "9. Dwight Gayle",
-                            "minute": "73"
+                            "minute": "73",
+                            "assist": "Mikel Merino"
                         },
                         {
+                            "scorer": "Ayoze Pérez",
                             "own_goal": "true",
-                            "scorer": "17. Ayoze Pérez",
                             "minute": "86"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "7. Demarai Gray",
-                            "card": "yellow",
-                            "minute": "12"
-                        },
-                        {
-                            "player": "14. Isaac Hayden",
-                            "card": "yellow",
-                            "minute": "75"
-                        },
-                        {
-                            "player": "20. Florian Lejeune",
-                            "card": "yellow",
-                            "minute": "81"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22497",
                 "away_team": "Leicester",
                 "score": "2-3",
-                "home_team": "Newcastle",
-                "url": "https://www.premierleague.com/match/22497"
+                "home_team": "Newcastle"
             }
         ],
         "date": "Saturday 9 December 2017"

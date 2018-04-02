@@ -5,60 +5,60 @@
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "65",
-                            "in": "33. Jordon Ibe",
-                            "out": "24. Ryan Fraser"
+                            "in": "Jordon Ibe",
+                            "out": "Ryan Fraser",
+                            "minute": "65"
                         },
                         {
-                            "minute": "76",
-                            "in": "19. José Izquierdo",
-                            "out": "11. Anthony Knockaert"
+                            "in": "José Izquierdo",
+                            "out": "Anthony Knockaert",
+                            "minute": "76"
                         },
                         {
-                            "minute": "77",
-                            "in": "17. Glenn Murray",
-                            "out": "13. Pascal Groß"
+                            "in": "Glenn Murray",
+                            "out": "Pascal Groß",
+                            "minute": "77"
                         },
                         {
-                            "minute": "78",
-                            "in": "9. Benik Afobe",
-                            "out": "18. Jermain Defoe"
+                            "in": "Benik Afobe",
+                            "out": "Jermain Defoe",
+                            "minute": "78"
                         },
                         {
+                            "in": "Dan Gosling",
+                            "out": "Joshua King",
                             "minute": "90",
-                            "additional": "3",
-                            "in": "4. Dan Gosling",
-                            "out": "17. Joshua King"
+                            "additional": "3"
                         }
                     ],
+                    "referee": "Craig Pawson",
+                    "kick_off": "20:00",
+                    "cards": [],
                     "goals": [
                         {
+                            "scorer": "Solly March",
                             "own_goal": "false",
-                            "assist": "Pascal Groß",
-                            "scorer": "20. Solly March",
-                            "minute": "55"
+                            "minute": "55",
+                            "assist": "Pascal Groß"
                         },
                         {
+                            "scorer": "Andrew Surman",
                             "own_goal": "false",
-                            "assist": "Jordon Ibe",
-                            "scorer": "6. Andrew Surman",
-                            "minute": "67"
+                            "minute": "67",
+                            "assist": "Jordon Ibe"
                         },
                         {
+                            "scorer": "Jermain Defoe",
                             "own_goal": "false",
-                            "assist": "Jordon Ibe",
-                            "scorer": "18. Jermain Defoe",
-                            "minute": "73"
+                            "minute": "73",
+                            "assist": "Jordon Ibe"
                         }
-                    ],
-                    "cards": [],
-                    "referee": "Craig Pawson",
-                    "kick_off": "20:00"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22382",
                 "away_team": "Brighton",
                 "score": "2-1",
-                "home_team": "Bournemouth",
-                "url": "https://www.premierleague.com/match/22382"
+                "home_team": "Bournemouth"
             }
         ],
         "date": "Friday 15 September 2017"

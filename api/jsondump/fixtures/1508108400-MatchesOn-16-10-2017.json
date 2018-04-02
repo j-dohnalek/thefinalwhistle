@@ -5,60 +5,60 @@
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "45",
-                            "in": "20. André Ayew",
-                            "out": "8. Cheikhou Kouyaté"
+                            "in": "André Ayew",
+                            "out": "Cheikhou Kouyaté",
+                            "minute": "45"
                         },
                         {
-                            "minute": "70",
-                            "in": "20. Solly March",
-                            "out": "19. José Izquierdo"
+                            "in": "Solly March",
+                            "out": "José Izquierdo",
+                            "minute": "70"
                         },
                         {
-                            "minute": "74",
-                            "in": "31. Edimilson Fernandes",
-                            "out": "7. Marko Arnautovic"
+                            "in": "Edimilson Fernandes",
+                            "out": "Marko Arnautovic",
+                            "minute": "74"
                         },
                         {
-                            "minute": "76",
-                            "in": "37. Isaiah Brown",
-                            "out": "13. Pascal Groß"
+                            "in": "Isaiah Brown",
+                            "out": "Pascal Groß",
+                            "minute": "76"
                         },
                         {
-                            "minute": "84",
-                            "in": "21. Ezequiel Schelotto",
-                            "out": "11. Anthony Knockaert"
+                            "in": "Ezequiel Schelotto",
+                            "out": "Anthony Knockaert",
+                            "minute": "84"
+                        }
+                    ],
+                    "referee": "Martin Atkinson",
+                    "kick_off": "20:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "23",
+                            "player": "Chicharito"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Glenn Murray",
                             "own_goal": "false",
-                            "assist": "Pascal Groß",
-                            "scorer": "17. Glenn Murray",
-                            "minute": "10"
+                            "minute": "10",
+                            "assist": "Pascal Groß"
                         },
                         {
+                            "scorer": "José Izquierdo",
                             "own_goal": "false",
+                            "minute": "45",
                             "additional": "2",
-                            "assist": "Davy Pröpper",
-                            "scorer": "19. José Izquierdo",
-                            "minute": "45"
+                            "assist": "Davy Pröpper"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "17. Chicharito",
-                            "card": "yellow",
-                            "minute": "23"
-                        }
-                    ],
-                    "referee": "Martin Atkinson",
-                    "kick_off": "20:00"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22431",
                 "away_team": "Brighton",
                 "score": "0-3",
-                "home_team": "West Ham",
-                "url": "https://www.premierleague.com/match/22431"
+                "home_team": "West Ham"
             }
         ],
         "date": "Friday 20 October 2017"

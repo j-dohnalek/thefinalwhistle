@@ -5,155 +5,155 @@
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "57",
-                            "in": "19. Sofiane Boufal",
-                            "out": "22. Nathan Redmond"
+                            "in": "Sofiane Boufal",
+                            "out": "Nathan Redmond",
+                            "minute": "57"
                         },
                         {
-                            "minute": "63",
-                            "in": "23. Mikel Merino",
-                            "out": "17. Ayoze Pérez"
+                            "in": "Mikel Merino",
+                            "out": "Ayoze Pérez",
+                            "minute": "63"
                         },
                         {
-                            "minute": "67",
-                            "in": "8. Steven Davis",
-                            "out": "14. Oriol Romeu"
+                            "in": "Steven Davis",
+                            "out": "Oriol Romeu",
+                            "minute": "67"
                         },
                         {
-                            "minute": "68",
-                            "in": "9. Dwight Gayle",
-                            "out": "21. Joselu"
+                            "in": "Dwight Gayle",
+                            "out": "Joselu",
+                            "minute": "68"
                         },
                         {
-                            "minute": "82",
-                            "in": "10. Charlie Austin",
-                            "out": "7. Shane Long"
+                            "in": "Charlie Austin",
+                            "out": "Shane Long",
+                            "minute": "82"
                         },
                         {
-                            "minute": "82",
-                            "in": "7. Jacob Murphy",
-                            "out": "30. Christian Atsu"
+                            "in": "Jacob Murphy",
+                            "out": "Christian Atsu",
+                            "minute": "82"
+                        }
+                    ],
+                    "referee": "Kevin Friend",
+                    "kick_off": "16:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "40",
+                            "player": "DeAndre Yedlin"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "77",
+                            "player": "Manolo Gabbiadini"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "79",
+                            "player": "Isaac Hayden"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Isaac Hayden",
                             "own_goal": "false",
-                            "scorer": "14. Isaac Hayden",
                             "minute": "20"
                         },
                         {
+                            "scorer": "Manolo Gabbiadini",
                             "own_goal": "false",
-                            "assist": "Nathan Redmond",
-                            "scorer": "20. Manolo Gabbiadini",
-                            "minute": "49"
+                            "minute": "49",
+                            "assist": "Nathan Redmond"
                         },
                         {
+                            "scorer": "Ayoze Pérez",
                             "own_goal": "false",
-                            "scorer": "17. Ayoze Pérez",
                             "minute": "51"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "22. DeAndre Yedlin",
-                            "card": "yellow",
-                            "minute": "40"
-                        },
-                        {
-                            "player": "20. Manolo Gabbiadini",
-                            "card": "yellow",
-                            "minute": "77"
-                        },
-                        {
-                            "player": "14. Isaac Hayden",
-                            "card": "yellow",
-                            "minute": "79"
-                        }
-                    ],
-                    "referee": "Kevin Friend",
-                    "kick_off": "16:00"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22418",
                 "away_team": "Newcastle",
                 "score": "2-2",
-                "home_team": "Southampton",
-                "url": "https://www.premierleague.com/match/22418"
+                "home_team": "Southampton"
             },
             {
                 "details": {
                     "substitutions": [
                         {
-                            "minute": "57",
-                            "in": "19. Sofiane Boufal",
-                            "out": "22. Nathan Redmond"
+                            "in": "Sofiane Boufal",
+                            "out": "Nathan Redmond",
+                            "minute": "57"
                         },
                         {
-                            "minute": "63",
-                            "in": "23. Mikel Merino",
-                            "out": "17. Ayoze Pérez"
+                            "in": "Mikel Merino",
+                            "out": "Ayoze Pérez",
+                            "minute": "63"
                         },
                         {
-                            "minute": "67",
-                            "in": "8. Steven Davis",
-                            "out": "14. Oriol Romeu"
+                            "in": "Steven Davis",
+                            "out": "Oriol Romeu",
+                            "minute": "67"
                         },
                         {
-                            "minute": "68",
-                            "in": "9. Dwight Gayle",
-                            "out": "21. Joselu"
+                            "in": "Dwight Gayle",
+                            "out": "Joselu",
+                            "minute": "68"
                         },
                         {
-                            "minute": "82",
-                            "in": "10. Charlie Austin",
-                            "out": "7. Shane Long"
+                            "in": "Charlie Austin",
+                            "out": "Shane Long",
+                            "minute": "82"
                         },
                         {
-                            "minute": "82",
-                            "in": "7. Jacob Murphy",
-                            "out": "30. Christian Atsu"
+                            "in": "Jacob Murphy",
+                            "out": "Christian Atsu",
+                            "minute": "82"
+                        }
+                    ],
+                    "referee": "Kevin Friend",
+                    "kick_off": "16:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "40",
+                            "player": "DeAndre Yedlin"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "77",
+                            "player": "Manolo Gabbiadini"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "79",
+                            "player": "Isaac Hayden"
                         }
                     ],
                     "goals": [
                         {
+                            "scorer": "Isaac Hayden",
                             "own_goal": "false",
-                            "scorer": "14. Isaac Hayden",
                             "minute": "20"
                         },
                         {
+                            "scorer": "Manolo Gabbiadini",
                             "own_goal": "false",
-                            "assist": "Nathan Redmond",
-                            "scorer": "20. Manolo Gabbiadini",
-                            "minute": "49"
+                            "minute": "49",
+                            "assist": "Nathan Redmond"
                         },
                         {
+                            "scorer": "Ayoze Pérez",
                             "own_goal": "false",
-                            "scorer": "17. Ayoze Pérez",
                             "minute": "51"
                         }
-                    ],
-                    "cards": [
-                        {
-                            "player": "22. DeAndre Yedlin",
-                            "card": "yellow",
-                            "minute": "40"
-                        },
-                        {
-                            "player": "20. Manolo Gabbiadini",
-                            "card": "yellow",
-                            "minute": "77"
-                        },
-                        {
-                            "player": "14. Isaac Hayden",
-                            "card": "yellow",
-                            "minute": "79"
-                        }
-                    ],
-                    "referee": "Kevin Friend",
-                    "kick_off": "16:00"
+                    ]
                 },
+                "url": "https://www.premierleague.com/match/22418",
                 "away_team": "Newcastle",
                 "score": "2-2",
-                "home_team": "Southampton",
-                "url": "https://www.premierleague.com/match/22418"
+                "home_team": "Southampton"
             }
         ],
         "date": "Sunday 15 October 2017"
