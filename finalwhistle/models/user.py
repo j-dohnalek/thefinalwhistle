@@ -4,27 +4,51 @@ Database models for users/accounts
 from finalwhistle import db, bcrypt
 from finalwhistle.helpers import new_uuid
 from sqlalchemy.sql import func
+from flask_login import UserMixin
 
 
 def hash_password(password):
     """
     Generates hash of the password
-
-    In Python 3, you need to use decode(‘utf-8’) on generate_password_hash() [1]
-
-    [1] https://flask-bcrypt.readthedocs.io/en/latest/#usage
     :param password: Supplied password
     :return: Hash of the password
     """
     from finalwhistle import bcrypt
-    return bcrypt.generate_password_hash(password).decode('utf-8')
+    return bcrypt.generate_password_hash(password)
 
 
 def user_from_email(email):
+    """
+    Get user object from email address
+    :param email: email address
+    :return: user object associated with supplied email
+    """
     return User.query.filter_by(email=email).first()
 
 
-class User(db.Model):
+def user_from_id(user_id):
+    """
+    Get user object from id. Required for flask-login functionality [1]
+    [1]: https://flask-login.readthedocs.io/en/latest/#how-it-works
+    :param id:
+    :return:
+    """
+    return User.query.filter_by(id=user_id).first()
+
+
+def attempt_login(email, password):
+    """
+    Check validity of supplied email/password
+    :param email: email address
+    :param password: password
+    :return: user object if password correct, else None
+    """
+    user = user_from_email(email)
+    if user.password_valid(password):
+        return user
+    return None
+
+class User(db.Model, UserMixin):
     """
     The blocked/restricted fields in the logical diagram could be move to a security group which
     can be expanded to limit access to the commenting system and basic account actions (e.g. logging in).
@@ -47,13 +71,14 @@ class User(db.Model):
     activation_token = db.Column(db.String, nullable=False, default=new_uuid)
     registered_date = db.Column(db.DateTime, nullable=False, server_default=func.now())
     last_login = db.Column(db.DateTime, nullable=False, server_default=func.now())
-    supported_team_id = db.Column(db.Integer, db.ForeignKey('teams.id'), nullable=True)
-    supported_team = db.relationship('Team')
-    usergroup_id = db.Column(db.Integer, db.ForeignKey('usergroups.id'), nullable=True)
-    usergroup = db.relationship('UserGroup')
     # Access token is used for password reset requests and the 'remember me' function
     access_token = db.Column(db.String, nullable=True)
     access_token_expires_at = db.Column(db.DateTime, nullable=True)
+    # TODO: write these models and introduce into test db
+    #supported_team_id = db.Column(db.Integer, db.ForeignKey('teams.id'), nullable=True)
+    #supported_team = db.relationship('Team')
+    #usergroup_id = db.Column(db.Integer, db.ForeignKey('usergroups.id'), nullable=True)
+    #usergroup = db.relationship('UserGroup')
 
     def __init__(self, email, username, password):
         """
@@ -66,6 +91,9 @@ class User(db.Model):
         self.username = username
         self.pw_hash = hash_password(password)
         # TODO: send account activation email
+
+    def __repr__(self):
+        return f'<User> {self.id}: {self.email}'
 
     def password_valid(self, password):
         """

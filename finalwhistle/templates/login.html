@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login test page</title>
+</head>
+<body>
+    {% from "template_helpers.html" import render_field %}
+    <form method="POST" action="/login">
+        {{ form.csrf_token }}
+        {{ render_field(form.email) }}
+        {{ render_field(form.password) }}
+        {{ render_field(form.remember_me) }}
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>

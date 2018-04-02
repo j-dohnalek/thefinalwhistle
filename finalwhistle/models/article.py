@@ -8,7 +8,7 @@ from sqlalchemy.orm import validates
 class Article(db.Model):
     __tablename__ = 'articles'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    author = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+    author = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
     title = db.Column(db.String(255), nullable=False)
     content = db.Column(db.String, nullable=False)
     submitted_at = db.Column(db.DateTime, nullable=False)
@@ -25,8 +25,8 @@ class Article(db.Model):
 class ArticleComment(db.Model):
     __tablename__ = 'article_comments'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    author = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
-    on_article = db.Column(db.Integer, db.ForeignKey('article.id'), nullable=False)
+    author = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    on_article = db.Column(db.Integer, db.ForeignKey('articles.id'), nullable=False)
     content = db.Column(db.String, nullable=False)
     submitted_at = db.Column(db.DateTime, nullable=False)
     last_edited = db.Column(db.DateTime, nullable=False)

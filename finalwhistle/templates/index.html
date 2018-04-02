@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+    {% if current_user.is_authenticated %}
+        welcome {{ current_user.username }} <br><br>
+    {% endif %}
+    <a href="/login">login</a> <br>
+    <a href="/logout">logout</a> <br>
+    <a href="/restricted">restricted</a> <br>
+
+</body>
+</html>
