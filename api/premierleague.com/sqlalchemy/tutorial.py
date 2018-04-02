@@ -35,11 +35,6 @@ class Team(Base):
     name = Column(String(50), nullable=False)
 
 
-
-
-
-
-
 # Create an engine that stores data in the local directory's
 # sqlalchemy_example.db file.
 engine = create_engine('mysql+mysqldb://root:123456@localhost/finalwhistle')

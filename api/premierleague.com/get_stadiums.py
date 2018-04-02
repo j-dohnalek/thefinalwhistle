@@ -12,7 +12,7 @@ from helper import grab_html_by_class, init_driver
 
 
 URL = "https://www.premierleague.com/clubs"
-JSON_PATH = 'json/clubs_and_stadiums.json'
+JSON_PATH = 'jsondump/list_of_stadiums.json'
 
 
 # FUNCTIONS ####################################################################
@@ -25,21 +25,16 @@ def main():
 
     club_list = soup.find('ul', attrs={'class': 'dataContainer'})
 
-    clubs = {}
+    club = {}
     for row in club_list.findAll('li'):
 
         stadium_name = row.find('div', attrs={'class': 'stadiumName'}).get_text().strip()
         club_name = row.find('h4', attrs={'class': 'clubName'}).get_text().strip()
-        api_id = row.find('a', attrs={'class': 'indexItem'})['href'].split('/')[2].strip()
-
-        club = []
-        club.append({'stadium': stadium_name})
-        club.append({'club_api_id': api_id})
-        clubs[club_name] = club
+        club[club_name] = stadium_name
 
     # Write the data to json
     with open(JSON_PATH, 'w') as outfile:
-        values = [{"club": k, "data": v} for k, v in clubs.items()]
+        values = [{"club": k, "stadium": v} for k, v in club.items()]
         json.dump(values, outfile, ensure_ascii=False, indent=4)
         print('Writing JSON: {}'.format(JSON_PATH))
 
