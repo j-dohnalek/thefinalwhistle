@@ -4,15 +4,12 @@ Database models for users/accounts
 from finalwhistle import db, bcrypt
 from finalwhistle.helpers import new_uuid
 from sqlalchemy.sql import func
+from flask_login import UserMixin
 
 
 def hash_password(password):
     """
     Generates hash of the password
-
-    In Python 3, you need to use decode(‘utf-8’) on generate_password_hash() [1]
-
-    [1] https://flask-bcrypt.readthedocs.io/en/latest/#usage
     :param password: Supplied password
     :return: Hash of the password
     """
@@ -21,10 +18,37 @@ def hash_password(password):
 
 
 def user_from_email(email):
+    """
+    Get user object from email address
+    :param email: email address
+    :return: user object associated with supplied email
+    """
     return User.query.filter_by(email=email).first()
 
 
-class User(db.Model):
+def user_from_id(user_id):
+    """
+    Get user object from id. Required for flask-login functionality [1]
+    [1]: https://flask-login.readthedocs.io/en/latest/#how-it-works
+    :param id:
+    :return:
+    """
+    return User.query.filter_by(id=user_id).first()
+
+
+def attempt_login(email, password):
+    """
+    Check validity of supplied email/password
+    :param email: email address
+    :param password: password
+    :return: user object if password correct, else None
+    """
+    user = user_from_email(email)
+    if user.password_valid(password):
+        return user
+    return None
+
+class User(db.Model, UserMixin):
     """
     The blocked/restricted fields in the logical diagram could be move to a security group which
     can be expanded to limit access to the commenting system and basic account actions (e.g. logging in).

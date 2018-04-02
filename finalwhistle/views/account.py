@@ -1,7 +1,8 @@
 from finalwhistle import app
-from finalwhistle.models.user import user_from_email
+from finalwhistle.models.user import attempt_login
 from finalwhistle.views.forms.login import LoginForm
-from flask import request, render_template
+from flask import request, render_template, redirect, url_for
+from flask_login import login_required, login_user, logout_user
 
 
 #################################
@@ -9,14 +10,41 @@ from flask import request, render_template
 #################################
 @app.route('/login', methods=['GET'])
 def login():
-    login_form = LoginForm(request.form)
+    login_form = LoginForm()
     return render_template('login.html', form=login_form)
 
 
 @app.route('/login', methods=['POST'])
 def perform_login():
-    login_form = LoginForm(request.form)
-    return 'login post'
+    login_form = LoginForm()
+    if login_form.validate_on_submit():
+        print('login form validated')
+        # get login params from request form and attempt to fetch user
+        email = request.form['email']
+        password = request.form['password']
+        user = attempt_login(email, password)
+        # if email/password combo valid, log the user in via flask_login method
+        if user:
+            login_user(user)
+            return f'welcome {user.username}'
+        else:
+            return 'invalid credentials'
+    return render_template('login.html', form=login_form)
+
+
+# testing login required
+@app.route('/restricted', methods=['GET'])
+@login_required
+def restricted():
+    return 'restricted page'
+
+
+@app.route("/logout")
+@login_required
+def logout():
+    logout_user()
+    return redirect(url_for('login'))
+
 
 @app.route('/register', methods=['GET'])
 def register():
