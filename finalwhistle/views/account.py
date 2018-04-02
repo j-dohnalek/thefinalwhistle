@@ -1,6 +1,7 @@
 from finalwhistle import app
 from finalwhistle.models.user import attempt_login
 from finalwhistle.views.forms.login import LoginForm
+from finalwhistle.views.forms.registration import RegistrationForm
 from flask import request, render_template, redirect, url_for
 from flask_login import login_required, login_user, logout_user
 
@@ -8,6 +9,8 @@ from flask_login import login_required, login_user, logout_user
 #################################
 # guest account-related routing #
 #################################
+
+
 @app.route('/login', methods=['GET'])
 def login():
     login_form = LoginForm()
@@ -48,13 +51,16 @@ def logout():
 
 @app.route('/register', methods=['GET'])
 def register():
-    return 'registration form'
+    registration_form = RegistrationForm()
+    return render_template('register.html', form=registration_form)
 
 
 @app.route('/register', methods=['POST'])
 def perform_registration():
-    return 'registration (post)'
-
+    registration_form = RegistrationForm()
+    if registration_form.validate_on_submit():
+        # TODO: account creation login
+        raise NotImplementedError
 
 @app.route('/reset-password', methods=['GET'])
 def reset_password():
