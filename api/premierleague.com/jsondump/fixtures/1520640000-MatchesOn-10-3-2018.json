@@ -2,40 +2,40 @@
     {
         "fixtures": [
             {
+                "home_team": "Bournemouth",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Erik Lamela",
-                            "out": "Harry Kane",
-                            "minute": "34"
+                            "assist": "Adam Smith",
+                            "minute": "7",
+                            "scorer": "Junior Stanislas",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Joshua King",
-                            "out": "Lys Mousset",
-                            "minute": "67"
+                            "assist": "Serge Aurier",
+                            "minute": "35",
+                            "scorer": "Dele Alli",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Jordon Ibe",
-                            "out": "Charlie Daniels",
-                            "minute": "67"
+                            "assist": "Dele Alli",
+                            "minute": "62",
+                            "scorer": "Son Heung-Min",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Jermain Defoe",
-                            "out": "Junior Stanislas",
-                            "minute": "76"
+                            "assist": "Christian Eriksen",
+                            "minute": "87",
+                            "scorer": "Son Heung-Min",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Kieran Trippier",
-                            "out": "Danny Rose",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Moussa Sissoko",
-                            "out": "Dele Alli",
-                            "minute": "86"
+                            "additional": "1",
+                            "minute": "90",
+                            "scorer": "Serge Aurier",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Mike Dean",
                     "kick_off": "16:00",
                     "cards": [
                         {
@@ -49,79 +49,79 @@
                             "player": "Dan Gosling"
                         }
                     ],
-                    "goals": [
+                    "referee": "Mike Dean",
+                    "substitutions": [
                         {
-                            "scorer": "Junior Stanislas",
-                            "own_goal": "false",
-                            "minute": "7",
-                            "assist": "Adam Smith"
+                            "out": "Harry Kane",
+                            "in": "Erik Lamela",
+                            "minute": "34"
                         },
                         {
-                            "scorer": "Dele Alli",
-                            "own_goal": "false",
-                            "minute": "35",
-                            "assist": "Serge Aurier"
+                            "out": "Lys Mousset",
+                            "in": "Joshua King",
+                            "minute": "67"
                         },
                         {
-                            "scorer": "Son Heung-Min",
-                            "own_goal": "false",
-                            "minute": "62",
-                            "assist": "Dele Alli"
+                            "out": "Charlie Daniels",
+                            "in": "Jordon Ibe",
+                            "minute": "67"
                         },
                         {
-                            "scorer": "Son Heung-Min",
-                            "own_goal": "false",
-                            "minute": "87",
-                            "assist": "Christian Eriksen"
+                            "out": "Junior Stanislas",
+                            "in": "Jermain Defoe",
+                            "minute": "76"
                         },
                         {
-                            "scorer": "Serge Aurier",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "additional": "1"
+                            "out": "Danny Rose",
+                            "in": "Kieran Trippier",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Dele Alli",
+                            "in": "Moussa Sissoko",
+                            "minute": "86"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22633",
-                "away_team": "Spurs",
                 "score": "1-4",
-                "home_team": "Bournemouth"
+                "away_team": "Spurs"
             },
             {
+                "home_team": "Bournemouth",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Erik Lamela",
-                            "out": "Harry Kane",
-                            "minute": "34"
+                            "assist": "Adam Smith",
+                            "minute": "7",
+                            "scorer": "Junior Stanislas",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Joshua King",
-                            "out": "Lys Mousset",
-                            "minute": "67"
+                            "assist": "Serge Aurier",
+                            "minute": "35",
+                            "scorer": "Dele Alli",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Jordon Ibe",
-                            "out": "Charlie Daniels",
-                            "minute": "67"
+                            "assist": "Dele Alli",
+                            "minute": "62",
+                            "scorer": "Son Heung-Min",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Jermain Defoe",
-                            "out": "Junior Stanislas",
-                            "minute": "76"
+                            "assist": "Christian Eriksen",
+                            "minute": "87",
+                            "scorer": "Son Heung-Min",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Kieran Trippier",
-                            "out": "Danny Rose",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Moussa Sissoko",
-                            "out": "Dele Alli",
-                            "minute": "86"
+                            "additional": "1",
+                            "minute": "90",
+                            "scorer": "Serge Aurier",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Mike Dean",
                     "kick_off": "16:00",
                     "cards": [
                         {
@@ -135,43 +135,43 @@
                             "player": "Dan Gosling"
                         }
                     ],
-                    "goals": [
+                    "referee": "Mike Dean",
+                    "substitutions": [
                         {
-                            "scorer": "Junior Stanislas",
-                            "own_goal": "false",
-                            "minute": "7",
-                            "assist": "Adam Smith"
+                            "out": "Harry Kane",
+                            "in": "Erik Lamela",
+                            "minute": "34"
                         },
                         {
-                            "scorer": "Dele Alli",
-                            "own_goal": "false",
-                            "minute": "35",
-                            "assist": "Serge Aurier"
+                            "out": "Lys Mousset",
+                            "in": "Joshua King",
+                            "minute": "67"
                         },
                         {
-                            "scorer": "Son Heung-Min",
-                            "own_goal": "false",
-                            "minute": "62",
-                            "assist": "Dele Alli"
+                            "out": "Charlie Daniels",
+                            "in": "Jordon Ibe",
+                            "minute": "67"
                         },
                         {
-                            "scorer": "Son Heung-Min",
-                            "own_goal": "false",
-                            "minute": "87",
-                            "assist": "Christian Eriksen"
+                            "out": "Junior Stanislas",
+                            "in": "Jermain Defoe",
+                            "minute": "76"
                         },
                         {
-                            "scorer": "Serge Aurier",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "additional": "1"
+                            "out": "Danny Rose",
+                            "in": "Kieran Trippier",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Dele Alli",
+                            "in": "Moussa Sissoko",
+                            "minute": "86"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22633",
-                "away_team": "Spurs",
                 "score": "1-4",
-                "home_team": "Bournemouth"
+                "away_team": "Spurs"
             }
         ],
         "date": "Sunday 11 March 2018"

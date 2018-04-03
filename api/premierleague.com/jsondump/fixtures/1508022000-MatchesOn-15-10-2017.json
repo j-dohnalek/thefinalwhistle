@@ -2,36 +2,21 @@
     {
         "fixtures": [
             {
+                "home_team": "Leicester",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Ben Chilwell",
-                            "out": "Danny Simpson",
-                            "minute": "74"
+                            "minute": "63",
+                            "scorer": "Nacer Chadli",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Islam Slimani",
-                            "out": "Kelechi Iheanacho",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Gareth McAuley",
-                            "out": "Nacer Chadli",
-                            "minute": "84"
-                        },
-                        {
-                            "in": "James McClean",
-                            "out": "Jay Rodriguez",
-                            "minute": "84"
-                        },
-                        {
-                            "in": "Andy King",
-                            "out": "Vicente Iborra",
-                            "minute": "90",
-                            "additional": "4"
+                            "assist": "Islam Slimani",
+                            "minute": "80",
+                            "scorer": "Riyad Mahrez",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Mike Dean",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -55,24 +40,39 @@
                             "player": "Marc Albrighton"
                         }
                     ],
-                    "goals": [
+                    "referee": "Mike Dean",
+                    "substitutions": [
                         {
-                            "scorer": "Nacer Chadli",
-                            "own_goal": "false",
-                            "minute": "63"
+                            "out": "Danny Simpson",
+                            "in": "Ben Chilwell",
+                            "minute": "74"
                         },
                         {
-                            "scorer": "Riyad Mahrez",
-                            "own_goal": "false",
-                            "minute": "80",
-                            "assist": "Islam Slimani"
+                            "out": "Kelechi Iheanacho",
+                            "in": "Islam Slimani",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Nacer Chadli",
+                            "in": "Gareth McAuley",
+                            "minute": "84"
+                        },
+                        {
+                            "out": "Jay Rodriguez",
+                            "in": "James McClean",
+                            "minute": "84"
+                        },
+                        {
+                            "out": "Vicente Iborra",
+                            "additional": "4",
+                            "in": "Andy King",
+                            "minute": "90"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22415",
-                "away_team": "West Brom",
                 "score": "1-1",
-                "home_team": "Leicester"
+                "away_team": "West Brom"
             }
         ],
         "date": "Monday 16 October 2017"

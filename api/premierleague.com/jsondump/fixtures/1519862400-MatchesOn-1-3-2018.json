@@ -2,403 +2,403 @@
     {
         "fixtures": [
             {
+                "home_team": "Liverpool",
                 "details": {
+                    "goals": [
+                        {
+                            "assist": "Alex Oxlade-Chamberlain",
+                            "minute": "40",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Roberto Firmino",
+                            "minute": "55",
+                            "scorer": "Sadio Mané",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [],
+                    "referee": "Graham Scott",
                     "substitutions": [
                         {
-                            "in": "Joselu",
                             "out": "Dwight Gayle",
+                            "in": "Joselu",
                             "minute": "66"
                         },
                         {
-                            "in": "Isaac Hayden",
                             "out": "Mikel Merino",
+                            "in": "Isaac Hayden",
                             "minute": "73"
                         },
                         {
-                            "in": "Adam Lallana",
                             "out": "Sadio Mané",
+                            "in": "Adam Lallana",
                             "minute": "74"
                         },
                         {
-                            "in": "James Milner",
                             "out": "Alex Oxlade-Chamberlain",
+                            "in": "James Milner",
                             "minute": "79"
                         },
                         {
-                            "in": "Ayoze Pérez",
                             "out": "Jacob Murphy",
+                            "in": "Ayoze Pérez",
                             "minute": "84"
                         },
                         {
-                            "in": "Joel Matip",
                             "out": "Roberto Firmino",
+                            "in": "Joel Matip",
                             "minute": "88"
-                        }
-                    ],
-                    "referee": "Graham Scott",
-                    "kick_off": "17:30",
-                    "cards": [],
-                    "goals": [
-                        {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Alex Oxlade-Chamberlain"
-                        },
-                        {
-                            "scorer": "Sadio Mané",
-                            "own_goal": "false",
-                            "minute": "55",
-                            "assist": "Roberto Firmino"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22626",
-                "away_team": "Newcastle",
                 "score": "2-0",
-                "home_team": "Liverpool"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Liverpool",
                 "details": {
+                    "goals": [
+                        {
+                            "assist": "Alex Oxlade-Chamberlain",
+                            "minute": "40",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Roberto Firmino",
+                            "minute": "55",
+                            "scorer": "Sadio Mané",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [],
+                    "referee": "Graham Scott",
                     "substitutions": [
                         {
-                            "in": "Joselu",
                             "out": "Dwight Gayle",
+                            "in": "Joselu",
                             "minute": "66"
                         },
                         {
-                            "in": "Isaac Hayden",
                             "out": "Mikel Merino",
+                            "in": "Isaac Hayden",
                             "minute": "73"
                         },
                         {
-                            "in": "Adam Lallana",
                             "out": "Sadio Mané",
+                            "in": "Adam Lallana",
                             "minute": "74"
                         },
                         {
-                            "in": "James Milner",
                             "out": "Alex Oxlade-Chamberlain",
+                            "in": "James Milner",
                             "minute": "79"
                         },
                         {
-                            "in": "Ayoze Pérez",
                             "out": "Jacob Murphy",
+                            "in": "Ayoze Pérez",
                             "minute": "84"
                         },
                         {
-                            "in": "Joel Matip",
                             "out": "Roberto Firmino",
+                            "in": "Joel Matip",
                             "minute": "88"
-                        }
-                    ],
-                    "referee": "Graham Scott",
-                    "kick_off": "17:30",
-                    "cards": [],
-                    "goals": [
-                        {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Alex Oxlade-Chamberlain"
-                        },
-                        {
-                            "scorer": "Sadio Mané",
-                            "own_goal": "false",
-                            "minute": "55",
-                            "assist": "Roberto Firmino"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22626",
-                "away_team": "Newcastle",
                 "score": "2-0",
-                "home_team": "Liverpool"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Liverpool",
                 "details": {
+                    "goals": [
+                        {
+                            "assist": "Alex Oxlade-Chamberlain",
+                            "minute": "40",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Roberto Firmino",
+                            "minute": "55",
+                            "scorer": "Sadio Mané",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [],
+                    "referee": "Graham Scott",
                     "substitutions": [
                         {
-                            "in": "Joselu",
                             "out": "Dwight Gayle",
+                            "in": "Joselu",
                             "minute": "66"
                         },
                         {
-                            "in": "Isaac Hayden",
                             "out": "Mikel Merino",
+                            "in": "Isaac Hayden",
                             "minute": "73"
                         },
                         {
-                            "in": "Adam Lallana",
                             "out": "Sadio Mané",
+                            "in": "Adam Lallana",
                             "minute": "74"
                         },
                         {
-                            "in": "James Milner",
                             "out": "Alex Oxlade-Chamberlain",
+                            "in": "James Milner",
                             "minute": "79"
                         },
                         {
-                            "in": "Ayoze Pérez",
                             "out": "Jacob Murphy",
+                            "in": "Ayoze Pérez",
                             "minute": "84"
                         },
                         {
-                            "in": "Joel Matip",
                             "out": "Roberto Firmino",
+                            "in": "Joel Matip",
                             "minute": "88"
-                        }
-                    ],
-                    "referee": "Graham Scott",
-                    "kick_off": "17:30",
-                    "cards": [],
-                    "goals": [
-                        {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Alex Oxlade-Chamberlain"
-                        },
-                        {
-                            "scorer": "Sadio Mané",
-                            "own_goal": "false",
-                            "minute": "55",
-                            "assist": "Roberto Firmino"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22626",
-                "away_team": "Newcastle",
                 "score": "2-0",
-                "home_team": "Liverpool"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Liverpool",
                 "details": {
+                    "goals": [
+                        {
+                            "assist": "Alex Oxlade-Chamberlain",
+                            "minute": "40",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Roberto Firmino",
+                            "minute": "55",
+                            "scorer": "Sadio Mané",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [],
+                    "referee": "Graham Scott",
                     "substitutions": [
                         {
-                            "in": "Joselu",
                             "out": "Dwight Gayle",
+                            "in": "Joselu",
                             "minute": "66"
                         },
                         {
-                            "in": "Isaac Hayden",
                             "out": "Mikel Merino",
+                            "in": "Isaac Hayden",
                             "minute": "73"
                         },
                         {
-                            "in": "Adam Lallana",
                             "out": "Sadio Mané",
+                            "in": "Adam Lallana",
                             "minute": "74"
                         },
                         {
-                            "in": "James Milner",
                             "out": "Alex Oxlade-Chamberlain",
+                            "in": "James Milner",
                             "minute": "79"
                         },
                         {
-                            "in": "Ayoze Pérez",
                             "out": "Jacob Murphy",
+                            "in": "Ayoze Pérez",
                             "minute": "84"
                         },
                         {
-                            "in": "Joel Matip",
                             "out": "Roberto Firmino",
+                            "in": "Joel Matip",
                             "minute": "88"
-                        }
-                    ],
-                    "referee": "Graham Scott",
-                    "kick_off": "17:30",
-                    "cards": [],
-                    "goals": [
-                        {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Alex Oxlade-Chamberlain"
-                        },
-                        {
-                            "scorer": "Sadio Mané",
-                            "own_goal": "false",
-                            "minute": "55",
-                            "assist": "Roberto Firmino"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22626",
-                "away_team": "Newcastle",
                 "score": "2-0",
-                "home_team": "Liverpool"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Liverpool",
                 "details": {
+                    "goals": [
+                        {
+                            "assist": "Alex Oxlade-Chamberlain",
+                            "minute": "40",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Roberto Firmino",
+                            "minute": "55",
+                            "scorer": "Sadio Mané",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [],
+                    "referee": "Graham Scott",
                     "substitutions": [
                         {
-                            "in": "Joselu",
                             "out": "Dwight Gayle",
+                            "in": "Joselu",
                             "minute": "66"
                         },
                         {
-                            "in": "Isaac Hayden",
                             "out": "Mikel Merino",
+                            "in": "Isaac Hayden",
                             "minute": "73"
                         },
                         {
-                            "in": "Adam Lallana",
                             "out": "Sadio Mané",
+                            "in": "Adam Lallana",
                             "minute": "74"
                         },
                         {
-                            "in": "James Milner",
                             "out": "Alex Oxlade-Chamberlain",
+                            "in": "James Milner",
                             "minute": "79"
                         },
                         {
-                            "in": "Ayoze Pérez",
                             "out": "Jacob Murphy",
+                            "in": "Ayoze Pérez",
                             "minute": "84"
                         },
                         {
-                            "in": "Joel Matip",
                             "out": "Roberto Firmino",
+                            "in": "Joel Matip",
                             "minute": "88"
-                        }
-                    ],
-                    "referee": "Graham Scott",
-                    "kick_off": "17:30",
-                    "cards": [],
-                    "goals": [
-                        {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Alex Oxlade-Chamberlain"
-                        },
-                        {
-                            "scorer": "Sadio Mané",
-                            "own_goal": "false",
-                            "minute": "55",
-                            "assist": "Roberto Firmino"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22626",
-                "away_team": "Newcastle",
                 "score": "2-0",
-                "home_team": "Liverpool"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Liverpool",
                 "details": {
+                    "goals": [
+                        {
+                            "assist": "Alex Oxlade-Chamberlain",
+                            "minute": "40",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Roberto Firmino",
+                            "minute": "55",
+                            "scorer": "Sadio Mané",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [],
+                    "referee": "Graham Scott",
                     "substitutions": [
                         {
-                            "in": "Joselu",
                             "out": "Dwight Gayle",
+                            "in": "Joselu",
                             "minute": "66"
                         },
                         {
-                            "in": "Isaac Hayden",
                             "out": "Mikel Merino",
+                            "in": "Isaac Hayden",
                             "minute": "73"
                         },
                         {
-                            "in": "Adam Lallana",
                             "out": "Sadio Mané",
+                            "in": "Adam Lallana",
                             "minute": "74"
                         },
                         {
-                            "in": "James Milner",
                             "out": "Alex Oxlade-Chamberlain",
+                            "in": "James Milner",
                             "minute": "79"
                         },
                         {
-                            "in": "Ayoze Pérez",
                             "out": "Jacob Murphy",
+                            "in": "Ayoze Pérez",
                             "minute": "84"
                         },
                         {
-                            "in": "Joel Matip",
                             "out": "Roberto Firmino",
+                            "in": "Joel Matip",
                             "minute": "88"
-                        }
-                    ],
-                    "referee": "Graham Scott",
-                    "kick_off": "17:30",
-                    "cards": [],
-                    "goals": [
-                        {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Alex Oxlade-Chamberlain"
-                        },
-                        {
-                            "scorer": "Sadio Mané",
-                            "own_goal": "false",
-                            "minute": "55",
-                            "assist": "Roberto Firmino"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22626",
-                "away_team": "Newcastle",
                 "score": "2-0",
-                "home_team": "Liverpool"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Liverpool",
                 "details": {
+                    "goals": [
+                        {
+                            "assist": "Alex Oxlade-Chamberlain",
+                            "minute": "40",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Roberto Firmino",
+                            "minute": "55",
+                            "scorer": "Sadio Mané",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [],
+                    "referee": "Graham Scott",
                     "substitutions": [
                         {
-                            "in": "Joselu",
                             "out": "Dwight Gayle",
+                            "in": "Joselu",
                             "minute": "66"
                         },
                         {
-                            "in": "Isaac Hayden",
                             "out": "Mikel Merino",
+                            "in": "Isaac Hayden",
                             "minute": "73"
                         },
                         {
-                            "in": "Adam Lallana",
                             "out": "Sadio Mané",
+                            "in": "Adam Lallana",
                             "minute": "74"
                         },
                         {
-                            "in": "James Milner",
                             "out": "Alex Oxlade-Chamberlain",
+                            "in": "James Milner",
                             "minute": "79"
                         },
                         {
-                            "in": "Ayoze Pérez",
                             "out": "Jacob Murphy",
+                            "in": "Ayoze Pérez",
                             "minute": "84"
                         },
                         {
-                            "in": "Joel Matip",
                             "out": "Roberto Firmino",
+                            "in": "Joel Matip",
                             "minute": "88"
-                        }
-                    ],
-                    "referee": "Graham Scott",
-                    "kick_off": "17:30",
-                    "cards": [],
-                    "goals": [
-                        {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Alex Oxlade-Chamberlain"
-                        },
-                        {
-                            "scorer": "Sadio Mané",
-                            "own_goal": "false",
-                            "minute": "55",
-                            "assist": "Roberto Firmino"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22626",
-                "away_team": "Newcastle",
                 "score": "2-0",
-                "home_team": "Liverpool"
+                "away_team": "Newcastle"
             }
         ],
         "date": "Saturday 3 March 2018"

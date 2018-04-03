@@ -2,35 +2,28 @@
     {
         "fixtures": [
             {
+                "home_team": "Man City",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Ayoze Pérez",
-                            "out": "Christian Atsu",
-                            "minute": "64"
+                            "assist": "Kevin De Bruyne",
+                            "minute": "34",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "DeAndre Yedlin",
-                            "out": "Javier Manquillo",
-                            "minute": "66"
+                            "assist": "Ciaran Clark",
+                            "minute": "67",
+                            "scorer": "Jacob Murphy",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dwight Gayle",
-                            "out": "Joselu",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Bernardo Silva",
-                            "out": "Raheem Sterling",
-                            "minute": "86"
-                        },
-                        {
-                            "in": "Brahim Diaz",
-                            "out": "Leroy Sané",
-                            "minute": "87"
+                            "assist": "Leroy Sané",
+                            "minute": "83",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Paul Tierney",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -39,62 +32,62 @@
                             "player": "Ciaran Clark"
                         }
                     ],
-                    "goals": [
+                    "referee": "Paul Tierney",
+                    "substitutions": [
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "34",
-                            "assist": "Kevin De Bruyne"
+                            "out": "Christian Atsu",
+                            "in": "Ayoze Pérez",
+                            "minute": "64"
                         },
                         {
-                            "scorer": "Jacob Murphy",
-                            "own_goal": "false",
-                            "minute": "67",
-                            "assist": "Ciaran Clark"
+                            "out": "Javier Manquillo",
+                            "in": "DeAndre Yedlin",
+                            "minute": "66"
                         },
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "83",
-                            "assist": "Leroy Sané"
+                            "out": "Joselu",
+                            "in": "Dwight Gayle",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Raheem Sterling",
+                            "in": "Bernardo Silva",
+                            "minute": "86"
+                        },
+                        {
+                            "out": "Leroy Sané",
+                            "in": "Brahim Diaz",
+                            "minute": "87"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22577",
-                "away_team": "Newcastle",
                 "score": "3-1",
-                "home_team": "Man City"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Man City",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Ayoze Pérez",
-                            "out": "Christian Atsu",
-                            "minute": "64"
+                            "assist": "Kevin De Bruyne",
+                            "minute": "34",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "DeAndre Yedlin",
-                            "out": "Javier Manquillo",
-                            "minute": "66"
+                            "assist": "Ciaran Clark",
+                            "minute": "67",
+                            "scorer": "Jacob Murphy",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dwight Gayle",
-                            "out": "Joselu",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Bernardo Silva",
-                            "out": "Raheem Sterling",
-                            "minute": "86"
-                        },
-                        {
-                            "in": "Brahim Diaz",
-                            "out": "Leroy Sané",
-                            "minute": "87"
+                            "assist": "Leroy Sané",
+                            "minute": "83",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Paul Tierney",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -103,62 +96,62 @@
                             "player": "Ciaran Clark"
                         }
                     ],
-                    "goals": [
+                    "referee": "Paul Tierney",
+                    "substitutions": [
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "34",
-                            "assist": "Kevin De Bruyne"
+                            "out": "Christian Atsu",
+                            "in": "Ayoze Pérez",
+                            "minute": "64"
                         },
                         {
-                            "scorer": "Jacob Murphy",
-                            "own_goal": "false",
-                            "minute": "67",
-                            "assist": "Ciaran Clark"
+                            "out": "Javier Manquillo",
+                            "in": "DeAndre Yedlin",
+                            "minute": "66"
                         },
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "83",
-                            "assist": "Leroy Sané"
+                            "out": "Joselu",
+                            "in": "Dwight Gayle",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Raheem Sterling",
+                            "in": "Bernardo Silva",
+                            "minute": "86"
+                        },
+                        {
+                            "out": "Leroy Sané",
+                            "in": "Brahim Diaz",
+                            "minute": "87"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22577",
-                "away_team": "Newcastle",
                 "score": "3-1",
-                "home_team": "Man City"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Man City",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Ayoze Pérez",
-                            "out": "Christian Atsu",
-                            "minute": "64"
+                            "assist": "Kevin De Bruyne",
+                            "minute": "34",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "DeAndre Yedlin",
-                            "out": "Javier Manquillo",
-                            "minute": "66"
+                            "assist": "Ciaran Clark",
+                            "minute": "67",
+                            "scorer": "Jacob Murphy",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dwight Gayle",
-                            "out": "Joselu",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Bernardo Silva",
-                            "out": "Raheem Sterling",
-                            "minute": "86"
-                        },
-                        {
-                            "in": "Brahim Diaz",
-                            "out": "Leroy Sané",
-                            "minute": "87"
+                            "assist": "Leroy Sané",
+                            "minute": "83",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Paul Tierney",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -167,62 +160,62 @@
                             "player": "Ciaran Clark"
                         }
                     ],
-                    "goals": [
+                    "referee": "Paul Tierney",
+                    "substitutions": [
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "34",
-                            "assist": "Kevin De Bruyne"
+                            "out": "Christian Atsu",
+                            "in": "Ayoze Pérez",
+                            "minute": "64"
                         },
                         {
-                            "scorer": "Jacob Murphy",
-                            "own_goal": "false",
-                            "minute": "67",
-                            "assist": "Ciaran Clark"
+                            "out": "Javier Manquillo",
+                            "in": "DeAndre Yedlin",
+                            "minute": "66"
                         },
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "83",
-                            "assist": "Leroy Sané"
+                            "out": "Joselu",
+                            "in": "Dwight Gayle",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Raheem Sterling",
+                            "in": "Bernardo Silva",
+                            "minute": "86"
+                        },
+                        {
+                            "out": "Leroy Sané",
+                            "in": "Brahim Diaz",
+                            "minute": "87"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22577",
-                "away_team": "Newcastle",
                 "score": "3-1",
-                "home_team": "Man City"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Man City",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Ayoze Pérez",
-                            "out": "Christian Atsu",
-                            "minute": "64"
+                            "assist": "Kevin De Bruyne",
+                            "minute": "34",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "DeAndre Yedlin",
-                            "out": "Javier Manquillo",
-                            "minute": "66"
+                            "assist": "Ciaran Clark",
+                            "minute": "67",
+                            "scorer": "Jacob Murphy",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dwight Gayle",
-                            "out": "Joselu",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Bernardo Silva",
-                            "out": "Raheem Sterling",
-                            "minute": "86"
-                        },
-                        {
-                            "in": "Brahim Diaz",
-                            "out": "Leroy Sané",
-                            "minute": "87"
+                            "assist": "Leroy Sané",
+                            "minute": "83",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Paul Tierney",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -231,62 +224,62 @@
                             "player": "Ciaran Clark"
                         }
                     ],
-                    "goals": [
+                    "referee": "Paul Tierney",
+                    "substitutions": [
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "34",
-                            "assist": "Kevin De Bruyne"
+                            "out": "Christian Atsu",
+                            "in": "Ayoze Pérez",
+                            "minute": "64"
                         },
                         {
-                            "scorer": "Jacob Murphy",
-                            "own_goal": "false",
-                            "minute": "67",
-                            "assist": "Ciaran Clark"
+                            "out": "Javier Manquillo",
+                            "in": "DeAndre Yedlin",
+                            "minute": "66"
                         },
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "83",
-                            "assist": "Leroy Sané"
+                            "out": "Joselu",
+                            "in": "Dwight Gayle",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Raheem Sterling",
+                            "in": "Bernardo Silva",
+                            "minute": "86"
+                        },
+                        {
+                            "out": "Leroy Sané",
+                            "in": "Brahim Diaz",
+                            "minute": "87"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22577",
-                "away_team": "Newcastle",
                 "score": "3-1",
-                "home_team": "Man City"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Man City",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Ayoze Pérez",
-                            "out": "Christian Atsu",
-                            "minute": "64"
+                            "assist": "Kevin De Bruyne",
+                            "minute": "34",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "DeAndre Yedlin",
-                            "out": "Javier Manquillo",
-                            "minute": "66"
+                            "assist": "Ciaran Clark",
+                            "minute": "67",
+                            "scorer": "Jacob Murphy",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dwight Gayle",
-                            "out": "Joselu",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Bernardo Silva",
-                            "out": "Raheem Sterling",
-                            "minute": "86"
-                        },
-                        {
-                            "in": "Brahim Diaz",
-                            "out": "Leroy Sané",
-                            "minute": "87"
+                            "assist": "Leroy Sané",
+                            "minute": "83",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Paul Tierney",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -295,62 +288,62 @@
                             "player": "Ciaran Clark"
                         }
                     ],
-                    "goals": [
+                    "referee": "Paul Tierney",
+                    "substitutions": [
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "34",
-                            "assist": "Kevin De Bruyne"
+                            "out": "Christian Atsu",
+                            "in": "Ayoze Pérez",
+                            "minute": "64"
                         },
                         {
-                            "scorer": "Jacob Murphy",
-                            "own_goal": "false",
-                            "minute": "67",
-                            "assist": "Ciaran Clark"
+                            "out": "Javier Manquillo",
+                            "in": "DeAndre Yedlin",
+                            "minute": "66"
                         },
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "83",
-                            "assist": "Leroy Sané"
+                            "out": "Joselu",
+                            "in": "Dwight Gayle",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Raheem Sterling",
+                            "in": "Bernardo Silva",
+                            "minute": "86"
+                        },
+                        {
+                            "out": "Leroy Sané",
+                            "in": "Brahim Diaz",
+                            "minute": "87"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22577",
-                "away_team": "Newcastle",
                 "score": "3-1",
-                "home_team": "Man City"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Man City",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Ayoze Pérez",
-                            "out": "Christian Atsu",
-                            "minute": "64"
+                            "assist": "Kevin De Bruyne",
+                            "minute": "34",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "DeAndre Yedlin",
-                            "out": "Javier Manquillo",
-                            "minute": "66"
+                            "assist": "Ciaran Clark",
+                            "minute": "67",
+                            "scorer": "Jacob Murphy",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dwight Gayle",
-                            "out": "Joselu",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Bernardo Silva",
-                            "out": "Raheem Sterling",
-                            "minute": "86"
-                        },
-                        {
-                            "in": "Brahim Diaz",
-                            "out": "Leroy Sané",
-                            "minute": "87"
+                            "assist": "Leroy Sané",
+                            "minute": "83",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Paul Tierney",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -359,62 +352,62 @@
                             "player": "Ciaran Clark"
                         }
                     ],
-                    "goals": [
+                    "referee": "Paul Tierney",
+                    "substitutions": [
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "34",
-                            "assist": "Kevin De Bruyne"
+                            "out": "Christian Atsu",
+                            "in": "Ayoze Pérez",
+                            "minute": "64"
                         },
                         {
-                            "scorer": "Jacob Murphy",
-                            "own_goal": "false",
-                            "minute": "67",
-                            "assist": "Ciaran Clark"
+                            "out": "Javier Manquillo",
+                            "in": "DeAndre Yedlin",
+                            "minute": "66"
                         },
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "83",
-                            "assist": "Leroy Sané"
+                            "out": "Joselu",
+                            "in": "Dwight Gayle",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Raheem Sterling",
+                            "in": "Bernardo Silva",
+                            "minute": "86"
+                        },
+                        {
+                            "out": "Leroy Sané",
+                            "in": "Brahim Diaz",
+                            "minute": "87"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22577",
-                "away_team": "Newcastle",
                 "score": "3-1",
-                "home_team": "Man City"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Man City",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Ayoze Pérez",
-                            "out": "Christian Atsu",
-                            "minute": "64"
+                            "assist": "Kevin De Bruyne",
+                            "minute": "34",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "DeAndre Yedlin",
-                            "out": "Javier Manquillo",
-                            "minute": "66"
+                            "assist": "Ciaran Clark",
+                            "minute": "67",
+                            "scorer": "Jacob Murphy",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dwight Gayle",
-                            "out": "Joselu",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Bernardo Silva",
-                            "out": "Raheem Sterling",
-                            "minute": "86"
-                        },
-                        {
-                            "in": "Brahim Diaz",
-                            "out": "Leroy Sané",
-                            "minute": "87"
+                            "assist": "Leroy Sané",
+                            "minute": "83",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Paul Tierney",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -423,62 +416,62 @@
                             "player": "Ciaran Clark"
                         }
                     ],
-                    "goals": [
+                    "referee": "Paul Tierney",
+                    "substitutions": [
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "34",
-                            "assist": "Kevin De Bruyne"
+                            "out": "Christian Atsu",
+                            "in": "Ayoze Pérez",
+                            "minute": "64"
                         },
                         {
-                            "scorer": "Jacob Murphy",
-                            "own_goal": "false",
-                            "minute": "67",
-                            "assist": "Ciaran Clark"
+                            "out": "Javier Manquillo",
+                            "in": "DeAndre Yedlin",
+                            "minute": "66"
                         },
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "83",
-                            "assist": "Leroy Sané"
+                            "out": "Joselu",
+                            "in": "Dwight Gayle",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Raheem Sterling",
+                            "in": "Bernardo Silva",
+                            "minute": "86"
+                        },
+                        {
+                            "out": "Leroy Sané",
+                            "in": "Brahim Diaz",
+                            "minute": "87"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22577",
-                "away_team": "Newcastle",
                 "score": "3-1",
-                "home_team": "Man City"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Man City",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Ayoze Pérez",
-                            "out": "Christian Atsu",
-                            "minute": "64"
+                            "assist": "Kevin De Bruyne",
+                            "minute": "34",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "DeAndre Yedlin",
-                            "out": "Javier Manquillo",
-                            "minute": "66"
+                            "assist": "Ciaran Clark",
+                            "minute": "67",
+                            "scorer": "Jacob Murphy",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dwight Gayle",
-                            "out": "Joselu",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Bernardo Silva",
-                            "out": "Raheem Sterling",
-                            "minute": "86"
-                        },
-                        {
-                            "in": "Brahim Diaz",
-                            "out": "Leroy Sané",
-                            "minute": "87"
+                            "assist": "Leroy Sané",
+                            "minute": "83",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Paul Tierney",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -487,31 +480,38 @@
                             "player": "Ciaran Clark"
                         }
                     ],
-                    "goals": [
+                    "referee": "Paul Tierney",
+                    "substitutions": [
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "34",
-                            "assist": "Kevin De Bruyne"
+                            "out": "Christian Atsu",
+                            "in": "Ayoze Pérez",
+                            "minute": "64"
                         },
                         {
-                            "scorer": "Jacob Murphy",
-                            "own_goal": "false",
-                            "minute": "67",
-                            "assist": "Ciaran Clark"
+                            "out": "Javier Manquillo",
+                            "in": "DeAndre Yedlin",
+                            "minute": "66"
                         },
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "83",
-                            "assist": "Leroy Sané"
+                            "out": "Joselu",
+                            "in": "Dwight Gayle",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Raheem Sterling",
+                            "in": "Bernardo Silva",
+                            "minute": "86"
+                        },
+                        {
+                            "out": "Leroy Sané",
+                            "in": "Brahim Diaz",
+                            "minute": "87"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22577",
-                "away_team": "Newcastle",
                 "score": "3-1",
-                "home_team": "Man City"
+                "away_team": "Newcastle"
             }
         ],
         "date": "Saturday 20 January 2018"

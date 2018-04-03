@@ -2,40 +2,45 @@
     {
         "fixtures": [
             {
+                "home_team": "Arsenal",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "James Milner",
-                            "out": "Jordan Henderson",
-                            "minute": "13"
+                            "minute": "26",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Shkodran Mustafi",
-                            "out": "Nacho Monreal",
-                            "minute": "45"
+                            "assist": "Roberto Firmino",
+                            "minute": "52",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Danny Welbeck",
-                            "out": "Alex Iwobi",
-                            "minute": "78"
+                            "assist": "Héctor Bellerín",
+                            "minute": "53",
+                            "scorer": "Alexis Sánchez",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Georginio Wijnaldum",
-                            "out": "Sadio Mané",
-                            "minute": "80"
+                            "assist": "Alex Iwobi",
+                            "minute": "56",
+                            "scorer": "Granit Xhaka",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Alex Oxlade-Chamberlain",
-                            "out": "Philippe Coutinho",
-                            "minute": "84"
+                            "assist": "Alexandre Lacazette",
+                            "minute": "58",
+                            "scorer": "Mesut Özil",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Theo Walcott",
-                            "out": "Alexis Sánchez",
-                            "minute": "89"
+                            "assist": "Emre Can",
+                            "minute": "71",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Martin Atkinson",
                     "kick_off": "19:45",
                     "cards": [
                         {
@@ -44,48 +49,43 @@
                             "player": "Alex Iwobi"
                         }
                     ],
-                    "goals": [
+                    "referee": "Martin Atkinson",
+                    "substitutions": [
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "26"
+                            "out": "Jordan Henderson",
+                            "in": "James Milner",
+                            "minute": "13"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "52",
-                            "assist": "Roberto Firmino"
+                            "out": "Nacho Monreal",
+                            "in": "Shkodran Mustafi",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Alexis Sánchez",
-                            "own_goal": "false",
-                            "minute": "53",
-                            "assist": "Héctor Bellerín"
+                            "out": "Alex Iwobi",
+                            "in": "Danny Welbeck",
+                            "minute": "78"
                         },
                         {
-                            "scorer": "Granit Xhaka",
-                            "own_goal": "false",
-                            "minute": "56",
-                            "assist": "Alex Iwobi"
+                            "out": "Sadio Mané",
+                            "in": "Georginio Wijnaldum",
+                            "minute": "80"
                         },
                         {
-                            "scorer": "Mesut Özil",
-                            "own_goal": "false",
-                            "minute": "58",
-                            "assist": "Alexandre Lacazette"
+                            "out": "Philippe Coutinho",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "84"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "71",
-                            "assist": "Emre Can"
+                            "out": "Alexis Sánchez",
+                            "in": "Theo Walcott",
+                            "minute": "89"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22522",
-                "away_team": "Liverpool",
                 "score": "3-3",
-                "home_team": "Arsenal"
+                "away_team": "Liverpool"
             }
         ],
         "date": "Friday 22 December 2017"

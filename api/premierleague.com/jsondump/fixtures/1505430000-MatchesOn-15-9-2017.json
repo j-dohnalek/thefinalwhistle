@@ -2,35 +2,9 @@
     {
         "fixtures": [
             {
+                "home_team": "Spurs",
                 "details": {
-                    "substitutions": [
-                        {
-                            "in": "Leroy Fer",
-                            "out": "Renato Sanches",
-                            "minute": "58"
-                        },
-                        {
-                            "in": "Serge Aurier",
-                            "out": "Moussa Sissoko",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Wilfried Bony",
-                            "out": "Tammy Abraham",
-                            "minute": "72"
-                        },
-                        {
-                            "in": "Fernando Llorente",
-                            "out": "Son Heung-Min",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Wayne Routledge",
-                            "out": "Mike van der Hoorn",
-                            "minute": "85"
-                        }
-                    ],
-                    "referee": "Mike Dean",
+                    "goals": [],
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -49,49 +23,49 @@
                             "player": "Toby Alderweireld"
                         },
                         {
+                            "additional": "3",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Wayne Routledge",
-                            "additional": "3"
+                            "player": "Wayne Routledge"
                         }
                     ],
-                    "goals": []
+                    "referee": "Mike Dean",
+                    "substitutions": [
+                        {
+                            "out": "Renato Sanches",
+                            "in": "Leroy Fer",
+                            "minute": "58"
+                        },
+                        {
+                            "out": "Moussa Sissoko",
+                            "in": "Serge Aurier",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Tammy Abraham",
+                            "in": "Wilfried Bony",
+                            "minute": "72"
+                        },
+                        {
+                            "out": "Son Heung-Min",
+                            "in": "Fernando Llorente",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Mike van der Hoorn",
+                            "in": "Wayne Routledge",
+                            "minute": "85"
+                        }
+                    ]
                 },
                 "url": "https://www.premierleague.com/match/22389",
-                "away_team": "Swansea",
                 "score": "0-0",
-                "home_team": "Spurs"
+                "away_team": "Swansea"
             },
             {
+                "home_team": "Spurs",
                 "details": {
-                    "substitutions": [
-                        {
-                            "in": "Leroy Fer",
-                            "out": "Renato Sanches",
-                            "minute": "58"
-                        },
-                        {
-                            "in": "Serge Aurier",
-                            "out": "Moussa Sissoko",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Wilfried Bony",
-                            "out": "Tammy Abraham",
-                            "minute": "72"
-                        },
-                        {
-                            "in": "Fernando Llorente",
-                            "out": "Son Heung-Min",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Wayne Routledge",
-                            "out": "Mike van der Hoorn",
-                            "minute": "85"
-                        }
-                    ],
-                    "referee": "Mike Dean",
+                    "goals": [],
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -110,49 +84,49 @@
                             "player": "Toby Alderweireld"
                         },
                         {
+                            "additional": "3",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Wayne Routledge",
-                            "additional": "3"
+                            "player": "Wayne Routledge"
                         }
                     ],
-                    "goals": []
+                    "referee": "Mike Dean",
+                    "substitutions": [
+                        {
+                            "out": "Renato Sanches",
+                            "in": "Leroy Fer",
+                            "minute": "58"
+                        },
+                        {
+                            "out": "Moussa Sissoko",
+                            "in": "Serge Aurier",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Tammy Abraham",
+                            "in": "Wilfried Bony",
+                            "minute": "72"
+                        },
+                        {
+                            "out": "Son Heung-Min",
+                            "in": "Fernando Llorente",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Mike van der Hoorn",
+                            "in": "Wayne Routledge",
+                            "minute": "85"
+                        }
+                    ]
                 },
                 "url": "https://www.premierleague.com/match/22389",
-                "away_team": "Swansea",
                 "score": "0-0",
-                "home_team": "Spurs"
+                "away_team": "Swansea"
             },
             {
+                "home_team": "Spurs",
                 "details": {
-                    "substitutions": [
-                        {
-                            "in": "Leroy Fer",
-                            "out": "Renato Sanches",
-                            "minute": "58"
-                        },
-                        {
-                            "in": "Serge Aurier",
-                            "out": "Moussa Sissoko",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Wilfried Bony",
-                            "out": "Tammy Abraham",
-                            "minute": "72"
-                        },
-                        {
-                            "in": "Fernando Llorente",
-                            "out": "Son Heung-Min",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Wayne Routledge",
-                            "out": "Mike van der Hoorn",
-                            "minute": "85"
-                        }
-                    ],
-                    "referee": "Mike Dean",
+                    "goals": [],
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -171,49 +145,49 @@
                             "player": "Toby Alderweireld"
                         },
                         {
+                            "additional": "3",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Wayne Routledge",
-                            "additional": "3"
+                            "player": "Wayne Routledge"
                         }
                     ],
-                    "goals": []
+                    "referee": "Mike Dean",
+                    "substitutions": [
+                        {
+                            "out": "Renato Sanches",
+                            "in": "Leroy Fer",
+                            "minute": "58"
+                        },
+                        {
+                            "out": "Moussa Sissoko",
+                            "in": "Serge Aurier",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Tammy Abraham",
+                            "in": "Wilfried Bony",
+                            "minute": "72"
+                        },
+                        {
+                            "out": "Son Heung-Min",
+                            "in": "Fernando Llorente",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Mike van der Hoorn",
+                            "in": "Wayne Routledge",
+                            "minute": "85"
+                        }
+                    ]
                 },
                 "url": "https://www.premierleague.com/match/22389",
-                "away_team": "Swansea",
                 "score": "0-0",
-                "home_team": "Spurs"
+                "away_team": "Swansea"
             },
             {
+                "home_team": "Spurs",
                 "details": {
-                    "substitutions": [
-                        {
-                            "in": "Leroy Fer",
-                            "out": "Renato Sanches",
-                            "minute": "58"
-                        },
-                        {
-                            "in": "Serge Aurier",
-                            "out": "Moussa Sissoko",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Wilfried Bony",
-                            "out": "Tammy Abraham",
-                            "minute": "72"
-                        },
-                        {
-                            "in": "Fernando Llorente",
-                            "out": "Son Heung-Min",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Wayne Routledge",
-                            "out": "Mike van der Hoorn",
-                            "minute": "85"
-                        }
-                    ],
-                    "referee": "Mike Dean",
+                    "goals": [],
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -232,49 +206,49 @@
                             "player": "Toby Alderweireld"
                         },
                         {
+                            "additional": "3",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Wayne Routledge",
-                            "additional": "3"
+                            "player": "Wayne Routledge"
                         }
                     ],
-                    "goals": []
+                    "referee": "Mike Dean",
+                    "substitutions": [
+                        {
+                            "out": "Renato Sanches",
+                            "in": "Leroy Fer",
+                            "minute": "58"
+                        },
+                        {
+                            "out": "Moussa Sissoko",
+                            "in": "Serge Aurier",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Tammy Abraham",
+                            "in": "Wilfried Bony",
+                            "minute": "72"
+                        },
+                        {
+                            "out": "Son Heung-Min",
+                            "in": "Fernando Llorente",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Mike van der Hoorn",
+                            "in": "Wayne Routledge",
+                            "minute": "85"
+                        }
+                    ]
                 },
                 "url": "https://www.premierleague.com/match/22389",
-                "away_team": "Swansea",
                 "score": "0-0",
-                "home_team": "Spurs"
+                "away_team": "Swansea"
             },
             {
+                "home_team": "Spurs",
                 "details": {
-                    "substitutions": [
-                        {
-                            "in": "Leroy Fer",
-                            "out": "Renato Sanches",
-                            "minute": "58"
-                        },
-                        {
-                            "in": "Serge Aurier",
-                            "out": "Moussa Sissoko",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Wilfried Bony",
-                            "out": "Tammy Abraham",
-                            "minute": "72"
-                        },
-                        {
-                            "in": "Fernando Llorente",
-                            "out": "Son Heung-Min",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Wayne Routledge",
-                            "out": "Mike van der Hoorn",
-                            "minute": "85"
-                        }
-                    ],
-                    "referee": "Mike Dean",
+                    "goals": [],
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -293,49 +267,49 @@
                             "player": "Toby Alderweireld"
                         },
                         {
+                            "additional": "3",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Wayne Routledge",
-                            "additional": "3"
+                            "player": "Wayne Routledge"
                         }
                     ],
-                    "goals": []
+                    "referee": "Mike Dean",
+                    "substitutions": [
+                        {
+                            "out": "Renato Sanches",
+                            "in": "Leroy Fer",
+                            "minute": "58"
+                        },
+                        {
+                            "out": "Moussa Sissoko",
+                            "in": "Serge Aurier",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Tammy Abraham",
+                            "in": "Wilfried Bony",
+                            "minute": "72"
+                        },
+                        {
+                            "out": "Son Heung-Min",
+                            "in": "Fernando Llorente",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Mike van der Hoorn",
+                            "in": "Wayne Routledge",
+                            "minute": "85"
+                        }
+                    ]
                 },
                 "url": "https://www.premierleague.com/match/22389",
-                "away_team": "Swansea",
                 "score": "0-0",
-                "home_team": "Spurs"
+                "away_team": "Swansea"
             },
             {
+                "home_team": "Spurs",
                 "details": {
-                    "substitutions": [
-                        {
-                            "in": "Leroy Fer",
-                            "out": "Renato Sanches",
-                            "minute": "58"
-                        },
-                        {
-                            "in": "Serge Aurier",
-                            "out": "Moussa Sissoko",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Wilfried Bony",
-                            "out": "Tammy Abraham",
-                            "minute": "72"
-                        },
-                        {
-                            "in": "Fernando Llorente",
-                            "out": "Son Heung-Min",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Wayne Routledge",
-                            "out": "Mike van der Hoorn",
-                            "minute": "85"
-                        }
-                    ],
-                    "referee": "Mike Dean",
+                    "goals": [],
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -354,49 +328,49 @@
                             "player": "Toby Alderweireld"
                         },
                         {
+                            "additional": "3",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Wayne Routledge",
-                            "additional": "3"
+                            "player": "Wayne Routledge"
                         }
                     ],
-                    "goals": []
+                    "referee": "Mike Dean",
+                    "substitutions": [
+                        {
+                            "out": "Renato Sanches",
+                            "in": "Leroy Fer",
+                            "minute": "58"
+                        },
+                        {
+                            "out": "Moussa Sissoko",
+                            "in": "Serge Aurier",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Tammy Abraham",
+                            "in": "Wilfried Bony",
+                            "minute": "72"
+                        },
+                        {
+                            "out": "Son Heung-Min",
+                            "in": "Fernando Llorente",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Mike van der Hoorn",
+                            "in": "Wayne Routledge",
+                            "minute": "85"
+                        }
+                    ]
                 },
                 "url": "https://www.premierleague.com/match/22389",
-                "away_team": "Swansea",
                 "score": "0-0",
-                "home_team": "Spurs"
+                "away_team": "Swansea"
             },
             {
+                "home_team": "Spurs",
                 "details": {
-                    "substitutions": [
-                        {
-                            "in": "Leroy Fer",
-                            "out": "Renato Sanches",
-                            "minute": "58"
-                        },
-                        {
-                            "in": "Serge Aurier",
-                            "out": "Moussa Sissoko",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Wilfried Bony",
-                            "out": "Tammy Abraham",
-                            "minute": "72"
-                        },
-                        {
-                            "in": "Fernando Llorente",
-                            "out": "Son Heung-Min",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Wayne Routledge",
-                            "out": "Mike van der Hoorn",
-                            "minute": "85"
-                        }
-                    ],
-                    "referee": "Mike Dean",
+                    "goals": [],
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -415,18 +389,44 @@
                             "player": "Toby Alderweireld"
                         },
                         {
+                            "additional": "3",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Wayne Routledge",
-                            "additional": "3"
+                            "player": "Wayne Routledge"
                         }
                     ],
-                    "goals": []
+                    "referee": "Mike Dean",
+                    "substitutions": [
+                        {
+                            "out": "Renato Sanches",
+                            "in": "Leroy Fer",
+                            "minute": "58"
+                        },
+                        {
+                            "out": "Moussa Sissoko",
+                            "in": "Serge Aurier",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Tammy Abraham",
+                            "in": "Wilfried Bony",
+                            "minute": "72"
+                        },
+                        {
+                            "out": "Son Heung-Min",
+                            "in": "Fernando Llorente",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Mike van der Hoorn",
+                            "in": "Wayne Routledge",
+                            "minute": "85"
+                        }
+                    ]
                 },
                 "url": "https://www.premierleague.com/match/22389",
-                "away_team": "Swansea",
                 "score": "0-0",
-                "home_team": "Spurs"
+                "away_team": "Swansea"
             }
         ],
         "date": "Saturday 16 September 2017"

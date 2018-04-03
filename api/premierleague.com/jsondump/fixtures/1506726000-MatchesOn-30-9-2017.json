@@ -2,41 +2,20 @@
     {
         "fixtures": [
             {
+                "home_team": "Newcastle",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Roberto Firmino",
-                            "out": "Daniel Sturridge",
-                            "minute": "74"
+                            "minute": "29",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dominic Solanke",
-                            "out": "Sadio Mané",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Isaac Hayden",
-                            "out": "Mikel Merino",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Dwight Gayle",
-                            "out": "Joselu",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Alex Oxlade-Chamberlain",
-                            "out": "Mohamed Salah",
-                            "minute": "84"
-                        },
-                        {
-                            "in": "Mohamed Diamé",
-                            "out": "Ayoze Pérez",
-                            "minute": "90",
-                            "additional": "1"
+                            "minute": "36",
+                            "scorer": "Joselu",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "16:30",
                     "cards": [
                         {
@@ -50,60 +29,60 @@
                             "player": "Joseph Gomez"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "29"
+                            "out": "Daniel Sturridge",
+                            "in": "Roberto Firmino",
+                            "minute": "74"
                         },
                         {
-                            "scorer": "Joselu",
-                            "own_goal": "false",
-                            "minute": "36"
+                            "out": "Sadio Mané",
+                            "in": "Dominic Solanke",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Mikel Merino",
+                            "in": "Isaac Hayden",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Joselu",
+                            "in": "Dwight Gayle",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Mohamed Salah",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "84"
+                        },
+                        {
+                            "out": "Ayoze Pérez",
+                            "additional": "1",
+                            "in": "Mohamed Diamé",
+                            "minute": "90"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22408",
-                "away_team": "Liverpool",
                 "score": "1-1",
-                "home_team": "Newcastle"
+                "away_team": "Liverpool"
             },
             {
+                "home_team": "Newcastle",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Roberto Firmino",
-                            "out": "Daniel Sturridge",
-                            "minute": "74"
+                            "minute": "29",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dominic Solanke",
-                            "out": "Sadio Mané",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Isaac Hayden",
-                            "out": "Mikel Merino",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Dwight Gayle",
-                            "out": "Joselu",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Alex Oxlade-Chamberlain",
-                            "out": "Mohamed Salah",
-                            "minute": "84"
-                        },
-                        {
-                            "in": "Mohamed Diamé",
-                            "out": "Ayoze Pérez",
-                            "minute": "90",
-                            "additional": "1"
+                            "minute": "36",
+                            "scorer": "Joselu",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "16:30",
                     "cards": [
                         {
@@ -117,60 +96,60 @@
                             "player": "Joseph Gomez"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "29"
+                            "out": "Daniel Sturridge",
+                            "in": "Roberto Firmino",
+                            "minute": "74"
                         },
                         {
-                            "scorer": "Joselu",
-                            "own_goal": "false",
-                            "minute": "36"
+                            "out": "Sadio Mané",
+                            "in": "Dominic Solanke",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Mikel Merino",
+                            "in": "Isaac Hayden",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Joselu",
+                            "in": "Dwight Gayle",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Mohamed Salah",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "84"
+                        },
+                        {
+                            "out": "Ayoze Pérez",
+                            "additional": "1",
+                            "in": "Mohamed Diamé",
+                            "minute": "90"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22408",
-                "away_team": "Liverpool",
                 "score": "1-1",
-                "home_team": "Newcastle"
+                "away_team": "Liverpool"
             },
             {
+                "home_team": "Newcastle",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Roberto Firmino",
-                            "out": "Daniel Sturridge",
-                            "minute": "74"
+                            "minute": "29",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dominic Solanke",
-                            "out": "Sadio Mané",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Isaac Hayden",
-                            "out": "Mikel Merino",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Dwight Gayle",
-                            "out": "Joselu",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Alex Oxlade-Chamberlain",
-                            "out": "Mohamed Salah",
-                            "minute": "84"
-                        },
-                        {
-                            "in": "Mohamed Diamé",
-                            "out": "Ayoze Pérez",
-                            "minute": "90",
-                            "additional": "1"
+                            "minute": "36",
+                            "scorer": "Joselu",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "16:30",
                     "cards": [
                         {
@@ -184,23 +163,44 @@
                             "player": "Joseph Gomez"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "29"
+                            "out": "Daniel Sturridge",
+                            "in": "Roberto Firmino",
+                            "minute": "74"
                         },
                         {
-                            "scorer": "Joselu",
-                            "own_goal": "false",
-                            "minute": "36"
+                            "out": "Sadio Mané",
+                            "in": "Dominic Solanke",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Mikel Merino",
+                            "in": "Isaac Hayden",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Joselu",
+                            "in": "Dwight Gayle",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Mohamed Salah",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "84"
+                        },
+                        {
+                            "out": "Ayoze Pérez",
+                            "additional": "1",
+                            "in": "Mohamed Diamé",
+                            "minute": "90"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22408",
-                "away_team": "Liverpool",
                 "score": "1-1",
-                "home_team": "Newcastle"
+                "away_team": "Liverpool"
             }
         ],
         "date": "Sunday 1 October 2017"

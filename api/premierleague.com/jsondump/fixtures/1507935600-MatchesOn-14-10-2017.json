@@ -2,40 +2,26 @@
     {
         "fixtures": [
             {
+                "home_team": "Southampton",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Sofiane Boufal",
-                            "out": "Nathan Redmond",
-                            "minute": "57"
+                            "minute": "20",
+                            "scorer": "Isaac Hayden",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Mikel Merino",
-                            "out": "Ayoze Pérez",
-                            "minute": "63"
+                            "assist": "Nathan Redmond",
+                            "minute": "49",
+                            "scorer": "Manolo Gabbiadini",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Steven Davis",
-                            "out": "Oriol Romeu",
-                            "minute": "67"
-                        },
-                        {
-                            "in": "Dwight Gayle",
-                            "out": "Joselu",
-                            "minute": "68"
-                        },
-                        {
-                            "in": "Charlie Austin",
-                            "out": "Shane Long",
-                            "minute": "82"
-                        },
-                        {
-                            "in": "Jacob Murphy",
-                            "out": "Christian Atsu",
-                            "minute": "82"
+                            "minute": "51",
+                            "scorer": "Ayoze Pérez",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Kevin Friend",
                     "kick_off": "16:00",
                     "cards": [
                         {
@@ -54,65 +40,65 @@
                             "player": "Isaac Hayden"
                         }
                     ],
-                    "goals": [
+                    "referee": "Kevin Friend",
+                    "substitutions": [
                         {
-                            "scorer": "Isaac Hayden",
-                            "own_goal": "false",
-                            "minute": "20"
+                            "out": "Nathan Redmond",
+                            "in": "Sofiane Boufal",
+                            "minute": "57"
                         },
                         {
-                            "scorer": "Manolo Gabbiadini",
-                            "own_goal": "false",
-                            "minute": "49",
-                            "assist": "Nathan Redmond"
+                            "out": "Ayoze Pérez",
+                            "in": "Mikel Merino",
+                            "minute": "63"
                         },
                         {
-                            "scorer": "Ayoze Pérez",
-                            "own_goal": "false",
-                            "minute": "51"
+                            "out": "Oriol Romeu",
+                            "in": "Steven Davis",
+                            "minute": "67"
+                        },
+                        {
+                            "out": "Joselu",
+                            "in": "Dwight Gayle",
+                            "minute": "68"
+                        },
+                        {
+                            "out": "Shane Long",
+                            "in": "Charlie Austin",
+                            "minute": "82"
+                        },
+                        {
+                            "out": "Christian Atsu",
+                            "in": "Jacob Murphy",
+                            "minute": "82"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22418",
-                "away_team": "Newcastle",
                 "score": "2-2",
-                "home_team": "Southampton"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Southampton",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Sofiane Boufal",
-                            "out": "Nathan Redmond",
-                            "minute": "57"
+                            "minute": "20",
+                            "scorer": "Isaac Hayden",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Mikel Merino",
-                            "out": "Ayoze Pérez",
-                            "minute": "63"
+                            "assist": "Nathan Redmond",
+                            "minute": "49",
+                            "scorer": "Manolo Gabbiadini",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Steven Davis",
-                            "out": "Oriol Romeu",
-                            "minute": "67"
-                        },
-                        {
-                            "in": "Dwight Gayle",
-                            "out": "Joselu",
-                            "minute": "68"
-                        },
-                        {
-                            "in": "Charlie Austin",
-                            "out": "Shane Long",
-                            "minute": "82"
-                        },
-                        {
-                            "in": "Jacob Murphy",
-                            "out": "Christian Atsu",
-                            "minute": "82"
+                            "minute": "51",
+                            "scorer": "Ayoze Pérez",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Kevin Friend",
                     "kick_off": "16:00",
                     "cards": [
                         {
@@ -131,29 +117,43 @@
                             "player": "Isaac Hayden"
                         }
                     ],
-                    "goals": [
+                    "referee": "Kevin Friend",
+                    "substitutions": [
                         {
-                            "scorer": "Isaac Hayden",
-                            "own_goal": "false",
-                            "minute": "20"
+                            "out": "Nathan Redmond",
+                            "in": "Sofiane Boufal",
+                            "minute": "57"
                         },
                         {
-                            "scorer": "Manolo Gabbiadini",
-                            "own_goal": "false",
-                            "minute": "49",
-                            "assist": "Nathan Redmond"
+                            "out": "Ayoze Pérez",
+                            "in": "Mikel Merino",
+                            "minute": "63"
                         },
                         {
-                            "scorer": "Ayoze Pérez",
-                            "own_goal": "false",
-                            "minute": "51"
+                            "out": "Oriol Romeu",
+                            "in": "Steven Davis",
+                            "minute": "67"
+                        },
+                        {
+                            "out": "Joselu",
+                            "in": "Dwight Gayle",
+                            "minute": "68"
+                        },
+                        {
+                            "out": "Shane Long",
+                            "in": "Charlie Austin",
+                            "minute": "82"
+                        },
+                        {
+                            "out": "Christian Atsu",
+                            "in": "Jacob Murphy",
+                            "minute": "82"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22418",
-                "away_team": "Newcastle",
                 "score": "2-2",
-                "home_team": "Southampton"
+                "away_team": "Newcastle"
             }
         ],
         "date": "Sunday 15 October 2017"

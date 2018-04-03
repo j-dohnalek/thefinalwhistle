@@ -2,45 +2,27 @@
     {
         "fixtures": [
             {
+                "home_team": "Crystal Palace",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Patrick van Aanholt",
-                            "out": "Andros Townsend",
-                            "minute": "67"
+                            "assist": "Richarlison",
+                            "minute": "3",
+                            "scorer": "Daryl Janmaat",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Bakary Sako",
-                            "out": "Timothy Fosu-Mensah",
-                            "minute": "70"
+                            "minute": "89",
+                            "scorer": "Bakary Sako",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Roberto Pereyra",
-                            "out": "André Carrillo",
-                            "minute": "71"
-                        },
-                        {
-                            "in": "James McArthur",
-                            "out": "Yohan Cabaye",
-                            "minute": "77"
-                        },
-                        {
-                            "in": "Andre Gray",
-                            "out": "Troy Deeney",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Kiko Femenía",
-                            "out": "Richarlison",
-                            "minute": "84"
-                        },
-                        {
-                            "out": "Kiko Femenía",
+                            "additional": "2",
                             "minute": "90",
-                            "additional": "6"
+                            "scorer": "James McArthur",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Lee Mason",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -64,77 +46,77 @@
                             "player": "Tom Cleverley"
                         },
                         {
+                            "additional": "1",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Roberto Pereyra",
-                            "additional": "1"
+                            "player": "Roberto Pereyra"
                         }
                     ],
-                    "goals": [
+                    "referee": "Lee Mason",
+                    "substitutions": [
                         {
-                            "scorer": "Daryl Janmaat",
-                            "own_goal": "false",
-                            "minute": "3",
-                            "assist": "Richarlison"
+                            "out": "Andros Townsend",
+                            "in": "Patrick van Aanholt",
+                            "minute": "67"
                         },
                         {
-                            "scorer": "Bakary Sako",
-                            "own_goal": "false",
-                            "minute": "89"
+                            "out": "Timothy Fosu-Mensah",
+                            "in": "Bakary Sako",
+                            "minute": "70"
                         },
                         {
-                            "scorer": "James McArthur",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "additional": "2"
+                            "out": "André Carrillo",
+                            "in": "Roberto Pereyra",
+                            "minute": "71"
+                        },
+                        {
+                            "out": "Yohan Cabaye",
+                            "in": "James McArthur",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Troy Deeney",
+                            "in": "Andre Gray",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Richarlison",
+                            "in": "Kiko Femenía",
+                            "minute": "84"
+                        },
+                        {
+                            "additional": "6",
+                            "out": "Kiko Femenía",
+                            "minute": "90"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22503",
-                "away_team": "Watford",
                 "score": "2-1",
-                "home_team": "Crystal Palace"
+                "away_team": "Watford"
             },
             {
+                "home_team": "Crystal Palace",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Patrick van Aanholt",
-                            "out": "Andros Townsend",
-                            "minute": "67"
+                            "assist": "Richarlison",
+                            "minute": "3",
+                            "scorer": "Daryl Janmaat",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Bakary Sako",
-                            "out": "Timothy Fosu-Mensah",
-                            "minute": "70"
+                            "minute": "89",
+                            "scorer": "Bakary Sako",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Roberto Pereyra",
-                            "out": "André Carrillo",
-                            "minute": "71"
-                        },
-                        {
-                            "in": "James McArthur",
-                            "out": "Yohan Cabaye",
-                            "minute": "77"
-                        },
-                        {
-                            "in": "Andre Gray",
-                            "out": "Troy Deeney",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Kiko Femenía",
-                            "out": "Richarlison",
-                            "minute": "84"
-                        },
-                        {
-                            "out": "Kiko Femenía",
+                            "additional": "2",
                             "minute": "90",
-                            "additional": "6"
+                            "scorer": "James McArthur",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Lee Mason",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -158,77 +140,77 @@
                             "player": "Tom Cleverley"
                         },
                         {
+                            "additional": "1",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Roberto Pereyra",
-                            "additional": "1"
+                            "player": "Roberto Pereyra"
                         }
                     ],
-                    "goals": [
+                    "referee": "Lee Mason",
+                    "substitutions": [
                         {
-                            "scorer": "Daryl Janmaat",
-                            "own_goal": "false",
-                            "minute": "3",
-                            "assist": "Richarlison"
+                            "out": "Andros Townsend",
+                            "in": "Patrick van Aanholt",
+                            "minute": "67"
                         },
                         {
-                            "scorer": "Bakary Sako",
-                            "own_goal": "false",
-                            "minute": "89"
+                            "out": "Timothy Fosu-Mensah",
+                            "in": "Bakary Sako",
+                            "minute": "70"
                         },
                         {
-                            "scorer": "James McArthur",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "additional": "2"
+                            "out": "André Carrillo",
+                            "in": "Roberto Pereyra",
+                            "minute": "71"
+                        },
+                        {
+                            "out": "Yohan Cabaye",
+                            "in": "James McArthur",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Troy Deeney",
+                            "in": "Andre Gray",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Richarlison",
+                            "in": "Kiko Femenía",
+                            "minute": "84"
+                        },
+                        {
+                            "additional": "6",
+                            "out": "Kiko Femenía",
+                            "minute": "90"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22503",
-                "away_team": "Watford",
                 "score": "2-1",
-                "home_team": "Crystal Palace"
+                "away_team": "Watford"
             },
             {
+                "home_team": "Crystal Palace",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Patrick van Aanholt",
-                            "out": "Andros Townsend",
-                            "minute": "67"
+                            "assist": "Richarlison",
+                            "minute": "3",
+                            "scorer": "Daryl Janmaat",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Bakary Sako",
-                            "out": "Timothy Fosu-Mensah",
-                            "minute": "70"
+                            "minute": "89",
+                            "scorer": "Bakary Sako",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Roberto Pereyra",
-                            "out": "André Carrillo",
-                            "minute": "71"
-                        },
-                        {
-                            "in": "James McArthur",
-                            "out": "Yohan Cabaye",
-                            "minute": "77"
-                        },
-                        {
-                            "in": "Andre Gray",
-                            "out": "Troy Deeney",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Kiko Femenía",
-                            "out": "Richarlison",
-                            "minute": "84"
-                        },
-                        {
-                            "out": "Kiko Femenía",
+                            "additional": "2",
                             "minute": "90",
-                            "additional": "6"
+                            "scorer": "James McArthur",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Lee Mason",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -252,36 +234,54 @@
                             "player": "Tom Cleverley"
                         },
                         {
+                            "additional": "1",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Roberto Pereyra",
-                            "additional": "1"
+                            "player": "Roberto Pereyra"
                         }
                     ],
-                    "goals": [
+                    "referee": "Lee Mason",
+                    "substitutions": [
                         {
-                            "scorer": "Daryl Janmaat",
-                            "own_goal": "false",
-                            "minute": "3",
-                            "assist": "Richarlison"
+                            "out": "Andros Townsend",
+                            "in": "Patrick van Aanholt",
+                            "minute": "67"
                         },
                         {
-                            "scorer": "Bakary Sako",
-                            "own_goal": "false",
-                            "minute": "89"
+                            "out": "Timothy Fosu-Mensah",
+                            "in": "Bakary Sako",
+                            "minute": "70"
                         },
                         {
-                            "scorer": "James McArthur",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "additional": "2"
+                            "out": "André Carrillo",
+                            "in": "Roberto Pereyra",
+                            "minute": "71"
+                        },
+                        {
+                            "out": "Yohan Cabaye",
+                            "in": "James McArthur",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Troy Deeney",
+                            "in": "Andre Gray",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Richarlison",
+                            "in": "Kiko Femenía",
+                            "minute": "84"
+                        },
+                        {
+                            "additional": "6",
+                            "out": "Kiko Femenía",
+                            "minute": "90"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22503",
-                "away_team": "Watford",
                 "score": "2-1",
-                "home_team": "Crystal Palace"
+                "away_team": "Watford"
             }
         ],
         "date": "Tuesday 12 December 2017"

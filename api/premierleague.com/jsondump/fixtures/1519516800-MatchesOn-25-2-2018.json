@@ -2,25 +2,28 @@
     {
         "fixtures": [
             {
+                "home_team": "Arsenal",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Oleksandr Zinchenko",
-                            "out": "Kyle Walker",
-                            "minute": "72"
+                            "assist": "Leroy Sané",
+                            "minute": "15",
+                            "scorer": "Bernardo Silva",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Yaya Touré",
-                            "out": "Sergio Agüero",
-                            "minute": "82"
+                            "assist": "Sergio Agüero",
+                            "minute": "28",
+                            "scorer": "David Silva",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Gabriel Jesus",
-                            "out": "David Silva",
-                            "minute": "87"
+                            "assist": "Kyle Walker",
+                            "minute": "33",
+                            "scorer": "Leroy Sané",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Andre Marriner",
                     "kick_off": "19:45",
                     "cards": [
                         {
@@ -34,31 +37,28 @@
                             "player": "Sead Kolasinac"
                         }
                     ],
-                    "goals": [
+                    "referee": "Andre Marriner",
+                    "substitutions": [
                         {
-                            "scorer": "Bernardo Silva",
-                            "own_goal": "false",
-                            "minute": "15",
-                            "assist": "Leroy Sané"
+                            "out": "Kyle Walker",
+                            "in": "Oleksandr Zinchenko",
+                            "minute": "72"
                         },
                         {
-                            "scorer": "David Silva",
-                            "own_goal": "false",
-                            "minute": "28",
-                            "assist": "Sergio Agüero"
+                            "out": "Sergio Agüero",
+                            "in": "Yaya Touré",
+                            "minute": "82"
                         },
                         {
-                            "scorer": "Leroy Sané",
-                            "own_goal": "false",
-                            "minute": "33",
-                            "assist": "Kyle Walker"
+                            "out": "David Silva",
+                            "in": "Gabriel Jesus",
+                            "minute": "87"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22612",
-                "away_team": "Man City",
                 "score": "0-3",
-                "home_team": "Arsenal"
+                "away_team": "Man City"
             }
         ],
         "date": "Thursday 1 March 2018"

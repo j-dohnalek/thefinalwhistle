@@ -2,40 +2,16 @@
     {
         "fixtures": [
             {
+                "home_team": "Chelsea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Marouane Fellaini",
-                            "out": "Phil Jones",
-                            "minute": "62"
-                        },
-                        {
-                            "in": "Anthony Martial",
-                            "out": "Henrikh Mkhitaryan",
-                            "minute": "62"
-                        },
-                        {
-                            "in": "Antonio Rüdiger",
-                            "out": "Davide Zappacosta",
-                            "minute": "66"
-                        },
-                        {
-                            "in": "Jesse Lingard",
-                            "out": "Ashley Young",
-                            "minute": "78"
-                        },
-                        {
-                            "in": "Daniel Drinkwater",
-                            "out": "Cesc Fàbregas",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Willian",
-                            "out": "Eden Hazard",
-                            "minute": "87"
+                            "assist": "César Azpilicueta",
+                            "minute": "55",
+                            "scorer": "Álvaro Morata",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "16:30",
                     "cards": [
                         {
@@ -59,55 +35,55 @@
                             "player": "Marouane Fellaini"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Álvaro Morata",
-                            "own_goal": "false",
-                            "minute": "55",
-                            "assist": "César Azpilicueta"
+                            "out": "Phil Jones",
+                            "in": "Marouane Fellaini",
+                            "minute": "62"
+                        },
+                        {
+                            "out": "Henrikh Mkhitaryan",
+                            "in": "Anthony Martial",
+                            "minute": "62"
+                        },
+                        {
+                            "out": "Davide Zappacosta",
+                            "in": "Antonio Rüdiger",
+                            "minute": "66"
+                        },
+                        {
+                            "out": "Ashley Young",
+                            "in": "Jesse Lingard",
+                            "minute": "78"
+                        },
+                        {
+                            "out": "Cesc Fàbregas",
+                            "in": "Daniel Drinkwater",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Eden Hazard",
+                            "in": "Willian",
+                            "minute": "87"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22442",
-                "away_team": "Man Utd",
                 "score": "1-0",
-                "home_team": "Chelsea"
+                "away_team": "Man Utd"
             },
             {
+                "home_team": "Chelsea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Marouane Fellaini",
-                            "out": "Phil Jones",
-                            "minute": "62"
-                        },
-                        {
-                            "in": "Anthony Martial",
-                            "out": "Henrikh Mkhitaryan",
-                            "minute": "62"
-                        },
-                        {
-                            "in": "Antonio Rüdiger",
-                            "out": "Davide Zappacosta",
-                            "minute": "66"
-                        },
-                        {
-                            "in": "Jesse Lingard",
-                            "out": "Ashley Young",
-                            "minute": "78"
-                        },
-                        {
-                            "in": "Daniel Drinkwater",
-                            "out": "Cesc Fàbregas",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Willian",
-                            "out": "Eden Hazard",
-                            "minute": "87"
+                            "assist": "César Azpilicueta",
+                            "minute": "55",
+                            "scorer": "Álvaro Morata",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "16:30",
                     "cards": [
                         {
@@ -131,55 +107,55 @@
                             "player": "Marouane Fellaini"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Álvaro Morata",
-                            "own_goal": "false",
-                            "minute": "55",
-                            "assist": "César Azpilicueta"
+                            "out": "Phil Jones",
+                            "in": "Marouane Fellaini",
+                            "minute": "62"
+                        },
+                        {
+                            "out": "Henrikh Mkhitaryan",
+                            "in": "Anthony Martial",
+                            "minute": "62"
+                        },
+                        {
+                            "out": "Davide Zappacosta",
+                            "in": "Antonio Rüdiger",
+                            "minute": "66"
+                        },
+                        {
+                            "out": "Ashley Young",
+                            "in": "Jesse Lingard",
+                            "minute": "78"
+                        },
+                        {
+                            "out": "Cesc Fàbregas",
+                            "in": "Daniel Drinkwater",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Eden Hazard",
+                            "in": "Willian",
+                            "minute": "87"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22442",
-                "away_team": "Man Utd",
                 "score": "1-0",
-                "home_team": "Chelsea"
+                "away_team": "Man Utd"
             },
             {
+                "home_team": "Chelsea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Marouane Fellaini",
-                            "out": "Phil Jones",
-                            "minute": "62"
-                        },
-                        {
-                            "in": "Anthony Martial",
-                            "out": "Henrikh Mkhitaryan",
-                            "minute": "62"
-                        },
-                        {
-                            "in": "Antonio Rüdiger",
-                            "out": "Davide Zappacosta",
-                            "minute": "66"
-                        },
-                        {
-                            "in": "Jesse Lingard",
-                            "out": "Ashley Young",
-                            "minute": "78"
-                        },
-                        {
-                            "in": "Daniel Drinkwater",
-                            "out": "Cesc Fàbregas",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Willian",
-                            "out": "Eden Hazard",
-                            "minute": "87"
+                            "assist": "César Azpilicueta",
+                            "minute": "55",
+                            "scorer": "Álvaro Morata",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "16:30",
                     "cards": [
                         {
@@ -203,55 +179,55 @@
                             "player": "Marouane Fellaini"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Álvaro Morata",
-                            "own_goal": "false",
-                            "minute": "55",
-                            "assist": "César Azpilicueta"
+                            "out": "Phil Jones",
+                            "in": "Marouane Fellaini",
+                            "minute": "62"
+                        },
+                        {
+                            "out": "Henrikh Mkhitaryan",
+                            "in": "Anthony Martial",
+                            "minute": "62"
+                        },
+                        {
+                            "out": "Davide Zappacosta",
+                            "in": "Antonio Rüdiger",
+                            "minute": "66"
+                        },
+                        {
+                            "out": "Ashley Young",
+                            "in": "Jesse Lingard",
+                            "minute": "78"
+                        },
+                        {
+                            "out": "Cesc Fàbregas",
+                            "in": "Daniel Drinkwater",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Eden Hazard",
+                            "in": "Willian",
+                            "minute": "87"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22442",
-                "away_team": "Man Utd",
                 "score": "1-0",
-                "home_team": "Chelsea"
+                "away_team": "Man Utd"
             },
             {
+                "home_team": "Chelsea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Marouane Fellaini",
-                            "out": "Phil Jones",
-                            "minute": "62"
-                        },
-                        {
-                            "in": "Anthony Martial",
-                            "out": "Henrikh Mkhitaryan",
-                            "minute": "62"
-                        },
-                        {
-                            "in": "Antonio Rüdiger",
-                            "out": "Davide Zappacosta",
-                            "minute": "66"
-                        },
-                        {
-                            "in": "Jesse Lingard",
-                            "out": "Ashley Young",
-                            "minute": "78"
-                        },
-                        {
-                            "in": "Daniel Drinkwater",
-                            "out": "Cesc Fàbregas",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Willian",
-                            "out": "Eden Hazard",
-                            "minute": "87"
+                            "assist": "César Azpilicueta",
+                            "minute": "55",
+                            "scorer": "Álvaro Morata",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "16:30",
                     "cards": [
                         {
@@ -275,19 +251,43 @@
                             "player": "Marouane Fellaini"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Álvaro Morata",
-                            "own_goal": "false",
-                            "minute": "55",
-                            "assist": "César Azpilicueta"
+                            "out": "Phil Jones",
+                            "in": "Marouane Fellaini",
+                            "minute": "62"
+                        },
+                        {
+                            "out": "Henrikh Mkhitaryan",
+                            "in": "Anthony Martial",
+                            "minute": "62"
+                        },
+                        {
+                            "out": "Davide Zappacosta",
+                            "in": "Antonio Rüdiger",
+                            "minute": "66"
+                        },
+                        {
+                            "out": "Ashley Young",
+                            "in": "Jesse Lingard",
+                            "minute": "78"
+                        },
+                        {
+                            "out": "Cesc Fàbregas",
+                            "in": "Daniel Drinkwater",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Eden Hazard",
+                            "in": "Willian",
+                            "minute": "87"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22442",
-                "away_team": "Man Utd",
                 "score": "1-0",
-                "home_team": "Chelsea"
+                "away_team": "Man Utd"
             }
         ],
         "date": "Sunday 5 November 2017"

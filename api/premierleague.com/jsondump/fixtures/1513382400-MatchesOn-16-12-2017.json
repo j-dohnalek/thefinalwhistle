@@ -2,40 +2,34 @@
     {
         "fixtures": [
             {
+                "home_team": "Bournemouth",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Junior Stanislas",
-                            "out": "Joshua King",
-                            "minute": "31"
+                            "assist": "Andrew Robertson",
+                            "minute": "20",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Ryan Fraser",
-                            "out": "Marc Pugh",
-                            "minute": "45"
+                            "assist": "Roberto Firmino",
+                            "minute": "26",
+                            "scorer": "Dejan Lovren",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Steve Cook",
-                            "out": "Charlie Daniels",
-                            "minute": "56"
+                            "assist": "Alex Oxlade-Chamberlain",
+                            "minute": "44",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Adam Lallana",
-                            "out": "Mohamed Salah",
-                            "minute": "71"
-                        },
-                        {
-                            "in": "Dominic Solanke",
-                            "out": "Roberto Firmino",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Danny Ings",
-                            "out": "Philippe Coutinho",
-                            "minute": "87"
+                            "assist": "Philippe Coutinho",
+                            "minute": "66",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Andre Marriner",
                     "kick_off": "16:30",
                     "cards": [
                         {
@@ -49,73 +43,73 @@
                             "player": "Adam Lallana"
                         }
                     ],
-                    "goals": [
+                    "referee": "Andre Marriner",
+                    "substitutions": [
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "20",
-                            "assist": "Andrew Robertson"
+                            "out": "Joshua King",
+                            "in": "Junior Stanislas",
+                            "minute": "31"
                         },
                         {
-                            "scorer": "Dejan Lovren",
-                            "own_goal": "false",
-                            "minute": "26",
-                            "assist": "Roberto Firmino"
+                            "out": "Marc Pugh",
+                            "in": "Ryan Fraser",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "44",
-                            "assist": "Alex Oxlade-Chamberlain"
+                            "out": "Charlie Daniels",
+                            "in": "Steve Cook",
+                            "minute": "56"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "66",
-                            "assist": "Philippe Coutinho"
+                            "out": "Mohamed Salah",
+                            "in": "Adam Lallana",
+                            "minute": "71"
+                        },
+                        {
+                            "out": "Roberto Firmino",
+                            "in": "Dominic Solanke",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Philippe Coutinho",
+                            "in": "Danny Ings",
+                            "minute": "87"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22513",
-                "away_team": "Liverpool",
                 "score": "0-4",
-                "home_team": "Bournemouth"
+                "away_team": "Liverpool"
             },
             {
+                "home_team": "Bournemouth",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Junior Stanislas",
-                            "out": "Joshua King",
-                            "minute": "31"
+                            "assist": "Andrew Robertson",
+                            "minute": "20",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Ryan Fraser",
-                            "out": "Marc Pugh",
-                            "minute": "45"
+                            "assist": "Roberto Firmino",
+                            "minute": "26",
+                            "scorer": "Dejan Lovren",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Steve Cook",
-                            "out": "Charlie Daniels",
-                            "minute": "56"
+                            "assist": "Alex Oxlade-Chamberlain",
+                            "minute": "44",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Adam Lallana",
-                            "out": "Mohamed Salah",
-                            "minute": "71"
-                        },
-                        {
-                            "in": "Dominic Solanke",
-                            "out": "Roberto Firmino",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Danny Ings",
-                            "out": "Philippe Coutinho",
-                            "minute": "87"
+                            "assist": "Philippe Coutinho",
+                            "minute": "66",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Andre Marriner",
                     "kick_off": "16:30",
                     "cards": [
                         {
@@ -129,37 +123,43 @@
                             "player": "Adam Lallana"
                         }
                     ],
-                    "goals": [
+                    "referee": "Andre Marriner",
+                    "substitutions": [
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "20",
-                            "assist": "Andrew Robertson"
+                            "out": "Joshua King",
+                            "in": "Junior Stanislas",
+                            "minute": "31"
                         },
                         {
-                            "scorer": "Dejan Lovren",
-                            "own_goal": "false",
-                            "minute": "26",
-                            "assist": "Roberto Firmino"
+                            "out": "Marc Pugh",
+                            "in": "Ryan Fraser",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "44",
-                            "assist": "Alex Oxlade-Chamberlain"
+                            "out": "Charlie Daniels",
+                            "in": "Steve Cook",
+                            "minute": "56"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "66",
-                            "assist": "Philippe Coutinho"
+                            "out": "Mohamed Salah",
+                            "in": "Adam Lallana",
+                            "minute": "71"
+                        },
+                        {
+                            "out": "Roberto Firmino",
+                            "in": "Dominic Solanke",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Philippe Coutinho",
+                            "in": "Danny Ings",
+                            "minute": "87"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22513",
-                "away_team": "Liverpool",
                 "score": "0-4",
-                "home_team": "Bournemouth"
+                "away_team": "Liverpool"
             }
         ],
         "date": "Sunday 17 December 2017"

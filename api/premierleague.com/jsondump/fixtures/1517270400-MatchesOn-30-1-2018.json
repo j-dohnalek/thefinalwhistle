@@ -2,35 +2,28 @@
     {
         "fixtures": [
             {
+                "home_team": "Man City",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Gareth Barry",
-                            "out": "Grzegorz Krychowiak",
-                            "minute": "33"
+                            "assist": "Kevin De Bruyne",
+                            "minute": "19",
+                            "scorer": "Fernandinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Ilkay Gündogan",
-                            "out": "David Silva",
-                            "minute": "39"
+                            "assist": "Raheem Sterling",
+                            "minute": "68",
+                            "scorer": "Kevin De Bruyne",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Matt Phillips",
-                            "out": "Sam Field",
-                            "minute": "55"
-                        },
-                        {
-                            "in": "Brahim Diaz",
-                            "out": "Kevin De Bruyne",
-                            "minute": "78"
-                        },
-                        {
-                            "in": "Daniel Sturridge",
-                            "out": "Salomón Rondón",
-                            "minute": "78"
+                            "assist": "Raheem Sterling",
+                            "minute": "89",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Robert Madley",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -54,62 +47,62 @@
                             "player": "Matt Phillips"
                         }
                     ],
-                    "goals": [
+                    "referee": "Robert Madley",
+                    "substitutions": [
                         {
-                            "scorer": "Fernandinho",
-                            "own_goal": "false",
-                            "minute": "19",
-                            "assist": "Kevin De Bruyne"
+                            "out": "Grzegorz Krychowiak",
+                            "in": "Gareth Barry",
+                            "minute": "33"
                         },
                         {
-                            "scorer": "Kevin De Bruyne",
-                            "own_goal": "false",
-                            "minute": "68",
-                            "assist": "Raheem Sterling"
+                            "out": "David Silva",
+                            "in": "Ilkay Gündogan",
+                            "minute": "39"
                         },
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "89",
-                            "assist": "Raheem Sterling"
+                            "out": "Sam Field",
+                            "in": "Matt Phillips",
+                            "minute": "55"
+                        },
+                        {
+                            "out": "Kevin De Bruyne",
+                            "in": "Brahim Diaz",
+                            "minute": "78"
+                        },
+                        {
+                            "out": "Salomón Rondón",
+                            "in": "Daniel Sturridge",
+                            "minute": "78"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22587",
-                "away_team": "West Brom",
                 "score": "3-0",
-                "home_team": "Man City"
+                "away_team": "West Brom"
             },
             {
+                "home_team": "Man City",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Gareth Barry",
-                            "out": "Grzegorz Krychowiak",
-                            "minute": "33"
+                            "assist": "Kevin De Bruyne",
+                            "minute": "19",
+                            "scorer": "Fernandinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Ilkay Gündogan",
-                            "out": "David Silva",
-                            "minute": "39"
+                            "assist": "Raheem Sterling",
+                            "minute": "68",
+                            "scorer": "Kevin De Bruyne",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Matt Phillips",
-                            "out": "Sam Field",
-                            "minute": "55"
-                        },
-                        {
-                            "in": "Brahim Diaz",
-                            "out": "Kevin De Bruyne",
-                            "minute": "78"
-                        },
-                        {
-                            "in": "Daniel Sturridge",
-                            "out": "Salomón Rondón",
-                            "minute": "78"
+                            "assist": "Raheem Sterling",
+                            "minute": "89",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Robert Madley",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -133,62 +126,62 @@
                             "player": "Matt Phillips"
                         }
                     ],
-                    "goals": [
+                    "referee": "Robert Madley",
+                    "substitutions": [
                         {
-                            "scorer": "Fernandinho",
-                            "own_goal": "false",
-                            "minute": "19",
-                            "assist": "Kevin De Bruyne"
+                            "out": "Grzegorz Krychowiak",
+                            "in": "Gareth Barry",
+                            "minute": "33"
                         },
                         {
-                            "scorer": "Kevin De Bruyne",
-                            "own_goal": "false",
-                            "minute": "68",
-                            "assist": "Raheem Sterling"
+                            "out": "David Silva",
+                            "in": "Ilkay Gündogan",
+                            "minute": "39"
                         },
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "89",
-                            "assist": "Raheem Sterling"
+                            "out": "Sam Field",
+                            "in": "Matt Phillips",
+                            "minute": "55"
+                        },
+                        {
+                            "out": "Kevin De Bruyne",
+                            "in": "Brahim Diaz",
+                            "minute": "78"
+                        },
+                        {
+                            "out": "Salomón Rondón",
+                            "in": "Daniel Sturridge",
+                            "minute": "78"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22587",
-                "away_team": "West Brom",
                 "score": "3-0",
-                "home_team": "Man City"
+                "away_team": "West Brom"
             },
             {
+                "home_team": "Man City",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Gareth Barry",
-                            "out": "Grzegorz Krychowiak",
-                            "minute": "33"
+                            "assist": "Kevin De Bruyne",
+                            "minute": "19",
+                            "scorer": "Fernandinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Ilkay Gündogan",
-                            "out": "David Silva",
-                            "minute": "39"
+                            "assist": "Raheem Sterling",
+                            "minute": "68",
+                            "scorer": "Kevin De Bruyne",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Matt Phillips",
-                            "out": "Sam Field",
-                            "minute": "55"
-                        },
-                        {
-                            "in": "Brahim Diaz",
-                            "out": "Kevin De Bruyne",
-                            "minute": "78"
-                        },
-                        {
-                            "in": "Daniel Sturridge",
-                            "out": "Salomón Rondón",
-                            "minute": "78"
+                            "assist": "Raheem Sterling",
+                            "minute": "89",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Robert Madley",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -212,62 +205,62 @@
                             "player": "Matt Phillips"
                         }
                     ],
-                    "goals": [
+                    "referee": "Robert Madley",
+                    "substitutions": [
                         {
-                            "scorer": "Fernandinho",
-                            "own_goal": "false",
-                            "minute": "19",
-                            "assist": "Kevin De Bruyne"
+                            "out": "Grzegorz Krychowiak",
+                            "in": "Gareth Barry",
+                            "minute": "33"
                         },
                         {
-                            "scorer": "Kevin De Bruyne",
-                            "own_goal": "false",
-                            "minute": "68",
-                            "assist": "Raheem Sterling"
+                            "out": "David Silva",
+                            "in": "Ilkay Gündogan",
+                            "minute": "39"
                         },
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "89",
-                            "assist": "Raheem Sterling"
+                            "out": "Sam Field",
+                            "in": "Matt Phillips",
+                            "minute": "55"
+                        },
+                        {
+                            "out": "Kevin De Bruyne",
+                            "in": "Brahim Diaz",
+                            "minute": "78"
+                        },
+                        {
+                            "out": "Salomón Rondón",
+                            "in": "Daniel Sturridge",
+                            "minute": "78"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22587",
-                "away_team": "West Brom",
                 "score": "3-0",
-                "home_team": "Man City"
+                "away_team": "West Brom"
             },
             {
+                "home_team": "Man City",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Gareth Barry",
-                            "out": "Grzegorz Krychowiak",
-                            "minute": "33"
+                            "assist": "Kevin De Bruyne",
+                            "minute": "19",
+                            "scorer": "Fernandinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Ilkay Gündogan",
-                            "out": "David Silva",
-                            "minute": "39"
+                            "assist": "Raheem Sterling",
+                            "minute": "68",
+                            "scorer": "Kevin De Bruyne",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Matt Phillips",
-                            "out": "Sam Field",
-                            "minute": "55"
-                        },
-                        {
-                            "in": "Brahim Diaz",
-                            "out": "Kevin De Bruyne",
-                            "minute": "78"
-                        },
-                        {
-                            "in": "Daniel Sturridge",
-                            "out": "Salomón Rondón",
-                            "minute": "78"
+                            "assist": "Raheem Sterling",
+                            "minute": "89",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Robert Madley",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -291,62 +284,62 @@
                             "player": "Matt Phillips"
                         }
                     ],
-                    "goals": [
+                    "referee": "Robert Madley",
+                    "substitutions": [
                         {
-                            "scorer": "Fernandinho",
-                            "own_goal": "false",
-                            "minute": "19",
-                            "assist": "Kevin De Bruyne"
+                            "out": "Grzegorz Krychowiak",
+                            "in": "Gareth Barry",
+                            "minute": "33"
                         },
                         {
-                            "scorer": "Kevin De Bruyne",
-                            "own_goal": "false",
-                            "minute": "68",
-                            "assist": "Raheem Sterling"
+                            "out": "David Silva",
+                            "in": "Ilkay Gündogan",
+                            "minute": "39"
                         },
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "89",
-                            "assist": "Raheem Sterling"
+                            "out": "Sam Field",
+                            "in": "Matt Phillips",
+                            "minute": "55"
+                        },
+                        {
+                            "out": "Kevin De Bruyne",
+                            "in": "Brahim Diaz",
+                            "minute": "78"
+                        },
+                        {
+                            "out": "Salomón Rondón",
+                            "in": "Daniel Sturridge",
+                            "minute": "78"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22587",
-                "away_team": "West Brom",
                 "score": "3-0",
-                "home_team": "Man City"
+                "away_team": "West Brom"
             },
             {
+                "home_team": "Man City",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Gareth Barry",
-                            "out": "Grzegorz Krychowiak",
-                            "minute": "33"
+                            "assist": "Kevin De Bruyne",
+                            "minute": "19",
+                            "scorer": "Fernandinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Ilkay Gündogan",
-                            "out": "David Silva",
-                            "minute": "39"
+                            "assist": "Raheem Sterling",
+                            "minute": "68",
+                            "scorer": "Kevin De Bruyne",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Matt Phillips",
-                            "out": "Sam Field",
-                            "minute": "55"
-                        },
-                        {
-                            "in": "Brahim Diaz",
-                            "out": "Kevin De Bruyne",
-                            "minute": "78"
-                        },
-                        {
-                            "in": "Daniel Sturridge",
-                            "out": "Salomón Rondón",
-                            "minute": "78"
+                            "assist": "Raheem Sterling",
+                            "minute": "89",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Robert Madley",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -370,62 +363,62 @@
                             "player": "Matt Phillips"
                         }
                     ],
-                    "goals": [
+                    "referee": "Robert Madley",
+                    "substitutions": [
                         {
-                            "scorer": "Fernandinho",
-                            "own_goal": "false",
-                            "minute": "19",
-                            "assist": "Kevin De Bruyne"
+                            "out": "Grzegorz Krychowiak",
+                            "in": "Gareth Barry",
+                            "minute": "33"
                         },
                         {
-                            "scorer": "Kevin De Bruyne",
-                            "own_goal": "false",
-                            "minute": "68",
-                            "assist": "Raheem Sterling"
+                            "out": "David Silva",
+                            "in": "Ilkay Gündogan",
+                            "minute": "39"
                         },
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "89",
-                            "assist": "Raheem Sterling"
+                            "out": "Sam Field",
+                            "in": "Matt Phillips",
+                            "minute": "55"
+                        },
+                        {
+                            "out": "Kevin De Bruyne",
+                            "in": "Brahim Diaz",
+                            "minute": "78"
+                        },
+                        {
+                            "out": "Salomón Rondón",
+                            "in": "Daniel Sturridge",
+                            "minute": "78"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22587",
-                "away_team": "West Brom",
                 "score": "3-0",
-                "home_team": "Man City"
+                "away_team": "West Brom"
             },
             {
+                "home_team": "Man City",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Gareth Barry",
-                            "out": "Grzegorz Krychowiak",
-                            "minute": "33"
+                            "assist": "Kevin De Bruyne",
+                            "minute": "19",
+                            "scorer": "Fernandinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Ilkay Gündogan",
-                            "out": "David Silva",
-                            "minute": "39"
+                            "assist": "Raheem Sterling",
+                            "minute": "68",
+                            "scorer": "Kevin De Bruyne",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Matt Phillips",
-                            "out": "Sam Field",
-                            "minute": "55"
-                        },
-                        {
-                            "in": "Brahim Diaz",
-                            "out": "Kevin De Bruyne",
-                            "minute": "78"
-                        },
-                        {
-                            "in": "Daniel Sturridge",
-                            "out": "Salomón Rondón",
-                            "minute": "78"
+                            "assist": "Raheem Sterling",
+                            "minute": "89",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Robert Madley",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -449,62 +442,62 @@
                             "player": "Matt Phillips"
                         }
                     ],
-                    "goals": [
+                    "referee": "Robert Madley",
+                    "substitutions": [
                         {
-                            "scorer": "Fernandinho",
-                            "own_goal": "false",
-                            "minute": "19",
-                            "assist": "Kevin De Bruyne"
+                            "out": "Grzegorz Krychowiak",
+                            "in": "Gareth Barry",
+                            "minute": "33"
                         },
                         {
-                            "scorer": "Kevin De Bruyne",
-                            "own_goal": "false",
-                            "minute": "68",
-                            "assist": "Raheem Sterling"
+                            "out": "David Silva",
+                            "in": "Ilkay Gündogan",
+                            "minute": "39"
                         },
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "89",
-                            "assist": "Raheem Sterling"
+                            "out": "Sam Field",
+                            "in": "Matt Phillips",
+                            "minute": "55"
+                        },
+                        {
+                            "out": "Kevin De Bruyne",
+                            "in": "Brahim Diaz",
+                            "minute": "78"
+                        },
+                        {
+                            "out": "Salomón Rondón",
+                            "in": "Daniel Sturridge",
+                            "minute": "78"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22587",
-                "away_team": "West Brom",
                 "score": "3-0",
-                "home_team": "Man City"
+                "away_team": "West Brom"
             },
             {
+                "home_team": "Man City",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Gareth Barry",
-                            "out": "Grzegorz Krychowiak",
-                            "minute": "33"
+                            "assist": "Kevin De Bruyne",
+                            "minute": "19",
+                            "scorer": "Fernandinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Ilkay Gündogan",
-                            "out": "David Silva",
-                            "minute": "39"
+                            "assist": "Raheem Sterling",
+                            "minute": "68",
+                            "scorer": "Kevin De Bruyne",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Matt Phillips",
-                            "out": "Sam Field",
-                            "minute": "55"
-                        },
-                        {
-                            "in": "Brahim Diaz",
-                            "out": "Kevin De Bruyne",
-                            "minute": "78"
-                        },
-                        {
-                            "in": "Daniel Sturridge",
-                            "out": "Salomón Rondón",
-                            "minute": "78"
+                            "assist": "Raheem Sterling",
+                            "minute": "89",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Robert Madley",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -528,31 +521,38 @@
                             "player": "Matt Phillips"
                         }
                     ],
-                    "goals": [
+                    "referee": "Robert Madley",
+                    "substitutions": [
                         {
-                            "scorer": "Fernandinho",
-                            "own_goal": "false",
-                            "minute": "19",
-                            "assist": "Kevin De Bruyne"
+                            "out": "Grzegorz Krychowiak",
+                            "in": "Gareth Barry",
+                            "minute": "33"
                         },
                         {
-                            "scorer": "Kevin De Bruyne",
-                            "own_goal": "false",
-                            "minute": "68",
-                            "assist": "Raheem Sterling"
+                            "out": "David Silva",
+                            "in": "Ilkay Gündogan",
+                            "minute": "39"
                         },
                         {
-                            "scorer": "Sergio Agüero",
-                            "own_goal": "false",
-                            "minute": "89",
-                            "assist": "Raheem Sterling"
+                            "out": "Sam Field",
+                            "in": "Matt Phillips",
+                            "minute": "55"
+                        },
+                        {
+                            "out": "Kevin De Bruyne",
+                            "in": "Brahim Diaz",
+                            "minute": "78"
+                        },
+                        {
+                            "out": "Salomón Rondón",
+                            "in": "Daniel Sturridge",
+                            "minute": "78"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22587",
-                "away_team": "West Brom",
                 "score": "3-0",
-                "home_team": "Man City"
+                "away_team": "West Brom"
             }
         ],
         "date": "Wednesday 31 January 2018"

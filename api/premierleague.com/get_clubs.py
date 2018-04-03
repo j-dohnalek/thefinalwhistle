@@ -17,7 +17,7 @@ import json
 # MY LIBS ######################################################################
 
 
-from helper import grab_html_by_class, init_driver
+from helper import FireMyFox
 
 
 # CONSTANTS ####################################################################
@@ -32,8 +32,10 @@ JSON_PATH = 'jsondump/list_of_clubs.json'
 
 def main():
 
-    html = grab_html_by_class(init_driver(), class_name="team", url=URL)
-    soup = BeautifulSoup(html, "html.parser")
+    driver = FireMyFox()
+    driver.visit_url(URL)
+    driver.wait_for_class("team")
+    soup = BeautifulSoup(driver.html, "html.parser")
 
     clubs = {}
     club_list = soup.find('tbody', attrs={'class': 'tableBodyContainer'})

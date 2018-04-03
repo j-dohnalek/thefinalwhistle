@@ -2,35 +2,22 @@
     {
         "fixtures": [
             {
+                "home_team": "Spurs",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "André Ayew",
-                            "out": "Chicharito",
-                            "minute": "64"
+                            "assist": "Manuel Lanzini",
+                            "minute": "70",
+                            "scorer": "Pedro Obiang",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Erik Lamela",
-                            "out": "Moussa Sissoko",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Victor Wanyama",
-                            "out": "Eric Dier",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Fernando Llorente",
-                            "out": "Ben Davies",
-                            "minute": "82"
-                        },
-                        {
-                            "in": "Andy Carroll",
-                            "out": "Manuel Lanzini",
-                            "minute": "85"
+                            "assist": "Erik Lamela",
+                            "minute": "84",
+                            "scorer": "Son Heung-Min",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Mike Dean",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -44,25 +31,38 @@
                             "player": "Mark Noble"
                         }
                     ],
-                    "goals": [
+                    "referee": "Mike Dean",
+                    "substitutions": [
                         {
-                            "scorer": "Pedro Obiang",
-                            "own_goal": "false",
-                            "minute": "70",
-                            "assist": "Manuel Lanzini"
+                            "out": "Chicharito",
+                            "in": "André Ayew",
+                            "minute": "64"
                         },
                         {
-                            "scorer": "Son Heung-Min",
-                            "own_goal": "false",
-                            "minute": "84",
-                            "assist": "Erik Lamela"
+                            "out": "Moussa Sissoko",
+                            "in": "Erik Lamela",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Eric Dier",
+                            "in": "Victor Wanyama",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Ben Davies",
+                            "in": "Fernando Llorente",
+                            "minute": "82"
+                        },
+                        {
+                            "out": "Manuel Lanzini",
+                            "in": "Andy Carroll",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22549",
-                "away_team": "West Ham",
                 "score": "1-1",
-                "home_team": "Spurs"
+                "away_team": "West Ham"
             }
         ],
         "date": "Thursday 4 January 2018"

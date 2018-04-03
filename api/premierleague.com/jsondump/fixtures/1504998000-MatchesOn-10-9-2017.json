@@ -2,41 +2,21 @@
     {
         "fixtures": [
             {
+                "home_team": "West Ham",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Scott Malone",
-                            "out": "Chris Löwe",
-                            "minute": "63"
+                            "assist": "André Ayew",
+                            "minute": "72",
+                            "scorer": "Pedro Obiang",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "André Ayew",
-                            "out": "Chicharito",
-                            "minute": "64"
-                        },
-                        {
-                            "in": "Abdelhamid Sabiri",
-                            "out": "Elias Kachunga",
-                            "minute": "75"
-                        },
-                        {
-                            "in": "Diafra Sakho",
-                            "out": "Andy Carroll",
-                            "minute": "82"
-                        },
-                        {
-                            "in": "Laurent Depoitre",
-                            "out": "Philip Billing",
-                            "minute": "83"
-                        },
-                        {
-                            "in": "Declan Rice",
-                            "out": "Pedro Obiang",
-                            "minute": "90",
-                            "additional": "3"
+                            "minute": "77",
+                            "scorer": "André Ayew",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Kevin Friend",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -55,24 +35,44 @@
                             "player": "Pablo Zabaleta"
                         }
                     ],
-                    "goals": [
+                    "referee": "Kevin Friend",
+                    "substitutions": [
                         {
-                            "scorer": "Pedro Obiang",
-                            "own_goal": "false",
-                            "minute": "72",
-                            "assist": "André Ayew"
+                            "out": "Chris Löwe",
+                            "in": "Scott Malone",
+                            "minute": "63"
                         },
                         {
-                            "scorer": "André Ayew",
-                            "own_goal": "false",
-                            "minute": "77"
+                            "out": "Chicharito",
+                            "in": "André Ayew",
+                            "minute": "64"
+                        },
+                        {
+                            "out": "Elias Kachunga",
+                            "in": "Abdelhamid Sabiri",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Andy Carroll",
+                            "in": "Diafra Sakho",
+                            "minute": "82"
+                        },
+                        {
+                            "out": "Philip Billing",
+                            "in": "Laurent Depoitre",
+                            "minute": "83"
+                        },
+                        {
+                            "out": "Pedro Obiang",
+                            "additional": "3",
+                            "in": "Declan Rice",
+                            "minute": "90"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22381",
-                "away_team": "Huddersfield",
                 "score": "2-0",
-                "home_team": "West Ham"
+                "away_team": "Huddersfield"
             }
         ],
         "date": "Monday 11 September 2017"

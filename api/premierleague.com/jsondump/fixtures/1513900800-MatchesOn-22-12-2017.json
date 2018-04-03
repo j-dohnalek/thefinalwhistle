@@ -2,35 +2,16 @@
     {
         "fixtures": [
             {
+                "home_team": "Swansea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Jordan Ayew",
-                            "out": "Luciano Narsingh",
-                            "minute": "66"
-                        },
-                        {
-                            "in": "Bakary Sako",
-                            "out": "Yohan Cabaye",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Angel Rangel",
-                            "out": "Kyle Naughton",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Patrick van Aanholt",
-                            "out": "Andros Townsend",
-                            "minute": "85"
-                        },
-                        {
-                            "in": "Jay Fulton",
-                            "out": "Roque Mesa",
-                            "minute": "89"
+                            "assist": "Tom Carroll",
+                            "minute": "77",
+                            "scorer": "Jordan Ayew",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "15:00",
                     "cards": [
                         {
@@ -59,50 +40,50 @@
                             "player": "Roque Mesa"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Jordan Ayew",
-                            "own_goal": "false",
-                            "minute": "77",
-                            "assist": "Tom Carroll"
+                            "out": "Luciano Narsingh",
+                            "in": "Jordan Ayew",
+                            "minute": "66"
+                        },
+                        {
+                            "out": "Yohan Cabaye",
+                            "in": "Bakary Sako",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Kyle Naughton",
+                            "in": "Angel Rangel",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Andros Townsend",
+                            "in": "Patrick van Aanholt",
+                            "minute": "85"
+                        },
+                        {
+                            "out": "Roque Mesa",
+                            "in": "Jay Fulton",
+                            "minute": "89"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22530",
-                "away_team": "Crystal Palace",
                 "score": "1-1",
-                "home_team": "Swansea"
+                "away_team": "Crystal Palace"
             },
             {
+                "home_team": "Swansea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Jordan Ayew",
-                            "out": "Luciano Narsingh",
-                            "minute": "66"
-                        },
-                        {
-                            "in": "Bakary Sako",
-                            "out": "Yohan Cabaye",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Angel Rangel",
-                            "out": "Kyle Naughton",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Patrick van Aanholt",
-                            "out": "Andros Townsend",
-                            "minute": "85"
-                        },
-                        {
-                            "in": "Jay Fulton",
-                            "out": "Roque Mesa",
-                            "minute": "89"
+                            "assist": "Tom Carroll",
+                            "minute": "77",
+                            "scorer": "Jordan Ayew",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "15:00",
                     "cards": [
                         {
@@ -131,50 +112,50 @@
                             "player": "Roque Mesa"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Jordan Ayew",
-                            "own_goal": "false",
-                            "minute": "77",
-                            "assist": "Tom Carroll"
+                            "out": "Luciano Narsingh",
+                            "in": "Jordan Ayew",
+                            "minute": "66"
+                        },
+                        {
+                            "out": "Yohan Cabaye",
+                            "in": "Bakary Sako",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Kyle Naughton",
+                            "in": "Angel Rangel",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Andros Townsend",
+                            "in": "Patrick van Aanholt",
+                            "minute": "85"
+                        },
+                        {
+                            "out": "Roque Mesa",
+                            "in": "Jay Fulton",
+                            "minute": "89"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22530",
-                "away_team": "Crystal Palace",
                 "score": "1-1",
-                "home_team": "Swansea"
+                "away_team": "Crystal Palace"
             },
             {
+                "home_team": "Swansea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Jordan Ayew",
-                            "out": "Luciano Narsingh",
-                            "minute": "66"
-                        },
-                        {
-                            "in": "Bakary Sako",
-                            "out": "Yohan Cabaye",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Angel Rangel",
-                            "out": "Kyle Naughton",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Patrick van Aanholt",
-                            "out": "Andros Townsend",
-                            "minute": "85"
-                        },
-                        {
-                            "in": "Jay Fulton",
-                            "out": "Roque Mesa",
-                            "minute": "89"
+                            "assist": "Tom Carroll",
+                            "minute": "77",
+                            "scorer": "Jordan Ayew",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "15:00",
                     "cards": [
                         {
@@ -203,50 +184,50 @@
                             "player": "Roque Mesa"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Jordan Ayew",
-                            "own_goal": "false",
-                            "minute": "77",
-                            "assist": "Tom Carroll"
+                            "out": "Luciano Narsingh",
+                            "in": "Jordan Ayew",
+                            "minute": "66"
+                        },
+                        {
+                            "out": "Yohan Cabaye",
+                            "in": "Bakary Sako",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Kyle Naughton",
+                            "in": "Angel Rangel",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Andros Townsend",
+                            "in": "Patrick van Aanholt",
+                            "minute": "85"
+                        },
+                        {
+                            "out": "Roque Mesa",
+                            "in": "Jay Fulton",
+                            "minute": "89"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22530",
-                "away_team": "Crystal Palace",
                 "score": "1-1",
-                "home_team": "Swansea"
+                "away_team": "Crystal Palace"
             },
             {
+                "home_team": "Swansea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Jordan Ayew",
-                            "out": "Luciano Narsingh",
-                            "minute": "66"
-                        },
-                        {
-                            "in": "Bakary Sako",
-                            "out": "Yohan Cabaye",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Angel Rangel",
-                            "out": "Kyle Naughton",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Patrick van Aanholt",
-                            "out": "Andros Townsend",
-                            "minute": "85"
-                        },
-                        {
-                            "in": "Jay Fulton",
-                            "out": "Roque Mesa",
-                            "minute": "89"
+                            "assist": "Tom Carroll",
+                            "minute": "77",
+                            "scorer": "Jordan Ayew",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "15:00",
                     "cards": [
                         {
@@ -275,50 +256,50 @@
                             "player": "Roque Mesa"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Jordan Ayew",
-                            "own_goal": "false",
-                            "minute": "77",
-                            "assist": "Tom Carroll"
+                            "out": "Luciano Narsingh",
+                            "in": "Jordan Ayew",
+                            "minute": "66"
+                        },
+                        {
+                            "out": "Yohan Cabaye",
+                            "in": "Bakary Sako",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Kyle Naughton",
+                            "in": "Angel Rangel",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Andros Townsend",
+                            "in": "Patrick van Aanholt",
+                            "minute": "85"
+                        },
+                        {
+                            "out": "Roque Mesa",
+                            "in": "Jay Fulton",
+                            "minute": "89"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22530",
-                "away_team": "Crystal Palace",
                 "score": "1-1",
-                "home_team": "Swansea"
+                "away_team": "Crystal Palace"
             },
             {
+                "home_team": "Swansea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Jordan Ayew",
-                            "out": "Luciano Narsingh",
-                            "minute": "66"
-                        },
-                        {
-                            "in": "Bakary Sako",
-                            "out": "Yohan Cabaye",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Angel Rangel",
-                            "out": "Kyle Naughton",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Patrick van Aanholt",
-                            "out": "Andros Townsend",
-                            "minute": "85"
-                        },
-                        {
-                            "in": "Jay Fulton",
-                            "out": "Roque Mesa",
-                            "minute": "89"
+                            "assist": "Tom Carroll",
+                            "minute": "77",
+                            "scorer": "Jordan Ayew",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "15:00",
                     "cards": [
                         {
@@ -347,50 +328,50 @@
                             "player": "Roque Mesa"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Jordan Ayew",
-                            "own_goal": "false",
-                            "minute": "77",
-                            "assist": "Tom Carroll"
+                            "out": "Luciano Narsingh",
+                            "in": "Jordan Ayew",
+                            "minute": "66"
+                        },
+                        {
+                            "out": "Yohan Cabaye",
+                            "in": "Bakary Sako",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Kyle Naughton",
+                            "in": "Angel Rangel",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Andros Townsend",
+                            "in": "Patrick van Aanholt",
+                            "minute": "85"
+                        },
+                        {
+                            "out": "Roque Mesa",
+                            "in": "Jay Fulton",
+                            "minute": "89"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22530",
-                "away_team": "Crystal Palace",
                 "score": "1-1",
-                "home_team": "Swansea"
+                "away_team": "Crystal Palace"
             },
             {
+                "home_team": "Swansea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Jordan Ayew",
-                            "out": "Luciano Narsingh",
-                            "minute": "66"
-                        },
-                        {
-                            "in": "Bakary Sako",
-                            "out": "Yohan Cabaye",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Angel Rangel",
-                            "out": "Kyle Naughton",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Patrick van Aanholt",
-                            "out": "Andros Townsend",
-                            "minute": "85"
-                        },
-                        {
-                            "in": "Jay Fulton",
-                            "out": "Roque Mesa",
-                            "minute": "89"
+                            "assist": "Tom Carroll",
+                            "minute": "77",
+                            "scorer": "Jordan Ayew",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "15:00",
                     "cards": [
                         {
@@ -419,50 +400,50 @@
                             "player": "Roque Mesa"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Jordan Ayew",
-                            "own_goal": "false",
-                            "minute": "77",
-                            "assist": "Tom Carroll"
+                            "out": "Luciano Narsingh",
+                            "in": "Jordan Ayew",
+                            "minute": "66"
+                        },
+                        {
+                            "out": "Yohan Cabaye",
+                            "in": "Bakary Sako",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Kyle Naughton",
+                            "in": "Angel Rangel",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Andros Townsend",
+                            "in": "Patrick van Aanholt",
+                            "minute": "85"
+                        },
+                        {
+                            "out": "Roque Mesa",
+                            "in": "Jay Fulton",
+                            "minute": "89"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22530",
-                "away_team": "Crystal Palace",
                 "score": "1-1",
-                "home_team": "Swansea"
+                "away_team": "Crystal Palace"
             },
             {
+                "home_team": "Swansea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Jordan Ayew",
-                            "out": "Luciano Narsingh",
-                            "minute": "66"
-                        },
-                        {
-                            "in": "Bakary Sako",
-                            "out": "Yohan Cabaye",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Angel Rangel",
-                            "out": "Kyle Naughton",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Patrick van Aanholt",
-                            "out": "Andros Townsend",
-                            "minute": "85"
-                        },
-                        {
-                            "in": "Jay Fulton",
-                            "out": "Roque Mesa",
-                            "minute": "89"
+                            "assist": "Tom Carroll",
+                            "minute": "77",
+                            "scorer": "Jordan Ayew",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "15:00",
                     "cards": [
                         {
@@ -491,50 +472,50 @@
                             "player": "Roque Mesa"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Jordan Ayew",
-                            "own_goal": "false",
-                            "minute": "77",
-                            "assist": "Tom Carroll"
+                            "out": "Luciano Narsingh",
+                            "in": "Jordan Ayew",
+                            "minute": "66"
+                        },
+                        {
+                            "out": "Yohan Cabaye",
+                            "in": "Bakary Sako",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Kyle Naughton",
+                            "in": "Angel Rangel",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Andros Townsend",
+                            "in": "Patrick van Aanholt",
+                            "minute": "85"
+                        },
+                        {
+                            "out": "Roque Mesa",
+                            "in": "Jay Fulton",
+                            "minute": "89"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22530",
-                "away_team": "Crystal Palace",
                 "score": "1-1",
-                "home_team": "Swansea"
+                "away_team": "Crystal Palace"
             },
             {
+                "home_team": "Swansea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Jordan Ayew",
-                            "out": "Luciano Narsingh",
-                            "minute": "66"
-                        },
-                        {
-                            "in": "Bakary Sako",
-                            "out": "Yohan Cabaye",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Angel Rangel",
-                            "out": "Kyle Naughton",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Patrick van Aanholt",
-                            "out": "Andros Townsend",
-                            "minute": "85"
-                        },
-                        {
-                            "in": "Jay Fulton",
-                            "out": "Roque Mesa",
-                            "minute": "89"
+                            "assist": "Tom Carroll",
+                            "minute": "77",
+                            "scorer": "Jordan Ayew",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "15:00",
                     "cards": [
                         {
@@ -563,50 +544,50 @@
                             "player": "Roque Mesa"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Jordan Ayew",
-                            "own_goal": "false",
-                            "minute": "77",
-                            "assist": "Tom Carroll"
+                            "out": "Luciano Narsingh",
+                            "in": "Jordan Ayew",
+                            "minute": "66"
+                        },
+                        {
+                            "out": "Yohan Cabaye",
+                            "in": "Bakary Sako",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Kyle Naughton",
+                            "in": "Angel Rangel",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Andros Townsend",
+                            "in": "Patrick van Aanholt",
+                            "minute": "85"
+                        },
+                        {
+                            "out": "Roque Mesa",
+                            "in": "Jay Fulton",
+                            "minute": "89"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22530",
-                "away_team": "Crystal Palace",
                 "score": "1-1",
-                "home_team": "Swansea"
+                "away_team": "Crystal Palace"
             },
             {
+                "home_team": "Swansea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Jordan Ayew",
-                            "out": "Luciano Narsingh",
-                            "minute": "66"
-                        },
-                        {
-                            "in": "Bakary Sako",
-                            "out": "Yohan Cabaye",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Angel Rangel",
-                            "out": "Kyle Naughton",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Patrick van Aanholt",
-                            "out": "Andros Townsend",
-                            "minute": "85"
-                        },
-                        {
-                            "in": "Jay Fulton",
-                            "out": "Roque Mesa",
-                            "minute": "89"
+                            "assist": "Tom Carroll",
+                            "minute": "77",
+                            "scorer": "Jordan Ayew",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "15:00",
                     "cards": [
                         {
@@ -635,19 +616,38 @@
                             "player": "Roque Mesa"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Jordan Ayew",
-                            "own_goal": "false",
-                            "minute": "77",
-                            "assist": "Tom Carroll"
+                            "out": "Luciano Narsingh",
+                            "in": "Jordan Ayew",
+                            "minute": "66"
+                        },
+                        {
+                            "out": "Yohan Cabaye",
+                            "in": "Bakary Sako",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Kyle Naughton",
+                            "in": "Angel Rangel",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Andros Townsend",
+                            "in": "Patrick van Aanholt",
+                            "minute": "85"
+                        },
+                        {
+                            "out": "Roque Mesa",
+                            "in": "Jay Fulton",
+                            "minute": "89"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22530",
-                "away_team": "Crystal Palace",
                 "score": "1-1",
-                "home_team": "Swansea"
+                "away_team": "Crystal Palace"
             }
         ],
         "date": "Saturday 23 December 2017"

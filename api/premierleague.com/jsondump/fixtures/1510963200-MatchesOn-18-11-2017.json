@@ -2,36 +2,22 @@
     {
         "fixtures": [
             {
+                "home_team": "Watford",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Diafra Sakho",
-                            "out": "Andy Carroll",
-                            "minute": "65"
+                            "assist": "Andre Gray",
+                            "minute": "11",
+                            "scorer": "Will Hughes",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Arthur Masuaku",
-                            "out": "Marko Arnautovic",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Roberto Pereyra",
-                            "out": "Will Hughes",
-                            "minute": "84"
-                        },
-                        {
-                            "in": "José Holebas",
-                            "out": "Kiko Femenía",
-                            "minute": "86"
-                        },
-                        {
-                            "in": "André Carrillo",
-                            "out": "Andre Gray",
-                            "minute": "90",
-                            "additional": "7"
+                            "assist": "Will Hughes",
+                            "minute": "64",
+                            "scorer": "Richarlison",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Andre Marriner",
                     "kick_off": "16:00",
                     "cards": [
                         {
@@ -60,25 +46,39 @@
                             "player": "Mark Noble"
                         }
                     ],
-                    "goals": [
+                    "referee": "Andre Marriner",
+                    "substitutions": [
                         {
-                            "scorer": "Will Hughes",
-                            "own_goal": "false",
-                            "minute": "11",
-                            "assist": "Andre Gray"
+                            "out": "Andy Carroll",
+                            "in": "Diafra Sakho",
+                            "minute": "65"
                         },
                         {
-                            "scorer": "Richarlison",
-                            "own_goal": "false",
-                            "minute": "64",
-                            "assist": "Will Hughes"
+                            "out": "Marko Arnautovic",
+                            "in": "Arthur Masuaku",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Will Hughes",
+                            "in": "Roberto Pereyra",
+                            "minute": "84"
+                        },
+                        {
+                            "out": "Kiko Femenía",
+                            "in": "José Holebas",
+                            "minute": "86"
+                        },
+                        {
+                            "out": "Andre Gray",
+                            "additional": "7",
+                            "in": "André Carrillo",
+                            "minute": "90"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22460",
-                "away_team": "West Ham",
                 "score": "2-0",
-                "home_team": "Watford"
+                "away_team": "West Ham"
             }
         ],
         "date": "Sunday 19 November 2017"

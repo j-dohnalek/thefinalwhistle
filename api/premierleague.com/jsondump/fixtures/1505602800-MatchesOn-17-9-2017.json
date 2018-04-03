@@ -2,40 +2,39 @@
     {
         "fixtures": [
             {
+                "home_team": "Leicester",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Demarai Gray",
-                            "out": "Riyad Mahrez",
-                            "minute": "61"
+                            "assist": "Philippe Coutinho",
+                            "minute": "15",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Daniel Sturridge",
-                            "out": "Roberto Firmino",
-                            "minute": "64"
+                            "minute": "23",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Emre Can",
-                            "minute": "74"
+                            "assist": "Harry Maguire",
+                            "additional": "3",
+                            "minute": "45",
+                            "scorer": "Shinji Okazaki",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Kelechi Iheanacho",
-                            "out": "Shinji Okazaki",
-                            "minute": "74"
+                            "assist": "Daniel Sturridge",
+                            "minute": "68",
+                            "scorer": "Jordan Henderson",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Alex Oxlade-Chamberlain",
-                            "out": "Philippe Coutinho",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Islam Slimani",
-                            "out": "Marc Albrighton",
-                            "minute": "80"
+                            "minute": "69",
+                            "scorer": "Jamie Vardy",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -49,10 +48,10 @@
                             "player": "Wilfred Ndidi"
                         },
                         {
+                            "additional": "2",
                             "card": "yellow",
                             "minute": "45",
-                            "player": "Joel Matip",
-                            "additional": "2"
+                            "player": "Joel Matip"
                         },
                         {
                             "card": "yellow",
@@ -65,84 +64,84 @@
                             "player": "Simon Mignolet"
                         },
                         {
+                            "additional": "2",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Jamie Vardy",
-                            "additional": "2"
+                            "player": "Jamie Vardy"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "15",
-                            "assist": "Philippe Coutinho"
+                            "out": "Riyad Mahrez",
+                            "in": "Demarai Gray",
+                            "minute": "61"
                         },
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "23"
+                            "out": "Roberto Firmino",
+                            "in": "Daniel Sturridge",
+                            "minute": "64"
                         },
                         {
-                            "scorer": "Shinji Okazaki",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "3",
-                            "assist": "Harry Maguire"
+                            "out": "Emre Can",
+                            "in": "James Milner",
+                            "minute": "74"
                         },
                         {
-                            "scorer": "Jordan Henderson",
-                            "own_goal": "false",
-                            "minute": "68",
-                            "assist": "Daniel Sturridge"
+                            "out": "Shinji Okazaki",
+                            "in": "Kelechi Iheanacho",
+                            "minute": "74"
                         },
                         {
-                            "scorer": "Jamie Vardy",
-                            "own_goal": "false",
-                            "minute": "69"
+                            "out": "Philippe Coutinho",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Marc Albrighton",
+                            "in": "Islam Slimani",
+                            "minute": "80"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22396",
-                "away_team": "Liverpool",
                 "score": "2-3",
-                "home_team": "Leicester"
+                "away_team": "Liverpool"
             },
             {
+                "home_team": "Leicester",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Demarai Gray",
-                            "out": "Riyad Mahrez",
-                            "minute": "61"
+                            "assist": "Philippe Coutinho",
+                            "minute": "15",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Daniel Sturridge",
-                            "out": "Roberto Firmino",
-                            "minute": "64"
+                            "minute": "23",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Emre Can",
-                            "minute": "74"
+                            "assist": "Harry Maguire",
+                            "additional": "3",
+                            "minute": "45",
+                            "scorer": "Shinji Okazaki",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Kelechi Iheanacho",
-                            "out": "Shinji Okazaki",
-                            "minute": "74"
+                            "assist": "Daniel Sturridge",
+                            "minute": "68",
+                            "scorer": "Jordan Henderson",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Alex Oxlade-Chamberlain",
-                            "out": "Philippe Coutinho",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Islam Slimani",
-                            "out": "Marc Albrighton",
-                            "minute": "80"
+                            "minute": "69",
+                            "scorer": "Jamie Vardy",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -156,10 +155,10 @@
                             "player": "Wilfred Ndidi"
                         },
                         {
+                            "additional": "2",
                             "card": "yellow",
                             "minute": "45",
-                            "player": "Joel Matip",
-                            "additional": "2"
+                            "player": "Joel Matip"
                         },
                         {
                             "card": "yellow",
@@ -172,84 +171,84 @@
                             "player": "Simon Mignolet"
                         },
                         {
+                            "additional": "2",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Jamie Vardy",
-                            "additional": "2"
+                            "player": "Jamie Vardy"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "15",
-                            "assist": "Philippe Coutinho"
+                            "out": "Riyad Mahrez",
+                            "in": "Demarai Gray",
+                            "minute": "61"
                         },
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "23"
+                            "out": "Roberto Firmino",
+                            "in": "Daniel Sturridge",
+                            "minute": "64"
                         },
                         {
-                            "scorer": "Shinji Okazaki",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "3",
-                            "assist": "Harry Maguire"
+                            "out": "Emre Can",
+                            "in": "James Milner",
+                            "minute": "74"
                         },
                         {
-                            "scorer": "Jordan Henderson",
-                            "own_goal": "false",
-                            "minute": "68",
-                            "assist": "Daniel Sturridge"
+                            "out": "Shinji Okazaki",
+                            "in": "Kelechi Iheanacho",
+                            "minute": "74"
                         },
                         {
-                            "scorer": "Jamie Vardy",
-                            "own_goal": "false",
-                            "minute": "69"
+                            "out": "Philippe Coutinho",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Marc Albrighton",
+                            "in": "Islam Slimani",
+                            "minute": "80"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22396",
-                "away_team": "Liverpool",
                 "score": "2-3",
-                "home_team": "Leicester"
+                "away_team": "Liverpool"
             },
             {
+                "home_team": "Leicester",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Demarai Gray",
-                            "out": "Riyad Mahrez",
-                            "minute": "61"
+                            "assist": "Philippe Coutinho",
+                            "minute": "15",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Daniel Sturridge",
-                            "out": "Roberto Firmino",
-                            "minute": "64"
+                            "minute": "23",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Emre Can",
-                            "minute": "74"
+                            "assist": "Harry Maguire",
+                            "additional": "3",
+                            "minute": "45",
+                            "scorer": "Shinji Okazaki",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Kelechi Iheanacho",
-                            "out": "Shinji Okazaki",
-                            "minute": "74"
+                            "assist": "Daniel Sturridge",
+                            "minute": "68",
+                            "scorer": "Jordan Henderson",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Alex Oxlade-Chamberlain",
-                            "out": "Philippe Coutinho",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Islam Slimani",
-                            "out": "Marc Albrighton",
-                            "minute": "80"
+                            "minute": "69",
+                            "scorer": "Jamie Vardy",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -263,10 +262,10 @@
                             "player": "Wilfred Ndidi"
                         },
                         {
+                            "additional": "2",
                             "card": "yellow",
                             "minute": "45",
-                            "player": "Joel Matip",
-                            "additional": "2"
+                            "player": "Joel Matip"
                         },
                         {
                             "card": "yellow",
@@ -279,84 +278,84 @@
                             "player": "Simon Mignolet"
                         },
                         {
+                            "additional": "2",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Jamie Vardy",
-                            "additional": "2"
+                            "player": "Jamie Vardy"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "15",
-                            "assist": "Philippe Coutinho"
+                            "out": "Riyad Mahrez",
+                            "in": "Demarai Gray",
+                            "minute": "61"
                         },
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "23"
+                            "out": "Roberto Firmino",
+                            "in": "Daniel Sturridge",
+                            "minute": "64"
                         },
                         {
-                            "scorer": "Shinji Okazaki",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "3",
-                            "assist": "Harry Maguire"
+                            "out": "Emre Can",
+                            "in": "James Milner",
+                            "minute": "74"
                         },
                         {
-                            "scorer": "Jordan Henderson",
-                            "own_goal": "false",
-                            "minute": "68",
-                            "assist": "Daniel Sturridge"
+                            "out": "Shinji Okazaki",
+                            "in": "Kelechi Iheanacho",
+                            "minute": "74"
                         },
                         {
-                            "scorer": "Jamie Vardy",
-                            "own_goal": "false",
-                            "minute": "69"
+                            "out": "Philippe Coutinho",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Marc Albrighton",
+                            "in": "Islam Slimani",
+                            "minute": "80"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22396",
-                "away_team": "Liverpool",
                 "score": "2-3",
-                "home_team": "Leicester"
+                "away_team": "Liverpool"
             },
             {
+                "home_team": "Leicester",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Demarai Gray",
-                            "out": "Riyad Mahrez",
-                            "minute": "61"
+                            "assist": "Philippe Coutinho",
+                            "minute": "15",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Daniel Sturridge",
-                            "out": "Roberto Firmino",
-                            "minute": "64"
+                            "minute": "23",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Emre Can",
-                            "minute": "74"
+                            "assist": "Harry Maguire",
+                            "additional": "3",
+                            "minute": "45",
+                            "scorer": "Shinji Okazaki",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Kelechi Iheanacho",
-                            "out": "Shinji Okazaki",
-                            "minute": "74"
+                            "assist": "Daniel Sturridge",
+                            "minute": "68",
+                            "scorer": "Jordan Henderson",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Alex Oxlade-Chamberlain",
-                            "out": "Philippe Coutinho",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Islam Slimani",
-                            "out": "Marc Albrighton",
-                            "minute": "80"
+                            "minute": "69",
+                            "scorer": "Jamie Vardy",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -370,10 +369,10 @@
                             "player": "Wilfred Ndidi"
                         },
                         {
+                            "additional": "2",
                             "card": "yellow",
                             "minute": "45",
-                            "player": "Joel Matip",
-                            "additional": "2"
+                            "player": "Joel Matip"
                         },
                         {
                             "card": "yellow",
@@ -386,84 +385,84 @@
                             "player": "Simon Mignolet"
                         },
                         {
+                            "additional": "2",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Jamie Vardy",
-                            "additional": "2"
+                            "player": "Jamie Vardy"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "15",
-                            "assist": "Philippe Coutinho"
+                            "out": "Riyad Mahrez",
+                            "in": "Demarai Gray",
+                            "minute": "61"
                         },
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "23"
+                            "out": "Roberto Firmino",
+                            "in": "Daniel Sturridge",
+                            "minute": "64"
                         },
                         {
-                            "scorer": "Shinji Okazaki",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "3",
-                            "assist": "Harry Maguire"
+                            "out": "Emre Can",
+                            "in": "James Milner",
+                            "minute": "74"
                         },
                         {
-                            "scorer": "Jordan Henderson",
-                            "own_goal": "false",
-                            "minute": "68",
-                            "assist": "Daniel Sturridge"
+                            "out": "Shinji Okazaki",
+                            "in": "Kelechi Iheanacho",
+                            "minute": "74"
                         },
                         {
-                            "scorer": "Jamie Vardy",
-                            "own_goal": "false",
-                            "minute": "69"
+                            "out": "Philippe Coutinho",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Marc Albrighton",
+                            "in": "Islam Slimani",
+                            "minute": "80"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22396",
-                "away_team": "Liverpool",
                 "score": "2-3",
-                "home_team": "Leicester"
+                "away_team": "Liverpool"
             },
             {
+                "home_team": "Leicester",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Demarai Gray",
-                            "out": "Riyad Mahrez",
-                            "minute": "61"
+                            "assist": "Philippe Coutinho",
+                            "minute": "15",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Daniel Sturridge",
-                            "out": "Roberto Firmino",
-                            "minute": "64"
+                            "minute": "23",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Emre Can",
-                            "minute": "74"
+                            "assist": "Harry Maguire",
+                            "additional": "3",
+                            "minute": "45",
+                            "scorer": "Shinji Okazaki",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Kelechi Iheanacho",
-                            "out": "Shinji Okazaki",
-                            "minute": "74"
+                            "assist": "Daniel Sturridge",
+                            "minute": "68",
+                            "scorer": "Jordan Henderson",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Alex Oxlade-Chamberlain",
-                            "out": "Philippe Coutinho",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Islam Slimani",
-                            "out": "Marc Albrighton",
-                            "minute": "80"
+                            "minute": "69",
+                            "scorer": "Jamie Vardy",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -477,10 +476,10 @@
                             "player": "Wilfred Ndidi"
                         },
                         {
+                            "additional": "2",
                             "card": "yellow",
                             "minute": "45",
-                            "player": "Joel Matip",
-                            "additional": "2"
+                            "player": "Joel Matip"
                         },
                         {
                             "card": "yellow",
@@ -493,84 +492,84 @@
                             "player": "Simon Mignolet"
                         },
                         {
+                            "additional": "2",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Jamie Vardy",
-                            "additional": "2"
+                            "player": "Jamie Vardy"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "15",
-                            "assist": "Philippe Coutinho"
+                            "out": "Riyad Mahrez",
+                            "in": "Demarai Gray",
+                            "minute": "61"
                         },
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "23"
+                            "out": "Roberto Firmino",
+                            "in": "Daniel Sturridge",
+                            "minute": "64"
                         },
                         {
-                            "scorer": "Shinji Okazaki",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "3",
-                            "assist": "Harry Maguire"
+                            "out": "Emre Can",
+                            "in": "James Milner",
+                            "minute": "74"
                         },
                         {
-                            "scorer": "Jordan Henderson",
-                            "own_goal": "false",
-                            "minute": "68",
-                            "assist": "Daniel Sturridge"
+                            "out": "Shinji Okazaki",
+                            "in": "Kelechi Iheanacho",
+                            "minute": "74"
                         },
                         {
-                            "scorer": "Jamie Vardy",
-                            "own_goal": "false",
-                            "minute": "69"
+                            "out": "Philippe Coutinho",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Marc Albrighton",
+                            "in": "Islam Slimani",
+                            "minute": "80"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22396",
-                "away_team": "Liverpool",
                 "score": "2-3",
-                "home_team": "Leicester"
+                "away_team": "Liverpool"
             },
             {
+                "home_team": "Leicester",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Demarai Gray",
-                            "out": "Riyad Mahrez",
-                            "minute": "61"
+                            "assist": "Philippe Coutinho",
+                            "minute": "15",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Daniel Sturridge",
-                            "out": "Roberto Firmino",
-                            "minute": "64"
+                            "minute": "23",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Emre Can",
-                            "minute": "74"
+                            "assist": "Harry Maguire",
+                            "additional": "3",
+                            "minute": "45",
+                            "scorer": "Shinji Okazaki",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Kelechi Iheanacho",
-                            "out": "Shinji Okazaki",
-                            "minute": "74"
+                            "assist": "Daniel Sturridge",
+                            "minute": "68",
+                            "scorer": "Jordan Henderson",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Alex Oxlade-Chamberlain",
-                            "out": "Philippe Coutinho",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Islam Slimani",
-                            "out": "Marc Albrighton",
-                            "minute": "80"
+                            "minute": "69",
+                            "scorer": "Jamie Vardy",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -584,10 +583,10 @@
                             "player": "Wilfred Ndidi"
                         },
                         {
+                            "additional": "2",
                             "card": "yellow",
                             "minute": "45",
-                            "player": "Joel Matip",
-                            "additional": "2"
+                            "player": "Joel Matip"
                         },
                         {
                             "card": "yellow",
@@ -600,84 +599,84 @@
                             "player": "Simon Mignolet"
                         },
                         {
+                            "additional": "2",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Jamie Vardy",
-                            "additional": "2"
+                            "player": "Jamie Vardy"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "15",
-                            "assist": "Philippe Coutinho"
+                            "out": "Riyad Mahrez",
+                            "in": "Demarai Gray",
+                            "minute": "61"
                         },
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "23"
+                            "out": "Roberto Firmino",
+                            "in": "Daniel Sturridge",
+                            "minute": "64"
                         },
                         {
-                            "scorer": "Shinji Okazaki",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "3",
-                            "assist": "Harry Maguire"
+                            "out": "Emre Can",
+                            "in": "James Milner",
+                            "minute": "74"
                         },
                         {
-                            "scorer": "Jordan Henderson",
-                            "own_goal": "false",
-                            "minute": "68",
-                            "assist": "Daniel Sturridge"
+                            "out": "Shinji Okazaki",
+                            "in": "Kelechi Iheanacho",
+                            "minute": "74"
                         },
                         {
-                            "scorer": "Jamie Vardy",
-                            "own_goal": "false",
-                            "minute": "69"
+                            "out": "Philippe Coutinho",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Marc Albrighton",
+                            "in": "Islam Slimani",
+                            "minute": "80"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22396",
-                "away_team": "Liverpool",
                 "score": "2-3",
-                "home_team": "Leicester"
+                "away_team": "Liverpool"
             },
             {
+                "home_team": "Leicester",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Demarai Gray",
-                            "out": "Riyad Mahrez",
-                            "minute": "61"
+                            "assist": "Philippe Coutinho",
+                            "minute": "15",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Daniel Sturridge",
-                            "out": "Roberto Firmino",
-                            "minute": "64"
+                            "minute": "23",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Emre Can",
-                            "minute": "74"
+                            "assist": "Harry Maguire",
+                            "additional": "3",
+                            "minute": "45",
+                            "scorer": "Shinji Okazaki",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Kelechi Iheanacho",
-                            "out": "Shinji Okazaki",
-                            "minute": "74"
+                            "assist": "Daniel Sturridge",
+                            "minute": "68",
+                            "scorer": "Jordan Henderson",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Alex Oxlade-Chamberlain",
-                            "out": "Philippe Coutinho",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Islam Slimani",
-                            "out": "Marc Albrighton",
-                            "minute": "80"
+                            "minute": "69",
+                            "scorer": "Jamie Vardy",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -691,10 +690,10 @@
                             "player": "Wilfred Ndidi"
                         },
                         {
+                            "additional": "2",
                             "card": "yellow",
                             "minute": "45",
-                            "player": "Joel Matip",
-                            "additional": "2"
+                            "player": "Joel Matip"
                         },
                         {
                             "card": "yellow",
@@ -707,84 +706,84 @@
                             "player": "Simon Mignolet"
                         },
                         {
+                            "additional": "2",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Jamie Vardy",
-                            "additional": "2"
+                            "player": "Jamie Vardy"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "15",
-                            "assist": "Philippe Coutinho"
+                            "out": "Riyad Mahrez",
+                            "in": "Demarai Gray",
+                            "minute": "61"
                         },
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "23"
+                            "out": "Roberto Firmino",
+                            "in": "Daniel Sturridge",
+                            "minute": "64"
                         },
                         {
-                            "scorer": "Shinji Okazaki",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "3",
-                            "assist": "Harry Maguire"
+                            "out": "Emre Can",
+                            "in": "James Milner",
+                            "minute": "74"
                         },
                         {
-                            "scorer": "Jordan Henderson",
-                            "own_goal": "false",
-                            "minute": "68",
-                            "assist": "Daniel Sturridge"
+                            "out": "Shinji Okazaki",
+                            "in": "Kelechi Iheanacho",
+                            "minute": "74"
                         },
                         {
-                            "scorer": "Jamie Vardy",
-                            "own_goal": "false",
-                            "minute": "69"
+                            "out": "Philippe Coutinho",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Marc Albrighton",
+                            "in": "Islam Slimani",
+                            "minute": "80"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22396",
-                "away_team": "Liverpool",
                 "score": "2-3",
-                "home_team": "Leicester"
+                "away_team": "Liverpool"
             },
             {
+                "home_team": "Leicester",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Demarai Gray",
-                            "out": "Riyad Mahrez",
-                            "minute": "61"
+                            "assist": "Philippe Coutinho",
+                            "minute": "15",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Daniel Sturridge",
-                            "out": "Roberto Firmino",
-                            "minute": "64"
+                            "minute": "23",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Emre Can",
-                            "minute": "74"
+                            "assist": "Harry Maguire",
+                            "additional": "3",
+                            "minute": "45",
+                            "scorer": "Shinji Okazaki",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Kelechi Iheanacho",
-                            "out": "Shinji Okazaki",
-                            "minute": "74"
+                            "assist": "Daniel Sturridge",
+                            "minute": "68",
+                            "scorer": "Jordan Henderson",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Alex Oxlade-Chamberlain",
-                            "out": "Philippe Coutinho",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Islam Slimani",
-                            "out": "Marc Albrighton",
-                            "minute": "80"
+                            "minute": "69",
+                            "scorer": "Jamie Vardy",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -798,10 +797,10 @@
                             "player": "Wilfred Ndidi"
                         },
                         {
+                            "additional": "2",
                             "card": "yellow",
                             "minute": "45",
-                            "player": "Joel Matip",
-                            "additional": "2"
+                            "player": "Joel Matip"
                         },
                         {
                             "card": "yellow",
@@ -814,48 +813,49 @@
                             "player": "Simon Mignolet"
                         },
                         {
+                            "additional": "2",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Jamie Vardy",
-                            "additional": "2"
+                            "player": "Jamie Vardy"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "15",
-                            "assist": "Philippe Coutinho"
+                            "out": "Riyad Mahrez",
+                            "in": "Demarai Gray",
+                            "minute": "61"
                         },
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "23"
+                            "out": "Roberto Firmino",
+                            "in": "Daniel Sturridge",
+                            "minute": "64"
                         },
                         {
-                            "scorer": "Shinji Okazaki",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "3",
-                            "assist": "Harry Maguire"
+                            "out": "Emre Can",
+                            "in": "James Milner",
+                            "minute": "74"
                         },
                         {
-                            "scorer": "Jordan Henderson",
-                            "own_goal": "false",
-                            "minute": "68",
-                            "assist": "Daniel Sturridge"
+                            "out": "Shinji Okazaki",
+                            "in": "Kelechi Iheanacho",
+                            "minute": "74"
                         },
                         {
-                            "scorer": "Jamie Vardy",
-                            "own_goal": "false",
-                            "minute": "69"
+                            "out": "Philippe Coutinho",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Marc Albrighton",
+                            "in": "Islam Slimani",
+                            "minute": "80"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22396",
-                "away_team": "Liverpool",
                 "score": "2-3",
-                "home_team": "Leicester"
+                "away_team": "Liverpool"
             }
         ],
         "date": "Saturday 23 September 2017"

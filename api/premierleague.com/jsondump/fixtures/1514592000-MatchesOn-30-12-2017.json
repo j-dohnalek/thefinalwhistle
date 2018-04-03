@@ -2,40 +2,15 @@
     {
         "fixtures": [
             {
+                "home_team": "West Brom",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Ainsley Maitland-Niles",
-                            "out": "Sead Kolasinac",
-                            "minute": "37"
-                        },
-                        {
-                            "in": "Per Mertesacker",
-                            "out": "Laurent Koscielny",
-                            "minute": "72"
-                        },
-                        {
-                            "in": "James McClean",
-                            "out": "Matt Phillips",
-                            "minute": "72"
-                        },
-                        {
-                            "in": "Grzegorz Krychowiak",
-                            "out": "Chris Brunt",
-                            "minute": "72"
-                        },
-                        {
-                            "in": "Danny Welbeck",
-                            "out": "Alex Iwobi",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Nyom",
-                            "out": "Hal Robson-Kanu",
-                            "minute": "75"
+                            "minute": "83",
+                            "scorer": "James McClean",
+                            "own_goal": "true"
                         }
                     ],
-                    "referee": "Mike Dean",
                     "kick_off": "16:30",
                     "cards": [
                         {
@@ -64,60 +39,60 @@
                             "player": "Jack Wilshere"
                         },
                         {
+                            "additional": "5",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Petr Cech",
-                            "additional": "5"
+                            "player": "Petr Cech"
                         }
                     ],
-                    "goals": [
+                    "referee": "Mike Dean",
+                    "substitutions": [
                         {
-                            "scorer": "James McClean",
-                            "own_goal": "true",
-                            "minute": "83"
+                            "out": "Sead Kolasinac",
+                            "in": "Ainsley Maitland-Niles",
+                            "minute": "37"
+                        },
+                        {
+                            "out": "Laurent Koscielny",
+                            "in": "Per Mertesacker",
+                            "minute": "72"
+                        },
+                        {
+                            "out": "Matt Phillips",
+                            "in": "James McClean",
+                            "minute": "72"
+                        },
+                        {
+                            "out": "Chris Brunt",
+                            "in": "Grzegorz Krychowiak",
+                            "minute": "72"
+                        },
+                        {
+                            "out": "Alex Iwobi",
+                            "in": "Danny Welbeck",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Hal Robson-Kanu",
+                            "in": "Nyom",
+                            "minute": "75"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22551",
-                "away_team": "Arsenal",
                 "score": "1-1",
-                "home_team": "West Brom"
+                "away_team": "Arsenal"
             },
             {
+                "home_team": "West Brom",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Ainsley Maitland-Niles",
-                            "out": "Sead Kolasinac",
-                            "minute": "37"
-                        },
-                        {
-                            "in": "Per Mertesacker",
-                            "out": "Laurent Koscielny",
-                            "minute": "72"
-                        },
-                        {
-                            "in": "James McClean",
-                            "out": "Matt Phillips",
-                            "minute": "72"
-                        },
-                        {
-                            "in": "Grzegorz Krychowiak",
-                            "out": "Chris Brunt",
-                            "minute": "72"
-                        },
-                        {
-                            "in": "Danny Welbeck",
-                            "out": "Alex Iwobi",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Nyom",
-                            "out": "Hal Robson-Kanu",
-                            "minute": "75"
+                            "minute": "83",
+                            "scorer": "James McClean",
+                            "own_goal": "true"
                         }
                     ],
-                    "referee": "Mike Dean",
                     "kick_off": "16:30",
                     "cards": [
                         {
@@ -146,24 +121,49 @@
                             "player": "Jack Wilshere"
                         },
                         {
+                            "additional": "5",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Petr Cech",
-                            "additional": "5"
+                            "player": "Petr Cech"
                         }
                     ],
-                    "goals": [
+                    "referee": "Mike Dean",
+                    "substitutions": [
                         {
-                            "scorer": "James McClean",
-                            "own_goal": "true",
-                            "minute": "83"
+                            "out": "Sead Kolasinac",
+                            "in": "Ainsley Maitland-Niles",
+                            "minute": "37"
+                        },
+                        {
+                            "out": "Laurent Koscielny",
+                            "in": "Per Mertesacker",
+                            "minute": "72"
+                        },
+                        {
+                            "out": "Matt Phillips",
+                            "in": "James McClean",
+                            "minute": "72"
+                        },
+                        {
+                            "out": "Chris Brunt",
+                            "in": "Grzegorz Krychowiak",
+                            "minute": "72"
+                        },
+                        {
+                            "out": "Alex Iwobi",
+                            "in": "Danny Welbeck",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Hal Robson-Kanu",
+                            "in": "Nyom",
+                            "minute": "75"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22551",
-                "away_team": "Arsenal",
                 "score": "1-1",
-                "home_team": "West Brom"
+                "away_team": "Arsenal"
             }
         ],
         "date": "Sunday 31 December 2017"

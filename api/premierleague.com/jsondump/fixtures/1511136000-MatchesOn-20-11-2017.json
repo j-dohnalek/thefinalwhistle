@@ -2,32 +2,21 @@
     {
         "fixtures": [
             {
+                "home_team": "West Ham",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "André Ayew",
-                            "out": "Marko Arnautovic",
-                            "minute": "69"
+                            "minute": "8",
+                            "scorer": "Marc Albrighton",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Ben Chilwell",
-                            "out": "Riyad Mahrez",
-                            "minute": "70"
-                        },
-                        {
-                            "in": "Islam Slimani",
-                            "out": "Demarai Gray",
-                            "minute": "90",
-                            "additional": "2"
-                        },
-                        {
-                            "in": "Diafra Sakho",
-                            "out": "Arthur Masuaku",
-                            "minute": "90",
-                            "additional": "4"
+                            "assist": "Manuel Lanzini",
+                            "minute": "45",
+                            "scorer": "Cheikhou Kouyaté",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Martin Atkinson",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -41,24 +30,35 @@
                             "player": "Demarai Gray"
                         }
                     ],
-                    "goals": [
+                    "referee": "Martin Atkinson",
+                    "substitutions": [
                         {
-                            "scorer": "Marc Albrighton",
-                            "own_goal": "false",
-                            "minute": "8"
+                            "out": "Marko Arnautovic",
+                            "in": "André Ayew",
+                            "minute": "69"
                         },
                         {
-                            "scorer": "Cheikhou Kouyaté",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "assist": "Manuel Lanzini"
+                            "out": "Riyad Mahrez",
+                            "in": "Ben Chilwell",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Demarai Gray",
+                            "additional": "2",
+                            "in": "Islam Slimani",
+                            "minute": "90"
+                        },
+                        {
+                            "out": "Arthur Masuaku",
+                            "additional": "4",
+                            "in": "Diafra Sakho",
+                            "minute": "90"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22471",
-                "away_team": "Leicester",
                 "score": "1-1",
-                "home_team": "West Ham"
+                "away_team": "Leicester"
             }
         ],
         "date": "Friday 24 November 2017"

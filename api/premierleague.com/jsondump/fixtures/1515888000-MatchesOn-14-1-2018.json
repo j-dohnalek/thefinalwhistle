@@ -2,40 +2,28 @@
     {
         "fixtures": [
             {
+                "home_team": "Man Utd",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Kevin Wimmer",
-                            "out": "Josh Tymon",
-                            "minute": "45"
+                            "assist": "Paul Pogba",
+                            "minute": "9",
+                            "scorer": "Antonio Valencia",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Ramadan Sobhi",
-                            "out": "Eric Maxim Choupo-Moting",
-                            "minute": "61"
+                            "assist": "Paul Pogba",
+                            "minute": "38",
+                            "scorer": "Anthony Martial",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Mame Biram Diouf",
-                            "out": "Peter Crouch",
-                            "minute": "70"
-                        },
-                        {
-                            "in": "Marouane Fellaini",
-                            "out": "Jesse Lingard",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Marcus Rashford",
-                            "out": "Anthony Martial",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Scott McTominay",
-                            "out": "Juan Mata",
-                            "minute": "83"
+                            "assist": "Anthony Martial",
+                            "minute": "72",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -54,31 +42,43 @@
                             "player": "Stephen Ireland"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Antonio Valencia",
-                            "own_goal": "false",
-                            "minute": "9",
-                            "assist": "Paul Pogba"
+                            "out": "Josh Tymon",
+                            "in": "Kevin Wimmer",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Anthony Martial",
-                            "own_goal": "false",
-                            "minute": "38",
-                            "assist": "Paul Pogba"
+                            "out": "Eric Maxim Choupo-Moting",
+                            "in": "Ramadan Sobhi",
+                            "minute": "61"
                         },
                         {
-                            "scorer": "Romelu Lukaku",
-                            "own_goal": "false",
-                            "minute": "72",
-                            "assist": "Anthony Martial"
+                            "out": "Peter Crouch",
+                            "in": "Mame Biram Diouf",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Jesse Lingard",
+                            "in": "Marouane Fellaini",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Anthony Martial",
+                            "in": "Marcus Rashford",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Juan Mata",
+                            "in": "Scott McTominay",
+                            "minute": "83"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22567",
-                "away_team": "Stoke",
                 "score": "3-0",
-                "home_team": "Man Utd"
+                "away_team": "Stoke"
             }
         ],
         "date": "Monday 15 January 2018"

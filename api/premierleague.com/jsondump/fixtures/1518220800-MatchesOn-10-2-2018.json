@@ -2,40 +2,22 @@
     {
         "fixtures": [
             {
+                "home_team": "Southampton",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Sofiane Boufal",
-                            "out": "Mario Lemina",
-                            "minute": "57"
+                            "assist": "Mohamed Salah",
+                            "minute": "6",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Alex Oxlade-Chamberlain",
-                            "minute": "60"
-                        },
-                        {
-                            "in": "Shane Long",
-                            "out": "James Ward-Prowse",
-                            "minute": "71"
-                        },
-                        {
-                            "in": "Adam Lallana",
-                            "out": "Roberto Firmino",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Steven Davis",
-                            "out": "Oriol Romeu",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Dejan Lovren",
-                            "out": "Mohamed Salah",
-                            "minute": "89"
+                            "assist": "Roberto Firmino",
+                            "minute": "42",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Martin Atkinson",
                     "kick_off": "16:30",
                     "cards": [
                         {
@@ -54,61 +36,61 @@
                             "player": "Oriol Romeu"
                         }
                     ],
-                    "goals": [
+                    "referee": "Martin Atkinson",
+                    "substitutions": [
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "6",
-                            "assist": "Mohamed Salah"
+                            "out": "Mario Lemina",
+                            "in": "Sofiane Boufal",
+                            "minute": "57"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "42",
-                            "assist": "Roberto Firmino"
+                            "out": "Alex Oxlade-Chamberlain",
+                            "in": "James Milner",
+                            "minute": "60"
+                        },
+                        {
+                            "out": "James Ward-Prowse",
+                            "in": "Shane Long",
+                            "minute": "71"
+                        },
+                        {
+                            "out": "Roberto Firmino",
+                            "in": "Adam Lallana",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Oriol Romeu",
+                            "in": "Steven Davis",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Mohamed Salah",
+                            "in": "Dejan Lovren",
+                            "minute": "89"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22607",
-                "away_team": "Liverpool",
                 "score": "0-2",
-                "home_team": "Southampton"
+                "away_team": "Liverpool"
             },
             {
+                "home_team": "Southampton",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Sofiane Boufal",
-                            "out": "Mario Lemina",
-                            "minute": "57"
+                            "assist": "Mohamed Salah",
+                            "minute": "6",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Alex Oxlade-Chamberlain",
-                            "minute": "60"
-                        },
-                        {
-                            "in": "Shane Long",
-                            "out": "James Ward-Prowse",
-                            "minute": "71"
-                        },
-                        {
-                            "in": "Adam Lallana",
-                            "out": "Roberto Firmino",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Steven Davis",
-                            "out": "Oriol Romeu",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Dejan Lovren",
-                            "out": "Mohamed Salah",
-                            "minute": "89"
+                            "assist": "Roberto Firmino",
+                            "minute": "42",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Martin Atkinson",
                     "kick_off": "16:30",
                     "cards": [
                         {
@@ -127,61 +109,61 @@
                             "player": "Oriol Romeu"
                         }
                     ],
-                    "goals": [
+                    "referee": "Martin Atkinson",
+                    "substitutions": [
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "6",
-                            "assist": "Mohamed Salah"
+                            "out": "Mario Lemina",
+                            "in": "Sofiane Boufal",
+                            "minute": "57"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "42",
-                            "assist": "Roberto Firmino"
+                            "out": "Alex Oxlade-Chamberlain",
+                            "in": "James Milner",
+                            "minute": "60"
+                        },
+                        {
+                            "out": "James Ward-Prowse",
+                            "in": "Shane Long",
+                            "minute": "71"
+                        },
+                        {
+                            "out": "Roberto Firmino",
+                            "in": "Adam Lallana",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Oriol Romeu",
+                            "in": "Steven Davis",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Mohamed Salah",
+                            "in": "Dejan Lovren",
+                            "minute": "89"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22607",
-                "away_team": "Liverpool",
                 "score": "0-2",
-                "home_team": "Southampton"
+                "away_team": "Liverpool"
             },
             {
+                "home_team": "Southampton",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Sofiane Boufal",
-                            "out": "Mario Lemina",
-                            "minute": "57"
+                            "assist": "Mohamed Salah",
+                            "minute": "6",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Alex Oxlade-Chamberlain",
-                            "minute": "60"
-                        },
-                        {
-                            "in": "Shane Long",
-                            "out": "James Ward-Prowse",
-                            "minute": "71"
-                        },
-                        {
-                            "in": "Adam Lallana",
-                            "out": "Roberto Firmino",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Steven Davis",
-                            "out": "Oriol Romeu",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Dejan Lovren",
-                            "out": "Mohamed Salah",
-                            "minute": "89"
+                            "assist": "Roberto Firmino",
+                            "minute": "42",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Martin Atkinson",
                     "kick_off": "16:30",
                     "cards": [
                         {
@@ -200,25 +182,43 @@
                             "player": "Oriol Romeu"
                         }
                     ],
-                    "goals": [
+                    "referee": "Martin Atkinson",
+                    "substitutions": [
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "6",
-                            "assist": "Mohamed Salah"
+                            "out": "Mario Lemina",
+                            "in": "Sofiane Boufal",
+                            "minute": "57"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "42",
-                            "assist": "Roberto Firmino"
+                            "out": "Alex Oxlade-Chamberlain",
+                            "in": "James Milner",
+                            "minute": "60"
+                        },
+                        {
+                            "out": "James Ward-Prowse",
+                            "in": "Shane Long",
+                            "minute": "71"
+                        },
+                        {
+                            "out": "Roberto Firmino",
+                            "in": "Adam Lallana",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Oriol Romeu",
+                            "in": "Steven Davis",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Mohamed Salah",
+                            "in": "Dejan Lovren",
+                            "minute": "89"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22607",
-                "away_team": "Liverpool",
                 "score": "0-2",
-                "home_team": "Southampton"
+                "away_team": "Liverpool"
             }
         ],
         "date": "Sunday 11 February 2018"

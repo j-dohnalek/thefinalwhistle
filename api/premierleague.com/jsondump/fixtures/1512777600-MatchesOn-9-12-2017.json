@@ -2,40 +2,26 @@
     {
         "fixtures": [
             {
+                "home_team": "Man Utd",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Ilkay Gündogan",
-                            "out": "Vincent Kompany",
-                            "minute": "45"
+                            "minute": "43",
+                            "scorer": "David Silva",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Victor Lindelöf",
-                            "out": "Marcos Rojo",
-                            "minute": "45"
+                            "additional": "2",
+                            "minute": "45",
+                            "scorer": "Marcus Rashford",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Eliaquim Mangala",
-                            "out": "Gabriel Jesus",
-                            "minute": "59"
-                        },
-                        {
-                            "in": "Zlatan Ibrahimovic",
-                            "out": "Jesse Lingard",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Juan Mata",
-                            "out": "Ander Herrera",
-                            "minute": "82"
-                        },
-                        {
-                            "in": "Bernardo Silva",
-                            "out": "Leroy Sané",
-                            "minute": "88"
+                            "minute": "54",
+                            "scorer": "Nicolás Otamendi",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Michael Oliver",
                     "kick_off": "16:30",
                     "cards": [
                         {
@@ -69,65 +55,65 @@
                             "player": "Ashley Young"
                         }
                     ],
-                    "goals": [
+                    "referee": "Michael Oliver",
+                    "substitutions": [
                         {
-                            "scorer": "David Silva",
-                            "own_goal": "false",
-                            "minute": "43"
+                            "out": "Vincent Kompany",
+                            "in": "Ilkay Gündogan",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Marcus Rashford",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "2"
+                            "out": "Marcos Rojo",
+                            "in": "Victor Lindelöf",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Nicolás Otamendi",
-                            "own_goal": "false",
-                            "minute": "54"
+                            "out": "Gabriel Jesus",
+                            "in": "Eliaquim Mangala",
+                            "minute": "59"
+                        },
+                        {
+                            "out": "Jesse Lingard",
+                            "in": "Zlatan Ibrahimovic",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Ander Herrera",
+                            "in": "Juan Mata",
+                            "minute": "82"
+                        },
+                        {
+                            "out": "Leroy Sané",
+                            "in": "Bernardo Silva",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22496",
-                "away_team": "Man City",
                 "score": "1-2",
-                "home_team": "Man Utd"
+                "away_team": "Man City"
             },
             {
+                "home_team": "Man Utd",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Ilkay Gündogan",
-                            "out": "Vincent Kompany",
-                            "minute": "45"
+                            "minute": "43",
+                            "scorer": "David Silva",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Victor Lindelöf",
-                            "out": "Marcos Rojo",
-                            "minute": "45"
+                            "additional": "2",
+                            "minute": "45",
+                            "scorer": "Marcus Rashford",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Eliaquim Mangala",
-                            "out": "Gabriel Jesus",
-                            "minute": "59"
-                        },
-                        {
-                            "in": "Zlatan Ibrahimovic",
-                            "out": "Jesse Lingard",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Juan Mata",
-                            "out": "Ander Herrera",
-                            "minute": "82"
-                        },
-                        {
-                            "in": "Bernardo Silva",
-                            "out": "Leroy Sané",
-                            "minute": "88"
+                            "minute": "54",
+                            "scorer": "Nicolás Otamendi",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Michael Oliver",
                     "kick_off": "16:30",
                     "cards": [
                         {
@@ -161,65 +147,65 @@
                             "player": "Ashley Young"
                         }
                     ],
-                    "goals": [
+                    "referee": "Michael Oliver",
+                    "substitutions": [
                         {
-                            "scorer": "David Silva",
-                            "own_goal": "false",
-                            "minute": "43"
+                            "out": "Vincent Kompany",
+                            "in": "Ilkay Gündogan",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Marcus Rashford",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "2"
+                            "out": "Marcos Rojo",
+                            "in": "Victor Lindelöf",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Nicolás Otamendi",
-                            "own_goal": "false",
-                            "minute": "54"
+                            "out": "Gabriel Jesus",
+                            "in": "Eliaquim Mangala",
+                            "minute": "59"
+                        },
+                        {
+                            "out": "Jesse Lingard",
+                            "in": "Zlatan Ibrahimovic",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Ander Herrera",
+                            "in": "Juan Mata",
+                            "minute": "82"
+                        },
+                        {
+                            "out": "Leroy Sané",
+                            "in": "Bernardo Silva",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22496",
-                "away_team": "Man City",
                 "score": "1-2",
-                "home_team": "Man Utd"
+                "away_team": "Man City"
             },
             {
+                "home_team": "Man Utd",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Ilkay Gündogan",
-                            "out": "Vincent Kompany",
-                            "minute": "45"
+                            "minute": "43",
+                            "scorer": "David Silva",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Victor Lindelöf",
-                            "out": "Marcos Rojo",
-                            "minute": "45"
+                            "additional": "2",
+                            "minute": "45",
+                            "scorer": "Marcus Rashford",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Eliaquim Mangala",
-                            "out": "Gabriel Jesus",
-                            "minute": "59"
-                        },
-                        {
-                            "in": "Zlatan Ibrahimovic",
-                            "out": "Jesse Lingard",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Juan Mata",
-                            "out": "Ander Herrera",
-                            "minute": "82"
-                        },
-                        {
-                            "in": "Bernardo Silva",
-                            "out": "Leroy Sané",
-                            "minute": "88"
+                            "minute": "54",
+                            "scorer": "Nicolás Otamendi",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Michael Oliver",
                     "kick_off": "16:30",
                     "cards": [
                         {
@@ -253,29 +239,43 @@
                             "player": "Ashley Young"
                         }
                     ],
-                    "goals": [
+                    "referee": "Michael Oliver",
+                    "substitutions": [
                         {
-                            "scorer": "David Silva",
-                            "own_goal": "false",
-                            "minute": "43"
+                            "out": "Vincent Kompany",
+                            "in": "Ilkay Gündogan",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Marcus Rashford",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "2"
+                            "out": "Marcos Rojo",
+                            "in": "Victor Lindelöf",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Nicolás Otamendi",
-                            "own_goal": "false",
-                            "minute": "54"
+                            "out": "Gabriel Jesus",
+                            "in": "Eliaquim Mangala",
+                            "minute": "59"
+                        },
+                        {
+                            "out": "Jesse Lingard",
+                            "in": "Zlatan Ibrahimovic",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Ander Herrera",
+                            "in": "Juan Mata",
+                            "minute": "82"
+                        },
+                        {
+                            "out": "Leroy Sané",
+                            "in": "Bernardo Silva",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22496",
-                "away_team": "Man City",
                 "score": "1-2",
-                "home_team": "Man Utd"
+                "away_team": "Man City"
             }
         ],
         "date": "Sunday 10 December 2017"

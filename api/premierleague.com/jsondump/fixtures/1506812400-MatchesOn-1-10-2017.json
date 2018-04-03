@@ -2,40 +2,22 @@
     {
         "fixtures": [
             {
+                "home_team": "Watford",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Mesut Özil",
-                            "out": "Danny Welbeck",
-                            "minute": "61"
+                            "assist": "Granit Xhaka",
+                            "minute": "39",
+                            "scorer": "Per Mertesacker",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "André Carrillo",
-                            "out": "Adrian Mariappa",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Troy Deeney",
-                            "out": "Andre Gray",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Olivier Giroud",
-                            "out": "Alexandre Lacazette",
-                            "minute": "68"
-                        },
-                        {
-                            "in": "Etienne Capoue",
-                            "out": "Roberto Pereyra",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Rob Holding",
-                            "out": "Laurent Koscielny",
-                            "minute": "85"
+                            "additional": "2",
+                            "minute": "90",
+                            "scorer": "Tom Cleverley",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Neil Swarbrick",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -44,61 +26,61 @@
                             "player": "Christian Kabasele"
                         }
                     ],
-                    "goals": [
+                    "referee": "Neil Swarbrick",
+                    "substitutions": [
                         {
-                            "scorer": "Per Mertesacker",
-                            "own_goal": "false",
-                            "minute": "39",
-                            "assist": "Granit Xhaka"
+                            "out": "Danny Welbeck",
+                            "in": "Mesut Özil",
+                            "minute": "61"
                         },
                         {
-                            "scorer": "Tom Cleverley",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "additional": "2"
+                            "out": "Adrian Mariappa",
+                            "in": "André Carrillo",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Andre Gray",
+                            "in": "Troy Deeney",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Alexandre Lacazette",
+                            "in": "Olivier Giroud",
+                            "minute": "68"
+                        },
+                        {
+                            "out": "Roberto Pereyra",
+                            "in": "Etienne Capoue",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Laurent Koscielny",
+                            "in": "Rob Holding",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22421",
-                "away_team": "Arsenal",
                 "score": "2-1",
-                "home_team": "Watford"
+                "away_team": "Arsenal"
             },
             {
+                "home_team": "Watford",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Mesut Özil",
-                            "out": "Danny Welbeck",
-                            "minute": "61"
+                            "assist": "Granit Xhaka",
+                            "minute": "39",
+                            "scorer": "Per Mertesacker",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "André Carrillo",
-                            "out": "Adrian Mariappa",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Troy Deeney",
-                            "out": "Andre Gray",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Olivier Giroud",
-                            "out": "Alexandre Lacazette",
-                            "minute": "68"
-                        },
-                        {
-                            "in": "Etienne Capoue",
-                            "out": "Roberto Pereyra",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Rob Holding",
-                            "out": "Laurent Koscielny",
-                            "minute": "85"
+                            "additional": "2",
+                            "minute": "90",
+                            "scorer": "Tom Cleverley",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Neil Swarbrick",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -107,61 +89,61 @@
                             "player": "Christian Kabasele"
                         }
                     ],
-                    "goals": [
+                    "referee": "Neil Swarbrick",
+                    "substitutions": [
                         {
-                            "scorer": "Per Mertesacker",
-                            "own_goal": "false",
-                            "minute": "39",
-                            "assist": "Granit Xhaka"
+                            "out": "Danny Welbeck",
+                            "in": "Mesut Özil",
+                            "minute": "61"
                         },
                         {
-                            "scorer": "Tom Cleverley",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "additional": "2"
+                            "out": "Adrian Mariappa",
+                            "in": "André Carrillo",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Andre Gray",
+                            "in": "Troy Deeney",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Alexandre Lacazette",
+                            "in": "Olivier Giroud",
+                            "minute": "68"
+                        },
+                        {
+                            "out": "Roberto Pereyra",
+                            "in": "Etienne Capoue",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Laurent Koscielny",
+                            "in": "Rob Holding",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22421",
-                "away_team": "Arsenal",
                 "score": "2-1",
-                "home_team": "Watford"
+                "away_team": "Arsenal"
             },
             {
+                "home_team": "Watford",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Mesut Özil",
-                            "out": "Danny Welbeck",
-                            "minute": "61"
+                            "assist": "Granit Xhaka",
+                            "minute": "39",
+                            "scorer": "Per Mertesacker",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "André Carrillo",
-                            "out": "Adrian Mariappa",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Troy Deeney",
-                            "out": "Andre Gray",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Olivier Giroud",
-                            "out": "Alexandre Lacazette",
-                            "minute": "68"
-                        },
-                        {
-                            "in": "Etienne Capoue",
-                            "out": "Roberto Pereyra",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Rob Holding",
-                            "out": "Laurent Koscielny",
-                            "minute": "85"
+                            "additional": "2",
+                            "minute": "90",
+                            "scorer": "Tom Cleverley",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Neil Swarbrick",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -170,61 +152,61 @@
                             "player": "Christian Kabasele"
                         }
                     ],
-                    "goals": [
+                    "referee": "Neil Swarbrick",
+                    "substitutions": [
                         {
-                            "scorer": "Per Mertesacker",
-                            "own_goal": "false",
-                            "minute": "39",
-                            "assist": "Granit Xhaka"
+                            "out": "Danny Welbeck",
+                            "in": "Mesut Özil",
+                            "minute": "61"
                         },
                         {
-                            "scorer": "Tom Cleverley",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "additional": "2"
+                            "out": "Adrian Mariappa",
+                            "in": "André Carrillo",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Andre Gray",
+                            "in": "Troy Deeney",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Alexandre Lacazette",
+                            "in": "Olivier Giroud",
+                            "minute": "68"
+                        },
+                        {
+                            "out": "Roberto Pereyra",
+                            "in": "Etienne Capoue",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Laurent Koscielny",
+                            "in": "Rob Holding",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22421",
-                "away_team": "Arsenal",
                 "score": "2-1",
-                "home_team": "Watford"
+                "away_team": "Arsenal"
             },
             {
+                "home_team": "Watford",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Mesut Özil",
-                            "out": "Danny Welbeck",
-                            "minute": "61"
+                            "assist": "Granit Xhaka",
+                            "minute": "39",
+                            "scorer": "Per Mertesacker",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "André Carrillo",
-                            "out": "Adrian Mariappa",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Troy Deeney",
-                            "out": "Andre Gray",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Olivier Giroud",
-                            "out": "Alexandre Lacazette",
-                            "minute": "68"
-                        },
-                        {
-                            "in": "Etienne Capoue",
-                            "out": "Roberto Pereyra",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Rob Holding",
-                            "out": "Laurent Koscielny",
-                            "minute": "85"
+                            "additional": "2",
+                            "minute": "90",
+                            "scorer": "Tom Cleverley",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Neil Swarbrick",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -233,61 +215,61 @@
                             "player": "Christian Kabasele"
                         }
                     ],
-                    "goals": [
+                    "referee": "Neil Swarbrick",
+                    "substitutions": [
                         {
-                            "scorer": "Per Mertesacker",
-                            "own_goal": "false",
-                            "minute": "39",
-                            "assist": "Granit Xhaka"
+                            "out": "Danny Welbeck",
+                            "in": "Mesut Özil",
+                            "minute": "61"
                         },
                         {
-                            "scorer": "Tom Cleverley",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "additional": "2"
+                            "out": "Adrian Mariappa",
+                            "in": "André Carrillo",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Andre Gray",
+                            "in": "Troy Deeney",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Alexandre Lacazette",
+                            "in": "Olivier Giroud",
+                            "minute": "68"
+                        },
+                        {
+                            "out": "Roberto Pereyra",
+                            "in": "Etienne Capoue",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Laurent Koscielny",
+                            "in": "Rob Holding",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22421",
-                "away_team": "Arsenal",
                 "score": "2-1",
-                "home_team": "Watford"
+                "away_team": "Arsenal"
             },
             {
+                "home_team": "Watford",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Mesut Özil",
-                            "out": "Danny Welbeck",
-                            "minute": "61"
+                            "assist": "Granit Xhaka",
+                            "minute": "39",
+                            "scorer": "Per Mertesacker",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "André Carrillo",
-                            "out": "Adrian Mariappa",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Troy Deeney",
-                            "out": "Andre Gray",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Olivier Giroud",
-                            "out": "Alexandre Lacazette",
-                            "minute": "68"
-                        },
-                        {
-                            "in": "Etienne Capoue",
-                            "out": "Roberto Pereyra",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Rob Holding",
-                            "out": "Laurent Koscielny",
-                            "minute": "85"
+                            "additional": "2",
+                            "minute": "90",
+                            "scorer": "Tom Cleverley",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Neil Swarbrick",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -296,61 +278,61 @@
                             "player": "Christian Kabasele"
                         }
                     ],
-                    "goals": [
+                    "referee": "Neil Swarbrick",
+                    "substitutions": [
                         {
-                            "scorer": "Per Mertesacker",
-                            "own_goal": "false",
-                            "minute": "39",
-                            "assist": "Granit Xhaka"
+                            "out": "Danny Welbeck",
+                            "in": "Mesut Özil",
+                            "minute": "61"
                         },
                         {
-                            "scorer": "Tom Cleverley",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "additional": "2"
+                            "out": "Adrian Mariappa",
+                            "in": "André Carrillo",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Andre Gray",
+                            "in": "Troy Deeney",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Alexandre Lacazette",
+                            "in": "Olivier Giroud",
+                            "minute": "68"
+                        },
+                        {
+                            "out": "Roberto Pereyra",
+                            "in": "Etienne Capoue",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Laurent Koscielny",
+                            "in": "Rob Holding",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22421",
-                "away_team": "Arsenal",
                 "score": "2-1",
-                "home_team": "Watford"
+                "away_team": "Arsenal"
             },
             {
+                "home_team": "Watford",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Mesut Özil",
-                            "out": "Danny Welbeck",
-                            "minute": "61"
+                            "assist": "Granit Xhaka",
+                            "minute": "39",
+                            "scorer": "Per Mertesacker",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "André Carrillo",
-                            "out": "Adrian Mariappa",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Troy Deeney",
-                            "out": "Andre Gray",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Olivier Giroud",
-                            "out": "Alexandre Lacazette",
-                            "minute": "68"
-                        },
-                        {
-                            "in": "Etienne Capoue",
-                            "out": "Roberto Pereyra",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Rob Holding",
-                            "out": "Laurent Koscielny",
-                            "minute": "85"
+                            "additional": "2",
+                            "minute": "90",
+                            "scorer": "Tom Cleverley",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Neil Swarbrick",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -359,61 +341,61 @@
                             "player": "Christian Kabasele"
                         }
                     ],
-                    "goals": [
+                    "referee": "Neil Swarbrick",
+                    "substitutions": [
                         {
-                            "scorer": "Per Mertesacker",
-                            "own_goal": "false",
-                            "minute": "39",
-                            "assist": "Granit Xhaka"
+                            "out": "Danny Welbeck",
+                            "in": "Mesut Özil",
+                            "minute": "61"
                         },
                         {
-                            "scorer": "Tom Cleverley",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "additional": "2"
+                            "out": "Adrian Mariappa",
+                            "in": "André Carrillo",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Andre Gray",
+                            "in": "Troy Deeney",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Alexandre Lacazette",
+                            "in": "Olivier Giroud",
+                            "minute": "68"
+                        },
+                        {
+                            "out": "Roberto Pereyra",
+                            "in": "Etienne Capoue",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Laurent Koscielny",
+                            "in": "Rob Holding",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22421",
-                "away_team": "Arsenal",
                 "score": "2-1",
-                "home_team": "Watford"
+                "away_team": "Arsenal"
             },
             {
+                "home_team": "Watford",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Mesut Özil",
-                            "out": "Danny Welbeck",
-                            "minute": "61"
+                            "assist": "Granit Xhaka",
+                            "minute": "39",
+                            "scorer": "Per Mertesacker",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "André Carrillo",
-                            "out": "Adrian Mariappa",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Troy Deeney",
-                            "out": "Andre Gray",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Olivier Giroud",
-                            "out": "Alexandre Lacazette",
-                            "minute": "68"
-                        },
-                        {
-                            "in": "Etienne Capoue",
-                            "out": "Roberto Pereyra",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Rob Holding",
-                            "out": "Laurent Koscielny",
-                            "minute": "85"
+                            "additional": "2",
+                            "minute": "90",
+                            "scorer": "Tom Cleverley",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Neil Swarbrick",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -422,25 +404,43 @@
                             "player": "Christian Kabasele"
                         }
                     ],
-                    "goals": [
+                    "referee": "Neil Swarbrick",
+                    "substitutions": [
                         {
-                            "scorer": "Per Mertesacker",
-                            "own_goal": "false",
-                            "minute": "39",
-                            "assist": "Granit Xhaka"
+                            "out": "Danny Welbeck",
+                            "in": "Mesut Özil",
+                            "minute": "61"
                         },
                         {
-                            "scorer": "Tom Cleverley",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "additional": "2"
+                            "out": "Adrian Mariappa",
+                            "in": "André Carrillo",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Andre Gray",
+                            "in": "Troy Deeney",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Alexandre Lacazette",
+                            "in": "Olivier Giroud",
+                            "minute": "68"
+                        },
+                        {
+                            "out": "Roberto Pereyra",
+                            "in": "Etienne Capoue",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Laurent Koscielny",
+                            "in": "Rob Holding",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22421",
-                "away_team": "Arsenal",
                 "score": "2-1",
-                "home_team": "Watford"
+                "away_team": "Arsenal"
             }
         ],
         "date": "Saturday 14 October 2017"

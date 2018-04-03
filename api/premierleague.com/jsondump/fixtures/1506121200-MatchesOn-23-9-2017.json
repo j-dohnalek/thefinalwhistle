@@ -2,30 +2,16 @@
     {
         "fixtures": [
             {
+                "home_team": "Brighton",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Jonjo Shelvey",
-                            "out": "Isaac Hayden",
-                            "minute": "68"
-                        },
-                        {
-                            "in": "Dwight Gayle",
-                            "out": "Joselu",
-                            "minute": "71"
-                        },
-                        {
-                            "in": "Jamie Murphy",
-                            "out": "Anthony Knockaert",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Jesús Gámez",
-                            "out": "Chancel Mbemba",
-                            "minute": "83"
+                            "assist": "Dale Stephens",
+                            "minute": "51",
+                            "scorer": "Tomer Hemed",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Andre Marriner",
                     "kick_off": "16:00",
                     "cards": [
                         {
@@ -39,25 +25,39 @@
                             "player": "Shane Duffy"
                         },
                         {
+                            "additional": "3",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "Jamaal Lascelles",
-                            "additional": "3"
+                            "player": "Jamaal Lascelles"
                         }
                     ],
-                    "goals": [
+                    "referee": "Andre Marriner",
+                    "substitutions": [
                         {
-                            "scorer": "Tomer Hemed",
-                            "own_goal": "false",
-                            "minute": "51",
-                            "assist": "Dale Stephens"
+                            "out": "Isaac Hayden",
+                            "in": "Jonjo Shelvey",
+                            "minute": "68"
+                        },
+                        {
+                            "out": "Joselu",
+                            "in": "Dwight Gayle",
+                            "minute": "71"
+                        },
+                        {
+                            "out": "Anthony Knockaert",
+                            "in": "Jamie Murphy",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Chancel Mbemba",
+                            "in": "Jesús Gámez",
+                            "minute": "83"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22393",
-                "away_team": "Newcastle",
                 "score": "1-0",
-                "home_team": "Brighton"
+                "away_team": "Newcastle"
             }
         ],
         "date": "Sunday 24 September 2017"

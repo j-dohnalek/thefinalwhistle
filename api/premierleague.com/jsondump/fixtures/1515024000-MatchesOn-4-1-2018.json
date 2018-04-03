@@ -2,30 +2,39 @@
     {
         "fixtures": [
             {
+                "home_team": "Huddersfield",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Alex Pritchard",
-                            "out": "Joe Lolley",
-                            "minute": "65"
+                            "minute": "25",
+                            "scorer": "Mark Noble",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Terence Kongolo",
-                            "out": "Tommy Smith",
-                            "minute": "71"
+                            "assist": "Aaron Mooy",
+                            "minute": "40",
+                            "scorer": "Joe Lolley",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "André Ayew",
-                            "out": "Marko Arnautovic",
-                            "minute": "83"
+                            "assist": "Cheikhou Kouyaté",
+                            "minute": "46",
+                            "scorer": "Marko Arnautovic",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Declan Rice",
-                            "out": "Manuel Lanzini",
-                            "minute": "85"
+                            "assist": "Marko Arnautovic",
+                            "minute": "56",
+                            "scorer": "Manuel Lanzini",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Marko Arnautovic",
+                            "minute": "61",
+                            "scorer": "Manuel Lanzini",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Jonathan Moss",
                     "kick_off": "15:00",
                     "cards": [
                         {
@@ -39,68 +48,68 @@
                             "player": "Aaron Cresswell"
                         }
                     ],
-                    "goals": [
+                    "referee": "Jonathan Moss",
+                    "substitutions": [
                         {
-                            "scorer": "Mark Noble",
-                            "own_goal": "false",
-                            "minute": "25"
+                            "out": "Joe Lolley",
+                            "in": "Alex Pritchard",
+                            "minute": "65"
                         },
                         {
-                            "scorer": "Joe Lolley",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Aaron Mooy"
+                            "out": "Tommy Smith",
+                            "in": "Terence Kongolo",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Marko Arnautovic",
-                            "own_goal": "false",
-                            "minute": "46",
-                            "assist": "Cheikhou Kouyaté"
+                            "out": "Marko Arnautovic",
+                            "in": "André Ayew",
+                            "minute": "83"
                         },
                         {
-                            "scorer": "Manuel Lanzini",
-                            "own_goal": "false",
-                            "minute": "56",
-                            "assist": "Marko Arnautovic"
-                        },
-                        {
-                            "scorer": "Manuel Lanzini",
-                            "own_goal": "false",
-                            "minute": "61",
-                            "assist": "Marko Arnautovic"
+                            "out": "Manuel Lanzini",
+                            "in": "Declan Rice",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22565",
-                "away_team": "West Ham",
                 "score": "1-4",
-                "home_team": "Huddersfield"
+                "away_team": "West Ham"
             },
             {
+                "home_team": "Huddersfield",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Alex Pritchard",
-                            "out": "Joe Lolley",
-                            "minute": "65"
+                            "minute": "25",
+                            "scorer": "Mark Noble",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Terence Kongolo",
-                            "out": "Tommy Smith",
-                            "minute": "71"
+                            "assist": "Aaron Mooy",
+                            "minute": "40",
+                            "scorer": "Joe Lolley",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "André Ayew",
-                            "out": "Marko Arnautovic",
-                            "minute": "83"
+                            "assist": "Cheikhou Kouyaté",
+                            "minute": "46",
+                            "scorer": "Marko Arnautovic",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Declan Rice",
-                            "out": "Manuel Lanzini",
-                            "minute": "85"
+                            "assist": "Marko Arnautovic",
+                            "minute": "56",
+                            "scorer": "Manuel Lanzini",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Marko Arnautovic",
+                            "minute": "61",
+                            "scorer": "Manuel Lanzini",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Jonathan Moss",
                     "kick_off": "15:00",
                     "cards": [
                         {
@@ -114,68 +123,68 @@
                             "player": "Aaron Cresswell"
                         }
                     ],
-                    "goals": [
+                    "referee": "Jonathan Moss",
+                    "substitutions": [
                         {
-                            "scorer": "Mark Noble",
-                            "own_goal": "false",
-                            "minute": "25"
+                            "out": "Joe Lolley",
+                            "in": "Alex Pritchard",
+                            "minute": "65"
                         },
                         {
-                            "scorer": "Joe Lolley",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Aaron Mooy"
+                            "out": "Tommy Smith",
+                            "in": "Terence Kongolo",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Marko Arnautovic",
-                            "own_goal": "false",
-                            "minute": "46",
-                            "assist": "Cheikhou Kouyaté"
+                            "out": "Marko Arnautovic",
+                            "in": "André Ayew",
+                            "minute": "83"
                         },
                         {
-                            "scorer": "Manuel Lanzini",
-                            "own_goal": "false",
-                            "minute": "56",
-                            "assist": "Marko Arnautovic"
-                        },
-                        {
-                            "scorer": "Manuel Lanzini",
-                            "own_goal": "false",
-                            "minute": "61",
-                            "assist": "Marko Arnautovic"
+                            "out": "Manuel Lanzini",
+                            "in": "Declan Rice",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22565",
-                "away_team": "West Ham",
                 "score": "1-4",
-                "home_team": "Huddersfield"
+                "away_team": "West Ham"
             },
             {
+                "home_team": "Huddersfield",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Alex Pritchard",
-                            "out": "Joe Lolley",
-                            "minute": "65"
+                            "minute": "25",
+                            "scorer": "Mark Noble",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Terence Kongolo",
-                            "out": "Tommy Smith",
-                            "minute": "71"
+                            "assist": "Aaron Mooy",
+                            "minute": "40",
+                            "scorer": "Joe Lolley",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "André Ayew",
-                            "out": "Marko Arnautovic",
-                            "minute": "83"
+                            "assist": "Cheikhou Kouyaté",
+                            "minute": "46",
+                            "scorer": "Marko Arnautovic",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Declan Rice",
-                            "out": "Manuel Lanzini",
-                            "minute": "85"
+                            "assist": "Marko Arnautovic",
+                            "minute": "56",
+                            "scorer": "Manuel Lanzini",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Marko Arnautovic",
+                            "minute": "61",
+                            "scorer": "Manuel Lanzini",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Jonathan Moss",
                     "kick_off": "15:00",
                     "cards": [
                         {
@@ -189,68 +198,68 @@
                             "player": "Aaron Cresswell"
                         }
                     ],
-                    "goals": [
+                    "referee": "Jonathan Moss",
+                    "substitutions": [
                         {
-                            "scorer": "Mark Noble",
-                            "own_goal": "false",
-                            "minute": "25"
+                            "out": "Joe Lolley",
+                            "in": "Alex Pritchard",
+                            "minute": "65"
                         },
                         {
-                            "scorer": "Joe Lolley",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Aaron Mooy"
+                            "out": "Tommy Smith",
+                            "in": "Terence Kongolo",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Marko Arnautovic",
-                            "own_goal": "false",
-                            "minute": "46",
-                            "assist": "Cheikhou Kouyaté"
+                            "out": "Marko Arnautovic",
+                            "in": "André Ayew",
+                            "minute": "83"
                         },
                         {
-                            "scorer": "Manuel Lanzini",
-                            "own_goal": "false",
-                            "minute": "56",
-                            "assist": "Marko Arnautovic"
-                        },
-                        {
-                            "scorer": "Manuel Lanzini",
-                            "own_goal": "false",
-                            "minute": "61",
-                            "assist": "Marko Arnautovic"
+                            "out": "Manuel Lanzini",
+                            "in": "Declan Rice",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22565",
-                "away_team": "West Ham",
                 "score": "1-4",
-                "home_team": "Huddersfield"
+                "away_team": "West Ham"
             },
             {
+                "home_team": "Huddersfield",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Alex Pritchard",
-                            "out": "Joe Lolley",
-                            "minute": "65"
+                            "minute": "25",
+                            "scorer": "Mark Noble",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Terence Kongolo",
-                            "out": "Tommy Smith",
-                            "minute": "71"
+                            "assist": "Aaron Mooy",
+                            "minute": "40",
+                            "scorer": "Joe Lolley",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "André Ayew",
-                            "out": "Marko Arnautovic",
-                            "minute": "83"
+                            "assist": "Cheikhou Kouyaté",
+                            "minute": "46",
+                            "scorer": "Marko Arnautovic",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Declan Rice",
-                            "out": "Manuel Lanzini",
-                            "minute": "85"
+                            "assist": "Marko Arnautovic",
+                            "minute": "56",
+                            "scorer": "Manuel Lanzini",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Marko Arnautovic",
+                            "minute": "61",
+                            "scorer": "Manuel Lanzini",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Jonathan Moss",
                     "kick_off": "15:00",
                     "cards": [
                         {
@@ -264,68 +273,68 @@
                             "player": "Aaron Cresswell"
                         }
                     ],
-                    "goals": [
+                    "referee": "Jonathan Moss",
+                    "substitutions": [
                         {
-                            "scorer": "Mark Noble",
-                            "own_goal": "false",
-                            "minute": "25"
+                            "out": "Joe Lolley",
+                            "in": "Alex Pritchard",
+                            "minute": "65"
                         },
                         {
-                            "scorer": "Joe Lolley",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Aaron Mooy"
+                            "out": "Tommy Smith",
+                            "in": "Terence Kongolo",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Marko Arnautovic",
-                            "own_goal": "false",
-                            "minute": "46",
-                            "assist": "Cheikhou Kouyaté"
+                            "out": "Marko Arnautovic",
+                            "in": "André Ayew",
+                            "minute": "83"
                         },
                         {
-                            "scorer": "Manuel Lanzini",
-                            "own_goal": "false",
-                            "minute": "56",
-                            "assist": "Marko Arnautovic"
-                        },
-                        {
-                            "scorer": "Manuel Lanzini",
-                            "own_goal": "false",
-                            "minute": "61",
-                            "assist": "Marko Arnautovic"
+                            "out": "Manuel Lanzini",
+                            "in": "Declan Rice",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22565",
-                "away_team": "West Ham",
                 "score": "1-4",
-                "home_team": "Huddersfield"
+                "away_team": "West Ham"
             },
             {
+                "home_team": "Huddersfield",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Alex Pritchard",
-                            "out": "Joe Lolley",
-                            "minute": "65"
+                            "minute": "25",
+                            "scorer": "Mark Noble",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Terence Kongolo",
-                            "out": "Tommy Smith",
-                            "minute": "71"
+                            "assist": "Aaron Mooy",
+                            "minute": "40",
+                            "scorer": "Joe Lolley",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "André Ayew",
-                            "out": "Marko Arnautovic",
-                            "minute": "83"
+                            "assist": "Cheikhou Kouyaté",
+                            "minute": "46",
+                            "scorer": "Marko Arnautovic",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Declan Rice",
-                            "out": "Manuel Lanzini",
-                            "minute": "85"
+                            "assist": "Marko Arnautovic",
+                            "minute": "56",
+                            "scorer": "Manuel Lanzini",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Marko Arnautovic",
+                            "minute": "61",
+                            "scorer": "Manuel Lanzini",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Jonathan Moss",
                     "kick_off": "15:00",
                     "cards": [
                         {
@@ -339,68 +348,68 @@
                             "player": "Aaron Cresswell"
                         }
                     ],
-                    "goals": [
+                    "referee": "Jonathan Moss",
+                    "substitutions": [
                         {
-                            "scorer": "Mark Noble",
-                            "own_goal": "false",
-                            "minute": "25"
+                            "out": "Joe Lolley",
+                            "in": "Alex Pritchard",
+                            "minute": "65"
                         },
                         {
-                            "scorer": "Joe Lolley",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Aaron Mooy"
+                            "out": "Tommy Smith",
+                            "in": "Terence Kongolo",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Marko Arnautovic",
-                            "own_goal": "false",
-                            "minute": "46",
-                            "assist": "Cheikhou Kouyaté"
+                            "out": "Marko Arnautovic",
+                            "in": "André Ayew",
+                            "minute": "83"
                         },
                         {
-                            "scorer": "Manuel Lanzini",
-                            "own_goal": "false",
-                            "minute": "56",
-                            "assist": "Marko Arnautovic"
-                        },
-                        {
-                            "scorer": "Manuel Lanzini",
-                            "own_goal": "false",
-                            "minute": "61",
-                            "assist": "Marko Arnautovic"
+                            "out": "Manuel Lanzini",
+                            "in": "Declan Rice",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22565",
-                "away_team": "West Ham",
                 "score": "1-4",
-                "home_team": "Huddersfield"
+                "away_team": "West Ham"
             },
             {
+                "home_team": "Huddersfield",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Alex Pritchard",
-                            "out": "Joe Lolley",
-                            "minute": "65"
+                            "minute": "25",
+                            "scorer": "Mark Noble",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Terence Kongolo",
-                            "out": "Tommy Smith",
-                            "minute": "71"
+                            "assist": "Aaron Mooy",
+                            "minute": "40",
+                            "scorer": "Joe Lolley",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "André Ayew",
-                            "out": "Marko Arnautovic",
-                            "minute": "83"
+                            "assist": "Cheikhou Kouyaté",
+                            "minute": "46",
+                            "scorer": "Marko Arnautovic",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Declan Rice",
-                            "out": "Manuel Lanzini",
-                            "minute": "85"
+                            "assist": "Marko Arnautovic",
+                            "minute": "56",
+                            "scorer": "Manuel Lanzini",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Marko Arnautovic",
+                            "minute": "61",
+                            "scorer": "Manuel Lanzini",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Jonathan Moss",
                     "kick_off": "15:00",
                     "cards": [
                         {
@@ -414,68 +423,68 @@
                             "player": "Aaron Cresswell"
                         }
                     ],
-                    "goals": [
+                    "referee": "Jonathan Moss",
+                    "substitutions": [
                         {
-                            "scorer": "Mark Noble",
-                            "own_goal": "false",
-                            "minute": "25"
+                            "out": "Joe Lolley",
+                            "in": "Alex Pritchard",
+                            "minute": "65"
                         },
                         {
-                            "scorer": "Joe Lolley",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Aaron Mooy"
+                            "out": "Tommy Smith",
+                            "in": "Terence Kongolo",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Marko Arnautovic",
-                            "own_goal": "false",
-                            "minute": "46",
-                            "assist": "Cheikhou Kouyaté"
+                            "out": "Marko Arnautovic",
+                            "in": "André Ayew",
+                            "minute": "83"
                         },
                         {
-                            "scorer": "Manuel Lanzini",
-                            "own_goal": "false",
-                            "minute": "56",
-                            "assist": "Marko Arnautovic"
-                        },
-                        {
-                            "scorer": "Manuel Lanzini",
-                            "own_goal": "false",
-                            "minute": "61",
-                            "assist": "Marko Arnautovic"
+                            "out": "Manuel Lanzini",
+                            "in": "Declan Rice",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22565",
-                "away_team": "West Ham",
                 "score": "1-4",
-                "home_team": "Huddersfield"
+                "away_team": "West Ham"
             },
             {
+                "home_team": "Huddersfield",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Alex Pritchard",
-                            "out": "Joe Lolley",
-                            "minute": "65"
+                            "minute": "25",
+                            "scorer": "Mark Noble",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Terence Kongolo",
-                            "out": "Tommy Smith",
-                            "minute": "71"
+                            "assist": "Aaron Mooy",
+                            "minute": "40",
+                            "scorer": "Joe Lolley",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "André Ayew",
-                            "out": "Marko Arnautovic",
-                            "minute": "83"
+                            "assist": "Cheikhou Kouyaté",
+                            "minute": "46",
+                            "scorer": "Marko Arnautovic",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Declan Rice",
-                            "out": "Manuel Lanzini",
-                            "minute": "85"
+                            "assist": "Marko Arnautovic",
+                            "minute": "56",
+                            "scorer": "Manuel Lanzini",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Marko Arnautovic",
+                            "minute": "61",
+                            "scorer": "Manuel Lanzini",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Jonathan Moss",
                     "kick_off": "15:00",
                     "cards": [
                         {
@@ -489,42 +498,33 @@
                             "player": "Aaron Cresswell"
                         }
                     ],
-                    "goals": [
+                    "referee": "Jonathan Moss",
+                    "substitutions": [
                         {
-                            "scorer": "Mark Noble",
-                            "own_goal": "false",
-                            "minute": "25"
+                            "out": "Joe Lolley",
+                            "in": "Alex Pritchard",
+                            "minute": "65"
                         },
                         {
-                            "scorer": "Joe Lolley",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Aaron Mooy"
+                            "out": "Tommy Smith",
+                            "in": "Terence Kongolo",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Marko Arnautovic",
-                            "own_goal": "false",
-                            "minute": "46",
-                            "assist": "Cheikhou Kouyaté"
+                            "out": "Marko Arnautovic",
+                            "in": "André Ayew",
+                            "minute": "83"
                         },
                         {
-                            "scorer": "Manuel Lanzini",
-                            "own_goal": "false",
-                            "minute": "56",
-                            "assist": "Marko Arnautovic"
-                        },
-                        {
-                            "scorer": "Manuel Lanzini",
-                            "own_goal": "false",
-                            "minute": "61",
-                            "assist": "Marko Arnautovic"
+                            "out": "Manuel Lanzini",
+                            "in": "Declan Rice",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22565",
-                "away_team": "West Ham",
                 "score": "1-4",
-                "home_team": "Huddersfield"
+                "away_team": "West Ham"
             }
         ],
         "date": "Saturday 13 January 2018"

@@ -2,40 +2,22 @@
     {
         "fixtures": [
             {
+                "home_team": "Leicester",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Beni Baningime",
-                            "out": "Aaron Lennon",
-                            "minute": "45"
+                            "assist": "Riyad Mahrez",
+                            "minute": "18",
+                            "scorer": "Jamie Vardy",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Oumar Niasse",
-                            "out": "Kevin Mirallas",
-                            "minute": "45"
-                        },
-                        {
-                            "in": "Gylfi Sigurdsson",
-                            "out": "Wayne Rooney",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Shinji Okazaki",
-                            "out": "Riyad Mahrez",
-                            "minute": "75"
-                        },
-                        {
-                            "in": "Marc Albrighton",
-                            "out": "Ben Chilwell",
-                            "minute": "83"
-                        },
-                        {
-                            "in": "Kelechi Iheanacho",
-                            "out": "Jamie Vardy",
-                            "minute": "90"
+                            "assist": "Christian Fuchs",
+                            "minute": "29",
+                            "scorer": "Demarai Gray",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Andre Marriner",
                     "kick_off": "16:00",
                     "cards": [
                         {
@@ -49,61 +31,61 @@
                             "player": "Idrissa Gueye"
                         }
                     ],
-                    "goals": [
+                    "referee": "Andre Marriner",
+                    "substitutions": [
                         {
-                            "scorer": "Jamie Vardy",
-                            "own_goal": "false",
-                            "minute": "18",
-                            "assist": "Riyad Mahrez"
+                            "out": "Aaron Lennon",
+                            "in": "Beni Baningime",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Demarai Gray",
-                            "own_goal": "false",
-                            "minute": "29",
-                            "assist": "Christian Fuchs"
+                            "out": "Kevin Mirallas",
+                            "in": "Oumar Niasse",
+                            "minute": "45"
+                        },
+                        {
+                            "out": "Wayne Rooney",
+                            "in": "Gylfi Sigurdsson",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Riyad Mahrez",
+                            "in": "Shinji Okazaki",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Ben Chilwell",
+                            "in": "Marc Albrighton",
+                            "minute": "83"
+                        },
+                        {
+                            "out": "Jamie Vardy",
+                            "in": "Kelechi Iheanacho",
+                            "minute": "90"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22437",
-                "away_team": "Everton",
                 "score": "2-0",
-                "home_team": "Leicester"
+                "away_team": "Everton"
             },
             {
+                "home_team": "Leicester",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Beni Baningime",
-                            "out": "Aaron Lennon",
-                            "minute": "45"
+                            "assist": "Riyad Mahrez",
+                            "minute": "18",
+                            "scorer": "Jamie Vardy",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Oumar Niasse",
-                            "out": "Kevin Mirallas",
-                            "minute": "45"
-                        },
-                        {
-                            "in": "Gylfi Sigurdsson",
-                            "out": "Wayne Rooney",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Shinji Okazaki",
-                            "out": "Riyad Mahrez",
-                            "minute": "75"
-                        },
-                        {
-                            "in": "Marc Albrighton",
-                            "out": "Ben Chilwell",
-                            "minute": "83"
-                        },
-                        {
-                            "in": "Kelechi Iheanacho",
-                            "out": "Jamie Vardy",
-                            "minute": "90"
+                            "assist": "Christian Fuchs",
+                            "minute": "29",
+                            "scorer": "Demarai Gray",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Andre Marriner",
                     "kick_off": "16:00",
                     "cards": [
                         {
@@ -117,25 +99,43 @@
                             "player": "Idrissa Gueye"
                         }
                     ],
-                    "goals": [
+                    "referee": "Andre Marriner",
+                    "substitutions": [
                         {
-                            "scorer": "Jamie Vardy",
-                            "own_goal": "false",
-                            "minute": "18",
-                            "assist": "Riyad Mahrez"
+                            "out": "Aaron Lennon",
+                            "in": "Beni Baningime",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Demarai Gray",
-                            "own_goal": "false",
-                            "minute": "29",
-                            "assist": "Christian Fuchs"
+                            "out": "Kevin Mirallas",
+                            "in": "Oumar Niasse",
+                            "minute": "45"
+                        },
+                        {
+                            "out": "Wayne Rooney",
+                            "in": "Gylfi Sigurdsson",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Riyad Mahrez",
+                            "in": "Shinji Okazaki",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Ben Chilwell",
+                            "in": "Marc Albrighton",
+                            "minute": "83"
+                        },
+                        {
+                            "out": "Jamie Vardy",
+                            "in": "Kelechi Iheanacho",
+                            "minute": "90"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22437",
-                "away_team": "Everton",
                 "score": "2-0",
-                "home_team": "Leicester"
+                "away_team": "Everton"
             }
         ],
         "date": "Sunday 29 October 2017"

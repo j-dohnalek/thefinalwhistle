@@ -2,40 +2,21 @@
     {
         "fixtures": [
             {
+                "home_team": "Southampton",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Sofiane Boufal",
-                            "out": "Pierre-Emile Højbjerg",
-                            "minute": "65"
+                            "minute": "15",
+                            "scorer": "Davinson Sánchez",
+                            "own_goal": "true"
                         },
                         {
-                            "in": "Erik Lamela",
-                            "out": "Son Heung-Min",
-                            "minute": "70"
-                        },
-                        {
-                            "in": "Kieran Trippier",
-                            "out": "Serge Aurier",
-                            "minute": "72"
-                        },
-                        {
-                            "in": "Steven Davis",
-                            "out": "Mario Lemina",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Michael Obafemi",
-                            "out": "Manolo Gabbiadini",
-                            "minute": "82"
-                        },
-                        {
-                            "in": "Victor Wanyama",
-                            "out": "Mousa Dembélé",
-                            "minute": "85"
+                            "assist": "Ben Davies",
+                            "minute": "18",
+                            "scorer": "Harry Kane",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Kevin Friend",
                     "kick_off": "16:00",
                     "cards": [
                         {
@@ -64,24 +45,43 @@
                             "player": "Kieran Trippier"
                         }
                     ],
-                    "goals": [
+                    "referee": "Kevin Friend",
+                    "substitutions": [
                         {
-                            "scorer": "Davinson Sánchez",
-                            "own_goal": "true",
-                            "minute": "15"
+                            "out": "Pierre-Emile Højbjerg",
+                            "in": "Sofiane Boufal",
+                            "minute": "65"
                         },
                         {
-                            "scorer": "Harry Kane",
-                            "own_goal": "false",
-                            "minute": "18",
-                            "assist": "Ben Davies"
+                            "out": "Son Heung-Min",
+                            "in": "Erik Lamela",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Serge Aurier",
+                            "in": "Kieran Trippier",
+                            "minute": "72"
+                        },
+                        {
+                            "out": "Mario Lemina",
+                            "in": "Steven Davis",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Manolo Gabbiadini",
+                            "in": "Michael Obafemi",
+                            "minute": "82"
+                        },
+                        {
+                            "out": "Mousa Dembélé",
+                            "in": "Victor Wanyama",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22578",
-                "away_team": "Spurs",
                 "score": "1-1",
-                "home_team": "Southampton"
+                "away_team": "Spurs"
             }
         ],
         "date": "Sunday 21 January 2018"

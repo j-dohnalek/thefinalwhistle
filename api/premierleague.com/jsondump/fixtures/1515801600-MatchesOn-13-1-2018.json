@@ -2,36 +2,51 @@
     {
         "fixtures": [
             {
+                "home_team": "Liverpool",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Danilo",
-                            "out": "Fabian Delph",
-                            "minute": "31"
+                            "assist": "Roberto Firmino",
+                            "minute": "9",
+                            "scorer": "Alex Oxlade-Chamberlain",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Bernardo Silva",
-                            "out": "Raheem Sterling",
-                            "minute": "71"
+                            "assist": "Kyle Walker",
+                            "minute": "40",
+                            "scorer": "Leroy Sané",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Emre Can",
-                            "minute": "79"
+                            "assist": "Alex Oxlade-Chamberlain",
+                            "minute": "59",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Adam Lallana",
-                            "out": "Mohamed Salah",
-                            "minute": "88"
+                            "assist": "Mohamed Salah",
+                            "minute": "61",
+                            "scorer": "Sadio Mané",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Ragnar Klavan",
-                            "out": "Sadio Mané",
+                            "minute": "68",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
+                        },
+                        {
+                            "minute": "84",
+                            "scorer": "Bernardo Silva",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Sergio Agüero",
+                            "additional": "1",
                             "minute": "90",
-                            "additional": "4"
+                            "scorer": "Ilkay Gündogan",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Andre Marriner",
                     "kick_off": "16:00",
                     "cards": [
                         {
@@ -55,92 +70,92 @@
                             "player": "Fernandinho"
                         },
                         {
+                            "additional": "3",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "James Milner",
-                            "additional": "3"
+                            "player": "James Milner"
                         }
                     ],
-                    "goals": [
+                    "referee": "Andre Marriner",
+                    "substitutions": [
                         {
-                            "scorer": "Alex Oxlade-Chamberlain",
-                            "own_goal": "false",
-                            "minute": "9",
-                            "assist": "Roberto Firmino"
+                            "out": "Fabian Delph",
+                            "in": "Danilo",
+                            "minute": "31"
                         },
                         {
-                            "scorer": "Leroy Sané",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Kyle Walker"
+                            "out": "Raheem Sterling",
+                            "in": "Bernardo Silva",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "59",
-                            "assist": "Alex Oxlade-Chamberlain"
+                            "out": "Emre Can",
+                            "in": "James Milner",
+                            "minute": "79"
                         },
                         {
-                            "scorer": "Sadio Mané",
-                            "own_goal": "false",
-                            "minute": "61",
-                            "assist": "Mohamed Salah"
+                            "out": "Mohamed Salah",
+                            "in": "Adam Lallana",
+                            "minute": "88"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "68"
-                        },
-                        {
-                            "scorer": "Bernardo Silva",
-                            "own_goal": "false",
-                            "minute": "84"
-                        },
-                        {
-                            "scorer": "Ilkay Gündogan",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "additional": "1",
-                            "assist": "Sergio Agüero"
+                            "out": "Sadio Mané",
+                            "additional": "4",
+                            "in": "Ragnar Klavan",
+                            "minute": "90"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22566",
-                "away_team": "Man City",
                 "score": "4-3",
-                "home_team": "Liverpool"
+                "away_team": "Man City"
             },
             {
+                "home_team": "Liverpool",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Danilo",
-                            "out": "Fabian Delph",
-                            "minute": "31"
+                            "assist": "Roberto Firmino",
+                            "minute": "9",
+                            "scorer": "Alex Oxlade-Chamberlain",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Bernardo Silva",
-                            "out": "Raheem Sterling",
-                            "minute": "71"
+                            "assist": "Kyle Walker",
+                            "minute": "40",
+                            "scorer": "Leroy Sané",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Emre Can",
-                            "minute": "79"
+                            "assist": "Alex Oxlade-Chamberlain",
+                            "minute": "59",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Adam Lallana",
-                            "out": "Mohamed Salah",
-                            "minute": "88"
+                            "assist": "Mohamed Salah",
+                            "minute": "61",
+                            "scorer": "Sadio Mané",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Ragnar Klavan",
-                            "out": "Sadio Mané",
+                            "minute": "68",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
+                        },
+                        {
+                            "minute": "84",
+                            "scorer": "Bernardo Silva",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Sergio Agüero",
+                            "additional": "1",
                             "minute": "90",
-                            "additional": "4"
+                            "scorer": "Ilkay Gündogan",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Andre Marriner",
                     "kick_off": "16:00",
                     "cards": [
                         {
@@ -164,60 +179,45 @@
                             "player": "Fernandinho"
                         },
                         {
+                            "additional": "3",
                             "card": "yellow",
                             "minute": "90",
-                            "player": "James Milner",
-                            "additional": "3"
+                            "player": "James Milner"
                         }
                     ],
-                    "goals": [
+                    "referee": "Andre Marriner",
+                    "substitutions": [
                         {
-                            "scorer": "Alex Oxlade-Chamberlain",
-                            "own_goal": "false",
-                            "minute": "9",
-                            "assist": "Roberto Firmino"
+                            "out": "Fabian Delph",
+                            "in": "Danilo",
+                            "minute": "31"
                         },
                         {
-                            "scorer": "Leroy Sané",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Kyle Walker"
+                            "out": "Raheem Sterling",
+                            "in": "Bernardo Silva",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "59",
-                            "assist": "Alex Oxlade-Chamberlain"
+                            "out": "Emre Can",
+                            "in": "James Milner",
+                            "minute": "79"
                         },
                         {
-                            "scorer": "Sadio Mané",
-                            "own_goal": "false",
-                            "minute": "61",
-                            "assist": "Mohamed Salah"
+                            "out": "Mohamed Salah",
+                            "in": "Adam Lallana",
+                            "minute": "88"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "68"
-                        },
-                        {
-                            "scorer": "Bernardo Silva",
-                            "own_goal": "false",
-                            "minute": "84"
-                        },
-                        {
-                            "scorer": "Ilkay Gündogan",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "additional": "1",
-                            "assist": "Sergio Agüero"
+                            "out": "Sadio Mané",
+                            "additional": "4",
+                            "in": "Ragnar Klavan",
+                            "minute": "90"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22566",
-                "away_team": "Man City",
                 "score": "4-3",
-                "home_team": "Liverpool"
+                "away_team": "Man City"
             }
         ],
         "date": "Sunday 14 January 2018"

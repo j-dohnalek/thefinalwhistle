@@ -2,35 +2,16 @@
     {
         "fixtures": [
             {
+                "home_team": "Swansea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Christian Atsu",
-                            "out": "Jacob Murphy",
-                            "minute": "59"
-                        },
-                        {
-                            "in": "Wilfried Bony",
-                            "out": "Renato Sanches",
-                            "minute": "69"
-                        },
-                        {
-                            "in": "Mohamed Diamé",
-                            "out": "Isaac Hayden",
-                            "minute": "69"
-                        },
-                        {
-                            "in": "Dwight Gayle",
-                            "out": "Joselu",
-                            "minute": "78"
-                        },
-                        {
-                            "in": "Luciano Narsingh",
-                            "out": "Tom Carroll",
-                            "minute": "86"
+                            "assist": "Matt Ritchie",
+                            "minute": "76",
+                            "scorer": "Jamaal Lascelles",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Mike Jones",
                     "kick_off": "16:00",
                     "cards": [
                         {
@@ -59,50 +40,50 @@
                             "player": "Dwight Gayle"
                         }
                     ],
-                    "goals": [
+                    "referee": "Mike Jones",
+                    "substitutions": [
                         {
-                            "scorer": "Jamaal Lascelles",
-                            "own_goal": "false",
-                            "minute": "76",
-                            "assist": "Matt Ritchie"
+                            "out": "Jacob Murphy",
+                            "in": "Christian Atsu",
+                            "minute": "59"
+                        },
+                        {
+                            "out": "Renato Sanches",
+                            "in": "Wilfried Bony",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Isaac Hayden",
+                            "in": "Mohamed Diamé",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Joselu",
+                            "in": "Dwight Gayle",
+                            "minute": "78"
+                        },
+                        {
+                            "out": "Tom Carroll",
+                            "in": "Luciano Narsingh",
+                            "minute": "86"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22380",
-                "away_team": "Newcastle",
                 "score": "0-1",
-                "home_team": "Swansea"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Swansea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Christian Atsu",
-                            "out": "Jacob Murphy",
-                            "minute": "59"
-                        },
-                        {
-                            "in": "Wilfried Bony",
-                            "out": "Renato Sanches",
-                            "minute": "69"
-                        },
-                        {
-                            "in": "Mohamed Diamé",
-                            "out": "Isaac Hayden",
-                            "minute": "69"
-                        },
-                        {
-                            "in": "Dwight Gayle",
-                            "out": "Joselu",
-                            "minute": "78"
-                        },
-                        {
-                            "in": "Luciano Narsingh",
-                            "out": "Tom Carroll",
-                            "minute": "86"
+                            "assist": "Matt Ritchie",
+                            "minute": "76",
+                            "scorer": "Jamaal Lascelles",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Mike Jones",
                     "kick_off": "16:00",
                     "cards": [
                         {
@@ -131,19 +112,38 @@
                             "player": "Dwight Gayle"
                         }
                     ],
-                    "goals": [
+                    "referee": "Mike Jones",
+                    "substitutions": [
                         {
-                            "scorer": "Jamaal Lascelles",
-                            "own_goal": "false",
-                            "minute": "76",
-                            "assist": "Matt Ritchie"
+                            "out": "Jacob Murphy",
+                            "in": "Christian Atsu",
+                            "minute": "59"
+                        },
+                        {
+                            "out": "Renato Sanches",
+                            "in": "Wilfried Bony",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Isaac Hayden",
+                            "in": "Mohamed Diamé",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Joselu",
+                            "in": "Dwight Gayle",
+                            "minute": "78"
+                        },
+                        {
+                            "out": "Tom Carroll",
+                            "in": "Luciano Narsingh",
+                            "minute": "86"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22380",
-                "away_team": "Newcastle",
                 "score": "0-1",
-                "home_team": "Swansea"
+                "away_team": "Newcastle"
             }
         ],
         "date": "Sunday 10 September 2017"

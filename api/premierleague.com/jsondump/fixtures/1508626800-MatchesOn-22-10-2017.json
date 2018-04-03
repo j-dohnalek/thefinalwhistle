@@ -2,40 +2,16 @@
     {
         "fixtures": [
             {
+                "home_team": "Bournemouth",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Jordon Ibe",
-                            "out": "Jermain Defoe",
-                            "minute": "45"
-                        },
-                        {
-                            "in": "Marc Pugh",
-                            "out": "Junior Stanislas",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Callum Wilson",
-                            "out": "Benik Afobe",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Daniel Drinkwater",
-                            "out": "Pedro",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Michy Batshuayi",
-                            "out": "Álvaro Morata",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Willian",
-                            "out": "Eden Hazard",
-                            "minute": "85"
+                            "assist": "Álvaro Morata",
+                            "minute": "51",
+                            "scorer": "Eden Hazard",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -49,55 +25,55 @@
                             "player": "Simon Francis"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Eden Hazard",
-                            "own_goal": "false",
-                            "minute": "51",
-                            "assist": "Álvaro Morata"
+                            "out": "Jermain Defoe",
+                            "in": "Jordon Ibe",
+                            "minute": "45"
+                        },
+                        {
+                            "out": "Junior Stanislas",
+                            "in": "Marc Pugh",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Benik Afobe",
+                            "in": "Callum Wilson",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Pedro",
+                            "in": "Daniel Drinkwater",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Álvaro Morata",
+                            "in": "Michy Batshuayi",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Eden Hazard",
+                            "in": "Willian",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22433",
-                "away_team": "Chelsea",
                 "score": "0-1",
-                "home_team": "Bournemouth"
+                "away_team": "Chelsea"
             },
             {
+                "home_team": "Bournemouth",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Jordon Ibe",
-                            "out": "Jermain Defoe",
-                            "minute": "45"
-                        },
-                        {
-                            "in": "Marc Pugh",
-                            "out": "Junior Stanislas",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Callum Wilson",
-                            "out": "Benik Afobe",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Daniel Drinkwater",
-                            "out": "Pedro",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Michy Batshuayi",
-                            "out": "Álvaro Morata",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Willian",
-                            "out": "Eden Hazard",
-                            "minute": "85"
+                            "assist": "Álvaro Morata",
+                            "minute": "51",
+                            "scorer": "Eden Hazard",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -111,55 +87,55 @@
                             "player": "Simon Francis"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Eden Hazard",
-                            "own_goal": "false",
-                            "minute": "51",
-                            "assist": "Álvaro Morata"
+                            "out": "Jermain Defoe",
+                            "in": "Jordon Ibe",
+                            "minute": "45"
+                        },
+                        {
+                            "out": "Junior Stanislas",
+                            "in": "Marc Pugh",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Benik Afobe",
+                            "in": "Callum Wilson",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Pedro",
+                            "in": "Daniel Drinkwater",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Álvaro Morata",
+                            "in": "Michy Batshuayi",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Eden Hazard",
+                            "in": "Willian",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22433",
-                "away_team": "Chelsea",
                 "score": "0-1",
-                "home_team": "Bournemouth"
+                "away_team": "Chelsea"
             },
             {
+                "home_team": "Bournemouth",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Jordon Ibe",
-                            "out": "Jermain Defoe",
-                            "minute": "45"
-                        },
-                        {
-                            "in": "Marc Pugh",
-                            "out": "Junior Stanislas",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Callum Wilson",
-                            "out": "Benik Afobe",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Daniel Drinkwater",
-                            "out": "Pedro",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Michy Batshuayi",
-                            "out": "Álvaro Morata",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Willian",
-                            "out": "Eden Hazard",
-                            "minute": "85"
+                            "assist": "Álvaro Morata",
+                            "minute": "51",
+                            "scorer": "Eden Hazard",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -173,55 +149,55 @@
                             "player": "Simon Francis"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Eden Hazard",
-                            "own_goal": "false",
-                            "minute": "51",
-                            "assist": "Álvaro Morata"
+                            "out": "Jermain Defoe",
+                            "in": "Jordon Ibe",
+                            "minute": "45"
+                        },
+                        {
+                            "out": "Junior Stanislas",
+                            "in": "Marc Pugh",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Benik Afobe",
+                            "in": "Callum Wilson",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Pedro",
+                            "in": "Daniel Drinkwater",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Álvaro Morata",
+                            "in": "Michy Batshuayi",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Eden Hazard",
+                            "in": "Willian",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22433",
-                "away_team": "Chelsea",
                 "score": "0-1",
-                "home_team": "Bournemouth"
+                "away_team": "Chelsea"
             },
             {
+                "home_team": "Bournemouth",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Jordon Ibe",
-                            "out": "Jermain Defoe",
-                            "minute": "45"
-                        },
-                        {
-                            "in": "Marc Pugh",
-                            "out": "Junior Stanislas",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Callum Wilson",
-                            "out": "Benik Afobe",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Daniel Drinkwater",
-                            "out": "Pedro",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Michy Batshuayi",
-                            "out": "Álvaro Morata",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Willian",
-                            "out": "Eden Hazard",
-                            "minute": "85"
+                            "assist": "Álvaro Morata",
+                            "minute": "51",
+                            "scorer": "Eden Hazard",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -235,55 +211,55 @@
                             "player": "Simon Francis"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Eden Hazard",
-                            "own_goal": "false",
-                            "minute": "51",
-                            "assist": "Álvaro Morata"
+                            "out": "Jermain Defoe",
+                            "in": "Jordon Ibe",
+                            "minute": "45"
+                        },
+                        {
+                            "out": "Junior Stanislas",
+                            "in": "Marc Pugh",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Benik Afobe",
+                            "in": "Callum Wilson",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Pedro",
+                            "in": "Daniel Drinkwater",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Álvaro Morata",
+                            "in": "Michy Batshuayi",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Eden Hazard",
+                            "in": "Willian",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22433",
-                "away_team": "Chelsea",
                 "score": "0-1",
-                "home_team": "Bournemouth"
+                "away_team": "Chelsea"
             },
             {
+                "home_team": "Bournemouth",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Jordon Ibe",
-                            "out": "Jermain Defoe",
-                            "minute": "45"
-                        },
-                        {
-                            "in": "Marc Pugh",
-                            "out": "Junior Stanislas",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Callum Wilson",
-                            "out": "Benik Afobe",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Daniel Drinkwater",
-                            "out": "Pedro",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Michy Batshuayi",
-                            "out": "Álvaro Morata",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Willian",
-                            "out": "Eden Hazard",
-                            "minute": "85"
+                            "assist": "Álvaro Morata",
+                            "minute": "51",
+                            "scorer": "Eden Hazard",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -297,55 +273,55 @@
                             "player": "Simon Francis"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Eden Hazard",
-                            "own_goal": "false",
-                            "minute": "51",
-                            "assist": "Álvaro Morata"
+                            "out": "Jermain Defoe",
+                            "in": "Jordon Ibe",
+                            "minute": "45"
+                        },
+                        {
+                            "out": "Junior Stanislas",
+                            "in": "Marc Pugh",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Benik Afobe",
+                            "in": "Callum Wilson",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Pedro",
+                            "in": "Daniel Drinkwater",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Álvaro Morata",
+                            "in": "Michy Batshuayi",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Eden Hazard",
+                            "in": "Willian",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22433",
-                "away_team": "Chelsea",
                 "score": "0-1",
-                "home_team": "Bournemouth"
+                "away_team": "Chelsea"
             },
             {
+                "home_team": "Bournemouth",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Jordon Ibe",
-                            "out": "Jermain Defoe",
-                            "minute": "45"
-                        },
-                        {
-                            "in": "Marc Pugh",
-                            "out": "Junior Stanislas",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Callum Wilson",
-                            "out": "Benik Afobe",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Daniel Drinkwater",
-                            "out": "Pedro",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Michy Batshuayi",
-                            "out": "Álvaro Morata",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Willian",
-                            "out": "Eden Hazard",
-                            "minute": "85"
+                            "assist": "Álvaro Morata",
+                            "minute": "51",
+                            "scorer": "Eden Hazard",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -359,55 +335,55 @@
                             "player": "Simon Francis"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Eden Hazard",
-                            "own_goal": "false",
-                            "minute": "51",
-                            "assist": "Álvaro Morata"
+                            "out": "Jermain Defoe",
+                            "in": "Jordon Ibe",
+                            "minute": "45"
+                        },
+                        {
+                            "out": "Junior Stanislas",
+                            "in": "Marc Pugh",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Benik Afobe",
+                            "in": "Callum Wilson",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Pedro",
+                            "in": "Daniel Drinkwater",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Álvaro Morata",
+                            "in": "Michy Batshuayi",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Eden Hazard",
+                            "in": "Willian",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22433",
-                "away_team": "Chelsea",
                 "score": "0-1",
-                "home_team": "Bournemouth"
+                "away_team": "Chelsea"
             },
             {
+                "home_team": "Bournemouth",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Jordon Ibe",
-                            "out": "Jermain Defoe",
-                            "minute": "45"
-                        },
-                        {
-                            "in": "Marc Pugh",
-                            "out": "Junior Stanislas",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Callum Wilson",
-                            "out": "Benik Afobe",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Daniel Drinkwater",
-                            "out": "Pedro",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Michy Batshuayi",
-                            "out": "Álvaro Morata",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Willian",
-                            "out": "Eden Hazard",
-                            "minute": "85"
+                            "assist": "Álvaro Morata",
+                            "minute": "51",
+                            "scorer": "Eden Hazard",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -421,19 +397,43 @@
                             "player": "Simon Francis"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Eden Hazard",
-                            "own_goal": "false",
-                            "minute": "51",
-                            "assist": "Álvaro Morata"
+                            "out": "Jermain Defoe",
+                            "in": "Jordon Ibe",
+                            "minute": "45"
+                        },
+                        {
+                            "out": "Junior Stanislas",
+                            "in": "Marc Pugh",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Benik Afobe",
+                            "in": "Callum Wilson",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Pedro",
+                            "in": "Daniel Drinkwater",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Álvaro Morata",
+                            "in": "Michy Batshuayi",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Eden Hazard",
+                            "in": "Willian",
+                            "minute": "85"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22433",
-                "away_team": "Chelsea",
                 "score": "0-1",
-                "home_team": "Bournemouth"
+                "away_team": "Chelsea"
             }
         ],
         "date": "Saturday 28 October 2017"

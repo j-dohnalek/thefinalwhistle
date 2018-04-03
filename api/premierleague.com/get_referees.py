@@ -17,7 +17,7 @@ import json
 # MY LIBS ######################################################################
 
 
-from helper import grab_html_by_class, init_driver
+from helper import FireMyFox
 
 # CONSTANTS ####################################################################
 
@@ -31,8 +31,10 @@ JSON_PATH = 'jsondump/list_of_referees.json'
 
 def main():
 
-    html = grab_html_by_class(init_driver(), class_name="managerName", url=URL)
-    soup = BeautifulSoup(html, "html.parser")
+    driver = FireMyFox()
+    driver.visit_url(URL)
+    driver.wait_for_class("managerName")
+    soup = BeautifulSoup(driver.html, "html.parser")
 
     pl_referees = {'referees': []}
 
@@ -42,13 +44,11 @@ def main():
         column_index = 0
         referee_name, club_name = '', ''
         for column in row.findAll('td'):
-
             # Manager column
             if column_index == 0:
                 referee_name = column.get_text()
             else:
                 break
-
             column_index += 1
 
         pl_referees['referees'].append(referee_name)

@@ -2,44 +2,15 @@
     {
         "fixtures": [
             {
+                "home_team": "Southampton",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Nyom",
-                            "out": "Jonny Evans",
-                            "minute": "32"
-                        },
-                        {
-                            "in": "Gareth McAuley",
-                            "out": "Gareth Barry",
-                            "minute": "53"
-                        },
-                        {
-                            "in": "Nathan Redmond",
-                            "out": "Oriol Romeu",
-                            "minute": "69"
-                        },
-                        {
-                            "in": "Matt Phillips",
-                            "out": "Nacer Chadli",
-                            "minute": "77"
-                        },
-                        {
-                            "in": "Sofiane Boufal",
-                            "out": "Dusan Tadic",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Charlie Austin",
-                            "out": "Shane Long",
-                            "minute": "81"
-                        },
-                        {
-                            "out": "Craig Dawson",
-                            "minute": "88"
+                            "minute": "85",
+                            "scorer": "Sofiane Boufal",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Graham Scott",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -48,58 +19,58 @@
                             "player": "Nacer Chadli"
                         }
                     ],
-                    "goals": [
+                    "referee": "Graham Scott",
+                    "substitutions": [
                         {
-                            "scorer": "Sofiane Boufal",
-                            "own_goal": "false",
-                            "minute": "85"
+                            "out": "Jonny Evans",
+                            "in": "Nyom",
+                            "minute": "32"
+                        },
+                        {
+                            "out": "Gareth Barry",
+                            "in": "Gareth McAuley",
+                            "minute": "53"
+                        },
+                        {
+                            "out": "Oriol Romeu",
+                            "in": "Nathan Redmond",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Nacer Chadli",
+                            "in": "Matt Phillips",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Dusan Tadic",
+                            "in": "Sofiane Boufal",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Shane Long",
+                            "in": "Charlie Austin",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Craig Dawson",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22427",
-                "away_team": "West Brom",
                 "score": "1-0",
-                "home_team": "Southampton"
+                "away_team": "West Brom"
             },
             {
+                "home_team": "Southampton",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Nyom",
-                            "out": "Jonny Evans",
-                            "minute": "32"
-                        },
-                        {
-                            "in": "Gareth McAuley",
-                            "out": "Gareth Barry",
-                            "minute": "53"
-                        },
-                        {
-                            "in": "Nathan Redmond",
-                            "out": "Oriol Romeu",
-                            "minute": "69"
-                        },
-                        {
-                            "in": "Matt Phillips",
-                            "out": "Nacer Chadli",
-                            "minute": "77"
-                        },
-                        {
-                            "in": "Sofiane Boufal",
-                            "out": "Dusan Tadic",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Charlie Austin",
-                            "out": "Shane Long",
-                            "minute": "81"
-                        },
-                        {
-                            "out": "Craig Dawson",
-                            "minute": "88"
+                            "minute": "85",
+                            "scorer": "Sofiane Boufal",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Graham Scott",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -108,58 +79,58 @@
                             "player": "Nacer Chadli"
                         }
                     ],
-                    "goals": [
+                    "referee": "Graham Scott",
+                    "substitutions": [
                         {
-                            "scorer": "Sofiane Boufal",
-                            "own_goal": "false",
-                            "minute": "85"
+                            "out": "Jonny Evans",
+                            "in": "Nyom",
+                            "minute": "32"
+                        },
+                        {
+                            "out": "Gareth Barry",
+                            "in": "Gareth McAuley",
+                            "minute": "53"
+                        },
+                        {
+                            "out": "Oriol Romeu",
+                            "in": "Nathan Redmond",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Nacer Chadli",
+                            "in": "Matt Phillips",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Dusan Tadic",
+                            "in": "Sofiane Boufal",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Shane Long",
+                            "in": "Charlie Austin",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Craig Dawson",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22427",
-                "away_team": "West Brom",
                 "score": "1-0",
-                "home_team": "Southampton"
+                "away_team": "West Brom"
             },
             {
+                "home_team": "Southampton",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Nyom",
-                            "out": "Jonny Evans",
-                            "minute": "32"
-                        },
-                        {
-                            "in": "Gareth McAuley",
-                            "out": "Gareth Barry",
-                            "minute": "53"
-                        },
-                        {
-                            "in": "Nathan Redmond",
-                            "out": "Oriol Romeu",
-                            "minute": "69"
-                        },
-                        {
-                            "in": "Matt Phillips",
-                            "out": "Nacer Chadli",
-                            "minute": "77"
-                        },
-                        {
-                            "in": "Sofiane Boufal",
-                            "out": "Dusan Tadic",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Charlie Austin",
-                            "out": "Shane Long",
-                            "minute": "81"
-                        },
-                        {
-                            "out": "Craig Dawson",
-                            "minute": "88"
+                            "minute": "85",
+                            "scorer": "Sofiane Boufal",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Graham Scott",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -168,58 +139,58 @@
                             "player": "Nacer Chadli"
                         }
                     ],
-                    "goals": [
+                    "referee": "Graham Scott",
+                    "substitutions": [
                         {
-                            "scorer": "Sofiane Boufal",
-                            "own_goal": "false",
-                            "minute": "85"
+                            "out": "Jonny Evans",
+                            "in": "Nyom",
+                            "minute": "32"
+                        },
+                        {
+                            "out": "Gareth Barry",
+                            "in": "Gareth McAuley",
+                            "minute": "53"
+                        },
+                        {
+                            "out": "Oriol Romeu",
+                            "in": "Nathan Redmond",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Nacer Chadli",
+                            "in": "Matt Phillips",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Dusan Tadic",
+                            "in": "Sofiane Boufal",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Shane Long",
+                            "in": "Charlie Austin",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Craig Dawson",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22427",
-                "away_team": "West Brom",
                 "score": "1-0",
-                "home_team": "Southampton"
+                "away_team": "West Brom"
             },
             {
+                "home_team": "Southampton",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Nyom",
-                            "out": "Jonny Evans",
-                            "minute": "32"
-                        },
-                        {
-                            "in": "Gareth McAuley",
-                            "out": "Gareth Barry",
-                            "minute": "53"
-                        },
-                        {
-                            "in": "Nathan Redmond",
-                            "out": "Oriol Romeu",
-                            "minute": "69"
-                        },
-                        {
-                            "in": "Matt Phillips",
-                            "out": "Nacer Chadli",
-                            "minute": "77"
-                        },
-                        {
-                            "in": "Sofiane Boufal",
-                            "out": "Dusan Tadic",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Charlie Austin",
-                            "out": "Shane Long",
-                            "minute": "81"
-                        },
-                        {
-                            "out": "Craig Dawson",
-                            "minute": "88"
+                            "minute": "85",
+                            "scorer": "Sofiane Boufal",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Graham Scott",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -228,58 +199,58 @@
                             "player": "Nacer Chadli"
                         }
                     ],
-                    "goals": [
+                    "referee": "Graham Scott",
+                    "substitutions": [
                         {
-                            "scorer": "Sofiane Boufal",
-                            "own_goal": "false",
-                            "minute": "85"
+                            "out": "Jonny Evans",
+                            "in": "Nyom",
+                            "minute": "32"
+                        },
+                        {
+                            "out": "Gareth Barry",
+                            "in": "Gareth McAuley",
+                            "minute": "53"
+                        },
+                        {
+                            "out": "Oriol Romeu",
+                            "in": "Nathan Redmond",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Nacer Chadli",
+                            "in": "Matt Phillips",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Dusan Tadic",
+                            "in": "Sofiane Boufal",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Shane Long",
+                            "in": "Charlie Austin",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Craig Dawson",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22427",
-                "away_team": "West Brom",
                 "score": "1-0",
-                "home_team": "Southampton"
+                "away_team": "West Brom"
             },
             {
+                "home_team": "Southampton",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Nyom",
-                            "out": "Jonny Evans",
-                            "minute": "32"
-                        },
-                        {
-                            "in": "Gareth McAuley",
-                            "out": "Gareth Barry",
-                            "minute": "53"
-                        },
-                        {
-                            "in": "Nathan Redmond",
-                            "out": "Oriol Romeu",
-                            "minute": "69"
-                        },
-                        {
-                            "in": "Matt Phillips",
-                            "out": "Nacer Chadli",
-                            "minute": "77"
-                        },
-                        {
-                            "in": "Sofiane Boufal",
-                            "out": "Dusan Tadic",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Charlie Austin",
-                            "out": "Shane Long",
-                            "minute": "81"
-                        },
-                        {
-                            "out": "Craig Dawson",
-                            "minute": "88"
+                            "minute": "85",
+                            "scorer": "Sofiane Boufal",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Graham Scott",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -288,58 +259,58 @@
                             "player": "Nacer Chadli"
                         }
                     ],
-                    "goals": [
+                    "referee": "Graham Scott",
+                    "substitutions": [
                         {
-                            "scorer": "Sofiane Boufal",
-                            "own_goal": "false",
-                            "minute": "85"
+                            "out": "Jonny Evans",
+                            "in": "Nyom",
+                            "minute": "32"
+                        },
+                        {
+                            "out": "Gareth Barry",
+                            "in": "Gareth McAuley",
+                            "minute": "53"
+                        },
+                        {
+                            "out": "Oriol Romeu",
+                            "in": "Nathan Redmond",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Nacer Chadli",
+                            "in": "Matt Phillips",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Dusan Tadic",
+                            "in": "Sofiane Boufal",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Shane Long",
+                            "in": "Charlie Austin",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Craig Dawson",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22427",
-                "away_team": "West Brom",
                 "score": "1-0",
-                "home_team": "Southampton"
+                "away_team": "West Brom"
             },
             {
+                "home_team": "Southampton",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Nyom",
-                            "out": "Jonny Evans",
-                            "minute": "32"
-                        },
-                        {
-                            "in": "Gareth McAuley",
-                            "out": "Gareth Barry",
-                            "minute": "53"
-                        },
-                        {
-                            "in": "Nathan Redmond",
-                            "out": "Oriol Romeu",
-                            "minute": "69"
-                        },
-                        {
-                            "in": "Matt Phillips",
-                            "out": "Nacer Chadli",
-                            "minute": "77"
-                        },
-                        {
-                            "in": "Sofiane Boufal",
-                            "out": "Dusan Tadic",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Charlie Austin",
-                            "out": "Shane Long",
-                            "minute": "81"
-                        },
-                        {
-                            "out": "Craig Dawson",
-                            "minute": "88"
+                            "minute": "85",
+                            "scorer": "Sofiane Boufal",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Graham Scott",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -348,58 +319,58 @@
                             "player": "Nacer Chadli"
                         }
                     ],
-                    "goals": [
+                    "referee": "Graham Scott",
+                    "substitutions": [
                         {
-                            "scorer": "Sofiane Boufal",
-                            "own_goal": "false",
-                            "minute": "85"
+                            "out": "Jonny Evans",
+                            "in": "Nyom",
+                            "minute": "32"
+                        },
+                        {
+                            "out": "Gareth Barry",
+                            "in": "Gareth McAuley",
+                            "minute": "53"
+                        },
+                        {
+                            "out": "Oriol Romeu",
+                            "in": "Nathan Redmond",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Nacer Chadli",
+                            "in": "Matt Phillips",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Dusan Tadic",
+                            "in": "Sofiane Boufal",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Shane Long",
+                            "in": "Charlie Austin",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Craig Dawson",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22427",
-                "away_team": "West Brom",
                 "score": "1-0",
-                "home_team": "Southampton"
+                "away_team": "West Brom"
             },
             {
+                "home_team": "Southampton",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Nyom",
-                            "out": "Jonny Evans",
-                            "minute": "32"
-                        },
-                        {
-                            "in": "Gareth McAuley",
-                            "out": "Gareth Barry",
-                            "minute": "53"
-                        },
-                        {
-                            "in": "Nathan Redmond",
-                            "out": "Oriol Romeu",
-                            "minute": "69"
-                        },
-                        {
-                            "in": "Matt Phillips",
-                            "out": "Nacer Chadli",
-                            "minute": "77"
-                        },
-                        {
-                            "in": "Sofiane Boufal",
-                            "out": "Dusan Tadic",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Charlie Austin",
-                            "out": "Shane Long",
-                            "minute": "81"
-                        },
-                        {
-                            "out": "Craig Dawson",
-                            "minute": "88"
+                            "minute": "85",
+                            "scorer": "Sofiane Boufal",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Graham Scott",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -408,18 +379,47 @@
                             "player": "Nacer Chadli"
                         }
                     ],
-                    "goals": [
+                    "referee": "Graham Scott",
+                    "substitutions": [
                         {
-                            "scorer": "Sofiane Boufal",
-                            "own_goal": "false",
-                            "minute": "85"
+                            "out": "Jonny Evans",
+                            "in": "Nyom",
+                            "minute": "32"
+                        },
+                        {
+                            "out": "Gareth Barry",
+                            "in": "Gareth McAuley",
+                            "minute": "53"
+                        },
+                        {
+                            "out": "Oriol Romeu",
+                            "in": "Nathan Redmond",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Nacer Chadli",
+                            "in": "Matt Phillips",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Dusan Tadic",
+                            "in": "Sofiane Boufal",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Shane Long",
+                            "in": "Charlie Austin",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Craig Dawson",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22427",
-                "away_team": "West Brom",
                 "score": "1-0",
-                "home_team": "Southampton"
+                "away_team": "West Brom"
             }
         ],
         "date": "Saturday 21 October 2017"

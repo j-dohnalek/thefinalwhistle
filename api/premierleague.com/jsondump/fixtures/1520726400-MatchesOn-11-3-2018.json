@@ -2,31 +2,22 @@
     {
         "fixtures": [
             {
+                "home_team": "Stoke",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Peter Crouch",
-                            "out": "Jesé",
-                            "minute": "63"
+                            "assist": "Raheem Sterling",
+                            "minute": "10",
+                            "scorer": "David Silva",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Bernardo Silva",
-                            "out": "Raheem Sterling",
-                            "minute": "85"
-                        },
-                        {
-                            "in": "Ramadan Sobhi",
-                            "out": "Geoff Cameron",
-                            "minute": "88"
-                        },
-                        {
-                            "in": "Ilkay Gündogan",
-                            "out": "Gabriel Jesus",
-                            "minute": "90",
-                            "additional": "1"
+                            "assist": "Gabriel Jesus",
+                            "minute": "50",
+                            "scorer": "David Silva",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Jonathan Moss",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -35,25 +26,34 @@
                             "player": "Joe Allen"
                         }
                     ],
-                    "goals": [
+                    "referee": "Jonathan Moss",
+                    "substitutions": [
                         {
-                            "scorer": "David Silva",
-                            "own_goal": "false",
-                            "minute": "10",
-                            "assist": "Raheem Sterling"
+                            "out": "Jesé",
+                            "in": "Peter Crouch",
+                            "minute": "63"
                         },
                         {
-                            "scorer": "David Silva",
-                            "own_goal": "false",
-                            "minute": "50",
-                            "assist": "Gabriel Jesus"
+                            "out": "Raheem Sterling",
+                            "in": "Bernardo Silva",
+                            "minute": "85"
+                        },
+                        {
+                            "out": "Geoff Cameron",
+                            "in": "Ramadan Sobhi",
+                            "minute": "88"
+                        },
+                        {
+                            "out": "Gabriel Jesus",
+                            "additional": "1",
+                            "in": "Ilkay Gündogan",
+                            "minute": "90"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22639",
-                "away_team": "Man City",
                 "score": "0-2",
-                "home_team": "Stoke"
+                "away_team": "Man City"
             }
         ],
         "date": "Monday 12 March 2018"

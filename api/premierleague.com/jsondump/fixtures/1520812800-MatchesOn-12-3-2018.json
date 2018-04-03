@@ -2,40 +2,39 @@
     {
         "fixtures": [
             {
+                "home_team": "Liverpool",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "James Milner",
-                            "out": "Emre Can",
-                            "minute": "27"
+                            "assist": "Sadio Mané",
+                            "minute": "4",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Will Hughes",
-                            "out": "Richarlison",
-                            "minute": "65"
+                            "assist": "Andrew Robertson",
+                            "minute": "43",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Stefano Okaka",
-                            "out": "Troy Deeney",
-                            "minute": "70"
+                            "assist": "Mohamed Salah",
+                            "minute": "49",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Alex Oxlade-Chamberlain",
-                            "out": "Georginio Wijnaldum",
-                            "minute": "71"
+                            "assist": "Sadio Mané",
+                            "minute": "77",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Danny Ings",
-                            "out": "Roberto Firmino",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Daryl Janmaat",
-                            "out": "Miguel Britos",
-                            "minute": "81"
+                            "minute": "85",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -44,78 +43,78 @@
                             "player": "Joseph Gomez"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "4",
-                            "assist": "Sadio Mané"
+                            "out": "Emre Can",
+                            "in": "James Milner",
+                            "minute": "27"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "43",
-                            "assist": "Andrew Robertson"
+                            "out": "Richarlison",
+                            "in": "Will Hughes",
+                            "minute": "65"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "49",
-                            "assist": "Mohamed Salah"
+                            "out": "Troy Deeney",
+                            "in": "Stefano Okaka",
+                            "minute": "70"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "77",
-                            "assist": "Sadio Mané"
+                            "out": "Georginio Wijnaldum",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "85"
+                            "out": "Roberto Firmino",
+                            "in": "Danny Ings",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Miguel Britos",
+                            "in": "Daryl Janmaat",
+                            "minute": "81"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22646",
-                "away_team": "Watford",
                 "score": "5-0",
-                "home_team": "Liverpool"
+                "away_team": "Watford"
             },
             {
+                "home_team": "Liverpool",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "James Milner",
-                            "out": "Emre Can",
-                            "minute": "27"
+                            "assist": "Sadio Mané",
+                            "minute": "4",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Will Hughes",
-                            "out": "Richarlison",
-                            "minute": "65"
+                            "assist": "Andrew Robertson",
+                            "minute": "43",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Stefano Okaka",
-                            "out": "Troy Deeney",
-                            "minute": "70"
+                            "assist": "Mohamed Salah",
+                            "minute": "49",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Alex Oxlade-Chamberlain",
-                            "out": "Georginio Wijnaldum",
-                            "minute": "71"
+                            "assist": "Sadio Mané",
+                            "minute": "77",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Danny Ings",
-                            "out": "Roberto Firmino",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Daryl Janmaat",
-                            "out": "Miguel Britos",
-                            "minute": "81"
+                            "minute": "85",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -124,78 +123,78 @@
                             "player": "Joseph Gomez"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "4",
-                            "assist": "Sadio Mané"
+                            "out": "Emre Can",
+                            "in": "James Milner",
+                            "minute": "27"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "43",
-                            "assist": "Andrew Robertson"
+                            "out": "Richarlison",
+                            "in": "Will Hughes",
+                            "minute": "65"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "49",
-                            "assist": "Mohamed Salah"
+                            "out": "Troy Deeney",
+                            "in": "Stefano Okaka",
+                            "minute": "70"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "77",
-                            "assist": "Sadio Mané"
+                            "out": "Georginio Wijnaldum",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "85"
+                            "out": "Roberto Firmino",
+                            "in": "Danny Ings",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Miguel Britos",
+                            "in": "Daryl Janmaat",
+                            "minute": "81"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22646",
-                "away_team": "Watford",
                 "score": "5-0",
-                "home_team": "Liverpool"
+                "away_team": "Watford"
             },
             {
+                "home_team": "Liverpool",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "James Milner",
-                            "out": "Emre Can",
-                            "minute": "27"
+                            "assist": "Sadio Mané",
+                            "minute": "4",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Will Hughes",
-                            "out": "Richarlison",
-                            "minute": "65"
+                            "assist": "Andrew Robertson",
+                            "minute": "43",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Stefano Okaka",
-                            "out": "Troy Deeney",
-                            "minute": "70"
+                            "assist": "Mohamed Salah",
+                            "minute": "49",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Alex Oxlade-Chamberlain",
-                            "out": "Georginio Wijnaldum",
-                            "minute": "71"
+                            "assist": "Sadio Mané",
+                            "minute": "77",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Danny Ings",
-                            "out": "Roberto Firmino",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Daryl Janmaat",
-                            "out": "Miguel Britos",
-                            "minute": "81"
+                            "minute": "85",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -204,78 +203,78 @@
                             "player": "Joseph Gomez"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "4",
-                            "assist": "Sadio Mané"
+                            "out": "Emre Can",
+                            "in": "James Milner",
+                            "minute": "27"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "43",
-                            "assist": "Andrew Robertson"
+                            "out": "Richarlison",
+                            "in": "Will Hughes",
+                            "minute": "65"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "49",
-                            "assist": "Mohamed Salah"
+                            "out": "Troy Deeney",
+                            "in": "Stefano Okaka",
+                            "minute": "70"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "77",
-                            "assist": "Sadio Mané"
+                            "out": "Georginio Wijnaldum",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "85"
+                            "out": "Roberto Firmino",
+                            "in": "Danny Ings",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Miguel Britos",
+                            "in": "Daryl Janmaat",
+                            "minute": "81"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22646",
-                "away_team": "Watford",
                 "score": "5-0",
-                "home_team": "Liverpool"
+                "away_team": "Watford"
             },
             {
+                "home_team": "Liverpool",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "James Milner",
-                            "out": "Emre Can",
-                            "minute": "27"
+                            "assist": "Sadio Mané",
+                            "minute": "4",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Will Hughes",
-                            "out": "Richarlison",
-                            "minute": "65"
+                            "assist": "Andrew Robertson",
+                            "minute": "43",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Stefano Okaka",
-                            "out": "Troy Deeney",
-                            "minute": "70"
+                            "assist": "Mohamed Salah",
+                            "minute": "49",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Alex Oxlade-Chamberlain",
-                            "out": "Georginio Wijnaldum",
-                            "minute": "71"
+                            "assist": "Sadio Mané",
+                            "minute": "77",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Danny Ings",
-                            "out": "Roberto Firmino",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Daryl Janmaat",
-                            "out": "Miguel Britos",
-                            "minute": "81"
+                            "minute": "85",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -284,42 +283,43 @@
                             "player": "Joseph Gomez"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "4",
-                            "assist": "Sadio Mané"
+                            "out": "Emre Can",
+                            "in": "James Milner",
+                            "minute": "27"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "43",
-                            "assist": "Andrew Robertson"
+                            "out": "Richarlison",
+                            "in": "Will Hughes",
+                            "minute": "65"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "49",
-                            "assist": "Mohamed Salah"
+                            "out": "Troy Deeney",
+                            "in": "Stefano Okaka",
+                            "minute": "70"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "77",
-                            "assist": "Sadio Mané"
+                            "out": "Georginio Wijnaldum",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "85"
+                            "out": "Roberto Firmino",
+                            "in": "Danny Ings",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Miguel Britos",
+                            "in": "Daryl Janmaat",
+                            "minute": "81"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22646",
-                "away_team": "Watford",
                 "score": "5-0",
-                "home_team": "Liverpool"
+                "away_team": "Watford"
             }
         ],
         "date": "Saturday 17 March 2018"

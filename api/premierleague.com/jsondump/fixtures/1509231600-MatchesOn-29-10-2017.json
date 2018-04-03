@@ -2,30 +2,16 @@
     {
         "fixtures": [
             {
+                "home_team": "Burnley",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Ashley Westwood",
-                            "out": "Steven Defour",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Isaac Hayden",
-                            "out": "Ayoze Pérez",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Jacob Murphy",
-                            "out": "Matt Ritchie",
-                            "minute": "79"
-                        },
-                        {
-                            "in": "Dwight Gayle",
-                            "out": "Mohamed Diamé",
-                            "minute": "83"
+                            "assist": "Johann Berg Gudmundsson",
+                            "minute": "74",
+                            "scorer": "Jeff Hendrick",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Mike Dean",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -44,19 +30,33 @@
                             "player": "James Tarkowski"
                         }
                     ],
-                    "goals": [
+                    "referee": "Mike Dean",
+                    "substitutions": [
                         {
-                            "scorer": "Jeff Hendrick",
-                            "own_goal": "false",
-                            "minute": "74",
-                            "assist": "Johann Berg Gudmundsson"
+                            "out": "Steven Defour",
+                            "in": "Ashley Westwood",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Ayoze Pérez",
+                            "in": "Isaac Hayden",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Matt Ritchie",
+                            "in": "Jacob Murphy",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Mohamed Diamé",
+                            "in": "Dwight Gayle",
+                            "minute": "83"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22435",
-                "away_team": "Newcastle",
                 "score": "1-0",
-                "home_team": "Burnley"
+                "away_team": "Newcastle"
             }
         ],
         "date": "Monday 30 October 2017"

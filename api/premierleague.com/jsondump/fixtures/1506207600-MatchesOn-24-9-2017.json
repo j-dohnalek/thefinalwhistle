@@ -2,41 +2,15 @@
     {
         "fixtures": [
             {
+                "home_team": "Arsenal",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "James Morrison",
-                            "out": "Jake Livermore",
-                            "minute": "63"
-                        },
-                        {
-                            "in": "Salomón Rondón",
-                            "out": "Hal Robson-Kanu",
-                            "minute": "64"
-                        },
-                        {
-                            "in": "Matt Phillips",
-                            "out": "Nyom",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Olivier Giroud",
-                            "out": "Alexandre Lacazette",
-                            "minute": "83"
-                        },
-                        {
-                            "in": "Mesut Özil",
-                            "out": "Alexis Sánchez",
-                            "minute": "83"
-                        },
-                        {
-                            "in": "Ainsley Maitland-Niles",
-                            "out": "Aaron Ramsey",
-                            "minute": "90",
-                            "additional": "3"
+                            "minute": "20",
+                            "scorer": "Alexandre Lacazette",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Robert Madley",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -65,18 +39,44 @@
                             "player": "Nyom"
                         }
                     ],
-                    "goals": [
+                    "referee": "Robert Madley",
+                    "substitutions": [
                         {
-                            "scorer": "Alexandre Lacazette",
-                            "own_goal": "false",
-                            "minute": "20"
+                            "out": "Jake Livermore",
+                            "in": "James Morrison",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Hal Robson-Kanu",
+                            "in": "Salomón Rondón",
+                            "minute": "64"
+                        },
+                        {
+                            "out": "Nyom",
+                            "in": "Matt Phillips",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Alexandre Lacazette",
+                            "in": "Olivier Giroud",
+                            "minute": "83"
+                        },
+                        {
+                            "out": "Alexis Sánchez",
+                            "in": "Mesut Özil",
+                            "minute": "83"
+                        },
+                        {
+                            "out": "Aaron Ramsey",
+                            "additional": "3",
+                            "in": "Ainsley Maitland-Niles",
+                            "minute": "90"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22392",
-                "away_team": "West Brom",
                 "score": "2-0",
-                "home_team": "Arsenal"
+                "away_team": "West Brom"
             }
         ],
         "date": "Monday 25 September 2017"

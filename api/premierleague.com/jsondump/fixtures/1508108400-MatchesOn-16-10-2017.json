@@ -2,35 +2,23 @@
     {
         "fixtures": [
             {
+                "home_team": "West Ham",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "André Ayew",
-                            "out": "Cheikhou Kouyaté",
-                            "minute": "45"
+                            "assist": "Pascal Groß",
+                            "minute": "10",
+                            "scorer": "Glenn Murray",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Solly March",
-                            "out": "José Izquierdo",
-                            "minute": "70"
-                        },
-                        {
-                            "in": "Edimilson Fernandes",
-                            "out": "Marko Arnautovic",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "Isaiah Brown",
-                            "out": "Pascal Groß",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Ezequiel Schelotto",
-                            "out": "Anthony Knockaert",
-                            "minute": "84"
+                            "assist": "Davy Pröpper",
+                            "additional": "2",
+                            "minute": "45",
+                            "scorer": "José Izquierdo",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Martin Atkinson",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -39,26 +27,38 @@
                             "player": "Chicharito"
                         }
                     ],
-                    "goals": [
+                    "referee": "Martin Atkinson",
+                    "substitutions": [
                         {
-                            "scorer": "Glenn Murray",
-                            "own_goal": "false",
-                            "minute": "10",
-                            "assist": "Pascal Groß"
+                            "out": "Cheikhou Kouyaté",
+                            "in": "André Ayew",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "José Izquierdo",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "2",
-                            "assist": "Davy Pröpper"
+                            "out": "José Izquierdo",
+                            "in": "Solly March",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Marko Arnautovic",
+                            "in": "Edimilson Fernandes",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Pascal Groß",
+                            "in": "Isaiah Brown",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Anthony Knockaert",
+                            "in": "Ezequiel Schelotto",
+                            "minute": "84"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22431",
-                "away_team": "Brighton",
                 "score": "0-3",
-                "home_team": "West Ham"
+                "away_team": "Brighton"
             }
         ],
         "date": "Friday 20 October 2017"

@@ -2,40 +2,41 @@
     {
         "fixtures": [
             {
+                "home_team": "Man Utd",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Rolando Aarons",
-                            "out": "Matt Ritchie",
-                            "minute": "66"
+                            "assist": "DeAndre Yedlin",
+                            "minute": "14",
+                            "scorer": "Dwight Gayle",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Marouane Fellaini",
-                            "out": "Paul Pogba",
-                            "minute": "70"
+                            "assist": "Paul Pogba",
+                            "minute": "37",
+                            "scorer": "Anthony Martial",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Aleksandar Mitrovic",
-                            "out": "Joselu",
-                            "minute": "71"
+                            "assist": "Ashley Young",
+                            "additional": "1",
+                            "minute": "45",
+                            "scorer": "Chris Smalling",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Zlatan Ibrahimovic",
-                            "out": "Anthony Martial",
-                            "minute": "77"
+                            "assist": "Marcus Rashford",
+                            "minute": "54",
+                            "scorer": "Paul Pogba",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Mohamed Diamé",
-                            "out": "Dwight Gayle",
-                            "minute": "77"
-                        },
-                        {
-                            "in": "Ander Herrera",
-                            "out": "Juan Mata",
-                            "minute": "83"
+                            "assist": "Juan Mata",
+                            "minute": "70",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -49,80 +50,80 @@
                             "player": "Chris Smalling"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Dwight Gayle",
-                            "own_goal": "false",
-                            "minute": "14",
-                            "assist": "DeAndre Yedlin"
+                            "out": "Matt Ritchie",
+                            "in": "Rolando Aarons",
+                            "minute": "66"
                         },
                         {
-                            "scorer": "Anthony Martial",
-                            "own_goal": "false",
-                            "minute": "37",
-                            "assist": "Paul Pogba"
+                            "out": "Paul Pogba",
+                            "in": "Marouane Fellaini",
+                            "minute": "70"
                         },
                         {
-                            "scorer": "Chris Smalling",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "1",
-                            "assist": "Ashley Young"
+                            "out": "Joselu",
+                            "in": "Aleksandar Mitrovic",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Paul Pogba",
-                            "own_goal": "false",
-                            "minute": "54",
-                            "assist": "Marcus Rashford"
+                            "out": "Anthony Martial",
+                            "in": "Zlatan Ibrahimovic",
+                            "minute": "77"
                         },
                         {
-                            "scorer": "Romelu Lukaku",
-                            "own_goal": "false",
-                            "minute": "70",
-                            "assist": "Juan Mata"
+                            "out": "Dwight Gayle",
+                            "in": "Mohamed Diamé",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Juan Mata",
+                            "in": "Ander Herrera",
+                            "minute": "83"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22459",
-                "away_team": "Newcastle",
                 "score": "4-1",
-                "home_team": "Man Utd"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Man Utd",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Rolando Aarons",
-                            "out": "Matt Ritchie",
-                            "minute": "66"
+                            "assist": "DeAndre Yedlin",
+                            "minute": "14",
+                            "scorer": "Dwight Gayle",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Marouane Fellaini",
-                            "out": "Paul Pogba",
-                            "minute": "70"
+                            "assist": "Paul Pogba",
+                            "minute": "37",
+                            "scorer": "Anthony Martial",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Aleksandar Mitrovic",
-                            "out": "Joselu",
-                            "minute": "71"
+                            "assist": "Ashley Young",
+                            "additional": "1",
+                            "minute": "45",
+                            "scorer": "Chris Smalling",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Zlatan Ibrahimovic",
-                            "out": "Anthony Martial",
-                            "minute": "77"
+                            "assist": "Marcus Rashford",
+                            "minute": "54",
+                            "scorer": "Paul Pogba",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Mohamed Diamé",
-                            "out": "Dwight Gayle",
-                            "minute": "77"
-                        },
-                        {
-                            "in": "Ander Herrera",
-                            "out": "Juan Mata",
-                            "minute": "83"
+                            "assist": "Juan Mata",
+                            "minute": "70",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -136,80 +137,80 @@
                             "player": "Chris Smalling"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Dwight Gayle",
-                            "own_goal": "false",
-                            "minute": "14",
-                            "assist": "DeAndre Yedlin"
+                            "out": "Matt Ritchie",
+                            "in": "Rolando Aarons",
+                            "minute": "66"
                         },
                         {
-                            "scorer": "Anthony Martial",
-                            "own_goal": "false",
-                            "minute": "37",
-                            "assist": "Paul Pogba"
+                            "out": "Paul Pogba",
+                            "in": "Marouane Fellaini",
+                            "minute": "70"
                         },
                         {
-                            "scorer": "Chris Smalling",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "1",
-                            "assist": "Ashley Young"
+                            "out": "Joselu",
+                            "in": "Aleksandar Mitrovic",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Paul Pogba",
-                            "own_goal": "false",
-                            "minute": "54",
-                            "assist": "Marcus Rashford"
+                            "out": "Anthony Martial",
+                            "in": "Zlatan Ibrahimovic",
+                            "minute": "77"
                         },
                         {
-                            "scorer": "Romelu Lukaku",
-                            "own_goal": "false",
-                            "minute": "70",
-                            "assist": "Juan Mata"
+                            "out": "Dwight Gayle",
+                            "in": "Mohamed Diamé",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Juan Mata",
+                            "in": "Ander Herrera",
+                            "minute": "83"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22459",
-                "away_team": "Newcastle",
                 "score": "4-1",
-                "home_team": "Man Utd"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Man Utd",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Rolando Aarons",
-                            "out": "Matt Ritchie",
-                            "minute": "66"
+                            "assist": "DeAndre Yedlin",
+                            "minute": "14",
+                            "scorer": "Dwight Gayle",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Marouane Fellaini",
-                            "out": "Paul Pogba",
-                            "minute": "70"
+                            "assist": "Paul Pogba",
+                            "minute": "37",
+                            "scorer": "Anthony Martial",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Aleksandar Mitrovic",
-                            "out": "Joselu",
-                            "minute": "71"
+                            "assist": "Ashley Young",
+                            "additional": "1",
+                            "minute": "45",
+                            "scorer": "Chris Smalling",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Zlatan Ibrahimovic",
-                            "out": "Anthony Martial",
-                            "minute": "77"
+                            "assist": "Marcus Rashford",
+                            "minute": "54",
+                            "scorer": "Paul Pogba",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Mohamed Diamé",
-                            "out": "Dwight Gayle",
-                            "minute": "77"
-                        },
-                        {
-                            "in": "Ander Herrera",
-                            "out": "Juan Mata",
-                            "minute": "83"
+                            "assist": "Juan Mata",
+                            "minute": "70",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -223,80 +224,80 @@
                             "player": "Chris Smalling"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Dwight Gayle",
-                            "own_goal": "false",
-                            "minute": "14",
-                            "assist": "DeAndre Yedlin"
+                            "out": "Matt Ritchie",
+                            "in": "Rolando Aarons",
+                            "minute": "66"
                         },
                         {
-                            "scorer": "Anthony Martial",
-                            "own_goal": "false",
-                            "minute": "37",
-                            "assist": "Paul Pogba"
+                            "out": "Paul Pogba",
+                            "in": "Marouane Fellaini",
+                            "minute": "70"
                         },
                         {
-                            "scorer": "Chris Smalling",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "1",
-                            "assist": "Ashley Young"
+                            "out": "Joselu",
+                            "in": "Aleksandar Mitrovic",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Paul Pogba",
-                            "own_goal": "false",
-                            "minute": "54",
-                            "assist": "Marcus Rashford"
+                            "out": "Anthony Martial",
+                            "in": "Zlatan Ibrahimovic",
+                            "minute": "77"
                         },
                         {
-                            "scorer": "Romelu Lukaku",
-                            "own_goal": "false",
-                            "minute": "70",
-                            "assist": "Juan Mata"
+                            "out": "Dwight Gayle",
+                            "in": "Mohamed Diamé",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Juan Mata",
+                            "in": "Ander Herrera",
+                            "minute": "83"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22459",
-                "away_team": "Newcastle",
                 "score": "4-1",
-                "home_team": "Man Utd"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Man Utd",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Rolando Aarons",
-                            "out": "Matt Ritchie",
-                            "minute": "66"
+                            "assist": "DeAndre Yedlin",
+                            "minute": "14",
+                            "scorer": "Dwight Gayle",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Marouane Fellaini",
-                            "out": "Paul Pogba",
-                            "minute": "70"
+                            "assist": "Paul Pogba",
+                            "minute": "37",
+                            "scorer": "Anthony Martial",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Aleksandar Mitrovic",
-                            "out": "Joselu",
-                            "minute": "71"
+                            "assist": "Ashley Young",
+                            "additional": "1",
+                            "minute": "45",
+                            "scorer": "Chris Smalling",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Zlatan Ibrahimovic",
-                            "out": "Anthony Martial",
-                            "minute": "77"
+                            "assist": "Marcus Rashford",
+                            "minute": "54",
+                            "scorer": "Paul Pogba",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Mohamed Diamé",
-                            "out": "Dwight Gayle",
-                            "minute": "77"
-                        },
-                        {
-                            "in": "Ander Herrera",
-                            "out": "Juan Mata",
-                            "minute": "83"
+                            "assist": "Juan Mata",
+                            "minute": "70",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -310,80 +311,80 @@
                             "player": "Chris Smalling"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Dwight Gayle",
-                            "own_goal": "false",
-                            "minute": "14",
-                            "assist": "DeAndre Yedlin"
+                            "out": "Matt Ritchie",
+                            "in": "Rolando Aarons",
+                            "minute": "66"
                         },
                         {
-                            "scorer": "Anthony Martial",
-                            "own_goal": "false",
-                            "minute": "37",
-                            "assist": "Paul Pogba"
+                            "out": "Paul Pogba",
+                            "in": "Marouane Fellaini",
+                            "minute": "70"
                         },
                         {
-                            "scorer": "Chris Smalling",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "1",
-                            "assist": "Ashley Young"
+                            "out": "Joselu",
+                            "in": "Aleksandar Mitrovic",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Paul Pogba",
-                            "own_goal": "false",
-                            "minute": "54",
-                            "assist": "Marcus Rashford"
+                            "out": "Anthony Martial",
+                            "in": "Zlatan Ibrahimovic",
+                            "minute": "77"
                         },
                         {
-                            "scorer": "Romelu Lukaku",
-                            "own_goal": "false",
-                            "minute": "70",
-                            "assist": "Juan Mata"
+                            "out": "Dwight Gayle",
+                            "in": "Mohamed Diamé",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Juan Mata",
+                            "in": "Ander Herrera",
+                            "minute": "83"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22459",
-                "away_team": "Newcastle",
                 "score": "4-1",
-                "home_team": "Man Utd"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Man Utd",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Rolando Aarons",
-                            "out": "Matt Ritchie",
-                            "minute": "66"
+                            "assist": "DeAndre Yedlin",
+                            "minute": "14",
+                            "scorer": "Dwight Gayle",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Marouane Fellaini",
-                            "out": "Paul Pogba",
-                            "minute": "70"
+                            "assist": "Paul Pogba",
+                            "minute": "37",
+                            "scorer": "Anthony Martial",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Aleksandar Mitrovic",
-                            "out": "Joselu",
-                            "minute": "71"
+                            "assist": "Ashley Young",
+                            "additional": "1",
+                            "minute": "45",
+                            "scorer": "Chris Smalling",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Zlatan Ibrahimovic",
-                            "out": "Anthony Martial",
-                            "minute": "77"
+                            "assist": "Marcus Rashford",
+                            "minute": "54",
+                            "scorer": "Paul Pogba",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Mohamed Diamé",
-                            "out": "Dwight Gayle",
-                            "minute": "77"
-                        },
-                        {
-                            "in": "Ander Herrera",
-                            "out": "Juan Mata",
-                            "minute": "83"
+                            "assist": "Juan Mata",
+                            "minute": "70",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -397,80 +398,80 @@
                             "player": "Chris Smalling"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Dwight Gayle",
-                            "own_goal": "false",
-                            "minute": "14",
-                            "assist": "DeAndre Yedlin"
+                            "out": "Matt Ritchie",
+                            "in": "Rolando Aarons",
+                            "minute": "66"
                         },
                         {
-                            "scorer": "Anthony Martial",
-                            "own_goal": "false",
-                            "minute": "37",
-                            "assist": "Paul Pogba"
+                            "out": "Paul Pogba",
+                            "in": "Marouane Fellaini",
+                            "minute": "70"
                         },
                         {
-                            "scorer": "Chris Smalling",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "1",
-                            "assist": "Ashley Young"
+                            "out": "Joselu",
+                            "in": "Aleksandar Mitrovic",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Paul Pogba",
-                            "own_goal": "false",
-                            "minute": "54",
-                            "assist": "Marcus Rashford"
+                            "out": "Anthony Martial",
+                            "in": "Zlatan Ibrahimovic",
+                            "minute": "77"
                         },
                         {
-                            "scorer": "Romelu Lukaku",
-                            "own_goal": "false",
-                            "minute": "70",
-                            "assist": "Juan Mata"
+                            "out": "Dwight Gayle",
+                            "in": "Mohamed Diamé",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Juan Mata",
+                            "in": "Ander Herrera",
+                            "minute": "83"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22459",
-                "away_team": "Newcastle",
                 "score": "4-1",
-                "home_team": "Man Utd"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Man Utd",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Rolando Aarons",
-                            "out": "Matt Ritchie",
-                            "minute": "66"
+                            "assist": "DeAndre Yedlin",
+                            "minute": "14",
+                            "scorer": "Dwight Gayle",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Marouane Fellaini",
-                            "out": "Paul Pogba",
-                            "minute": "70"
+                            "assist": "Paul Pogba",
+                            "minute": "37",
+                            "scorer": "Anthony Martial",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Aleksandar Mitrovic",
-                            "out": "Joselu",
-                            "minute": "71"
+                            "assist": "Ashley Young",
+                            "additional": "1",
+                            "minute": "45",
+                            "scorer": "Chris Smalling",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Zlatan Ibrahimovic",
-                            "out": "Anthony Martial",
-                            "minute": "77"
+                            "assist": "Marcus Rashford",
+                            "minute": "54",
+                            "scorer": "Paul Pogba",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Mohamed Diamé",
-                            "out": "Dwight Gayle",
-                            "minute": "77"
-                        },
-                        {
-                            "in": "Ander Herrera",
-                            "out": "Juan Mata",
-                            "minute": "83"
+                            "assist": "Juan Mata",
+                            "minute": "70",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -484,80 +485,80 @@
                             "player": "Chris Smalling"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Dwight Gayle",
-                            "own_goal": "false",
-                            "minute": "14",
-                            "assist": "DeAndre Yedlin"
+                            "out": "Matt Ritchie",
+                            "in": "Rolando Aarons",
+                            "minute": "66"
                         },
                         {
-                            "scorer": "Anthony Martial",
-                            "own_goal": "false",
-                            "minute": "37",
-                            "assist": "Paul Pogba"
+                            "out": "Paul Pogba",
+                            "in": "Marouane Fellaini",
+                            "minute": "70"
                         },
                         {
-                            "scorer": "Chris Smalling",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "1",
-                            "assist": "Ashley Young"
+                            "out": "Joselu",
+                            "in": "Aleksandar Mitrovic",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Paul Pogba",
-                            "own_goal": "false",
-                            "minute": "54",
-                            "assist": "Marcus Rashford"
+                            "out": "Anthony Martial",
+                            "in": "Zlatan Ibrahimovic",
+                            "minute": "77"
                         },
                         {
-                            "scorer": "Romelu Lukaku",
-                            "own_goal": "false",
-                            "minute": "70",
-                            "assist": "Juan Mata"
+                            "out": "Dwight Gayle",
+                            "in": "Mohamed Diamé",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Juan Mata",
+                            "in": "Ander Herrera",
+                            "minute": "83"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22459",
-                "away_team": "Newcastle",
                 "score": "4-1",
-                "home_team": "Man Utd"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Man Utd",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Rolando Aarons",
-                            "out": "Matt Ritchie",
-                            "minute": "66"
+                            "assist": "DeAndre Yedlin",
+                            "minute": "14",
+                            "scorer": "Dwight Gayle",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Marouane Fellaini",
-                            "out": "Paul Pogba",
-                            "minute": "70"
+                            "assist": "Paul Pogba",
+                            "minute": "37",
+                            "scorer": "Anthony Martial",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Aleksandar Mitrovic",
-                            "out": "Joselu",
-                            "minute": "71"
+                            "assist": "Ashley Young",
+                            "additional": "1",
+                            "minute": "45",
+                            "scorer": "Chris Smalling",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Zlatan Ibrahimovic",
-                            "out": "Anthony Martial",
-                            "minute": "77"
+                            "assist": "Marcus Rashford",
+                            "minute": "54",
+                            "scorer": "Paul Pogba",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Mohamed Diamé",
-                            "out": "Dwight Gayle",
-                            "minute": "77"
-                        },
-                        {
-                            "in": "Ander Herrera",
-                            "out": "Juan Mata",
-                            "minute": "83"
+                            "assist": "Juan Mata",
+                            "minute": "70",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -571,80 +572,80 @@
                             "player": "Chris Smalling"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Dwight Gayle",
-                            "own_goal": "false",
-                            "minute": "14",
-                            "assist": "DeAndre Yedlin"
+                            "out": "Matt Ritchie",
+                            "in": "Rolando Aarons",
+                            "minute": "66"
                         },
                         {
-                            "scorer": "Anthony Martial",
-                            "own_goal": "false",
-                            "minute": "37",
-                            "assist": "Paul Pogba"
+                            "out": "Paul Pogba",
+                            "in": "Marouane Fellaini",
+                            "minute": "70"
                         },
                         {
-                            "scorer": "Chris Smalling",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "1",
-                            "assist": "Ashley Young"
+                            "out": "Joselu",
+                            "in": "Aleksandar Mitrovic",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Paul Pogba",
-                            "own_goal": "false",
-                            "minute": "54",
-                            "assist": "Marcus Rashford"
+                            "out": "Anthony Martial",
+                            "in": "Zlatan Ibrahimovic",
+                            "minute": "77"
                         },
                         {
-                            "scorer": "Romelu Lukaku",
-                            "own_goal": "false",
-                            "minute": "70",
-                            "assist": "Juan Mata"
+                            "out": "Dwight Gayle",
+                            "in": "Mohamed Diamé",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Juan Mata",
+                            "in": "Ander Herrera",
+                            "minute": "83"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22459",
-                "away_team": "Newcastle",
                 "score": "4-1",
-                "home_team": "Man Utd"
+                "away_team": "Newcastle"
             },
             {
+                "home_team": "Man Utd",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Rolando Aarons",
-                            "out": "Matt Ritchie",
-                            "minute": "66"
+                            "assist": "DeAndre Yedlin",
+                            "minute": "14",
+                            "scorer": "Dwight Gayle",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Marouane Fellaini",
-                            "out": "Paul Pogba",
-                            "minute": "70"
+                            "assist": "Paul Pogba",
+                            "minute": "37",
+                            "scorer": "Anthony Martial",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Aleksandar Mitrovic",
-                            "out": "Joselu",
-                            "minute": "71"
+                            "assist": "Ashley Young",
+                            "additional": "1",
+                            "minute": "45",
+                            "scorer": "Chris Smalling",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Zlatan Ibrahimovic",
-                            "out": "Anthony Martial",
-                            "minute": "77"
+                            "assist": "Marcus Rashford",
+                            "minute": "54",
+                            "scorer": "Paul Pogba",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Mohamed Diamé",
-                            "out": "Dwight Gayle",
-                            "minute": "77"
-                        },
-                        {
-                            "in": "Ander Herrera",
-                            "out": "Juan Mata",
-                            "minute": "83"
+                            "assist": "Juan Mata",
+                            "minute": "70",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -658,44 +659,43 @@
                             "player": "Chris Smalling"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Dwight Gayle",
-                            "own_goal": "false",
-                            "minute": "14",
-                            "assist": "DeAndre Yedlin"
+                            "out": "Matt Ritchie",
+                            "in": "Rolando Aarons",
+                            "minute": "66"
                         },
                         {
-                            "scorer": "Anthony Martial",
-                            "own_goal": "false",
-                            "minute": "37",
-                            "assist": "Paul Pogba"
+                            "out": "Paul Pogba",
+                            "in": "Marouane Fellaini",
+                            "minute": "70"
                         },
                         {
-                            "scorer": "Chris Smalling",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "1",
-                            "assist": "Ashley Young"
+                            "out": "Joselu",
+                            "in": "Aleksandar Mitrovic",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Paul Pogba",
-                            "own_goal": "false",
-                            "minute": "54",
-                            "assist": "Marcus Rashford"
+                            "out": "Anthony Martial",
+                            "in": "Zlatan Ibrahimovic",
+                            "minute": "77"
                         },
                         {
-                            "scorer": "Romelu Lukaku",
-                            "own_goal": "false",
-                            "minute": "70",
-                            "assist": "Juan Mata"
+                            "out": "Dwight Gayle",
+                            "in": "Mohamed Diamé",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Juan Mata",
+                            "in": "Ander Herrera",
+                            "minute": "83"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22459",
-                "away_team": "Newcastle",
                 "score": "4-1",
-                "home_team": "Man Utd"
+                "away_team": "Newcastle"
             }
         ],
         "date": "Saturday 18 November 2017"

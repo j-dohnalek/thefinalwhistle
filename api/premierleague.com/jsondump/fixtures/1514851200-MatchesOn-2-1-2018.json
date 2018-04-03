@@ -2,35 +2,27 @@
     {
         "fixtures": [
             {
+                "home_team": "Arsenal",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Davide Zappacosta",
-                            "out": "Victor Moses",
-                            "minute": "56"
+                            "minute": "63",
+                            "scorer": "Jack Wilshere",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Daniel Drinkwater",
-                            "out": "Cesc Fàbregas",
-                            "minute": "71"
+                            "assist": "Davide Zappacosta",
+                            "minute": "84",
+                            "scorer": "Marcos Alonso",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Danny Welbeck",
-                            "out": "Alexandre Lacazette",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Willian",
-                            "out": "Eden Hazard",
-                            "minute": "82"
-                        },
-                        {
-                            "in": "Theo Walcott",
-                            "out": "Calum Chambers",
-                            "minute": "88"
+                            "additional": "2",
+                            "minute": "90",
+                            "scorer": "Héctor Bellerín",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "19:45",
                     "cards": [
                         {
@@ -59,30 +51,38 @@
                             "player": "Thibaut Courtois"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Jack Wilshere",
-                            "own_goal": "false",
-                            "minute": "63"
+                            "out": "Victor Moses",
+                            "in": "Davide Zappacosta",
+                            "minute": "56"
                         },
                         {
-                            "scorer": "Marcos Alonso",
-                            "own_goal": "false",
-                            "minute": "84",
-                            "assist": "Davide Zappacosta"
+                            "out": "Cesc Fàbregas",
+                            "in": "Daniel Drinkwater",
+                            "minute": "71"
                         },
                         {
-                            "scorer": "Héctor Bellerín",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "additional": "2"
+                            "out": "Alexandre Lacazette",
+                            "in": "Danny Welbeck",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Eden Hazard",
+                            "in": "Willian",
+                            "minute": "82"
+                        },
+                        {
+                            "out": "Calum Chambers",
+                            "in": "Theo Walcott",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22552",
-                "away_team": "Chelsea",
                 "score": "2-2",
-                "home_team": "Arsenal"
+                "away_team": "Chelsea"
             }
         ],
         "date": "Wednesday 3 January 2018"

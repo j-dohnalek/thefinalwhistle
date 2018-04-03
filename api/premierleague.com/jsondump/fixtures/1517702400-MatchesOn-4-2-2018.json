@@ -2,36 +2,34 @@
     {
         "fixtures": [
             {
+                "home_team": "Watford",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Cesc Fàbregas",
-                            "out": "Willian",
-                            "minute": "34"
+                            "minute": "82",
+                            "scorer": "Eden Hazard",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Olivier Giroud",
-                            "out": "Pedro",
-                            "minute": "64"
+                            "assist": "Roberto Pereyra",
+                            "minute": "84",
+                            "scorer": "Daryl Janmaat",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Roberto Pereyra",
-                            "out": "Richarlison",
-                            "minute": "65"
+                            "assist": "Abdoulaye Doucouré",
+                            "minute": "88",
+                            "scorer": "Gerard Deulofeu",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "André Carrillo",
-                            "out": "Gerard Deulofeu",
-                            "minute": "89"
-                        },
-                        {
-                            "in": "Andre Gray",
-                            "out": "Troy Deeney",
+                            "assist": "Abdoulaye Doucouré",
+                            "additional": "1",
                             "minute": "90",
-                            "additional": "3"
+                            "scorer": "Roberto Pereyra",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -65,37 +63,39 @@
                             "player": "Cesc Fàbregas"
                         }
                     ],
-                    "goals": [
+                    "referee": "Craig Pawson",
+                    "substitutions": [
                         {
-                            "scorer": "Eden Hazard",
-                            "own_goal": "false",
-                            "minute": "82"
+                            "out": "Willian",
+                            "in": "Cesc Fàbregas",
+                            "minute": "34"
                         },
                         {
-                            "scorer": "Daryl Janmaat",
-                            "own_goal": "false",
-                            "minute": "84",
-                            "assist": "Roberto Pereyra"
+                            "out": "Pedro",
+                            "in": "Olivier Giroud",
+                            "minute": "64"
                         },
                         {
-                            "scorer": "Gerard Deulofeu",
-                            "own_goal": "false",
-                            "minute": "88",
-                            "assist": "Abdoulaye Doucouré"
+                            "out": "Richarlison",
+                            "in": "Roberto Pereyra",
+                            "minute": "65"
                         },
                         {
-                            "scorer": "Roberto Pereyra",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "additional": "1",
-                            "assist": "Abdoulaye Doucouré"
+                            "out": "Gerard Deulofeu",
+                            "in": "André Carrillo",
+                            "minute": "89"
+                        },
+                        {
+                            "out": "Troy Deeney",
+                            "additional": "3",
+                            "in": "Andre Gray",
+                            "minute": "90"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22600",
-                "away_team": "Chelsea",
                 "score": "4-1",
-                "home_team": "Watford"
+                "away_team": "Chelsea"
             }
         ],
         "date": "Monday 5 February 2018"

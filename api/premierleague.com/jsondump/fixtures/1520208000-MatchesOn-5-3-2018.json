@@ -2,40 +2,27 @@
     {
         "fixtures": [
             {
+                "home_team": "Chelsea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Wilfried Zaha",
-                            "out": "Christian Benteke",
-                            "minute": "45"
+                            "assist": "N'Golo Kanté",
+                            "minute": "25",
+                            "scorer": "Willian",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Álvaro Morata",
-                            "out": "Olivier Giroud",
-                            "minute": "72"
+                            "minute": "32",
+                            "scorer": "Martin Kelly",
+                            "own_goal": "true"
                         },
                         {
-                            "in": "Jairo Riedewald",
-                            "out": "Jeffrey Schlupp",
-                            "minute": "75"
-                        },
-                        {
-                            "in": "Lee Chung-yong",
-                            "out": "Andros Townsend",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Tiemoué Bakayoko",
-                            "out": "Eden Hazard",
-                            "minute": "88"
-                        },
-                        {
-                            "in": "Pedro",
-                            "out": "Cesc Fàbregas",
-                            "minute": "88"
+                            "assist": "Wilfried Zaha",
+                            "minute": "90",
+                            "scorer": "Patrick van Aanholt",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -54,66 +41,66 @@
                             "player": "Álvaro Morata"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Willian",
-                            "own_goal": "false",
-                            "minute": "25",
-                            "assist": "N'Golo Kanté"
+                            "out": "Christian Benteke",
+                            "in": "Wilfried Zaha",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Martin Kelly",
-                            "own_goal": "true",
-                            "minute": "32"
+                            "out": "Olivier Giroud",
+                            "in": "Álvaro Morata",
+                            "minute": "72"
                         },
                         {
-                            "scorer": "Patrick van Aanholt",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "assist": "Wilfried Zaha"
+                            "out": "Jeffrey Schlupp",
+                            "in": "Jairo Riedewald",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Andros Townsend",
+                            "in": "Lee Chung-yong",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Eden Hazard",
+                            "in": "Tiemoué Bakayoko",
+                            "minute": "88"
+                        },
+                        {
+                            "out": "Cesc Fàbregas",
+                            "in": "Pedro",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22634",
-                "away_team": "Crystal Palace",
                 "score": "2-1",
-                "home_team": "Chelsea"
+                "away_team": "Crystal Palace"
             },
             {
+                "home_team": "Chelsea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Wilfried Zaha",
-                            "out": "Christian Benteke",
-                            "minute": "45"
+                            "assist": "N'Golo Kanté",
+                            "minute": "25",
+                            "scorer": "Willian",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Álvaro Morata",
-                            "out": "Olivier Giroud",
-                            "minute": "72"
+                            "minute": "32",
+                            "scorer": "Martin Kelly",
+                            "own_goal": "true"
                         },
                         {
-                            "in": "Jairo Riedewald",
-                            "out": "Jeffrey Schlupp",
-                            "minute": "75"
-                        },
-                        {
-                            "in": "Lee Chung-yong",
-                            "out": "Andros Townsend",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Tiemoué Bakayoko",
-                            "out": "Eden Hazard",
-                            "minute": "88"
-                        },
-                        {
-                            "in": "Pedro",
-                            "out": "Cesc Fàbregas",
-                            "minute": "88"
+                            "assist": "Wilfried Zaha",
+                            "minute": "90",
+                            "scorer": "Patrick van Aanholt",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -132,66 +119,66 @@
                             "player": "Álvaro Morata"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Willian",
-                            "own_goal": "false",
-                            "minute": "25",
-                            "assist": "N'Golo Kanté"
+                            "out": "Christian Benteke",
+                            "in": "Wilfried Zaha",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Martin Kelly",
-                            "own_goal": "true",
-                            "minute": "32"
+                            "out": "Olivier Giroud",
+                            "in": "Álvaro Morata",
+                            "minute": "72"
                         },
                         {
-                            "scorer": "Patrick van Aanholt",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "assist": "Wilfried Zaha"
+                            "out": "Jeffrey Schlupp",
+                            "in": "Jairo Riedewald",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Andros Townsend",
+                            "in": "Lee Chung-yong",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Eden Hazard",
+                            "in": "Tiemoué Bakayoko",
+                            "minute": "88"
+                        },
+                        {
+                            "out": "Cesc Fàbregas",
+                            "in": "Pedro",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22634",
-                "away_team": "Crystal Palace",
                 "score": "2-1",
-                "home_team": "Chelsea"
+                "away_team": "Crystal Palace"
             },
             {
+                "home_team": "Chelsea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Wilfried Zaha",
-                            "out": "Christian Benteke",
-                            "minute": "45"
+                            "assist": "N'Golo Kanté",
+                            "minute": "25",
+                            "scorer": "Willian",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Álvaro Morata",
-                            "out": "Olivier Giroud",
-                            "minute": "72"
+                            "minute": "32",
+                            "scorer": "Martin Kelly",
+                            "own_goal": "true"
                         },
                         {
-                            "in": "Jairo Riedewald",
-                            "out": "Jeffrey Schlupp",
-                            "minute": "75"
-                        },
-                        {
-                            "in": "Lee Chung-yong",
-                            "out": "Andros Townsend",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Tiemoué Bakayoko",
-                            "out": "Eden Hazard",
-                            "minute": "88"
-                        },
-                        {
-                            "in": "Pedro",
-                            "out": "Cesc Fàbregas",
-                            "minute": "88"
+                            "assist": "Wilfried Zaha",
+                            "minute": "90",
+                            "scorer": "Patrick van Aanholt",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -210,66 +197,66 @@
                             "player": "Álvaro Morata"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Willian",
-                            "own_goal": "false",
-                            "minute": "25",
-                            "assist": "N'Golo Kanté"
+                            "out": "Christian Benteke",
+                            "in": "Wilfried Zaha",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Martin Kelly",
-                            "own_goal": "true",
-                            "minute": "32"
+                            "out": "Olivier Giroud",
+                            "in": "Álvaro Morata",
+                            "minute": "72"
                         },
                         {
-                            "scorer": "Patrick van Aanholt",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "assist": "Wilfried Zaha"
+                            "out": "Jeffrey Schlupp",
+                            "in": "Jairo Riedewald",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Andros Townsend",
+                            "in": "Lee Chung-yong",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Eden Hazard",
+                            "in": "Tiemoué Bakayoko",
+                            "minute": "88"
+                        },
+                        {
+                            "out": "Cesc Fàbregas",
+                            "in": "Pedro",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22634",
-                "away_team": "Crystal Palace",
                 "score": "2-1",
-                "home_team": "Chelsea"
+                "away_team": "Crystal Palace"
             },
             {
+                "home_team": "Chelsea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Wilfried Zaha",
-                            "out": "Christian Benteke",
-                            "minute": "45"
+                            "assist": "N'Golo Kanté",
+                            "minute": "25",
+                            "scorer": "Willian",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Álvaro Morata",
-                            "out": "Olivier Giroud",
-                            "minute": "72"
+                            "minute": "32",
+                            "scorer": "Martin Kelly",
+                            "own_goal": "true"
                         },
                         {
-                            "in": "Jairo Riedewald",
-                            "out": "Jeffrey Schlupp",
-                            "minute": "75"
-                        },
-                        {
-                            "in": "Lee Chung-yong",
-                            "out": "Andros Townsend",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Tiemoué Bakayoko",
-                            "out": "Eden Hazard",
-                            "minute": "88"
-                        },
-                        {
-                            "in": "Pedro",
-                            "out": "Cesc Fàbregas",
-                            "minute": "88"
+                            "assist": "Wilfried Zaha",
+                            "minute": "90",
+                            "scorer": "Patrick van Aanholt",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -288,66 +275,66 @@
                             "player": "Álvaro Morata"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Willian",
-                            "own_goal": "false",
-                            "minute": "25",
-                            "assist": "N'Golo Kanté"
+                            "out": "Christian Benteke",
+                            "in": "Wilfried Zaha",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Martin Kelly",
-                            "own_goal": "true",
-                            "minute": "32"
+                            "out": "Olivier Giroud",
+                            "in": "Álvaro Morata",
+                            "minute": "72"
                         },
                         {
-                            "scorer": "Patrick van Aanholt",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "assist": "Wilfried Zaha"
+                            "out": "Jeffrey Schlupp",
+                            "in": "Jairo Riedewald",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Andros Townsend",
+                            "in": "Lee Chung-yong",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Eden Hazard",
+                            "in": "Tiemoué Bakayoko",
+                            "minute": "88"
+                        },
+                        {
+                            "out": "Cesc Fàbregas",
+                            "in": "Pedro",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22634",
-                "away_team": "Crystal Palace",
                 "score": "2-1",
-                "home_team": "Chelsea"
+                "away_team": "Crystal Palace"
             },
             {
+                "home_team": "Chelsea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Wilfried Zaha",
-                            "out": "Christian Benteke",
-                            "minute": "45"
+                            "assist": "N'Golo Kanté",
+                            "minute": "25",
+                            "scorer": "Willian",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Álvaro Morata",
-                            "out": "Olivier Giroud",
-                            "minute": "72"
+                            "minute": "32",
+                            "scorer": "Martin Kelly",
+                            "own_goal": "true"
                         },
                         {
-                            "in": "Jairo Riedewald",
-                            "out": "Jeffrey Schlupp",
-                            "minute": "75"
-                        },
-                        {
-                            "in": "Lee Chung-yong",
-                            "out": "Andros Townsend",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Tiemoué Bakayoko",
-                            "out": "Eden Hazard",
-                            "minute": "88"
-                        },
-                        {
-                            "in": "Pedro",
-                            "out": "Cesc Fàbregas",
-                            "minute": "88"
+                            "assist": "Wilfried Zaha",
+                            "minute": "90",
+                            "scorer": "Patrick van Aanholt",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -366,66 +353,66 @@
                             "player": "Álvaro Morata"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Willian",
-                            "own_goal": "false",
-                            "minute": "25",
-                            "assist": "N'Golo Kanté"
+                            "out": "Christian Benteke",
+                            "in": "Wilfried Zaha",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Martin Kelly",
-                            "own_goal": "true",
-                            "minute": "32"
+                            "out": "Olivier Giroud",
+                            "in": "Álvaro Morata",
+                            "minute": "72"
                         },
                         {
-                            "scorer": "Patrick van Aanholt",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "assist": "Wilfried Zaha"
+                            "out": "Jeffrey Schlupp",
+                            "in": "Jairo Riedewald",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Andros Townsend",
+                            "in": "Lee Chung-yong",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Eden Hazard",
+                            "in": "Tiemoué Bakayoko",
+                            "minute": "88"
+                        },
+                        {
+                            "out": "Cesc Fàbregas",
+                            "in": "Pedro",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22634",
-                "away_team": "Crystal Palace",
                 "score": "2-1",
-                "home_team": "Chelsea"
+                "away_team": "Crystal Palace"
             },
             {
+                "home_team": "Chelsea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Wilfried Zaha",
-                            "out": "Christian Benteke",
-                            "minute": "45"
+                            "assist": "N'Golo Kanté",
+                            "minute": "25",
+                            "scorer": "Willian",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Álvaro Morata",
-                            "out": "Olivier Giroud",
-                            "minute": "72"
+                            "minute": "32",
+                            "scorer": "Martin Kelly",
+                            "own_goal": "true"
                         },
                         {
-                            "in": "Jairo Riedewald",
-                            "out": "Jeffrey Schlupp",
-                            "minute": "75"
-                        },
-                        {
-                            "in": "Lee Chung-yong",
-                            "out": "Andros Townsend",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Tiemoué Bakayoko",
-                            "out": "Eden Hazard",
-                            "minute": "88"
-                        },
-                        {
-                            "in": "Pedro",
-                            "out": "Cesc Fàbregas",
-                            "minute": "88"
+                            "assist": "Wilfried Zaha",
+                            "minute": "90",
+                            "scorer": "Patrick van Aanholt",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -444,66 +431,66 @@
                             "player": "Álvaro Morata"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Willian",
-                            "own_goal": "false",
-                            "minute": "25",
-                            "assist": "N'Golo Kanté"
+                            "out": "Christian Benteke",
+                            "in": "Wilfried Zaha",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Martin Kelly",
-                            "own_goal": "true",
-                            "minute": "32"
+                            "out": "Olivier Giroud",
+                            "in": "Álvaro Morata",
+                            "minute": "72"
                         },
                         {
-                            "scorer": "Patrick van Aanholt",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "assist": "Wilfried Zaha"
+                            "out": "Jeffrey Schlupp",
+                            "in": "Jairo Riedewald",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Andros Townsend",
+                            "in": "Lee Chung-yong",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Eden Hazard",
+                            "in": "Tiemoué Bakayoko",
+                            "minute": "88"
+                        },
+                        {
+                            "out": "Cesc Fàbregas",
+                            "in": "Pedro",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22634",
-                "away_team": "Crystal Palace",
                 "score": "2-1",
-                "home_team": "Chelsea"
+                "away_team": "Crystal Palace"
             },
             {
+                "home_team": "Chelsea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Wilfried Zaha",
-                            "out": "Christian Benteke",
-                            "minute": "45"
+                            "assist": "N'Golo Kanté",
+                            "minute": "25",
+                            "scorer": "Willian",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Álvaro Morata",
-                            "out": "Olivier Giroud",
-                            "minute": "72"
+                            "minute": "32",
+                            "scorer": "Martin Kelly",
+                            "own_goal": "true"
                         },
                         {
-                            "in": "Jairo Riedewald",
-                            "out": "Jeffrey Schlupp",
-                            "minute": "75"
-                        },
-                        {
-                            "in": "Lee Chung-yong",
-                            "out": "Andros Townsend",
-                            "minute": "81"
-                        },
-                        {
-                            "in": "Tiemoué Bakayoko",
-                            "out": "Eden Hazard",
-                            "minute": "88"
-                        },
-                        {
-                            "in": "Pedro",
-                            "out": "Cesc Fàbregas",
-                            "minute": "88"
+                            "assist": "Wilfried Zaha",
+                            "minute": "90",
+                            "scorer": "Patrick van Aanholt",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Anthony Taylor",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -522,30 +509,43 @@
                             "player": "Álvaro Morata"
                         }
                     ],
-                    "goals": [
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
                         {
-                            "scorer": "Willian",
-                            "own_goal": "false",
-                            "minute": "25",
-                            "assist": "N'Golo Kanté"
+                            "out": "Christian Benteke",
+                            "in": "Wilfried Zaha",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Martin Kelly",
-                            "own_goal": "true",
-                            "minute": "32"
+                            "out": "Olivier Giroud",
+                            "in": "Álvaro Morata",
+                            "minute": "72"
                         },
                         {
-                            "scorer": "Patrick van Aanholt",
-                            "own_goal": "false",
-                            "minute": "90",
-                            "assist": "Wilfried Zaha"
+                            "out": "Jeffrey Schlupp",
+                            "in": "Jairo Riedewald",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Andros Townsend",
+                            "in": "Lee Chung-yong",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Eden Hazard",
+                            "in": "Tiemoué Bakayoko",
+                            "minute": "88"
+                        },
+                        {
+                            "out": "Cesc Fàbregas",
+                            "in": "Pedro",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22634",
-                "away_team": "Crystal Palace",
                 "score": "2-1",
-                "home_team": "Chelsea"
+                "away_team": "Crystal Palace"
             }
         ],
         "date": "Saturday 10 March 2018"

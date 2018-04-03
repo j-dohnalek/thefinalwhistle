@@ -2,166 +2,166 @@
     {
         "fixtures": [
             {
+                "home_team": "Spurs",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Alex Oxlade-Chamberlain",
-                            "out": "Dejan Lovren",
-                            "minute": "31"
+                            "assist": "Kieran Trippier",
+                            "minute": "4",
+                            "scorer": "Harry Kane",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Moussa Sissoko",
-                            "out": "Son Heung-Min",
-                            "minute": "69"
+                            "assist": "Harry Kane",
+                            "minute": "12",
+                            "scorer": "Son Heung-Min",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Daniel Sturridge",
-                            "out": "Roberto Firmino",
-                            "minute": "77"
+                            "assist": "Jordan Henderson",
+                            "minute": "24",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Eric Dier",
-                            "out": "Christian Eriksen",
-                            "minute": "81"
+                            "additional": "3",
+                            "minute": "45",
+                            "scorer": "Dele Alli",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Marko Grujic",
-                            "out": "Emre Can",
-                            "minute": "83"
-                        },
-                        {
-                            "in": "Fernando Llorente",
-                            "out": "Harry Kane",
-                            "minute": "88"
+                            "minute": "56",
+                            "scorer": "Harry Kane",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Andre Marriner",
                     "kick_off": "16:00",
                     "cards": [
                         {
+                            "additional": "2",
                             "card": "yellow",
                             "minute": "45",
-                            "player": "Emre Can",
-                            "additional": "2"
+                            "player": "Emre Can"
                         }
                     ],
-                    "goals": [
+                    "referee": "Andre Marriner",
+                    "substitutions": [
                         {
-                            "scorer": "Harry Kane",
-                            "own_goal": "false",
-                            "minute": "4",
-                            "assist": "Kieran Trippier"
+                            "out": "Dejan Lovren",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "31"
                         },
                         {
-                            "scorer": "Son Heung-Min",
-                            "own_goal": "false",
-                            "minute": "12",
-                            "assist": "Harry Kane"
+                            "out": "Son Heung-Min",
+                            "in": "Moussa Sissoko",
+                            "minute": "69"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "24",
-                            "assist": "Jordan Henderson"
+                            "out": "Roberto Firmino",
+                            "in": "Daniel Sturridge",
+                            "minute": "77"
                         },
                         {
-                            "scorer": "Dele Alli",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "3"
+                            "out": "Christian Eriksen",
+                            "in": "Eric Dier",
+                            "minute": "81"
                         },
                         {
-                            "scorer": "Harry Kane",
-                            "own_goal": "false",
-                            "minute": "56"
+                            "out": "Emre Can",
+                            "in": "Marko Grujic",
+                            "minute": "83"
+                        },
+                        {
+                            "out": "Harry Kane",
+                            "in": "Fernando Llorente",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22430",
-                "away_team": "Liverpool",
                 "score": "4-1",
-                "home_team": "Spurs"
+                "away_team": "Liverpool"
             },
             {
+                "home_team": "Spurs",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Alex Oxlade-Chamberlain",
-                            "out": "Dejan Lovren",
-                            "minute": "31"
+                            "assist": "Kieran Trippier",
+                            "minute": "4",
+                            "scorer": "Harry Kane",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Moussa Sissoko",
-                            "out": "Son Heung-Min",
-                            "minute": "69"
+                            "assist": "Harry Kane",
+                            "minute": "12",
+                            "scorer": "Son Heung-Min",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Daniel Sturridge",
-                            "out": "Roberto Firmino",
-                            "minute": "77"
+                            "assist": "Jordan Henderson",
+                            "minute": "24",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Eric Dier",
-                            "out": "Christian Eriksen",
-                            "minute": "81"
+                            "additional": "3",
+                            "minute": "45",
+                            "scorer": "Dele Alli",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Marko Grujic",
-                            "out": "Emre Can",
-                            "minute": "83"
-                        },
-                        {
-                            "in": "Fernando Llorente",
-                            "out": "Harry Kane",
-                            "minute": "88"
+                            "minute": "56",
+                            "scorer": "Harry Kane",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Andre Marriner",
                     "kick_off": "16:00",
                     "cards": [
                         {
+                            "additional": "2",
                             "card": "yellow",
                             "minute": "45",
-                            "player": "Emre Can",
-                            "additional": "2"
+                            "player": "Emre Can"
                         }
                     ],
-                    "goals": [
+                    "referee": "Andre Marriner",
+                    "substitutions": [
                         {
-                            "scorer": "Harry Kane",
-                            "own_goal": "false",
-                            "minute": "4",
-                            "assist": "Kieran Trippier"
+                            "out": "Dejan Lovren",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "31"
                         },
                         {
-                            "scorer": "Son Heung-Min",
-                            "own_goal": "false",
-                            "minute": "12",
-                            "assist": "Harry Kane"
+                            "out": "Son Heung-Min",
+                            "in": "Moussa Sissoko",
+                            "minute": "69"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "24",
-                            "assist": "Jordan Henderson"
+                            "out": "Roberto Firmino",
+                            "in": "Daniel Sturridge",
+                            "minute": "77"
                         },
                         {
-                            "scorer": "Dele Alli",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "3"
+                            "out": "Christian Eriksen",
+                            "in": "Eric Dier",
+                            "minute": "81"
                         },
                         {
-                            "scorer": "Harry Kane",
-                            "own_goal": "false",
-                            "minute": "56"
+                            "out": "Emre Can",
+                            "in": "Marko Grujic",
+                            "minute": "83"
+                        },
+                        {
+                            "out": "Harry Kane",
+                            "in": "Fernando Llorente",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22430",
-                "away_team": "Liverpool",
                 "score": "4-1",
-                "home_team": "Spurs"
+                "away_team": "Liverpool"
             }
         ],
         "date": "Sunday 22 October 2017"

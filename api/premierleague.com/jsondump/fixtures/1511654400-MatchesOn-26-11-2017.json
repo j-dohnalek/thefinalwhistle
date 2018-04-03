@@ -2,40 +2,39 @@
     {
         "fixtures": [
             {
+                "home_team": "Watford",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Ander Herrera",
-                            "out": "Nemanja Matic",
-                            "minute": "54"
+                            "assist": "Jesse Lingard",
+                            "minute": "19",
+                            "scorer": "Ashley Young",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Roberto Pereyra",
-                            "out": "Will Hughes",
-                            "minute": "58"
+                            "minute": "25",
+                            "scorer": "Ashley Young",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "André Carrillo",
-                            "out": "Sebastian Prödl",
-                            "minute": "58"
+                            "assist": "Romelu Lukaku",
+                            "minute": "32",
+                            "scorer": "Anthony Martial",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Marcus Rashford",
-                            "out": "Anthony Martial",
-                            "minute": "65"
+                            "assist": "André Carrillo",
+                            "minute": "84",
+                            "scorer": "Abdoulaye Doucouré",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Troy Deeney",
-                            "out": "Andre Gray",
-                            "minute": "72"
-                        },
-                        {
-                            "in": "Zlatan Ibrahimovic",
-                            "out": "Jesse Lingard",
-                            "minute": "88"
+                            "assist": "Ander Herrera",
+                            "minute": "86",
+                            "scorer": "Jesse Lingard",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Jonathan Moss",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -54,78 +53,78 @@
                             "player": "Adrian Mariappa"
                         }
                     ],
-                    "goals": [
+                    "referee": "Jonathan Moss",
+                    "substitutions": [
                         {
-                            "scorer": "Ashley Young",
-                            "own_goal": "false",
-                            "minute": "19",
-                            "assist": "Jesse Lingard"
+                            "out": "Nemanja Matic",
+                            "in": "Ander Herrera",
+                            "minute": "54"
                         },
                         {
-                            "scorer": "Ashley Young",
-                            "own_goal": "false",
-                            "minute": "25"
+                            "out": "Will Hughes",
+                            "in": "Roberto Pereyra",
+                            "minute": "58"
                         },
                         {
-                            "scorer": "Anthony Martial",
-                            "own_goal": "false",
-                            "minute": "32",
-                            "assist": "Romelu Lukaku"
+                            "out": "Sebastian Prödl",
+                            "in": "André Carrillo",
+                            "minute": "58"
                         },
                         {
-                            "scorer": "Abdoulaye Doucouré",
-                            "own_goal": "false",
-                            "minute": "84",
-                            "assist": "André Carrillo"
+                            "out": "Anthony Martial",
+                            "in": "Marcus Rashford",
+                            "minute": "65"
                         },
                         {
-                            "scorer": "Jesse Lingard",
-                            "own_goal": "false",
-                            "minute": "86",
-                            "assist": "Ander Herrera"
+                            "out": "Andre Gray",
+                            "in": "Troy Deeney",
+                            "minute": "72"
+                        },
+                        {
+                            "out": "Jesse Lingard",
+                            "in": "Zlatan Ibrahimovic",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22476",
-                "away_team": "Man Utd",
                 "score": "2-4",
-                "home_team": "Watford"
+                "away_team": "Man Utd"
             },
             {
+                "home_team": "Watford",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Ander Herrera",
-                            "out": "Nemanja Matic",
-                            "minute": "54"
+                            "assist": "Jesse Lingard",
+                            "minute": "19",
+                            "scorer": "Ashley Young",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Roberto Pereyra",
-                            "out": "Will Hughes",
-                            "minute": "58"
+                            "minute": "25",
+                            "scorer": "Ashley Young",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "André Carrillo",
-                            "out": "Sebastian Prödl",
-                            "minute": "58"
+                            "assist": "Romelu Lukaku",
+                            "minute": "32",
+                            "scorer": "Anthony Martial",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Marcus Rashford",
-                            "out": "Anthony Martial",
-                            "minute": "65"
+                            "assist": "André Carrillo",
+                            "minute": "84",
+                            "scorer": "Abdoulaye Doucouré",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Troy Deeney",
-                            "out": "Andre Gray",
-                            "minute": "72"
-                        },
-                        {
-                            "in": "Zlatan Ibrahimovic",
-                            "out": "Jesse Lingard",
-                            "minute": "88"
+                            "assist": "Ander Herrera",
+                            "minute": "86",
+                            "scorer": "Jesse Lingard",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Jonathan Moss",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -144,78 +143,78 @@
                             "player": "Adrian Mariappa"
                         }
                     ],
-                    "goals": [
+                    "referee": "Jonathan Moss",
+                    "substitutions": [
                         {
-                            "scorer": "Ashley Young",
-                            "own_goal": "false",
-                            "minute": "19",
-                            "assist": "Jesse Lingard"
+                            "out": "Nemanja Matic",
+                            "in": "Ander Herrera",
+                            "minute": "54"
                         },
                         {
-                            "scorer": "Ashley Young",
-                            "own_goal": "false",
-                            "minute": "25"
+                            "out": "Will Hughes",
+                            "in": "Roberto Pereyra",
+                            "minute": "58"
                         },
                         {
-                            "scorer": "Anthony Martial",
-                            "own_goal": "false",
-                            "minute": "32",
-                            "assist": "Romelu Lukaku"
+                            "out": "Sebastian Prödl",
+                            "in": "André Carrillo",
+                            "minute": "58"
                         },
                         {
-                            "scorer": "Abdoulaye Doucouré",
-                            "own_goal": "false",
-                            "minute": "84",
-                            "assist": "André Carrillo"
+                            "out": "Anthony Martial",
+                            "in": "Marcus Rashford",
+                            "minute": "65"
                         },
                         {
-                            "scorer": "Jesse Lingard",
-                            "own_goal": "false",
-                            "minute": "86",
-                            "assist": "Ander Herrera"
+                            "out": "Andre Gray",
+                            "in": "Troy Deeney",
+                            "minute": "72"
+                        },
+                        {
+                            "out": "Jesse Lingard",
+                            "in": "Zlatan Ibrahimovic",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22476",
-                "away_team": "Man Utd",
                 "score": "2-4",
-                "home_team": "Watford"
+                "away_team": "Man Utd"
             },
             {
+                "home_team": "Watford",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Ander Herrera",
-                            "out": "Nemanja Matic",
-                            "minute": "54"
+                            "assist": "Jesse Lingard",
+                            "minute": "19",
+                            "scorer": "Ashley Young",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Roberto Pereyra",
-                            "out": "Will Hughes",
-                            "minute": "58"
+                            "minute": "25",
+                            "scorer": "Ashley Young",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "André Carrillo",
-                            "out": "Sebastian Prödl",
-                            "minute": "58"
+                            "assist": "Romelu Lukaku",
+                            "minute": "32",
+                            "scorer": "Anthony Martial",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Marcus Rashford",
-                            "out": "Anthony Martial",
-                            "minute": "65"
+                            "assist": "André Carrillo",
+                            "minute": "84",
+                            "scorer": "Abdoulaye Doucouré",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Troy Deeney",
-                            "out": "Andre Gray",
-                            "minute": "72"
-                        },
-                        {
-                            "in": "Zlatan Ibrahimovic",
-                            "out": "Jesse Lingard",
-                            "minute": "88"
+                            "assist": "Ander Herrera",
+                            "minute": "86",
+                            "scorer": "Jesse Lingard",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Jonathan Moss",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -234,78 +233,78 @@
                             "player": "Adrian Mariappa"
                         }
                     ],
-                    "goals": [
+                    "referee": "Jonathan Moss",
+                    "substitutions": [
                         {
-                            "scorer": "Ashley Young",
-                            "own_goal": "false",
-                            "minute": "19",
-                            "assist": "Jesse Lingard"
+                            "out": "Nemanja Matic",
+                            "in": "Ander Herrera",
+                            "minute": "54"
                         },
                         {
-                            "scorer": "Ashley Young",
-                            "own_goal": "false",
-                            "minute": "25"
+                            "out": "Will Hughes",
+                            "in": "Roberto Pereyra",
+                            "minute": "58"
                         },
                         {
-                            "scorer": "Anthony Martial",
-                            "own_goal": "false",
-                            "minute": "32",
-                            "assist": "Romelu Lukaku"
+                            "out": "Sebastian Prödl",
+                            "in": "André Carrillo",
+                            "minute": "58"
                         },
                         {
-                            "scorer": "Abdoulaye Doucouré",
-                            "own_goal": "false",
-                            "minute": "84",
-                            "assist": "André Carrillo"
+                            "out": "Anthony Martial",
+                            "in": "Marcus Rashford",
+                            "minute": "65"
                         },
                         {
-                            "scorer": "Jesse Lingard",
-                            "own_goal": "false",
-                            "minute": "86",
-                            "assist": "Ander Herrera"
+                            "out": "Andre Gray",
+                            "in": "Troy Deeney",
+                            "minute": "72"
+                        },
+                        {
+                            "out": "Jesse Lingard",
+                            "in": "Zlatan Ibrahimovic",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22476",
-                "away_team": "Man Utd",
                 "score": "2-4",
-                "home_team": "Watford"
+                "away_team": "Man Utd"
             },
             {
+                "home_team": "Watford",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Ander Herrera",
-                            "out": "Nemanja Matic",
-                            "minute": "54"
+                            "assist": "Jesse Lingard",
+                            "minute": "19",
+                            "scorer": "Ashley Young",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Roberto Pereyra",
-                            "out": "Will Hughes",
-                            "minute": "58"
+                            "minute": "25",
+                            "scorer": "Ashley Young",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "André Carrillo",
-                            "out": "Sebastian Prödl",
-                            "minute": "58"
+                            "assist": "Romelu Lukaku",
+                            "minute": "32",
+                            "scorer": "Anthony Martial",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Marcus Rashford",
-                            "out": "Anthony Martial",
-                            "minute": "65"
+                            "assist": "André Carrillo",
+                            "minute": "84",
+                            "scorer": "Abdoulaye Doucouré",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Troy Deeney",
-                            "out": "Andre Gray",
-                            "minute": "72"
-                        },
-                        {
-                            "in": "Zlatan Ibrahimovic",
-                            "out": "Jesse Lingard",
-                            "minute": "88"
+                            "assist": "Ander Herrera",
+                            "minute": "86",
+                            "scorer": "Jesse Lingard",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Jonathan Moss",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -324,42 +323,43 @@
                             "player": "Adrian Mariappa"
                         }
                     ],
-                    "goals": [
+                    "referee": "Jonathan Moss",
+                    "substitutions": [
                         {
-                            "scorer": "Ashley Young",
-                            "own_goal": "false",
-                            "minute": "19",
-                            "assist": "Jesse Lingard"
+                            "out": "Nemanja Matic",
+                            "in": "Ander Herrera",
+                            "minute": "54"
                         },
                         {
-                            "scorer": "Ashley Young",
-                            "own_goal": "false",
-                            "minute": "25"
+                            "out": "Will Hughes",
+                            "in": "Roberto Pereyra",
+                            "minute": "58"
                         },
                         {
-                            "scorer": "Anthony Martial",
-                            "own_goal": "false",
-                            "minute": "32",
-                            "assist": "Romelu Lukaku"
+                            "out": "Sebastian Prödl",
+                            "in": "André Carrillo",
+                            "minute": "58"
                         },
                         {
-                            "scorer": "Abdoulaye Doucouré",
-                            "own_goal": "false",
-                            "minute": "84",
-                            "assist": "André Carrillo"
+                            "out": "Anthony Martial",
+                            "in": "Marcus Rashford",
+                            "minute": "65"
                         },
                         {
-                            "scorer": "Jesse Lingard",
-                            "own_goal": "false",
-                            "minute": "86",
-                            "assist": "Ander Herrera"
+                            "out": "Andre Gray",
+                            "in": "Troy Deeney",
+                            "minute": "72"
+                        },
+                        {
+                            "out": "Jesse Lingard",
+                            "in": "Zlatan Ibrahimovic",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22476",
-                "away_team": "Man Utd",
                 "score": "2-4",
-                "home_team": "Watford"
+                "away_team": "Man Utd"
             }
         ],
         "date": "Tuesday 28 November 2017"

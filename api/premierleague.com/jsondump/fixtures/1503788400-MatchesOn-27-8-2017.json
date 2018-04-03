@@ -2,452 +2,452 @@
     {
         "fixtures": [
             {
+                "home_team": "Stoke",
                 "details": {
+                    "goals": [
+                        {
+                            "assist": "Mame Biram Diouf",
+                            "minute": "43",
+                            "scorer": "Eric Maxim Choupo-Moting",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Paul Pogba",
+                            "additional": "1",
+                            "minute": "45",
+                            "scorer": "Marcus Rashford",
+                            "own_goal": "false"
+                        },
+                        {
+                            "minute": "57",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Xherdan Shaqiri",
+                            "minute": "63",
+                            "scorer": "Eric Maxim Choupo-Moting",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [],
+                    "referee": "Neil Swarbrick",
                     "substitutions": [
                         {
-                            "in": "Bruno Martins Indi",
                             "out": "Geoff Cameron",
+                            "in": "Bruno Martins Indi",
                             "minute": "45"
                         },
                         {
-                            "in": "Juan Mata",
                             "out": "Marcus Rashford",
+                            "in": "Juan Mata",
                             "minute": "72"
                         },
                         {
-                            "in": "Anthony Martial",
                             "out": "Ander Herrera",
+                            "in": "Anthony Martial",
                             "minute": "72"
                         },
                         {
-                            "in": "Saido Berahino",
                             "out": "Jesé",
+                            "in": "Saido Berahino",
                             "minute": "75"
                         },
                         {
-                            "in": "Jesse Lingard",
                             "out": "Henrikh Mkhitaryan",
+                            "in": "Jesse Lingard",
                             "minute": "84"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30",
-                    "cards": [],
-                    "goals": [
-                        {
-                            "scorer": "Eric Maxim Choupo-Moting",
-                            "own_goal": "false",
-                            "minute": "43",
-                            "assist": "Mame Biram Diouf"
-                        },
-                        {
-                            "scorer": "Marcus Rashford",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "1",
-                            "assist": "Paul Pogba"
-                        },
-                        {
-                            "scorer": "Romelu Lukaku",
-                            "own_goal": "false",
-                            "minute": "57"
-                        },
-                        {
-                            "scorer": "Eric Maxim Choupo-Moting",
-                            "own_goal": "false",
-                            "minute": "63",
-                            "assist": "Xherdan Shaqiri"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22379",
-                "away_team": "Man Utd",
                 "score": "2-2",
-                "home_team": "Stoke"
+                "away_team": "Man Utd"
             },
             {
+                "home_team": "Stoke",
                 "details": {
+                    "goals": [
+                        {
+                            "assist": "Mame Biram Diouf",
+                            "minute": "43",
+                            "scorer": "Eric Maxim Choupo-Moting",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Paul Pogba",
+                            "additional": "1",
+                            "minute": "45",
+                            "scorer": "Marcus Rashford",
+                            "own_goal": "false"
+                        },
+                        {
+                            "minute": "57",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Xherdan Shaqiri",
+                            "minute": "63",
+                            "scorer": "Eric Maxim Choupo-Moting",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [],
+                    "referee": "Neil Swarbrick",
                     "substitutions": [
                         {
-                            "in": "Bruno Martins Indi",
                             "out": "Geoff Cameron",
+                            "in": "Bruno Martins Indi",
                             "minute": "45"
                         },
                         {
-                            "in": "Juan Mata",
                             "out": "Marcus Rashford",
+                            "in": "Juan Mata",
                             "minute": "72"
                         },
                         {
-                            "in": "Anthony Martial",
                             "out": "Ander Herrera",
+                            "in": "Anthony Martial",
                             "minute": "72"
                         },
                         {
-                            "in": "Saido Berahino",
                             "out": "Jesé",
+                            "in": "Saido Berahino",
                             "minute": "75"
                         },
                         {
-                            "in": "Jesse Lingard",
                             "out": "Henrikh Mkhitaryan",
+                            "in": "Jesse Lingard",
                             "minute": "84"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30",
-                    "cards": [],
-                    "goals": [
-                        {
-                            "scorer": "Eric Maxim Choupo-Moting",
-                            "own_goal": "false",
-                            "minute": "43",
-                            "assist": "Mame Biram Diouf"
-                        },
-                        {
-                            "scorer": "Marcus Rashford",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "1",
-                            "assist": "Paul Pogba"
-                        },
-                        {
-                            "scorer": "Romelu Lukaku",
-                            "own_goal": "false",
-                            "minute": "57"
-                        },
-                        {
-                            "scorer": "Eric Maxim Choupo-Moting",
-                            "own_goal": "false",
-                            "minute": "63",
-                            "assist": "Xherdan Shaqiri"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22379",
-                "away_team": "Man Utd",
                 "score": "2-2",
-                "home_team": "Stoke"
+                "away_team": "Man Utd"
             },
             {
+                "home_team": "Stoke",
                 "details": {
+                    "goals": [
+                        {
+                            "assist": "Mame Biram Diouf",
+                            "minute": "43",
+                            "scorer": "Eric Maxim Choupo-Moting",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Paul Pogba",
+                            "additional": "1",
+                            "minute": "45",
+                            "scorer": "Marcus Rashford",
+                            "own_goal": "false"
+                        },
+                        {
+                            "minute": "57",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Xherdan Shaqiri",
+                            "minute": "63",
+                            "scorer": "Eric Maxim Choupo-Moting",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [],
+                    "referee": "Neil Swarbrick",
                     "substitutions": [
                         {
-                            "in": "Bruno Martins Indi",
                             "out": "Geoff Cameron",
+                            "in": "Bruno Martins Indi",
                             "minute": "45"
                         },
                         {
-                            "in": "Juan Mata",
                             "out": "Marcus Rashford",
+                            "in": "Juan Mata",
                             "minute": "72"
                         },
                         {
-                            "in": "Anthony Martial",
                             "out": "Ander Herrera",
+                            "in": "Anthony Martial",
                             "minute": "72"
                         },
                         {
-                            "in": "Saido Berahino",
                             "out": "Jesé",
+                            "in": "Saido Berahino",
                             "minute": "75"
                         },
                         {
-                            "in": "Jesse Lingard",
                             "out": "Henrikh Mkhitaryan",
+                            "in": "Jesse Lingard",
                             "minute": "84"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30",
-                    "cards": [],
-                    "goals": [
-                        {
-                            "scorer": "Eric Maxim Choupo-Moting",
-                            "own_goal": "false",
-                            "minute": "43",
-                            "assist": "Mame Biram Diouf"
-                        },
-                        {
-                            "scorer": "Marcus Rashford",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "1",
-                            "assist": "Paul Pogba"
-                        },
-                        {
-                            "scorer": "Romelu Lukaku",
-                            "own_goal": "false",
-                            "minute": "57"
-                        },
-                        {
-                            "scorer": "Eric Maxim Choupo-Moting",
-                            "own_goal": "false",
-                            "minute": "63",
-                            "assist": "Xherdan Shaqiri"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22379",
-                "away_team": "Man Utd",
                 "score": "2-2",
-                "home_team": "Stoke"
+                "away_team": "Man Utd"
             },
             {
+                "home_team": "Stoke",
                 "details": {
+                    "goals": [
+                        {
+                            "assist": "Mame Biram Diouf",
+                            "minute": "43",
+                            "scorer": "Eric Maxim Choupo-Moting",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Paul Pogba",
+                            "additional": "1",
+                            "minute": "45",
+                            "scorer": "Marcus Rashford",
+                            "own_goal": "false"
+                        },
+                        {
+                            "minute": "57",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Xherdan Shaqiri",
+                            "minute": "63",
+                            "scorer": "Eric Maxim Choupo-Moting",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [],
+                    "referee": "Neil Swarbrick",
                     "substitutions": [
                         {
-                            "in": "Bruno Martins Indi",
                             "out": "Geoff Cameron",
+                            "in": "Bruno Martins Indi",
                             "minute": "45"
                         },
                         {
-                            "in": "Juan Mata",
                             "out": "Marcus Rashford",
+                            "in": "Juan Mata",
                             "minute": "72"
                         },
                         {
-                            "in": "Anthony Martial",
                             "out": "Ander Herrera",
+                            "in": "Anthony Martial",
                             "minute": "72"
                         },
                         {
-                            "in": "Saido Berahino",
                             "out": "Jesé",
+                            "in": "Saido Berahino",
                             "minute": "75"
                         },
                         {
-                            "in": "Jesse Lingard",
                             "out": "Henrikh Mkhitaryan",
+                            "in": "Jesse Lingard",
                             "minute": "84"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30",
-                    "cards": [],
-                    "goals": [
-                        {
-                            "scorer": "Eric Maxim Choupo-Moting",
-                            "own_goal": "false",
-                            "minute": "43",
-                            "assist": "Mame Biram Diouf"
-                        },
-                        {
-                            "scorer": "Marcus Rashford",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "1",
-                            "assist": "Paul Pogba"
-                        },
-                        {
-                            "scorer": "Romelu Lukaku",
-                            "own_goal": "false",
-                            "minute": "57"
-                        },
-                        {
-                            "scorer": "Eric Maxim Choupo-Moting",
-                            "own_goal": "false",
-                            "minute": "63",
-                            "assist": "Xherdan Shaqiri"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22379",
-                "away_team": "Man Utd",
                 "score": "2-2",
-                "home_team": "Stoke"
+                "away_team": "Man Utd"
             },
             {
+                "home_team": "Stoke",
                 "details": {
+                    "goals": [
+                        {
+                            "assist": "Mame Biram Diouf",
+                            "minute": "43",
+                            "scorer": "Eric Maxim Choupo-Moting",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Paul Pogba",
+                            "additional": "1",
+                            "minute": "45",
+                            "scorer": "Marcus Rashford",
+                            "own_goal": "false"
+                        },
+                        {
+                            "minute": "57",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Xherdan Shaqiri",
+                            "minute": "63",
+                            "scorer": "Eric Maxim Choupo-Moting",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [],
+                    "referee": "Neil Swarbrick",
                     "substitutions": [
                         {
-                            "in": "Bruno Martins Indi",
                             "out": "Geoff Cameron",
+                            "in": "Bruno Martins Indi",
                             "minute": "45"
                         },
                         {
-                            "in": "Juan Mata",
                             "out": "Marcus Rashford",
+                            "in": "Juan Mata",
                             "minute": "72"
                         },
                         {
-                            "in": "Anthony Martial",
                             "out": "Ander Herrera",
+                            "in": "Anthony Martial",
                             "minute": "72"
                         },
                         {
-                            "in": "Saido Berahino",
                             "out": "Jesé",
+                            "in": "Saido Berahino",
                             "minute": "75"
                         },
                         {
-                            "in": "Jesse Lingard",
                             "out": "Henrikh Mkhitaryan",
+                            "in": "Jesse Lingard",
                             "minute": "84"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30",
-                    "cards": [],
-                    "goals": [
-                        {
-                            "scorer": "Eric Maxim Choupo-Moting",
-                            "own_goal": "false",
-                            "minute": "43",
-                            "assist": "Mame Biram Diouf"
-                        },
-                        {
-                            "scorer": "Marcus Rashford",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "1",
-                            "assist": "Paul Pogba"
-                        },
-                        {
-                            "scorer": "Romelu Lukaku",
-                            "own_goal": "false",
-                            "minute": "57"
-                        },
-                        {
-                            "scorer": "Eric Maxim Choupo-Moting",
-                            "own_goal": "false",
-                            "minute": "63",
-                            "assist": "Xherdan Shaqiri"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22379",
-                "away_team": "Man Utd",
                 "score": "2-2",
-                "home_team": "Stoke"
+                "away_team": "Man Utd"
             },
             {
+                "home_team": "Stoke",
                 "details": {
+                    "goals": [
+                        {
+                            "assist": "Mame Biram Diouf",
+                            "minute": "43",
+                            "scorer": "Eric Maxim Choupo-Moting",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Paul Pogba",
+                            "additional": "1",
+                            "minute": "45",
+                            "scorer": "Marcus Rashford",
+                            "own_goal": "false"
+                        },
+                        {
+                            "minute": "57",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Xherdan Shaqiri",
+                            "minute": "63",
+                            "scorer": "Eric Maxim Choupo-Moting",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [],
+                    "referee": "Neil Swarbrick",
                     "substitutions": [
                         {
-                            "in": "Bruno Martins Indi",
                             "out": "Geoff Cameron",
+                            "in": "Bruno Martins Indi",
                             "minute": "45"
                         },
                         {
-                            "in": "Juan Mata",
                             "out": "Marcus Rashford",
+                            "in": "Juan Mata",
                             "minute": "72"
                         },
                         {
-                            "in": "Anthony Martial",
                             "out": "Ander Herrera",
+                            "in": "Anthony Martial",
                             "minute": "72"
                         },
                         {
-                            "in": "Saido Berahino",
                             "out": "Jesé",
+                            "in": "Saido Berahino",
                             "minute": "75"
                         },
                         {
-                            "in": "Jesse Lingard",
                             "out": "Henrikh Mkhitaryan",
+                            "in": "Jesse Lingard",
                             "minute": "84"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30",
-                    "cards": [],
-                    "goals": [
-                        {
-                            "scorer": "Eric Maxim Choupo-Moting",
-                            "own_goal": "false",
-                            "minute": "43",
-                            "assist": "Mame Biram Diouf"
-                        },
-                        {
-                            "scorer": "Marcus Rashford",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "1",
-                            "assist": "Paul Pogba"
-                        },
-                        {
-                            "scorer": "Romelu Lukaku",
-                            "own_goal": "false",
-                            "minute": "57"
-                        },
-                        {
-                            "scorer": "Eric Maxim Choupo-Moting",
-                            "own_goal": "false",
-                            "minute": "63",
-                            "assist": "Xherdan Shaqiri"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22379",
-                "away_team": "Man Utd",
                 "score": "2-2",
-                "home_team": "Stoke"
+                "away_team": "Man Utd"
             },
             {
+                "home_team": "Stoke",
                 "details": {
+                    "goals": [
+                        {
+                            "assist": "Mame Biram Diouf",
+                            "minute": "43",
+                            "scorer": "Eric Maxim Choupo-Moting",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Paul Pogba",
+                            "additional": "1",
+                            "minute": "45",
+                            "scorer": "Marcus Rashford",
+                            "own_goal": "false"
+                        },
+                        {
+                            "minute": "57",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Xherdan Shaqiri",
+                            "minute": "63",
+                            "scorer": "Eric Maxim Choupo-Moting",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [],
+                    "referee": "Neil Swarbrick",
                     "substitutions": [
                         {
-                            "in": "Bruno Martins Indi",
                             "out": "Geoff Cameron",
+                            "in": "Bruno Martins Indi",
                             "minute": "45"
                         },
                         {
-                            "in": "Juan Mata",
                             "out": "Marcus Rashford",
+                            "in": "Juan Mata",
                             "minute": "72"
                         },
                         {
-                            "in": "Anthony Martial",
                             "out": "Ander Herrera",
+                            "in": "Anthony Martial",
                             "minute": "72"
                         },
                         {
-                            "in": "Saido Berahino",
                             "out": "Jesé",
+                            "in": "Saido Berahino",
                             "minute": "75"
                         },
                         {
-                            "in": "Jesse Lingard",
                             "out": "Henrikh Mkhitaryan",
+                            "in": "Jesse Lingard",
                             "minute": "84"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
-                    "kick_off": "17:30",
-                    "cards": [],
-                    "goals": [
-                        {
-                            "scorer": "Eric Maxim Choupo-Moting",
-                            "own_goal": "false",
-                            "minute": "43",
-                            "assist": "Mame Biram Diouf"
-                        },
-                        {
-                            "scorer": "Marcus Rashford",
-                            "own_goal": "false",
-                            "minute": "45",
-                            "additional": "1",
-                            "assist": "Paul Pogba"
-                        },
-                        {
-                            "scorer": "Romelu Lukaku",
-                            "own_goal": "false",
-                            "minute": "57"
-                        },
-                        {
-                            "scorer": "Eric Maxim Choupo-Moting",
-                            "own_goal": "false",
-                            "minute": "63",
-                            "assist": "Xherdan Shaqiri"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22379",
-                "away_team": "Man Utd",
                 "score": "2-2",
-                "home_team": "Stoke"
+                "away_team": "Man Utd"
             }
         ],
         "date": "Saturday 9 September 2017"

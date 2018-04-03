@@ -2,40 +2,21 @@
     {
         "fixtures": [
             {
+                "home_team": "Man City",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Raheem Sterling",
-                            "out": "Gabriel Jesus",
-                            "minute": "45"
+                            "assist": "Dominic Calvert-Lewin",
+                            "minute": "35",
+                            "scorer": "Wayne Rooney",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Davy Klaassen",
-                            "out": "Ashley Williams",
-                            "minute": "61"
-                        },
-                        {
-                            "in": "Gylfi Sigurdsson",
-                            "out": "Tom Davies",
-                            "minute": "61"
-                        },
-                        {
-                            "in": "Danilo",
-                            "out": "John Stones",
-                            "minute": "65"
-                        },
-                        {
-                            "in": "Bernardo Silva",
-                            "out": "Leroy Sané",
-                            "minute": "69"
-                        },
-                        {
-                            "in": "Muhamed Besic",
-                            "out": "Wayne Rooney",
-                            "minute": "90"
+                            "minute": "82",
+                            "scorer": "Raheem Sterling",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Robert Madley",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -74,24 +55,43 @@
                             "player": "Morgan Schneiderlin"
                         }
                     ],
-                    "goals": [
+                    "referee": "Robert Madley",
+                    "substitutions": [
                         {
-                            "scorer": "Wayne Rooney",
-                            "own_goal": "false",
-                            "minute": "35",
-                            "assist": "Dominic Calvert-Lewin"
+                            "out": "Gabriel Jesus",
+                            "in": "Raheem Sterling",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Raheem Sterling",
-                            "own_goal": "false",
-                            "minute": "82"
+                            "out": "Ashley Williams",
+                            "in": "Davy Klaassen",
+                            "minute": "61"
+                        },
+                        {
+                            "out": "Tom Davies",
+                            "in": "Gylfi Sigurdsson",
+                            "minute": "61"
+                        },
+                        {
+                            "out": "John Stones",
+                            "in": "Danilo",
+                            "minute": "65"
+                        },
+                        {
+                            "out": "Leroy Sané",
+                            "in": "Bernardo Silva",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Wayne Rooney",
+                            "in": "Muhamed Besic",
+                            "minute": "90"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22357",
-                "away_team": "Everton",
                 "score": "1-1",
-                "home_team": "Man City"
+                "away_team": "Everton"
             }
         ],
         "date": "Monday 21 August 2017"

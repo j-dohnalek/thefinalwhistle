@@ -2,30 +2,16 @@
     {
         "fixtures": [
             {
+                "home_team": "Swansea",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Tom Carroll",
-                            "out": "Nathan Dyer",
-                            "minute": "64"
-                        },
-                        {
-                            "in": "Adam Lallana",
-                            "out": "Alex Oxlade-Chamberlain",
-                            "minute": "68"
-                        },
-                        {
-                            "in": "Danny Ings",
-                            "out": "Georginio Wijnaldum",
-                            "minute": "73"
-                        },
-                        {
-                            "in": "Wilfried Bony",
-                            "out": "Jordan Ayew",
-                            "minute": "79"
+                            "assist": "Federico Fernández",
+                            "minute": "40",
+                            "scorer": "Alfie Mawson",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Neil Swarbrick",
                     "kick_off": "20:00",
                     "cards": [
                         {
@@ -39,19 +25,33 @@
                             "player": "Joel Matip"
                         }
                     ],
-                    "goals": [
+                    "referee": "Neil Swarbrick",
+                    "substitutions": [
                         {
-                            "scorer": "Alfie Mawson",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Federico Fernández"
+                            "out": "Nathan Dyer",
+                            "in": "Tom Carroll",
+                            "minute": "64"
+                        },
+                        {
+                            "out": "Alex Oxlade-Chamberlain",
+                            "in": "Adam Lallana",
+                            "minute": "68"
+                        },
+                        {
+                            "out": "Georginio Wijnaldum",
+                            "in": "Danny Ings",
+                            "minute": "73"
+                        },
+                        {
+                            "out": "Jordan Ayew",
+                            "in": "Wilfried Bony",
+                            "minute": "79"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22580",
-                "away_team": "Liverpool",
                 "score": "1-0",
-                "home_team": "Swansea"
+                "away_team": "Liverpool"
             }
         ],
         "date": "Monday 22 January 2018"

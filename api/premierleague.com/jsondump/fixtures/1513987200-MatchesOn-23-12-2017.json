@@ -2,40 +2,38 @@
     {
         "fixtures": [
             {
+                "home_team": "Liverpool",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Tammy Abraham",
-                            "out": "Oliver McBurnie",
-                            "minute": "62"
+                            "assist": "Mohamed Salah",
+                            "minute": "6",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Sam Clucas",
-                            "out": "Roque Mesa",
-                            "minute": "65"
+                            "assist": "Philippe Coutinho",
+                            "minute": "52",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dominic Solanke",
-                            "out": "Roberto Firmino",
-                            "minute": "68"
+                            "minute": "65",
+                            "scorer": "Trent Alexander-Arnold",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Adam Lallana",
-                            "out": "Mohamed Salah",
-                            "minute": "69"
+                            "assist": "Mohamed Salah",
+                            "minute": "66",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Andrew Robertson",
-                            "minute": "75"
-                        },
-                        {
-                            "in": "Renato Sanches",
-                            "out": "Leroy Fer",
-                            "minute": "78"
+                            "minute": "82",
+                            "scorer": "Alex Oxlade-Chamberlain",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Kevin Friend",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -44,77 +42,77 @@
                             "player": "Martin Olsson"
                         }
                     ],
-                    "goals": [
+                    "referee": "Kevin Friend",
+                    "substitutions": [
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "6",
-                            "assist": "Mohamed Salah"
+                            "out": "Oliver McBurnie",
+                            "in": "Tammy Abraham",
+                            "minute": "62"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "52",
-                            "assist": "Philippe Coutinho"
-                        },
-                        {
-                            "scorer": "Trent Alexander-Arnold",
-                            "own_goal": "false",
+                            "out": "Roque Mesa",
+                            "in": "Sam Clucas",
                             "minute": "65"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "66",
-                            "assist": "Mohamed Salah"
+                            "out": "Roberto Firmino",
+                            "in": "Dominic Solanke",
+                            "minute": "68"
                         },
                         {
-                            "scorer": "Alex Oxlade-Chamberlain",
-                            "own_goal": "false",
-                            "minute": "82"
+                            "out": "Mohamed Salah",
+                            "in": "Adam Lallana",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Andrew Robertson",
+                            "in": "James Milner",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Leroy Fer",
+                            "in": "Renato Sanches",
+                            "minute": "78"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22536",
-                "away_team": "Swansea",
                 "score": "5-0",
-                "home_team": "Liverpool"
+                "away_team": "Swansea"
             },
             {
+                "home_team": "Liverpool",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Tammy Abraham",
-                            "out": "Oliver McBurnie",
-                            "minute": "62"
+                            "assist": "Mohamed Salah",
+                            "minute": "6",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Sam Clucas",
-                            "out": "Roque Mesa",
-                            "minute": "65"
+                            "assist": "Philippe Coutinho",
+                            "minute": "52",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dominic Solanke",
-                            "out": "Roberto Firmino",
-                            "minute": "68"
+                            "minute": "65",
+                            "scorer": "Trent Alexander-Arnold",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Adam Lallana",
-                            "out": "Mohamed Salah",
-                            "minute": "69"
+                            "assist": "Mohamed Salah",
+                            "minute": "66",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Andrew Robertson",
-                            "minute": "75"
-                        },
-                        {
-                            "in": "Renato Sanches",
-                            "out": "Leroy Fer",
-                            "minute": "78"
+                            "minute": "82",
+                            "scorer": "Alex Oxlade-Chamberlain",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Kevin Friend",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -123,77 +121,77 @@
                             "player": "Martin Olsson"
                         }
                     ],
-                    "goals": [
+                    "referee": "Kevin Friend",
+                    "substitutions": [
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "6",
-                            "assist": "Mohamed Salah"
+                            "out": "Oliver McBurnie",
+                            "in": "Tammy Abraham",
+                            "minute": "62"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "52",
-                            "assist": "Philippe Coutinho"
-                        },
-                        {
-                            "scorer": "Trent Alexander-Arnold",
-                            "own_goal": "false",
+                            "out": "Roque Mesa",
+                            "in": "Sam Clucas",
                             "minute": "65"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "66",
-                            "assist": "Mohamed Salah"
+                            "out": "Roberto Firmino",
+                            "in": "Dominic Solanke",
+                            "minute": "68"
                         },
                         {
-                            "scorer": "Alex Oxlade-Chamberlain",
-                            "own_goal": "false",
-                            "minute": "82"
+                            "out": "Mohamed Salah",
+                            "in": "Adam Lallana",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Andrew Robertson",
+                            "in": "James Milner",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Leroy Fer",
+                            "in": "Renato Sanches",
+                            "minute": "78"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22536",
-                "away_team": "Swansea",
                 "score": "5-0",
-                "home_team": "Liverpool"
+                "away_team": "Swansea"
             },
             {
+                "home_team": "Liverpool",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Tammy Abraham",
-                            "out": "Oliver McBurnie",
-                            "minute": "62"
+                            "assist": "Mohamed Salah",
+                            "minute": "6",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Sam Clucas",
-                            "out": "Roque Mesa",
-                            "minute": "65"
+                            "assist": "Philippe Coutinho",
+                            "minute": "52",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dominic Solanke",
-                            "out": "Roberto Firmino",
-                            "minute": "68"
+                            "minute": "65",
+                            "scorer": "Trent Alexander-Arnold",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Adam Lallana",
-                            "out": "Mohamed Salah",
-                            "minute": "69"
+                            "assist": "Mohamed Salah",
+                            "minute": "66",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Andrew Robertson",
-                            "minute": "75"
-                        },
-                        {
-                            "in": "Renato Sanches",
-                            "out": "Leroy Fer",
-                            "minute": "78"
+                            "minute": "82",
+                            "scorer": "Alex Oxlade-Chamberlain",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Kevin Friend",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -202,77 +200,77 @@
                             "player": "Martin Olsson"
                         }
                     ],
-                    "goals": [
+                    "referee": "Kevin Friend",
+                    "substitutions": [
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "6",
-                            "assist": "Mohamed Salah"
+                            "out": "Oliver McBurnie",
+                            "in": "Tammy Abraham",
+                            "minute": "62"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "52",
-                            "assist": "Philippe Coutinho"
-                        },
-                        {
-                            "scorer": "Trent Alexander-Arnold",
-                            "own_goal": "false",
+                            "out": "Roque Mesa",
+                            "in": "Sam Clucas",
                             "minute": "65"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "66",
-                            "assist": "Mohamed Salah"
+                            "out": "Roberto Firmino",
+                            "in": "Dominic Solanke",
+                            "minute": "68"
                         },
                         {
-                            "scorer": "Alex Oxlade-Chamberlain",
-                            "own_goal": "false",
-                            "minute": "82"
+                            "out": "Mohamed Salah",
+                            "in": "Adam Lallana",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Andrew Robertson",
+                            "in": "James Milner",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Leroy Fer",
+                            "in": "Renato Sanches",
+                            "minute": "78"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22536",
-                "away_team": "Swansea",
                 "score": "5-0",
-                "home_team": "Liverpool"
+                "away_team": "Swansea"
             },
             {
+                "home_team": "Liverpool",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Tammy Abraham",
-                            "out": "Oliver McBurnie",
-                            "minute": "62"
+                            "assist": "Mohamed Salah",
+                            "minute": "6",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Sam Clucas",
-                            "out": "Roque Mesa",
-                            "minute": "65"
+                            "assist": "Philippe Coutinho",
+                            "minute": "52",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dominic Solanke",
-                            "out": "Roberto Firmino",
-                            "minute": "68"
+                            "minute": "65",
+                            "scorer": "Trent Alexander-Arnold",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Adam Lallana",
-                            "out": "Mohamed Salah",
-                            "minute": "69"
+                            "assist": "Mohamed Salah",
+                            "minute": "66",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Andrew Robertson",
-                            "minute": "75"
-                        },
-                        {
-                            "in": "Renato Sanches",
-                            "out": "Leroy Fer",
-                            "minute": "78"
+                            "minute": "82",
+                            "scorer": "Alex Oxlade-Chamberlain",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Kevin Friend",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -281,77 +279,77 @@
                             "player": "Martin Olsson"
                         }
                     ],
-                    "goals": [
+                    "referee": "Kevin Friend",
+                    "substitutions": [
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "6",
-                            "assist": "Mohamed Salah"
+                            "out": "Oliver McBurnie",
+                            "in": "Tammy Abraham",
+                            "minute": "62"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "52",
-                            "assist": "Philippe Coutinho"
-                        },
-                        {
-                            "scorer": "Trent Alexander-Arnold",
-                            "own_goal": "false",
+                            "out": "Roque Mesa",
+                            "in": "Sam Clucas",
                             "minute": "65"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "66",
-                            "assist": "Mohamed Salah"
+                            "out": "Roberto Firmino",
+                            "in": "Dominic Solanke",
+                            "minute": "68"
                         },
                         {
-                            "scorer": "Alex Oxlade-Chamberlain",
-                            "own_goal": "false",
-                            "minute": "82"
+                            "out": "Mohamed Salah",
+                            "in": "Adam Lallana",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Andrew Robertson",
+                            "in": "James Milner",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Leroy Fer",
+                            "in": "Renato Sanches",
+                            "minute": "78"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22536",
-                "away_team": "Swansea",
                 "score": "5-0",
-                "home_team": "Liverpool"
+                "away_team": "Swansea"
             },
             {
+                "home_team": "Liverpool",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Tammy Abraham",
-                            "out": "Oliver McBurnie",
-                            "minute": "62"
+                            "assist": "Mohamed Salah",
+                            "minute": "6",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Sam Clucas",
-                            "out": "Roque Mesa",
-                            "minute": "65"
+                            "assist": "Philippe Coutinho",
+                            "minute": "52",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dominic Solanke",
-                            "out": "Roberto Firmino",
-                            "minute": "68"
+                            "minute": "65",
+                            "scorer": "Trent Alexander-Arnold",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Adam Lallana",
-                            "out": "Mohamed Salah",
-                            "minute": "69"
+                            "assist": "Mohamed Salah",
+                            "minute": "66",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Andrew Robertson",
-                            "minute": "75"
-                        },
-                        {
-                            "in": "Renato Sanches",
-                            "out": "Leroy Fer",
-                            "minute": "78"
+                            "minute": "82",
+                            "scorer": "Alex Oxlade-Chamberlain",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Kevin Friend",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -360,77 +358,77 @@
                             "player": "Martin Olsson"
                         }
                     ],
-                    "goals": [
+                    "referee": "Kevin Friend",
+                    "substitutions": [
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "6",
-                            "assist": "Mohamed Salah"
+                            "out": "Oliver McBurnie",
+                            "in": "Tammy Abraham",
+                            "minute": "62"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "52",
-                            "assist": "Philippe Coutinho"
-                        },
-                        {
-                            "scorer": "Trent Alexander-Arnold",
-                            "own_goal": "false",
+                            "out": "Roque Mesa",
+                            "in": "Sam Clucas",
                             "minute": "65"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "66",
-                            "assist": "Mohamed Salah"
+                            "out": "Roberto Firmino",
+                            "in": "Dominic Solanke",
+                            "minute": "68"
                         },
                         {
-                            "scorer": "Alex Oxlade-Chamberlain",
-                            "own_goal": "false",
-                            "minute": "82"
+                            "out": "Mohamed Salah",
+                            "in": "Adam Lallana",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Andrew Robertson",
+                            "in": "James Milner",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Leroy Fer",
+                            "in": "Renato Sanches",
+                            "minute": "78"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22536",
-                "away_team": "Swansea",
                 "score": "5-0",
-                "home_team": "Liverpool"
+                "away_team": "Swansea"
             },
             {
+                "home_team": "Liverpool",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Tammy Abraham",
-                            "out": "Oliver McBurnie",
-                            "minute": "62"
+                            "assist": "Mohamed Salah",
+                            "minute": "6",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Sam Clucas",
-                            "out": "Roque Mesa",
-                            "minute": "65"
+                            "assist": "Philippe Coutinho",
+                            "minute": "52",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dominic Solanke",
-                            "out": "Roberto Firmino",
-                            "minute": "68"
+                            "minute": "65",
+                            "scorer": "Trent Alexander-Arnold",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Adam Lallana",
-                            "out": "Mohamed Salah",
-                            "minute": "69"
+                            "assist": "Mohamed Salah",
+                            "minute": "66",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Andrew Robertson",
-                            "minute": "75"
-                        },
-                        {
-                            "in": "Renato Sanches",
-                            "out": "Leroy Fer",
-                            "minute": "78"
+                            "minute": "82",
+                            "scorer": "Alex Oxlade-Chamberlain",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Kevin Friend",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -439,77 +437,77 @@
                             "player": "Martin Olsson"
                         }
                     ],
-                    "goals": [
+                    "referee": "Kevin Friend",
+                    "substitutions": [
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "6",
-                            "assist": "Mohamed Salah"
+                            "out": "Oliver McBurnie",
+                            "in": "Tammy Abraham",
+                            "minute": "62"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "52",
-                            "assist": "Philippe Coutinho"
-                        },
-                        {
-                            "scorer": "Trent Alexander-Arnold",
-                            "own_goal": "false",
+                            "out": "Roque Mesa",
+                            "in": "Sam Clucas",
                             "minute": "65"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "66",
-                            "assist": "Mohamed Salah"
+                            "out": "Roberto Firmino",
+                            "in": "Dominic Solanke",
+                            "minute": "68"
                         },
                         {
-                            "scorer": "Alex Oxlade-Chamberlain",
-                            "own_goal": "false",
-                            "minute": "82"
+                            "out": "Mohamed Salah",
+                            "in": "Adam Lallana",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Andrew Robertson",
+                            "in": "James Milner",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Leroy Fer",
+                            "in": "Renato Sanches",
+                            "minute": "78"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22536",
-                "away_team": "Swansea",
                 "score": "5-0",
-                "home_team": "Liverpool"
+                "away_team": "Swansea"
             },
             {
+                "home_team": "Liverpool",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Tammy Abraham",
-                            "out": "Oliver McBurnie",
-                            "minute": "62"
+                            "assist": "Mohamed Salah",
+                            "minute": "6",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Sam Clucas",
-                            "out": "Roque Mesa",
-                            "minute": "65"
+                            "assist": "Philippe Coutinho",
+                            "minute": "52",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dominic Solanke",
-                            "out": "Roberto Firmino",
-                            "minute": "68"
+                            "minute": "65",
+                            "scorer": "Trent Alexander-Arnold",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Adam Lallana",
-                            "out": "Mohamed Salah",
-                            "minute": "69"
+                            "assist": "Mohamed Salah",
+                            "minute": "66",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Andrew Robertson",
-                            "minute": "75"
-                        },
-                        {
-                            "in": "Renato Sanches",
-                            "out": "Leroy Fer",
-                            "minute": "78"
+                            "minute": "82",
+                            "scorer": "Alex Oxlade-Chamberlain",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Kevin Friend",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -518,77 +516,77 @@
                             "player": "Martin Olsson"
                         }
                     ],
-                    "goals": [
+                    "referee": "Kevin Friend",
+                    "substitutions": [
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "6",
-                            "assist": "Mohamed Salah"
+                            "out": "Oliver McBurnie",
+                            "in": "Tammy Abraham",
+                            "minute": "62"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "52",
-                            "assist": "Philippe Coutinho"
-                        },
-                        {
-                            "scorer": "Trent Alexander-Arnold",
-                            "own_goal": "false",
+                            "out": "Roque Mesa",
+                            "in": "Sam Clucas",
                             "minute": "65"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "66",
-                            "assist": "Mohamed Salah"
+                            "out": "Roberto Firmino",
+                            "in": "Dominic Solanke",
+                            "minute": "68"
                         },
                         {
-                            "scorer": "Alex Oxlade-Chamberlain",
-                            "own_goal": "false",
-                            "minute": "82"
+                            "out": "Mohamed Salah",
+                            "in": "Adam Lallana",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Andrew Robertson",
+                            "in": "James Milner",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Leroy Fer",
+                            "in": "Renato Sanches",
+                            "minute": "78"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22536",
-                "away_team": "Swansea",
                 "score": "5-0",
-                "home_team": "Liverpool"
+                "away_team": "Swansea"
             },
             {
+                "home_team": "Liverpool",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Tammy Abraham",
-                            "out": "Oliver McBurnie",
-                            "minute": "62"
+                            "assist": "Mohamed Salah",
+                            "minute": "6",
+                            "scorer": "Philippe Coutinho",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Sam Clucas",
-                            "out": "Roque Mesa",
-                            "minute": "65"
+                            "assist": "Philippe Coutinho",
+                            "minute": "52",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dominic Solanke",
-                            "out": "Roberto Firmino",
-                            "minute": "68"
+                            "minute": "65",
+                            "scorer": "Trent Alexander-Arnold",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Adam Lallana",
-                            "out": "Mohamed Salah",
-                            "minute": "69"
+                            "assist": "Mohamed Salah",
+                            "minute": "66",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "James Milner",
-                            "out": "Andrew Robertson",
-                            "minute": "75"
-                        },
-                        {
-                            "in": "Renato Sanches",
-                            "out": "Leroy Fer",
-                            "minute": "78"
+                            "minute": "82",
+                            "scorer": "Alex Oxlade-Chamberlain",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Kevin Friend",
                     "kick_off": "17:30",
                     "cards": [
                         {
@@ -597,41 +595,43 @@
                             "player": "Martin Olsson"
                         }
                     ],
-                    "goals": [
+                    "referee": "Kevin Friend",
+                    "substitutions": [
                         {
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false",
-                            "minute": "6",
-                            "assist": "Mohamed Salah"
+                            "out": "Oliver McBurnie",
+                            "in": "Tammy Abraham",
+                            "minute": "62"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "52",
-                            "assist": "Philippe Coutinho"
-                        },
-                        {
-                            "scorer": "Trent Alexander-Arnold",
-                            "own_goal": "false",
+                            "out": "Roque Mesa",
+                            "in": "Sam Clucas",
                             "minute": "65"
                         },
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "66",
-                            "assist": "Mohamed Salah"
+                            "out": "Roberto Firmino",
+                            "in": "Dominic Solanke",
+                            "minute": "68"
                         },
                         {
-                            "scorer": "Alex Oxlade-Chamberlain",
-                            "own_goal": "false",
-                            "minute": "82"
+                            "out": "Mohamed Salah",
+                            "in": "Adam Lallana",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Andrew Robertson",
+                            "in": "James Milner",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Leroy Fer",
+                            "in": "Renato Sanches",
+                            "minute": "78"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22536",
-                "away_team": "Swansea",
                 "score": "5-0",
-                "home_team": "Liverpool"
+                "away_team": "Swansea"
             }
         ],
         "date": "Tuesday 26 December 2017"

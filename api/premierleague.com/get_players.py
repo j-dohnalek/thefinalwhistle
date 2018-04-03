@@ -25,7 +25,7 @@ from pathlib import Path
 # MY LIBS ######################################################################
 
 
-from helper import grab_html_by_class, init_driver
+from helper import FireMyFox
 
 
 # CONSTANTS ####################################################################
@@ -63,11 +63,10 @@ def get_cached_clubs():
     # the website
     if not my_file.is_file():
 
-        driver = init_driver()
-
-        class_name = "dropDown"
-        html = grab_html_by_class(driver, class_name, URL)
-        soup = BeautifulSoup(html, "html.parser")
+        driver = FireMyFox()
+        driver.visit_url(URL)
+        driver.wait_for_class("dropDown")
+        soup = BeautifulSoup(driver.html, "html.parser")
 
         # Filter available clubs and their API ids
         club_dropdown = soup.find('ul', attrs={'data-dropdown-list': 'clubs'})
@@ -98,10 +97,10 @@ def main():
         players = []
 
         # Fetch the HTML
-        url = URL + '?se=79&cl={}'.format(api_id)
-        class_name = "playerName"
-        html = grab_html_by_class(init_driver(), class_name, url)
-        soup = BeautifulSoup(html, "html.parser")
+        driver = FireMyFox()
+        driver.visit_url(URL + '?se=79&cl={}'.format(api_id))
+        driver.wait_for_class("playerName")
+        soup = BeautifulSoup(driver.html, "html.parser")
 
         # Fetch the list of players
         players_list = soup.find('tbody', attrs={'class': 'dataContainer'})

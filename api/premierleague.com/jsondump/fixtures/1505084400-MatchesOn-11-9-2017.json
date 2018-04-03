@@ -2,63 +2,63 @@
     {
         "fixtures": [
             {
+                "home_team": "Bournemouth",
                 "details": {
+                    "goals": [
+                        {
+                            "assist": "Pascal Groß",
+                            "minute": "55",
+                            "scorer": "Solly March",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Jordon Ibe",
+                            "minute": "67",
+                            "scorer": "Andrew Surman",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Jordon Ibe",
+                            "minute": "73",
+                            "scorer": "Jermain Defoe",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "20:00",
+                    "cards": [],
+                    "referee": "Craig Pawson",
                     "substitutions": [
                         {
-                            "in": "Jordon Ibe",
                             "out": "Ryan Fraser",
+                            "in": "Jordon Ibe",
                             "minute": "65"
                         },
                         {
-                            "in": "José Izquierdo",
                             "out": "Anthony Knockaert",
+                            "in": "José Izquierdo",
                             "minute": "76"
                         },
                         {
-                            "in": "Glenn Murray",
                             "out": "Pascal Groß",
+                            "in": "Glenn Murray",
                             "minute": "77"
                         },
                         {
-                            "in": "Benik Afobe",
                             "out": "Jermain Defoe",
+                            "in": "Benik Afobe",
                             "minute": "78"
                         },
                         {
-                            "in": "Dan Gosling",
                             "out": "Joshua King",
-                            "minute": "90",
-                            "additional": "3"
-                        }
-                    ],
-                    "referee": "Craig Pawson",
-                    "kick_off": "20:00",
-                    "cards": [],
-                    "goals": [
-                        {
-                            "scorer": "Solly March",
-                            "own_goal": "false",
-                            "minute": "55",
-                            "assist": "Pascal Groß"
-                        },
-                        {
-                            "scorer": "Andrew Surman",
-                            "own_goal": "false",
-                            "minute": "67",
-                            "assist": "Jordon Ibe"
-                        },
-                        {
-                            "scorer": "Jermain Defoe",
-                            "own_goal": "false",
-                            "minute": "73",
-                            "assist": "Jordon Ibe"
+                            "additional": "3",
+                            "in": "Dan Gosling",
+                            "minute": "90"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22382",
-                "away_team": "Brighton",
                 "score": "2-1",
-                "home_team": "Bournemouth"
+                "away_team": "Brighton"
             }
         ],
         "date": "Friday 15 September 2017"

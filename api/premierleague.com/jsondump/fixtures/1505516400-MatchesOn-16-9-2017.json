@@ -2,40 +2,28 @@
     {
         "fixtures": [
             {
+                "home_team": "Man Utd",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Jesse Lingard",
-                            "out": "Marcus Rashford",
-                            "minute": "61"
+                            "assist": "Nemanja Matic",
+                            "minute": "4",
+                            "scorer": "Antonio Valencia",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Sandro Ramírez",
-                            "out": "Tom Davies",
-                            "minute": "66"
+                            "assist": "Romelu Lukaku",
+                            "minute": "83",
+                            "scorer": "Henrikh Mkhitaryan",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dominic Calvert-Lewin",
-                            "out": "Idrissa Gueye",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Ander Herrera",
-                            "out": "Juan Mata",
-                            "minute": "77"
-                        },
-                        {
-                            "in": "Kevin Mirallas",
-                            "out": "Wayne Rooney",
-                            "minute": "82"
-                        },
-                        {
-                            "in": "Anthony Martial",
-                            "out": "Henrikh Mkhitaryan",
-                            "minute": "88"
+                            "assist": "Jesse Lingard",
+                            "minute": "89",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Andre Marriner",
                     "kick_off": "16:00",
                     "cards": [
                         {
@@ -49,67 +37,67 @@
                             "player": "Eric Bailly"
                         }
                     ],
-                    "goals": [
+                    "referee": "Andre Marriner",
+                    "substitutions": [
                         {
-                            "scorer": "Antonio Valencia",
-                            "own_goal": "false",
-                            "minute": "4",
-                            "assist": "Nemanja Matic"
+                            "out": "Marcus Rashford",
+                            "in": "Jesse Lingard",
+                            "minute": "61"
                         },
                         {
-                            "scorer": "Henrikh Mkhitaryan",
-                            "own_goal": "false",
-                            "minute": "83",
-                            "assist": "Romelu Lukaku"
+                            "out": "Tom Davies",
+                            "in": "Sandro Ramírez",
+                            "minute": "66"
                         },
                         {
-                            "scorer": "Romelu Lukaku",
-                            "own_goal": "false",
-                            "minute": "89",
-                            "assist": "Jesse Lingard"
+                            "out": "Idrissa Gueye",
+                            "in": "Dominic Calvert-Lewin",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Juan Mata",
+                            "in": "Ander Herrera",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Wayne Rooney",
+                            "in": "Kevin Mirallas",
+                            "minute": "82"
+                        },
+                        {
+                            "out": "Henrikh Mkhitaryan",
+                            "in": "Anthony Martial",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22387",
-                "away_team": "Everton",
                 "score": "4-0",
-                "home_team": "Man Utd"
+                "away_team": "Everton"
             },
             {
+                "home_team": "Man Utd",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Jesse Lingard",
-                            "out": "Marcus Rashford",
-                            "minute": "61"
+                            "assist": "Nemanja Matic",
+                            "minute": "4",
+                            "scorer": "Antonio Valencia",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Sandro Ramírez",
-                            "out": "Tom Davies",
-                            "minute": "66"
+                            "assist": "Romelu Lukaku",
+                            "minute": "83",
+                            "scorer": "Henrikh Mkhitaryan",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Dominic Calvert-Lewin",
-                            "out": "Idrissa Gueye",
-                            "minute": "76"
-                        },
-                        {
-                            "in": "Ander Herrera",
-                            "out": "Juan Mata",
-                            "minute": "77"
-                        },
-                        {
-                            "in": "Kevin Mirallas",
-                            "out": "Wayne Rooney",
-                            "minute": "82"
-                        },
-                        {
-                            "in": "Anthony Martial",
-                            "out": "Henrikh Mkhitaryan",
-                            "minute": "88"
+                            "assist": "Jesse Lingard",
+                            "minute": "89",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Andre Marriner",
                     "kick_off": "16:00",
                     "cards": [
                         {
@@ -123,31 +111,43 @@
                             "player": "Eric Bailly"
                         }
                     ],
-                    "goals": [
+                    "referee": "Andre Marriner",
+                    "substitutions": [
                         {
-                            "scorer": "Antonio Valencia",
-                            "own_goal": "false",
-                            "minute": "4",
-                            "assist": "Nemanja Matic"
+                            "out": "Marcus Rashford",
+                            "in": "Jesse Lingard",
+                            "minute": "61"
                         },
                         {
-                            "scorer": "Henrikh Mkhitaryan",
-                            "own_goal": "false",
-                            "minute": "83",
-                            "assist": "Romelu Lukaku"
+                            "out": "Tom Davies",
+                            "in": "Sandro Ramírez",
+                            "minute": "66"
                         },
                         {
-                            "scorer": "Romelu Lukaku",
-                            "own_goal": "false",
-                            "minute": "89",
-                            "assist": "Jesse Lingard"
+                            "out": "Idrissa Gueye",
+                            "in": "Dominic Calvert-Lewin",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Juan Mata",
+                            "in": "Ander Herrera",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Wayne Rooney",
+                            "in": "Kevin Mirallas",
+                            "minute": "82"
+                        },
+                        {
+                            "out": "Henrikh Mkhitaryan",
+                            "in": "Anthony Martial",
+                            "minute": "88"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22387",
-                "away_team": "Everton",
                 "score": "4-0",
-                "home_team": "Man Utd"
+                "away_team": "Everton"
             }
         ],
         "date": "Sunday 17 September 2017"

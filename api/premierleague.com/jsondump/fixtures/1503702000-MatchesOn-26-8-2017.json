@@ -2,40 +2,33 @@
     {
         "fixtures": [
             {
+                "home_team": "Liverpool",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Francis Coquelin",
-                            "out": "Aaron Ramsey",
-                            "minute": "45"
+                            "assist": "Joseph Gomez",
+                            "minute": "17",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Alexandre Lacazette",
-                            "out": "Alex Oxlade-Chamberlain",
-                            "minute": "62"
+                            "assist": "Roberto Firmino",
+                            "minute": "40",
+                            "scorer": "Sadio Mané",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Olivier Giroud",
-                            "out": "Alexis Sánchez",
-                            "minute": "62"
+                            "minute": "57",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Daniel Sturridge",
-                            "out": "Sadio Mané",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "James Milner",
-                            "out": "Roberto Firmino",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Marko Grujic",
-                            "out": "Emre Can",
-                            "minute": "84"
+                            "assist": "Mohamed Salah",
+                            "minute": "77",
+                            "scorer": "Daniel Sturridge",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Martin Atkinson",
                     "kick_off": "16:00",
                     "cards": [
                         {
@@ -69,72 +62,72 @@
                             "player": "Rob Holding"
                         }
                     ],
-                    "goals": [
+                    "referee": "Martin Atkinson",
+                    "substitutions": [
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "17",
-                            "assist": "Joseph Gomez"
+                            "out": "Aaron Ramsey",
+                            "in": "Francis Coquelin",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Sadio Mané",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Roberto Firmino"
+                            "out": "Alex Oxlade-Chamberlain",
+                            "in": "Alexandre Lacazette",
+                            "minute": "62"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "57"
+                            "out": "Alexis Sánchez",
+                            "in": "Olivier Giroud",
+                            "minute": "62"
                         },
                         {
-                            "scorer": "Daniel Sturridge",
-                            "own_goal": "false",
-                            "minute": "77",
-                            "assist": "Mohamed Salah"
+                            "out": "Sadio Mané",
+                            "in": "Daniel Sturridge",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Roberto Firmino",
+                            "in": "James Milner",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Emre Can",
+                            "in": "Marko Grujic",
+                            "minute": "84"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22366",
-                "away_team": "Arsenal",
                 "score": "4-0",
-                "home_team": "Liverpool"
+                "away_team": "Arsenal"
             },
             {
+                "home_team": "Liverpool",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Francis Coquelin",
-                            "out": "Aaron Ramsey",
-                            "minute": "45"
+                            "assist": "Joseph Gomez",
+                            "minute": "17",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Alexandre Lacazette",
-                            "out": "Alex Oxlade-Chamberlain",
-                            "minute": "62"
+                            "assist": "Roberto Firmino",
+                            "minute": "40",
+                            "scorer": "Sadio Mané",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Olivier Giroud",
-                            "out": "Alexis Sánchez",
-                            "minute": "62"
+                            "minute": "57",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Daniel Sturridge",
-                            "out": "Sadio Mané",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "James Milner",
-                            "out": "Roberto Firmino",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Marko Grujic",
-                            "out": "Emre Can",
-                            "minute": "84"
+                            "assist": "Mohamed Salah",
+                            "minute": "77",
+                            "scorer": "Daniel Sturridge",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Martin Atkinson",
                     "kick_off": "16:00",
                     "cards": [
                         {
@@ -168,72 +161,72 @@
                             "player": "Rob Holding"
                         }
                     ],
-                    "goals": [
+                    "referee": "Martin Atkinson",
+                    "substitutions": [
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "17",
-                            "assist": "Joseph Gomez"
+                            "out": "Aaron Ramsey",
+                            "in": "Francis Coquelin",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Sadio Mané",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Roberto Firmino"
+                            "out": "Alex Oxlade-Chamberlain",
+                            "in": "Alexandre Lacazette",
+                            "minute": "62"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "57"
+                            "out": "Alexis Sánchez",
+                            "in": "Olivier Giroud",
+                            "minute": "62"
                         },
                         {
-                            "scorer": "Daniel Sturridge",
-                            "own_goal": "false",
-                            "minute": "77",
-                            "assist": "Mohamed Salah"
+                            "out": "Sadio Mané",
+                            "in": "Daniel Sturridge",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Roberto Firmino",
+                            "in": "James Milner",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Emre Can",
+                            "in": "Marko Grujic",
+                            "minute": "84"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22366",
-                "away_team": "Arsenal",
                 "score": "4-0",
-                "home_team": "Liverpool"
+                "away_team": "Arsenal"
             },
             {
+                "home_team": "Liverpool",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Francis Coquelin",
-                            "out": "Aaron Ramsey",
-                            "minute": "45"
+                            "assist": "Joseph Gomez",
+                            "minute": "17",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Alexandre Lacazette",
-                            "out": "Alex Oxlade-Chamberlain",
-                            "minute": "62"
+                            "assist": "Roberto Firmino",
+                            "minute": "40",
+                            "scorer": "Sadio Mané",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Olivier Giroud",
-                            "out": "Alexis Sánchez",
-                            "minute": "62"
+                            "minute": "57",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Daniel Sturridge",
-                            "out": "Sadio Mané",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "James Milner",
-                            "out": "Roberto Firmino",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Marko Grujic",
-                            "out": "Emre Can",
-                            "minute": "84"
+                            "assist": "Mohamed Salah",
+                            "minute": "77",
+                            "scorer": "Daniel Sturridge",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Martin Atkinson",
                     "kick_off": "16:00",
                     "cards": [
                         {
@@ -267,72 +260,72 @@
                             "player": "Rob Holding"
                         }
                     ],
-                    "goals": [
+                    "referee": "Martin Atkinson",
+                    "substitutions": [
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "17",
-                            "assist": "Joseph Gomez"
+                            "out": "Aaron Ramsey",
+                            "in": "Francis Coquelin",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Sadio Mané",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Roberto Firmino"
+                            "out": "Alex Oxlade-Chamberlain",
+                            "in": "Alexandre Lacazette",
+                            "minute": "62"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "57"
+                            "out": "Alexis Sánchez",
+                            "in": "Olivier Giroud",
+                            "minute": "62"
                         },
                         {
-                            "scorer": "Daniel Sturridge",
-                            "own_goal": "false",
-                            "minute": "77",
-                            "assist": "Mohamed Salah"
+                            "out": "Sadio Mané",
+                            "in": "Daniel Sturridge",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Roberto Firmino",
+                            "in": "James Milner",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Emre Can",
+                            "in": "Marko Grujic",
+                            "minute": "84"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22366",
-                "away_team": "Arsenal",
                 "score": "4-0",
-                "home_team": "Liverpool"
+                "away_team": "Arsenal"
             },
             {
+                "home_team": "Liverpool",
                 "details": {
-                    "substitutions": [
+                    "goals": [
                         {
-                            "in": "Francis Coquelin",
-                            "out": "Aaron Ramsey",
-                            "minute": "45"
+                            "assist": "Joseph Gomez",
+                            "minute": "17",
+                            "scorer": "Roberto Firmino",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Alexandre Lacazette",
-                            "out": "Alex Oxlade-Chamberlain",
-                            "minute": "62"
+                            "assist": "Roberto Firmino",
+                            "minute": "40",
+                            "scorer": "Sadio Mané",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Olivier Giroud",
-                            "out": "Alexis Sánchez",
-                            "minute": "62"
+                            "minute": "57",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
                         },
                         {
-                            "in": "Daniel Sturridge",
-                            "out": "Sadio Mané",
-                            "minute": "74"
-                        },
-                        {
-                            "in": "James Milner",
-                            "out": "Roberto Firmino",
-                            "minute": "80"
-                        },
-                        {
-                            "in": "Marko Grujic",
-                            "out": "Emre Can",
-                            "minute": "84"
+                            "assist": "Mohamed Salah",
+                            "minute": "77",
+                            "scorer": "Daniel Sturridge",
+                            "own_goal": "false"
                         }
                     ],
-                    "referee": "Martin Atkinson",
                     "kick_off": "16:00",
                     "cards": [
                         {
@@ -366,36 +359,43 @@
                             "player": "Rob Holding"
                         }
                     ],
-                    "goals": [
+                    "referee": "Martin Atkinson",
+                    "substitutions": [
                         {
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false",
-                            "minute": "17",
-                            "assist": "Joseph Gomez"
+                            "out": "Aaron Ramsey",
+                            "in": "Francis Coquelin",
+                            "minute": "45"
                         },
                         {
-                            "scorer": "Sadio Mané",
-                            "own_goal": "false",
-                            "minute": "40",
-                            "assist": "Roberto Firmino"
+                            "out": "Alex Oxlade-Chamberlain",
+                            "in": "Alexandre Lacazette",
+                            "minute": "62"
                         },
                         {
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false",
-                            "minute": "57"
+                            "out": "Alexis Sánchez",
+                            "in": "Olivier Giroud",
+                            "minute": "62"
                         },
                         {
-                            "scorer": "Daniel Sturridge",
-                            "own_goal": "false",
-                            "minute": "77",
-                            "assist": "Mohamed Salah"
+                            "out": "Sadio Mané",
+                            "in": "Daniel Sturridge",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Roberto Firmino",
+                            "in": "James Milner",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Emre Can",
+                            "in": "Marko Grujic",
+                            "minute": "84"
                         }
                     ]
                 },
                 "url": "https://www.premierleague.com/match/22366",
-                "away_team": "Arsenal",
                 "score": "4-0",
-                "home_team": "Liverpool"
+                "away_team": "Arsenal"
             }
         ],
         "date": "Sunday 27 August 2017"
