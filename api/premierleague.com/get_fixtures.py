@@ -142,6 +142,10 @@ def parse_events(event, match_info):
 
 
 def main():
+    """
+    Load the page with the games, iteratively read the page from top to bottom
+    until the last_scraped_matchdate is reached
+    """
 
     # The date for which the last game was obtained
     last_scraped_matchdate = datetime.strptime(LAST_WEBSCRAPED_MATCHDAY, '%A %d %B %Y')

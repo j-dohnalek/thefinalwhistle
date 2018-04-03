@@ -32,7 +32,7 @@ DEBUG = True
 
 
 class MyDriver:
-    """ Firefox Gecko Driver """
+    """ Firefox Gecko Driver Wrapper """
 
     # Firefox Gecko Driver Options
     __options__ = None
