@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 import json
 from datetime import datetime
-import sys
 
 # MY LIBS ######################################################################
 
@@ -75,6 +74,8 @@ def parse_events(event, match_info):
         event_info = event_type.get_text()
         match_event = {}
 
+        # Parse the minute with possible additional time information
+        # ----------------------------------------------------------
         event_time = event.find('time', attrs={'class': 'min'})
         if event_time is not None:
             time_of_match = event_time.get_text()
@@ -85,6 +86,8 @@ def parse_events(event, match_info):
             else:
                 match_event['minute'] = event_time.get_text().replace("'", "").strip()
 
+        # Player scored goal by normal means or by penalty
+        # ------------------------------------------------
         if "Goal" in event_info and "Own" not in event_info:
 
             scorer = event.find('a', attrs={'class': 'name'})
@@ -95,9 +98,13 @@ def parse_events(event, match_info):
                 assist = assist.get_text().replace('Ast.', '')
                 match_event['assist'] = cleanup(assist.strip())
             else:
+                # Assuming if there is no assistant to the goal the goal was most
+                # likely scored by penalty
                 match_event['penalty'] = "true"
             match_info['goals'].append(match_event)
 
+        # Player scored own goal
+        # ----------------------
         if "Own Goal" in event_info:
 
             event_time = event.find('time', attrs={'class': 'min'})
@@ -107,6 +114,8 @@ def parse_events(event, match_info):
             match_event['penalty'] = "false"
             match_info['goals'].append(match_event)
 
+        # Match substitutions
+        # -------------------
         if "Substitution" in event_info:
 
             sub_on = event.find('div', attrs={'class': 'subOn'})
@@ -128,6 +137,8 @@ def parse_events(event, match_info):
             match_event['out'] = cleanup(substituted_out.strip())
             match_info['substitutions'].append(match_event)
 
+        # Red and Yellow cards
+        # --------------------
         if "Card" in event_info:
 
             if "Red Card" in event_info:
@@ -160,48 +171,53 @@ def get_last_collected_match_day():
         max_timestamp = 0
         for fixture in cached_fixtures:
             collected_fixtures[fixture['date']] = fixture['fixtures']
-            matchdate = datetime.strptime(fixture['date'], '%A %d %B %Y')
-            match_timestamp = matchdate.timestamp()
+            matchday = datetime.strptime(fixture['date'], '%A %d %B %Y')
+            match_timestamp = matchday.timestamp()
             if int(match_timestamp) > max_timestamp:
                 max_timestamp = match_timestamp
-                last_collected_match_day = matchdate
+                last_collected_match_day = matchday
 
     return last_collected_match_day, collected_fixtures
 
 
 def main():
-    """
-    Load the page with the games, iteratively read the page from top to bottom
-    until the last_scraped_matchdate is reached
-    """
+    """ Scrape all fixtures """
 
     # See the function description
     last_collected_match_day, collected_fixtures = get_last_collected_match_day()
 
+    # Open webdriver
     driver = FireMyFox()
     driver.visit_url(URL)
     driver.wait_for_class("matchFixtureContainer")
-    soup = BeautifulSoup(driver.html, "html.parser")
 
+    # Initialise BeautifulSoup to scrape the collected page
+    soup = BeautifulSoup(driver.html, "html.parser")
     section = soup.find('section', attrs={'class': 'fixtures'})
+
     # Iterate over each matchday
     for fixture_date in section.findAll('time', attrs={'class': 'long'}):
 
         match_date = fixture_date.get_text()
-        matchdate = datetime.strptime(match_date, '%A %d %B %Y')
+        matchday = datetime.strptime(match_date, '%A %d %B %Y')
 
-        if last_collected_match_day == matchdate:
-            print("No more data to process")
+        # The script have reached a day for which the data was already
+        # collected, assuming the page is in order from newest to olders
+        # the data was also collected for the dates older than last matchday
+        # stop the collection
+        if last_collected_match_day == matchday:
+            print("No more data to process, stopping collection ... ")
             break
 
-        matches = section.find('div', attrs={'data-competition-matches-list': match_date})
-        match_container = {}  # Clear the data written to JSON
+        # Clear the data written to JSON
+        match_container = {}
         match_container[match_date] = []
 
         # Update the cache
         collected_fixtures[match_date] = []
 
         # Iterate over all games on matchday
+        matches = section.find('div', attrs={'data-competition-matches-list': match_date})
         for match in matches.findAll('li', attrs={"class": "matchFixtureContainer"}):
 
             score = match.find('span', attrs={"class": "score"})
@@ -225,9 +241,9 @@ def main():
             collected_fixtures[match_date].append(match_url)
 
         # Write the data to json for all matches on a particular day
-        timestamp = int(matchdate.timestamp())
+        timestamp = int(matchday.timestamp())
         path = JSON_PATH.format("{}-MatchesOn-{}-{}-{}".format(
-            timestamp, matchdate.day, matchdate.month, matchdate.year
+            timestamp, matchday.day, matchday.month, matchday.year
         ))
 
         # Record the standard matches inforation
