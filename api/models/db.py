@@ -10,6 +10,7 @@ Base = declarative_base()
 class Person(object):
 
     name = Column(String(50), nullable=False)
+    # Football player can have only name
     surname = Column(String(50), nullable=True)
 
 
@@ -18,6 +19,7 @@ class ClubStaff(Base, Person):
     __tablename__ = 'clubstaff'
 
     clubstaff_id = Column(Integer, primary_key=True)
+    # Missed in Logical Model
     role = Column(String(50), nullable=True)
 
     @declared_attr

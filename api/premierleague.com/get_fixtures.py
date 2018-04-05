@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import json
 from datetime import datetime
+import sys
 
 # MY LIBS ######################################################################
 
@@ -13,7 +14,7 @@ from helper import FireMyFox
 
 URL = "https://www.premierleague.com/results?team=FIRST&co=1&se=79&cl=-1"
 JSON_PATH = 'jsondump/fixtures/{}.json'
-LAST_WEBSCRAPED_MATCHDAY = 'Saturday 31 March 2018'
+FIXTURE_CACHE = 'tmp/fixture.cache.json'
 
 
 # FUNCTIONS ####################################################################
@@ -141,14 +142,41 @@ def parse_events(event, match_info):
     return match_info
 
 
+def get_last_collected_match_day():
+    """
+    tmp folder contains the cache of all match days and corresponding urls to matches
+    for which the data was collected. Seach overt the cache and compute highest match
+    day by timestamp
+    Allow to scrape everything after the highest match day
+    return: last cached match day
+            dictionary of all cached matches to updated the dictionary with new matches
+    """
+    last_collected_match_day = None
+    collected_fixtures = {}
+
+    # Load cache from the tmp folder
+    with open(FIXTURE_CACHE) as outfile:
+        cached_fixtures = json.load(outfile)
+        max_timestamp = 0
+        for fixture in cached_fixtures:
+            collected_fixtures[fixture['date']] = fixture['fixtures']
+            matchdate = datetime.strptime(fixture['date'], '%A %d %B %Y')
+            match_timestamp = matchdate.timestamp()
+            if int(match_timestamp) > max_timestamp:
+                max_timestamp = match_timestamp
+                last_collected_match_day = matchdate
+
+    return last_collected_match_day, collected_fixtures
+
+
 def main():
     """
     Load the page with the games, iteratively read the page from top to bottom
     until the last_scraped_matchdate is reached
     """
 
-    # The date for which the last game was obtained
-    last_scraped_matchdate = datetime.strptime(LAST_WEBSCRAPED_MATCHDAY, '%A %d %B %Y')
+    # See the function description
+    last_collected_match_day, collected_fixtures = get_last_collected_match_day()
 
     driver = FireMyFox()
     driver.visit_url(URL)
@@ -156,20 +184,24 @@ def main():
     soup = BeautifulSoup(driver.html, "html.parser")
 
     section = soup.find('section', attrs={'class': 'fixtures'})
+    # Iterate over each matchday
     for fixture_date in section.findAll('time', attrs={'class': 'long'}):
 
         match_date = fixture_date.get_text()
         matchdate = datetime.strptime(match_date, '%A %d %B %Y')
 
-        # If the last webscraped matchdate is reached force the program to terminate
-        if last_scraped_matchdate == matchdate:
-            print('Process complete')
-            return
+        if last_collected_match_day == matchdate:
+            print("No more data to process")
+            break
 
         matches = section.find('div', attrs={'data-competition-matches-list': match_date})
         match_container = {}  # Clear the data written to JSON
         match_container[match_date] = []
 
+        # Update the cache
+        collected_fixtures[match_date] = []
+
+        # Iterate over all games on matchday
         for match in matches.findAll('li', attrs={"class": "matchFixtureContainer"}):
 
             score = match.find('span', attrs={"class": "score"})
@@ -177,6 +209,7 @@ def main():
             match_url = 'https://www.premierleague.com/match/'+match_id
             match_info = {'goals': [], 'cards': [], 'substitutions': []}
 
+            # collect inforation about game
             game_info = {
                 'home_team': match['data-home'],
                 'away_team': match['data-away'],
@@ -185,7 +218,11 @@ def main():
                 'details': fetch_game_info(match_url, match_info),
             }
 
+            # Store the new data to be written to JSON
             match_container[match_date].append(game_info)
+
+            # Update the cache
+            collected_fixtures[match_date].append(match_url)
 
         # Write the data to json for all matches on a particular day
         timestamp = int(matchdate.timestamp())
@@ -193,10 +230,17 @@ def main():
             timestamp, matchdate.day, matchdate.month, matchdate.year
         ))
 
+        # Record the standard matches inforation
         with open(path, 'w') as outfile:
             values = [{"date": k, "fixtures": v} for k, v in match_container.items()]
             json.dump(values, outfile, ensure_ascii=False, indent=4)
             print('Writing JSON: {}'.format(path))
+
+    # Update the cache file with the newly sourced matches
+    with open(FIXTURE_CACHE, 'w') as outfile:
+        values = [{"date": k, "fixtures": v} for k, v in collected_fixtures.items()]
+        json.dump(values, outfile, ensure_ascii=False, indent=4)
+        print('Writing JSON: {}'.format(FIXTURE_CACHE))
 
 
 if __name__ == "__main__":
