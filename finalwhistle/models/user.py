@@ -8,7 +8,6 @@ from finalwhistle.helpers import new_uuid
 from sqlalchemy.sql import func
 from flask_login import UserMixin
 
-
 def hash_password(password):
     """
     Generates hash of the password
@@ -77,6 +76,7 @@ class User(db.Model, UserMixin):
     [1]: https://flask-bcrypt.readthedocs.io/en/latest/
     """
     __tablename__ = 'users'
+
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     email = db.Column(db.String(60), nullable=False, unique=True)
     username = db.Column(db.String(16), nullable=False, unique=True)
@@ -157,4 +157,3 @@ class User(db.Model, UserMixin):
             # can implement failed login attempt tracker here
             pass
         return None
-

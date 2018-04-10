@@ -29,3 +29,14 @@ class AccountTests(unittest.TestCase):
     #########
     # tests #
     #########
+    def test_add_users(self):
+        from finalwhistle.models.user import User
+        users = [User('tom@tom.123', 'tom', 'tom'),
+                 User('jiri@jiri.123', 'jiri', 'jiri')
+                 ]
+        db.session.bulk_save_objects(users)
+        assert User.query.count() == len(users)
+
+
+if __name__ == '__main__':
+    unittest.main()

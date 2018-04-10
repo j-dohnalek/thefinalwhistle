@@ -20,19 +20,3 @@ class Article(db.Model):
     def validate_status(self, key, value):
         assert value in ['Published', 'Draft', 'Hidden']
         return value
-
-
-class ArticleComment(db.Model):
-    __tablename__ = 'article_comments'
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    author = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
-    on_article = db.Column(db.Integer, db.ForeignKey('articles.id'), nullable=False)
-    content = db.Column(db.String, nullable=False)
-    submitted_at = db.Column(db.DateTime, nullable=False)
-    last_edited = db.Column(db.DateTime, nullable=False)
-
-
-class ArticleCategory(db.Model):
-    __tablename__ = 'article_categories'
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    name = db.Column(db.String(50), unique=True, nullable=False)
