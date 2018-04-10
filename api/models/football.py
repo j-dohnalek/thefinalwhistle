@@ -1,5 +1,6 @@
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.ext.declarative import declared_attr
+from sqlalchemy.orm import validates
 
 
 db = SQLAlchemy()
@@ -7,6 +8,8 @@ db = SQLAlchemy()
 
 class Person(object):
 
+    # The name and surname will be stored as a single
+    # value. The program will never be used to email any referees
     name = db.Column(db.String(255), nullable=False)
 
 
@@ -15,12 +18,17 @@ class ClubStaff(db.Model, Person):
     __tablename__ = 'clubstaff'
 
     clubstaff_id = db.Column(db.Integer, primary_key=True)
-    # Missed in Logical Model
     role = db.Column(db.String(50), nullable=True)
 
     @declared_attr
     def team(cls):
         return db.Column(db.Integer, db.ForeignKey('team.team_id'), nullable=False)
+
+    # http://docs.sqlalchemy.org/en/rel_0_9/orm/mapped_attributes.html#simple-validators
+    @validates('role')
+    def validate_role(self, key, value):
+        assert value in ['manager']
+        return value
 
 
 class Player(db.Model, Person):
@@ -28,12 +36,21 @@ class Player(db.Model, Person):
     __tablename__ = 'player'
 
     player_id = db.Column(db.Integer, primary_key=True)
-    dob = db.Column(db.Date, nullable=False)
     shirt_number = db.Column(db.Integer, nullable=True)
-    nationality = db.Column(db.String(50), nullable=True)
+    dob = db.Column(db.Date, nullable=False)
+
+    # UPDATE 10-04-2018 new information available to be used in the website
     position = db.Column(db.String(50), nullable=True)
+    nationality = db.Column(db.String(50), nullable=True)
+    # Weight in kilograms
     weight = db.Column(db.Integer, nullable=True)
+    # Height in cm
     height = db.Column(db.Integer, nullable=True)
+
+    # UPDATE - 10-04-2018 Removed the storing of information, the data is
+    # difficult to obtain in short timescale, possibly future feature
+    # injured = db.Column(db.Boolean, nullable=True)
+    # suspended = db.Column(db.Boolean, nullable=True)
 
     @declared_attr
     def current_team(cls):
@@ -113,7 +130,10 @@ class Match(db.Model):
     __tablename__ = 'match'
 
     match_id = db.Column(db.Integer, primary_key=True)
-    kickoff_time = db.Column(db.Date, nullable=False)
+
+    # UPDATE 10-04-2018 - Changed from kickoff_time to kickoff, the kickoff
+    # stores date and time of the match for the reference
+    kickoff = db.Column(db.DateTime, nullable=False)
 
     @declared_attr
     def home_team(cls):
@@ -123,9 +143,12 @@ class Match(db.Model):
     def away_team(cls):
         return db.Column(db.Integer, db.ForeignKey('team.team_id'), nullable=False)
 
+    # The API developed appears to have gaps as such sometime the match information
+    # like the referee is missing. The solution in future will be to have a
+    # payed API.
     @declared_attr
     def main_referee(cls):
-        return db.Column(db.Integer, db.ForeignKey('referee.referee_id'), nullable=False)
+        return db.Column(db.Integer, db.ForeignKey('referee.referee_id'), nullable=True)
 
     @declared_attr
     def season(cls):
@@ -154,15 +177,18 @@ class Goal(db.Model, MatchEvent):
     def player(cls):
         return db.Column(db.Integer, db.ForeignKey('player.player_id'), nullable=False)
 
+    # Not every goal has a assistant (i.e. penalty, own goal)
     @declared_attr
     def assist_player(cls):
-        return db.Column(db.Integer, db.ForeignKey('player.player_id'), nullable=False)
+        return db.Column(db.Integer, db.ForeignKey('player.player_id'), nullable=True)
 
 
 class Substitution(db.Model, MatchEvent):
 
     __tablename__ = 'substitution'
 
+    # Not every substitution has a player, if team has more than 3 substitutions
+    # and a player is injure he can be only let out
     @declared_attr
     def player_in(cls):
         return db.Column(db.Integer, db.ForeignKey('player.player_id'), nullable=True)
