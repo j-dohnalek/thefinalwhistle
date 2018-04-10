@@ -1,0 +1,175 @@
+[
+    {
+        "fixtures": [
+            {
+                "home_team": "Liverpool",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "3",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
+                        },
+                        {
+                            "minute": "80",
+                            "scorer": "Victor Wanyama",
+                            "own_goal": "false"
+                        },
+                        {
+                            "additional": "1",
+                            "minute": "90",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "16:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "42",
+                            "player": "Trent Alexander-Arnold"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "58",
+                            "player": "James Milner"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "69",
+                            "player": "Dele Alli"
+                        },
+                        {
+                            "additional": "6",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Emre Can"
+                        }
+                    ],
+                    "referee": "Jonathan Moss",
+                    "substitutions": [
+                        {
+                            "out": "Sadio Mané",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "65"
+                        },
+                        {
+                            "out": "Jordan Henderson",
+                            "in": "Georginio Wijnaldum",
+                            "minute": "65"
+                        },
+                        {
+                            "out": "Davinson Sánchez",
+                            "in": "Erik Lamela",
+                            "minute": "71"
+                        },
+                        {
+                            "out": "James Milner",
+                            "in": "Joel Matip",
+                            "minute": "78"
+                        },
+                        {
+                            "out": "Mousa Dembélé",
+                            "in": "Victor Wanyama",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Son Heung-Min",
+                            "additional": "2",
+                            "in": "Fernando Llorente",
+                            "minute": "90"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22598",
+                "score": "2-2",
+                "away_team": "Spurs"
+            },
+            {
+                "home_team": "Liverpool",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "3",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
+                        },
+                        {
+                            "minute": "80",
+                            "scorer": "Victor Wanyama",
+                            "own_goal": "false"
+                        },
+                        {
+                            "additional": "1",
+                            "minute": "90",
+                            "scorer": "Mohamed Salah",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "16:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "42",
+                            "player": "Trent Alexander-Arnold"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "58",
+                            "player": "James Milner"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "69",
+                            "player": "Dele Alli"
+                        },
+                        {
+                            "additional": "6",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Emre Can"
+                        }
+                    ],
+                    "referee": "Jonathan Moss",
+                    "substitutions": [
+                        {
+                            "out": "Sadio Mané",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "65"
+                        },
+                        {
+                            "out": "Jordan Henderson",
+                            "in": "Georginio Wijnaldum",
+                            "minute": "65"
+                        },
+                        {
+                            "out": "Davinson Sánchez",
+                            "in": "Erik Lamela",
+                            "minute": "71"
+                        },
+                        {
+                            "out": "James Milner",
+                            "in": "Joel Matip",
+                            "minute": "78"
+                        },
+                        {
+                            "out": "Mousa Dembélé",
+                            "in": "Victor Wanyama",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Son Heung-Min",
+                            "additional": "2",
+                            "in": "Fernando Llorente",
+                            "minute": "90"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22598",
+                "score": "2-2",
+                "away_team": "Spurs"
+            }
+        ],
+        "date": "Sunday 4 February 2018"
+    }
+]

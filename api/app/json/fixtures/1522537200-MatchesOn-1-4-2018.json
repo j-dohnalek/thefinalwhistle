@@ -1,0 +1,146 @@
+[
+    {
+        "fixtures": [
+            {
+                "score": "3-0",
+                "details": {
+                    "kick_off": "13:30",
+                    "referee": "Craig Pawson",
+                    "goals": [
+                        {
+                            "scorer": "Pierre-Emerick Aubameyang",
+                            "penalty": "true",
+                            "own_goal": "false",
+                            "minute": "86"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "out": "Mame Biram Diouf",
+                            "in": "Saido Berahino",
+                            "minute": "61"
+                        },
+                        {
+                            "out": "Danny Welbeck",
+                            "in": "Alexandre Lacazette",
+                            "minute": "61"
+                        },
+                        {
+                            "out": "Jack Wilshere",
+                            "in": "Henrikh Mkhitaryan",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Mohamed Elneny",
+                            "in": "Granit Xhaka",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Ramadan Sobhi",
+                            "in": "Peter Crouch",
+                            "minute": "80"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "Mohamed Elneny",
+                            "card": "yellow",
+                            "minute": "37"
+                        },
+                        {
+                            "player": "Glen Johnson",
+                            "card": "yellow",
+                            "minute": "66"
+                        },
+                        {
+                            "player": "Joe Allen",
+                            "card": "yellow",
+                            "additional": "1",
+                            "minute": "90"
+                        }
+                    ]
+                },
+                "home_team": "Arsenal",
+                "away_team": "Stoke",
+                "url": "https://www.premierleague.com/match/22652"
+            },
+            {
+                "score": "1-3",
+                "details": {
+                    "kick_off": "16:00",
+                    "referee": "Andre Marriner",
+                    "goals": [
+                        {
+                            "scorer": "Álvaro Morata",
+                            "own_goal": "false",
+                            "assist": "Victor Moses",
+                            "minute": "30"
+                        },
+                        {
+                            "scorer": "Christian Eriksen",
+                            "additional": "1",
+                            "own_goal": "false",
+                            "assist": "Ben Davies",
+                            "minute": "45"
+                        },
+                        {
+                            "scorer": "Dele Alli",
+                            "own_goal": "false",
+                            "assist": "Eric Dier",
+                            "minute": "62"
+                        },
+                        {
+                            "scorer": "Dele Alli",
+                            "penalty": "true",
+                            "own_goal": "false",
+                            "minute": "66"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "out": "Son Heung-Min",
+                            "in": "Harry Kane",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Victor Moses",
+                            "in": "Olivier Giroud",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Eric Dier",
+                            "in": "Victor Wanyama",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Marcos Alonso",
+                            "in": "Emerson",
+                            "minute": "83"
+                        },
+                        {
+                            "out": "Erik Lamela",
+                            "in": "Moussa Sissoko",
+                            "minute": "88"
+                        },
+                        {
+                            "out": "Álvaro Morata",
+                            "in": "Callum Hudson-Odoi",
+                            "minute": "88"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "player": "Ben Davies",
+                            "card": "yellow",
+                            "minute": "70"
+                        }
+                    ]
+                },
+                "home_team": "Chelsea",
+                "away_team": "Spurs",
+                "url": "https://www.premierleague.com/match/22654"
+            }
+        ],
+        "date": "Sunday 1 April 2018"
+    }
+]

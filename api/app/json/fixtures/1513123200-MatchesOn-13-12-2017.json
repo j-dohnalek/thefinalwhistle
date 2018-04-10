@@ -1,0 +1,756 @@
+[
+    {
+        "fixtures": [
+            {
+                "home_team": "Man City",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Leroy Sané",
+                            "minute": "14",
+                            "scorer": "Ilkay Gündogan",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Ilkay Gündogan",
+                            "minute": "70",
+                            "scorer": "Kevin De Bruyne",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Leroy Sané",
+                            "minute": "80",
+                            "scorer": "Raheem Sterling",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Bernardo Silva",
+                            "minute": "90",
+                            "scorer": "Raheem Sterling",
+                            "own_goal": "false"
+                        },
+                        {
+                            "additional": "3",
+                            "minute": "90",
+                            "scorer": "Christian Eriksen",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "38",
+                            "player": "Nicolás Otamendi"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "51",
+                            "player": "Fabian Delph"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "52",
+                            "player": "Harry Kane"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "62",
+                            "player": "Mousa Dembélé"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "68",
+                            "player": "Dele Alli"
+                        },
+                        {
+                            "additional": "1",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Moussa Sissoko"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "substitutions": [
+                        {
+                            "out": "Sergio Agüero",
+                            "in": "Gabriel Jesus",
+                            "minute": "58"
+                        },
+                        {
+                            "out": "Son Heung-Min",
+                            "in": "Erik Lamela",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Ilkay Gündogan",
+                            "in": "Phil Foden",
+                            "minute": "83"
+                        },
+                        {
+                            "out": "Dele Alli",
+                            "in": "Moussa Sissoko",
+                            "minute": "84"
+                        },
+                        {
+                            "out": "Leroy Sané",
+                            "in": "Bernardo Silva",
+                            "minute": "85"
+                        },
+                        {
+                            "out": "Danny Rose",
+                            "in": "Ben Davies",
+                            "minute": "89"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22518",
+                "score": "4-1",
+                "away_team": "Spurs"
+            },
+            {
+                "home_team": "Man City",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Leroy Sané",
+                            "minute": "14",
+                            "scorer": "Ilkay Gündogan",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Ilkay Gündogan",
+                            "minute": "70",
+                            "scorer": "Kevin De Bruyne",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Leroy Sané",
+                            "minute": "80",
+                            "scorer": "Raheem Sterling",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Bernardo Silva",
+                            "minute": "90",
+                            "scorer": "Raheem Sterling",
+                            "own_goal": "false"
+                        },
+                        {
+                            "additional": "3",
+                            "minute": "90",
+                            "scorer": "Christian Eriksen",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "38",
+                            "player": "Nicolás Otamendi"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "51",
+                            "player": "Fabian Delph"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "52",
+                            "player": "Harry Kane"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "62",
+                            "player": "Mousa Dembélé"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "68",
+                            "player": "Dele Alli"
+                        },
+                        {
+                            "additional": "1",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Moussa Sissoko"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "substitutions": [
+                        {
+                            "out": "Sergio Agüero",
+                            "in": "Gabriel Jesus",
+                            "minute": "58"
+                        },
+                        {
+                            "out": "Son Heung-Min",
+                            "in": "Erik Lamela",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Ilkay Gündogan",
+                            "in": "Phil Foden",
+                            "minute": "83"
+                        },
+                        {
+                            "out": "Dele Alli",
+                            "in": "Moussa Sissoko",
+                            "minute": "84"
+                        },
+                        {
+                            "out": "Leroy Sané",
+                            "in": "Bernardo Silva",
+                            "minute": "85"
+                        },
+                        {
+                            "out": "Danny Rose",
+                            "in": "Ben Davies",
+                            "minute": "89"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22518",
+                "score": "4-1",
+                "away_team": "Spurs"
+            },
+            {
+                "home_team": "Man City",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Leroy Sané",
+                            "minute": "14",
+                            "scorer": "Ilkay Gündogan",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Ilkay Gündogan",
+                            "minute": "70",
+                            "scorer": "Kevin De Bruyne",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Leroy Sané",
+                            "minute": "80",
+                            "scorer": "Raheem Sterling",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Bernardo Silva",
+                            "minute": "90",
+                            "scorer": "Raheem Sterling",
+                            "own_goal": "false"
+                        },
+                        {
+                            "additional": "3",
+                            "minute": "90",
+                            "scorer": "Christian Eriksen",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "38",
+                            "player": "Nicolás Otamendi"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "51",
+                            "player": "Fabian Delph"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "52",
+                            "player": "Harry Kane"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "62",
+                            "player": "Mousa Dembélé"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "68",
+                            "player": "Dele Alli"
+                        },
+                        {
+                            "additional": "1",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Moussa Sissoko"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "substitutions": [
+                        {
+                            "out": "Sergio Agüero",
+                            "in": "Gabriel Jesus",
+                            "minute": "58"
+                        },
+                        {
+                            "out": "Son Heung-Min",
+                            "in": "Erik Lamela",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Ilkay Gündogan",
+                            "in": "Phil Foden",
+                            "minute": "83"
+                        },
+                        {
+                            "out": "Dele Alli",
+                            "in": "Moussa Sissoko",
+                            "minute": "84"
+                        },
+                        {
+                            "out": "Leroy Sané",
+                            "in": "Bernardo Silva",
+                            "minute": "85"
+                        },
+                        {
+                            "out": "Danny Rose",
+                            "in": "Ben Davies",
+                            "minute": "89"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22518",
+                "score": "4-1",
+                "away_team": "Spurs"
+            },
+            {
+                "home_team": "Man City",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Leroy Sané",
+                            "minute": "14",
+                            "scorer": "Ilkay Gündogan",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Ilkay Gündogan",
+                            "minute": "70",
+                            "scorer": "Kevin De Bruyne",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Leroy Sané",
+                            "minute": "80",
+                            "scorer": "Raheem Sterling",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Bernardo Silva",
+                            "minute": "90",
+                            "scorer": "Raheem Sterling",
+                            "own_goal": "false"
+                        },
+                        {
+                            "additional": "3",
+                            "minute": "90",
+                            "scorer": "Christian Eriksen",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "38",
+                            "player": "Nicolás Otamendi"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "51",
+                            "player": "Fabian Delph"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "52",
+                            "player": "Harry Kane"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "62",
+                            "player": "Mousa Dembélé"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "68",
+                            "player": "Dele Alli"
+                        },
+                        {
+                            "additional": "1",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Moussa Sissoko"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "substitutions": [
+                        {
+                            "out": "Sergio Agüero",
+                            "in": "Gabriel Jesus",
+                            "minute": "58"
+                        },
+                        {
+                            "out": "Son Heung-Min",
+                            "in": "Erik Lamela",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Ilkay Gündogan",
+                            "in": "Phil Foden",
+                            "minute": "83"
+                        },
+                        {
+                            "out": "Dele Alli",
+                            "in": "Moussa Sissoko",
+                            "minute": "84"
+                        },
+                        {
+                            "out": "Leroy Sané",
+                            "in": "Bernardo Silva",
+                            "minute": "85"
+                        },
+                        {
+                            "out": "Danny Rose",
+                            "in": "Ben Davies",
+                            "minute": "89"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22518",
+                "score": "4-1",
+                "away_team": "Spurs"
+            },
+            {
+                "home_team": "Man City",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Leroy Sané",
+                            "minute": "14",
+                            "scorer": "Ilkay Gündogan",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Ilkay Gündogan",
+                            "minute": "70",
+                            "scorer": "Kevin De Bruyne",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Leroy Sané",
+                            "minute": "80",
+                            "scorer": "Raheem Sterling",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Bernardo Silva",
+                            "minute": "90",
+                            "scorer": "Raheem Sterling",
+                            "own_goal": "false"
+                        },
+                        {
+                            "additional": "3",
+                            "minute": "90",
+                            "scorer": "Christian Eriksen",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "38",
+                            "player": "Nicolás Otamendi"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "51",
+                            "player": "Fabian Delph"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "52",
+                            "player": "Harry Kane"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "62",
+                            "player": "Mousa Dembélé"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "68",
+                            "player": "Dele Alli"
+                        },
+                        {
+                            "additional": "1",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Moussa Sissoko"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "substitutions": [
+                        {
+                            "out": "Sergio Agüero",
+                            "in": "Gabriel Jesus",
+                            "minute": "58"
+                        },
+                        {
+                            "out": "Son Heung-Min",
+                            "in": "Erik Lamela",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Ilkay Gündogan",
+                            "in": "Phil Foden",
+                            "minute": "83"
+                        },
+                        {
+                            "out": "Dele Alli",
+                            "in": "Moussa Sissoko",
+                            "minute": "84"
+                        },
+                        {
+                            "out": "Leroy Sané",
+                            "in": "Bernardo Silva",
+                            "minute": "85"
+                        },
+                        {
+                            "out": "Danny Rose",
+                            "in": "Ben Davies",
+                            "minute": "89"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22518",
+                "score": "4-1",
+                "away_team": "Spurs"
+            },
+            {
+                "home_team": "Man City",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Leroy Sané",
+                            "minute": "14",
+                            "scorer": "Ilkay Gündogan",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Ilkay Gündogan",
+                            "minute": "70",
+                            "scorer": "Kevin De Bruyne",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Leroy Sané",
+                            "minute": "80",
+                            "scorer": "Raheem Sterling",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Bernardo Silva",
+                            "minute": "90",
+                            "scorer": "Raheem Sterling",
+                            "own_goal": "false"
+                        },
+                        {
+                            "additional": "3",
+                            "minute": "90",
+                            "scorer": "Christian Eriksen",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "38",
+                            "player": "Nicolás Otamendi"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "51",
+                            "player": "Fabian Delph"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "52",
+                            "player": "Harry Kane"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "62",
+                            "player": "Mousa Dembélé"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "68",
+                            "player": "Dele Alli"
+                        },
+                        {
+                            "additional": "1",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Moussa Sissoko"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "substitutions": [
+                        {
+                            "out": "Sergio Agüero",
+                            "in": "Gabriel Jesus",
+                            "minute": "58"
+                        },
+                        {
+                            "out": "Son Heung-Min",
+                            "in": "Erik Lamela",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Ilkay Gündogan",
+                            "in": "Phil Foden",
+                            "minute": "83"
+                        },
+                        {
+                            "out": "Dele Alli",
+                            "in": "Moussa Sissoko",
+                            "minute": "84"
+                        },
+                        {
+                            "out": "Leroy Sané",
+                            "in": "Bernardo Silva",
+                            "minute": "85"
+                        },
+                        {
+                            "out": "Danny Rose",
+                            "in": "Ben Davies",
+                            "minute": "89"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22518",
+                "score": "4-1",
+                "away_team": "Spurs"
+            },
+            {
+                "home_team": "Man City",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Leroy Sané",
+                            "minute": "14",
+                            "scorer": "Ilkay Gündogan",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Ilkay Gündogan",
+                            "minute": "70",
+                            "scorer": "Kevin De Bruyne",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Leroy Sané",
+                            "minute": "80",
+                            "scorer": "Raheem Sterling",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Bernardo Silva",
+                            "minute": "90",
+                            "scorer": "Raheem Sterling",
+                            "own_goal": "false"
+                        },
+                        {
+                            "additional": "3",
+                            "minute": "90",
+                            "scorer": "Christian Eriksen",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "38",
+                            "player": "Nicolás Otamendi"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "51",
+                            "player": "Fabian Delph"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "52",
+                            "player": "Harry Kane"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "62",
+                            "player": "Mousa Dembélé"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "68",
+                            "player": "Dele Alli"
+                        },
+                        {
+                            "additional": "1",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Moussa Sissoko"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "substitutions": [
+                        {
+                            "out": "Sergio Agüero",
+                            "in": "Gabriel Jesus",
+                            "minute": "58"
+                        },
+                        {
+                            "out": "Son Heung-Min",
+                            "in": "Erik Lamela",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Ilkay Gündogan",
+                            "in": "Phil Foden",
+                            "minute": "83"
+                        },
+                        {
+                            "out": "Dele Alli",
+                            "in": "Moussa Sissoko",
+                            "minute": "84"
+                        },
+                        {
+                            "out": "Leroy Sané",
+                            "in": "Bernardo Silva",
+                            "minute": "85"
+                        },
+                        {
+                            "out": "Danny Rose",
+                            "in": "Ben Davies",
+                            "minute": "89"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22518",
+                "score": "4-1",
+                "away_team": "Spurs"
+            }
+        ],
+        "date": "Saturday 16 December 2017"
+    }
+]

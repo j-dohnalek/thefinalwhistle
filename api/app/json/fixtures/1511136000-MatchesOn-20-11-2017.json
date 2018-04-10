@@ -1,0 +1,66 @@
+[
+    {
+        "fixtures": [
+            {
+                "home_team": "West Ham",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "8",
+                            "scorer": "Marc Albrighton",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Manuel Lanzini",
+                            "minute": "45",
+                            "scorer": "Cheikhou Kouyaté",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "20:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "79",
+                            "player": "André Ayew"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "79",
+                            "player": "Demarai Gray"
+                        }
+                    ],
+                    "referee": "Martin Atkinson",
+                    "substitutions": [
+                        {
+                            "out": "Marko Arnautovic",
+                            "in": "André Ayew",
+                            "minute": "69"
+                        },
+                        {
+                            "out": "Riyad Mahrez",
+                            "in": "Ben Chilwell",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Demarai Gray",
+                            "additional": "2",
+                            "in": "Islam Slimani",
+                            "minute": "90"
+                        },
+                        {
+                            "out": "Arthur Masuaku",
+                            "additional": "4",
+                            "in": "Diafra Sakho",
+                            "minute": "90"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22471",
+                "score": "1-1",
+                "away_team": "Leicester"
+            }
+        ],
+        "date": "Friday 24 November 2017"
+    }
+]

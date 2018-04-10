@@ -1,0 +1,61 @@
+[
+    {
+        "fixtures": [
+            {
+                "home_team": "Stoke",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Raheem Sterling",
+                            "minute": "10",
+                            "scorer": "David Silva",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Gabriel Jesus",
+                            "minute": "50",
+                            "scorer": "David Silva",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "20:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "73",
+                            "player": "Joe Allen"
+                        }
+                    ],
+                    "referee": "Jonathan Moss",
+                    "substitutions": [
+                        {
+                            "out": "Jesé",
+                            "in": "Peter Crouch",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Raheem Sterling",
+                            "in": "Bernardo Silva",
+                            "minute": "85"
+                        },
+                        {
+                            "out": "Geoff Cameron",
+                            "in": "Ramadan Sobhi",
+                            "minute": "88"
+                        },
+                        {
+                            "out": "Gabriel Jesus",
+                            "additional": "1",
+                            "in": "Ilkay Gündogan",
+                            "minute": "90"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22639",
+                "score": "0-2",
+                "away_team": "Man City"
+            }
+        ],
+        "date": "Monday 12 March 2018"
+    }
+]

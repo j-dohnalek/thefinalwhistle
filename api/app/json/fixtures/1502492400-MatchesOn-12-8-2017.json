@@ -1,0 +1,187 @@
+[
+    {
+        "fixtures": [
+            {
+                "home_team": "Man Utd",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Marcus Rashford",
+                            "minute": "33",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Henrikh Mkhitaryan",
+                            "minute": "53",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Henrikh Mkhitaryan",
+                            "minute": "87",
+                            "scorer": "Anthony Martial",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Anthony Martial",
+                            "minute": "90",
+                            "scorer": "Paul Pogba",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "16:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "43",
+                            "player": "Eric Bailly"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "51",
+                            "player": "Pablo Zabaleta"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "60",
+                            "player": "Antonio Valencia"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "66",
+                            "player": "Angelo Ogbonna"
+                        }
+                    ],
+                    "referee": "Martin Atkinson",
+                    "substitutions": [
+                        {
+                            "out": "Edimilson Fernandes",
+                            "in": "Diafra Sakho",
+                            "minute": "60"
+                        },
+                        {
+                            "out": "Mark Noble",
+                            "in": "Declan Rice",
+                            "minute": "61"
+                        },
+                        {
+                            "out": "Juan Mata",
+                            "in": "Marouane Fellaini",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Marcus Rashford",
+                            "in": "Anthony Martial",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Arthur Masuaku",
+                            "in": "Aaron Cresswell",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Henrikh Mkhitaryan",
+                            "in": "Jesse Lingard",
+                            "minute": "88"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22347",
+                "score": "4-0",
+                "away_team": "West Ham"
+            },
+            {
+                "home_team": "Man Utd",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Marcus Rashford",
+                            "minute": "33",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Henrikh Mkhitaryan",
+                            "minute": "53",
+                            "scorer": "Romelu Lukaku",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Henrikh Mkhitaryan",
+                            "minute": "87",
+                            "scorer": "Anthony Martial",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Anthony Martial",
+                            "minute": "90",
+                            "scorer": "Paul Pogba",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "16:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "43",
+                            "player": "Eric Bailly"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "51",
+                            "player": "Pablo Zabaleta"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "60",
+                            "player": "Antonio Valencia"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "66",
+                            "player": "Angelo Ogbonna"
+                        }
+                    ],
+                    "referee": "Martin Atkinson",
+                    "substitutions": [
+                        {
+                            "out": "Edimilson Fernandes",
+                            "in": "Diafra Sakho",
+                            "minute": "60"
+                        },
+                        {
+                            "out": "Mark Noble",
+                            "in": "Declan Rice",
+                            "minute": "61"
+                        },
+                        {
+                            "out": "Juan Mata",
+                            "in": "Marouane Fellaini",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Marcus Rashford",
+                            "in": "Anthony Martial",
+                            "minute": "80"
+                        },
+                        {
+                            "out": "Arthur Masuaku",
+                            "in": "Aaron Cresswell",
+                            "minute": "81"
+                        },
+                        {
+                            "out": "Henrikh Mkhitaryan",
+                            "in": "Jesse Lingard",
+                            "minute": "88"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22347",
+                "score": "4-0",
+                "away_team": "West Ham"
+            }
+        ],
+        "date": "Sunday 13 August 2017"
+    }
+]

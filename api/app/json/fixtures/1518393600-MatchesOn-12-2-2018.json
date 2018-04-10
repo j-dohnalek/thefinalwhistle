@@ -1,0 +1,518 @@
+[
+    {
+        "fixtures": [
+            {
+                "home_team": "Watford",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Stefano Okaka",
+                            "minute": "79",
+                            "scorer": "Troy Deeney",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "53",
+                            "player": "Etienne Capoue"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "64",
+                            "player": "Idrissa Gueye"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "88",
+                            "player": "Daryl Janmaat"
+                        },
+                        {
+                            "additional": "2",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "André Carrillo"
+                        }
+                    ],
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
+                        {
+                            "out": "Richarlison",
+                            "in": "Kiko Femenía",
+                            "minute": "56"
+                        },
+                        {
+                            "out": "Roberto Pereyra",
+                            "in": "Stefano Okaka",
+                            "minute": "56"
+                        },
+                        {
+                            "out": "Oumar Niasse",
+                            "in": "Cenk Tosun",
+                            "minute": "57"
+                        },
+                        {
+                            "out": "Gerard Deulofeu",
+                            "in": "André Carrillo",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Gylfi Sigurdsson",
+                            "in": "Yannick Bolasie",
+                            "minute": "82"
+                        },
+                        {
+                            "out": "Wayne Rooney",
+                            "in": "Dominic Calvert-Lewin",
+                            "minute": "82"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22620",
+                "score": "1-0",
+                "away_team": "Everton"
+            },
+            {
+                "home_team": "Watford",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Stefano Okaka",
+                            "minute": "79",
+                            "scorer": "Troy Deeney",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "53",
+                            "player": "Etienne Capoue"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "64",
+                            "player": "Idrissa Gueye"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "88",
+                            "player": "Daryl Janmaat"
+                        },
+                        {
+                            "additional": "2",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "André Carrillo"
+                        }
+                    ],
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
+                        {
+                            "out": "Richarlison",
+                            "in": "Kiko Femenía",
+                            "minute": "56"
+                        },
+                        {
+                            "out": "Roberto Pereyra",
+                            "in": "Stefano Okaka",
+                            "minute": "56"
+                        },
+                        {
+                            "out": "Oumar Niasse",
+                            "in": "Cenk Tosun",
+                            "minute": "57"
+                        },
+                        {
+                            "out": "Gerard Deulofeu",
+                            "in": "André Carrillo",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Gylfi Sigurdsson",
+                            "in": "Yannick Bolasie",
+                            "minute": "82"
+                        },
+                        {
+                            "out": "Wayne Rooney",
+                            "in": "Dominic Calvert-Lewin",
+                            "minute": "82"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22620",
+                "score": "1-0",
+                "away_team": "Everton"
+            },
+            {
+                "home_team": "Watford",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Stefano Okaka",
+                            "minute": "79",
+                            "scorer": "Troy Deeney",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "53",
+                            "player": "Etienne Capoue"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "64",
+                            "player": "Idrissa Gueye"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "88",
+                            "player": "Daryl Janmaat"
+                        },
+                        {
+                            "additional": "2",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "André Carrillo"
+                        }
+                    ],
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
+                        {
+                            "out": "Richarlison",
+                            "in": "Kiko Femenía",
+                            "minute": "56"
+                        },
+                        {
+                            "out": "Roberto Pereyra",
+                            "in": "Stefano Okaka",
+                            "minute": "56"
+                        },
+                        {
+                            "out": "Oumar Niasse",
+                            "in": "Cenk Tosun",
+                            "minute": "57"
+                        },
+                        {
+                            "out": "Gerard Deulofeu",
+                            "in": "André Carrillo",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Gylfi Sigurdsson",
+                            "in": "Yannick Bolasie",
+                            "minute": "82"
+                        },
+                        {
+                            "out": "Wayne Rooney",
+                            "in": "Dominic Calvert-Lewin",
+                            "minute": "82"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22620",
+                "score": "1-0",
+                "away_team": "Everton"
+            },
+            {
+                "home_team": "Watford",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Stefano Okaka",
+                            "minute": "79",
+                            "scorer": "Troy Deeney",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "53",
+                            "player": "Etienne Capoue"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "64",
+                            "player": "Idrissa Gueye"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "88",
+                            "player": "Daryl Janmaat"
+                        },
+                        {
+                            "additional": "2",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "André Carrillo"
+                        }
+                    ],
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
+                        {
+                            "out": "Richarlison",
+                            "in": "Kiko Femenía",
+                            "minute": "56"
+                        },
+                        {
+                            "out": "Roberto Pereyra",
+                            "in": "Stefano Okaka",
+                            "minute": "56"
+                        },
+                        {
+                            "out": "Oumar Niasse",
+                            "in": "Cenk Tosun",
+                            "minute": "57"
+                        },
+                        {
+                            "out": "Gerard Deulofeu",
+                            "in": "André Carrillo",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Gylfi Sigurdsson",
+                            "in": "Yannick Bolasie",
+                            "minute": "82"
+                        },
+                        {
+                            "out": "Wayne Rooney",
+                            "in": "Dominic Calvert-Lewin",
+                            "minute": "82"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22620",
+                "score": "1-0",
+                "away_team": "Everton"
+            },
+            {
+                "home_team": "Watford",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Stefano Okaka",
+                            "minute": "79",
+                            "scorer": "Troy Deeney",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "53",
+                            "player": "Etienne Capoue"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "64",
+                            "player": "Idrissa Gueye"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "88",
+                            "player": "Daryl Janmaat"
+                        },
+                        {
+                            "additional": "2",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "André Carrillo"
+                        }
+                    ],
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
+                        {
+                            "out": "Richarlison",
+                            "in": "Kiko Femenía",
+                            "minute": "56"
+                        },
+                        {
+                            "out": "Roberto Pereyra",
+                            "in": "Stefano Okaka",
+                            "minute": "56"
+                        },
+                        {
+                            "out": "Oumar Niasse",
+                            "in": "Cenk Tosun",
+                            "minute": "57"
+                        },
+                        {
+                            "out": "Gerard Deulofeu",
+                            "in": "André Carrillo",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Gylfi Sigurdsson",
+                            "in": "Yannick Bolasie",
+                            "minute": "82"
+                        },
+                        {
+                            "out": "Wayne Rooney",
+                            "in": "Dominic Calvert-Lewin",
+                            "minute": "82"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22620",
+                "score": "1-0",
+                "away_team": "Everton"
+            },
+            {
+                "home_team": "Watford",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Stefano Okaka",
+                            "minute": "79",
+                            "scorer": "Troy Deeney",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "53",
+                            "player": "Etienne Capoue"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "64",
+                            "player": "Idrissa Gueye"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "88",
+                            "player": "Daryl Janmaat"
+                        },
+                        {
+                            "additional": "2",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "André Carrillo"
+                        }
+                    ],
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
+                        {
+                            "out": "Richarlison",
+                            "in": "Kiko Femenía",
+                            "minute": "56"
+                        },
+                        {
+                            "out": "Roberto Pereyra",
+                            "in": "Stefano Okaka",
+                            "minute": "56"
+                        },
+                        {
+                            "out": "Oumar Niasse",
+                            "in": "Cenk Tosun",
+                            "minute": "57"
+                        },
+                        {
+                            "out": "Gerard Deulofeu",
+                            "in": "André Carrillo",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Gylfi Sigurdsson",
+                            "in": "Yannick Bolasie",
+                            "minute": "82"
+                        },
+                        {
+                            "out": "Wayne Rooney",
+                            "in": "Dominic Calvert-Lewin",
+                            "minute": "82"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22620",
+                "score": "1-0",
+                "away_team": "Everton"
+            },
+            {
+                "home_team": "Watford",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Stefano Okaka",
+                            "minute": "79",
+                            "scorer": "Troy Deeney",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "17:30",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "53",
+                            "player": "Etienne Capoue"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "64",
+                            "player": "Idrissa Gueye"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "88",
+                            "player": "Daryl Janmaat"
+                        },
+                        {
+                            "additional": "2",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "André Carrillo"
+                        }
+                    ],
+                    "referee": "Anthony Taylor",
+                    "substitutions": [
+                        {
+                            "out": "Richarlison",
+                            "in": "Kiko Femenía",
+                            "minute": "56"
+                        },
+                        {
+                            "out": "Roberto Pereyra",
+                            "in": "Stefano Okaka",
+                            "minute": "56"
+                        },
+                        {
+                            "out": "Oumar Niasse",
+                            "in": "Cenk Tosun",
+                            "minute": "57"
+                        },
+                        {
+                            "out": "Gerard Deulofeu",
+                            "in": "André Carrillo",
+                            "minute": "63"
+                        },
+                        {
+                            "out": "Gylfi Sigurdsson",
+                            "in": "Yannick Bolasie",
+                            "minute": "82"
+                        },
+                        {
+                            "out": "Wayne Rooney",
+                            "in": "Dominic Calvert-Lewin",
+                            "minute": "82"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22620",
+                "score": "1-0",
+                "away_team": "Everton"
+            }
+        ],
+        "date": "Saturday 24 February 2018"
+    }
+]

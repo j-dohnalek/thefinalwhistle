@@ -1,0 +1,607 @@
+[
+    {
+        "fixtures": [
+            {
+                "home_team": "Stoke",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Martin Olsson",
+                            "minute": "3",
+                            "scorer": "Wilfried Bony",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Joe Allen",
+                            "minute": "36",
+                            "scorer": "Xherdan Shaqiri",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Peter Crouch",
+                            "minute": "40",
+                            "scorer": "Mame Biram Diouf",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "15:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "81",
+                            "player": "Kevin Wimmer"
+                        },
+                        {
+                            "additional": "5",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Xherdan Shaqiri"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "substitutions": [
+                        {
+                            "out": "Bruno Martins Indi",
+                            "in": "Kevin Wimmer",
+                            "minute": "53"
+                        },
+                        {
+                            "out": "Eric Maxim Choupo-Moting",
+                            "in": "Ramadan Sobhi",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Darren Fletcher",
+                            "in": "Ibrahim Afellay",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Sam Clucas",
+                            "in": "Tom Carroll",
+                            "minute": "73"
+                        },
+                        {
+                            "out": "Jordan Ayew",
+                            "in": "Oliver McBurnie",
+                            "minute": "73"
+                        },
+                        {
+                            "out": "Leroy Fer",
+                            "in": "Renato Sanches",
+                            "minute": "85"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22489",
+                "score": "2-1",
+                "away_team": "Swansea"
+            },
+            {
+                "home_team": "Stoke",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Martin Olsson",
+                            "minute": "3",
+                            "scorer": "Wilfried Bony",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Joe Allen",
+                            "minute": "36",
+                            "scorer": "Xherdan Shaqiri",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Peter Crouch",
+                            "minute": "40",
+                            "scorer": "Mame Biram Diouf",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "15:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "81",
+                            "player": "Kevin Wimmer"
+                        },
+                        {
+                            "additional": "5",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Xherdan Shaqiri"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "substitutions": [
+                        {
+                            "out": "Bruno Martins Indi",
+                            "in": "Kevin Wimmer",
+                            "minute": "53"
+                        },
+                        {
+                            "out": "Eric Maxim Choupo-Moting",
+                            "in": "Ramadan Sobhi",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Darren Fletcher",
+                            "in": "Ibrahim Afellay",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Sam Clucas",
+                            "in": "Tom Carroll",
+                            "minute": "73"
+                        },
+                        {
+                            "out": "Jordan Ayew",
+                            "in": "Oliver McBurnie",
+                            "minute": "73"
+                        },
+                        {
+                            "out": "Leroy Fer",
+                            "in": "Renato Sanches",
+                            "minute": "85"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22489",
+                "score": "2-1",
+                "away_team": "Swansea"
+            },
+            {
+                "home_team": "Stoke",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Martin Olsson",
+                            "minute": "3",
+                            "scorer": "Wilfried Bony",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Joe Allen",
+                            "minute": "36",
+                            "scorer": "Xherdan Shaqiri",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Peter Crouch",
+                            "minute": "40",
+                            "scorer": "Mame Biram Diouf",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "15:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "81",
+                            "player": "Kevin Wimmer"
+                        },
+                        {
+                            "additional": "5",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Xherdan Shaqiri"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "substitutions": [
+                        {
+                            "out": "Bruno Martins Indi",
+                            "in": "Kevin Wimmer",
+                            "minute": "53"
+                        },
+                        {
+                            "out": "Eric Maxim Choupo-Moting",
+                            "in": "Ramadan Sobhi",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Darren Fletcher",
+                            "in": "Ibrahim Afellay",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Sam Clucas",
+                            "in": "Tom Carroll",
+                            "minute": "73"
+                        },
+                        {
+                            "out": "Jordan Ayew",
+                            "in": "Oliver McBurnie",
+                            "minute": "73"
+                        },
+                        {
+                            "out": "Leroy Fer",
+                            "in": "Renato Sanches",
+                            "minute": "85"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22489",
+                "score": "2-1",
+                "away_team": "Swansea"
+            },
+            {
+                "home_team": "Stoke",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Martin Olsson",
+                            "minute": "3",
+                            "scorer": "Wilfried Bony",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Joe Allen",
+                            "minute": "36",
+                            "scorer": "Xherdan Shaqiri",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Peter Crouch",
+                            "minute": "40",
+                            "scorer": "Mame Biram Diouf",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "15:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "81",
+                            "player": "Kevin Wimmer"
+                        },
+                        {
+                            "additional": "5",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Xherdan Shaqiri"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "substitutions": [
+                        {
+                            "out": "Bruno Martins Indi",
+                            "in": "Kevin Wimmer",
+                            "minute": "53"
+                        },
+                        {
+                            "out": "Eric Maxim Choupo-Moting",
+                            "in": "Ramadan Sobhi",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Darren Fletcher",
+                            "in": "Ibrahim Afellay",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Sam Clucas",
+                            "in": "Tom Carroll",
+                            "minute": "73"
+                        },
+                        {
+                            "out": "Jordan Ayew",
+                            "in": "Oliver McBurnie",
+                            "minute": "73"
+                        },
+                        {
+                            "out": "Leroy Fer",
+                            "in": "Renato Sanches",
+                            "minute": "85"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22489",
+                "score": "2-1",
+                "away_team": "Swansea"
+            },
+            {
+                "home_team": "Stoke",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Martin Olsson",
+                            "minute": "3",
+                            "scorer": "Wilfried Bony",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Joe Allen",
+                            "minute": "36",
+                            "scorer": "Xherdan Shaqiri",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Peter Crouch",
+                            "minute": "40",
+                            "scorer": "Mame Biram Diouf",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "15:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "81",
+                            "player": "Kevin Wimmer"
+                        },
+                        {
+                            "additional": "5",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Xherdan Shaqiri"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "substitutions": [
+                        {
+                            "out": "Bruno Martins Indi",
+                            "in": "Kevin Wimmer",
+                            "minute": "53"
+                        },
+                        {
+                            "out": "Eric Maxim Choupo-Moting",
+                            "in": "Ramadan Sobhi",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Darren Fletcher",
+                            "in": "Ibrahim Afellay",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Sam Clucas",
+                            "in": "Tom Carroll",
+                            "minute": "73"
+                        },
+                        {
+                            "out": "Jordan Ayew",
+                            "in": "Oliver McBurnie",
+                            "minute": "73"
+                        },
+                        {
+                            "out": "Leroy Fer",
+                            "in": "Renato Sanches",
+                            "minute": "85"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22489",
+                "score": "2-1",
+                "away_team": "Swansea"
+            },
+            {
+                "home_team": "Stoke",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Martin Olsson",
+                            "minute": "3",
+                            "scorer": "Wilfried Bony",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Joe Allen",
+                            "minute": "36",
+                            "scorer": "Xherdan Shaqiri",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Peter Crouch",
+                            "minute": "40",
+                            "scorer": "Mame Biram Diouf",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "15:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "81",
+                            "player": "Kevin Wimmer"
+                        },
+                        {
+                            "additional": "5",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Xherdan Shaqiri"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "substitutions": [
+                        {
+                            "out": "Bruno Martins Indi",
+                            "in": "Kevin Wimmer",
+                            "minute": "53"
+                        },
+                        {
+                            "out": "Eric Maxim Choupo-Moting",
+                            "in": "Ramadan Sobhi",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Darren Fletcher",
+                            "in": "Ibrahim Afellay",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Sam Clucas",
+                            "in": "Tom Carroll",
+                            "minute": "73"
+                        },
+                        {
+                            "out": "Jordan Ayew",
+                            "in": "Oliver McBurnie",
+                            "minute": "73"
+                        },
+                        {
+                            "out": "Leroy Fer",
+                            "in": "Renato Sanches",
+                            "minute": "85"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22489",
+                "score": "2-1",
+                "away_team": "Swansea"
+            },
+            {
+                "home_team": "Stoke",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Martin Olsson",
+                            "minute": "3",
+                            "scorer": "Wilfried Bony",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Joe Allen",
+                            "minute": "36",
+                            "scorer": "Xherdan Shaqiri",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Peter Crouch",
+                            "minute": "40",
+                            "scorer": "Mame Biram Diouf",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "15:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "81",
+                            "player": "Kevin Wimmer"
+                        },
+                        {
+                            "additional": "5",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Xherdan Shaqiri"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "substitutions": [
+                        {
+                            "out": "Bruno Martins Indi",
+                            "in": "Kevin Wimmer",
+                            "minute": "53"
+                        },
+                        {
+                            "out": "Eric Maxim Choupo-Moting",
+                            "in": "Ramadan Sobhi",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Darren Fletcher",
+                            "in": "Ibrahim Afellay",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Sam Clucas",
+                            "in": "Tom Carroll",
+                            "minute": "73"
+                        },
+                        {
+                            "out": "Jordan Ayew",
+                            "in": "Oliver McBurnie",
+                            "minute": "73"
+                        },
+                        {
+                            "out": "Leroy Fer",
+                            "in": "Renato Sanches",
+                            "minute": "85"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22489",
+                "score": "2-1",
+                "away_team": "Swansea"
+            },
+            {
+                "home_team": "Stoke",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Martin Olsson",
+                            "minute": "3",
+                            "scorer": "Wilfried Bony",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Joe Allen",
+                            "minute": "36",
+                            "scorer": "Xherdan Shaqiri",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Peter Crouch",
+                            "minute": "40",
+                            "scorer": "Mame Biram Diouf",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "15:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "81",
+                            "player": "Kevin Wimmer"
+                        },
+                        {
+                            "additional": "5",
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Xherdan Shaqiri"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "substitutions": [
+                        {
+                            "out": "Bruno Martins Indi",
+                            "in": "Kevin Wimmer",
+                            "minute": "53"
+                        },
+                        {
+                            "out": "Eric Maxim Choupo-Moting",
+                            "in": "Ramadan Sobhi",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Darren Fletcher",
+                            "in": "Ibrahim Afellay",
+                            "minute": "70"
+                        },
+                        {
+                            "out": "Sam Clucas",
+                            "in": "Tom Carroll",
+                            "minute": "73"
+                        },
+                        {
+                            "out": "Jordan Ayew",
+                            "in": "Oliver McBurnie",
+                            "minute": "73"
+                        },
+                        {
+                            "out": "Leroy Fer",
+                            "in": "Renato Sanches",
+                            "minute": "85"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22489",
+                "score": "2-1",
+                "away_team": "Swansea"
+            }
+        ],
+        "date": "Saturday 2 December 2017"
+    }
+]

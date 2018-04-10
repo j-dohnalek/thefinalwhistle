@@ -1,0 +1,70 @@
+[
+    {
+        "fixtures": [
+            {
+                "home_team": "Spurs",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Manuel Lanzini",
+                            "minute": "70",
+                            "scorer": "Pedro Obiang",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "Erik Lamela",
+                            "minute": "84",
+                            "scorer": "Son Heung-Min",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "20:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "87",
+                            "player": "Andy Carroll"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "90",
+                            "player": "Mark Noble"
+                        }
+                    ],
+                    "referee": "Mike Dean",
+                    "substitutions": [
+                        {
+                            "out": "Chicharito",
+                            "in": "André Ayew",
+                            "minute": "64"
+                        },
+                        {
+                            "out": "Moussa Sissoko",
+                            "in": "Erik Lamela",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Eric Dier",
+                            "in": "Victor Wanyama",
+                            "minute": "74"
+                        },
+                        {
+                            "out": "Ben Davies",
+                            "in": "Fernando Llorente",
+                            "minute": "82"
+                        },
+                        {
+                            "out": "Manuel Lanzini",
+                            "in": "Andy Carroll",
+                            "minute": "85"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22549",
+                "score": "1-1",
+                "away_team": "West Ham"
+            }
+        ],
+        "date": "Thursday 4 January 2018"
+    }
+]

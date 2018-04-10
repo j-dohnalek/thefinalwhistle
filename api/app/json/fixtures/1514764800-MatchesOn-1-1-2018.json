@@ -1,0 +1,319 @@
+[
+    {
+        "fixtures": [
+            {
+                "home_team": "Man City",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Leroy Sané",
+                            "minute": "1",
+                            "scorer": "Raheem Sterling",
+                            "own_goal": "false"
+                        },
+                        {
+                            "minute": "13",
+                            "scorer": "Christian Kabasele",
+                            "own_goal": "true"
+                        },
+                        {
+                            "minute": "63",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "André Carrillo",
+                            "minute": "82",
+                            "scorer": "Andre Gray",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "20:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "24",
+                            "player": "David Silva"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "83",
+                            "player": "Roberto Pereyra"
+                        }
+                    ],
+                    "referee": "Lee Mason",
+                    "substitutions": [
+                        {
+                            "out": "Etienne Capoue",
+                            "in": "Tom Cleverley",
+                            "minute": "61"
+                        },
+                        {
+                            "out": "Ben Watson",
+                            "in": "Roberto Pereyra",
+                            "minute": "61"
+                        },
+                        {
+                            "out": "John Stones",
+                            "in": "Danilo",
+                            "minute": "67"
+                        },
+                        {
+                            "out": "Fernandinho",
+                            "in": "Yaya Touré",
+                            "minute": "71"
+                        },
+                        {
+                            "out": "Kevin De Bruyne",
+                            "in": "Bernardo Silva",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Richarlison",
+                            "in": "Jerome Sinclair",
+                            "minute": "82"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22557",
+                "score": "3-1",
+                "away_team": "Watford"
+            },
+            {
+                "home_team": "Man City",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Leroy Sané",
+                            "minute": "1",
+                            "scorer": "Raheem Sterling",
+                            "own_goal": "false"
+                        },
+                        {
+                            "minute": "13",
+                            "scorer": "Christian Kabasele",
+                            "own_goal": "true"
+                        },
+                        {
+                            "minute": "63",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "André Carrillo",
+                            "minute": "82",
+                            "scorer": "Andre Gray",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "20:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "24",
+                            "player": "David Silva"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "83",
+                            "player": "Roberto Pereyra"
+                        }
+                    ],
+                    "referee": "Lee Mason",
+                    "substitutions": [
+                        {
+                            "out": "Etienne Capoue",
+                            "in": "Tom Cleverley",
+                            "minute": "61"
+                        },
+                        {
+                            "out": "Ben Watson",
+                            "in": "Roberto Pereyra",
+                            "minute": "61"
+                        },
+                        {
+                            "out": "John Stones",
+                            "in": "Danilo",
+                            "minute": "67"
+                        },
+                        {
+                            "out": "Fernandinho",
+                            "in": "Yaya Touré",
+                            "minute": "71"
+                        },
+                        {
+                            "out": "Kevin De Bruyne",
+                            "in": "Bernardo Silva",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Richarlison",
+                            "in": "Jerome Sinclair",
+                            "minute": "82"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22557",
+                "score": "3-1",
+                "away_team": "Watford"
+            },
+            {
+                "home_team": "Man City",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Leroy Sané",
+                            "minute": "1",
+                            "scorer": "Raheem Sterling",
+                            "own_goal": "false"
+                        },
+                        {
+                            "minute": "13",
+                            "scorer": "Christian Kabasele",
+                            "own_goal": "true"
+                        },
+                        {
+                            "minute": "63",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "André Carrillo",
+                            "minute": "82",
+                            "scorer": "Andre Gray",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "20:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "24",
+                            "player": "David Silva"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "83",
+                            "player": "Roberto Pereyra"
+                        }
+                    ],
+                    "referee": "Lee Mason",
+                    "substitutions": [
+                        {
+                            "out": "Etienne Capoue",
+                            "in": "Tom Cleverley",
+                            "minute": "61"
+                        },
+                        {
+                            "out": "Ben Watson",
+                            "in": "Roberto Pereyra",
+                            "minute": "61"
+                        },
+                        {
+                            "out": "John Stones",
+                            "in": "Danilo",
+                            "minute": "67"
+                        },
+                        {
+                            "out": "Fernandinho",
+                            "in": "Yaya Touré",
+                            "minute": "71"
+                        },
+                        {
+                            "out": "Kevin De Bruyne",
+                            "in": "Bernardo Silva",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Richarlison",
+                            "in": "Jerome Sinclair",
+                            "minute": "82"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22557",
+                "score": "3-1",
+                "away_team": "Watford"
+            },
+            {
+                "home_team": "Man City",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Leroy Sané",
+                            "minute": "1",
+                            "scorer": "Raheem Sterling",
+                            "own_goal": "false"
+                        },
+                        {
+                            "minute": "13",
+                            "scorer": "Christian Kabasele",
+                            "own_goal": "true"
+                        },
+                        {
+                            "minute": "63",
+                            "scorer": "Sergio Agüero",
+                            "own_goal": "false"
+                        },
+                        {
+                            "assist": "André Carrillo",
+                            "minute": "82",
+                            "scorer": "Andre Gray",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "20:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "24",
+                            "player": "David Silva"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "83",
+                            "player": "Roberto Pereyra"
+                        }
+                    ],
+                    "referee": "Lee Mason",
+                    "substitutions": [
+                        {
+                            "out": "Etienne Capoue",
+                            "in": "Tom Cleverley",
+                            "minute": "61"
+                        },
+                        {
+                            "out": "Ben Watson",
+                            "in": "Roberto Pereyra",
+                            "minute": "61"
+                        },
+                        {
+                            "out": "John Stones",
+                            "in": "Danilo",
+                            "minute": "67"
+                        },
+                        {
+                            "out": "Fernandinho",
+                            "in": "Yaya Touré",
+                            "minute": "71"
+                        },
+                        {
+                            "out": "Kevin De Bruyne",
+                            "in": "Bernardo Silva",
+                            "minute": "79"
+                        },
+                        {
+                            "out": "Richarlison",
+                            "in": "Jerome Sinclair",
+                            "minute": "82"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22557",
+                "score": "3-1",
+                "away_team": "Watford"
+            }
+        ],
+        "date": "Tuesday 2 January 2018"
+    }
+]

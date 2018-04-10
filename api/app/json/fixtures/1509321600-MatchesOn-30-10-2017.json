@@ -1,0 +1,415 @@
+[
+    {
+        "fixtures": [
+            {
+                "home_team": "Newcastle",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Andrew Surman",
+                            "additional": "2",
+                            "minute": "90",
+                            "scorer": "Steve Cook",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "15:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "20",
+                            "player": "Andrew Surman"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "63",
+                            "player": "Florian Lejeune"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "77",
+                            "player": "Simon Francis"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "84",
+                            "player": "Jonjo Shelvey"
+                        }
+                    ],
+                    "referee": "Paul Tierney",
+                    "substitutions": [
+                        {
+                            "out": "Jamaal Lascelles",
+                            "in": "Ciaran Clark",
+                            "minute": "55"
+                        },
+                        {
+                            "out": "Joselu",
+                            "in": "Ayoze Pérez",
+                            "minute": "68"
+                        },
+                        {
+                            "out": "Callum Wilson",
+                            "in": "Adam Smith",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Jordon Ibe",
+                            "in": "Jermain Defoe",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Christian Atsu",
+                            "in": "Jacob Murphy",
+                            "minute": "82"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22446",
+                "score": "0-1",
+                "away_team": "Bournemouth"
+            },
+            {
+                "home_team": "Newcastle",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Andrew Surman",
+                            "additional": "2",
+                            "minute": "90",
+                            "scorer": "Steve Cook",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "15:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "20",
+                            "player": "Andrew Surman"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "63",
+                            "player": "Florian Lejeune"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "77",
+                            "player": "Simon Francis"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "84",
+                            "player": "Jonjo Shelvey"
+                        }
+                    ],
+                    "referee": "Paul Tierney",
+                    "substitutions": [
+                        {
+                            "out": "Jamaal Lascelles",
+                            "in": "Ciaran Clark",
+                            "minute": "55"
+                        },
+                        {
+                            "out": "Joselu",
+                            "in": "Ayoze Pérez",
+                            "minute": "68"
+                        },
+                        {
+                            "out": "Callum Wilson",
+                            "in": "Adam Smith",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Jordon Ibe",
+                            "in": "Jermain Defoe",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Christian Atsu",
+                            "in": "Jacob Murphy",
+                            "minute": "82"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22446",
+                "score": "0-1",
+                "away_team": "Bournemouth"
+            },
+            {
+                "home_team": "Newcastle",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Andrew Surman",
+                            "additional": "2",
+                            "minute": "90",
+                            "scorer": "Steve Cook",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "15:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "20",
+                            "player": "Andrew Surman"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "63",
+                            "player": "Florian Lejeune"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "77",
+                            "player": "Simon Francis"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "84",
+                            "player": "Jonjo Shelvey"
+                        }
+                    ],
+                    "referee": "Paul Tierney",
+                    "substitutions": [
+                        {
+                            "out": "Jamaal Lascelles",
+                            "in": "Ciaran Clark",
+                            "minute": "55"
+                        },
+                        {
+                            "out": "Joselu",
+                            "in": "Ayoze Pérez",
+                            "minute": "68"
+                        },
+                        {
+                            "out": "Callum Wilson",
+                            "in": "Adam Smith",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Jordon Ibe",
+                            "in": "Jermain Defoe",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Christian Atsu",
+                            "in": "Jacob Murphy",
+                            "minute": "82"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22446",
+                "score": "0-1",
+                "away_team": "Bournemouth"
+            },
+            {
+                "home_team": "Newcastle",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Andrew Surman",
+                            "additional": "2",
+                            "minute": "90",
+                            "scorer": "Steve Cook",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "15:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "20",
+                            "player": "Andrew Surman"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "63",
+                            "player": "Florian Lejeune"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "77",
+                            "player": "Simon Francis"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "84",
+                            "player": "Jonjo Shelvey"
+                        }
+                    ],
+                    "referee": "Paul Tierney",
+                    "substitutions": [
+                        {
+                            "out": "Jamaal Lascelles",
+                            "in": "Ciaran Clark",
+                            "minute": "55"
+                        },
+                        {
+                            "out": "Joselu",
+                            "in": "Ayoze Pérez",
+                            "minute": "68"
+                        },
+                        {
+                            "out": "Callum Wilson",
+                            "in": "Adam Smith",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Jordon Ibe",
+                            "in": "Jermain Defoe",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Christian Atsu",
+                            "in": "Jacob Murphy",
+                            "minute": "82"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22446",
+                "score": "0-1",
+                "away_team": "Bournemouth"
+            },
+            {
+                "home_team": "Newcastle",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Andrew Surman",
+                            "additional": "2",
+                            "minute": "90",
+                            "scorer": "Steve Cook",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "15:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "20",
+                            "player": "Andrew Surman"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "63",
+                            "player": "Florian Lejeune"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "77",
+                            "player": "Simon Francis"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "84",
+                            "player": "Jonjo Shelvey"
+                        }
+                    ],
+                    "referee": "Paul Tierney",
+                    "substitutions": [
+                        {
+                            "out": "Jamaal Lascelles",
+                            "in": "Ciaran Clark",
+                            "minute": "55"
+                        },
+                        {
+                            "out": "Joselu",
+                            "in": "Ayoze Pérez",
+                            "minute": "68"
+                        },
+                        {
+                            "out": "Callum Wilson",
+                            "in": "Adam Smith",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Jordon Ibe",
+                            "in": "Jermain Defoe",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Christian Atsu",
+                            "in": "Jacob Murphy",
+                            "minute": "82"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22446",
+                "score": "0-1",
+                "away_team": "Bournemouth"
+            },
+            {
+                "home_team": "Newcastle",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Andrew Surman",
+                            "additional": "2",
+                            "minute": "90",
+                            "scorer": "Steve Cook",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "15:00",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "20",
+                            "player": "Andrew Surman"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "63",
+                            "player": "Florian Lejeune"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "77",
+                            "player": "Simon Francis"
+                        },
+                        {
+                            "card": "yellow",
+                            "minute": "84",
+                            "player": "Jonjo Shelvey"
+                        }
+                    ],
+                    "referee": "Paul Tierney",
+                    "substitutions": [
+                        {
+                            "out": "Jamaal Lascelles",
+                            "in": "Ciaran Clark",
+                            "minute": "55"
+                        },
+                        {
+                            "out": "Joselu",
+                            "in": "Ayoze Pérez",
+                            "minute": "68"
+                        },
+                        {
+                            "out": "Callum Wilson",
+                            "in": "Adam Smith",
+                            "minute": "75"
+                        },
+                        {
+                            "out": "Jordon Ibe",
+                            "in": "Jermain Defoe",
+                            "minute": "76"
+                        },
+                        {
+                            "out": "Christian Atsu",
+                            "in": "Jacob Murphy",
+                            "minute": "82"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22446",
+                "score": "0-1",
+                "away_team": "Bournemouth"
+            }
+        ],
+        "date": "Saturday 4 November 2017"
+    }
+]

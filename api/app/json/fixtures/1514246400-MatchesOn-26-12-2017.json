@@ -1,0 +1,64 @@
+[
+    {
+        "fixtures": [
+            {
+                "home_team": "Newcastle",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Kevin De Bruyne",
+                            "minute": "31",
+                            "scorer": "Raheem Sterling",
+                            "own_goal": "false"
+                        }
+                    ],
+                    "kick_off": "19:45",
+                    "cards": [
+                        {
+                            "card": "yellow",
+                            "minute": "75",
+                            "player": "Dwight Gayle"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "substitutions": [
+                        {
+                            "out": "Vincent Kompany",
+                            "in": "Gabriel Jesus",
+                            "minute": "11"
+                        },
+                        {
+                            "out": "Joselu",
+                            "in": "Dwight Gayle",
+                            "minute": "62"
+                        },
+                        {
+                            "out": "Rolando Aarons",
+                            "in": "Christian Atsu",
+                            "minute": "71"
+                        },
+                        {
+                            "out": "Sergio Agüero",
+                            "in": "Eliaquim Mangala",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Chancel Mbemba",
+                            "in": "Mikel Merino",
+                            "minute": "77"
+                        },
+                        {
+                            "out": "Bernardo Silva",
+                            "in": "Leroy Sané",
+                            "minute": "83"
+                        }
+                    ]
+                },
+                "url": "https://www.premierleague.com/match/22538",
+                "score": "0-1",
+                "away_team": "Man City"
+            }
+        ],
+        "date": "Wednesday 27 December 2017"
+    }
+]

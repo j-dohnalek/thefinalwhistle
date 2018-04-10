@@ -13,14 +13,14 @@ def cleanup(name):
     return name
 
 
-def main():
+def clean_file():
     """
     Iterate over each fixture and cleanup player names
     """
 
     path = 'jsondump/fixtures/'
     for f in list(os.listdir(path)):
-        filename = path+f
+        filename = path + f
         with open(filename) as json_data:
 
             matchday = json.load(json_data)
@@ -48,9 +48,19 @@ def main():
                             pass
 
             with open(filename, 'w') as outfile:
-                json.dump(matchday, outfile, ensure_ascii=False, indent=4)
+                # json.dump(matchday, outfile, ensure_ascii=False, indent=4)
                 print('Writing JSON: {}'.format(filename))
 
+def main():
+    path = 'jsondump/fixtures/'
+
+    for f in list(os.listdir(path)):
+        filename = path + f
+        with open(filename) as json_data:
+            matchday = json.load(json_data)
+            for fixtures in matchday:
+                for fixture in fixtures['fixtures']:
+                    print(fixture['details']['referee'])
 
 if __name__ == "__main__":
     main()
