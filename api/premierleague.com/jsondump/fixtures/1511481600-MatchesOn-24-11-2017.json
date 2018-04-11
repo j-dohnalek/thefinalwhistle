@@ -1,349 +1,67 @@
 [
     {
+        "date": "Friday 24 November 2017",
         "fixtures": [
             {
-                "home_team": "Liverpool",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22471",
+                "away_team": "Leicester",
                 "details": {
                     "goals": [
                         {
-                            "assist": "Alex Oxlade-Chamberlain",
-                            "minute": "65",
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false"
+                            "own_goal": "false",
+                            "minute": "8",
+                            "scorer": "Marc Albrighton",
+                            "penalty": "true"
                         },
                         {
-                            "assist": "Eden Hazard",
-                            "minute": "85",
-                            "scorer": "Willian",
-                            "own_goal": "false"
+                            "assist": "Manuel Lanzini",
+                            "own_goal": "false",
+                            "minute": "45",
+                            "scorer": "Cheikhou Kouyaté"
                         }
                     ],
-                    "kick_off": "17:30",
-                    "cards": [],
-                    "referee": "Michael Oliver",
                     "substitutions": [
                         {
-                            "out": "Daniel Sturridge",
-                            "in": "Georginio Wijnaldum",
-                            "minute": "66"
+                            "in": "André Ayew",
+                            "minute": "69",
+                            "out": "Marko Arnautovic"
                         },
                         {
-                            "out": "Daniel Drinkwater",
-                            "in": "Cesc Fàbregas",
-                            "minute": "74"
+                            "in": "Ben Chilwell",
+                            "minute": "70",
+                            "out": "Riyad Mahrez"
                         },
                         {
-                            "out": "Tiemoué Bakayoko",
-                            "in": "Pedro",
-                            "minute": "77"
+                            "in": "Islam Slimani",
+                            "minute": "90",
+                            "additional": "2",
+                            "out": "Demarai Gray"
                         },
                         {
-                            "out": "Davide Zappacosta",
-                            "in": "Willian",
-                            "minute": "83"
-                        },
-                        {
-                            "out": "Philippe Coutinho",
-                            "in": "Adam Lallana",
-                            "minute": "89"
-                        },
-                        {
-                            "out": "Alex Oxlade-Chamberlain",
-                            "in": "Sadio Mané",
-                            "minute": "89"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22465",
-                "score": "1-1",
-                "away_team": "Chelsea"
-            },
-            {
-                "home_team": "Liverpool",
-                "details": {
-                    "goals": [
-                        {
-                            "assist": "Alex Oxlade-Chamberlain",
-                            "minute": "65",
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false"
-                        },
-                        {
-                            "assist": "Eden Hazard",
-                            "minute": "85",
-                            "scorer": "Willian",
-                            "own_goal": "false"
+                            "in": "Diafra Sakho",
+                            "minute": "90",
+                            "additional": "4",
+                            "out": "Arthur Masuaku"
                         }
                     ],
-                    "kick_off": "17:30",
-                    "cards": [],
-                    "referee": "Michael Oliver",
-                    "substitutions": [
+                    "kick_off": "20:00",
+                    "cards": [
                         {
-                            "out": "Daniel Sturridge",
-                            "in": "Georginio Wijnaldum",
-                            "minute": "66"
+                            "minute": "79",
+                            "card": "yellow",
+                            "player": "André Ayew"
                         },
                         {
-                            "out": "Daniel Drinkwater",
-                            "in": "Cesc Fàbregas",
-                            "minute": "74"
-                        },
-                        {
-                            "out": "Tiemoué Bakayoko",
-                            "in": "Pedro",
-                            "minute": "77"
-                        },
-                        {
-                            "out": "Davide Zappacosta",
-                            "in": "Willian",
-                            "minute": "83"
-                        },
-                        {
-                            "out": "Philippe Coutinho",
-                            "in": "Adam Lallana",
-                            "minute": "89"
-                        },
-                        {
-                            "out": "Alex Oxlade-Chamberlain",
-                            "in": "Sadio Mané",
-                            "minute": "89"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22465",
-                "score": "1-1",
-                "away_team": "Chelsea"
-            },
-            {
-                "home_team": "Liverpool",
-                "details": {
-                    "goals": [
-                        {
-                            "assist": "Alex Oxlade-Chamberlain",
-                            "minute": "65",
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false"
-                        },
-                        {
-                            "assist": "Eden Hazard",
-                            "minute": "85",
-                            "scorer": "Willian",
-                            "own_goal": "false"
+                            "minute": "79",
+                            "card": "yellow",
+                            "player": "Demarai Gray"
                         }
                     ],
-                    "kick_off": "17:30",
-                    "cards": [],
-                    "referee": "Michael Oliver",
-                    "substitutions": [
-                        {
-                            "out": "Daniel Sturridge",
-                            "in": "Georginio Wijnaldum",
-                            "minute": "66"
-                        },
-                        {
-                            "out": "Daniel Drinkwater",
-                            "in": "Cesc Fàbregas",
-                            "minute": "74"
-                        },
-                        {
-                            "out": "Tiemoué Bakayoko",
-                            "in": "Pedro",
-                            "minute": "77"
-                        },
-                        {
-                            "out": "Davide Zappacosta",
-                            "in": "Willian",
-                            "minute": "83"
-                        },
-                        {
-                            "out": "Philippe Coutinho",
-                            "in": "Adam Lallana",
-                            "minute": "89"
-                        },
-                        {
-                            "out": "Alex Oxlade-Chamberlain",
-                            "in": "Sadio Mané",
-                            "minute": "89"
-                        }
-                    ]
+                    "referee": "Martin Atkinson"
                 },
-                "url": "https://www.premierleague.com/match/22465",
-                "score": "1-1",
-                "away_team": "Chelsea"
-            },
-            {
-                "home_team": "Liverpool",
-                "details": {
-                    "goals": [
-                        {
-                            "assist": "Alex Oxlade-Chamberlain",
-                            "minute": "65",
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false"
-                        },
-                        {
-                            "assist": "Eden Hazard",
-                            "minute": "85",
-                            "scorer": "Willian",
-                            "own_goal": "false"
-                        }
-                    ],
-                    "kick_off": "17:30",
-                    "cards": [],
-                    "referee": "Michael Oliver",
-                    "substitutions": [
-                        {
-                            "out": "Daniel Sturridge",
-                            "in": "Georginio Wijnaldum",
-                            "minute": "66"
-                        },
-                        {
-                            "out": "Daniel Drinkwater",
-                            "in": "Cesc Fàbregas",
-                            "minute": "74"
-                        },
-                        {
-                            "out": "Tiemoué Bakayoko",
-                            "in": "Pedro",
-                            "minute": "77"
-                        },
-                        {
-                            "out": "Davide Zappacosta",
-                            "in": "Willian",
-                            "minute": "83"
-                        },
-                        {
-                            "out": "Philippe Coutinho",
-                            "in": "Adam Lallana",
-                            "minute": "89"
-                        },
-                        {
-                            "out": "Alex Oxlade-Chamberlain",
-                            "in": "Sadio Mané",
-                            "minute": "89"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22465",
-                "score": "1-1",
-                "away_team": "Chelsea"
-            },
-            {
-                "home_team": "Liverpool",
-                "details": {
-                    "goals": [
-                        {
-                            "assist": "Alex Oxlade-Chamberlain",
-                            "minute": "65",
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false"
-                        },
-                        {
-                            "assist": "Eden Hazard",
-                            "minute": "85",
-                            "scorer": "Willian",
-                            "own_goal": "false"
-                        }
-                    ],
-                    "kick_off": "17:30",
-                    "cards": [],
-                    "referee": "Michael Oliver",
-                    "substitutions": [
-                        {
-                            "out": "Daniel Sturridge",
-                            "in": "Georginio Wijnaldum",
-                            "minute": "66"
-                        },
-                        {
-                            "out": "Daniel Drinkwater",
-                            "in": "Cesc Fàbregas",
-                            "minute": "74"
-                        },
-                        {
-                            "out": "Tiemoué Bakayoko",
-                            "in": "Pedro",
-                            "minute": "77"
-                        },
-                        {
-                            "out": "Davide Zappacosta",
-                            "in": "Willian",
-                            "minute": "83"
-                        },
-                        {
-                            "out": "Philippe Coutinho",
-                            "in": "Adam Lallana",
-                            "minute": "89"
-                        },
-                        {
-                            "out": "Alex Oxlade-Chamberlain",
-                            "in": "Sadio Mané",
-                            "minute": "89"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22465",
-                "score": "1-1",
-                "away_team": "Chelsea"
-            },
-            {
-                "home_team": "Liverpool",
-                "details": {
-                    "goals": [
-                        {
-                            "assist": "Alex Oxlade-Chamberlain",
-                            "minute": "65",
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false"
-                        },
-                        {
-                            "assist": "Eden Hazard",
-                            "minute": "85",
-                            "scorer": "Willian",
-                            "own_goal": "false"
-                        }
-                    ],
-                    "kick_off": "17:30",
-                    "cards": [],
-                    "referee": "Michael Oliver",
-                    "substitutions": [
-                        {
-                            "out": "Daniel Sturridge",
-                            "in": "Georginio Wijnaldum",
-                            "minute": "66"
-                        },
-                        {
-                            "out": "Daniel Drinkwater",
-                            "in": "Cesc Fàbregas",
-                            "minute": "74"
-                        },
-                        {
-                            "out": "Tiemoué Bakayoko",
-                            "in": "Pedro",
-                            "minute": "77"
-                        },
-                        {
-                            "out": "Davide Zappacosta",
-                            "in": "Willian",
-                            "minute": "83"
-                        },
-                        {
-                            "out": "Philippe Coutinho",
-                            "in": "Adam Lallana",
-                            "minute": "89"
-                        },
-                        {
-                            "out": "Alex Oxlade-Chamberlain",
-                            "in": "Sadio Mané",
-                            "minute": "89"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22465",
-                "score": "1-1",
-                "away_team": "Chelsea"
+                "home_team": "West Ham"
             }
-        ],
-        "date": "Saturday 25 November 2017"
+        ]
     }
 ]

@@ -10,7 +10,7 @@ class Person(object):
 
     # The name and surname will be stored as a single
     # value. The program will never be used to email any referees
-    name = db.Column(db.String(255), nullable=False)
+    name = db.Column(db.String(100), nullable=False)
 
 
 class ClubStaff(db.Model, Person):
@@ -37,7 +37,7 @@ class Player(db.Model, Person):
 
     player_id = db.Column(db.Integer, primary_key=True)
     shirt_number = db.Column(db.Integer, nullable=True)
-    dob = db.Column(db.Date, nullable=False)
+    dob = db.Column(db.Date, nullable=True)
 
     # UPDATE 10-04-2018 new information available to be used in the website
     position = db.Column(db.String(50), nullable=True)
@@ -52,9 +52,30 @@ class Player(db.Model, Person):
     # injured = db.Column(db.Boolean, nullable=True)
     # suspended = db.Column(db.Boolean, nullable=True)
 
+    transferred_out = db.Column(db.Boolean, nullable=True, default=False)
+
     @declared_attr
     def current_team(cls):
-        return db.Column(db.Integer, db.ForeignKey('team.team_id'), nullable=False)
+        return db.Column(db.Integer, db.ForeignKey('team.team_id'), nullable=True)
+
+
+class Transfer(db.Model):
+
+    __tablename__ = 'transfer'
+
+    transfer_id = db.Column(db.Integer, primary_key=True)
+    transfer_from = db.Column(db.String(50), nullable=False)
+    transfer_to = db.Column(db.String(50), nullable=True)
+    transfer_window_end = db.Column(db.Date, nullable=False)
+    details = db.Column(db.String(50), nullable=False)
+
+    @declared_attr
+    def player(cls):
+        return db.Column(db.Integer, db.ForeignKey('player.player_id'), nullable=False)
+
+    @declared_attr
+    def season(cls):
+        return db.Column(db.Integer, db.ForeignKey('season.season_id'), nullable=False)
 
 
 class Referee(db.Model, Person):
@@ -104,27 +125,6 @@ class Team(db.Model):
     @declared_attr
     def stadium(cls):
         return db.Column(db.Integer, db.ForeignKey('stadium.stadium_id'), nullable=False)
-
-
-class Transfer(db.Model):
-
-    __tablename__ = 'transfer'
-
-    transfer_id = db.Column(db.Integer, primary_key=True)
-    transfer_from = db.Column(db.String(50), nullable=False)
-    transfer_to = db.Column(db.String(50), nullable=False)
-
-    @declared_attr
-    def season(cls):
-        return db.Column(db.Integer, db.ForeignKey('season.season_id'), nullable=False)
-
-    @declared_attr
-    def player(cls):
-        return db.Column(db.Integer, db.ForeignKey('player.player_id'), nullable=False)
-
-    @declared_attr
-    def club_staff(cls):
-        return db.Column(db.Integer, db.ForeignKey('clubstaff.clubstaff_id'), nullable=False)
 
 
 class Match(db.Model):

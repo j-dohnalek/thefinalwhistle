@@ -1,497 +1,89 @@
 [
     {
+        "date": "Thursday 28 December 2017",
         "fixtures": [
             {
-                "home_team": "Man Utd",
+                "score": "2-3",
+                "url": "https://www.premierleague.com/match/22534",
+                "away_team": "Arsenal",
                 "details": {
-                    "goals": [],
-                    "kick_off": "17:30",
-                    "cards": [
+                    "goals": [
                         {
-                            "card": "yellow",
-                            "minute": "26",
-                            "player": "Pierre-Emile Højbjerg"
+                            "own_goal": "false",
+                            "minute": "25",
+                            "scorer": "Shkodran Mustafi",
+                            "penalty": "true"
                         },
                         {
-                            "card": "yellow",
-                            "minute": "44",
-                            "player": "Wesley Hoedt"
+                            "assist": "Wilfried Zaha",
+                            "own_goal": "false",
+                            "minute": "49",
+                            "scorer": "Andros Townsend"
                         },
                         {
-                            "card": "yellow",
-                            "minute": "58",
-                            "player": "Sofiane Boufal"
+                            "assist": "Alexandre Lacazette",
+                            "own_goal": "false",
+                            "minute": "62",
+                            "scorer": "Alexis Sánchez"
                         },
                         {
-                            "card": "yellow",
-                            "minute": "60",
-                            "player": "Jesse Lingard"
+                            "assist": "Jack Wilshere",
+                            "own_goal": "false",
+                            "minute": "66",
+                            "scorer": "Alexis Sánchez"
                         },
                         {
-                            "card": "yellow",
-                            "minute": "72",
-                            "player": "Nemanja Matic"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "80",
-                            "player": "James Ward-Prowse"
+                            "assist": "Andros Townsend",
+                            "own_goal": "false",
+                            "minute": "89",
+                            "scorer": "James Tomkins"
                         }
                     ],
-                    "referee": "Craig Pawson",
                     "substitutions": [
                         {
-                            "out": "Romelu Lukaku",
-                            "in": "Marcus Rashford",
-                            "minute": "14"
+                            "in": "James McArthur",
+                            "minute": "53",
+                            "out": "Yohan Cabaye"
                         },
                         {
-                            "out": "Henrikh Mkhitaryan",
-                            "in": "Anthony Martial",
-                            "minute": "65"
+                            "in": "Bakary Sako",
+                            "minute": "70",
+                            "out": "Ruben Loftus-Cheek"
                         },
                         {
-                            "out": "Shane Long",
-                            "in": "Manolo Gabbiadini",
-                            "minute": "80"
+                            "in": "Francis Coquelin",
+                            "minute": "75",
+                            "out": "Alexandre Lacazette"
                         },
                         {
-                            "out": "Dusan Tadic",
-                            "in": "Mario Lemina",
-                            "minute": "82"
-                        },
-                        {
-                            "out": "Sofiane Boufal",
-                            "in": "Nathan Redmond",
-                            "minute": "85"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22547",
-                "score": "0-0",
-                "away_team": "Southampton"
-            },
-            {
-                "home_team": "Man Utd",
-                "details": {
-                    "goals": [],
-                    "kick_off": "17:30",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "26",
-                            "player": "Pierre-Emile Højbjerg"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "44",
-                            "player": "Wesley Hoedt"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "58",
-                            "player": "Sofiane Boufal"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "60",
-                            "player": "Jesse Lingard"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "72",
-                            "player": "Nemanja Matic"
-                        },
-                        {
-                            "card": "yellow",
+                            "in": "Timothy Fosu-Mensah",
                             "minute": "80",
-                            "player": "James Ward-Prowse"
+                            "out": "Martin Kelly"
+                        },
+                        {
+                            "in": "Ainsley Maitland-Niles",
+                            "minute": "87",
+                            "out": "Granit Xhaka"
                         }
                     ],
-                    "referee": "Craig Pawson",
-                    "substitutions": [
-                        {
-                            "out": "Romelu Lukaku",
-                            "in": "Marcus Rashford",
-                            "minute": "14"
-                        },
-                        {
-                            "out": "Henrikh Mkhitaryan",
-                            "in": "Anthony Martial",
-                            "minute": "65"
-                        },
-                        {
-                            "out": "Shane Long",
-                            "in": "Manolo Gabbiadini",
-                            "minute": "80"
-                        },
-                        {
-                            "out": "Dusan Tadic",
-                            "in": "Mario Lemina",
-                            "minute": "82"
-                        },
-                        {
-                            "out": "Sofiane Boufal",
-                            "in": "Nathan Redmond",
-                            "minute": "85"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22547",
-                "score": "0-0",
-                "away_team": "Southampton"
-            },
-            {
-                "home_team": "Man Utd",
-                "details": {
-                    "goals": [],
-                    "kick_off": "17:30",
+                    "kick_off": "20:00",
                     "cards": [
                         {
+                            "minute": "29",
                             "card": "yellow",
-                            "minute": "26",
-                            "player": "Pierre-Emile Højbjerg"
+                            "player": "Calum Chambers"
                         },
                         {
+                            "minute": "45",
                             "card": "yellow",
-                            "minute": "44",
-                            "player": "Wesley Hoedt"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "58",
-                            "player": "Sofiane Boufal"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "60",
-                            "player": "Jesse Lingard"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "72",
-                            "player": "Nemanja Matic"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "80",
-                            "player": "James Ward-Prowse"
+                            "additional": "2",
+                            "player": "Wilfried Zaha"
                         }
                     ],
-                    "referee": "Craig Pawson",
-                    "substitutions": [
-                        {
-                            "out": "Romelu Lukaku",
-                            "in": "Marcus Rashford",
-                            "minute": "14"
-                        },
-                        {
-                            "out": "Henrikh Mkhitaryan",
-                            "in": "Anthony Martial",
-                            "minute": "65"
-                        },
-                        {
-                            "out": "Shane Long",
-                            "in": "Manolo Gabbiadini",
-                            "minute": "80"
-                        },
-                        {
-                            "out": "Dusan Tadic",
-                            "in": "Mario Lemina",
-                            "minute": "82"
-                        },
-                        {
-                            "out": "Sofiane Boufal",
-                            "in": "Nathan Redmond",
-                            "minute": "85"
-                        }
-                    ]
+                    "referee": "Michael Oliver"
                 },
-                "url": "https://www.premierleague.com/match/22547",
-                "score": "0-0",
-                "away_team": "Southampton"
-            },
-            {
-                "home_team": "Man Utd",
-                "details": {
-                    "goals": [],
-                    "kick_off": "17:30",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "26",
-                            "player": "Pierre-Emile Højbjerg"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "44",
-                            "player": "Wesley Hoedt"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "58",
-                            "player": "Sofiane Boufal"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "60",
-                            "player": "Jesse Lingard"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "72",
-                            "player": "Nemanja Matic"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "80",
-                            "player": "James Ward-Prowse"
-                        }
-                    ],
-                    "referee": "Craig Pawson",
-                    "substitutions": [
-                        {
-                            "out": "Romelu Lukaku",
-                            "in": "Marcus Rashford",
-                            "minute": "14"
-                        },
-                        {
-                            "out": "Henrikh Mkhitaryan",
-                            "in": "Anthony Martial",
-                            "minute": "65"
-                        },
-                        {
-                            "out": "Shane Long",
-                            "in": "Manolo Gabbiadini",
-                            "minute": "80"
-                        },
-                        {
-                            "out": "Dusan Tadic",
-                            "in": "Mario Lemina",
-                            "minute": "82"
-                        },
-                        {
-                            "out": "Sofiane Boufal",
-                            "in": "Nathan Redmond",
-                            "minute": "85"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22547",
-                "score": "0-0",
-                "away_team": "Southampton"
-            },
-            {
-                "home_team": "Man Utd",
-                "details": {
-                    "goals": [],
-                    "kick_off": "17:30",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "26",
-                            "player": "Pierre-Emile Højbjerg"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "44",
-                            "player": "Wesley Hoedt"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "58",
-                            "player": "Sofiane Boufal"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "60",
-                            "player": "Jesse Lingard"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "72",
-                            "player": "Nemanja Matic"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "80",
-                            "player": "James Ward-Prowse"
-                        }
-                    ],
-                    "referee": "Craig Pawson",
-                    "substitutions": [
-                        {
-                            "out": "Romelu Lukaku",
-                            "in": "Marcus Rashford",
-                            "minute": "14"
-                        },
-                        {
-                            "out": "Henrikh Mkhitaryan",
-                            "in": "Anthony Martial",
-                            "minute": "65"
-                        },
-                        {
-                            "out": "Shane Long",
-                            "in": "Manolo Gabbiadini",
-                            "minute": "80"
-                        },
-                        {
-                            "out": "Dusan Tadic",
-                            "in": "Mario Lemina",
-                            "minute": "82"
-                        },
-                        {
-                            "out": "Sofiane Boufal",
-                            "in": "Nathan Redmond",
-                            "minute": "85"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22547",
-                "score": "0-0",
-                "away_team": "Southampton"
-            },
-            {
-                "home_team": "Man Utd",
-                "details": {
-                    "goals": [],
-                    "kick_off": "17:30",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "26",
-                            "player": "Pierre-Emile Højbjerg"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "44",
-                            "player": "Wesley Hoedt"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "58",
-                            "player": "Sofiane Boufal"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "60",
-                            "player": "Jesse Lingard"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "72",
-                            "player": "Nemanja Matic"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "80",
-                            "player": "James Ward-Prowse"
-                        }
-                    ],
-                    "referee": "Craig Pawson",
-                    "substitutions": [
-                        {
-                            "out": "Romelu Lukaku",
-                            "in": "Marcus Rashford",
-                            "minute": "14"
-                        },
-                        {
-                            "out": "Henrikh Mkhitaryan",
-                            "in": "Anthony Martial",
-                            "minute": "65"
-                        },
-                        {
-                            "out": "Shane Long",
-                            "in": "Manolo Gabbiadini",
-                            "minute": "80"
-                        },
-                        {
-                            "out": "Dusan Tadic",
-                            "in": "Mario Lemina",
-                            "minute": "82"
-                        },
-                        {
-                            "out": "Sofiane Boufal",
-                            "in": "Nathan Redmond",
-                            "minute": "85"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22547",
-                "score": "0-0",
-                "away_team": "Southampton"
-            },
-            {
-                "home_team": "Man Utd",
-                "details": {
-                    "goals": [],
-                    "kick_off": "17:30",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "26",
-                            "player": "Pierre-Emile Højbjerg"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "44",
-                            "player": "Wesley Hoedt"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "58",
-                            "player": "Sofiane Boufal"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "60",
-                            "player": "Jesse Lingard"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "72",
-                            "player": "Nemanja Matic"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "80",
-                            "player": "James Ward-Prowse"
-                        }
-                    ],
-                    "referee": "Craig Pawson",
-                    "substitutions": [
-                        {
-                            "out": "Romelu Lukaku",
-                            "in": "Marcus Rashford",
-                            "minute": "14"
-                        },
-                        {
-                            "out": "Henrikh Mkhitaryan",
-                            "in": "Anthony Martial",
-                            "minute": "65"
-                        },
-                        {
-                            "out": "Shane Long",
-                            "in": "Manolo Gabbiadini",
-                            "minute": "80"
-                        },
-                        {
-                            "out": "Dusan Tadic",
-                            "in": "Mario Lemina",
-                            "minute": "82"
-                        },
-                        {
-                            "out": "Sofiane Boufal",
-                            "in": "Nathan Redmond",
-                            "minute": "85"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22547",
-                "score": "0-0",
-                "away_team": "Southampton"
+                "home_team": "Crystal Palace"
             }
-        ],
-        "date": "Saturday 30 December 2017"
+        ]
     }
 ]

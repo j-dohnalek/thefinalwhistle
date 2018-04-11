@@ -4,161 +4,161 @@
         "fixtures": [
             {
                 "score": "3-2",
-                "home_team": "Arsenal",
+                "url": "https://www.premierleague.com/match/22662",
+                "away_team": "Southampton",
                 "details": {
-                    "cards": [
-                        {
-                            "minute": "50",
-                            "player": "Héctor Bellerín",
-                            "card": "yellow"
-                        },
-                        {
-                            "minute": "90",
-                            "player": "Jack Wilshere",
-                            "card": "yellow",
-                            "additional": "2"
-                        },
-                        {
-                            "minute": "90",
-                            "player": "Jack Stephens",
-                            "card": "red",
-                            "additional": "2"
-                        },
-                        {
-                            "minute": "90",
-                            "player": "Mohamed Elneny",
-                            "card": "red",
-                            "additional": "3"
-                        },
-                        {
-                            "minute": "90",
-                            "player": "Wesley Hoedt",
-                            "card": "yellow",
-                            "additional": "6"
-                        }
-                    ],
-                    "kick_off": "14:15",
                     "goals": [
                         {
-                            "scorer": "Shane Long",
+                            "assist": "Cédric Soares",
                             "own_goal": "false",
                             "minute": "17",
-                            "assist": "Cédric Soares"
+                            "scorer": "Shane Long"
                         },
                         {
-                            "scorer": "Pierre-Emerick Aubameyang",
+                            "assist": "Danny Welbeck",
                             "own_goal": "false",
                             "minute": "28",
-                            "assist": "Danny Welbeck"
+                            "scorer": "Pierre-Emerick Aubameyang"
                         },
                         {
-                            "scorer": "Danny Welbeck",
+                            "assist": "Alex Iwobi",
                             "own_goal": "false",
                             "minute": "38",
-                            "assist": "Alex Iwobi"
+                            "scorer": "Danny Welbeck"
                         },
                         {
-                            "scorer": "Charlie Austin",
+                            "assist": "Cédric Soares",
                             "own_goal": "false",
                             "minute": "73",
-                            "assist": "Cédric Soares"
+                            "scorer": "Charlie Austin"
                         },
                         {
-                            "scorer": "Danny Welbeck",
+                            "assist": "Alex Iwobi",
                             "own_goal": "false",
                             "minute": "81",
-                            "assist": "Alex Iwobi"
+                            "scorer": "Danny Welbeck"
                         }
                     ],
-                    "referee": "Andre Marriner",
                     "substitutions": [
                         {
-                            "minute": "64",
                             "in": "Jack Wilshere",
+                            "minute": "64",
                             "out": "Reiss Nelson"
                         },
                         {
-                            "minute": "71",
                             "in": "Alexandre Lacazette",
+                            "minute": "71",
                             "out": "Pierre-Emerick Aubameyang"
                         },
                         {
-                            "minute": "72",
                             "in": "Charlie Austin",
+                            "minute": "72",
                             "out": "Maya Yoshida"
                         },
                         {
-                            "minute": "74",
                             "in": "Rob Holding",
+                            "minute": "74",
                             "out": "Héctor Bellerín"
                         },
                         {
-                            "minute": "80",
                             "in": "Josh Sims",
+                            "minute": "80",
                             "out": "Shane Long"
                         }
-                    ]
+                    ],
+                    "kick_off": "14:15",
+                    "cards": [
+                        {
+                            "minute": "50",
+                            "card": "yellow",
+                            "player": "Héctor Bellerín"
+                        },
+                        {
+                            "minute": "90",
+                            "card": "yellow",
+                            "additional": "2",
+                            "player": "Jack Wilshere"
+                        },
+                        {
+                            "minute": "90",
+                            "card": "red",
+                            "additional": "2",
+                            "player": "Jack Stephens"
+                        },
+                        {
+                            "minute": "90",
+                            "card": "red",
+                            "additional": "3",
+                            "player": "Mohamed Elneny"
+                        },
+                        {
+                            "minute": "90",
+                            "card": "yellow",
+                            "additional": "6",
+                            "player": "Wesley Hoedt"
+                        }
+                    ],
+                    "referee": "Andre Marriner"
                 },
-                "away_team": "Southampton",
-                "url": "https://www.premierleague.com/match/22662"
+                "home_team": "Arsenal"
             },
             {
                 "score": "1-1",
-                "home_team": "Chelsea",
+                "url": "https://www.premierleague.com/match/22665",
+                "away_team": "West Ham",
                 "details": {
-                    "cards": [
-                        {
-                            "minute": "46",
-                            "player": "Mark Noble",
-                            "card": "yellow"
-                        }
-                    ],
-                    "kick_off": "16:30",
                     "goals": [
                         {
-                            "scorer": "César Azpilicueta",
+                            "assist": "Álvaro Morata",
                             "own_goal": "false",
                             "minute": "36",
-                            "assist": "Álvaro Morata"
+                            "scorer": "César Azpilicueta"
                         },
                         {
-                            "scorer": "Chicharito",
+                            "assist": "Marko Arnautovic",
                             "own_goal": "false",
                             "minute": "73",
-                            "assist": "Marko Arnautovic"
+                            "scorer": "Chicharito"
                         }
                     ],
-                    "referee": "Kevin Friend",
                     "substitutions": [
                         {
-                            "minute": "64",
                             "in": "Patrice Evra",
+                            "minute": "64",
                             "out": "Aaron Cresswell"
                         },
                         {
-                            "minute": "70",
                             "in": "Chicharito",
+                            "minute": "70",
                             "out": "Edimilson Fernandes"
                         },
                         {
-                            "minute": "78",
                             "in": "Olivier Giroud",
+                            "minute": "78",
                             "out": "Álvaro Morata"
                         },
                         {
-                            "minute": "78",
                             "in": "Pedro",
+                            "minute": "78",
                             "out": "Victor Moses"
                         },
                         {
-                            "minute": "85",
                             "in": "Josh Cullen",
+                            "minute": "85",
                             "out": "João Mário"
                         }
-                    ]
+                    ],
+                    "kick_off": "16:30",
+                    "cards": [
+                        {
+                            "minute": "46",
+                            "card": "yellow",
+                            "player": "Mark Noble"
+                        }
+                    ],
+                    "referee": "Kevin Friend"
                 },
-                "away_team": "West Ham",
-                "url": "https://www.premierleague.com/match/22665"
+                "home_team": "Chelsea"
             }
         ]
     }

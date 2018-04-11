@@ -1,364 +1,219 @@
 [
     {
+        "date": "Tuesday 12 December 2017",
         "fixtures": [
             {
-                "home_team": "Liverpool",
+                "score": "1-0",
+                "url": "https://www.premierleague.com/match/22502",
+                "away_team": "Stoke",
                 "details": {
-                    "goals": [],
-                    "kick_off": "20:00",
-                    "cards": [
+                    "goals": [
                         {
-                            "card": "yellow",
-                            "minute": "68",
-                            "player": "Emre Can"
-                        },
-                        {
-                            "additional": "2",
-                            "card": "yellow",
-                            "minute": "90",
-                            "player": "Sam Field"
+                            "assist": "Scott Arfield",
+                            "own_goal": "false",
+                            "minute": "89",
+                            "scorer": "Ashley Barnes"
                         }
                     ],
-                    "referee": "Paul Tierney",
                     "substitutions": [
                         {
-                            "out": "Hal Robson-Kanu",
-                            "in": "Jay Rodriguez",
-                            "minute": "71"
+                            "in": "Charlie Taylor",
+                            "minute": "41",
+                            "out": "Stephen Ward"
                         },
                         {
-                            "out": "Georginio Wijnaldum",
-                            "in": "Alex Oxlade-Chamberlain",
-                            "minute": "76"
+                            "in": "Kevin Wimmer",
+                            "minute": "66",
+                            "out": "Kurt Zouma"
                         },
                         {
-                            "out": "Sadio Mané",
-                            "in": "Dominic Solanke",
-                            "minute": "76"
+                            "in": "Ashley Barnes",
+                            "minute": "71",
+                            "out": "Jeff Hendrick"
                         },
                         {
-                            "out": "Grzegorz Krychowiak",
-                            "in": "Chris Brunt",
-                            "minute": "79"
+                            "in": "Sam Vokes",
+                            "minute": "82",
+                            "out": "Chris Wood"
                         },
                         {
-                            "out": "Trent Alexander-Arnold",
-                            "in": "Joseph Gomez",
-                            "minute": "80"
+                            "in": "Eric Maxim Choupo-Moting",
+                            "minute": "84",
+                            "out": "Xherdan Shaqiri"
                         }
-                    ]
+                    ],
+                    "kick_off": "19:45",
+                    "cards": [],
+                    "referee": "Mike Jones"
                 },
-                "url": "https://www.premierleague.com/match/22508",
-                "score": "0-0",
-                "away_team": "West Brom"
+                "home_team": "Burnley"
             },
             {
-                "home_team": "Liverpool",
+                "score": "1-3",
+                "url": "https://www.premierleague.com/match/22504",
+                "away_team": "Chelsea",
                 "details": {
-                    "goals": [],
-                    "kick_off": "20:00",
-                    "cards": [
+                    "goals": [
                         {
-                            "card": "yellow",
-                            "minute": "68",
-                            "player": "Emre Can"
+                            "assist": "Willian",
+                            "own_goal": "false",
+                            "minute": "23",
+                            "scorer": "Tiemoué Bakayoko"
                         },
                         {
-                            "additional": "2",
-                            "card": "yellow",
+                            "assist": "Marcos Alonso",
+                            "own_goal": "false",
+                            "minute": "43",
+                            "scorer": "Willian"
+                        },
+                        {
+                            "assist": "Willian",
+                            "own_goal": "false",
+                            "minute": "50",
+                            "scorer": "Pedro"
+                        },
+                        {
+                            "assist": "Florent Hadergjonaj",
+                            "own_goal": "false",
                             "minute": "90",
-                            "player": "Sam Field"
+                            "additional": "2",
+                            "scorer": "Laurent Depoitre"
                         }
                     ],
-                    "referee": "Paul Tierney",
                     "substitutions": [
                         {
-                            "out": "Hal Robson-Kanu",
-                            "in": "Jay Rodriguez",
-                            "minute": "71"
+                            "in": "Dean Whitehead",
+                            "minute": "45",
+                            "out": "Jonathan Hogg"
                         },
                         {
-                            "out": "Georginio Wijnaldum",
-                            "in": "Alex Oxlade-Chamberlain",
-                            "minute": "76"
+                            "in": "Florent Hadergjonaj",
+                            "minute": "67",
+                            "out": "Chris Löwe"
                         },
                         {
-                            "out": "Sadio Mané",
-                            "in": "Dominic Solanke",
-                            "minute": "76"
+                            "in": "Michy Batshuayi",
+                            "minute": "69",
+                            "out": "Eden Hazard"
                         },
                         {
-                            "out": "Grzegorz Krychowiak",
-                            "in": "Chris Brunt",
-                            "minute": "79"
+                            "in": "Daniel Drinkwater",
+                            "minute": "71",
+                            "out": "N'Golo Kanté"
                         },
                         {
-                            "out": "Trent Alexander-Arnold",
-                            "in": "Joseph Gomez",
-                            "minute": "80"
+                            "in": "Laurent Depoitre",
+                            "minute": "74",
+                            "out": "Steve Mounie"
+                        },
+                        {
+                            "in": "Ethan Ampadu",
+                            "minute": "80",
+                            "out": "Andreas Christensen"
                         }
-                    ]
+                    ],
+                    "kick_off": "20:00",
+                    "cards": [],
+                    "referee": "Andre Marriner"
                 },
-                "url": "https://www.premierleague.com/match/22508",
-                "score": "0-0",
-                "away_team": "West Brom"
+                "home_team": "Huddersfield"
             },
             {
-                "home_team": "Liverpool",
+                "score": "2-1",
+                "url": "https://www.premierleague.com/match/22503",
+                "away_team": "Watford",
                 "details": {
-                    "goals": [],
+                    "goals": [
+                        {
+                            "assist": "Richarlison",
+                            "own_goal": "false",
+                            "minute": "3",
+                            "scorer": "Daryl Janmaat"
+                        },
+                        {
+                            "own_goal": "false",
+                            "minute": "89",
+                            "scorer": "Bakary Sako",
+                            "penalty": "true"
+                        },
+                        {
+                            "own_goal": "false",
+                            "minute": "90",
+                            "additional": "2",
+                            "penalty": "true",
+                            "scorer": "James McArthur"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "in": "Patrick van Aanholt",
+                            "minute": "67",
+                            "out": "Andros Townsend"
+                        },
+                        {
+                            "in": "Bakary Sako",
+                            "minute": "70",
+                            "out": "Timothy Fosu-Mensah"
+                        },
+                        {
+                            "in": "Roberto Pereyra",
+                            "minute": "71",
+                            "out": "André Carrillo"
+                        },
+                        {
+                            "in": "James McArthur",
+                            "minute": "77",
+                            "out": "Yohan Cabaye"
+                        },
+                        {
+                            "in": "Andre Gray",
+                            "minute": "80",
+                            "out": "Troy Deeney"
+                        },
+                        {
+                            "in": "Kiko Femenía",
+                            "minute": "84",
+                            "out": "Richarlison"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "6",
+                            "out": "Kiko Femenía"
+                        }
+                    ],
                     "kick_off": "20:00",
                     "cards": [
                         {
+                            "minute": "63",
                             "card": "yellow",
-                            "minute": "68",
-                            "player": "Emre Can"
+                            "player": "Luka Milivojevic"
                         },
                         {
-                            "additional": "2",
+                            "minute": "78",
                             "card": "yellow",
+                            "player": "Tom Cleverley"
+                        },
+                        {
+                            "minute": "85",
+                            "card": "yellow",
+                            "player": "Patrick van Aanholt"
+                        },
+                        {
+                            "minute": "87",
+                            "card": "red",
+                            "player": "Tom Cleverley"
+                        },
+                        {
                             "minute": "90",
-                            "player": "Sam Field"
+                            "card": "yellow",
+                            "additional": "1",
+                            "player": "Roberto Pereyra"
                         }
                     ],
-                    "referee": "Paul Tierney",
-                    "substitutions": [
-                        {
-                            "out": "Hal Robson-Kanu",
-                            "in": "Jay Rodriguez",
-                            "minute": "71"
-                        },
-                        {
-                            "out": "Georginio Wijnaldum",
-                            "in": "Alex Oxlade-Chamberlain",
-                            "minute": "76"
-                        },
-                        {
-                            "out": "Sadio Mané",
-                            "in": "Dominic Solanke",
-                            "minute": "76"
-                        },
-                        {
-                            "out": "Grzegorz Krychowiak",
-                            "in": "Chris Brunt",
-                            "minute": "79"
-                        },
-                        {
-                            "out": "Trent Alexander-Arnold",
-                            "in": "Joseph Gomez",
-                            "minute": "80"
-                        }
-                    ]
+                    "referee": "Lee Mason"
                 },
-                "url": "https://www.premierleague.com/match/22508",
-                "score": "0-0",
-                "away_team": "West Brom"
-            },
-            {
-                "home_team": "Liverpool",
-                "details": {
-                    "goals": [],
-                    "kick_off": "20:00",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "68",
-                            "player": "Emre Can"
-                        },
-                        {
-                            "additional": "2",
-                            "card": "yellow",
-                            "minute": "90",
-                            "player": "Sam Field"
-                        }
-                    ],
-                    "referee": "Paul Tierney",
-                    "substitutions": [
-                        {
-                            "out": "Hal Robson-Kanu",
-                            "in": "Jay Rodriguez",
-                            "minute": "71"
-                        },
-                        {
-                            "out": "Georginio Wijnaldum",
-                            "in": "Alex Oxlade-Chamberlain",
-                            "minute": "76"
-                        },
-                        {
-                            "out": "Sadio Mané",
-                            "in": "Dominic Solanke",
-                            "minute": "76"
-                        },
-                        {
-                            "out": "Grzegorz Krychowiak",
-                            "in": "Chris Brunt",
-                            "minute": "79"
-                        },
-                        {
-                            "out": "Trent Alexander-Arnold",
-                            "in": "Joseph Gomez",
-                            "minute": "80"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22508",
-                "score": "0-0",
-                "away_team": "West Brom"
-            },
-            {
-                "home_team": "Liverpool",
-                "details": {
-                    "goals": [],
-                    "kick_off": "20:00",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "68",
-                            "player": "Emre Can"
-                        },
-                        {
-                            "additional": "2",
-                            "card": "yellow",
-                            "minute": "90",
-                            "player": "Sam Field"
-                        }
-                    ],
-                    "referee": "Paul Tierney",
-                    "substitutions": [
-                        {
-                            "out": "Hal Robson-Kanu",
-                            "in": "Jay Rodriguez",
-                            "minute": "71"
-                        },
-                        {
-                            "out": "Georginio Wijnaldum",
-                            "in": "Alex Oxlade-Chamberlain",
-                            "minute": "76"
-                        },
-                        {
-                            "out": "Sadio Mané",
-                            "in": "Dominic Solanke",
-                            "minute": "76"
-                        },
-                        {
-                            "out": "Grzegorz Krychowiak",
-                            "in": "Chris Brunt",
-                            "minute": "79"
-                        },
-                        {
-                            "out": "Trent Alexander-Arnold",
-                            "in": "Joseph Gomez",
-                            "minute": "80"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22508",
-                "score": "0-0",
-                "away_team": "West Brom"
-            },
-            {
-                "home_team": "Liverpool",
-                "details": {
-                    "goals": [],
-                    "kick_off": "20:00",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "68",
-                            "player": "Emre Can"
-                        },
-                        {
-                            "additional": "2",
-                            "card": "yellow",
-                            "minute": "90",
-                            "player": "Sam Field"
-                        }
-                    ],
-                    "referee": "Paul Tierney",
-                    "substitutions": [
-                        {
-                            "out": "Hal Robson-Kanu",
-                            "in": "Jay Rodriguez",
-                            "minute": "71"
-                        },
-                        {
-                            "out": "Georginio Wijnaldum",
-                            "in": "Alex Oxlade-Chamberlain",
-                            "minute": "76"
-                        },
-                        {
-                            "out": "Sadio Mané",
-                            "in": "Dominic Solanke",
-                            "minute": "76"
-                        },
-                        {
-                            "out": "Grzegorz Krychowiak",
-                            "in": "Chris Brunt",
-                            "minute": "79"
-                        },
-                        {
-                            "out": "Trent Alexander-Arnold",
-                            "in": "Joseph Gomez",
-                            "minute": "80"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22508",
-                "score": "0-0",
-                "away_team": "West Brom"
-            },
-            {
-                "home_team": "Liverpool",
-                "details": {
-                    "goals": [],
-                    "kick_off": "20:00",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "68",
-                            "player": "Emre Can"
-                        },
-                        {
-                            "additional": "2",
-                            "card": "yellow",
-                            "minute": "90",
-                            "player": "Sam Field"
-                        }
-                    ],
-                    "referee": "Paul Tierney",
-                    "substitutions": [
-                        {
-                            "out": "Hal Robson-Kanu",
-                            "in": "Jay Rodriguez",
-                            "minute": "71"
-                        },
-                        {
-                            "out": "Georginio Wijnaldum",
-                            "in": "Alex Oxlade-Chamberlain",
-                            "minute": "76"
-                        },
-                        {
-                            "out": "Sadio Mané",
-                            "in": "Dominic Solanke",
-                            "minute": "76"
-                        },
-                        {
-                            "out": "Grzegorz Krychowiak",
-                            "in": "Chris Brunt",
-                            "minute": "79"
-                        },
-                        {
-                            "out": "Trent Alexander-Arnold",
-                            "in": "Joseph Gomez",
-                            "minute": "80"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22508",
-                "score": "0-0",
-                "away_team": "West Brom"
+                "home_team": "Crystal Palace"
             }
-        ],
-        "date": "Wednesday 13 December 2017"
+        ]
     }
 ]

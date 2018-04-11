@@ -1,655 +1,94 @@
 [
     {
+        "date": "Friday 22 December 2017",
         "fixtures": [
             {
-                "home_team": "Swansea",
+                "score": "3-3",
+                "url": "https://www.premierleague.com/match/22522",
+                "away_team": "Liverpool",
                 "details": {
                     "goals": [
                         {
-                            "assist": "Tom Carroll",
-                            "minute": "77",
-                            "scorer": "Jordan Ayew",
-                            "own_goal": "false"
+                            "own_goal": "false",
+                            "minute": "26",
+                            "scorer": "Philippe Coutinho",
+                            "penalty": "true"
+                        },
+                        {
+                            "assist": "Roberto Firmino",
+                            "own_goal": "false",
+                            "minute": "52",
+                            "scorer": "Mohamed Salah"
+                        },
+                        {
+                            "assist": "Héctor Bellerín",
+                            "own_goal": "false",
+                            "minute": "53",
+                            "scorer": "Alexis Sánchez"
+                        },
+                        {
+                            "assist": "Alex Iwobi",
+                            "own_goal": "false",
+                            "minute": "56",
+                            "scorer": "Granit Xhaka"
+                        },
+                        {
+                            "assist": "Alexandre Lacazette",
+                            "own_goal": "false",
+                            "minute": "58",
+                            "scorer": "Mesut Özil"
+                        },
+                        {
+                            "assist": "Emre Can",
+                            "own_goal": "false",
+                            "minute": "71",
+                            "scorer": "Roberto Firmino"
                         }
                     ],
-                    "kick_off": "15:00",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "32",
-                            "player": "Federico Fernández"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "34",
-                            "player": "Wilfried Zaha"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "51",
-                            "player": "James McArthur"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "62",
-                            "player": "Luka Milivojevic"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "85",
-                            "player": "Roque Mesa"
-                        }
-                    ],
-                    "referee": "Craig Pawson",
                     "substitutions": [
                         {
-                            "out": "Luciano Narsingh",
-                            "in": "Jordan Ayew",
-                            "minute": "66"
+                            "in": "James Milner",
+                            "minute": "13",
+                            "out": "Jordan Henderson"
                         },
                         {
-                            "out": "Yohan Cabaye",
-                            "in": "Bakary Sako",
-                            "minute": "76"
+                            "in": "Shkodran Mustafi",
+                            "minute": "45",
+                            "out": "Nacho Monreal"
                         },
                         {
-                            "out": "Kyle Naughton",
-                            "in": "Angel Rangel",
-                            "minute": "80"
+                            "in": "Danny Welbeck",
+                            "minute": "78",
+                            "out": "Alex Iwobi"
                         },
                         {
-                            "out": "Andros Townsend",
-                            "in": "Patrick van Aanholt",
-                            "minute": "85"
+                            "in": "Georginio Wijnaldum",
+                            "minute": "80",
+                            "out": "Sadio Mané"
                         },
                         {
-                            "out": "Roque Mesa",
-                            "in": "Jay Fulton",
-                            "minute": "89"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22530",
-                "score": "1-1",
-                "away_team": "Crystal Palace"
-            },
-            {
-                "home_team": "Swansea",
-                "details": {
-                    "goals": [
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "84",
+                            "out": "Philippe Coutinho"
+                        },
                         {
-                            "assist": "Tom Carroll",
-                            "minute": "77",
-                            "scorer": "Jordan Ayew",
-                            "own_goal": "false"
+                            "in": "Theo Walcott",
+                            "minute": "89",
+                            "out": "Alexis Sánchez"
                         }
                     ],
-                    "kick_off": "15:00",
+                    "kick_off": "19:45",
                     "cards": [
                         {
+                            "minute": "58",
                             "card": "yellow",
-                            "minute": "32",
-                            "player": "Federico Fernández"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "34",
-                            "player": "Wilfried Zaha"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "51",
-                            "player": "James McArthur"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "62",
-                            "player": "Luka Milivojevic"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "85",
-                            "player": "Roque Mesa"
+                            "player": "Alex Iwobi"
                         }
                     ],
-                    "referee": "Craig Pawson",
-                    "substitutions": [
-                        {
-                            "out": "Luciano Narsingh",
-                            "in": "Jordan Ayew",
-                            "minute": "66"
-                        },
-                        {
-                            "out": "Yohan Cabaye",
-                            "in": "Bakary Sako",
-                            "minute": "76"
-                        },
-                        {
-                            "out": "Kyle Naughton",
-                            "in": "Angel Rangel",
-                            "minute": "80"
-                        },
-                        {
-                            "out": "Andros Townsend",
-                            "in": "Patrick van Aanholt",
-                            "minute": "85"
-                        },
-                        {
-                            "out": "Roque Mesa",
-                            "in": "Jay Fulton",
-                            "minute": "89"
-                        }
-                    ]
+                    "referee": "Martin Atkinson"
                 },
-                "url": "https://www.premierleague.com/match/22530",
-                "score": "1-1",
-                "away_team": "Crystal Palace"
-            },
-            {
-                "home_team": "Swansea",
-                "details": {
-                    "goals": [
-                        {
-                            "assist": "Tom Carroll",
-                            "minute": "77",
-                            "scorer": "Jordan Ayew",
-                            "own_goal": "false"
-                        }
-                    ],
-                    "kick_off": "15:00",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "32",
-                            "player": "Federico Fernández"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "34",
-                            "player": "Wilfried Zaha"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "51",
-                            "player": "James McArthur"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "62",
-                            "player": "Luka Milivojevic"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "85",
-                            "player": "Roque Mesa"
-                        }
-                    ],
-                    "referee": "Craig Pawson",
-                    "substitutions": [
-                        {
-                            "out": "Luciano Narsingh",
-                            "in": "Jordan Ayew",
-                            "minute": "66"
-                        },
-                        {
-                            "out": "Yohan Cabaye",
-                            "in": "Bakary Sako",
-                            "minute": "76"
-                        },
-                        {
-                            "out": "Kyle Naughton",
-                            "in": "Angel Rangel",
-                            "minute": "80"
-                        },
-                        {
-                            "out": "Andros Townsend",
-                            "in": "Patrick van Aanholt",
-                            "minute": "85"
-                        },
-                        {
-                            "out": "Roque Mesa",
-                            "in": "Jay Fulton",
-                            "minute": "89"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22530",
-                "score": "1-1",
-                "away_team": "Crystal Palace"
-            },
-            {
-                "home_team": "Swansea",
-                "details": {
-                    "goals": [
-                        {
-                            "assist": "Tom Carroll",
-                            "minute": "77",
-                            "scorer": "Jordan Ayew",
-                            "own_goal": "false"
-                        }
-                    ],
-                    "kick_off": "15:00",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "32",
-                            "player": "Federico Fernández"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "34",
-                            "player": "Wilfried Zaha"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "51",
-                            "player": "James McArthur"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "62",
-                            "player": "Luka Milivojevic"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "85",
-                            "player": "Roque Mesa"
-                        }
-                    ],
-                    "referee": "Craig Pawson",
-                    "substitutions": [
-                        {
-                            "out": "Luciano Narsingh",
-                            "in": "Jordan Ayew",
-                            "minute": "66"
-                        },
-                        {
-                            "out": "Yohan Cabaye",
-                            "in": "Bakary Sako",
-                            "minute": "76"
-                        },
-                        {
-                            "out": "Kyle Naughton",
-                            "in": "Angel Rangel",
-                            "minute": "80"
-                        },
-                        {
-                            "out": "Andros Townsend",
-                            "in": "Patrick van Aanholt",
-                            "minute": "85"
-                        },
-                        {
-                            "out": "Roque Mesa",
-                            "in": "Jay Fulton",
-                            "minute": "89"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22530",
-                "score": "1-1",
-                "away_team": "Crystal Palace"
-            },
-            {
-                "home_team": "Swansea",
-                "details": {
-                    "goals": [
-                        {
-                            "assist": "Tom Carroll",
-                            "minute": "77",
-                            "scorer": "Jordan Ayew",
-                            "own_goal": "false"
-                        }
-                    ],
-                    "kick_off": "15:00",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "32",
-                            "player": "Federico Fernández"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "34",
-                            "player": "Wilfried Zaha"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "51",
-                            "player": "James McArthur"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "62",
-                            "player": "Luka Milivojevic"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "85",
-                            "player": "Roque Mesa"
-                        }
-                    ],
-                    "referee": "Craig Pawson",
-                    "substitutions": [
-                        {
-                            "out": "Luciano Narsingh",
-                            "in": "Jordan Ayew",
-                            "minute": "66"
-                        },
-                        {
-                            "out": "Yohan Cabaye",
-                            "in": "Bakary Sako",
-                            "minute": "76"
-                        },
-                        {
-                            "out": "Kyle Naughton",
-                            "in": "Angel Rangel",
-                            "minute": "80"
-                        },
-                        {
-                            "out": "Andros Townsend",
-                            "in": "Patrick van Aanholt",
-                            "minute": "85"
-                        },
-                        {
-                            "out": "Roque Mesa",
-                            "in": "Jay Fulton",
-                            "minute": "89"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22530",
-                "score": "1-1",
-                "away_team": "Crystal Palace"
-            },
-            {
-                "home_team": "Swansea",
-                "details": {
-                    "goals": [
-                        {
-                            "assist": "Tom Carroll",
-                            "minute": "77",
-                            "scorer": "Jordan Ayew",
-                            "own_goal": "false"
-                        }
-                    ],
-                    "kick_off": "15:00",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "32",
-                            "player": "Federico Fernández"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "34",
-                            "player": "Wilfried Zaha"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "51",
-                            "player": "James McArthur"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "62",
-                            "player": "Luka Milivojevic"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "85",
-                            "player": "Roque Mesa"
-                        }
-                    ],
-                    "referee": "Craig Pawson",
-                    "substitutions": [
-                        {
-                            "out": "Luciano Narsingh",
-                            "in": "Jordan Ayew",
-                            "minute": "66"
-                        },
-                        {
-                            "out": "Yohan Cabaye",
-                            "in": "Bakary Sako",
-                            "minute": "76"
-                        },
-                        {
-                            "out": "Kyle Naughton",
-                            "in": "Angel Rangel",
-                            "minute": "80"
-                        },
-                        {
-                            "out": "Andros Townsend",
-                            "in": "Patrick van Aanholt",
-                            "minute": "85"
-                        },
-                        {
-                            "out": "Roque Mesa",
-                            "in": "Jay Fulton",
-                            "minute": "89"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22530",
-                "score": "1-1",
-                "away_team": "Crystal Palace"
-            },
-            {
-                "home_team": "Swansea",
-                "details": {
-                    "goals": [
-                        {
-                            "assist": "Tom Carroll",
-                            "minute": "77",
-                            "scorer": "Jordan Ayew",
-                            "own_goal": "false"
-                        }
-                    ],
-                    "kick_off": "15:00",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "32",
-                            "player": "Federico Fernández"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "34",
-                            "player": "Wilfried Zaha"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "51",
-                            "player": "James McArthur"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "62",
-                            "player": "Luka Milivojevic"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "85",
-                            "player": "Roque Mesa"
-                        }
-                    ],
-                    "referee": "Craig Pawson",
-                    "substitutions": [
-                        {
-                            "out": "Luciano Narsingh",
-                            "in": "Jordan Ayew",
-                            "minute": "66"
-                        },
-                        {
-                            "out": "Yohan Cabaye",
-                            "in": "Bakary Sako",
-                            "minute": "76"
-                        },
-                        {
-                            "out": "Kyle Naughton",
-                            "in": "Angel Rangel",
-                            "minute": "80"
-                        },
-                        {
-                            "out": "Andros Townsend",
-                            "in": "Patrick van Aanholt",
-                            "minute": "85"
-                        },
-                        {
-                            "out": "Roque Mesa",
-                            "in": "Jay Fulton",
-                            "minute": "89"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22530",
-                "score": "1-1",
-                "away_team": "Crystal Palace"
-            },
-            {
-                "home_team": "Swansea",
-                "details": {
-                    "goals": [
-                        {
-                            "assist": "Tom Carroll",
-                            "minute": "77",
-                            "scorer": "Jordan Ayew",
-                            "own_goal": "false"
-                        }
-                    ],
-                    "kick_off": "15:00",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "32",
-                            "player": "Federico Fernández"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "34",
-                            "player": "Wilfried Zaha"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "51",
-                            "player": "James McArthur"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "62",
-                            "player": "Luka Milivojevic"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "85",
-                            "player": "Roque Mesa"
-                        }
-                    ],
-                    "referee": "Craig Pawson",
-                    "substitutions": [
-                        {
-                            "out": "Luciano Narsingh",
-                            "in": "Jordan Ayew",
-                            "minute": "66"
-                        },
-                        {
-                            "out": "Yohan Cabaye",
-                            "in": "Bakary Sako",
-                            "minute": "76"
-                        },
-                        {
-                            "out": "Kyle Naughton",
-                            "in": "Angel Rangel",
-                            "minute": "80"
-                        },
-                        {
-                            "out": "Andros Townsend",
-                            "in": "Patrick van Aanholt",
-                            "minute": "85"
-                        },
-                        {
-                            "out": "Roque Mesa",
-                            "in": "Jay Fulton",
-                            "minute": "89"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22530",
-                "score": "1-1",
-                "away_team": "Crystal Palace"
-            },
-            {
-                "home_team": "Swansea",
-                "details": {
-                    "goals": [
-                        {
-                            "assist": "Tom Carroll",
-                            "minute": "77",
-                            "scorer": "Jordan Ayew",
-                            "own_goal": "false"
-                        }
-                    ],
-                    "kick_off": "15:00",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "32",
-                            "player": "Federico Fernández"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "34",
-                            "player": "Wilfried Zaha"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "51",
-                            "player": "James McArthur"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "62",
-                            "player": "Luka Milivojevic"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "85",
-                            "player": "Roque Mesa"
-                        }
-                    ],
-                    "referee": "Craig Pawson",
-                    "substitutions": [
-                        {
-                            "out": "Luciano Narsingh",
-                            "in": "Jordan Ayew",
-                            "minute": "66"
-                        },
-                        {
-                            "out": "Yohan Cabaye",
-                            "in": "Bakary Sako",
-                            "minute": "76"
-                        },
-                        {
-                            "out": "Kyle Naughton",
-                            "in": "Angel Rangel",
-                            "minute": "80"
-                        },
-                        {
-                            "out": "Andros Townsend",
-                            "in": "Patrick van Aanholt",
-                            "minute": "85"
-                        },
-                        {
-                            "out": "Roque Mesa",
-                            "in": "Jay Fulton",
-                            "minute": "89"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22530",
-                "score": "1-1",
-                "away_team": "Crystal Palace"
+                "home_team": "Arsenal"
             }
-        ],
-        "date": "Saturday 23 December 2017"
+        ]
     }
 ]

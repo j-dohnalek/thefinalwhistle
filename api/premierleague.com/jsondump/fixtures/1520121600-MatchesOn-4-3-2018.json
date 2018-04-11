@@ -1,93 +1,169 @@
 [
     {
+        "date": "Sunday 4 March 2018",
         "fixtures": [
             {
-                "home_team": "Crystal Palace",
+                "score": "2-1",
+                "url": "https://www.premierleague.com/match/22622",
+                "away_team": "Arsenal",
                 "details": {
                     "goals": [
                         {
-                            "assist": "Christian Benteke",
-                            "minute": "11",
-                            "scorer": "Andros Townsend",
-                            "own_goal": "false"
+                            "assist": "Shane Duffy",
+                            "own_goal": "false",
+                            "minute": "7",
+                            "scorer": "Lewis Dunk"
                         },
                         {
-                            "assist": "Jeffrey Schlupp",
-                            "minute": "48",
-                            "scorer": "Patrick van Aanholt",
-                            "own_goal": "false"
+                            "assist": "Pascal Groß",
+                            "own_goal": "false",
+                            "minute": "26",
+                            "scorer": "Glenn Murray"
                         },
                         {
-                            "assist": "Antonio Valencia",
-                            "minute": "55",
-                            "scorer": "Chris Smalling",
-                            "own_goal": "false"
-                        },
-                        {
-                            "minute": "76",
-                            "scorer": "Romelu Lukaku",
-                            "own_goal": "false"
-                        },
-                        {
-                            "additional": "1",
-                            "minute": "90",
-                            "scorer": "Nemanja Matic",
-                            "own_goal": "false"
+                            "assist": "Granit Xhaka",
+                            "own_goal": "false",
+                            "minute": "43",
+                            "scorer": "Pierre-Emerick Aubameyang"
                         }
                     ],
-                    "kick_off": "20:00",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "42",
-                            "player": "Scott McTominay"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "57",
-                            "player": "Ashley Young"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "75",
-                            "player": "Andros Townsend"
-                        },
-                        {
-                            "additional": "2",
-                            "card": "yellow",
-                            "minute": "90",
-                            "player": "Nemanja Matic"
-                        }
-                    ],
-                    "referee": "Neil Swarbrick",
                     "substitutions": [
                         {
-                            "out": "Scott McTominay",
-                            "in": "Marcus Rashford",
-                            "minute": "45"
+                            "in": "Bruno",
+                            "minute": "69",
+                            "out": "Ezequiel Schelotto"
                         },
                         {
-                            "out": "Ashley Young",
-                            "in": "Juan Mata",
-                            "minute": "67"
+                            "in": "Danny Welbeck",
+                            "minute": "74",
+                            "out": "Alex Iwobi"
                         },
                         {
-                            "out": "Antonio Valencia",
-                            "in": "Luke Shaw",
-                            "minute": "67"
+                            "in": "Solly March",
+                            "minute": "77",
+                            "out": "Anthony Knockaert"
                         },
                         {
-                            "out": "Jeffrey Schlupp",
-                            "in": "Jairo Riedewald",
-                            "minute": "80"
+                            "in": "Eddie Nketiah",
+                            "minute": "83",
+                            "out": "Calum Chambers"
+                        },
+                        {
+                            "in": "Héctor Bellerín",
+                            "minute": "83",
+                            "out": "Henrikh Mkhitaryan"
+                        },
+                        {
+                            "in": "Beram Kayal",
+                            "minute": "87",
+                            "out": "Pascal Groß"
                         }
-                    ]
+                    ],
+                    "kick_off": "13:30",
+                    "cards": [
+                        {
+                            "minute": "28",
+                            "card": "yellow",
+                            "player": "Sead Kolasinac"
+                        },
+                        {
+                            "minute": "40",
+                            "card": "yellow",
+                            "player": "Jack Wilshere"
+                        },
+                        {
+                            "minute": "54",
+                            "card": "yellow",
+                            "player": "Granit Xhaka"
+                        },
+                        {
+                            "minute": "60",
+                            "card": "yellow",
+                            "player": "Dale Stephens"
+                        },
+                        {
+                            "minute": "64",
+                            "card": "yellow",
+                            "player": "Ezequiel Schelotto"
+                        },
+                        {
+                            "minute": "78",
+                            "card": "yellow",
+                            "player": "Glenn Murray"
+                        }
+                    ],
+                    "referee": "Stuart Attwell"
                 },
-                "url": "https://www.premierleague.com/match/22624",
-                "score": "2-3",
-                "away_team": "Man Utd"
+                "home_team": "Brighton"
+            },
+            {
+                "score": "1-0",
+                "url": "https://www.premierleague.com/match/22627",
+                "away_team": "Chelsea",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "David Silva",
+                            "own_goal": "false",
+                            "minute": "46",
+                            "scorer": "Bernardo Silva"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "in": "Olivier Giroud",
+                            "minute": "78",
+                            "out": "Willian"
+                        },
+                        {
+                            "in": "Emerson",
+                            "minute": "82",
+                            "out": "Pedro"
+                        },
+                        {
+                            "in": "Gabriel Jesus",
+                            "minute": "85",
+                            "out": "Sergio Agüero"
+                        },
+                        {
+                            "in": "Danilo",
+                            "minute": "87",
+                            "out": "Oleksandr Zinchenko"
+                        },
+                        {
+                            "in": "Álvaro Morata",
+                            "minute": "90",
+                            "out": "Eden Hazard"
+                        },
+                        {
+                            "in": "Phil Foden",
+                            "minute": "90",
+                            "additional": "3",
+                            "out": "David Silva"
+                        }
+                    ],
+                    "kick_off": "16:00",
+                    "cards": [
+                        {
+                            "minute": "24",
+                            "card": "yellow",
+                            "player": "Oleksandr Zinchenko"
+                        },
+                        {
+                            "minute": "47",
+                            "card": "yellow",
+                            "player": "Ilkay Gündogan"
+                        },
+                        {
+                            "minute": "57",
+                            "card": "yellow",
+                            "player": "Antonio Rüdiger"
+                        }
+                    ],
+                    "referee": "Michael Oliver"
+                },
+                "home_team": "Man City"
             }
-        ],
-        "date": "Monday 5 March 2018"
+        ]
     }
 ]

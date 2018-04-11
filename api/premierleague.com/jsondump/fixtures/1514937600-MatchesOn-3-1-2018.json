@@ -1,70 +1,92 @@
 [
     {
+        "date": "Wednesday 3 January 2018",
         "fixtures": [
             {
-                "home_team": "Spurs",
+                "score": "2-2",
+                "url": "https://www.premierleague.com/match/22552",
+                "away_team": "Chelsea",
                 "details": {
                     "goals": [
                         {
-                            "assist": "Manuel Lanzini",
-                            "minute": "70",
-                            "scorer": "Pedro Obiang",
-                            "own_goal": "false"
+                            "own_goal": "false",
+                            "minute": "63",
+                            "scorer": "Jack Wilshere",
+                            "penalty": "true"
                         },
                         {
-                            "assist": "Erik Lamela",
+                            "assist": "Davide Zappacosta",
+                            "own_goal": "false",
                             "minute": "84",
-                            "scorer": "Son Heung-Min",
-                            "own_goal": "false"
-                        }
-                    ],
-                    "kick_off": "20:00",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "87",
-                            "player": "Andy Carroll"
+                            "scorer": "Marcos Alonso"
                         },
                         {
-                            "card": "yellow",
+                            "own_goal": "false",
                             "minute": "90",
-                            "player": "Mark Noble"
+                            "additional": "2",
+                            "penalty": "true",
+                            "scorer": "Héctor Bellerín"
                         }
                     ],
-                    "referee": "Mike Dean",
                     "substitutions": [
                         {
-                            "out": "Chicharito",
-                            "in": "André Ayew",
-                            "minute": "64"
+                            "in": "Davide Zappacosta",
+                            "minute": "56",
+                            "out": "Victor Moses"
                         },
                         {
-                            "out": "Moussa Sissoko",
-                            "in": "Erik Lamela",
-                            "minute": "74"
+                            "in": "Daniel Drinkwater",
+                            "minute": "71",
+                            "out": "Cesc Fàbregas"
                         },
                         {
-                            "out": "Eric Dier",
-                            "in": "Victor Wanyama",
-                            "minute": "74"
+                            "in": "Danny Welbeck",
+                            "minute": "80",
+                            "out": "Alexandre Lacazette"
                         },
                         {
-                            "out": "Ben Davies",
-                            "in": "Fernando Llorente",
-                            "minute": "82"
+                            "in": "Willian",
+                            "minute": "82",
+                            "out": "Eden Hazard"
                         },
                         {
-                            "out": "Manuel Lanzini",
-                            "in": "Andy Carroll",
-                            "minute": "85"
+                            "in": "Theo Walcott",
+                            "minute": "88",
+                            "out": "Calum Chambers"
                         }
-                    ]
+                    ],
+                    "kick_off": "19:45",
+                    "cards": [
+                        {
+                            "minute": "31",
+                            "card": "yellow",
+                            "player": "Jack Wilshere"
+                        },
+                        {
+                            "minute": "43",
+                            "card": "yellow",
+                            "player": "Cesc Fàbregas"
+                        },
+                        {
+                            "minute": "53",
+                            "card": "yellow",
+                            "player": "Rob Holding"
+                        },
+                        {
+                            "minute": "67",
+                            "card": "yellow",
+                            "player": "Mesut Özil"
+                        },
+                        {
+                            "minute": "89",
+                            "card": "yellow",
+                            "player": "Thibaut Courtois"
+                        }
+                    ],
+                    "referee": "Anthony Taylor"
                 },
-                "url": "https://www.premierleague.com/match/22549",
-                "score": "1-1",
-                "away_team": "West Ham"
+                "home_team": "Arsenal"
             }
-        ],
-        "date": "Thursday 4 January 2018"
+        ]
     }
 ]

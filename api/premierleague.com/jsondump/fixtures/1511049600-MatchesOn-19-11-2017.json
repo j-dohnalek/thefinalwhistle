@@ -1,71 +1,86 @@
 [
     {
+        "date": "Sunday 19 November 2017",
         "fixtures": [
             {
-                "home_team": "Brighton",
+                "score": "2-0",
+                "url": "https://www.premierleague.com/match/22460",
+                "away_team": "West Ham",
                 "details": {
                     "goals": [
                         {
-                            "assist": "Xherdan Shaqiri",
-                            "minute": "28",
-                            "scorer": "Eric Maxim Choupo-Moting",
-                            "own_goal": "false"
+                            "assist": "Andre Gray",
+                            "own_goal": "false",
+                            "minute": "11",
+                            "scorer": "Will Hughes"
                         },
                         {
-                            "assist": "Davy Pröpper",
-                            "minute": "44",
-                            "scorer": "Pascal Groß",
-                            "own_goal": "false"
-                        },
-                        {
-                            "additional": "1",
-                            "minute": "45",
-                            "scorer": "Kurt Zouma",
-                            "own_goal": "false"
-                        },
-                        {
-                            "minute": "60",
-                            "scorer": "José Izquierdo",
-                            "own_goal": "false"
+                            "assist": "Will Hughes",
+                            "own_goal": "false",
+                            "minute": "64",
+                            "scorer": "Richarlison"
                         }
                     ],
-                    "kick_off": "20:00",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "42",
-                            "player": "Glenn Murray"
-                        }
-                    ],
-                    "referee": "Lee Mason",
                     "substitutions": [
                         {
-                            "out": "Xherdan Shaqiri",
-                            "in": "Peter Crouch",
-                            "minute": "73"
+                            "in": "Diafra Sakho",
+                            "minute": "65",
+                            "out": "Andy Carroll"
                         },
                         {
-                            "out": "José Izquierdo",
-                            "in": "Solly March",
-                            "minute": "74"
+                            "in": "Arthur Masuaku",
+                            "minute": "74",
+                            "out": "Marko Arnautovic"
                         },
                         {
-                            "out": "Pascal Groß",
-                            "in": "Isaiah Brown",
-                            "minute": "84"
+                            "in": "Roberto Pereyra",
+                            "minute": "84",
+                            "out": "Will Hughes"
                         },
                         {
-                            "out": "Anthony Knockaert",
-                            "in": "Ezequiel Schelotto",
-                            "minute": "84"
+                            "in": "José Holebas",
+                            "minute": "86",
+                            "out": "Kiko Femenía"
+                        },
+                        {
+                            "in": "André Carrillo",
+                            "minute": "90",
+                            "additional": "7",
+                            "out": "Andre Gray"
                         }
-                    ]
+                    ],
+                    "kick_off": "16:00",
+                    "cards": [
+                        {
+                            "minute": "28",
+                            "card": "yellow",
+                            "player": "Andy Carroll"
+                        },
+                        {
+                            "minute": "29",
+                            "card": "yellow",
+                            "player": "Miguel Britos"
+                        },
+                        {
+                            "minute": "35",
+                            "card": "yellow",
+                            "player": "Marko Arnautovic"
+                        },
+                        {
+                            "minute": "41",
+                            "card": "yellow",
+                            "player": "Pedro Obiang"
+                        },
+                        {
+                            "minute": "83",
+                            "card": "yellow",
+                            "player": "Mark Noble"
+                        }
+                    ],
+                    "referee": "Andre Marriner"
                 },
-                "url": "https://www.premierleague.com/match/22454",
-                "score": "2-2",
-                "away_team": "Stoke"
+                "home_team": "Watford"
             }
-        ],
-        "date": "Monday 20 November 2017"
+        ]
     }
 ]

@@ -1,93 +1,97 @@
 [
     {
+        "date": "Monday 18 December 2017",
         "fixtures": [
             {
-                "home_team": "Arsenal",
+                "score": "3-1",
+                "url": "https://www.premierleague.com/match/22516",
+                "away_team": "Swansea",
                 "details": {
                     "goals": [
                         {
-                            "minute": "26",
-                            "scorer": "Philippe Coutinho",
-                            "own_goal": "false"
+                            "assist": "Tom Carroll",
+                            "own_goal": "false",
+                            "minute": "35",
+                            "scorer": "Leroy Fer"
                         },
                         {
-                            "assist": "Roberto Firmino",
-                            "minute": "52",
-                            "scorer": "Mohamed Salah",
-                            "own_goal": "false"
+                            "own_goal": "false",
+                            "minute": "45",
+                            "additional": "2",
+                            "penalty": "true",
+                            "scorer": "Dominic Calvert-Lewin"
                         },
                         {
-                            "assist": "Héctor Bellerín",
-                            "minute": "53",
-                            "scorer": "Alexis Sánchez",
-                            "own_goal": "false"
-                        },
-                        {
-                            "assist": "Alex Iwobi",
-                            "minute": "56",
-                            "scorer": "Granit Xhaka",
-                            "own_goal": "false"
-                        },
-                        {
-                            "assist": "Alexandre Lacazette",
-                            "minute": "58",
-                            "scorer": "Mesut Özil",
-                            "own_goal": "false"
-                        },
-                        {
-                            "assist": "Emre Can",
-                            "minute": "71",
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false"
+                            "assist": "Wayne Rooney",
+                            "own_goal": "false",
+                            "minute": "64",
+                            "scorer": "Gylfi Sigurdsson"
                         }
                     ],
-                    "kick_off": "19:45",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "58",
-                            "player": "Alex Iwobi"
-                        }
-                    ],
-                    "referee": "Martin Atkinson",
                     "substitutions": [
                         {
-                            "out": "Jordan Henderson",
-                            "in": "James Milner",
-                            "minute": "13"
+                            "in": "Tammy Abraham",
+                            "minute": "5",
+                            "out": "Wilfried Bony"
                         },
                         {
-                            "out": "Nacho Monreal",
-                            "in": "Shkodran Mustafi",
-                            "minute": "45"
+                            "in": "Tom Davies",
+                            "minute": "61",
+                            "out": "Morgan Schneiderlin"
                         },
                         {
-                            "out": "Alex Iwobi",
-                            "in": "Danny Welbeck",
-                            "minute": "78"
+                            "in": "Jordan Ayew",
+                            "minute": "74",
+                            "out": "Nathan Dyer"
                         },
                         {
-                            "out": "Sadio Mané",
-                            "in": "Georginio Wijnaldum",
-                            "minute": "80"
+                            "in": "Ademola Lookman",
+                            "minute": "79",
+                            "out": "Aaron Lennon"
                         },
                         {
-                            "out": "Philippe Coutinho",
-                            "in": "Alex Oxlade-Chamberlain",
-                            "minute": "84"
+                            "in": "Sam Clucas",
+                            "minute": "81",
+                            "out": "Tom Carroll"
                         },
                         {
-                            "out": "Alexis Sánchez",
-                            "in": "Theo Walcott",
-                            "minute": "89"
+                            "in": "Sandro Ramírez",
+                            "minute": "89",
+                            "out": "Wayne Rooney"
                         }
-                    ]
+                    ],
+                    "kick_off": "20:00",
+                    "cards": [
+                        {
+                            "minute": "29",
+                            "card": "yellow",
+                            "player": "Mason Holgate"
+                        },
+                        {
+                            "minute": "37",
+                            "card": "yellow",
+                            "player": "Nathan Dyer"
+                        },
+                        {
+                            "minute": "52",
+                            "card": "yellow",
+                            "player": "Federico Fernández"
+                        },
+                        {
+                            "minute": "83",
+                            "card": "yellow",
+                            "player": "Jonjoe Kenny"
+                        },
+                        {
+                            "minute": "84",
+                            "card": "yellow",
+                            "player": "Leroy Fer"
+                        }
+                    ],
+                    "referee": "Jonathan Moss"
                 },
-                "url": "https://www.premierleague.com/match/22522",
-                "score": "3-3",
-                "away_team": "Liverpool"
+                "home_team": "Everton"
             }
-        ],
-        "date": "Friday 22 December 2017"
+        ]
     }
 ]

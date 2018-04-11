@@ -1,66 +1,73 @@
 [
     {
+        "date": "Monday 20 November 2017",
         "fixtures": [
             {
-                "home_team": "West Ham",
+                "score": "2-2",
+                "url": "https://www.premierleague.com/match/22454",
+                "away_team": "Stoke",
                 "details": {
                     "goals": [
                         {
-                            "minute": "8",
-                            "scorer": "Marc Albrighton",
-                            "own_goal": "false"
+                            "assist": "Xherdan Shaqiri",
+                            "own_goal": "false",
+                            "minute": "28",
+                            "scorer": "Eric Maxim Choupo-Moting"
                         },
                         {
-                            "assist": "Manuel Lanzini",
+                            "assist": "Davy Pröpper",
+                            "own_goal": "false",
+                            "minute": "44",
+                            "scorer": "Pascal Groß"
+                        },
+                        {
+                            "own_goal": "false",
                             "minute": "45",
-                            "scorer": "Cheikhou Kouyaté",
-                            "own_goal": "false"
+                            "additional": "1",
+                            "penalty": "true",
+                            "scorer": "Kurt Zouma"
+                        },
+                        {
+                            "own_goal": "false",
+                            "minute": "60",
+                            "scorer": "José Izquierdo",
+                            "penalty": "true"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "in": "Peter Crouch",
+                            "minute": "73",
+                            "out": "Xherdan Shaqiri"
+                        },
+                        {
+                            "in": "Solly March",
+                            "minute": "74",
+                            "out": "José Izquierdo"
+                        },
+                        {
+                            "in": "Isaiah Brown",
+                            "minute": "84",
+                            "out": "Pascal Groß"
+                        },
+                        {
+                            "in": "Ezequiel Schelotto",
+                            "minute": "84",
+                            "out": "Anthony Knockaert"
                         }
                     ],
                     "kick_off": "20:00",
                     "cards": [
                         {
+                            "minute": "42",
                             "card": "yellow",
-                            "minute": "79",
-                            "player": "André Ayew"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "79",
-                            "player": "Demarai Gray"
+                            "player": "Glenn Murray"
                         }
                     ],
-                    "referee": "Martin Atkinson",
-                    "substitutions": [
-                        {
-                            "out": "Marko Arnautovic",
-                            "in": "André Ayew",
-                            "minute": "69"
-                        },
-                        {
-                            "out": "Riyad Mahrez",
-                            "in": "Ben Chilwell",
-                            "minute": "70"
-                        },
-                        {
-                            "out": "Demarai Gray",
-                            "additional": "2",
-                            "in": "Islam Slimani",
-                            "minute": "90"
-                        },
-                        {
-                            "out": "Arthur Masuaku",
-                            "additional": "4",
-                            "in": "Diafra Sakho",
-                            "minute": "90"
-                        }
-                    ]
+                    "referee": "Lee Mason"
                 },
-                "url": "https://www.premierleague.com/match/22471",
-                "score": "1-1",
-                "away_team": "Leicester"
+                "home_team": "Brighton"
             }
-        ],
-        "date": "Friday 24 November 2017"
+        ]
     }
 ]

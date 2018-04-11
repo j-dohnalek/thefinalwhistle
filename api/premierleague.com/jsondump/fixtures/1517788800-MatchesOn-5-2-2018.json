@@ -1,349 +1,104 @@
 [
     {
+        "date": "Monday 5 February 2018",
         "fixtures": [
             {
-                "home_team": "Stoke",
+                "score": "4-1",
+                "url": "https://www.premierleague.com/match/22600",
+                "away_team": "Chelsea",
                 "details": {
                     "goals": [
                         {
-                            "assist": "Dale Stephens",
-                            "minute": "32",
-                            "scorer": "José Izquierdo",
-                            "own_goal": "false"
+                            "own_goal": "false",
+                            "minute": "82",
+                            "scorer": "Eden Hazard",
+                            "penalty": "true"
                         },
                         {
-                            "assist": "Erik Pieters",
-                            "minute": "68",
-                            "scorer": "Xherdan Shaqiri",
-                            "own_goal": "false"
+                            "assist": "Roberto Pereyra",
+                            "own_goal": "false",
+                            "minute": "84",
+                            "scorer": "Daryl Janmaat"
+                        },
+                        {
+                            "assist": "Abdoulaye Doucouré",
+                            "own_goal": "false",
+                            "minute": "88",
+                            "scorer": "Gerard Deulofeu"
+                        },
+                        {
+                            "assist": "Abdoulaye Doucouré",
+                            "own_goal": "false",
+                            "minute": "90",
+                            "additional": "1",
+                            "scorer": "Roberto Pereyra"
                         }
                     ],
-                    "kick_off": "15:00",
-                    "cards": [],
-                    "referee": "Robert Madley",
                     "substitutions": [
                         {
-                            "out": "Darren Fletcher",
-                            "in": "Saido Berahino",
-                            "minute": "45"
+                            "in": "Cesc Fàbregas",
+                            "minute": "34",
+                            "out": "Willian"
                         },
                         {
-                            "out": "Eric Maxim Choupo-Moting",
-                            "in": "Jesé",
-                            "minute": "62"
+                            "in": "Olivier Giroud",
+                            "minute": "64",
+                            "out": "Pedro"
                         },
                         {
-                            "out": "Glenn Murray",
-                            "in": "Leonardo Ulloa",
-                            "minute": "71"
+                            "in": "Roberto Pereyra",
+                            "minute": "65",
+                            "out": "Richarlison"
                         },
                         {
-                            "out": "Badou Ndiaye",
-                            "in": "Charlie Adam",
-                            "minute": "79"
+                            "in": "André Carrillo",
+                            "minute": "89",
+                            "out": "Gerard Deulofeu"
                         },
                         {
-                            "out": "Pascal Groß",
-                            "in": "Beram Kayal",
-                            "minute": "79"
-                        },
-                        {
-                            "out": "Solly March",
-                            "in": "Anthony Knockaert",
-                            "minute": "86"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22608",
-                "score": "1-1",
-                "away_team": "Brighton"
-            },
-            {
-                "home_team": "Stoke",
-                "details": {
-                    "goals": [
-                        {
-                            "assist": "Dale Stephens",
-                            "minute": "32",
-                            "scorer": "José Izquierdo",
-                            "own_goal": "false"
-                        },
-                        {
-                            "assist": "Erik Pieters",
-                            "minute": "68",
-                            "scorer": "Xherdan Shaqiri",
-                            "own_goal": "false"
+                            "in": "Andre Gray",
+                            "minute": "90",
+                            "additional": "3",
+                            "out": "Troy Deeney"
                         }
                     ],
-                    "kick_off": "15:00",
-                    "cards": [],
-                    "referee": "Robert Madley",
-                    "substitutions": [
+                    "kick_off": "20:00",
+                    "cards": [
                         {
-                            "out": "Darren Fletcher",
-                            "in": "Saido Berahino",
-                            "minute": "45"
+                            "minute": "25",
+                            "card": "yellow",
+                            "player": "Tiemoué Bakayoko"
                         },
                         {
-                            "out": "Eric Maxim Choupo-Moting",
-                            "in": "Jesé",
-                            "minute": "62"
+                            "minute": "30",
+                            "card": "red",
+                            "player": "Tiemoué Bakayoko"
                         },
                         {
-                            "out": "Glenn Murray",
-                            "in": "Leonardo Ulloa",
-                            "minute": "71"
+                            "minute": "45",
+                            "card": "yellow",
+                            "player": "Richarlison"
                         },
                         {
-                            "out": "Badou Ndiaye",
-                            "in": "Charlie Adam",
-                            "minute": "79"
+                            "minute": "50",
+                            "card": "yellow",
+                            "player": "Sebastian Prödl"
                         },
                         {
-                            "out": "Pascal Groß",
-                            "in": "Beram Kayal",
-                            "minute": "79"
+                            "minute": "58",
+                            "card": "yellow",
+                            "player": "David Luiz"
                         },
                         {
-                            "out": "Solly March",
-                            "in": "Anthony Knockaert",
-                            "minute": "86"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22608",
-                "score": "1-1",
-                "away_team": "Brighton"
-            },
-            {
-                "home_team": "Stoke",
-                "details": {
-                    "goals": [
-                        {
-                            "assist": "Dale Stephens",
-                            "minute": "32",
-                            "scorer": "José Izquierdo",
-                            "own_goal": "false"
-                        },
-                        {
-                            "assist": "Erik Pieters",
-                            "minute": "68",
-                            "scorer": "Xherdan Shaqiri",
-                            "own_goal": "false"
+                            "minute": "62",
+                            "card": "yellow",
+                            "player": "Cesc Fàbregas"
                         }
                     ],
-                    "kick_off": "15:00",
-                    "cards": [],
-                    "referee": "Robert Madley",
-                    "substitutions": [
-                        {
-                            "out": "Darren Fletcher",
-                            "in": "Saido Berahino",
-                            "minute": "45"
-                        },
-                        {
-                            "out": "Eric Maxim Choupo-Moting",
-                            "in": "Jesé",
-                            "minute": "62"
-                        },
-                        {
-                            "out": "Glenn Murray",
-                            "in": "Leonardo Ulloa",
-                            "minute": "71"
-                        },
-                        {
-                            "out": "Badou Ndiaye",
-                            "in": "Charlie Adam",
-                            "minute": "79"
-                        },
-                        {
-                            "out": "Pascal Groß",
-                            "in": "Beram Kayal",
-                            "minute": "79"
-                        },
-                        {
-                            "out": "Solly March",
-                            "in": "Anthony Knockaert",
-                            "minute": "86"
-                        }
-                    ]
+                    "referee": "Craig Pawson"
                 },
-                "url": "https://www.premierleague.com/match/22608",
-                "score": "1-1",
-                "away_team": "Brighton"
-            },
-            {
-                "home_team": "Stoke",
-                "details": {
-                    "goals": [
-                        {
-                            "assist": "Dale Stephens",
-                            "minute": "32",
-                            "scorer": "José Izquierdo",
-                            "own_goal": "false"
-                        },
-                        {
-                            "assist": "Erik Pieters",
-                            "minute": "68",
-                            "scorer": "Xherdan Shaqiri",
-                            "own_goal": "false"
-                        }
-                    ],
-                    "kick_off": "15:00",
-                    "cards": [],
-                    "referee": "Robert Madley",
-                    "substitutions": [
-                        {
-                            "out": "Darren Fletcher",
-                            "in": "Saido Berahino",
-                            "minute": "45"
-                        },
-                        {
-                            "out": "Eric Maxim Choupo-Moting",
-                            "in": "Jesé",
-                            "minute": "62"
-                        },
-                        {
-                            "out": "Glenn Murray",
-                            "in": "Leonardo Ulloa",
-                            "minute": "71"
-                        },
-                        {
-                            "out": "Badou Ndiaye",
-                            "in": "Charlie Adam",
-                            "minute": "79"
-                        },
-                        {
-                            "out": "Pascal Groß",
-                            "in": "Beram Kayal",
-                            "minute": "79"
-                        },
-                        {
-                            "out": "Solly March",
-                            "in": "Anthony Knockaert",
-                            "minute": "86"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22608",
-                "score": "1-1",
-                "away_team": "Brighton"
-            },
-            {
-                "home_team": "Stoke",
-                "details": {
-                    "goals": [
-                        {
-                            "assist": "Dale Stephens",
-                            "minute": "32",
-                            "scorer": "José Izquierdo",
-                            "own_goal": "false"
-                        },
-                        {
-                            "assist": "Erik Pieters",
-                            "minute": "68",
-                            "scorer": "Xherdan Shaqiri",
-                            "own_goal": "false"
-                        }
-                    ],
-                    "kick_off": "15:00",
-                    "cards": [],
-                    "referee": "Robert Madley",
-                    "substitutions": [
-                        {
-                            "out": "Darren Fletcher",
-                            "in": "Saido Berahino",
-                            "minute": "45"
-                        },
-                        {
-                            "out": "Eric Maxim Choupo-Moting",
-                            "in": "Jesé",
-                            "minute": "62"
-                        },
-                        {
-                            "out": "Glenn Murray",
-                            "in": "Leonardo Ulloa",
-                            "minute": "71"
-                        },
-                        {
-                            "out": "Badou Ndiaye",
-                            "in": "Charlie Adam",
-                            "minute": "79"
-                        },
-                        {
-                            "out": "Pascal Groß",
-                            "in": "Beram Kayal",
-                            "minute": "79"
-                        },
-                        {
-                            "out": "Solly March",
-                            "in": "Anthony Knockaert",
-                            "minute": "86"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22608",
-                "score": "1-1",
-                "away_team": "Brighton"
-            },
-            {
-                "home_team": "Stoke",
-                "details": {
-                    "goals": [
-                        {
-                            "assist": "Dale Stephens",
-                            "minute": "32",
-                            "scorer": "José Izquierdo",
-                            "own_goal": "false"
-                        },
-                        {
-                            "assist": "Erik Pieters",
-                            "minute": "68",
-                            "scorer": "Xherdan Shaqiri",
-                            "own_goal": "false"
-                        }
-                    ],
-                    "kick_off": "15:00",
-                    "cards": [],
-                    "referee": "Robert Madley",
-                    "substitutions": [
-                        {
-                            "out": "Darren Fletcher",
-                            "in": "Saido Berahino",
-                            "minute": "45"
-                        },
-                        {
-                            "out": "Eric Maxim Choupo-Moting",
-                            "in": "Jesé",
-                            "minute": "62"
-                        },
-                        {
-                            "out": "Glenn Murray",
-                            "in": "Leonardo Ulloa",
-                            "minute": "71"
-                        },
-                        {
-                            "out": "Badou Ndiaye",
-                            "in": "Charlie Adam",
-                            "minute": "79"
-                        },
-                        {
-                            "out": "Pascal Groß",
-                            "in": "Beram Kayal",
-                            "minute": "79"
-                        },
-                        {
-                            "out": "Solly March",
-                            "in": "Anthony Knockaert",
-                            "minute": "86"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22608",
-                "score": "1-1",
-                "away_team": "Brighton"
+                "home_team": "Watford"
             }
-        ],
-        "date": "Saturday 10 February 2018"
+        ]
     }
 ]

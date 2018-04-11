@@ -1,289 +1,252 @@
 [
     {
+        "date": "Sunday 10 December 2017",
         "fixtures": [
             {
-                "home_team": "Crystal Palace",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22498",
+                "away_team": "Arsenal",
                 "details": {
                     "goals": [
                         {
-                            "assist": "Richarlison",
+                            "assist": "Dusan Tadic",
+                            "own_goal": "false",
                             "minute": "3",
-                            "scorer": "Daryl Janmaat",
-                            "own_goal": "false"
+                            "scorer": "Charlie Austin"
                         },
                         {
-                            "minute": "89",
-                            "scorer": "Bakary Sako",
-                            "own_goal": "false"
-                        },
-                        {
-                            "additional": "2",
-                            "minute": "90",
-                            "scorer": "James McArthur",
-                            "own_goal": "false"
+                            "assist": "Alexis Sánchez",
+                            "own_goal": "false",
+                            "minute": "88",
+                            "scorer": "Olivier Giroud"
                         }
                     ],
-                    "kick_off": "20:00",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "63",
-                            "player": "Luka Milivojevic"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "78",
-                            "player": "Tom Cleverley"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "85",
-                            "player": "Patrick van Aanholt"
-                        },
-                        {
-                            "card": "red",
-                            "minute": "87",
-                            "player": "Tom Cleverley"
-                        },
-                        {
-                            "additional": "1",
-                            "card": "yellow",
-                            "minute": "90",
-                            "player": "Roberto Pereyra"
-                        }
-                    ],
-                    "referee": "Lee Mason",
                     "substitutions": [
                         {
-                            "out": "Andros Townsend",
-                            "in": "Patrick van Aanholt",
-                            "minute": "67"
+                            "in": "Danny Welbeck",
+                            "minute": "64",
+                            "out": "Per Mertesacker"
                         },
                         {
-                            "out": "Timothy Fosu-Mensah",
-                            "in": "Bakary Sako",
-                            "minute": "70"
+                            "in": "Jack Wilshere",
+                            "minute": "69",
+                            "out": "Granit Xhaka"
                         },
                         {
-                            "out": "André Carrillo",
-                            "in": "Roberto Pereyra",
-                            "minute": "71"
+                            "in": "Olivier Giroud",
+                            "minute": "72",
+                            "out": "Alexandre Lacazette"
                         },
                         {
-                            "out": "Yohan Cabaye",
-                            "in": "James McArthur",
-                            "minute": "77"
+                            "in": "Sofiane Boufal",
+                            "minute": "74",
+                            "out": "Nathan Redmond"
                         },
                         {
-                            "out": "Troy Deeney",
-                            "in": "Andre Gray",
-                            "minute": "80"
+                            "in": "Manolo Gabbiadini",
+                            "minute": "86",
+                            "out": "Charlie Austin"
                         },
                         {
-                            "out": "Richarlison",
-                            "in": "Kiko Femenía",
-                            "minute": "84"
-                        },
-                        {
-                            "additional": "6",
-                            "out": "Kiko Femenía",
-                            "minute": "90"
+                            "in": "Steven Davis",
+                            "minute": "88",
+                            "out": "Dusan Tadic"
                         }
-                    ]
+                    ],
+                    "kick_off": "12:00",
+                    "cards": [
+                        {
+                            "minute": "78",
+                            "card": "yellow",
+                            "player": "Héctor Bellerín"
+                        },
+                        {
+                            "minute": "82",
+                            "card": "yellow",
+                            "player": "Jack Stephens"
+                        },
+                        {
+                            "minute": "84",
+                            "card": "yellow",
+                            "player": "Oriol Romeu"
+                        },
+                        {
+                            "minute": "90",
+                            "card": "yellow",
+                            "player": "Jack Wilshere"
+                        }
+                    ],
+                    "referee": "Robert Madley"
                 },
-                "url": "https://www.premierleague.com/match/22503",
-                "score": "2-1",
-                "away_team": "Watford"
+                "home_team": "Southampton"
             },
             {
-                "home_team": "Crystal Palace",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22495",
+                "away_team": "Everton",
                 "details": {
                     "goals": [
                         {
-                            "assist": "Richarlison",
-                            "minute": "3",
-                            "scorer": "Daryl Janmaat",
-                            "own_goal": "false"
-                        },
-                        {
-                            "minute": "89",
-                            "scorer": "Bakary Sako",
-                            "own_goal": "false"
-                        },
-                        {
-                            "additional": "2",
-                            "minute": "90",
-                            "scorer": "James McArthur",
-                            "own_goal": "false"
+                            "assist": "Joseph Gomez",
+                            "own_goal": "false",
+                            "minute": "42",
+                            "scorer": "Mohamed Salah"
                         }
                     ],
-                    "kick_off": "20:00",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "63",
-                            "player": "Luka Milivojevic"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "78",
-                            "player": "Tom Cleverley"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "85",
-                            "player": "Patrick van Aanholt"
-                        },
-                        {
-                            "card": "red",
-                            "minute": "87",
-                            "player": "Tom Cleverley"
-                        },
-                        {
-                            "additional": "1",
-                            "card": "yellow",
-                            "minute": "90",
-                            "player": "Roberto Pereyra"
-                        }
-                    ],
-                    "referee": "Lee Mason",
                     "substitutions": [
                         {
-                            "out": "Andros Townsend",
-                            "in": "Patrick van Aanholt",
-                            "minute": "67"
+                            "in": "Aaron Lennon",
+                            "minute": "45",
+                            "out": "Tom Davies"
                         },
                         {
-                            "out": "Timothy Fosu-Mensah",
-                            "in": "Bakary Sako",
-                            "minute": "70"
+                            "in": "Morgan Schneiderlin",
+                            "minute": "45",
+                            "out": "Oumar Niasse"
                         },
                         {
-                            "out": "André Carrillo",
-                            "in": "Roberto Pereyra",
-                            "minute": "71"
+                            "in": "Roberto Firmino",
+                            "minute": "67",
+                            "out": "Mohamed Salah"
                         },
                         {
-                            "out": "Yohan Cabaye",
-                            "in": "James McArthur",
-                            "minute": "77"
+                            "in": "Philippe Coutinho",
+                            "minute": "78",
+                            "out": "Alex Oxlade-Chamberlain"
                         },
                         {
-                            "out": "Troy Deeney",
-                            "in": "Andre Gray",
-                            "minute": "80"
+                            "in": "Danny Ings",
+                            "minute": "82",
+                            "out": "Dominic Solanke"
                         },
                         {
-                            "out": "Richarlison",
-                            "in": "Kiko Femenía",
-                            "minute": "84"
-                        },
-                        {
-                            "additional": "6",
-                            "out": "Kiko Femenía",
-                            "minute": "90"
+                            "in": "Phil Jagielka",
+                            "minute": "83",
+                            "out": "Wayne Rooney"
                         }
-                    ]
+                    ],
+                    "kick_off": "14:15",
+                    "cards": [
+                        {
+                            "minute": "36",
+                            "card": "yellow",
+                            "player": "Gylfi Sigurdsson"
+                        },
+                        {
+                            "minute": "42",
+                            "card": "yellow",
+                            "player": "Idrissa Gueye"
+                        },
+                        {
+                            "minute": "76",
+                            "card": "yellow",
+                            "player": "Dejan Lovren"
+                        },
+                        {
+                            "minute": "85",
+                            "card": "yellow",
+                            "player": "Morgan Schneiderlin"
+                        }
+                    ],
+                    "referee": "Craig Pawson"
                 },
-                "url": "https://www.premierleague.com/match/22503",
-                "score": "2-1",
-                "away_team": "Watford"
+                "home_team": "Liverpool"
             },
             {
-                "home_team": "Crystal Palace",
+                "score": "1-2",
+                "url": "https://www.premierleague.com/match/22496",
+                "away_team": "Man City",
                 "details": {
                     "goals": [
                         {
-                            "assist": "Richarlison",
-                            "minute": "3",
-                            "scorer": "Daryl Janmaat",
-                            "own_goal": "false"
+                            "own_goal": "false",
+                            "minute": "43",
+                            "scorer": "David Silva",
+                            "penalty": "true"
                         },
                         {
-                            "minute": "89",
-                            "scorer": "Bakary Sako",
-                            "own_goal": "false"
-                        },
-                        {
+                            "own_goal": "false",
+                            "minute": "45",
                             "additional": "2",
-                            "minute": "90",
-                            "scorer": "James McArthur",
-                            "own_goal": "false"
+                            "penalty": "true",
+                            "scorer": "Marcus Rashford"
+                        },
+                        {
+                            "own_goal": "false",
+                            "minute": "54",
+                            "scorer": "Nicolás Otamendi",
+                            "penalty": "true"
                         }
                     ],
-                    "kick_off": "20:00",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "63",
-                            "player": "Luka Milivojevic"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "78",
-                            "player": "Tom Cleverley"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "85",
-                            "player": "Patrick van Aanholt"
-                        },
-                        {
-                            "card": "red",
-                            "minute": "87",
-                            "player": "Tom Cleverley"
-                        },
-                        {
-                            "additional": "1",
-                            "card": "yellow",
-                            "minute": "90",
-                            "player": "Roberto Pereyra"
-                        }
-                    ],
-                    "referee": "Lee Mason",
                     "substitutions": [
                         {
-                            "out": "Andros Townsend",
-                            "in": "Patrick van Aanholt",
-                            "minute": "67"
+                            "in": "Ilkay Gündogan",
+                            "minute": "45",
+                            "out": "Vincent Kompany"
                         },
                         {
-                            "out": "Timothy Fosu-Mensah",
-                            "in": "Bakary Sako",
-                            "minute": "70"
+                            "in": "Victor Lindelöf",
+                            "minute": "45",
+                            "out": "Marcos Rojo"
                         },
                         {
-                            "out": "André Carrillo",
-                            "in": "Roberto Pereyra",
-                            "minute": "71"
+                            "in": "Eliaquim Mangala",
+                            "minute": "59",
+                            "out": "Gabriel Jesus"
                         },
                         {
-                            "out": "Yohan Cabaye",
-                            "in": "James McArthur",
-                            "minute": "77"
+                            "in": "Zlatan Ibrahimovic",
+                            "minute": "76",
+                            "out": "Jesse Lingard"
                         },
                         {
-                            "out": "Troy Deeney",
-                            "in": "Andre Gray",
-                            "minute": "80"
+                            "in": "Juan Mata",
+                            "minute": "82",
+                            "out": "Ander Herrera"
                         },
                         {
-                            "out": "Richarlison",
-                            "in": "Kiko Femenía",
-                            "minute": "84"
-                        },
-                        {
-                            "additional": "6",
-                            "out": "Kiko Femenía",
-                            "minute": "90"
+                            "in": "Bernardo Silva",
+                            "minute": "88",
+                            "out": "Leroy Sané"
                         }
-                    ]
+                    ],
+                    "kick_off": "16:30",
+                    "cards": [
+                        {
+                            "minute": "4",
+                            "card": "yellow",
+                            "player": "Kyle Walker"
+                        },
+                        {
+                            "minute": "36",
+                            "card": "yellow",
+                            "player": "Marcos Rojo"
+                        },
+                        {
+                            "minute": "63",
+                            "card": "yellow",
+                            "player": "Marcus Rashford"
+                        },
+                        {
+                            "minute": "73",
+                            "card": "yellow",
+                            "player": "David Silva"
+                        },
+                        {
+                            "minute": "79",
+                            "card": "yellow",
+                            "player": "Ander Herrera"
+                        },
+                        {
+                            "minute": "90",
+                            "card": "yellow",
+                            "player": "Ashley Young"
+                        }
+                    ],
+                    "referee": "Michael Oliver"
                 },
-                "url": "https://www.premierleague.com/match/22503",
-                "score": "2-1",
-                "away_team": "Watford"
+                "home_team": "Man Utd"
             }
-        ],
-        "date": "Tuesday 12 December 2017"
+        ]
     }
 ]

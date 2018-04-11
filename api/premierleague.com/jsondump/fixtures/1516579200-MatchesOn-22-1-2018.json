@@ -1,178 +1,59 @@
 [
     {
+        "date": "Monday 22 January 2018",
         "fixtures": [
             {
-                "home_team": "Huddersfield",
+                "score": "1-0",
+                "url": "https://www.premierleague.com/match/22580",
+                "away_team": "Liverpool",
                 "details": {
                     "goals": [
                         {
-                            "minute": "26",
-                            "scorer": "Emre Can",
-                            "own_goal": "false"
+                            "assist": "Federico Fernández",
+                            "own_goal": "false",
+                            "minute": "40",
+                            "scorer": "Alfie Mawson"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "in": "Tom Carroll",
+                            "minute": "64",
+                            "out": "Nathan Dyer"
                         },
                         {
-                            "assist": "Sadio Mané",
-                            "additional": "1",
-                            "minute": "45",
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false"
+                            "in": "Adam Lallana",
+                            "minute": "68",
+                            "out": "Alex Oxlade-Chamberlain"
+                        },
+                        {
+                            "in": "Danny Ings",
+                            "minute": "73",
+                            "out": "Georginio Wijnaldum"
+                        },
+                        {
+                            "in": "Wilfried Bony",
+                            "minute": "79",
+                            "out": "Jordan Ayew"
                         }
                     ],
                     "kick_off": "20:00",
-                    "cards": [],
-                    "referee": "Kevin Friend",
-                    "substitutions": [
+                    "cards": [
                         {
-                            "out": "Steve Mounie",
-                            "in": "Collin Quaner",
-                            "minute": "63"
+                            "minute": "44",
+                            "card": "yellow",
+                            "player": "Andrew Robertson"
                         },
                         {
-                            "out": "Chris Löwe",
-                            "in": "Tom Ince",
-                            "minute": "79"
-                        },
-                        {
-                            "out": "Aaron Mooy",
-                            "in": "Rajiv van La Parra",
-                            "minute": "79"
-                        },
-                        {
-                            "out": "Mohamed Salah",
-                            "in": "Alex Oxlade-Chamberlain",
-                            "minute": "83"
-                        },
-                        {
-                            "out": "Jordan Henderson",
-                            "in": "Georginio Wijnaldum",
-                            "minute": "83"
-                        },
-                        {
-                            "out": "Roberto Firmino",
-                            "in": "Dominic Solanke",
-                            "minute": "89"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22582",
-                "score": "0-3",
-                "away_team": "Liverpool"
-            },
-            {
-                "home_team": "Huddersfield",
-                "details": {
-                    "goals": [
-                        {
-                            "minute": "26",
-                            "scorer": "Emre Can",
-                            "own_goal": "false"
-                        },
-                        {
-                            "assist": "Sadio Mané",
-                            "additional": "1",
                             "minute": "45",
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false"
+                            "card": "yellow",
+                            "player": "Joel Matip"
                         }
                     ],
-                    "kick_off": "20:00",
-                    "cards": [],
-                    "referee": "Kevin Friend",
-                    "substitutions": [
-                        {
-                            "out": "Steve Mounie",
-                            "in": "Collin Quaner",
-                            "minute": "63"
-                        },
-                        {
-                            "out": "Chris Löwe",
-                            "in": "Tom Ince",
-                            "minute": "79"
-                        },
-                        {
-                            "out": "Aaron Mooy",
-                            "in": "Rajiv van La Parra",
-                            "minute": "79"
-                        },
-                        {
-                            "out": "Mohamed Salah",
-                            "in": "Alex Oxlade-Chamberlain",
-                            "minute": "83"
-                        },
-                        {
-                            "out": "Jordan Henderson",
-                            "in": "Georginio Wijnaldum",
-                            "minute": "83"
-                        },
-                        {
-                            "out": "Roberto Firmino",
-                            "in": "Dominic Solanke",
-                            "minute": "89"
-                        }
-                    ]
+                    "referee": "Neil Swarbrick"
                 },
-                "url": "https://www.premierleague.com/match/22582",
-                "score": "0-3",
-                "away_team": "Liverpool"
-            },
-            {
-                "home_team": "Huddersfield",
-                "details": {
-                    "goals": [
-                        {
-                            "minute": "26",
-                            "scorer": "Emre Can",
-                            "own_goal": "false"
-                        },
-                        {
-                            "assist": "Sadio Mané",
-                            "additional": "1",
-                            "minute": "45",
-                            "scorer": "Roberto Firmino",
-                            "own_goal": "false"
-                        }
-                    ],
-                    "kick_off": "20:00",
-                    "cards": [],
-                    "referee": "Kevin Friend",
-                    "substitutions": [
-                        {
-                            "out": "Steve Mounie",
-                            "in": "Collin Quaner",
-                            "minute": "63"
-                        },
-                        {
-                            "out": "Chris Löwe",
-                            "in": "Tom Ince",
-                            "minute": "79"
-                        },
-                        {
-                            "out": "Aaron Mooy",
-                            "in": "Rajiv van La Parra",
-                            "minute": "79"
-                        },
-                        {
-                            "out": "Mohamed Salah",
-                            "in": "Alex Oxlade-Chamberlain",
-                            "minute": "83"
-                        },
-                        {
-                            "out": "Jordan Henderson",
-                            "in": "Georginio Wijnaldum",
-                            "minute": "83"
-                        },
-                        {
-                            "out": "Roberto Firmino",
-                            "in": "Dominic Solanke",
-                            "minute": "89"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22582",
-                "score": "0-3",
-                "away_team": "Liverpool"
+                "home_team": "Swansea"
             }
-        ],
-        "date": "Tuesday 30 January 2018"
+        ]
     }
 ]

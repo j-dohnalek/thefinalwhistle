@@ -1,86 +1,198 @@
 [
     {
+        "date": "Sunday 14 January 2018",
         "fixtures": [
             {
-                "home_team": "Man Utd",
+                "score": "2-1",
+                "url": "https://www.premierleague.com/match/22562",
+                "away_team": "Arsenal",
                 "details": {
                     "goals": [
                         {
-                            "assist": "Paul Pogba",
-                            "minute": "9",
-                            "scorer": "Antonio Valencia",
-                            "own_goal": "false"
+                            "assist": "Alex Iwobi",
+                            "own_goal": "false",
+                            "minute": "52",
+                            "scorer": "Héctor Bellerín"
                         },
                         {
-                            "assist": "Paul Pogba",
-                            "minute": "38",
-                            "scorer": "Anthony Martial",
-                            "own_goal": "false"
+                            "assist": "Ryan Fraser",
+                            "own_goal": "false",
+                            "minute": "70",
+                            "scorer": "Callum Wilson"
                         },
                         {
-                            "assist": "Anthony Martial",
-                            "minute": "72",
-                            "scorer": "Romelu Lukaku",
-                            "own_goal": "false"
+                            "assist": "Callum Wilson",
+                            "own_goal": "false",
+                            "minute": "74",
+                            "scorer": "Jordon Ibe"
                         }
                     ],
-                    "kick_off": "20:00",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "63",
-                            "player": "Jesse Lingard"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "67",
-                            "player": "Romelu Lukaku"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "68",
-                            "player": "Stephen Ireland"
-                        }
-                    ],
-                    "referee": "Anthony Taylor",
                     "substitutions": [
                         {
-                            "out": "Josh Tymon",
-                            "in": "Kevin Wimmer",
-                            "minute": "45"
+                            "in": "Lys Mousset",
+                            "minute": "63",
+                            "out": "Charlie Daniels"
                         },
                         {
-                            "out": "Eric Maxim Choupo-Moting",
-                            "in": "Ramadan Sobhi",
-                            "minute": "61"
+                            "in": "Aaron Ramsey",
+                            "minute": "74",
+                            "out": "Calum Chambers"
                         },
                         {
-                            "out": "Peter Crouch",
-                            "in": "Mame Biram Diouf",
-                            "minute": "70"
+                            "in": "Theo Walcott",
+                            "minute": "76",
+                            "out": "Alex Iwobi"
                         },
                         {
-                            "out": "Jesse Lingard",
-                            "in": "Marouane Fellaini",
-                            "minute": "80"
+                            "in": "Marc Pugh",
+                            "minute": "86",
+                            "out": "Jordon Ibe"
                         },
                         {
-                            "out": "Anthony Martial",
-                            "in": "Marcus Rashford",
-                            "minute": "80"
-                        },
-                        {
-                            "out": "Juan Mata",
-                            "in": "Scott McTominay",
-                            "minute": "83"
+                            "in": "Benik Afobe",
+                            "minute": "90",
+                            "additional": "1",
+                            "out": "Callum Wilson"
                         }
-                    ]
+                    ],
+                    "kick_off": "13:30",
+                    "cards": [
+                        {
+                            "minute": "21",
+                            "card": "yellow",
+                            "player": "Dan Gosling"
+                        },
+                        {
+                            "minute": "31",
+                            "card": "yellow",
+                            "player": "Simon Francis"
+                        },
+                        {
+                            "minute": "56",
+                            "card": "yellow",
+                            "player": "Granit Xhaka"
+                        },
+                        {
+                            "minute": "71",
+                            "card": "yellow",
+                            "player": "Jack Wilshere"
+                        }
+                    ],
+                    "referee": "Kevin Friend"
                 },
-                "url": "https://www.premierleague.com/match/22567",
-                "score": "3-0",
-                "away_team": "Stoke"
+                "home_team": "Bournemouth"
+            },
+            {
+                "score": "4-3",
+                "url": "https://www.premierleague.com/match/22566",
+                "away_team": "Man City",
+                "details": {
+                    "goals": [
+                        {
+                            "assist": "Roberto Firmino",
+                            "own_goal": "false",
+                            "minute": "9",
+                            "scorer": "Alex Oxlade-Chamberlain"
+                        },
+                        {
+                            "assist": "Kyle Walker",
+                            "own_goal": "false",
+                            "minute": "40",
+                            "scorer": "Leroy Sané"
+                        },
+                        {
+                            "assist": "Alex Oxlade-Chamberlain",
+                            "own_goal": "false",
+                            "minute": "59",
+                            "scorer": "Roberto Firmino"
+                        },
+                        {
+                            "assist": "Mohamed Salah",
+                            "own_goal": "false",
+                            "minute": "61",
+                            "scorer": "Sadio Mané"
+                        },
+                        {
+                            "own_goal": "false",
+                            "minute": "68",
+                            "scorer": "Mohamed Salah",
+                            "penalty": "true"
+                        },
+                        {
+                            "own_goal": "false",
+                            "minute": "84",
+                            "scorer": "Bernardo Silva",
+                            "penalty": "true"
+                        },
+                        {
+                            "assist": "Sergio Agüero",
+                            "own_goal": "false",
+                            "minute": "90",
+                            "additional": "1",
+                            "scorer": "Ilkay Gündogan"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "in": "Danilo",
+                            "minute": "31",
+                            "out": "Fabian Delph"
+                        },
+                        {
+                            "in": "Bernardo Silva",
+                            "minute": "71",
+                            "out": "Raheem Sterling"
+                        },
+                        {
+                            "in": "James Milner",
+                            "minute": "79",
+                            "out": "Emre Can"
+                        },
+                        {
+                            "in": "Adam Lallana",
+                            "minute": "88",
+                            "out": "Mohamed Salah"
+                        },
+                        {
+                            "in": "Ragnar Klavan",
+                            "minute": "90",
+                            "additional": "4",
+                            "out": "Sadio Mané"
+                        }
+                    ],
+                    "kick_off": "16:00",
+                    "cards": [
+                        {
+                            "minute": "60",
+                            "card": "yellow",
+                            "player": "Roberto Firmino"
+                        },
+                        {
+                            "minute": "65",
+                            "card": "yellow",
+                            "player": "Nicolás Otamendi"
+                        },
+                        {
+                            "minute": "69",
+                            "card": "yellow",
+                            "player": "Raheem Sterling"
+                        },
+                        {
+                            "minute": "72",
+                            "card": "yellow",
+                            "player": "Fernandinho"
+                        },
+                        {
+                            "minute": "90",
+                            "card": "yellow",
+                            "additional": "3",
+                            "player": "James Milner"
+                        }
+                    ],
+                    "referee": "Andre Marriner"
+                },
+                "home_team": "Liverpool"
             }
-        ],
-        "date": "Monday 15 January 2018"
+        ]
     }
 ]

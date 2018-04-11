@@ -1,352 +1,190 @@
 [
     {
+        "date": "Sunday 31 December 2017",
         "fixtures": [
             {
-                "home_team": "Everton",
+                "score": "0-0",
+                "url": "https://www.premierleague.com/match/22544",
+                "away_team": "Man City",
                 "details": {
-                    "goals": [
-                        {
-                            "assist": "Paul Pogba",
-                            "minute": "57",
-                            "scorer": "Anthony Martial",
-                            "own_goal": "false"
-                        },
-                        {
-                            "assist": "Paul Pogba",
-                            "minute": "81",
-                            "scorer": "Jesse Lingard",
-                            "own_goal": "false"
-                        }
-                    ],
-                    "kick_off": "17:30",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "43",
-                            "player": "Wayne Rooney"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "83",
-                            "player": "Mason Holgate"
-                        }
-                    ],
-                    "referee": "Andre Marriner",
+                    "goals": [],
                     "substitutions": [
                         {
-                            "out": "Yannick Bolasie",
-                            "in": "Aaron Lennon",
-                            "minute": "62"
+                            "in": "Martin Kelly",
+                            "minute": "20",
+                            "out": "Scott Dann"
                         },
                         {
-                            "out": "Wayne Rooney",
-                            "in": "James McCarthy",
-                            "minute": "62"
+                            "in": "Sergio Agüero",
+                            "minute": "23",
+                            "out": "Gabriel Jesus"
                         },
                         {
-                            "out": "Anthony Martial",
-                            "in": "Marcus Rashford",
-                            "minute": "77"
+                            "in": "Raheem Sterling",
+                            "minute": "57",
+                            "out": "Ilkay Gündogan"
                         },
                         {
-                            "out": "Oumar Niasse",
-                            "in": "Dominic Calvert-Lewin",
-                            "minute": "81"
+                            "in": "Jason Puncheon",
+                            "minute": "75",
+                            "out": "Yohan Cabaye"
                         },
                         {
-                            "out": "Jesse Lingard",
-                            "in": "Daley Blind",
-                            "minute": "87"
+                            "in": "Yaya Touré",
+                            "minute": "81",
+                            "out": "Bernardo Silva"
                         },
                         {
-                            "out": "Juan Mata",
-                            "additional": "2",
-                            "in": "Axel Tuanzebe",
-                            "minute": "90"
+                            "in": "Lee Chung-yong",
+                            "minute": "90",
+                            "additional": "6",
+                            "out": "Jason Puncheon"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "6",
+                            "out": "Kevin De Bruyne"
                         }
-                    ]
+                    ],
+                    "kick_off": "12:00",
+                    "cards": [
+                        {
+                            "minute": "16",
+                            "card": "yellow",
+                            "player": "Scott Dann"
+                        },
+                        {
+                            "minute": "45",
+                            "card": "yellow",
+                            "additional": "6",
+                            "player": "Leroy Sané"
+                        },
+                        {
+                            "minute": "48",
+                            "card": "yellow",
+                            "player": "Patrick van Aanholt"
+                        },
+                        {
+                            "minute": "67",
+                            "card": "yellow",
+                            "player": "Yohan Cabaye"
+                        },
+                        {
+                            "minute": "79",
+                            "card": "yellow",
+                            "player": "Sergio Agüero"
+                        },
+                        {
+                            "minute": "90",
+                            "card": "yellow",
+                            "player": "Yaya Touré"
+                        },
+                        {
+                            "minute": "90",
+                            "card": "yellow",
+                            "additional": "1",
+                            "player": "Fernandinho"
+                        },
+                        {
+                            "minute": "90",
+                            "card": "yellow",
+                            "additional": "2",
+                            "player": "Martin Kelly"
+                        },
+                        {
+                            "minute": "90",
+                            "card": "yellow",
+                            "additional": "2",
+                            "player": "Jason Puncheon"
+                        }
+                    ],
+                    "referee": "Jonathan Moss"
                 },
-                "url": "https://www.premierleague.com/match/22555",
-                "score": "0-2",
-                "away_team": "Man Utd"
+                "home_team": "Crystal Palace"
             },
             {
-                "home_team": "Everton",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22551",
+                "away_team": "Arsenal",
                 "details": {
                     "goals": [
                         {
-                            "assist": "Paul Pogba",
-                            "minute": "57",
-                            "scorer": "Anthony Martial",
-                            "own_goal": "false"
-                        },
-                        {
-                            "assist": "Paul Pogba",
-                            "minute": "81",
-                            "scorer": "Jesse Lingard",
-                            "own_goal": "false"
-                        }
-                    ],
-                    "kick_off": "17:30",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "43",
-                            "player": "Wayne Rooney"
-                        },
-                        {
-                            "card": "yellow",
+                            "own_goal": "true",
                             "minute": "83",
-                            "player": "Mason Holgate"
+                            "scorer": "James McClean",
+                            "penalty": "false"
                         }
                     ],
-                    "referee": "Andre Marriner",
                     "substitutions": [
                         {
-                            "out": "Yannick Bolasie",
-                            "in": "Aaron Lennon",
-                            "minute": "62"
+                            "in": "Ainsley Maitland-Niles",
+                            "minute": "37",
+                            "out": "Sead Kolasinac"
                         },
                         {
-                            "out": "Wayne Rooney",
-                            "in": "James McCarthy",
-                            "minute": "62"
+                            "in": "Per Mertesacker",
+                            "minute": "72",
+                            "out": "Laurent Koscielny"
                         },
                         {
-                            "out": "Anthony Martial",
-                            "in": "Marcus Rashford",
-                            "minute": "77"
+                            "in": "James McClean",
+                            "minute": "72",
+                            "out": "Matt Phillips"
                         },
                         {
-                            "out": "Oumar Niasse",
-                            "in": "Dominic Calvert-Lewin",
-                            "minute": "81"
+                            "in": "Grzegorz Krychowiak",
+                            "minute": "72",
+                            "out": "Chris Brunt"
                         },
                         {
-                            "out": "Jesse Lingard",
-                            "in": "Daley Blind",
-                            "minute": "87"
+                            "in": "Danny Welbeck",
+                            "minute": "74",
+                            "out": "Alex Iwobi"
                         },
                         {
-                            "out": "Juan Mata",
-                            "additional": "2",
-                            "in": "Axel Tuanzebe",
-                            "minute": "90"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22555",
-                "score": "0-2",
-                "away_team": "Man Utd"
-            },
-            {
-                "home_team": "Everton",
-                "details": {
-                    "goals": [
-                        {
-                            "assist": "Paul Pogba",
-                            "minute": "57",
-                            "scorer": "Anthony Martial",
-                            "own_goal": "false"
-                        },
-                        {
-                            "assist": "Paul Pogba",
-                            "minute": "81",
-                            "scorer": "Jesse Lingard",
-                            "own_goal": "false"
+                            "in": "Allan Nyom",
+                            "minute": "75",
+                            "out": "Hal Robson-Kanu"
                         }
                     ],
-                    "kick_off": "17:30",
+                    "kick_off": "16:30",
                     "cards": [
                         {
+                            "minute": "34",
                             "card": "yellow",
-                            "minute": "43",
-                            "player": "Wayne Rooney"
+                            "player": "Jonny Evans"
                         },
                         {
+                            "minute": "58",
                             "card": "yellow",
-                            "minute": "83",
-                            "player": "Mason Holgate"
+                            "player": "Shkodran Mustafi"
+                        },
+                        {
+                            "minute": "59",
+                            "card": "yellow",
+                            "player": "Chris Brunt"
+                        },
+                        {
+                            "minute": "82",
+                            "card": "yellow",
+                            "player": "Craig Dawson"
+                        },
+                        {
+                            "minute": "88",
+                            "card": "yellow",
+                            "player": "Jack Wilshere"
+                        },
+                        {
+                            "minute": "90",
+                            "card": "yellow",
+                            "additional": "5",
+                            "player": "Petr Cech"
                         }
                     ],
-                    "referee": "Andre Marriner",
-                    "substitutions": [
-                        {
-                            "out": "Yannick Bolasie",
-                            "in": "Aaron Lennon",
-                            "minute": "62"
-                        },
-                        {
-                            "out": "Wayne Rooney",
-                            "in": "James McCarthy",
-                            "minute": "62"
-                        },
-                        {
-                            "out": "Anthony Martial",
-                            "in": "Marcus Rashford",
-                            "minute": "77"
-                        },
-                        {
-                            "out": "Oumar Niasse",
-                            "in": "Dominic Calvert-Lewin",
-                            "minute": "81"
-                        },
-                        {
-                            "out": "Jesse Lingard",
-                            "in": "Daley Blind",
-                            "minute": "87"
-                        },
-                        {
-                            "out": "Juan Mata",
-                            "additional": "2",
-                            "in": "Axel Tuanzebe",
-                            "minute": "90"
-                        }
-                    ]
+                    "referee": "Mike Dean"
                 },
-                "url": "https://www.premierleague.com/match/22555",
-                "score": "0-2",
-                "away_team": "Man Utd"
-            },
-            {
-                "home_team": "Everton",
-                "details": {
-                    "goals": [
-                        {
-                            "assist": "Paul Pogba",
-                            "minute": "57",
-                            "scorer": "Anthony Martial",
-                            "own_goal": "false"
-                        },
-                        {
-                            "assist": "Paul Pogba",
-                            "minute": "81",
-                            "scorer": "Jesse Lingard",
-                            "own_goal": "false"
-                        }
-                    ],
-                    "kick_off": "17:30",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "43",
-                            "player": "Wayne Rooney"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "83",
-                            "player": "Mason Holgate"
-                        }
-                    ],
-                    "referee": "Andre Marriner",
-                    "substitutions": [
-                        {
-                            "out": "Yannick Bolasie",
-                            "in": "Aaron Lennon",
-                            "minute": "62"
-                        },
-                        {
-                            "out": "Wayne Rooney",
-                            "in": "James McCarthy",
-                            "minute": "62"
-                        },
-                        {
-                            "out": "Anthony Martial",
-                            "in": "Marcus Rashford",
-                            "minute": "77"
-                        },
-                        {
-                            "out": "Oumar Niasse",
-                            "in": "Dominic Calvert-Lewin",
-                            "minute": "81"
-                        },
-                        {
-                            "out": "Jesse Lingard",
-                            "in": "Daley Blind",
-                            "minute": "87"
-                        },
-                        {
-                            "out": "Juan Mata",
-                            "additional": "2",
-                            "in": "Axel Tuanzebe",
-                            "minute": "90"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22555",
-                "score": "0-2",
-                "away_team": "Man Utd"
-            },
-            {
-                "home_team": "Everton",
-                "details": {
-                    "goals": [
-                        {
-                            "assist": "Paul Pogba",
-                            "minute": "57",
-                            "scorer": "Anthony Martial",
-                            "own_goal": "false"
-                        },
-                        {
-                            "assist": "Paul Pogba",
-                            "minute": "81",
-                            "scorer": "Jesse Lingard",
-                            "own_goal": "false"
-                        }
-                    ],
-                    "kick_off": "17:30",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "43",
-                            "player": "Wayne Rooney"
-                        },
-                        {
-                            "card": "yellow",
-                            "minute": "83",
-                            "player": "Mason Holgate"
-                        }
-                    ],
-                    "referee": "Andre Marriner",
-                    "substitutions": [
-                        {
-                            "out": "Yannick Bolasie",
-                            "in": "Aaron Lennon",
-                            "minute": "62"
-                        },
-                        {
-                            "out": "Wayne Rooney",
-                            "in": "James McCarthy",
-                            "minute": "62"
-                        },
-                        {
-                            "out": "Anthony Martial",
-                            "in": "Marcus Rashford",
-                            "minute": "77"
-                        },
-                        {
-                            "out": "Oumar Niasse",
-                            "in": "Dominic Calvert-Lewin",
-                            "minute": "81"
-                        },
-                        {
-                            "out": "Jesse Lingard",
-                            "in": "Daley Blind",
-                            "minute": "87"
-                        },
-                        {
-                            "out": "Juan Mata",
-                            "additional": "2",
-                            "in": "Axel Tuanzebe",
-                            "minute": "90"
-                        }
-                    ]
-                },
-                "url": "https://www.premierleague.com/match/22555",
-                "score": "0-2",
-                "away_team": "Man Utd"
+                "home_team": "West Brom"
             }
-        ],
-        "date": "Monday 1 January 2018"
+        ]
     }
 ]

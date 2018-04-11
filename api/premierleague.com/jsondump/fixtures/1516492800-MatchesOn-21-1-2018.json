@@ -1,59 +1,90 @@
 [
     {
+        "date": "Sunday 21 January 2018",
         "fixtures": [
             {
-                "home_team": "Swansea",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22578",
+                "away_team": "Spurs",
                 "details": {
                     "goals": [
                         {
-                            "assist": "Federico Fernández",
-                            "minute": "40",
-                            "scorer": "Alfie Mawson",
-                            "own_goal": "false"
-                        }
-                    ],
-                    "kick_off": "20:00",
-                    "cards": [
-                        {
-                            "card": "yellow",
-                            "minute": "44",
-                            "player": "Andrew Robertson"
+                            "own_goal": "true",
+                            "minute": "15",
+                            "scorer": "Davinson Sánchez",
+                            "penalty": "false"
                         },
                         {
-                            "card": "yellow",
-                            "minute": "45",
-                            "player": "Joel Matip"
+                            "assist": "Ben Davies",
+                            "own_goal": "false",
+                            "minute": "18",
+                            "scorer": "Harry Kane"
                         }
                     ],
-                    "referee": "Neil Swarbrick",
                     "substitutions": [
                         {
-                            "out": "Nathan Dyer",
-                            "in": "Tom Carroll",
-                            "minute": "64"
+                            "in": "Sofiane Boufal",
+                            "minute": "65",
+                            "out": "Pierre-Emile Højbjerg"
                         },
                         {
-                            "out": "Alex Oxlade-Chamberlain",
-                            "in": "Adam Lallana",
-                            "minute": "68"
+                            "in": "Erik Lamela",
+                            "minute": "70",
+                            "out": "Son Heung-Min"
                         },
                         {
-                            "out": "Georginio Wijnaldum",
-                            "in": "Danny Ings",
-                            "minute": "73"
+                            "in": "Kieran Trippier",
+                            "minute": "72",
+                            "out": "Serge Aurier"
                         },
                         {
-                            "out": "Jordan Ayew",
-                            "in": "Wilfried Bony",
-                            "minute": "79"
+                            "in": "Steven Davis",
+                            "minute": "80",
+                            "out": "Mario Lemina"
+                        },
+                        {
+                            "in": "Michael Obafemi",
+                            "minute": "82",
+                            "out": "Manolo Gabbiadini"
+                        },
+                        {
+                            "in": "Victor Wanyama",
+                            "minute": "85",
+                            "out": "Mousa Dembélé"
                         }
-                    ]
+                    ],
+                    "kick_off": "16:00",
+                    "cards": [
+                        {
+                            "minute": "48",
+                            "card": "yellow",
+                            "player": "Jack Stephens"
+                        },
+                        {
+                            "minute": "57",
+                            "card": "yellow",
+                            "player": "Moussa Sissoko"
+                        },
+                        {
+                            "minute": "60",
+                            "card": "yellow",
+                            "player": "Oriol Romeu"
+                        },
+                        {
+                            "minute": "75",
+                            "card": "yellow",
+                            "player": "Mousa Dembélé"
+                        },
+                        {
+                            "minute": "78",
+                            "card": "yellow",
+                            "player": "Kieran Trippier"
+                        }
+                    ],
+                    "referee": "Kevin Friend"
                 },
-                "url": "https://www.premierleague.com/match/22580",
-                "score": "1-0",
-                "away_team": "Liverpool"
+                "home_team": "Southampton"
             }
-        ],
-        "date": "Monday 22 January 2018"
+        ]
     }
 ]
