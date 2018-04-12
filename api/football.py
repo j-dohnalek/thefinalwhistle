@@ -215,6 +215,20 @@ class MatchStatistics(db.Model):
 
     stat_id = db.Column(db.Integer, primary_key=True)
 
+    # ft - full time goals
+    home_ft_goals = db.Column(db.Integer, nullable=False)
+    away_ft_goals = db.Column(db.Integer, nullable=False)
+
+    # ht - half time goals
+    home_ht_goals = db.Column(db.Integer, nullable=False)
+    away_ht_goals = db.Column(db.Integer, nullable=False)
+
+    # 1 - home team win
+    # 2 - away team win
+    # 3 - draw
+    ft_result = db.Column(db.Integer, nullable=False)
+    ht_result = db.Column(db.Integer, nullable=False)
+
     home_shots = db.Column(db.Integer, nullable=False)
     away_shots = db.Column(db.Integer, nullable=False)
     home_shots_on_target = db.Column(db.Integer, nullable=False)
@@ -231,3 +245,9 @@ class MatchStatistics(db.Model):
     @declared_attr
     def match(cls):
         return db.Column(db.Integer, db.ForeignKey('match.match_id'), nullable=False)
+
+    # http://docs.sqlalchemy.org/en/rel_0_9/orm/mapped_attributes.html#simple-validators
+    @validates('role')
+    def validate_role(self, key, value):
+        assert value in [1, 2, 3]
+        return value

@@ -1,14 +1,17 @@
 from server import app
 from server import db
 from football import Referee, ClubStaff, League, Season, Stadium, Team
-from football import ClubStaff, Player, Transfer
+from football import ClubStaff, Player, Transfer, MatchStatistics
 from football import Match, Card, Goal, Substitution
 from misc import get_or_create, record_exists
 
+from flask import render_template
 import json
 from datetime import datetime
 import glob
 import sqlalchemy
+import os
+import csv
 
 #################################
 
@@ -16,18 +19,25 @@ REFEREE_JSON = 'json/list_of_referees.json'
 STADIUM_JSON = 'json/list_of_stadiums.json'
 CLUB_STAFF_JSON = 'json/list_of_managers.json'
 
+STATIC_TEMPLATE = 'static/index.html'
 ################################
 
 
 @app.route('/', methods=['GET'])
 def index():
-    return 'It Works! <a href="./create">Create</a>'
+    return render_template(STATIC_TEMPLATE, message='It Works! Next: Create DB')
+
+
+@app.route('/delete', methods=['GET'])
+def delete_db():
+    os.remove('test.db')
+    return render_template(STATIC_TEMPLATE, message='Database deleted! Next: Create DB')
 
 
 @app.route('/create', methods=['GET'])
 def create():
     db.create_all(app=app)
-    return 'Database created! <a href="./referee">Next</a>'
+    return render_template(STATIC_TEMPLATE, message='Create DB .. OK! Next: Parse referee')
 
 
 @app.route('/referee', methods=['GET'])
@@ -40,14 +50,13 @@ def parse_referee():
     for referee in list_of_referees:
         get_or_create(db.session, Referee, name=referee)
 
-    return 'Referees Parsed OK! <a href="./league">Next</a>'
+    return render_template(STATIC_TEMPLATE, message='Parse referee .. OK! Next: Parse league')
 
 
 @app.route('/league', methods=['GET'])
 def parse_league():
     get_or_create(db.session, League, name='Premier League')
-
-    return 'League Parsed OK <a href="./season">Next</a>'
+    return render_template(STATIC_TEMPLATE, message='Parse league .. OK! Next: Parse season')
 
 
 @app.route('/season', methods=['GET'])
@@ -56,8 +65,7 @@ def parse_season():
     date_format = '%Y-%m-%d'
     date = datetime.strptime(s, date_format)
     get_or_create(db.session, Season, end_year=date)
-
-    return 'Season Parsed OK <a href="./stadiums">Next</a>'
+    return render_template(STATIC_TEMPLATE, message='Parse season .. OK! Next: Parse stadiums')
 
 
 @app.route('/stadiums', methods=['GET'])
@@ -67,8 +75,7 @@ def parse_stadiums():
         stadiums = json.load(outfile)
     for stadium in stadiums:
         get_or_create(db.session, Stadium, name=stadium['stadium'])
-
-    return 'Stadiums Parsed OK! <a href="./teams">Next</a>'
+    return render_template(STATIC_TEMPLATE, message='Parse stadiums .. OK! Next: Parse teams')
 
 
 @app.route('/teams', methods=['GET'])
@@ -83,7 +90,7 @@ def parse_teams():
         get_or_create(db.session, Team, name=club['club'], name_short=club['club_short'],
                       stadium=stadium.stadium_id, league=league.league_id)
 
-    return 'Teams Parsed OK! <a href="./clubstaff">Next</a>'
+    return render_template(STATIC_TEMPLATE, message='Parse teams .. OK! Next: Parse club staff')
 
 
 @app.route('/clubstaff', methods=['GET'])
@@ -97,7 +104,7 @@ def parse_club_staff():
         for manager in club['managers']:
             get_or_create(db.session, ClubStaff, team=team.team_id, name=manager, role='manager')
 
-    return 'ClubStaff Parsed OK! <a href="./players">Next</a>'
+    return render_template(STATIC_TEMPLATE, message='Parse club staff .. OK! Next: Parse players')
 
 
 @app.route('/players', methods=['GET'])
@@ -125,10 +132,9 @@ def parse_players():
                                   weight=player['weight'].replace('kg', ''),
                                   position=player['position'],
                                   nationality=player['nationality'],
-                                  dob=date
-                    )
+                                  dob=date)
 
-    return 'Players Parsed OK! ! <a href="./transfers">Next</a>'
+    return render_template(STATIC_TEMPLATE, message='Parse players .. OK! Next: Parse transfers')
 
 
 @app.route('/transfers', methods=['GET'])
@@ -159,7 +165,10 @@ def parse_transfers():
 
                 player = Player.query.filter_by(name=transfer['name']).first()
                 if player is None:
-                    player = get_or_create(db.session, Player, name=transfer['name'], transferred_out=True, current_team=team.team_id)
+                    player = get_or_create(db.session, Player,
+                                           name=transfer['name'],
+                                           transferred_out=True,
+                                           current_team=team.team_id)
 
                 transfer_date = datetime.strptime(transfer['date'], '%d %B %Y')
                 end_year = transfer_date.year
@@ -178,13 +187,12 @@ def parse_transfers():
                               details=transfer['details'],
                               season=season.season_id)
 
-    return 'Transfers parse OK <a href="./fixtures">Next</a>'
+    return render_template(STATIC_TEMPLATE, message='Parse transfers .. OK! Next: Parse transfers')
 
 
 @app.route('/fixtures', methods=['GET'])
 def parse_fixtures():
 
-    game_count = 0
     missing = ''
     for src in glob.glob("json/fixtures/*.json"):
 
@@ -205,7 +213,7 @@ def parse_fixtures():
             else:
                 end_year = kickoff.year
 
-            season = Season.query.filter(sqlalchemy.extract('year', Season.end_year)==end_year).first()
+            season = Season.query.filter(sqlalchemy.extract('year', Season.end_year) == end_year).first()
             home_team = Team.query.filter_by(name_short=fixture['home_team']).first()
             away_team = Team.query.filter_by(name_short=fixture['away_team']).first()
             referee = Referee.query.filter_by(name=fixture['details']['referee']).first()
@@ -222,7 +230,15 @@ def parse_fixtures():
 
             for event in (fixture['details']['goals']):
 
-                player = Player.query.filter_by(name=event['scorer']).first()
+                try:
+                    player = Player.query.filter_by(name=event['scorer']).first()
+                    player_id = player.player_id
+                except AttributeError:
+                    missing += '<br>{} {} {} {}'.format(event['scorer'],
+                                                fixture['home_team'],
+                                                fixture['away_team'],
+                                                fixture['date'])
+
                 own_goal = False
                 if 'true' in event['own_goal']:
                     own_goal = True
@@ -257,14 +273,22 @@ def parse_fixtures():
                               match=match.match_id,
                               penalty=penalty,
                               own_goal=own_goal,
-                              player=player.player_id,
+                              player=player_id,
                               assist_player=assist,
                               extra_time=extra_time,
                               minute=event['minute'])
 
             for event in (fixture['details']['cards']):
 
-                player = Player.query.filter_by(name=event['player']).first()
+                try:
+                    player = Player.query.filter_by(name=event['player']).first()
+                    player_id = player.player_id
+                except AttributeError:
+                    missing += '<br>{} {} {} {}'.format(event['player'],
+                                                fixture['home_team'],
+                                                fixture['away_team'],
+                                                fixture['date'])
+
                 extra_time = 0
                 try:
                     extra_time = event['additional']
@@ -278,7 +302,7 @@ def parse_fixtures():
                 get_or_create(db.session, Card,
                               match=match.match_id,
                               yellow=yellow,
-                              player=player.player_id,
+                              player=player_id,
                               extra_time=extra_time,
                               minute=event['minute'])
 
@@ -318,5 +342,252 @@ def parse_fixtures():
                               player_in=player_in,
                               extra_time=extra_time,
                               minute=event['minute'])
+    if len(missing) > 0:
+        return missing
 
-    return 'Fixtures Parsed OK {}'.format(missing)
+    return render_template(STATIC_TEMPLATE, message='Parse fixtures .. OK! Next: Parse new fixtures')
+
+
+@app.route('/newfixtures', methods=['GET'])
+def parse_new_fixtures():
+
+    game_count = 0
+    missing = ''
+    for src in glob.glob("json/new_fixtures/*.json"):
+
+        with open(src) as outfile:
+            matchday = json.load(outfile)
+
+        for fixtures in matchday:
+            match_date = fixtures['date']
+            for fixture in fixtures['fixtures']:
+
+                kickoff_datetime = "{} {}".format(match_date, fixture['details']['kick_off'])
+                kickoff = datetime.strptime(kickoff_datetime, '%A %d %B %Y %H:%M')
+
+                # The season is scheduled to finish on May
+                season_end = datetime.strptime('31 Jul {}'.format(kickoff.year), '%d %b %Y')
+                if kickoff > season_end:
+                    end_year = kickoff.year + 1
+                else:
+                    end_year = kickoff.year
+
+                season = Season.query.filter(sqlalchemy.extract('year', Season.end_year)==end_year).first()
+                home_team = Team.query.filter_by(name_short=fixture['home_team']).first()
+                away_team = Team.query.filter_by(name_short=fixture['away_team']).first()
+                referee = Referee.query.filter_by(name=fixture['details']['referee']).first()
+
+                try:
+                    match = get_or_create(db.session, Match,
+                                  home_team=home_team.team_id,
+                                  away_team=away_team.team_id,
+                                  kickoff=kickoff,
+                                  season=season.season_id,
+                                  main_referee=referee.referee_id)
+
+                    game_count += 1
+
+                except AttributeError:
+                    missing += '<br>{} {} {} {}'.format(fixture['details']['referee'], fixture['home_team'], fixture['away_team'], fixture['date'])
+
+                for event in (fixture['details']['goals']):
+
+                    player = Player.query.filter_by(name=event['scorer']).first()
+                    own_goal = False
+                    if 'true' in event['own_goal']:
+                        own_goal = True
+
+                    assist = None
+                    try:
+                        player_assist = Player.query.filter_by(name=event['assist']).first()
+                        assist = player_assist.player_id
+                    except KeyError:
+                        pass
+
+                    except AttributeError:
+
+                        missing += '<br>{} {} {} {}'.format(event['assist'],
+                                                    fixture['home_team'],
+                                                    fixture['away_team'],
+                                                    fixture['date'])
+
+
+                    extra_time = 0
+                    try:
+                        extra_time = event['additional']
+                    except KeyError:
+                        pass
+
+                    penalty = False
+                    if assist is None:
+                        if own_goal:
+                            penalty = False
+
+                    get_or_create(db.session, Goal,
+                                  match=match.match_id,
+                                  penalty=penalty,
+                                  own_goal=own_goal,
+                                  player=player.player_id,
+                                  assist_player=assist,
+                                  extra_time=extra_time,
+                                  minute=event['minute'])
+
+                for event in (fixture['details']['cards']):
+
+                    player = Player.query.filter_by(name=event['player']).first()
+                    extra_time = 0
+                    try:
+                        extra_time = event['additional']
+                    except KeyError:
+                        pass
+
+                    yellow = True
+                    if event['card'] == 'red':
+                        yellow = False
+
+                    get_or_create(db.session, Card,
+                                  match=match.match_id,
+                                  yellow=yellow,
+                                  player=player.player_id,
+                                  extra_time=extra_time,
+                                  minute=event['minute'])
+
+                for event in (fixture['details']['substitutions']):
+
+                    try:
+                        player = Player.query.filter_by(name=event['out']).first()
+                        player_out = player.player_id
+                    except AttributeError:
+                        missing += '<br>{} {} {} {}'.format(event['out'],
+                                                    fixture['home_team'],
+                                                    fixture['away_team'],
+                                                    fixture['date'])
+
+                    player_in = None
+                    try:
+                        player = Player.query.filter_by(name=event['in']).first()
+                        player_in = player.player_id
+                    except KeyError:
+                        pass
+
+                    except AttributeError:
+                        missing += '<br>{} {} {} {}'.format(event['in'],
+                                                    fixture['home_team'],
+                                                    fixture['away_team'],
+                                                    fixture['date'])
+
+                    extra_time = 0
+                    try:
+                        extra_time = event['additional']
+                    except KeyError:
+                        pass
+
+                    get_or_create(db.session, Substitution,
+                                  match=match.match_id,
+                                  player_out=player_out,
+                                  player_in=player_in,
+                                  extra_time=extra_time,
+                                  minute=event['minute'])
+
+
+    return render_template(STATIC_TEMPLATE, message='Parse new fixtures.. OK! Next: Statistics')
+
+
+@app.route('/statistics', methods=['GET'])
+def parse_statistics():
+    """
+    Div = League Division
+    Date = Match Date (dd/mm/yy)
+    HomeTeam = Home Team
+    AwayTeam = Away Team
+    FTHG and HG = Full Time Home Team Goals
+    FTAG and AG = Full Time Away Team Goals
+    FTR and Res = Full Time Result (H=Home Win, D=Draw, A=Away Win)
+    HTHG = Half Time Home Team Goals
+    HTAG = Half Time Away Team Goals
+    HTR = Half Time Result (H=Home Win, D=Draw, A=Away Win)Match Statistics (where available)
+    Attendance = Crowd Attendance
+    Referee = Match Referee
+    HS = Home Team Shots
+    AS = Away Team Shots
+    HST = Home Team Shots on Target
+    AST = Away Team Shots on Target
+    HC = Home Team Corners
+    AC = Away Team Corners
+    HF = Home Team Fouls Committed
+    AF = Away Team Fouls Committed
+    HY = Home Team Yellow Cards
+    AY = Away Team Yellow Cards
+    HR = Home Team Red Cards
+    AR = Away Team Red Cards
+
+    For more details see: http://www.football-data.co.uk/notes.txt
+    """
+
+    csvfile = open('csv/E0.csv', 'r')
+    fieldnames = ("Div", "Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "FTR", "HTHG", "HTAG", "HTR", "Referee",
+                  "HS", "AS", "HST", "AST", "HF", "AF", "HC", "AC", "HY", "AY", "HR", "AR")
+
+    reader = csv.DictReader(csvfile, fieldnames)
+    ignore_first_line = True
+    for row in reader:
+        if ignore_first_line:
+            ignore_first_line = False
+        else:
+            # Translate the football team to name_short in database
+            row["HomeTeam"] = row["HomeTeam"].replace('United', 'Utd')
+            row["AwayTeam"] = row["AwayTeam"].replace('United', 'Utd')
+
+            row["HomeTeam"] = row["HomeTeam"].replace('Tottenham', 'Spurs')
+            row["AwayTeam"] = row["AwayTeam"].replace('Tottenham', 'Spurs')
+
+            home_team = Team.query.filter_by(name_short=row["HomeTeam"]).first()
+            away_team = Team.query.filter_by(name_short=row["AwayTeam"]).first()
+
+            try:
+                home_team_id = home_team.team_id
+            except AttributeError:
+                return '[H] {} vs {} on {}'.format(row["HomeTeam"], row["AwayTeam"], row['Date'])
+
+            try:
+                away_team_id = away_team.team_id
+            except AttributeError:
+                return '[A] {} vs {} on {}'.format(row["HomeTeam"], row["AwayTeam"], row['Date'])
+
+
+            match_day = datetime.strptime(row['Date'], '%d/%m/%y')
+            match = Match.query.filter(Match.home_team == home_team_id)\
+                               .filter(Match.away_team == away_team_id)\
+                               .filter(
+                                    sqlalchemy.cast(Match.kickoff, sqlalchemy.Date) ==
+                                    sqlalchemy.cast(match_day, sqlalchemy.Date))\
+                               .first()
+            try:
+                match_id = match.match_id
+            except AttributeError:
+                return '[M] {} vs {} on {}'.format(row["HomeTeam"], row["AwayTeam"], row['Date'])
+
+            result = {'H': 1, 'A': 2, 'D': 3}
+
+            get_or_create(db.session, MatchStatistics,
+                          match=match_id,
+                          home_ft_goals=row['FTHG'],
+                          away_ft_goals=row['FTAG'],
+                          home_ht_goals=row['HTHG'],
+                          away_ht_goals=row['HTAG'],
+                          ft_result=result[row['FTR']],
+                          ht_result=result[row['HTR']],
+                          home_shots=row['HS'],
+                          away_shots=row['AS'],
+                          home_shots_on_target=row['HST'],
+                          away_shots_on_target=row['AST'],
+                          home_corners=row['HC'],
+                          away_corners=row['AC'],
+                          home_fouls=row['HF'],
+                          away_fouls=row['AF'],
+                          home_yellow_cards=row['HY'],
+                          away_yellow_cards=row['AY'],
+                          home_red_cards=row['HR'],
+                          away_red_cards=row['AR'])
+
+    return render_template(STATIC_TEMPLATE, message='Parse statistics .. OK! Process complete')
