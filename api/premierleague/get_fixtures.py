@@ -12,8 +12,8 @@ from premierleague.helper import FireMyFox
 
 
 URL = "https://www.premierleague.com/results?team=FIRST&co=1&se=79&cl=-1"
-JSON_PATH = 'json/new_fixtures/{}.json'
-FIXTURE_CACHE = 'premierleague/tmp/fixture.cache.json'
+JSON_PATH = 'cache/json/new_fixtures/{}.json'
+FIXTURE_CACHE = 'cache/json/fixture.cache.json'
 
 
 # FUNCTIONS ####################################################################
@@ -199,24 +199,23 @@ def fetch():
     for fixture_date in section.findAll('time', attrs={'class': 'long'}):
 
         match_date = fixture_date.get_text()
-        matchday = datetime.strptime(match_date, '%A %d %B %Y')
+        match_day = datetime.strptime(match_date, '%A %d %B %Y')
 
         # The script have reached a day for which the data was already
         # collected, assuming the page is in order from newest to olders
         # the data was also collected for the dates older than last matchday
         # stop the collection
-        if last_collected_match_day == matchday:
-            #print("No more data to process, stopping collection ... ")
+        if last_collected_match_day == match_day:
+            print("No more data to process, stopping collection ... ")
             break
 
         # Clear the data written to JSON
-        match_container = {}
-        match_container[match_date] = []
+        match_container = {match_date: []}
 
         # Update the cache
         collected_fixtures[match_date] = []
 
-        # Iterate over all games on matchday
+        # Iterate over all games on match day
         matches = section.find('div', attrs={'data-competition-matches-list': match_date})
         for match in matches.findAll('li', attrs={"class": "matchFixtureContainer"}):
 
@@ -225,14 +224,9 @@ def fetch():
             match_url = 'https://www.premierleague.com/match/'+match_id
             match_info = {'goals': [], 'cards': [], 'substitutions': []}
 
-            # collect inforation about game
-            game_info = {
-                'home_team': match['data-home'],
-                'away_team': match['data-away'],
-                'score': score.get_text(),
-                'url': match_url,
-                'details': fetch_game_info(match_url, match_info),
-            }
+            # collect information about game
+            game_info = {'home_team': match['data-home'], 'away_team': match['data-away'], 'score': score.get_text(),
+                         'url': match_url, 'details': fetch_game_info(match_url, match_info)}
 
             # Store the new data to be written to JSON
             match_container[match_date].append(game_info)
@@ -241,22 +235,22 @@ def fetch():
             collected_fixtures[match_date].append(match_url)
 
         # Write the data to json for all matches on a particular day
-        timestamp = int(matchday.timestamp())
+        timestamp = int(match_day.timestamp())
         path = JSON_PATH.format("{}-MatchesOn-{}-{}-{}".format(
-            timestamp, matchday.day, matchday.month, matchday.year
+            timestamp, match_day.day, match_day.month, match_day.year
         ))
 
         # Record the standard matches inforation
         with open(path, 'w') as outfile:
             values = [{"date": k, "fixtures": v} for k, v in match_container.items()]
             json.dump(values, outfile, ensure_ascii=False, indent=4)
-            #print('Writing JSON: {}'.format(path))
+            print('Writing JSON: {}'.format(path))
 
     # Update the cache file with the newly sourced matches
     with open(FIXTURE_CACHE, 'w') as outfile:
         values = [{"date": k, "fixtures": v} for k, v in collected_fixtures.items()]
         json.dump(values, outfile, ensure_ascii=False, indent=4)
-        #print('Writing JSON: {}'.format(FIXTURE_CACHE))
+        print('Writing JSON: {}'.format(FIXTURE_CACHE))
 
 
 if __name__ == "__main__":

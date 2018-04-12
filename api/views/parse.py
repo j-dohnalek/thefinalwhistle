@@ -1,6 +1,6 @@
 from server import app
 from server import db
-from football import Referee, ClubStaff, League, Season, Stadium, Team
+from football import Referee, League, Season, Stadium, Team
 from football import ClubStaff, Player, Transfer, MatchStatistics
 from football import Match, Card, Goal, Substitution
 from misc import get_or_create, record_exists
@@ -12,14 +12,24 @@ import glob
 import sqlalchemy
 import os
 import csv
+import urllib.request
 
 #################################
 
-REFEREE_JSON = 'json/list_of_referees.json'
-STADIUM_JSON = 'json/list_of_stadiums.json'
-CLUB_STAFF_JSON = 'json/list_of_managers.json'
+JSON_PATH = 'cache/json'
+
+REFEREE = JSON_PATH + '/list_of_referees.json'
+STADIUM = JSON_PATH + '/list_of_stadiums.json'
+CLUB_STAFF = JSON_PATH + '/list_of_managers.json'
+OLD_FIXTURES = JSON_PATH + '/fixtures/*.json'
+NEW_FIXTURES = JSON_PATH + '/new_fixtures/*.json'
+TRANSFERS = JSON_PATH + '/transfers/*.json'
+
+STATISTICS = 'cache/tmp/E0.csv'
+STATISTICS_URL = 'http://www.football-data.co.uk/mmz4281/1718/E0.csv'
 
 STATIC_TEMPLATE = 'static/index.html'
+
 ################################
 
 
@@ -43,7 +53,7 @@ def create():
 @app.route('/referee', methods=['GET'])
 def parse_referee():
 
-    with open(REFEREE_JSON) as outfile:
+    with open(REFEREE) as outfile:
         referees = json.load(outfile)
         list_of_referees = referees[0]['referees']
 
@@ -71,7 +81,7 @@ def parse_season():
 @app.route('/stadiums', methods=['GET'])
 def parse_stadiums():
 
-    with open(STADIUM_JSON) as outfile:
+    with open(STADIUM) as outfile:
         stadiums = json.load(outfile)
     for stadium in stadiums:
         get_or_create(db.session, Stadium, name=stadium['stadium'])
@@ -80,7 +90,7 @@ def parse_stadiums():
 
 @app.route('/teams', methods=['GET'])
 def parse_teams():
-    with open(STADIUM_JSON) as outfile:
+    with open(STADIUM) as outfile:
         clubs = json.load(outfile)
 
     for club in clubs:
@@ -96,7 +106,7 @@ def parse_teams():
 @app.route('/clubstaff', methods=['GET'])
 def parse_club_staff():
 
-    with open(CLUB_STAFF_JSON) as outfile:
+    with open(CLUB_STAFF) as outfile:
         clubs = json.load(outfile)
 
     for club in clubs:
@@ -110,7 +120,7 @@ def parse_club_staff():
 @app.route('/players', methods=['GET'])
 def parse_players():
 
-    for src in glob.glob("json/players/*.json"):
+    for src in glob.glob("cache/json/players/*.json"):
 
         with open(src) as outfile:
             players = json.load(outfile)
@@ -140,7 +150,7 @@ def parse_players():
 @app.route('/transfers', methods=['GET'])
 def parse_transfers():
 
-    for src in glob.glob("json/transfers/*.json"):
+    for src in glob.glob(TRANSFERS):
         with open(src) as outfile:
             transfers = json.load(outfile)
 
@@ -194,7 +204,7 @@ def parse_transfers():
 def parse_fixtures():
 
     missing = ''
-    for src in glob.glob("json/fixtures/*.json"):
+    for src in glob.glob(OLD_FIXTURES):
 
         with open(src) as outfile:
             fixtures = json.load(outfile)
@@ -218,26 +228,31 @@ def parse_fixtures():
             away_team = Team.query.filter_by(name_short=fixture['away_team']).first()
             referee = Referee.query.filter_by(name=fixture['details']['referee']).first()
 
+            match = None
             try:
                 match = get_or_create(db.session, Match,
-                              home_team=home_team.team_id,
-                              away_team=away_team.team_id,
-                              kickoff=kickoff,
-                              season=season.season_id,
-                              main_referee=referee.referee_id)
+                                      home_team=home_team.team_id,
+                                      away_team=away_team.team_id,
+                                      kickoff=kickoff,
+                                      season=season.season_id,
+                                      main_referee=referee.referee_id)
             except AttributeError:
-                missing += '<br>{} {} {} {}'.format(fixture['details']['referee'], fixture['home_team'], fixture['away_team'], fixture['date'])
+                missing += '<br>{} {} {} {}'.format(fixture['details']['referee'],
+                                                    fixture['home_team'],
+                                                    fixture['away_team'],
+                                                    fixture['date'])
 
             for event in (fixture['details']['goals']):
 
+                player_id = None
                 try:
                     player = Player.query.filter_by(name=event['scorer']).first()
                     player_id = player.player_id
                 except AttributeError:
                     missing += '<br>{} {} {} {}'.format(event['scorer'],
-                                                fixture['home_team'],
-                                                fixture['away_team'],
-                                                fixture['date'])
+                                                        fixture['home_team'],
+                                                        fixture['away_team'],
+                                                        fixture['date'])
 
                 own_goal = False
                 if 'true' in event['own_goal']:
@@ -253,12 +268,10 @@ def parse_fixtures():
                 except AttributeError:
 
                     missing += '<br>{} {} {} {}'.format(event['assist'],
-                                                fixture['home_team'],
-                                                fixture['away_team'],
-                                                fixture['date'])
-
-
-                extra_time = 0
+                                                        fixture['home_team'],
+                                                        fixture['away_team'],
+                                                        fixture['date'])
+                extra_time = None
                 try:
                     extra_time = event['additional']
                 except KeyError:
@@ -269,7 +282,8 @@ def parse_fixtures():
                     if own_goal:
                         penalty = False
 
-                get_or_create(db.session, Goal,
+                get_or_create(db.session,
+                              Goal,
                               match=match.match_id,
                               penalty=penalty,
                               own_goal=own_goal,
@@ -280,14 +294,15 @@ def parse_fixtures():
 
             for event in (fixture['details']['cards']):
 
+                player_id = None
                 try:
                     player = Player.query.filter_by(name=event['player']).first()
                     player_id = player.player_id
                 except AttributeError:
                     missing += '<br>{} {} {} {}'.format(event['player'],
-                                                fixture['home_team'],
-                                                fixture['away_team'],
-                                                fixture['date'])
+                                                        fixture['home_team'],
+                                                        fixture['away_team'],
+                                                        fixture['date'])
 
                 extra_time = 0
                 try:
@@ -308,14 +323,15 @@ def parse_fixtures():
 
             for event in (fixture['details']['substitutions']):
 
+                player_out = None
                 try:
                     player = Player.query.filter_by(name=event['out']).first()
                     player_out = player.player_id
                 except AttributeError:
                     missing += '<br>{} {} {} {}'.format(event['out'],
-                                                fixture['home_team'],
-                                                fixture['away_team'],
-                                                fixture['date'])
+                                                        fixture['home_team'],
+                                                        fixture['away_team'],
+                                                        fixture['date'])
 
                 player_in = None
                 try:
@@ -326,9 +342,9 @@ def parse_fixtures():
 
                 except AttributeError:
                     missing += '<br>{} {} {} {}'.format(event['in'],
-                                                fixture['home_team'],
-                                                fixture['away_team'],
-                                                fixture['date'])
+                                                        fixture['home_team'],
+                                                        fixture['away_team'],
+                                                        fixture['date'])
 
                 extra_time = 0
                 try:
@@ -336,7 +352,8 @@ def parse_fixtures():
                 except KeyError:
                     pass
 
-                get_or_create(db.session, Substitution,
+                get_or_create(db.session,
+                              Substitution,
                               match=match.match_id,
                               player_out=player_out,
                               player_in=player_in,
@@ -351,14 +368,16 @@ def parse_fixtures():
 @app.route('/newfixtures', methods=['GET'])
 def parse_new_fixtures():
 
+
+
     game_count = 0
     missing = ''
-    for src in glob.glob("json/new_fixtures/*.json"):
+    for src in glob.glob(NEW_FIXTURES):
 
         with open(src) as outfile:
-            matchday = json.load(outfile)
+            match_day = json.load(outfile)
 
-        for fixtures in matchday:
+        for fixtures in match_day:
             match_date = fixtures['date']
             for fixture in fixtures['fixtures']:
 
@@ -372,23 +391,28 @@ def parse_new_fixtures():
                 else:
                     end_year = kickoff.year
 
-                season = Season.query.filter(sqlalchemy.extract('year', Season.end_year)==end_year).first()
+                season = Season.query.filter(sqlalchemy.extract('year', Season.end_year) == end_year).first()
                 home_team = Team.query.filter_by(name_short=fixture['home_team']).first()
                 away_team = Team.query.filter_by(name_short=fixture['away_team']).first()
                 referee = Referee.query.filter_by(name=fixture['details']['referee']).first()
 
+                match = None
                 try:
-                    match = get_or_create(db.session, Match,
-                                  home_team=home_team.team_id,
-                                  away_team=away_team.team_id,
-                                  kickoff=kickoff,
-                                  season=season.season_id,
-                                  main_referee=referee.referee_id)
+                    match = get_or_create(db.session,
+                                          Match,
+                                          home_team=home_team.team_id,
+                                          away_team=away_team.team_id,
+                                          kickoff=kickoff,
+                                          season=season.season_id,
+                                          main_referee=referee.referee_id)
 
                     game_count += 1
 
                 except AttributeError:
-                    missing += '<br>{} {} {} {}'.format(fixture['details']['referee'], fixture['home_team'], fixture['away_team'], fixture['date'])
+                    missing += '<br>{} {} {} {}'.format(fixture['details']['referee'],
+                                                        fixture['home_team'],
+                                                        fixture['away_team'],
+                                                        fixture['date'])
 
                 for event in (fixture['details']['goals']):
 
@@ -407,10 +431,9 @@ def parse_new_fixtures():
                     except AttributeError:
 
                         missing += '<br>{} {} {} {}'.format(event['assist'],
-                                                    fixture['home_team'],
-                                                    fixture['away_team'],
-                                                    fixture['date'])
-
+                                                            fixture['home_team'],
+                                                            fixture['away_team'],
+                                                            fixture['date'])
 
                     extra_time = 0
                     try:
@@ -454,14 +477,15 @@ def parse_new_fixtures():
 
                 for event in (fixture['details']['substitutions']):
 
+                    player_out = None
                     try:
                         player = Player.query.filter_by(name=event['out']).first()
                         player_out = player.player_id
                     except AttributeError:
                         missing += '<br>{} {} {} {}'.format(event['out'],
-                                                    fixture['home_team'],
-                                                    fixture['away_team'],
-                                                    fixture['date'])
+                                                            fixture['home_team'],
+                                                            fixture['away_team'],
+                                                            fixture['date'])
 
                     player_in = None
                     try:
@@ -472,9 +496,9 @@ def parse_new_fixtures():
 
                     except AttributeError:
                         missing += '<br>{} {} {} {}'.format(event['in'],
-                                                    fixture['home_team'],
-                                                    fixture['away_team'],
-                                                    fixture['date'])
+                                                            fixture['home_team'],
+                                                            fixture['away_team'],
+                                                            fixture['date'])
 
                     extra_time = 0
                     try:
@@ -488,7 +512,6 @@ def parse_new_fixtures():
                                   player_in=player_in,
                                   extra_time=extra_time,
                                   minute=event['minute'])
-
 
     return render_template(STATIC_TEMPLATE, message='Parse new fixtures.. OK! Next: Statistics')
 
@@ -524,11 +547,12 @@ def parse_statistics():
     For more details see: http://www.football-data.co.uk/notes.txt
     """
 
-    csvfile = open('csv/E0.csv', 'r')
+    urllib.request.urlretrieve(STATISTICS_URL, STATISTICS)
+    csv_file = open(STATISTICS, 'r')
     fieldnames = ("Div", "Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "FTR", "HTHG", "HTAG", "HTR", "Referee",
                   "HS", "AS", "HST", "AST", "HF", "AF", "HC", "AC", "HY", "AY", "HR", "AR")
 
-    reader = csv.DictReader(csvfile, fieldnames)
+    reader = csv.DictReader(csv_file, fieldnames)
     ignore_first_line = True
     for row in reader:
         if ignore_first_line:
@@ -537,7 +561,6 @@ def parse_statistics():
             # Translate the football team to name_short in database
             row["HomeTeam"] = row["HomeTeam"].replace('United', 'Utd')
             row["AwayTeam"] = row["AwayTeam"].replace('United', 'Utd')
-
             row["HomeTeam"] = row["HomeTeam"].replace('Tottenham', 'Spurs')
             row["AwayTeam"] = row["AwayTeam"].replace('Tottenham', 'Spurs')
 
@@ -554,14 +577,13 @@ def parse_statistics():
             except AttributeError:
                 return '[A] {} vs {} on {}'.format(row["HomeTeam"], row["AwayTeam"], row['Date'])
 
-
             match_day = datetime.strptime(row['Date'], '%d/%m/%y')
+
+            kickoff_casted = sqlalchemy.cast(Match.kickoff, sqlalchemy.Date)
+            match_day_casted = sqlalchemy.cast(match_day, sqlalchemy.Date)
             match = Match.query.filter(Match.home_team == home_team_id)\
                                .filter(Match.away_team == away_team_id)\
-                               .filter(
-                                    sqlalchemy.cast(Match.kickoff, sqlalchemy.Date) ==
-                                    sqlalchemy.cast(match_day, sqlalchemy.Date))\
-                               .first()
+                               .filter(kickoff_casted == match_day_casted).first()
             try:
                 match_id = match.match_id
             except AttributeError:
@@ -590,4 +612,5 @@ def parse_statistics():
                           home_red_cards=row['HR'],
                           away_red_cards=row['AR'])
 
+    os.remove(STATISTICS)
     return render_template(STATIC_TEMPLATE, message='Parse statistics .. OK! Process complete')

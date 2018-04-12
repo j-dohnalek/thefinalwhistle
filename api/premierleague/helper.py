@@ -19,7 +19,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.firefox.options import Options
 import time
 import sys
-
+import os
 
 # CONSTANTS ####################################################################
 
@@ -40,13 +40,17 @@ class MyDriver:
     # Firefox Gecko Driver Object
     __driver__ = None
 
+    # Firefox Gecko Driver path
+    __gecko_path__ = os.path.join(os.path.dirname(__file__)) + "/geckodriver"
+
     def __init__(self):
         """ Initialise Firefox Gecko Driver """
         if DEBUG:
             print("Opening Firefox GeckoDriver")
         self.__options__ = Options()
         self.__options__.add_argument('-headless')
-        self.__driver__ = Firefox(executable_path='premierleague/geckodriver', firefox_options=self.__options__)
+        self.__driver__ = Firefox(executable_path=self.__gecko_path__,
+                                  options=self.__options__)
 
     @property
     def driver(self):
@@ -85,8 +89,8 @@ class FireMyFox():
     __max_attempts__ = 3
 
     def __init__(self):
-        geckoDriver = MyDriver()
-        self.__driver__ = geckoDriver.driver
+        gecko_driver = MyDriver()
+        self.__driver__ = gecko_driver.driver
 
     def force_implicit(self, seconds):
         """ Force to wait implicit time to load the page """
