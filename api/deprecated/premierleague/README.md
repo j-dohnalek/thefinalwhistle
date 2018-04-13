@@ -1,4 +1,5 @@
 # premierleague.com DIY API
+The files have been developed for one time use only apart from get_fixtures.py that will be integrated into the final progam.
 
 ## Potential issues
 * Not every fixture might contain kick off time
