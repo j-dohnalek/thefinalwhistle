@@ -11,11 +11,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="footballdata.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/football_data/footballdata.py">
+      <file leaf-file-name="get_fixture_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unittest/get_fixture_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="529">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_fixtures.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/premierleague/get_fixtures.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="204" column="74" selection-start-line="204" selection-start-column="74" selection-end-line="204" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helper_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unittest/helper_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="47" column="19" selection-start-line="46" selection-end-line="47" selection-end-column="19" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -34,8 +55,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Lolley</find>
-      <find>AFC Bournemouth</find>
       <find>Lennon</find>
       <find>&quot;</find>
       <find>&quot;17:30&quot;</find>
@@ -64,6 +83,8 @@
       <find>STADIUM_JSON</find>
       <find>ne</find>
       <find>club</find>
+      <find>Team</find>
+      <find>&quot;id&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;&quot;</replace>
@@ -72,6 +93,7 @@
       <replace>Anthony Taylor</replace>
       <replace>&quot;out&quot;</replace>
       <replace>STADIUM</replace>
+      <replace>&quot;api_id&quot;</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -103,22 +125,24 @@
         <option value="$PROJECT_DIR$/views/api.py" />
         <option value="$PROJECT_DIR$/server.py" />
         <option value="$PROJECT_DIR$/template/static/index.html" />
-        <option value="$PROJECT_DIR$/templates/static/index.html" />
-        <option value="$PROJECT_DIR$/unittest/helper_test.py" />
         <option value="$PROJECT_DIR$/premierleague/helper.py" />
-        <option value="$PROJECT_DIR$/views/parse.py" />
-        <option value="$PROJECT_DIR$/premierleague/get_fixtures.py" />
         <option value="$PROJECT_DIR$/football_data/example.py" />
         <option value="$PROJECT_DIR$/football_data/helper.py" />
         <option value="$PROJECT_DIR$/football_data/league_table.py" />
+        <option value="$PROJECT_DIR$/football.py" />
         <option value="$PROJECT_DIR$/cache/json/list_of_stadiums.json" />
+        <option value="$PROJECT_DIR$/templates/static/index.html" />
+        <option value="$PROJECT_DIR$/views/parse.py" />
+        <option value="$PROJECT_DIR$/unittest/helper_test.py" />
+        <option value="$PROJECT_DIR$/unittest/get_fixture_test.py" />
+        <option value="$PROJECT_DIR$/premierleague/get_fixtures.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1919" />
+    <option name="x" value="64" />
     <option name="y" value="-11" />
-    <option name="width" value="1922" />
+    <option name="width" value="1857" />
     <option name="height" value="1092" />
   </component>
   <component name="ProjectView">
@@ -132,6 +156,21 @@
             <path>
               <item name="api" type="b2602c69:ProjectViewProjectNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="premierleague" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="unittest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -171,44 +210,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.league_table">
-    <configuration name="league_table" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="api" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/football_data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/football_data/footballdata.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="runserver" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="api" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runserver.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Unittests for helper_test.FireMyFoxTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in get_fixture_test.py">
+    <configuration name="Unittests for get_fixture_test.ScrapeTest.test_cleanup" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -218,10 +221,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;helper_test.FireMyFoxTest&quot;" />
+      <option name="_new_target" value="&quot;get_fixture_test.ScrapeTest.test_cleanup&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for helper_test.MyDriverTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for get_fixture_test.ScrapeTest.test_fetching" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -231,10 +234,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;helper_test.MyDriverTest&quot;" />
+      <option name="_new_target" value="&quot;get_fixture_test.ScrapeTest.test_fetching&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests in helper_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for get_fixture_test.ScrapeTest.test_kickoff_scraping" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,23 +247,49 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/unittest/helper_test.py&quot;" />
+      <option name="_new_target" value="&quot;get_fixture_test.ScrapeTest.test_kickoff_scraping&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for get_fixture_test.ScrapeTest.test_referee_scraping" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;get_fixture_test.ScrapeTest.test_referee_scraping&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests in get_fixture_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unittest/get_fixture_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for helper_test.FireMyFoxTest" />
-      <item itemvalue="Python tests.Unittests in helper_test.py" />
-      <item itemvalue="Python tests.Unittests for helper_test.MyDriverTest" />
-      <item itemvalue="Python.runserver" />
-      <item itemvalue="Python.league_table" />
+      <item itemvalue="Python tests.Unittests for get_fixture_test.ScrapeTest.test_cleanup" />
+      <item itemvalue="Python tests.Unittests in get_fixture_test.py" />
+      <item itemvalue="Python tests.Unittests for get_fixture_test.ScrapeTest.test_fetching" />
+      <item itemvalue="Python tests.Unittests for get_fixture_test.ScrapeTest.test_kickoff_scraping" />
+      <item itemvalue="Python tests.Unittests for get_fixture_test.ScrapeTest.test_referee_scraping" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.league_table" />
-        <item itemvalue="Python.runserver" />
-        <item itemvalue="Python tests.Unittests in helper_test.py" />
-        <item itemvalue="Python tests.Unittests for helper_test.MyDriverTest" />
-        <item itemvalue="Python tests.Unittests for helper_test.FireMyFoxTest" />
+        <item itemvalue="Python tests.Unittests in get_fixture_test.py" />
+        <item itemvalue="Python tests.Unittests for get_fixture_test.ScrapeTest.test_referee_scraping" />
+        <item itemvalue="Python tests.Unittests for get_fixture_test.ScrapeTest.test_kickoff_scraping" />
+        <item itemvalue="Python tests.Unittests for get_fixture_test.ScrapeTest.test_fetching" />
+        <item itemvalue="Python tests.Unittests for get_fixture_test.ScrapeTest.test_cleanup" />
       </list>
     </recent_temporary>
   </component>
@@ -278,49 +307,49 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_helper_test_py - 2018.04.12 at 19h 02m 04s.xml">
-      <configuration name="Unittests in helper_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_get_fixture_test_ScrapeTest_test_kickoff_scraping - 2018.04.13 at 15h 00m 41s.xml">
+      <configuration name="Unittests for get_fixture_test.ScrapeTest.test_kickoff_scraping" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_helper_test_py - 2018.04.12 at 19h 22m 40s.xml">
-      <configuration name="Unittests in helper_test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_get_fixture_test_py - 2018.04.13 at 15h 03m 23s.xml">
+      <configuration name="Unittests in get_fixture_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_helper_test_py - 2018.04.12 at 19h 23m 06s.xml">
-      <configuration name="Unittests in helper_test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_get_fixture_test_py - 2018.04.13 at 15h 12m 48s.xml">
+      <configuration name="Unittests in get_fixture_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_helper_test_py - 2018.04.12 at 19h 23m 59s.xml">
-      <configuration name="Unittests in helper_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_get_fixture_test_ScrapeTest_test_referee_scraping - 2018.04.13 at 15h 15m 30s.xml">
+      <configuration name="Unittests for get_fixture_test.ScrapeTest.test_referee_scraping" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_helper_test_py - 2018.04.12 at 19h 24m 12s.xml">
-      <configuration name="Unittests in helper_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_get_fixture_test_ScrapeTest_test_referee_scraping - 2018.04.13 at 15h 17m 58s.xml">
+      <configuration name="Unittests for get_fixture_test.ScrapeTest.test_referee_scraping" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_helper_test_py - 2018.04.12 at 19h 24m 15s.xml">
-      <configuration name="Unittests in helper_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_get_fixture_test_ScrapeTest_test_referee_scraping - 2018.04.13 at 15h 49m 20s.xml">
+      <configuration name="Unittests for get_fixture_test.ScrapeTest.test_referee_scraping" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_helper_test_FireMyFoxTest_test_html_fetch - 2018.04.12 at 19h 24m 28s.xml">
-      <configuration name="Unittests for helper_test.FireMyFoxTest.test_html_fetch" configurationId="tests" />
+    <history-entry file="Unittests_in_get_fixture_test_py - 2018.04.13 at 15h 50m 39s.xml">
+      <configuration name="Unittests in get_fixture_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_helper_test_FireMyFoxTest - 2018.04.12 at 19h 24m 38s.xml">
-      <configuration name="Unittests for helper_test.FireMyFoxTest" configurationId="tests" />
+    <history-entry file="Unittests_in_get_fixture_test_py - 2018.04.13 at 15h 54m 23s.xml">
+      <configuration name="Unittests in get_fixture_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_helper_test_MyDriverTest - 2018.04.12 at 19h 24m 46s.xml">
-      <configuration name="Unittests for helper_test.MyDriverTest" configurationId="tests" />
+    <history-entry file="Unittests_in_get_fixture_test_py - 2018.04.13 at 15h 58m 34s.xml">
+      <configuration name="Unittests in get_fixture_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_helper_test_py - 2018.04.12 at 19h 24m 59s.xml">
-      <configuration name="Unittests in helper_test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_get_fixture_test_py - 2018.04.13 at 17h 30m 09s.xml">
+      <configuration name="Unittests in get_fixture_test.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1919" y="-11" width="1922" height="1092" extended-state="6" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25250396" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2522911" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007907" side_tool="true" weight="0.2554974" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32984293" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49920928" weight="0.25445026" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49920928" visible="true" weight="0.36912066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49973643" weight="0.3277487" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49973643" weight="0.32719836" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -329,6 +358,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -345,7 +375,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/json/fixtures/1503097200-MatchesOn-19-8-2017.json" />
+    <entry file="file://$PROJECT_DIR$/unittest/helper_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="47" column="19" selection-start-line="46" selection-end-line="47" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/json/fixtures/1508454000-MatchesOn-20-10-2017.json" />
     <entry file="file://$PROJECT_DIR$/app/json/fixtures/1504911600-MatchesOn-9-9-2017.json" />
     <entry file="file://$PROJECT_DIR$/app/json/fixtures/1506121200-MatchesOn-23-9-2017.json" />
@@ -377,13 +416,7 @@
     <entry file="file://$PROJECT_DIR$/app/runserver.py" />
     <entry file="file://$PROJECT_DIR$/premierleague.com/convert_transfers.py" />
     <entry file="file://$PROJECT_DIR$/premierleague/tmp/fixture.cache2.json" />
-    <entry file="file://$PROJECT_DIR$/premierleague/tmp/fixture.cache.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="691" column="21" lean-forward="true" selection-start-line="691" selection-start-column="21" selection-end-line="692" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/premierleague/tmp/fixture.cache.json" />
     <entry file="file://$PROJECT_DIR$/views/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -391,37 +424,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/premierleague/convert_transfers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="48" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/football.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../env/lib/python3.5/site-packages/flask_testing/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="421" column="8" selection-start-line="421" selection-start-column="8" selection-end-line="421" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/premierleague/convert_transfers.py" />
+    <entry file="file://$PROJECT_DIR$/../../env/lib/python3.5/site-packages/flask_testing/utils.py" />
     <entry file="file://$PROJECT_DIR$/../../env/lib/python3.5/site-packages/selenium/webdriver/firefox/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3192">
@@ -429,30 +433,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unittest/helper_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -460,56 +444,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="892">
           <caret line="198" column="19" selection-start-line="198" selection-start-column="8" selection-end-line="198" selection-end-column="19" />
-          <folding>
-            <element signature="e#349#387#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/premierleague/get_fixtures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/football_data/apilib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/football_data/cache/tmp/v1.competitions.445.leagueTable.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache/json/list_of_stadiums.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/football_data/apilib.py" />
+    <entry file="file://$PROJECT_DIR$/football_data/cache/tmp/v1.competitions.445.leagueTable.json" />
     <entry file="file://$PROJECT_DIR$/football_data/example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -524,13 +463,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/football_data/footballdata.py">
+    <entry file="file://$PROJECT_DIR$/football.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="2106">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="818">
+          <caret line="629" lean-forward="true" selection-start-line="629" selection-end-line="629" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/json/list_of_stadiums.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest/helper_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="47" column="19" selection-start-line="46" selection-end-line="47" selection-end-column="19" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest/get_fixture_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/premierleague/get_fixtures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="204" column="74" selection-start-line="204" selection-start-column="74" selection-end-line="204" selection-end-column="74" />
         </state>
       </provider>
     </entry>

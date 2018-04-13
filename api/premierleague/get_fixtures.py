@@ -107,7 +107,6 @@ def parse_events(event, match_info):
         # ----------------------
         if "Own Goal" in event_info:
 
-            event_time = event.find('time', attrs={'class': 'min'})
             scorer = event.find('a', attrs={'class': 'name'})
             match_event['scorer'] = cleanup(scorer.get_text().replace('\n', '').strip())
             match_event['own_goal'] = "true"
@@ -202,8 +201,8 @@ def fetch():
         match_day = datetime.strptime(match_date, '%A %d %B %Y')
 
         # The script have reached a day for which the data was already
-        # collected, assuming the page is in order from newest to olders
-        # the data was also collected for the dates older than last matchday
+        # collected, assuming the page is in order from newest to oldest
+        # the data was also collected for the dates older than last match day
         # stop the collection
         if last_collected_match_day == match_day:
             print("No more data to process, stopping collection ... ")

@@ -118,6 +118,8 @@ class Team(db.Model):
     name = db.Column(db.String(50), nullable=False)
     name_short = db.Column(db.String(50), nullable=False)
 
+    api_id = db.Column(db.Integer, nullable=False)
+
     @declared_attr
     def league(cls):
         return db.Column(db.Integer, db.ForeignKey('league.league_id'), nullable=False)

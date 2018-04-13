@@ -13,6 +13,7 @@ import sqlalchemy
 import os
 import csv
 import urllib.request
+import urllib.error
 
 #################################
 
@@ -27,6 +28,7 @@ TRANSFERS = JSON_PATH + '/transfers/*.json'
 
 STATISTICS = 'cache/tmp/E0.csv'
 STATISTICS_URL = 'http://www.football-data.co.uk/mmz4281/1718/E0.csv'
+STATISTICS_BACKUP = 'cache/csv/E0.csv'
 
 STATIC_TEMPLATE = 'static/index.html'
 
@@ -97,8 +99,13 @@ def parse_teams():
 
         stadium = Stadium.query.filter_by(name=club['stadium']).first()
         league = League.query.filter_by(name='Premier League').first()
-        get_or_create(db.session, Team, name=club['club'], name_short=club['club_short'],
-                      stadium=stadium.stadium_id, league=league.league_id)
+        get_or_create(db.session,
+                      Team,
+                      name=club['club'],
+                      name_short=club['club_short'],
+                      stadium=stadium.stadium_id,
+                      league=league.league_id,
+                      api_id=club['api_id'])
 
     return render_template(STATIC_TEMPLATE, message='Parse teams .. OK! Next: Parse club staff')
 
@@ -368,8 +375,6 @@ def parse_fixtures():
 @app.route('/newfixtures', methods=['GET'])
 def parse_new_fixtures():
 
-
-
     game_count = 0
     missing = ''
     for src in glob.glob(NEW_FIXTURES):
@@ -546,9 +551,16 @@ def parse_statistics():
 
     For more details see: http://www.football-data.co.uk/notes.txt
     """
+    csv_file = STATISTICS_BACKUP
 
-    urllib.request.urlretrieve(STATISTICS_URL, STATISTICS)
-    csv_file = open(STATISTICS, 'r')
+    try:
+        urllib.request.urlretrieve(STATISTICS_URL, STATISTICS)
+        csv_file = open(STATISTICS, 'r')
+        # TODO: Copy create backup
+
+    except urllib.error.URLError:
+        pass
+
     fieldnames = ("Div", "Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "FTR", "HTHG", "HTAG", "HTR", "Referee",
                   "HS", "AS", "HST", "AST", "HF", "AF", "HC", "AC", "HY", "AY", "HR", "AR")
 
@@ -557,6 +569,7 @@ def parse_statistics():
     for row in reader:
         if ignore_first_line:
             ignore_first_line = False
+
         else:
             # Translate the football team to name_short in database
             row["HomeTeam"] = row["HomeTeam"].replace('United', 'Utd')
