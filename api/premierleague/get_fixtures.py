@@ -185,7 +185,7 @@ def fetch():
     # See the function description
     last_collected_match_day, collected_fixtures = get_last_collected_match_day()
 
-    # Open webdriver
+    # Open web driver
     driver = FireMyFox()
     driver.visit_url(URL)
     driver.wait_for_class("matchFixtureContainer")
@@ -194,7 +194,7 @@ def fetch():
     soup = BeautifulSoup(driver.html, "html.parser")
     section = soup.find('section', attrs={'class': 'fixtures'})
 
-    # Iterate over each matchday
+    # Iterate over each match day
     for fixture_date in section.findAll('time', attrs={'class': 'long'}):
 
         match_date = fixture_date.get_text()
