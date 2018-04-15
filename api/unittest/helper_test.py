@@ -1,17 +1,20 @@
 from premierleague import helper
 from server import app as srv
 
-import selenium
 import unittest
 import urllib.request as urllib2
-
 from flask_testing import LiveServerTestCase
+from selenium.webdriver.firefox.webdriver import WebDriver
 
 # https://pythonhosted.org/Flask-Testing/
 
 
 @srv.route("/test")
 def temp_page():
+    """
+    Set up temporary website to be scraped
+    :return: test HTML
+    """
     return '<div class="test">OK</div>'
 
 
@@ -20,7 +23,7 @@ class MyDriverTest(unittest.TestCase):
     @staticmethod
     def test_driver():
         my_driver = helper.MyDriver()
-        assert type(my_driver.driver) == selenium.webdriver.firefox.webdriver.WebDriver
+        assert type(my_driver.driver) == WebDriver
 
 
 class FireMyFoxTest(LiveServerTestCase):
