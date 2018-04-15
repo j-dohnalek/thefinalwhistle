@@ -641,8 +641,11 @@ def parse_statistics():
 
                 result = {'H': 1, 'A': 2, 'D': 3}
 
-                get_or_create(session, MatchStatistics,
+                get_or_create(session,
+                              MatchStatistics,
                               match=match_id,
+                              home_team=home_team_id,
+                              away_team=away_team_id,
                               home_ft_goals=row['FTHG'],
                               away_ft_goals=row['FTAG'],
                               home_ht_goals=row['HTHG'],

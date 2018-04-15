@@ -1,0 +1,15 @@
+{% extends "static/template.html" %}
+{% block title %} League Table{% endblock %}
+
+{% block body %}
+
+    <table>
+    {% for team in data %}
+        <tr>
+            <td> <img src="{{ team['crestUrl'] }}" width="50" /></td>
+            <td><a href="./teams/{{ team['team_id']}}">{{ team['name'] }}</a></td>
+        </tr>
+    {% endfor %}
+    </table>
+
+{% endblock %}

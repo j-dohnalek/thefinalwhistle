@@ -1,0 +1,22 @@
+{% extends "static/template.html" %}
+{% block title %} League Table{% endblock %}
+
+{% block body %}
+
+    <table>
+    {% for position in range(1, 20 + 1) %}
+        <tr>
+            <td>{{ data[position|string]['club'] }}</td>
+            <td>{{ data[position|string]['won'] }}</td>
+            <td>{{ data[position|string]['drawn'] }}</td>
+            <td>{{ data[position|string]['lost'] }}</td>
+            <td>{{ data[position|string]['ga'] }}</td>
+            <td>{{ data[position|string]['gd'] }}</td>
+            <td>{{ data[position|string]['gf'] }}</td>
+            <td>{{ data[position|string]['played'] }}</td>
+            <td>{{ data[position|string]['points'] }}</td>
+        </tr>
+    {% endfor %}
+    </table>
+
+{% endblock %}

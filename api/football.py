@@ -250,6 +250,14 @@ class MatchStatistics(Base):
     def match(self):
         return Column(Integer, ForeignKey('match.match_id'), nullable=False)
 
+    @declared_attr
+    def home_team(self):
+        return Column(Integer, ForeignKey('team.team_id'), nullable=False)
+
+    @declared_attr
+    def away_team(self):
+        return Column(Integer, ForeignKey('team.team_id'), nullable=False)
+
     # http://docs.sqlalchemy.org/en/rel_0_9/orm/mapped_attributes.html#simple-validators
     @validates('role')
     def validate_role(self, key, value):
