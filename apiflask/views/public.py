@@ -3,7 +3,9 @@ from flask import render_template
 
 
 from views.public_helper import get_league_table, get_all_teams, get_team_information
-from views.public_helper import get_all_players, get_player_information
+from views.public_helper import get_all_players, get_player_information, list_all_matches
+from views.public_helper import get_match_information
+from views.public_helper import STATS
 
 #####################
 # data view routing #
@@ -17,12 +19,12 @@ def index():
 
 @app.route('/matches', methods=['GET'])
 def matches_overview():
-    return 'matches overview'
+    return render_template('matches.html', data=list_all_matches())
 
 
 @app.route('/matches/<id>', methods=['GET'])
 def match_page(id):
-    return 'match page {id}'
+    return render_template('match.html', match=get_match_information(id), statistics=STATS)
 
 
 @app.route('/players', methods=['GET'])
@@ -52,10 +54,10 @@ def teams_overview():
 
 @app.route('/teams/<id>', methods=['GET'])
 def team_page(id):
-    return render_template('team.html', data=get_team_information(id))
+    return render_template('team.html', team=get_team_information(id))
 
 
 @app.route('/table', methods=['GET'])
 def league_table():
-    return render_template('league_table.html', data=get_league_table())
+    return render_template('league_table.html', table=get_league_table())
 

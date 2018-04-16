@@ -1,0 +1,184 @@
+1523900206098	geckodriver	INFO	geckodriver 0.19.1
+1523900206105	geckodriver	INFO	Listening on 127.0.0.1:37223
+1523900207189	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.vKfqGssmsHb8"
+*** You are running in headless mode.
+1523900207884	Marionette	INFO	Enabled via --marionette
+1523900209202	Marionette	INFO	Listening on port 35355
+1523900210226	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5442, Chrome_ChildThread] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 5442, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1523900312594	geckodriver	INFO	geckodriver 0.19.1
+1523900312601	geckodriver	INFO	Listening on 127.0.0.1:51103
+1523900313672	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.4ine2zvyVQne"
+*** You are running in headless mode.
+1523900314338	Marionette	INFO	Enabled via --marionette
+1523900315680	Marionette	INFO	Listening on port 36099
+1523900315782	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 6082, Chrome_ChildThread] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6082, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1523900399563	geckodriver	INFO	geckodriver 0.19.1
+1523900399569	geckodriver	INFO	Listening on 127.0.0.1:42743
+1523900400636	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.2CvR2jaJzxX8"
+*** You are running in headless mode.
+1523900401352	Marionette	INFO	Enabled via --marionette
+1523900402742	Marionette	INFO	Listening on port 38265
+1523900402860	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 6395, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6395, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1523900510935	geckodriver	INFO	geckodriver 0.19.1
+1523900510940	geckodriver	INFO	Listening on 127.0.0.1:46911
+1523900512010	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.GLHl0FwkLGaw"
+*** You are running in headless mode.
+1523900512766	Marionette	INFO	Enabled via --marionette
+1523900514252	Marionette	INFO	Listening on port 36083
+1523900514320	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.premierleague.com/resources/ver/app/app-widgets.js, line 198: TypeError: i18n.lookup is not a function
+[Child 6671, Chrome_ChildThread] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6671, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1523900601341	geckodriver	INFO	geckodriver 0.19.1
+1523900601347	geckodriver	INFO	Listening on 127.0.0.1:37987
+1523900602417	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.G62rM6l04u2I"
+*** You are running in headless mode.
+1523900603070	Marionette	INFO	Enabled via --marionette
+1523900604298	Marionette	INFO	Listening on port 36687
+1523900604336	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6959, Chrome_ChildThread] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6959, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7006, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1523900625134	geckodriver	INFO	geckodriver 0.19.1
+1523900625140	geckodriver	INFO	Listening on 127.0.0.1:52117
+1523900626209	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.IGJ3POn6y559"
+*** You are running in headless mode.
+1523900626878	Marionette	INFO	Enabled via --marionette
+1523900628098	Marionette	INFO	Listening on port 39363
+1523900628130	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.premierleague.com/resources/ver/app/app-widgets.js, line 198: TypeError: i18n.lookup is not a function
+1523900721920	geckodriver	INFO	geckodriver 0.19.1
+1523900721940	geckodriver	INFO	Listening on 127.0.0.1:34111
+1523900722993	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.CUywicM5UtMZ"
+*** You are running in headless mode.
+1523900723770	Marionette	INFO	Enabled via --marionette
+1523900725106	Marionette	INFO	Listening on port 36921
+1523900725228	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.premierleague.com/resources/ver/app/app-widgets.js, line 198: TypeError: i18n.lookup is not a function
+JavaScript error: https://www.premierleague.com/resources/ver/app/app-widgets.js, line 198: TypeError: i18n.lookup is not a function
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7334, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7282, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7282, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1523900851141	geckodriver	INFO	geckodriver 0.19.1
+1523900851147	geckodriver	INFO	Listening on 127.0.0.1:53847
+1523900852215	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.jFmLanYnPK4W"
+*** You are running in headless mode.
+1523900852904	Marionette	INFO	Enabled via --marionette
+1523900854186	Marionette	INFO	Listening on port 46853
+1523900854228	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7526, Chrome_ChildThread] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7526, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1523900941365	geckodriver	INFO	geckodriver 0.19.1
+1523900941370	geckodriver	INFO	Listening on 127.0.0.1:34947
+1523900942438	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.sh9R6BuVaoey"
+*** You are running in headless mode.
+1523900943092	Marionette	INFO	Enabled via --marionette
+1523900944336	Marionette	INFO	Listening on port 44367
+1523900944366	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7708, Chrome_ChildThread] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7708, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1523901037430	geckodriver	INFO	geckodriver 0.19.1
+1523901037436	geckodriver	INFO	Listening on 127.0.0.1:41201
+1523901038508	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.CNFnSkhDLOif"
+*** You are running in headless mode.
+1523901039174	Marionette	INFO	Enabled via --marionette
+1523901040472	Marionette	INFO	Listening on port 33333
+1523901040530	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.premierleague.com/resources/ver/app/app-widgets.js, line 198: TypeError: i18n.lookup is not a function
+[Child 7879, Chrome_ChildThread] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7879, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1523902690818	geckodriver	INFO	geckodriver 0.19.1
+1523902690825	geckodriver	INFO	Listening on 127.0.0.1:44737
+1523902691898	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.rG0WdjLCLk0k"
+*** You are running in headless mode.
+1523902692552	Marionette	INFO	Enabled via --marionette
+1523902693816	Marionette	INFO	Listening on port 40201
+1523902693904	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 8930, Chrome_ChildThread] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8930, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1523902988214	geckodriver	INFO	geckodriver 0.19.1
+1523902988220	geckodriver	INFO	Listening on 127.0.0.1:43371
+1523902989293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.2ZnR6uaY6iOP"
+*** You are running in headless mode.
+1523902989978	Marionette	INFO	Enabled via --marionette
+1523902991522	Marionette	INFO	Listening on port 40373
+1523902991602	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10534, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 10534, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1523903574396	geckodriver	INFO	geckodriver 0.19.1
+1523903574402	geckodriver	INFO	Listening on 127.0.0.1:45107
+1523903575465	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.fROLiotnYp8h"
+*** You are running in headless mode.
+1523903576218	Marionette	INFO	Enabled via --marionette
+1523903577636	Marionette	INFO	Listening on port 36969
+1523903577710	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 12074, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 12134, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1523903903954	geckodriver	INFO	geckodriver 0.19.1
+1523903903961	geckodriver	INFO	Listening on 127.0.0.1:47243
+1523903905033	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.CUUO9DPRYM6d"
+*** You are running in headless mode.
+1523903905704	Marionette	INFO	Enabled via --marionette
+1523903906950	Marionette	INFO	Listening on port 46767
+1523903908032	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 13837, Chrome_ChildThread] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 13837, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1523906843544	geckodriver	INFO	geckodriver 0.19.1
+1523906843551	geckodriver	INFO	Listening on 127.0.0.1:39591
+1523906844637	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.kl2xDsXtXCzd"
+*** You are running in headless mode.
+1523906845316	Marionette	INFO	Enabled via --marionette
+1523906846604	Marionette	INFO	Listening on port 33703
+1523906846650	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 18097, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 18045, Chrome_ChildThread] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 18045, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1523907079167	geckodriver	INFO	geckodriver 0.19.1
+1523907079174	geckodriver	INFO	Listening on 127.0.0.1:59393
+1523907080248	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.bH8lizqDBp5n"
+*** You are running in headless mode.
+1523907081006	Marionette	INFO	Enabled via --marionette
+1523907082394	Marionette	INFO	Listening on port 45629
+1523907082474	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 19028, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1523907119486	geckodriver	INFO	geckodriver 0.19.1
+1523907119492	geckodriver	INFO	Listening on 127.0.0.1:34201
+1523907120563	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.qxMW92xaze0x"
+*** You are running in headless mode.
+1523907121330	Marionette	INFO	Enabled via --marionette
+1523907122762	Marionette	INFO	Listening on port 44389
+1523907122806	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 19558, Chrome_ChildThread] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 19558, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1523908901827	geckodriver	INFO	geckodriver 0.19.1
+1523908901833	geckodriver	INFO	Listening on 127.0.0.1:56701
+1523908902904	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.ZhnXO44y0TAV"
+*** You are running in headless mode.
+1523908903560	Marionette	INFO	Enabled via --marionette
+1523908904784	Marionette	INFO	Listening on port 44333
+1523908904830	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 25053, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Sandbox: Unexpected EOF, op 0 flags 00 path /usr/share/locale/en_GB/LC_MESSAGES/libc.mo
+[Child 25005, Chrome_ChildThread] WARNING: pipe error (36): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 25005, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1523909020201	geckodriver	INFO	geckodriver 0.19.1
+1523909020207	geckodriver	INFO	Listening on 127.0.0.1:39163
+1523909021275	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.RpfOWbWsHc0l"
+*** You are running in headless mode.
+1523909021940	Marionette	INFO	Enabled via --marionette
+1523909023162	Marionette	INFO	Listening on port 43863
+1523909023198	Marionette	WARN	TLS certificate errors will be ignored for this session

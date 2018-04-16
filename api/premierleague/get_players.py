@@ -25,183 +25,57 @@ from pathlib import Path
 # MY LIBS ######################################################################
 
 
-from helper import FireMyFox
+from premierleague.helper import FireMyFox
 
 
 # CONSTANTS ####################################################################
 
 
-URL = "https://www.premierleague.com/players"
-CLUBS = 'tmp/outstanding_clubs.json'
-JSON_DUMP_PATH = 'jsondump/clubs'
+URL = "https://www.premierleague.com/players?se=79&cl=-1"
+JSON_DUMP_PATH = 'cache/json/players_images.json'
 
 
 # FUNCTIONS ####################################################################
 
 
-def get_clubs():
-    """
-    Create a dictionary list of all clubs and their corresponding API id
-    """
-    club_list = {}
-    with open(CLUBS) as json_data:
-        clubs = json.load(json_data)
-        for club in clubs:
-            club_list[club['club']] = int(club['api'])
+def fetch():
 
-    return club_list
+    # Prepare the storage
+    players = {}
 
+    # Fetch the HTML
+    driver = FireMyFox()
+    driver.visit_url(URL)
+    driver.wait_for_class("playerName")
+    soup = BeautifulSoup(driver.html, "html.parser")
 
-def get_cached_clubs():
-    """
-    Retrieved the cached version of clubs if exists
-    :return clubs dictionary
-    """
-    clubs = {}
-    my_file = Path(CLUBS)
-    # Check for the cached version of the club list if not exist fetch it from
-    # the website
-    if not my_file.is_file():
+    # Fetch the list of players
+    players_list = soup.find('tbody', attrs={'class': 'dataContainer'})
 
-        driver = FireMyFox()
-        driver.visit_url(URL)
-        driver.wait_for_class("dropDown")
-        soup = BeautifulSoup(driver.html, "html.parser")
+    for row in players_list.findAll('tr'):
 
-        # Filter available clubs and their API ids
-        club_dropdown = soup.find('ul', attrs={'data-dropdown-list': 'clubs'})
-        ignore_first_line = True
-        clubs = {}
-        for row in club_dropdown.findAll('li'):
-            if ignore_first_line:
-                ignore_first_line = False
+        # Fetch player name, position, and link
+        column_index = 0
+        player_name, player_image_id = '', ''
+        for column in row.findAll('td'):
+
+            if column_index == 0:
+                player_name = column.get_text()
+                player_image_id = column.find('img')['data-player']
             else:
-                clubs[row.get_text()] = int(row['data-option-id'])
+                break
 
-        with open(CLUBS, 'w') as outfile:
-            values = [{"club": k, "api": v} for k, v in clubs.items()]
-            json.dump(values, outfile, indent=4)
-
-    else:
-        # Cached version
-        clubs = get_clubs()
-
-
-def main():
-
-    # Iterate over all clubs in premier league
-    for club_name, api_id in get_cached_clubs().items():
-
-        # Prepare the storage
-        club_players = {}
-        players = []
-
-        # Fetch the HTML
-        driver = FireMyFox()
-        driver.visit_url(URL + '?se=79&cl={}'.format(api_id))
-        driver.wait_for_class("playerName")
-        soup = BeautifulSoup(driver.html, "html.parser")
-
-        # Fetch the list of players
-        players_list = soup.find('tbody', attrs={'class': 'dataContainer'})
-
-        for row in players_list.findAll('tr'):
-
-            player = {}
-
-            # Fetch player name, position, and link
-            column_index = 0
-            player_name, position = '', ''
-            for column in row.findAll('td'):
-
-                if column_index == 0:
-                    player_name = column.get_text()
-                    player_link = column.find('a')['href']
-                    player_link = 'https:{}'.format(player_link)
-                elif column_index == 1:
-                    position = column.get_text()
-                else:
-                    break
-
-                column_index += 1
-
-                # end for
-
-            # Fetch information from players personal page
-            driver1 = FireMyFox()
-            driver1.visit_url(URL + '?se=79&cl={}'.format(api_id))
-            driver1.wait_for_class("info")
-            playersoup = BeautifulSoup(driver1.html, "html.parser")
-
-
-            player_image = playersoup.find('a', attrs={'class': 'img'})
-
-            # Player number is in separate div tag
-            player_number = -1
-            try:
-                player_number = playersoup.find('div', attrs={'class': 'number'}).get_text()
-            except AttributeError:
-                pass
-
-            # Fetch players nationality, age, dob, height, weight
-            column_index = 0
-            personal_lists = playersoup.find('div', attrs={'class': 'personalLists'})
-            nationality, age, dob, height, weight = '', '', '', '', ''
-            for detail in personal_lists.findAll('div', attrs={'class': 'info'}):
-                if column_index == 0:
-                    try:
-                        nationality = detail.get_text().replace('\n', '')
-                    except AttributeError:
-                        pass
-                elif column_index == 1:
-                    try:
-                        age = detail.get_text()
-                    except AttributeError:
-                        pass
-                elif column_index == 2:
-                    try:
-                        dob = detail.get_text()
-                    except AttributeError:
-                        pass
-                elif column_index == 3:
-                    try:
-                        height = detail.get_text()
-                    except AttributeError:
-                        pass
-                elif column_index == 4:
-                    try:
-                        weight = detail.get_text()
-                    except AttributeError:
-                        pass
-                else:
-                    break
-
-                column_index += 1
-
-            print("Visit complete")
-
-            player["name"] = player_name
-            player["position"] = position
-            player["shirt_number"] = player_number
-            player["nationality"] = nationality
-            player["age"] = age
-            player["dob"] = dob
-            player["height"] = height
-            player["weight"] = weight
-
-            players.append(player)
+            column_index += 1
             # end for
 
-        club_players[club_name] = players
+        players[player_name] = player_image_id
 
-        # Write the data to json
-        path = '{}/players-{}.json'.format(JSON_DUMP_PATH, club_name.replace(' ', '_'))
-        with open(path, 'w') as outfile:
-            values = [{"team": k, "players": v} for k, v in club_players.items()]
-            json.dump(values, outfile, ensure_ascii=False, indent=4)
-            print('Writing JSON: {}'.format(path))
+    # Write the data to json
+    with open(JSON_DUMP_PATH, 'w') as outfile:
+        json.dump(players, outfile, ensure_ascii=False, indent=4)
+        print('Writing JSON: {}'.format(JSON_DUMP_PATH))
 
-        # end for
+    # end for
 
 
 if __name__ == "__main__":
