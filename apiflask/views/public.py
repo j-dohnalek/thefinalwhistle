@@ -3,6 +3,7 @@ from flask import render_template
 
 
 from views.public_helper import get_league_table, get_all_teams, get_team_information
+from views.public_helper import get_all_players, get_player_information
 
 #####################
 # data view routing #
@@ -11,7 +12,7 @@ from views.public_helper import get_league_table, get_all_teams, get_team_inform
 
 @app.route('/', methods=['GET'])
 def index():
-    return 'OK'
+    return render_template('index.html')
 
 
 @app.route('/matches', methods=['GET'])
@@ -26,12 +27,12 @@ def match_page(id):
 
 @app.route('/players', methods=['GET'])
 def players_overview():
-    return 'players overview'
+    return render_template('players.html', data=get_all_players())
 
 
 @app.route('/players/<id>', methods=['GET'])
 def player_page(id):
-    return 'player page {id}'
+    return render_template('player.html', data=get_player_information(id))
 
 
 @app.route('/news', methods=['GET'])
