@@ -1,5 +1,5 @@
 from premierleague import helper
-from server import app as srv
+from flask_config import app as srv
 
 import unittest
 import urllib.request as urllib2
