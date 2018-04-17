@@ -1,0 +1,18 @@
+{% extends "static/template.html" %}
+{% block title %} Players {% endblock %}
+
+{% block body %}
+
+    <h2>Players</h2>
+    <table>
+        {% for player in data %}
+            <tr>
+                <td><img src="{{ player['img'] }}" width="50" /></td>
+                <td>{{ player['shirt_number'] }}</td>
+                <td><a href="{{url_for('player_page', id=player['id'])}}"> {{ player['name'] }}</a></td>
+                <td>{{ player['position'] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+{% endblock %}

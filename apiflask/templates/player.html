@@ -1,0 +1,69 @@
+{% extends "static/template.html" %}
+{% block title %} Players {% endblock %}
+
+{% block body %}
+
+    <h2>{{ data['name'] }}</h2>
+
+    <img src="{{data['img']}}" width="200" />
+
+    <table>
+
+        <tr>
+            <td>Team</td>
+            <td>{{ data['team'] }}</td>
+        </tr>
+
+        <tr>
+            <td>Position</td>
+            <td>{{ data['position'] }}</td>
+        </tr>
+
+        <tr>
+            <td>Shirts Number</td>
+            <td>{{ data['shirt_number'] }}</td>
+        </tr>
+
+        <tr>
+            <td>Date of Birth</td>
+            <td>{{ data['dob'] }}</td>
+        </tr>
+
+        <tr>
+            <td>Weight</td>
+            <td>{{ data['weight'] }}</td>
+        </tr>
+
+        <tr>
+            <td>Height</td>
+
+            <td>{{ data['height'] }}</td>
+        </tr>
+
+    </table>
+
+    <table>
+
+        <tr>
+            <td>Goal Scored</td>
+            <td>{{ data['goals_scored'] }}</td>
+        </tr>
+
+        <tr>
+            <td>Goal Assisted</td>
+            <td>{{ data['goals_assisted'] }}</td>
+        </tr>
+
+        <tr>
+            <td>Yellow Cards</td>
+            <td>{{ data['yellow_cards'] }}</td>
+        </tr>
+
+        <tr>
+            <td>Red Cards</td>
+            <td>{{ data['red_cards'] }}</td>
+        </tr>
+
+    </table>
+
+{% endblock %}

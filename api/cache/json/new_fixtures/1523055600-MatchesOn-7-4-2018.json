@@ -1,0 +1,661 @@
+[
+    {
+        "fixtures": [
+            {
+                "score": "0-0",
+                "url": "https://www.premierleague.com/match/22666",
+                "home_team": "Everton",
+                "details": {
+                    "referee": "Michael Oliver",
+                    "cards": [],
+                    "goals": [],
+                    "substitutions": [
+                        {
+                            "in": "Idrissa Gueye",
+                            "minute": "57",
+                            "out": "Wayne Rooney"
+                        },
+                        {
+                            "in": "Dominic Calvert-Lewin",
+                            "minute": "61",
+                            "out": "Yannick Bolasie"
+                        },
+                        {
+                            "in": "Alex Oxlade-Chamberlain",
+                            "minute": "68",
+                            "out": "James Milner"
+                        },
+                        {
+                            "in": "Roberto Firmino",
+                            "minute": "74",
+                            "out": "Sadio Mané"
+                        },
+                        {
+                            "in": "Beni Baningime",
+                            "minute": "79",
+                            "out": "Tom Davies"
+                        },
+                        {
+                            "in": "Trent Alexander-Arnold",
+                            "minute": "89",
+                            "out": "Danny Ings"
+                        }
+                    ],
+                    "kick_off": "12:30"
+                },
+                "away_team": "Liverpool"
+            },
+            {
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22671",
+                "home_team": "West Brom",
+                "details": {
+                    "referee": "Roger East",
+                    "cards": [
+                        {
+                            "minute": "50",
+                            "player": "Chris Brunt",
+                            "card": "yellow"
+                        },
+                        {
+                            "minute": "55",
+                            "player": "Sam Clucas",
+                            "card": "yellow"
+                        },
+                        {
+                            "minute": "87",
+                            "player": "Matt Phillips",
+                            "card": "yellow"
+                        },
+                        {
+                            "minute": "90",
+                            "player": "Kyle Bartley",
+                            "card": "yellow",
+                            "additional": "2"
+                        },
+                        {
+                            "minute": "90",
+                            "player": "James McClean",
+                            "card": "yellow",
+                            "additional": "2"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "scorer": "Jay Rodriguez",
+                            "minute": "54",
+                            "own_goal": "false",
+                            "assist": "Salomón Rondón"
+                        },
+                        {
+                            "scorer": "Tammy Abraham",
+                            "minute": "75",
+                            "own_goal": "false",
+                            "assist": "Sam Clucas"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "in": "Kyle Bartley",
+                            "minute": "45",
+                            "out": "Mike van der Hoorn"
+                        },
+                        {
+                            "in": "Nathan Dyer",
+                            "minute": "61",
+                            "out": "Andy King"
+                        },
+                        {
+                            "in": "Grzegorz Krychowiak",
+                            "minute": "83",
+                            "out": "Jay Rodriguez"
+                        },
+                        {
+                            "in": "Ki Sung-yueng",
+                            "minute": "85",
+                            "out": "André Ayew"
+                        }
+                    ],
+                    "kick_off": "15:00"
+                },
+                "away_team": "Swansea"
+            },
+            {
+                "score": "1-2",
+                "url": "https://www.premierleague.com/match/22670",
+                "home_team": "Watford",
+                "details": {
+                    "referee": "Paul Tierney",
+                    "cards": [
+                        {
+                            "minute": "33",
+                            "player": "Georges-Kévin Nkoudou",
+                            "card": "yellow"
+                        },
+                        {
+                            "minute": "56",
+                            "player": "Abdoulaye Doucouré",
+                            "card": "yellow"
+                        },
+                        {
+                            "minute": "90",
+                            "player": "Matthew Lowton",
+                            "card": "yellow",
+                            "additional": "1"
+                        },
+                        {
+                            "minute": "90",
+                            "player": "Stefano Okaka",
+                            "card": "yellow",
+                            "additional": "3"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "scorer": "Roberto Pereyra",
+                            "minute": "61",
+                            "own_goal": "false",
+                            "penalty": "true"
+                        },
+                        {
+                            "scorer": "Sam Vokes",
+                            "minute": "70",
+                            "own_goal": "false",
+                            "penalty": "true"
+                        },
+                        {
+                            "scorer": "Jack Cork",
+                            "minute": "73",
+                            "own_goal": "false",
+                            "assist": "Kevin Long"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "in": "Sam Vokes",
+                            "minute": "70",
+                            "out": "Georges-Kévin Nkoudou"
+                        },
+                        {
+                            "in": "Stefano Okaka",
+                            "minute": "76",
+                            "out": "Daryl Janmaat"
+                        },
+                        {
+                            "in": "Jeff Hendrick",
+                            "minute": "81",
+                            "out": "Aaron Lennon"
+                        },
+                        {
+                            "in": "André Carrillo",
+                            "minute": "85",
+                            "out": "Abdoulaye Doucouré"
+                        },
+                        {
+                            "in": "Richarlison",
+                            "minute": "85",
+                            "out": "Will Hughes"
+                        }
+                    ],
+                    "kick_off": "15:00"
+                },
+                "away_team": "Burnley"
+            },
+            {
+                "score": "1-2",
+                "url": "https://www.premierleague.com/match/22669",
+                "home_team": "Stoke",
+                "details": {
+                    "referee": "Graham Scott",
+                    "cards": [
+                        {
+                            "minute": "32",
+                            "player": "Erik Pieters",
+                            "card": "yellow"
+                        },
+                        {
+                            "minute": "71",
+                            "player": "Glen Johnson",
+                            "card": "yellow"
+                        },
+                        {
+                            "minute": "79",
+                            "player": "Serge Aurier",
+                            "card": "yellow"
+                        },
+                        {
+                            "minute": "90",
+                            "player": "Bruno Martins Indi",
+                            "card": "yellow",
+                            "additional": "3"
+                        },
+                        {
+                            "minute": "90",
+                            "player": "Harry Kane",
+                            "card": "yellow",
+                            "additional": "4"
+                        },
+                        {
+                            "minute": "90",
+                            "player": "Badou Ndiaye",
+                            "card": "yellow",
+                            "additional": "7"
+                        },
+                        {
+                            "minute": "90",
+                            "player": "Danny Rose",
+                            "card": "yellow",
+                            "additional": "7"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "scorer": "Christian Eriksen",
+                            "minute": "52",
+                            "own_goal": "false",
+                            "assist": "Dele Alli"
+                        },
+                        {
+                            "scorer": "Mame Biram Diouf",
+                            "minute": "57",
+                            "own_goal": "false",
+                            "penalty": "true"
+                        },
+                        {
+                            "scorer": "Harry Kane",
+                            "minute": "63",
+                            "own_goal": "false",
+                            "assist": "Christian Eriksen"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "in": "Erik Lamela",
+                            "minute": "67",
+                            "out": "Son Heung-Min"
+                        },
+                        {
+                            "in": "Tyrese Campbell",
+                            "minute": "69",
+                            "out": "Ramadan Sobhi"
+                        },
+                        {
+                            "in": "Peter Crouch",
+                            "minute": "78",
+                            "out": "Glen Johnson"
+                        },
+                        {
+                            "in": "Eric Dier",
+                            "minute": "82",
+                            "out": "Victor Wanyama"
+                        },
+                        {
+                            "in": "Moussa Sissoko",
+                            "minute": "90",
+                            "out": "Dele Alli"
+                        },
+                        {
+                            "in": "Kurt Zouma",
+                            "minute": "90",
+                            "out": "Moritz Bauer",
+                            "additional": "5"
+                        }
+                    ],
+                    "kick_off": "15:00"
+                },
+                "away_team": "Spurs"
+            },
+            {
+                "score": "1-2",
+                "url": "https://www.premierleague.com/match/22667",
+                "home_team": "Leicester",
+                "details": {
+                    "referee": "Stuart Attwell",
+                    "cards": [
+                        {
+                            "minute": "21",
+                            "player": "Harry Maguire",
+                            "card": "yellow"
+                        },
+                        {
+                            "minute": "21",
+                            "player": "Jamaal Lascelles",
+                            "card": "yellow"
+                        },
+                        {
+                            "minute": "52",
+                            "player": "Dwight Gayle",
+                            "card": "yellow"
+                        },
+                        {
+                            "minute": "55",
+                            "player": "Matt Ritchie",
+                            "card": "yellow"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "scorer": "Jonjo Shelvey",
+                            "minute": "18",
+                            "own_goal": "false",
+                            "assist": "Ayoze Pérez"
+                        },
+                        {
+                            "scorer": "Ayoze Pérez",
+                            "minute": "75",
+                            "own_goal": "false",
+                            "assist": "Florian Lejeune"
+                        },
+                        {
+                            "scorer": "Jamie Vardy",
+                            "minute": "83",
+                            "own_goal": "false",
+                            "assist": "Shinji Okazaki"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "in": "Hamza Choudhury",
+                            "minute": "42",
+                            "out": "Vicente Iborra"
+                        },
+                        {
+                            "in": "Shinji Okazaki",
+                            "minute": "57",
+                            "out": "Danny Simpson"
+                        },
+                        {
+                            "in": "Christian Atsu",
+                            "minute": "64",
+                            "out": "Kenedy"
+                        },
+                        {
+                            "in": "Joselu",
+                            "minute": "70",
+                            "out": "Dwight Gayle"
+                        },
+                        {
+                            "in": "Demarai Gray",
+                            "minute": "76",
+                            "out": "Fousseni Diabaté"
+                        },
+                        {
+                            "in": "Isaac Hayden",
+                            "minute": "81",
+                            "out": "Mohamed Diamé"
+                        }
+                    ],
+                    "kick_off": "15:00"
+                },
+                "away_team": "Newcastle"
+            },
+            {
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22664",
+                "home_team": "Brighton",
+                "details": {
+                    "referee": "Anthony Taylor",
+                    "cards": [
+                        {
+                            "minute": "58",
+                            "player": "Shane Duffy",
+                            "card": "yellow"
+                        },
+                        {
+                            "minute": "74",
+                            "player": "Davy Pröpper",
+                            "card": "red"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "scorer": "Jonas Lössl",
+                            "minute": "29",
+                            "own_goal": "true",
+                            "penalty": "false"
+                        },
+                        {
+                            "scorer": "Steve Mounie",
+                            "minute": "32",
+                            "own_goal": "false",
+                            "penalty": "true"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "in": "Leonardo Ulloa",
+                            "minute": "67",
+                            "out": "Glenn Murray"
+                        },
+                        {
+                            "in": "Beram Kayal",
+                            "minute": "76",
+                            "out": "Pascal Groß"
+                        },
+                        {
+                            "in": "Philip Billing",
+                            "minute": "80",
+                            "out": "Jonathan Hogg"
+                        },
+                        {
+                            "in": "Collin Quaner",
+                            "minute": "90",
+                            "out": "Rajiv van La Parra"
+                        },
+                        {
+                            "in": "Laurent Depoitre",
+                            "minute": "90",
+                            "out": "Tom Ince",
+                            "additional": "3"
+                        }
+                    ],
+                    "kick_off": "15:00"
+                },
+                "away_team": "Huddersfield"
+            },
+            {
+                "score": "2-2",
+                "url": "https://www.premierleague.com/match/22663",
+                "home_team": "Bournemouth",
+                "details": {
+                    "referee": "Jonathan Moss",
+                    "cards": [
+                        {
+                            "minute": "76",
+                            "player": "Dan Gosling",
+                            "card": "yellow"
+                        },
+                        {
+                            "minute": "82",
+                            "player": "Simon Francis",
+                            "card": "yellow"
+                        },
+                        {
+                            "minute": "90",
+                            "player": "James Tomkins",
+                            "card": "yellow",
+                            "additional": "3"
+                        },
+                        {
+                            "minute": "90",
+                            "player": "Yohan Cabaye",
+                            "card": "yellow",
+                            "additional": "4"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "scorer": "Luka Milivojevic",
+                            "minute": "47",
+                            "own_goal": "false",
+                            "penalty": "true"
+                        },
+                        {
+                            "scorer": "Lys Mousset",
+                            "minute": "65",
+                            "own_goal": "false",
+                            "assist": "Ryan Fraser"
+                        },
+                        {
+                            "scorer": "Wilfried Zaha",
+                            "minute": "75",
+                            "own_goal": "false",
+                            "assist": "Andros Townsend"
+                        },
+                        {
+                            "scorer": "Joshua King",
+                            "minute": "89",
+                            "own_goal": "false",
+                            "assist": "Steve Cook"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "in": "Joshua King",
+                            "minute": "62",
+                            "out": "Callum Wilson"
+                        },
+                        {
+                            "in": "Lys Mousset",
+                            "minute": "62",
+                            "out": "Marc Pugh"
+                        },
+                        {
+                            "in": "Andrew Surman",
+                            "minute": "80",
+                            "out": "Lewis Cook"
+                        }
+                    ],
+                    "kick_off": "15:00"
+                },
+                "away_team": "Crystal Palace"
+            },
+            {
+                "score": "2-3",
+                "url": "https://www.premierleague.com/match/22668",
+                "home_team": "Man City",
+                "details": {
+                    "referee": "Martin Atkinson",
+                    "cards": [
+                        {
+                            "minute": "37",
+                            "player": "Ander Herrera",
+                            "card": "yellow"
+                        },
+                        {
+                            "minute": "45",
+                            "player": "Romelu Lukaku",
+                            "card": "yellow"
+                        },
+                        {
+                            "minute": "63",
+                            "player": "Raheem Sterling",
+                            "card": "yellow"
+                        },
+                        {
+                            "minute": "79",
+                            "player": "Fernandinho",
+                            "card": "yellow"
+                        },
+                        {
+                            "minute": "79",
+                            "player": "Sergio Agüero",
+                            "card": "yellow"
+                        },
+                        {
+                            "minute": "81",
+                            "player": "Paul Pogba",
+                            "card": "yellow"
+                        },
+                        {
+                            "minute": "90",
+                            "player": "Danilo",
+                            "card": "yellow",
+                            "additional": "1"
+                        },
+                        {
+                            "minute": "90",
+                            "player": "Vincent Kompany",
+                            "card": "yellow",
+                            "additional": "2"
+                        },
+                        {
+                            "minute": "90",
+                            "player": "Gabriel Jesus",
+                            "card": "yellow",
+                            "additional": "3"
+                        }
+                    ],
+                    "goals": [
+                        {
+                            "scorer": "Vincent Kompany",
+                            "minute": "25",
+                            "own_goal": "false",
+                            "assist": "Leroy Sané"
+                        },
+                        {
+                            "scorer": "Ilkay Gündogan",
+                            "minute": "30",
+                            "own_goal": "false",
+                            "assist": "Raheem Sterling"
+                        },
+                        {
+                            "scorer": "Paul Pogba",
+                            "minute": "53",
+                            "own_goal": "false",
+                            "assist": "Ander Herrera"
+                        },
+                        {
+                            "scorer": "Paul Pogba",
+                            "minute": "55",
+                            "own_goal": "false",
+                            "assist": "Alexis Sánchez"
+                        },
+                        {
+                            "scorer": "Chris Smalling",
+                            "minute": "69",
+                            "own_goal": "false",
+                            "assist": "Alexis Sánchez"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "in": "Kevin De Bruyne",
+                            "minute": "72",
+                            "out": "David Silva"
+                        },
+                        {
+                            "in": "Gabriel Jesus",
+                            "minute": "72",
+                            "out": "Bernardo Silva"
+                        },
+                        {
+                            "in": "Sergio Agüero",
+                            "minute": "76",
+                            "out": "Ilkay Gündogan"
+                        },
+                        {
+                            "in": "Marcus Rashford",
+                            "minute": "82",
+                            "out": "Alexis Sánchez"
+                        },
+                        {
+                            "in": "Scott McTominay",
+                            "minute": "85",
+                            "out": "Jesse Lingard"
+                        },
+                        {
+                            "in": "Victor Lindelöf",
+                            "minute": "90",
+                            "out": "Ander Herrera",
+                            "additional": "4"
+                        }
+                    ],
+                    "kick_off": "17:30"
+                },
+                "away_team": "Man Utd"
+            }
+        ],
+        "date": "Saturday 7 April 2018"
+    }
+]

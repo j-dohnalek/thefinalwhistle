@@ -1,0 +1,43 @@
+{% extends "static/template.html" %}
+{% block title %} {{team['name']}} {% endblock %}
+{% block body %}
+
+    <h1>{{team['name']}}</h1>
+
+    <img src="{{ team['crestUrl'] }}" width="100" />
+
+    <h2>Players</h2>
+    {{team['stadium']}}
+
+    <h2>Managers</h2>
+    <table>
+        {% for staff_name in team['club_staff'] %}
+            <tr><td>{{ staff_name }}</td></tr>
+        {% endfor %}
+    </table>
+
+
+    <h2>Matches</h2>
+    <table>
+        {% for match in team['matches'] %}
+        <tr>
+            <td>{{ match['home_team'] }}</td>
+            <td>{{ match['home_goals'] }} : {{ match['away_goals'] }}</td>
+            <td>{{ match['away_team'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <h2>Players</h2>
+    <table>
+        {% for player in team['players'] %}
+        <tr>
+            <td>{{ player['shirt_number'] }}</td>
+            <td><a href="{{url_for('player_page', id=player['id'])}}"> {{ player['name'] }}</a></td>
+            <td>{{ player['position'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+
+{% endblock %}
