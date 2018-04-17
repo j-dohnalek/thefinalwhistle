@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block custom_head %}
+{% endblock custom_head %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <h1>League Table</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Team</th>
+                    <th scope="col">Played</th>
+                    <th scope="col">Won</th>
+                    <th scope="col">Drawn</th>
+                    <th scope="col">Lost</th>
+                    <th scope="col">For</th>
+                    <th scope="col">Against</th>
+                    <th scope="col">GD</th>
+                    <th scope="col">Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1.</th>
+                    <th>Liverpool FC</th>
+                    <th>34</th>
+                    <th>20</th>
+                    <th>10</th>
+                    <th>4</th>
+                    <th>78</th>
+                    <th>35</th>
+                    <th>43</th>
+                    <th>70</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% block custom_scripts %}
+{% endblock custom_scripts %}
+
+{% endblock content %}
