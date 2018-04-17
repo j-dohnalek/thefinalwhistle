@@ -10,12 +10,14 @@
 
     <title>The Final Whistle</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap and main CSS -->
     <link href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ url_for('static', filename='fontawesome/css/fontawesome-all.min.css') }}" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
     <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+
+    <!-- Page unique styles -->
+    {% block custom_head %}{% endblock %}
+
 </head>
 
 <body>
@@ -24,7 +26,7 @@
     <nav class="navbar navbar-expand-md navbar-dark bg-dark box-shadow">
         <div class="container">
             <a href="#" class="navbar-brand mr-md-auto">
-                The Final Whistle
+                The <strong>Final Whistle</strong>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -48,7 +50,7 @@
                         <a class="nav-link" href="#">News</a>
                     </li>
                     {% if current_user.is_authenticated %}
-                        welcome {{ current_user.username }}
+                        Welcome, {{ current_user.username }}
                         <a class="btn btn-sm btn-secondary" href="#">Sign out</a>
                     {% else %}
                         <a class="btn btn-sm btn-secondary mx-2 my-1" href="#">Log in</a>
@@ -77,5 +79,9 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="{{ url_for('static', filename='jquery/jquery-3.2.1.min.js') }}"></script>
 <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
+
+<!-- Page unique scripts -->
+{% block custom_scripts %}{% endblock %}
+
 </body>
 </html>
