@@ -65,14 +65,15 @@ def perform_reset_password():
 
 @app.route('/verify-email', methods=['GET'])
 def verify_email():
-    # get user to verify from url args
-    # use direct access to the args dict rather than .get so we can handle the case of missing params via KeyError
-    # email = request.args.get('username')
-    # token = request.args.get('token')
-    try:
-        email = request.args['username']
-        token = request.args['token']
-    except KeyError:
+    # try:
+    #     email = request.args['username']
+    #     token = request.args['token']
+    # except KeyError:
+    #     return "url missing 'username' and 'token' args"
+    # cleaner code - check vs None vs catching exceptions
+    email = request.args.get('username')
+    token = request.args.get('token')
+    if email is None or token is None:
         return "url missing 'username' and 'token' args"
     user = get_user_by_email(email)
     # attempt to activate account
