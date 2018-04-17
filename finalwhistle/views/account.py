@@ -10,7 +10,7 @@ from flask_login import login_required, login_user, logout_user
 # guest account-related routing #
 #################################
 @app.route('/login', methods=['GET', 'POST'])
-def perform_login():
+def login():
     login_form = LoginForm()
     if login_form.validate_on_submit():
         print('login form validated')

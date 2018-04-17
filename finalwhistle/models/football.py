@@ -3,10 +3,8 @@ Database models for football system
 """
 from sqlalchemy.orm import validates
 from sqlalchemy.ext.declarative import declared_attr
-from flask_sqlalchemy import SQLAlchemy
+from finalwhistle import db
 
-
-db = SQLAlchemy()
 
 
 class Person(object):

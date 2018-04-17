@@ -1,9 +1,9 @@
-from football import Referee, League, Season, Stadium, Team
-from football import ClubStaff, Player, Transfer, MatchStatistics
-from football import Match, Card, Goal, Substitution
-from misc import get_or_create, record_exists
+from finalwhistle.models.football import Referee, League, Season, Stadium, Team
+from finalwhistle.models.football import ClubStaff, Player, Transfer, MatchStatistics
+from finalwhistle.models.football import Match, Card, Goal, Substitution
+from finalwhistle.data_collection.misc import get_or_create, record_exists
 
-from config import Session
+from finalwhistle import db
 
 from datetime import datetime
 from shutil import copyfile
@@ -34,6 +34,7 @@ STATIC_TEMPLATE = 'static/index.html'
 
 SQL_LITE = 'test.db'
 
+session = db.session
 
 ################################
 
@@ -47,7 +48,6 @@ def create():
 
 
 def parse_referee():
-    session = Session()
     try:
 
         with open(REFEREE) as outfile:
@@ -64,7 +64,6 @@ def parse_referee():
 
 
 def parse_league():
-    session = Session()
     try:
         get_or_create(session, League, name='Premier League', api_id=445)
     finally:
@@ -73,8 +72,6 @@ def parse_league():
 
 
 def parse_season():
-    session = Session()
-
     try:
         s = '2018-01-01'
         date_format = '%Y-%m-%d'
@@ -87,7 +84,6 @@ def parse_season():
 
 
 def parse_stadiums():
-    session = Session()
     try:
 
         with open(STADIUM) as outfile:
@@ -101,7 +97,6 @@ def parse_stadiums():
 
 
 def parse_teams():
-    session = Session()
     try:
         with open(STADIUM) as outfile:
             clubs = json.load(outfile)
@@ -123,7 +118,6 @@ def parse_teams():
 
 
 def parse_club_staff():
-    session = Session()
     try:
 
         with open(CLUB_STAFF) as outfile:
@@ -140,7 +134,6 @@ def parse_club_staff():
 
 
 def parse_players():
-    session = Session()
     try:
 
         for src in glob.glob("cache/json/players/*.json"):
@@ -173,7 +166,6 @@ def parse_players():
 
 
 def parse_transfers():
-    session = Session()
     try:
 
         for src in glob.glob(TRANSFERS):
@@ -230,7 +222,6 @@ def parse_transfers():
 
 
 def parse_fixtures():
-    session = Session()
     try:
 
         missing = ''
@@ -398,7 +389,6 @@ def parse_fixtures():
 
 
 def parse_new_fixtures():
-    session = Session()
     try:
 
         game_count = 0
@@ -600,7 +590,6 @@ def parse_statistics():
     """
     csv_file = STATISTICS_BACKUP
 
-    session = Session()
     try:
         try:
             urllib.request.urlretrieve(STATISTICS_URL, STATISTICS)

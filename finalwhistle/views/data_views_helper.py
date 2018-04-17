@@ -1,6 +1,5 @@
-from models.football import *
-from api import apilib
-
+import finalwhistle.apis.fd_api as fd_api
+from finalwhistle.models.football import *
 from sqlalchemy import or_, desc, func, asc
 import json
 
@@ -39,7 +38,7 @@ def get_all_teams():
 
     source = '/v1/competitions/{}/teams'.format(EPL)
     # renew every 60 minutes
-    teams = apilib.fetch_api_data(source, 60)
+    teams = fd_api.fetch_api_data(source, 60)
     team_list = []
 
     for team in teams['teams']:
@@ -148,7 +147,7 @@ def get_team_information(id):
         source = '/v1/teams/{}'.format(team.api_id)
 
         # renew every 2000 minutes
-        team_json = apilib.fetch_api_data(source, 2000)
+        team_json = fd_api.fetch_api_data(source, 2000)
         team_information['name'] = team.name
         team_information['crestUrl'] = team_json['crestUrl']
         team_information['stadium'] = team.stadium
