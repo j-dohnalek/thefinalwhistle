@@ -35,26 +35,26 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="{{ url_for('home') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Scores</a>
+                        <a class="nav-link" href="{{ url_for('home') }}">Scores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Players</a>
+                        <a class="nav-link" href="{{ url_for('players_overview') }}">Players</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Teams</a>
+                        <a class="nav-link" href="{{ url_for('teams_overview') }}">Teams</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
+                        <a class="nav-link" href="{{ url_for('news_overview') }}">News</a>
                     </li>
                     {% if current_user.is_authenticated %}
                         Welcome, {{ current_user.username }}
-                        <a class="btn btn-sm btn-secondary" href="#">Sign out</a>
+                        <a class="btn btn-sm btn-secondary" href="{{ url_for('logout') }}">Sign out</a>
                     {% else %}
-                        <a class="btn btn-sm btn-secondary mx-2 my-1" href="#">Log in</a>
-                        <a class="btn btn-sm btn-primary my-1" href="#">Sign up</a>
+                        <a class="btn btn-sm btn-secondary mx-2 my-1" href="{{ url_for('login') }}">Log in</a>
+                        <a class="btn btn-sm btn-primary my-1" href="{{ url_for('register') }}">Sign up</a>
                     {% endif %}
                 </ul>
             </div>
