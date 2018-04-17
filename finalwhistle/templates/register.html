@@ -2,15 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login test page</title>
+    <title>Register test page</title>
 </head>
 <body>
     {% from "template_helpers.html" import render_field %}
-    <form method="POST" action="/login">
+    <form method="POST" action="/register">
         {{ form.csrf_token }}
         {{ render_field(form.email) }}
+        {{ render_field(form.username) }}
         {{ render_field(form.password) }}
-        {{ render_field(form.remember_me) }}
+        {{ render_field(form.password_confirm) }}
+        {{ render_field(form.accept_tos) }}
         {{ render_field(form.submit) }}
     </form>
 </body>

@@ -8,7 +8,8 @@ from flask_login import LoginManager
 # Create server and configure
 app = Flask(__name__)
 app.debug = True
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(os.path.dirname(__file__), 'test.db')
+app.config['BASEDIR'] = os.path.dirname(os.path.realpath(__file__))
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(app.config['BASEDIR'], 'test.db')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 # Try to fetch secret key from OS
 try:
@@ -32,8 +33,8 @@ login.login_view = 'login'
 
 @login.user_loader
 def load_user(user_id):
-    from finalwhistle.models.user import user_from_id
-    return user_from_id(user_id)
+    from finalwhistle.models.user import get_user_by_id
+    return get_user_by_id(user_id)
 
 # Register url routes with app object [1]
 # [1]: http://flask.pocoo.org/docs/0.12/patterns/packages/#simple-packages
