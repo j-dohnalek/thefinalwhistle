@@ -7,11 +7,10 @@
     <table>
         {% for player in data %}
             <tr>
-                <td>
-                    <a href="{{url_for('player_page', id=player['id'])}}">
-                        {{ player['shirt_number'] }} {{ player['name'] }} {{ player['position'] }}
-                    </a>
-                </td>
+                <td><img src="{{ player['img'] }}" width="50" /></td>
+                <td>{{ player['shirt_number'] }}</td>
+                <td><a href="{{url_for('player_page', id=player['id'])}}"> {{ player['name'] }}</a></td>
+                <td>{{ player['position'] }}</td>
             </tr>
         {% endfor %}
     </table>

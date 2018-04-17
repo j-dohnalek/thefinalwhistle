@@ -444,7 +444,7 @@ def parse_new_fixtures():
                         missing += '<br>{} {} {} {}'.format(fixture['details']['referee'],
                                                             fixture['home_team'],
                                                             fixture['away_team'],
-                                                            fixture['date'])
+                                                            fixtures['date'])
 
                     for event in (fixture['details']['goals']):
 
@@ -491,7 +491,16 @@ def parse_new_fixtures():
 
                     for event in (fixture['details']['cards']):
 
-                        player = session.query(Player).filter_by(name=event['player']).first()
+                        try:
+                            player = session.query(Player).filter_by(name=event['player']).first()
+                            player_id = player.player_id
+                        except AttributeError:
+                            print('{} {} {} {}'.format(event['player'],
+                                                       fixture['home_team'],
+                                                       fixture['away_team'],
+                                                       fixtures['date']))
+                            break
+
                         extra_time = 0
                         try:
                             extra_time = event['additional']
@@ -508,7 +517,7 @@ def parse_new_fixtures():
                         get_or_create(session, Card,
                                       match=match.match_id,
                                       yellow=yellow,
-                                      player=player.player_id,
+                                      player=player_id,
                                       extra_time=extra_time,
                                       minute=event['minute'])
 
@@ -519,10 +528,11 @@ def parse_new_fixtures():
                             player = session.query(Player).filter_by(name=event['out']).first()
                             player_out = player.player_id
                         except AttributeError:
-                            missing += '<br>{} {} {} {}'.format(event['out'],
-                                                                fixture['home_team'],
-                                                                fixture['away_team'],
-                                                                fixture['date'])
+                            print('{} {} {} {}'.format(event['player'],
+                                                       fixture['home_team'],
+                                                       fixture['away_team'],
+                                                       fixtures['date']))
+                            break
 
                         player_in = None
                         try:
@@ -532,10 +542,11 @@ def parse_new_fixtures():
                             pass
 
                         except AttributeError:
-                            missing += '<br>{} {} {} {}'.format(event['in'],
-                                                                fixture['home_team'],
-                                                                fixture['away_team'],
-                                                                fixture['date'])
+                            print('{} {} {} {}'.format(event['player'],
+                                                       fixture['home_team'],
+                                                       fixture['away_team'],
+                                                       fixtures['date']))
+                            break
 
                         extra_time = 0
                         try:
@@ -672,6 +683,7 @@ def parse_statistics():
 
 
 def main():
+
     parse_referee()
     parse_league()
     parse_season()
@@ -683,6 +695,9 @@ def main():
     parse_fixtures()
     parse_new_fixtures()
     parse_statistics()
+
+    copyfile(SQL_LITE, '../apiflask/' + SQL_LITE)
+    print('Database up to date!')
 
 
 if __name__ == '__main__':

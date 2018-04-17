@@ -1,6 +1,7 @@
 {
     "teams": [
         {
+<<<<<<< HEAD
             "id": 57,
             "squadMarketValue": null,
             "name": "Arsenal FC",
@@ -139,6 +140,146 @@
             "name": "West Ham United FC",
             "shortName": "West Ham",
             "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/e0/West_Ham_United_FC.svg"
+=======
+            "squadMarketValue": null,
+            "name": "Arsenal FC",
+            "shortName": "Arsenal",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
+            "id": 57
+        },
+        {
+            "squadMarketValue": null,
+            "name": "Leicester City FC",
+            "shortName": "Foxes",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/6/63/Leicester02.png",
+            "id": 338
+        },
+        {
+            "squadMarketValue": null,
+            "name": "Watford FC",
+            "shortName": "Watford",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/e/e2/Watford.svg",
+            "id": 346
+        },
+        {
+            "squadMarketValue": null,
+            "name": "Liverpool FC",
+            "shortName": "Liverpool",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0a/FC_Liverpool.svg",
+            "id": 64
+        },
+        {
+            "squadMarketValue": null,
+            "name": "Southampton FC",
+            "shortName": "Southampton",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/c/c9/FC_Southampton.svg",
+            "id": 340
+        },
+        {
+            "squadMarketValue": null,
+            "name": "Swansea City FC",
+            "shortName": "Swans",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/ab/Swansea_City_Logo.svg",
+            "id": 72
+        },
+        {
+            "squadMarketValue": null,
+            "name": "West Bromwich Albion FC",
+            "shortName": "West Bromwich",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/8/8b/West_Bromwich_Albion.svg",
+            "id": 74
+        },
+        {
+            "squadMarketValue": null,
+            "name": "AFC Bournemouth",
+            "shortName": "Bournemouth",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/de/4/41/Afc_bournemouth.svg",
+            "id": 1044
+        },
+        {
+            "squadMarketValue": null,
+            "name": "Everton FC",
+            "shortName": "Everton",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/f/f9/Everton_FC.svg",
+            "id": 62
+        },
+        {
+            "squadMarketValue": null,
+            "name": "Stoke City FC",
+            "shortName": "Stoke",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/a3/Stoke_City.svg",
+            "id": 70
+        },
+        {
+            "squadMarketValue": null,
+            "name": "Crystal Palace FC",
+            "shortName": "Crystal",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/bf/Crystal_Palace_F.C._logo_(2013).png",
+            "id": 354
+        },
+        {
+            "squadMarketValue": null,
+            "name": "Huddersfield Town",
+            "shortName": "Huddersfield",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/5/5a/Huddersfield_Town_A.F.C._logo.svg",
+            "id": 394
+        },
+        {
+            "squadMarketValue": null,
+            "name": "Chelsea FC",
+            "shortName": "Chelsea",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/5c/Chelsea_crest.svg",
+            "id": 61
+        },
+        {
+            "squadMarketValue": null,
+            "name": "Burnley FC",
+            "shortName": "Burnley",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/0/02/Burnley_FC_badge.png",
+            "id": 328
+        },
+        {
+            "squadMarketValue": null,
+            "name": "Brighton & Hove Albion",
+            "shortName": "Brighton",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_&_Hove_Albion_logo.svg",
+            "id": 397
+        },
+        {
+            "squadMarketValue": null,
+            "name": "Manchester City FC",
+            "shortName": "ManCity",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
+            "id": 65
+        },
+        {
+            "squadMarketValue": null,
+            "name": "Newcastle United FC",
+            "shortName": "Newcastle",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/56/Newcastle_United_Logo.svg",
+            "id": 67
+        },
+        {
+            "squadMarketValue": null,
+            "name": "Tottenham Hotspur FC",
+            "shortName": "Spurs",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b4/Tottenham_Hotspur.svg",
+            "id": 73
+        },
+        {
+            "squadMarketValue": null,
+            "name": "Manchester United FC",
+            "shortName": "ManU",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/da/Manchester_United_FC.svg",
+            "id": 66
+        },
+        {
+            "squadMarketValue": null,
+            "name": "West Ham United FC",
+            "shortName": "West Ham",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/e0/West_Ham_United_FC.svg",
+            "id": 563
+>>>>>>> 5fd3812ade3e0ea215676af683884fb4d793b21a
         }
     ],
     "count": 20

@@ -1,0 +1,61 @@
+{% extends "static/template.html" %}
+{% block title %} Match {% endblock %}
+{% block body %}
+
+    <h1>Match</h1>
+
+    <table>
+        <tr>
+            <td>{{ match['home_team'] }}</td>
+            <td><img height="50" src="{{ match['home_crest'] }}" /></td>
+            <td>{{ match['home_goals'] }} : {{ match['away_goals'] }}</td>
+            <td><img height="50" src="{{ match['away_crest'] }}" /></td>
+            <td>{{ match['away_team'] }}</td>
+        </tr>
+    </table>
+
+    <h3>{{ match['home_team'] }} Goals</h3>
+    <table>
+        {% for goal in match['home_scoring_players'] %}
+            <tr>
+                <td>{{ goal['scorer'] }}</td>
+                <td>{{ goal['minute'] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <h3>{{ match['away_team'] }} Goals</h3>
+    <table>
+        {% for goal in match['away_scoring_players'] %}
+            <tr>
+                <td>{{ goal['scorer'] }}</td>
+                <td>{{ goal['minute'] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <h3>Statistics</h3>
+    <table>
+        <tr>
+            <td>{{ match['home_team'] }}</td>
+            <td></td>
+            <td>{{ match['away_team'] }}</td>
+        </tr>
+        <tr>
+            <td><img height="50" src="{{ match['home_crest'] }}" /></td>
+            <td></td>
+            <td><img height="50" src="{{ match['away_crest'] }}" /></td>
+        </tr>
+        {% for statistic in statistics %}
+            <tr>
+                <td>{{ match['home_team_stats'][statistic] }}</td>
+                <td>{{ statistic }}</td>
+                <td>{{ match['away_team_stats'][statistic] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+
+
+
+{% endblock %}
