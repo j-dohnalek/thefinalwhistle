@@ -1,15 +1,24 @@
 {% extends "base.html" %}
-{% block title %} League Table{% endblock %}
 
-{% block body %}
+{% block custom_head %}
+{% endblock custom_head %}
 
-    <table>
-    {% for team in data %}
-        <tr>
-            <td> <img src="{{ team['crestUrl'] }}" width="50" /></td>
-            <td><a href="{{url_for('team_page', id=team['team_id'])}}">{{ team['name'] }}</a></td>
-        </tr>
-    {% endfor %}
-    </table>
+{% block content %}
+<div class="container">
+    <div class="row">
+        <h1>Clubs</h1>
+        <table class="table">
+        {% for team in data %}
+            <tr>
+                <td scope="row"><img src="{{ team['crestUrl'] }}" width="50" /></td>
+                <td><a href="{{url_for('team_page', id=team['team_id'])}}">{{ team['name'] }}</a></td>
+            </tr>
+        {% endfor %}
+        </table>
+    </div>
+</div>
 
-{% endblock %}
+{% block custom_scripts %}
+{% endblock custom_scripts %}
+
+{% endblock content %}

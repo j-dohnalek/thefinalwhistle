@@ -5,8 +5,12 @@ import json
 
 # CONSTANTS #####################################################################
 
-CLUB_CRESTS = 'cache/club_crests.json'
-TABLE_JSON = 'cache/tmp/table.json'
+
+ROOT = 'finalwhistle/'
+CLUB_CRESTS = ROOT + 'cache/club_crests.json'
+TABLE_JSON = ROOT + 'cache/tmp/table.json'
+PLAYER_IMAGES = ROOT + 'cache/players_images.json'
+
 EPL = 445  # English Premier League 2017-2018
 STATS = ['Shots', 'Shots on Target', 'Corners', 'Fouls', 'Yellow Cards', 'Red Cards']
 
@@ -180,7 +184,7 @@ def get_player_image(name, small=True):
     small_link = 'https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/40x40/{}.png'
     large_link = 'https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/250x250/{}.png'
 
-    with open('cache/players_images.json') as openfile:
+    with open(PLAYER_IMAGES) as openfile:
         image = json.load(openfile)
 
     try:
