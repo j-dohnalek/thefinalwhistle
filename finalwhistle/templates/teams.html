@@ -10,7 +10,7 @@
         <table class="table">
         {% for team in data %}
             <tr>
-                <td scope="row"><img src="{{ team['crestUrl'] }}" width="50" /></td>
+                <td scope="row"><img src="{{ team['crestUrl'] }}" height="50" /></td>
                 <td><a href="{{url_for('team_page', id=team['team_id'])}}">{{ team['name'] }}</a></td>
             </tr>
         {% endfor %}
