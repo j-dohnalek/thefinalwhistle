@@ -51,3 +51,10 @@ import finalwhistle.models.user
 import finalwhistle.models.comment
 import finalwhistle.models.user
 import finalwhistle.models.article
+
+# Returns the current year
+@app.context_processor
+def current_year():
+    import datetime
+    now = datetime.datetime.now()
+    return dict(current_year=now.year)

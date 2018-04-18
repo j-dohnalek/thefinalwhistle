@@ -25,8 +25,8 @@
 <header>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark box-shadow">
         <div class="container">
-            <a href="#" class="navbar-brand mr-md-auto">
-                The <strong>Final Whistle</strong>
+            <a class="navbar-brand logo" href="{{ url_for('home') }}">
+                The Final Whistle
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -67,9 +67,9 @@
 <footer class="text-muted">
     <div class="container">
         <p class="float-right">
-            <a href="#">Back to top</a>
+            <a href="#"><i class="fas fa-arrow-up"></i> Back to top</a>
         </p>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+        <p>&copy; {{ current_year }} – The Final Whistle</p>
         <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
     </div>
 </footer>
