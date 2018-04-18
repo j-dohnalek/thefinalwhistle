@@ -7,6 +7,7 @@ import json
 
 
 ROOT = 'finalwhistle/'
+
 CLUB_CRESTS = ROOT + 'cache/club_crests.json'
 TABLE_JSON = ROOT + 'cache/tmp/table.json'
 PLAYER_IMAGES = ROOT + 'cache/players_images.json'
