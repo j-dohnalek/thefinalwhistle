@@ -48,7 +48,7 @@ def league_table():
 
 @app.route('/news', methods=['GET'])
 def news_overview():
-    return 'news overview'
+    return render_template('news.html')
 
 
 @app.route('/news/<id>', methods=['GET'])
