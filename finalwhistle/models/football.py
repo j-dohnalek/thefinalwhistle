@@ -23,7 +23,7 @@ class ClubStaff(db.Model, Person):
 
     @declared_attr
     def team(self):
-        return db.Column(db.Integer, db.ForeignKey('team.team_id'), nullable=False)
+        return db.Column(db.Integer, db.ForeignKey('teams.team_id'), nullable=False)
 
     # http://docs.sqlalchemy.org/en/rel_0_9/orm/mapped_attributes.html#simple-validators
     @validates('role')
@@ -34,7 +34,7 @@ class ClubStaff(db.Model, Person):
 
 class Player(db.Model, Person):
 
-    __tablename__ = 'player'
+    __tablename__ = 'players'
 
     player_id = db.Column(db.Integer, primary_key=True)
     shirt_number = db.Column(db.Integer, nullable=True)
@@ -57,12 +57,12 @@ class Player(db.Model, Person):
 
     @declared_attr
     def current_team(self):
-        return db.Column(db.Integer, db.ForeignKey('team.team_id'), nullable=True)
+        return db.Column(db.Integer, db.ForeignKey('teams.team_id'), nullable=True)
 
 
 class Transfer(db.Model):
 
-    __tablename__ = 'transfer'
+    __tablename__ = 'transfers'
 
     transfer_id = db.Column(db.Integer, primary_key=True)
     transfer_from = db.Column(db.String(50), nullable=False)
@@ -72,23 +72,23 @@ class Transfer(db.Model):
 
     @declared_attr
     def player(self):
-        return db.Column(db.Integer, db.ForeignKey('player.player_id'), nullable=False)
+        return db.Column(db.Integer, db.ForeignKey('players.player_id'), nullable=False)
 
     @declared_attr
     def season(self):
-        return db.Column(db.Integer, db.ForeignKey('season.season_id'), nullable=False)
+        return db.Column(db.Integer, db.ForeignKey('seasons.season_id'), nullable=False)
 
 
 class Referee(db.Model, Person):
 
-    __tablename__ = 'referee'
+    __tablename__ = 'referees'
 
     referee_id = db.Column(db.Integer, primary_key=True)
 
 
 class Stadium(db.Model):
 
-    __tablename__ = 'stadium'
+    __tablename__ = 'stadiums'
 
     stadium_id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(50), nullable=False)
@@ -96,7 +96,7 @@ class Stadium(db.Model):
 
 class League(db.Model):
 
-    __tablename__ = 'league'
+    __tablename__ = 'leagues'
 
     league_id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(50), nullable=False)
@@ -105,7 +105,7 @@ class League(db.Model):
 
 class Season(db.Model):
 
-    __tablename__ = 'season'
+    __tablename__ = 'seasons'
 
     season_id = db.Column(db.Integer, primary_key=True)
     end_year = db.Column(db.Date, nullable=False)
@@ -113,7 +113,7 @@ class Season(db.Model):
 
 class Team(db.Model):
 
-    __tablename__ = 'team'
+    __tablename__ = 'teams'
 
     team_id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(50), nullable=False)
@@ -123,16 +123,16 @@ class Team(db.Model):
 
     @declared_attr
     def league(self):
-        return db.Column(db.Integer, db.ForeignKey('league.league_id'), nullable=False)
+        return db.Column(db.Integer, db.ForeignKey('leagues.league_id'), nullable=False)
 
     @declared_attr
     def stadium(self):
-        return db.Column(db.Integer, db.ForeignKey('stadium.stadium_id'), nullable=False)
+        return db.Column(db.Integer, db.ForeignKey('stadiums.stadium_id'), nullable=False)
 
 
 class Match(db.Model):
 
-    __tablename__ = 'match'
+    __tablename__ = 'matches'
 
     match_id = db.Column(db.Integer, primary_key=True)
 
@@ -142,19 +142,19 @@ class Match(db.Model):
 
     @declared_attr
     def home_team(self):
-        return db.Column(db.Integer, db.ForeignKey('team.team_id'), nullable=False)
+        return db.Column(db.Integer, db.ForeignKey('teams.team_id'), nullable=False)
 
     @declared_attr
     def away_team(self):
-        return db.Column(db.Integer, db.ForeignKey('team.team_id'), nullable=False)
+        return db.Column(db.Integer, db.ForeignKey('teams.team_id'), nullable=False)
 
     @declared_attr
     def main_referee(self):
-        return db.Column(db.Integer, db.ForeignKey('referee.referee_id'), nullable=False)
+        return db.Column(db.Integer, db.ForeignKey('referees.referee_id'), nullable=False)
 
     @declared_attr
     def season(self):
-        return db.Column(db.Integer, db.ForeignKey('season.season_id'), nullable=False)
+        return db.Column(db.Integer, db.ForeignKey('seasons.season_id'), nullable=False)
 
 
 class MatchEvent(object):
@@ -165,50 +165,50 @@ class MatchEvent(object):
 
     @declared_attr
     def match(self):
-        return db.Column(db.Integer, db.ForeignKey('match.match_id'), nullable=False)
+        return db.Column(db.Integer, db.ForeignKey('matches.match_id'), nullable=False)
 
 
 class Goal(db.Model, MatchEvent):
 
-    __tablename__ = 'goal'
+    __tablename__ = 'goals'
 
     own_goal = db.Column(db.Boolean, nullable=False)
     penalty = db.Column(db.Boolean, nullable=False)
 
     @declared_attr
     def player(self):
-        return db.Column(db.Integer, db.ForeignKey('player.player_id'), nullable=False)
+        return db.Column(db.Integer, db.ForeignKey('players.player_id'), nullable=False)
 
     # Not every goal has a assistant (i.e. penalty, own goal)
     @declared_attr
     def assist_player(self):
-        return db.Column(db.Integer, db.ForeignKey('player.player_id'), nullable=True)
+        return db.Column(db.Integer, db.ForeignKey('players.player_id'), nullable=True)
 
 
 class Substitution(db.Model, MatchEvent):
 
-    __tablename__ = 'substitution'
+    __tablename__ = 'substitutions'
 
     # Not every substitution has a player, if team has more than 3 substitutions
     # and a player is injure he can be only let out
     @declared_attr
     def player_in(self):
-        return db.Column(db.Integer, db.ForeignKey('player.player_id'), nullable=True)
+        return db.Column(db.Integer, db.ForeignKey('players.player_id'), nullable=True)
 
     @declared_attr
     def player_out(self):
-        return db.Column(db.Integer, db.ForeignKey('player.player_id'), nullable=False)
+        return db.Column(db.Integer, db.ForeignKey('players.player_id'), nullable=False)
 
 
 class Card(db.Model, MatchEvent):
 
-    __tablename__ = 'card'
+    __tablename__ = 'cards'
 
     yellow = db.Column(db.Boolean, nullable=False)
 
     @declared_attr
     def player(self):
-        return db.Column(db.Integer, db.ForeignKey('player.player_id'), nullable=False)
+        return db.Column(db.Integer, db.ForeignKey('players.player_id'), nullable=False)
 
 
 # UPdb.Date 10-04-2018 - Added new pieces of information
@@ -247,15 +247,15 @@ class MatchStatistics(db.Model):
 
     @declared_attr
     def match(self):
-        return db.Column(db.Integer, db.ForeignKey('match.match_id'), nullable=False)
+        return db.Column(db.Integer, db.ForeignKey('matches.match_id'), nullable=False)
 
     @declared_attr
     def home_team(self):
-        return db.Column(db.Integer, db.ForeignKey('team.team_id'), nullable=False)
+        return db.Column(db.Integer, db.ForeignKey('teams.team_id'), nullable=False)
 
     @declared_attr
     def away_team(self):
-        return db.Column(db.Integer, db.ForeignKey('team.team_id'), nullable=False)
+        return db.Column(db.Integer, db.ForeignKey('teams.team_id'), nullable=False)
 
     # http://docs.sqlalchemy.org/en/rel_0_9/orm/mapped_attributes.html#simple-validators
     @validates('role')

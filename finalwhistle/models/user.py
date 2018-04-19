@@ -92,8 +92,8 @@ class User(db.Model, UserMixin):
     access_token = db.Column(db.String, nullable=True)
     access_token_expires_at = db.Column(db.DateTime, nullable=True)
     # TODO: write these models and introduce into test db
-    #supported_team_id = db.Column(db.Integer, db.ForeignKey('teams.id'), nullable=True)
-    #supported_team = db.relationship('Team')
+    supported_team_id = db.Column(db.Integer, db.ForeignKey('teams.id'), nullable=True)
+    supported_team = db.relationship('Team')
     #usergroup_id = db.Column(db.Integer, db.ForeignKey('usergroups.id'), nullable=True)
     #usergroup = db.relationship('UserGroup')
 
