@@ -25,18 +25,22 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <th scope="row">1.</th>
-                    <tr>Liverpool FC</tr>
-                    <td>34</td>
-                    <td>20</td>
-                    <td>10</td>
-                    <td>4</td>
-                    <td>78</td>
-                    <td>35</td>
-                    <td>43</td>
-                    <td>70</td>
-                </tr>
+
+            {% for position in range(1, table|length + 1) %}
+            <tr>
+                <th scope="row">{{ position }}.</th>
+                <th>{{ table[position|string]['club'] }}</th>
+                <th>{{ table[position|string]['won'] }}</th>
+                <th>{{ table[position|string]['drawn'] }}</th>
+                <th>{{ table[position|string]['lost'] }}</th>
+                <th>{{ table[position|string]['ga'] }}</th>
+                <th>{{ table[position|string]['gd'] }}</th>
+                <th>{{ table[position|string]['gf'] }}</th>
+                <th>{{ table[position|string]['played'] }}</th>
+                <th>{{ table[position|string]['points'] }}</th>
+            </tr>
+            {% endfor %}
+
             </tbody>
         </table>
     </div>

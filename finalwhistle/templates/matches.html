@@ -1,22 +1,31 @@
 {% extends "base.html" %}
-{% block title %} Matches {% endblock %}
-{% block body %}
 
-    <h1>Matches</h1>
+{% block custom_head %}
+{% endblock custom_head %}
 
-    <table>
-        {% for match in data %}
-        <tr>
-            <td><a href="{{ url_for('match_page', id=match['match_id'])}}">[Link]</a></td>
-            <td>&nbsp;</td>
-            <td>{{ match['home_team'] }}</td>
-            <td><img height="50" src="{{ match['home_crest'] }}" /></td>
-            <td>{{ match['home_goals'] }} : {{ match['away_goals'] }}</td>
-            <td><img height="50" src="{{ match['away_crest'] }}" /></td>
-            <td>{{ match['away_team'] }}</td>
-        </tr>
-        {% endfor %}
-    </table>
+{% block content %}
+<div class="container">
+    <div class="row">
+
+        <h1>Matches</h1>
+
+        <table class="table">
+            {% for match in data %}
+            <tr>
+                <th scope="row"><a href="{{ url_for('match_page', id=match['match_id'])}}">[Link]</a></th>
+                <th>{{ match['home_team'] }}</th>
+                <th><img height="50" src="{{ match['home_crest'] }}" /></th>
+                <th>{{ match['home_goals'] }} : {{ match['away_goals'] }}</th>
+                <th><img height="50" src="{{ match['away_crest'] }}" /></th>
+                <th>{{ match['away_team'] }}</th>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>
 
 
-{% endblock %}
+{% block custom_scripts %}
+{% endblock custom_scripts %}
+
+{% endblock content %}

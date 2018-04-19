@@ -2,7 +2,12 @@ from finalwhistle.models.football import Referee, League, Season, Stadium, Team
 from finalwhistle.models.football import ClubStaff, Player, Transfer, MatchStatistics
 from finalwhistle.models.football import Match, Card, Goal, Substitution
 from finalwhistle.data_collection.misc import get_or_create, record_exists
+import finalwhistle.models.user
+import finalwhistle.models.comment
+import finalwhistle.models.user
+import finalwhistle.models.article
 
+from finalwhistle import app
 from finalwhistle import db
 
 from datetime import datetime
@@ -17,22 +22,19 @@ import urllib.error
 
 #################################
 
-JSON_PATH = 'cache/json'
+ROOT = os.path.dirname(os.path.realpath(__file__)) + '/'
 
-REFEREE = JSON_PATH + '/list_of_referees.json'
-STADIUM = JSON_PATH + '/list_of_stadiums.json'
-CLUB_STAFF = JSON_PATH + '/list_of_managers.json'
-OLD_FIXTURES = JSON_PATH + '/fixtures/*.json'
-NEW_FIXTURES = JSON_PATH + '/new_fixtures/*.json'
-TRANSFERS = JSON_PATH + '/transfers/*.json'
+REFEREE = ROOT + 'cache/json/list_of_referees.json'
+STADIUM = ROOT + 'cache/json/list_of_stadiums.json'
+CLUB_STAFF = ROOT + 'cache/json/list_of_managers.json'
+OLD_FIXTURES = ROOT + 'cache/json/fixtures/*.json'
+NEW_FIXTURES = ROOT + 'cache/json/new_fixtures/*.json'
+TRANSFERS = ROOT + 'cache/json/transfers/*.json'
 
-STATISTICS = 'cache/tmp/E0.csv'
+STATISTICS = ROOT + 'cache/tmp/E0.csv'
 STATISTICS_URL = 'http://www.football-data.co.uk/mmz4281/1718/E0.csv'
-STATISTICS_BACKUP = 'cache/csv/E0.csv'
-
-STATIC_TEMPLATE = 'static/index.html'
-
-SQL_LITE = 'test.db'
+STATISTICS_BACKUP = ROOT + 'cache/csv/E0.csv'
+SQL_LITE = ROOT + 'test.db'
 
 session = db.session
 
@@ -45,6 +47,8 @@ def delete_db():
 
 def create():
     print('Create DB .. OK!')
+    db.create_all(app=app)
+    #db.create_all()
 
 
 def parse_referee():
@@ -76,7 +80,8 @@ def parse_season():
         s = '2018-01-01'
         date_format = '%Y-%m-%d'
         date = datetime.strptime(s, date_format)
-        get_or_create(session, Season, end_year=date)
+        if not record_exists(session, Season, end_year=date):
+            get_or_create(session, Season, end_year=date)
     finally:
         session.close()
 
@@ -673,6 +678,7 @@ def parse_statistics():
 
 def main():
 
+    create()
     parse_referee()
     parse_league()
     parse_season()
@@ -685,7 +691,7 @@ def main():
     parse_new_fixtures()
     parse_statistics()
 
-    copyfile(SQL_LITE, '../apiflask/' + SQL_LITE)
+    # copyfile(SQL_LITE, '../apiflask/' + SQL_LITE)
     print('Database up to date!')
 
 

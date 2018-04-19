@@ -5,7 +5,7 @@ import os, time
 
 
 API_TOKEN = 'ac6a29cb48594f87a2c770e05b4d6b35'
-CACHE_PATH = 'cache/tmp/'
+CACHE_PATH = 'finalwhistle/cache/tmp/'
 API_URL = 'api.football-data.org'
 DEBUG = True
 

@@ -1,18 +1,27 @@
 {% extends "base.html" %}
-{% block title %} Players {% endblock %}
 
-{% block body %}
+{% block custom_head %}
+{% endblock custom_head %}
 
-    <h2>Players</h2>
-    <table>
-        {% for player in data %}
-            <tr>
-                <td><img src="{{ player['img'] }}" width="50" /></td>
-                <td>{{ player['shirt_number'] }}</td>
-                <td><a href="{{url_for('player_page', id=player['id'])}}"> {{ player['name'] }}</a></td>
-                <td>{{ player['position'] }}</td>
-            </tr>
-        {% endfor %}
-    </table>
+{% block content %}
 
-{% endblock %}
+<div class="container">
+    <div class="row">
+        <h1>Players</h1>
+        <table class="table">
+            {% for player in data %}
+                <tr>
+                    <th scope="row"><img src="{{ player['img'] }}" width="50" /></th>
+                    <th>{{ player['shirt_number'] }}</th>
+                    <th><a href="{{url_for('player_page', id=player['id'])}}"> {{ player['name'] }}</a></th>
+                    <th>{{ player['position'] }}</th>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>
+
+{% block custom_scripts %}
+{% endblock custom_scripts %}
+
+{% endblock content %}
