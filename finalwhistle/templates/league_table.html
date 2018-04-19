@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block custom_head %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='datatables/datatables.min.css') }}"/>
 {% endblock custom_head %}
 
 {% block content %}
@@ -24,6 +25,7 @@
                 </tr>
             </thead>
             <tbody>
+
             {% for position in range(1, table|length + 1) %}
             <tr>
                 <th scope="row">{{ position }}.</th>
@@ -38,12 +40,14 @@
                 <th>{{ table[position|string]['points'] }}</th>
             </tr>
             {% endfor %}
+
             </tbody>
         </table>
     </div>
 </div>
 
 {% block custom_scripts %}
+<script type="text/javascript" src="{{ url_for('static', filename='datatables/datatables.min.js') }}"></script>
 {% endblock custom_scripts %}
 
 {% endblock content %}
