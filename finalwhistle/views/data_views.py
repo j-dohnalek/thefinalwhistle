@@ -41,14 +41,14 @@ def team_page(id):
     return render_template('team.html', team=get_team_information(id))
 
 
-@app.route('/table', methods=['GET'])
+@app.route('/league-table', methods=['GET'])
 def league_table():
     return render_template('league_table.html', table=get_league_table())
 
 
 @app.route('/news', methods=['GET'])
 def news_overview():
-    return 'news overview'
+    return render_template('news.html')
 
 
 @app.route('/news/<id>', methods=['GET'])
