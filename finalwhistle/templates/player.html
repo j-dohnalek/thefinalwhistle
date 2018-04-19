@@ -1,69 +1,78 @@
-{% extends "static/template.html" %}
-{% block title %} Players {% endblock %}
+{% extends "base.html" %}
 
-{% block body %}
+{% block custom_head %}
+{% endblock custom_head %}
 
-    <h2>{{ data['name'] }}</h2>
+{% block content %}
 
-    <img src="{{data['img']}}" width="200" />
+<div class="container">
+    <div class="row">
+        <h1>{{ data['name'] }}</h1>
 
-    <table>
 
-        <tr>
-            <td>Team</td>
-            <td>{{ data['team'] }}</td>
-        </tr>
+        <img src="{{data['img']}}" width="200" />
 
-        <tr>
-            <td>Position</td>
-            <td>{{ data['position'] }}</td>
-        </tr>
+        <table class="table">
 
-        <tr>
-            <td>Shirts Number</td>
-            <td>{{ data['shirt_number'] }}</td>
-        </tr>
+            <tr>
+                <td scope="row">Team</td>
+                <td>{{ data['team'] }}</td>
+            </tr>
 
-        <tr>
-            <td>Date of Birth</td>
-            <td>{{ data['dob'] }}</td>
-        </tr>
+            <tr>
+                <td scope="row">Position</td>
+                <td>{{ data['position'] }}</td>
+            </tr>
 
-        <tr>
-            <td>Weight</td>
-            <td>{{ data['weight'] }}</td>
-        </tr>
+            <tr>
+                <td scope="row">Shirts Number</td>
+                <td>{{ data['shirt_number'] }}</td>
+            </tr>
 
-        <tr>
-            <td>Height</td>
+            <tr>
+                <td scope="row">Date of Birth</td>
+                <td>{{ data['dob'] }}</td>
+            </tr>
 
-            <td>{{ data['height'] }}</td>
-        </tr>
+            <tr>
+                <td scope="row">Weight</td>
+                <td>{{ data['weight'] }}</td>
+            </tr>
 
-    </table>
+            <tr>
+                <td scope="row">Height</td>
+                <td>{{ data['height'] }}</td>
+            </tr>
 
-    <table>
+        </table>
 
-        <tr>
-            <td>Goal Scored</td>
-            <td>{{ data['goals_scored'] }}</td>
-        </tr>
+        <table class="table">
 
-        <tr>
-            <td>Goal Assisted</td>
-            <td>{{ data['goals_assisted'] }}</td>
-        </tr>
+            <tr>
+                <td scope="row">Goal Scored</td>
+                <td>{{ data['goals_scored'] }}</td>
+            </tr>
 
-        <tr>
-            <td>Yellow Cards</td>
-            <td>{{ data['yellow_cards'] }}</td>
-        </tr>
+            <tr>
+                <td scope="row">Goal Assisted</td>
+                <td>{{ data['goals_assisted'] }}</td>
+            </tr>
 
-        <tr>
-            <td>Red Cards</td>
-            <td>{{ data['red_cards'] }}</td>
-        </tr>
+            <tr>
+                <td scope="row">Yellow Cards</td>
+                <td>{{ data['yellow_cards'] }}</td>
+            </tr>
 
-    </table>
+            <tr>
+                <td scope="row">Red Cards</td>
+                <td>{{ data['red_cards'] }}</td>
+            </tr>
 
-{% endblock %}
+        </table>
+    </div>
+</div>
+
+{% block custom_scripts %}
+{% endblock custom_scripts %}
+
+{% endblock content %}

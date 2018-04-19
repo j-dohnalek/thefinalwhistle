@@ -1,5 +1,15 @@
-from finalwhistle.data_collection.premierleague import get_players, validate_images
+import os
+
+from finalwhistle.data_collection.premierleague import fixtures
+from finalwhistle.data_collection.premierleague import league_table
+
+
+LEAGUE_TABLE_PATH = '../cache/tmp/table.json'
 
 if __name__ == '__main__':
-    get_players.fetch()
-    validate_images.validate()
+    # Download latest games
+    fixtures.get_fixtures()
+    # Insert them into database
+    
+    # Download latest league table
+    league_table.get_league_table(LEAGUE_TABLE_PATH)
