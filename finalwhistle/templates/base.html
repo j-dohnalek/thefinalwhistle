@@ -25,8 +25,8 @@
 <header>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark box-shadow">
         <div class="container">
-            <a href="#" class="navbar-brand mr-md-auto">
-                The <strong>Final Whistle</strong>
+            <a class="navbar-brand logo" href="{{ url_for('home') }}">
+                The Final Whistle
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,7 +38,10 @@
                         <a class="nav-link" href="{{ url_for('home') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('home') }}">Scores</a>
+                        <a class="nav-link" href="{{ url_for('league_table') }}">League Table</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('matches_overview') }}">Matches</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url_for('players_overview') }}">Players</a>
@@ -54,7 +57,7 @@
                         <a class="btn btn-sm btn-secondary" href="{{ url_for('logout') }}">Sign out</a>
                     {% else %}
                         <a class="btn btn-sm btn-secondary mx-2 my-1" href="{{ url_for('login') }}">Log in</a>
-                        <a class="btn btn-sm btn-primary my-1" href="{{ url_for('register') }}">Sign up</a>
+                        <a class="btn btn-sm btn-primary my-1" href="{{ url_for('register') }}">Register</a>
                     {% endif %}
                 </ul>
             </div>
@@ -67,16 +70,14 @@
 <footer class="text-muted">
     <div class="container">
         <p class="float-right">
-            <a href="#">Back to top</a>
+            <a href="#"><i class="fas fa-arrow-up"></i> Back to top</a>
         </p>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+        <p>&copy; {{ current_year }} – The Final Whistle</p>
         <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
     </div>
 </footer>
 
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
+<!-- Bootstrap core JavaScript & JQuery -->
 <script src="{{ url_for('static', filename='jquery/jquery-3.2.1.min.js') }}"></script>
 <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
 

@@ -3,8 +3,7 @@ from flask import Flask
 from flask_bcrypt import Bcrypt
 from flask_sqlalchemy import SQLAlchemy
 from flask_mail import Mail
-from flask_login import LoginManager, current_user
-from flask_permissions.core import Permissions
+from flask_login import LoginManager
 
 # Create server and configure
 app = Flask(__name__)
@@ -28,7 +27,6 @@ db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
 mail = Mail(app)
 login = LoginManager(app)
-permissions = Permissions(app, db, current_user)
 
 # tell flask_login which view to redirect users to when they need to log in
 login.login_view = 'login'
@@ -54,3 +52,10 @@ import finalwhistle.models.comment
 import finalwhistle.models.user
 import finalwhistle.models.article
 import finalwhistle.models.football
+
+# Returns the current year
+@app.context_processor
+def current_year():
+    import datetime
+    now = datetime.datetime.now()
+    return dict(current_year=now.year)

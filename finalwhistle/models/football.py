@@ -6,7 +6,6 @@ from sqlalchemy.ext.declarative import declared_attr
 from finalwhistle import db
 
 
-
 class Person(object):
 
     # The name and surname will be stored as a single
