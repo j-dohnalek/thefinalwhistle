@@ -20,6 +20,7 @@
                {# <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>#}
                {# <label for="inputPassword" class="sr-only">Password</label>#}
                {# <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>#}
+
                {{ login_form.email.label(class_='sr-only') }}
                {{ login_form.email(id='inputEmail', class_='form-control', placeholder="Email address", required=true, autofocus=true) }}
                {{ login_form.password.label(class_='sr-only') }}

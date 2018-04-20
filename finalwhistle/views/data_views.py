@@ -8,9 +8,6 @@ from finalwhistle.views.data_views_helper import list_all_matches, get_match_inf
 #####################
 # data view routing #
 #####################
-
-
-
 @app.route('/matches', methods=['GET'])
 def matches_overview():
     return render_template('matches.html', data=list_all_matches())
