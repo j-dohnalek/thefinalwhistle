@@ -51,6 +51,7 @@ import finalwhistle.models.user
 import finalwhistle.models.comment
 import finalwhistle.models.user
 import finalwhistle.models.article
+import finalwhistle.models.football
 
 # Returns the current year
 @app.context_processor
