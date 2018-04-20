@@ -2,7 +2,7 @@ from flask import render_template
 
 from finalwhistle import app
 
-from views.data_views_helper import list_all_matches, get_match_information, STATS, get_all_players, \
+from finalwhistle.views.data_views_helper import list_all_matches, get_match_information, STATS, get_all_players, \
     get_player_information, get_all_teams, get_team_information, get_league_table
 
 #####################

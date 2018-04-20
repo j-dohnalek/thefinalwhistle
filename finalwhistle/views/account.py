@@ -24,7 +24,10 @@ def login():
             return f'welcome {user.username}'
         else:
             return 'invalid credentials'
-    return render_template('login.html', form=login_form)
+    else:
+        print('login form received but did not pass validate_on_submit()')
+        print(request.form)
+    return render_template('login.html', login_form=login_form)
 
 
 @app.route('/register', methods=['GET', 'POST'])

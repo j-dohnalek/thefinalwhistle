@@ -3,7 +3,8 @@ from flask import Flask
 from flask_bcrypt import Bcrypt
 from flask_sqlalchemy import SQLAlchemy
 from flask_mail import Mail
-from flask_login import LoginManager
+from flask_login import LoginManager, current_user
+from flask_permissions.core import Permissions
 
 # Create server and configure
 app = Flask(__name__)
@@ -27,6 +28,7 @@ db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
 mail = Mail(app)
 login = LoginManager(app)
+permissions = Permissions(app, db, current_user)
 
 # tell flask_login which view to redirect users to when they need to log in
 login.login_view = 'login'
@@ -51,3 +53,4 @@ import finalwhistle.models.user
 import finalwhistle.models.comment
 import finalwhistle.models.user
 import finalwhistle.models.article
+import finalwhistle.models.football
