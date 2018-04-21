@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+
+{% block custom_head %}
+{% endblock custom_head %}
+
+{% block content %}
+
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="profile-left">
+                    <div class="text-center py-3">
+                        <h2>user242</h2>
+                    </div>
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#profile" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class=""></i><i class="fas fa-user-circle pr-2"></i> Profile</a>
+                        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#change-image" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="fas fa-image pr-2"></i> Change image</a>
+                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#change-password" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fas fa-lock pr-2"></i> Change password</a>
+                        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#help" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="far fa-question-circle pr-2"></i> Help</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="profile-right tab-content" id="v-pills-tabContent">
+
+                    <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile">
+                        <form method="post" id="form-change-profile" action="" enctype="multipart/form-data">
+                            <div class="form-group row">
+                                <label for="email" class="col-sm-3 col-form-label">Email</label>
+                                <div class="col-sm-9">
+                                    <input type="text" readonly class="form-control-plaintext" id="email" value="email@example.com">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="username" class="col-sm-3 col-form-label">Username</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="username" class="form-control" id="username" value="dummyUser">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="favourite-team" class="col-sm-3 col-form-label">
+                                    Favourite Team <i class="fas fa-question-circle" data-toggle="tooltip" data-placement="right" title="If you select your favourite team, the Final Whistle's colour palette will change to your team's one."></i>
+                                </label>
+                                <div class="col-sm-9">
+                                    <select class="form-control" id="favourite-team">
+                                        <option>Liverpool</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary" id="save-profile"> Save settings</button>
+                        </form>
+                    </div>
+
+                    <div class="tab-pane fade" id="change-image" role="tabpanel" aria-labelledby="change-image">
+
+                    </div>
+
+                    <div class="tab-pane fade" id="change-password" role="tabpanel" aria-labelledby="change-password">
+                        <form method="post" id="form-change-password" action="" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label class="control-label">Old password</label>
+                                <input type="password" id="old-password" name="old-password" class="form-control">
+                            </div>
+                            <hr>
+                            <div class="form-group">
+                                <label class="control-label">New password</label>
+                                <input type="password" id="new-password" name="new-password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Repeat password</label>
+                                <input type="password" id="repeat-password" name="repeat-password" class="form-control">
+                            </div>
+                            <button type="submit" class="btn btn-primary" id="update-password">Update password</button>
+                        </form>
+                    </div>
+
+                    <div class="tab-pane fade" id="help" role="tabpanel" aria-labelledby="help">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock content %}
+
+{% block custom_scripts %}
+<script type="text/javascript">
+    $(document).ready(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
+</script>
+{% endblock custom_scripts %}
