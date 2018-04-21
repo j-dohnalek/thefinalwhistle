@@ -96,10 +96,10 @@ def logout():
     return redirect(url_for('login'))
 
 
-@app.route('/profile/edit', methods=['GET'])
+@app.route('/account', methods=['GET'])
 @login_required
 def edit_profile():
-    return 'edit own user profile'
+    return render_template('account.html')
 
 
 @app.route('/profile/<int:user_id>', methods=['GET'])

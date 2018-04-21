@@ -14,6 +14,7 @@
     <link href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ url_for('static', filename='fontawesome/css/fontawesome-all.min.css') }}" rel="stylesheet">
     <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
     <!-- Page unique styles -->
     {% block custom_head %}{% endblock %}
@@ -78,6 +79,7 @@
 </footer>
 
 <!-- Bootstrap core JavaScript & JQuery -->
+<script src="{{ url_for('static', filename='popper/popper.min.js') }}"></script>
 <script src="{{ url_for('static', filename='jquery/jquery-3.2.1.min.js') }}"></script>
 <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
 

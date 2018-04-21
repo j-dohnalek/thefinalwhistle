@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 
 {% block custom_head %}
-   <link href="{{ url_for('static', filename='login.css') }}" rel="stylesheet">
-   <meta name="google-signin-client_id" content="CLIENT_ID.apps.googleusercontent.com">
+<link href="{{ url_for('static', filename='login.css') }}" rel="stylesheet">
+<meta name="google-signin-client_id" content="796562272720-qtn5enjj3iqb1g2p3ubh4cnlpqfn3au1.apps.googleusercontent.com">
 {% endblock custom_head %}
 
 {% block content %}
@@ -44,9 +44,9 @@
       </div>
    </section>
 
-   {% block custom_scripts %}
-      <script src="{{ url_for('static', filename='login.js') }}"></script>
-      <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
-   {% endblock custom_scripts %}
-
 {% endblock content %}
+
+{% block custom_scripts %}
+<script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+<script src="{{ url_for('static', filename='login.js') }}"></script>
+{% endblock custom_scripts %}

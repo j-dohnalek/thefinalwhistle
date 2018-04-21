@@ -7,7 +7,7 @@
 }
 
 .logo {
-    font-family: FuturaMediumBT, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
     padding-top: 0;
     padding-bottom: 0;
@@ -60,4 +60,19 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+/* Profile Page */
+.profile-left {
+	background-color: #f8f8f8;
+	border-radius:5px;
+	border: 1px solid;
+	border-color: #ddd;
+}
 
+.profile-right {
+	background-color: #f8f8f8 !important;
+	border-radius:5px !important;
+	border: 1px solid !important;
+	border-color: #ddd !important;
+	padding: 15px 20px 20px 20px;
+	margin-left: 25px;
+}
