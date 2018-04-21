@@ -29,3 +29,11 @@ def contact_us():
 @app.route('/contact-us', methods=['POST'])
 def perform_contact_us():
     return 'contact us post'
+
+@app.route('/404', methods=['GET'])
+def error_404():
+    return render_template('404.html')
+
+@app.route('/500', methods=['GET'])
+def error_500():
+    return render_template('500.html')
