@@ -8,11 +8,12 @@ from finalwhistle.helpers import new_uuid
 from sqlalchemy.sql import func
 from flask_login import UserMixin
 
+
 def hash_password(password):
     """
     Generates hash of the password
     :param password: Supplied password
-    :return: Hash of the password
+       :return: Hash of the password
     """
     from finalwhistle import bcrypt
     return bcrypt.generate_password_hash(password)
@@ -64,7 +65,7 @@ def create_new_user(email, username, password):
     return new_user
 
 
-class User(db.Model, UserMixin):
+class User(UserMixin, db.Model):
     """
     The blocked/restricted fields in the logical diagram could be move to a security group which
     can be expanded to limit access to the commenting system and basic account actions (e.g. logging in).
@@ -91,9 +92,8 @@ class User(db.Model, UserMixin):
     # Access token is used for password reset requests and the 'remember me' function
     access_token = db.Column(db.String, nullable=True)
     access_token_expires_at = db.Column(db.DateTime, nullable=True)
-    # TODO: write these models and introduce into test db
-    #supported_team_id = db.Column(db.Integer, db.ForeignKey('teams.id'), nullable=True)
-    #supported_team = db.relationship('Team')
+    supported_team_id = db.Column(db.Integer, db.ForeignKey('teams.team_id'), nullable=True)
+    supported_team = db.relationship('Team')
     #usergroup_id = db.Column(db.Integer, db.ForeignKey('usergroups.id'), nullable=True)
     #usergroup = db.relationship('UserGroup')
 
@@ -107,6 +107,7 @@ class User(db.Model, UserMixin):
         self.email = email
         self.username = username
         self.pw_hash = hash_password(password)
+
         # TODO: send account activation email
 
     def __repr__(self):

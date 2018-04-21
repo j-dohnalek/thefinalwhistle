@@ -19,10 +19,9 @@ class ArticleComment(Comment, db.Model):
     __tablename__ = 'article_comments'
     article_id = db.Column(db.Integer, db.ForeignKey('articles.id'), nullable=False)
 
-# TODO: match db model
-# class MatchComment(Comment):
-#     __tablename__ = 'match_comments'
-#     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-#     article_id = db.Column(db.Integer, db.ForeignKey('matches.id'), nullable=False)
+
+class MatchComment(Comment, db.Model):
+    __tablename__ = 'match_comments'
+    article_id = db.Column(db.Integer, db.ForeignKey('matches.id'), nullable=False)
 
 
