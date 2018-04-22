@@ -23,17 +23,17 @@ import urllib.error
 
 ROOT = os.path.dirname(os.path.realpath(__file__)) + '/'
 
-NEW_FIXTURES = ROOT + 'cache/json/new_fixtures/*.json'
-STATISTICS = ROOT + 'cache/tmp/E0.csv'
+NEW_FIXTURES = ROOT + 'football_data/json/new_fixtures/*.json'
+STATISTICS = ROOT + 'football_data/tmp/E0.csv'
 STATISTICS_URL = 'http://www.football-data.co.uk/mmz4281/1718/E0.csv'
-STATISTICS_BACKUP = ROOT + 'cache/csv/E0.csv'
+STATISTICS_BACKUP = ROOT + 'football_data/csv/E0.csv'
 
 session = db.session
 
 ################################
 
 
-def parse_new_fixtures():
+def insert_new_fixtures():
     """
 
     :return:

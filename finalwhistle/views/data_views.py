@@ -1,6 +1,8 @@
 from flask import render_template
 
 from finalwhistle import app
+from flask import redirect, url_for
+
 
 from finalwhistle.views.data_views_helper import list_all_matches, get_match_information, STATS, get_all_players, \
     get_player_information, get_all_teams, get_team_information, get_league_table
@@ -8,6 +10,8 @@ from finalwhistle.views.data_views_helper import list_all_matches, get_match_inf
 #####################
 # data view routing #
 #####################
+
+
 @app.route('/matches', methods=['GET'])
 def matches_overview():
     return render_template('matches.html', data=list_all_matches())
@@ -15,7 +19,12 @@ def matches_overview():
 
 @app.route('/matches/<id>', methods=['GET'])
 def match_page(id):
-    return render_template('match.html', match=get_match_information(id), statistics=STATS)
+    match_information = get_match_information(id)
+
+    if match_information is None:
+        return redirect(url_for('error_404'))
+
+    return render_template('match.html', match=match_information, statistics=STATS)
 
 
 @app.route('/players', methods=['GET'])
@@ -25,7 +34,12 @@ def players_overview():
 
 @app.route('/players/<id>', methods=['GET'])
 def player_page(id):
-    return render_template('player.html', data=get_player_information(id))
+    player_information = get_player_information(id)
+
+    if player_information is None:
+        return redirect(url_for('error_404'))
+
+    return render_template('player.html', data=player_information)
 
 
 @app.route('/teams', methods=['GET'])
@@ -35,7 +49,12 @@ def teams_overview():
 
 @app.route('/teams/<id>', methods=['GET'])
 def team_page(id):
-    return render_template('team.html', team=get_team_information(id))
+    team_information = get_team_information(id)
+
+    if team_information is None:
+        return redirect(url_for('error_404'))
+
+    return render_template('team.html', team=team_information)
 
 
 @app.route('/league-table', methods=['GET'])

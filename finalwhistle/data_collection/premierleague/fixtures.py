@@ -12,8 +12,8 @@ from finalwhistle.data_collection.premierleague.helper import FireMyFox
 
 
 URL = "https://www.premierleague.com/results?team=FIRST&co=1&se=79&cl=-1"
-JSON_PATH = 'cache/json/new_fixtures/{}.json'
-FIXTURE_CACHE = 'cache/json/fixture.cache.json'
+JSON_PATH = 'football_data/json/new_fixtures/{}.json'
+FIXTURE_CACHE = 'football_data/json/fixture.cache.json'
 
 
 # FUNCTIONS ####################################################################

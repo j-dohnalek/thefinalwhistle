@@ -29,13 +29,13 @@
             <tr>
                 <th scope="row">{{ position }}.</th>
                 <th>{{ table[position|string]['club'] }}</th>
+                <th>{{ table[position|string]['played'] }}</th>
                 <th>{{ table[position|string]['won'] }}</th>
                 <th>{{ table[position|string]['drawn'] }}</th>
                 <th>{{ table[position|string]['lost'] }}</th>
                 <th>{{ table[position|string]['ga'] }}</th>
                 <th>{{ table[position|string]['gd'] }}</th>
                 <th>{{ table[position|string]['gf'] }}</th>
-                <th>{{ table[position|string]['played'] }}</th>
                 <th>{{ table[position|string]['points'] }}</th>
             </tr>
             {% endfor %}
