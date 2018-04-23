@@ -21,7 +21,7 @@ def login():
         # if email/password combo valid, log the user in via flask_login method
         if user:
             login_user(user)
-            return f'welcome {user.username}'
+            return render_template('index.html')
         else:
             return 'invalid credentials'
     else:
@@ -97,7 +97,7 @@ def logout():
 
 
 @app.route('/account', methods=['GET'])
-@login_required
+#@login_required
 def edit_profile():
     return render_template('account.html')
 
