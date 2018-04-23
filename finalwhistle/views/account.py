@@ -98,7 +98,7 @@ def logout():
 
 
 @app.route('/account', methods=['GET'])
-#@login_required
+@login_required
 def edit_profile():
     return render_template('account.html')
 

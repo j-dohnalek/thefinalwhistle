@@ -59,8 +59,8 @@
                                 <i class="fas fa-user-circle"></i> Hi {{ current_user.username }}
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Account</a>
-                                <a class="dropdown-item" href="#">Dashboard</a>
+                                <a class="dropdown-item" href="{{ url_for('edit_profile') }}">Account</a>
+                                <a class="dropdown-item" href="{{ url_for('admin_overview') }}">Dashboard</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="{{ url_for('logout') }}">Sign out</a>
                             </div>
