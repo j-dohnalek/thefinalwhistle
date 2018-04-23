@@ -288,7 +288,7 @@ def get_player_information(id):
         player_information['goals_scored'] = Goal.query.filter_by(player=player.player_id).count()
         player_information['goals_assisted'] = Goal.query.filter_by(assist_player=player.player_id).count()
         player_information['yellow_cards'] = Card.query.filter_by(player=player.player_id).filter(Card.yellow).count()
-        player_information['Red Cards'] = Card.query.filter_by(player=player.player_id).filter(Card.yellow).count()
+        player_information['red_cards'] = Card.query.filter_by(player=player.player_id).filter(not Card.yellow).count()
 
         return player_information
 
