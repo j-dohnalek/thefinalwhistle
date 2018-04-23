@@ -21,9 +21,10 @@ def login():
         # if email/password combo valid, log the user in via flask_login method
         if user:
             login_user(user)
-            return f'welcome {user.username}'
+            return render_template('index.html')
         else:
-            return 'invalid credentials'
+            error = "Invalid email or password, please try again"
+            return render_template('login.html', login_form=login_form, user_error=error)
     else:
         print('login form received but did not pass validate_on_submit()')
         print(request.form)
