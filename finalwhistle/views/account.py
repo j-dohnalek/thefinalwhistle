@@ -19,7 +19,7 @@ def login():
         password = request.form['password']
         user = attempt_login(email, password)
         # if email/password combo valid, log the user in via flask_login method
-        if user:
+        if user is not None:
             login_user(user)
             return f'welcome {user.username}'
         else:
