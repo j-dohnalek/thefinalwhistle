@@ -14,7 +14,7 @@
     <link href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ url_for('static', filename='fontawesome/css/fontawesome-all.min.css') }}" rel="stylesheet">
     <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:300,400,700" rel="stylesheet">
 
     <!-- Page unique styles -->
     {% block custom_head %}{% endblock %}
@@ -55,16 +55,16 @@
                     </li>
                     {% if current_user.is_authenticated %}
                         <div class="dropdown">
-                            <button class="btn btn-sm btn-primary dropdown-toggle mx-2 my-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class="btn btn-sm btn-secondary dropdown-toggle my-1 ml-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-user-circle"></i> Hi {{ current_user.username }}
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">Account</a>
                                 <a class="dropdown-item" href="#">Dashboard</a>
-                                <a class="dropdown-item" href="#">...</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="{{ url_for('logout') }}">Sign out</a>
                             </div>
                         </div>
-                        <a class="btn btn-sm btn-secondary my-1" href="{{ url_for('logout') }}">Sign out</a>
                     {% else %}
                         <a class="btn btn-sm btn-secondary mx-2 my-1" href="{{ url_for('login') }}">Log in</a>
                         <a class="btn btn-sm btn-primary my-1" href="{{ url_for('register') }}">Register</a>
