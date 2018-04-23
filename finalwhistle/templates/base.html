@@ -54,8 +54,17 @@
                         <a class="nav-link" href="{{ url_for('news_overview') }}">News</a>
                     </li>
                     {% if current_user.is_authenticated %}
-                        Welcome, {{ current_user.username }}
-                        <a class="btn btn-sm btn-secondary" href="{{ url_for('logout') }}">Sign out</a>
+                        <div class="dropdown">
+                            <button class="btn btn-sm btn-primary dropdown-toggle mx-2 my-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-user-circle"></i> Hi {{ current_user.username }}
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Account</a>
+                                <a class="dropdown-item" href="#">Dashboard</a>
+                                <a class="dropdown-item" href="#">...</a>
+                            </div>
+                        </div>
+                        <a class="btn btn-sm btn-secondary my-1" href="{{ url_for('logout') }}">Sign out</a>
                     {% else %}
                         <a class="btn btn-sm btn-secondary mx-2 my-1" href="{{ url_for('login') }}">Log in</a>
                         <a class="btn btn-sm btn-primary my-1" href="{{ url_for('register') }}">Register</a>
@@ -74,7 +83,6 @@
             <a href="#"><i class="fas fa-arrow-up"></i> Back to top</a>
         </p>
         <p>&copy; {{ current_year }} – The Final Whistle</p>
-        <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
     </div>
 </footer>
 
