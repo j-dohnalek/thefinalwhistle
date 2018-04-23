@@ -52,6 +52,13 @@ def attempt_login(email, password):
 
 
 def create_new_user(email, username, password):
+    """
+    Create and commit a new User object
+    :param email:       new user email
+    :param username:    new user username
+    :param password:    new user password
+    :return:            new user if created, otherwise None
+    """
     try:
         new_user = User(email=email,
                         username=username,
@@ -59,8 +66,8 @@ def create_new_user(email, username, password):
         db.session.add(new_user)
         db.session.commit()
     except SQLAlchemyError:
-        print('something went wrong when making a new account!')
-        return None
+        print('something went wrong with SQLAlchemy when making a new account')
+        raise
     # TODO: send activation email
     return new_user
 
