@@ -36,7 +36,33 @@ def get_league_table():
     :return: league table dict
     """
     with open(TABLE_JSON) as json_file:
-        return json.load(json_file)
+        table = json.load(json_file)
+
+    league_table = {}
+    for key, value in table.items():
+
+        print(value['club'])
+        team = Team.query.filter(Team.name == value['club']).first()
+
+        if team is None:
+            team = Team.query.filter(Team.name_short == value['club']).first()
+
+        team_row = {
+            "club_id": team.team_id,
+            "club": value['club'],
+            "played": value['played'],
+            "won": value['won'],
+            "drawn": value['drawn'],
+            "lost": value['lost'],
+            "gf": value['gf'],
+            "ga": value['ga'],
+            "gd": value['gd'],
+            "points": value['points']
+        }
+
+        league_table[key] = team_row
+
+    return league_table
 
 
 def get_all_teams():

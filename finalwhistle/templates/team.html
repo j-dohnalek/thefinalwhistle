@@ -1,52 +1,86 @@
 {% extends "base.html" %}
 
 {% block custom_head %}
+
+<style>
+.nav-tabs { }
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
+.nav-tabs > li > a { border: none; color: #666; font-size: 1.75em; padding: 0.75em 0.75em; }
+.nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; background: transparent; }
+.nav-tabs > li > a::after {
+    content: ""; background: #4285F4; height: 2px; position: absolute; width: 100%;
+    left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0);
+}
+.nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
+.tab-nav > li > a::after { background: #21527d none repeat scroll 0% 0%; color: #fff; }
+.tab-pane { padding: 15px 0; }
+.tab-content{padding:20px}
+.card {background: #FFF none repeat scroll 0% 0%; margin-bottom: 30px; border:none; }
+</style>
+
 {% endblock custom_head %}
 
 {% block content %}
+
 <div class="container">
-    <div class="row">
-
-        <h1>{{team['name']}}</h1>
-
-        <img src="{{ team['crestUrl'] }}" width="100" />
-
-        <h2>Stadium</h2>
-        {{team['stadium']}}
-
-
-
-
-
-        <h2>Managers</h2>
-        <table class="table">
-            {% for staff_name in team['club_staff'] %}
-                <tr><td>{{ staff_name }}</td></tr>
-            {% endfor %}
-        </table>
-
-
-        <h2>Matches</h2>
-        <table class="table">
-            {% for match in team['matches'] %}
+    <table class="table">
+        <tbody>
             <tr>
-                <td>{{ match['home_team'] }}</td>
-                <td>{{ match['home_goals'] }} : {{ match['away_goals'] }}</td>
-                <td>{{ match['away_team'] }}</td>
+                <th scope="row"><h1>{{team['name']}}</h1></th>
+                <th><img src="{{ team['crestUrl'] }}" height="200" /></th>
             </tr>
-            {% endfor %}
-        </table>
+        </tbody>
+    </table>
 
-        <h2>Players</h2>
-        <table class="table">
-            {% for player in team['players'] %}
+    <table class="table">
+        <tbody>
             <tr>
-                <td>{{ player['shirt_number'] }}</td>
-                <td><a href="{{url_for('player_page', id=player['id'])}}"> {{ player['name'] }}</a></td>
-                <td>{{ player['position'] }}</td>
+                <th scope="row">Stadium</th>
+                <th>{{team['stadium']}}</th>
             </tr>
-            {% endfor %}
-        </table>
+        </tbody>
+    </table>
+
+    <h2>Managers</h2>
+    <table class="table">
+        {% for staff_name in team['club_staff'] %}
+            <tr><td>{{ staff_name }}</td></tr>
+        {% endfor %}
+    </table>
+
+    <!-- Nav tabs -->
+    <div class="card">
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#matches" aria-controls="home" role="tab" data-toggle="tab">Matches</a></li>
+            <li role="presentation"><a href="#players" aria-controls="profile" role="tab" data-toggle="tab">Players</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="matches">
+                <table class="table">
+                    {% for match in team['matches'] %}
+                    <tr>
+                        <td>{{ match['home_team'] }}</td>
+                        <td>{{ match['home_goals'] }} : {{ match['away_goals'] }}</td>
+                        <td>{{ match['away_team'] }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="players">
+                <table class="table">
+                    {% for player in team['players'] %}
+                    <tr>
+                        <td>{{ player['shirt_number'] }}</td>
+                        <td><a href="{{url_for('player_page', id=player['id'])}}"> {{ player['name'] }}</a></td>
+                        <td>{{ player['position'] }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+
     </div>
 </div>
 {% block custom_scripts %}

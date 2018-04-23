@@ -28,7 +28,11 @@
             {% for position in range(1, table|length + 1) %}
             <tr>
                 <th scope="row">{{ position }}.</th>
-                <th>{{ table[position|string]['club'] }}</th>
+                <th>
+                    <a href="{{ url_for('team_page', id=table[position|string]['club_id']) }}">
+                        {{ table[position|string]['club'] }}
+                    </a>
+                </th>
                 <th>{{ table[position|string]['played'] }}</th>
                 <th>{{ table[position|string]['won'] }}</th>
                 <th>{{ table[position|string]['drawn'] }}</th>

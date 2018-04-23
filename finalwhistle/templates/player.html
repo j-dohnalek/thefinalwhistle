@@ -1,49 +1,48 @@
 {% extends "base.html" %}
 
 {% block custom_head %}
+<style>
+    .number{ font-size:8em; font-weight:bold; float:right;}
+</style>
+
 {% endblock custom_head %}
 
 {% block content %}
 
 <div class="container">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8"><img src="{{data['img']}}" width="250" /></div>
+            <div class="col-4 pull-right"><span class="number">{{ data['shirt_number'] }}</span></div>
+        </div>
+        <div class="row">
+            <h1>{{ data['name'] }}</h1>
+        </div>
+    </div>
+
     <div class="row">
-        <h1>{{ data['name'] }}</h1>
-
-
-        <img src="{{data['img']}}" width="200" />
-
         <table class="table">
-
             <tr>
                 <td scope="row">Team</td>
                 <td>{{ data['team'] }}</td>
             </tr>
-
             <tr>
                 <td scope="row">Position</td>
                 <td>{{ data['position'] }}</td>
             </tr>
-
-            <tr>
-                <td scope="row">Shirts Number</td>
-                <td>{{ data['shirt_number'] }}</td>
-            </tr>
-
             <tr>
                 <td scope="row">Date of Birth</td>
                 <td>{{ data['dob'] }}</td>
             </tr>
-
             <tr>
                 <td scope="row">Weight</td>
                 <td>{{ data['weight'] }}</td>
             </tr>
-
             <tr>
                 <td scope="row">Height</td>
                 <td>{{ data['height'] }}</td>
             </tr>
-
         </table>
 
         <table class="table">
