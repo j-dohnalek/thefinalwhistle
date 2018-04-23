@@ -14,7 +14,7 @@
     <link href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ url_for('static', filename='fontawesome/css/fontawesome-all.min.css') }}" rel="stylesheet">
     <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rambla|Roboto:300,400,700" rel="stylesheet">
 
     <!-- Page unique styles -->
     {% block custom_head %}{% endblock %}
@@ -27,7 +27,8 @@
     <nav class="navbar navbar-expand-md navbar-dark bg-dark box-shadow">
         <div class="container">
             <a class="navbar-brand logo" href="{{ url_for('home') }}">
-                The Final Whistle
+                <img class="logo-image" src="{{ url_for('static', filename='images/logo.svg') }}">
+                <span>The Final Whistle</span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
