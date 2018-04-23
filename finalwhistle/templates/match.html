@@ -1,61 +1,65 @@
 {% extends "base.html" %}
-{% block title %} Match {% endblock %}
-{% block body %}
 
-    <h1>Match</h1>
+{% block custom_head %}
+{% endblock custom_head %}
 
-    <table>
-        <tr>
-            <td>{{ match['home_team'] }}</td>
-            <td><img height="50" src="{{ match['home_crest'] }}" /></td>
-            <td>{{ match['home_goals'] }} : {{ match['away_goals'] }}</td>
-            <td><img height="50" src="{{ match['away_crest'] }}" /></td>
-            <td>{{ match['away_team'] }}</td>
-        </tr>
-    </table>
+{% block content %}
 
-    <h3>{{ match['home_team'] }} Goals</h3>
-    <table>
-        {% for goal in match['home_scoring_players'] %}
+<div class="container">
+    <div class="row">
+
+        <h1>Match Details</h1>
+
+        <table class="table text-center">
             <tr>
-                <td>{{ goal['scorer'] }}</td>
-                <td>{{ goal['minute'] }}</td>
+                <th scope="row">{{ match['home_team'] }}</th>
+                <th><img height="50" src="{{ match['home_crest'] }}" /></th>
+                <th>{{ match['home_goals'] }} : {{ match['away_goals'] }}</th>
+                <th><img height="50" src="{{ match['away_crest'] }}" /></th>
+                <th>{{ match['away_team'] }}</th>
             </tr>
-        {% endfor %}
-    </table>
+        </table>
 
-    <h3>{{ match['away_team'] }} Goals</h3>
-    <table>
-        {% for goal in match['away_scoring_players'] %}
-            <tr>
-                <td>{{ goal['scorer'] }}</td>
-                <td>{{ goal['minute'] }}</td>
-            </tr>
-        {% endfor %}
-    </table>
-
-    <h3>Statistics</h3>
-    <table>
-        <tr>
-            <td>{{ match['home_team'] }}</td>
-            <td></td>
-            <td>{{ match['away_team'] }}</td>
-        </tr>
-        <tr>
-            <td><img height="50" src="{{ match['home_crest'] }}" /></td>
-            <td></td>
-            <td><img height="50" src="{{ match['away_crest'] }}" /></td>
-        </tr>
-        {% for statistic in statistics %}
-            <tr>
-                <td>{{ match['home_team_stats'][statistic] }}</td>
-                <td>{{ statistic }}</td>
-                <td>{{ match['away_team_stats'][statistic] }}</td>
-            </tr>
-        {% endfor %}
-    </table>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <table class="table">
+                        {% for goal in match['home_scoring_players'] %}
+                            <tr>
+                                <th scope="row">{{ goal['scorer'] }}</th>
+                                <th>{{ goal['minute'] }}</th>
+                            </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+                <div class="col">
+                    <table class="table">
+                        {% for goal in match['away_scoring_players'] %}
+                            <tr>
+                                <td scope="row">{{ goal['scorer'] }}</td>
+                                <td>{{ goal['minute'] }}</td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+            </div>
+        </div>
 
 
+        <table class="table text-center">
+            {% for statistic in statistics %}
+                <tr>
+                    <td>{{ match['home_team_stats'][statistic] }}</td>
+                    <td>{{ statistic }}</td>
+                    <td>{{ match['away_team_stats'][statistic] }}</td>
+                </tr>
+            {% endfor %}
+        </table>
 
+    </div>
+</div>
 
-{% endblock %}
+{% block custom_scripts %}
+{% endblock custom_scripts %}
+
+{% endblock content %}

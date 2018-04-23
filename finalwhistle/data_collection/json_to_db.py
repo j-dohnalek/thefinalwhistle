@@ -41,11 +41,7 @@ session = db.session
 ################################
 
 
-def delete_db():
-    print('Database deleted!')
-
-
-def create():
+def create_database():
     print('Create DB .. OK!')
     db.create_all(app=app)
     #db.create_all()
@@ -678,6 +674,9 @@ def parse_statistics():
 
 def main():
 
+    print(os.getcwd())
+
+    """
     create()
     parse_referee()
     parse_league()
@@ -690,7 +689,7 @@ def main():
     parse_fixtures()
     parse_new_fixtures()
     parse_statistics()
-
+    """
     # copyfile(SQL_LITE, '../apiflask/' + SQL_LITE)
     print('Database up to date!')
 

@@ -1,0 +1,112 @@
+[
+    {
+        "date": "Thursday 19 April 2018",
+        "fixtures": [
+            {
+                "home_team": "Leicester",
+                "away_team": "Southampton",
+                "score": "0-0",
+                "url": "https://www.premierleague.com/match/22687",
+                "details": {
+                    "goals": [],
+                    "cards": [],
+                    "substitutions": [
+                        {
+                            "minute": "58",
+                            "in": "Steven Davis",
+                            "out": "James Ward-Prowse"
+                        },
+                        {
+                            "minute": "73",
+                            "in": "Charlie Austin",
+                            "out": "Shane Long"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Fousseni Diabaté",
+                            "out": "Kelechi Iheanacho"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "Nathan Redmond",
+                            "out": "Pierre-Emile Højbjerg"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "in": "Harvey Barnes",
+                            "out": "Adrien Silva"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "in": "Hamza Choudhury",
+                            "out": "Demarai Gray"
+                        }
+                    ],
+                    "referee": "Roger East",
+                    "kick_off": "19:45"
+                }
+            },
+            {
+                "home_team": "Burnley",
+                "away_team": "Chelsea",
+                "score": "1-2",
+                "url": "https://www.premierleague.com/match/22643",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "20",
+                            "scorer": "Kevin Long",
+                            "own_goal": "true",
+                            "penalty": "false"
+                        },
+                        {
+                            "minute": "64",
+                            "own_goal": "false",
+                            "scorer": "Ashley Barnes",
+                            "assist": "Johann Berg Gudmundsson"
+                        },
+                        {
+                            "minute": "69",
+                            "own_goal": "false",
+                            "scorer": "Victor Moses",
+                            "assist": "Emerson"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "28",
+                            "card": "yellow",
+                            "player": "James Tarkowski"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "71",
+                            "in": "Eden Hazard",
+                            "out": "Álvaro Morata"
+                        },
+                        {
+                            "minute": "72",
+                            "in": "Sam Vokes",
+                            "out": "Chris Wood"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "Davide Zappacosta",
+                            "out": "Emerson"
+                        },
+                        {
+                            "minute": "87",
+                            "in": "Nahki Wells",
+                            "out": "Aaron Lennon"
+                        }
+                    ],
+                    "referee": "Robert Madley",
+                    "kick_off": "19:45"
+                }
+            }
+        ]
+    }
+]

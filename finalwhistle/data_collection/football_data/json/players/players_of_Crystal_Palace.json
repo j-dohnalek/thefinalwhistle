@@ -1,0 +1,337 @@
+[
+    {
+        "club": "Crystal Palace",
+        "players": [
+            {
+                "name": "Julian Speroni",
+                "position": "Goalkeeper",
+                "height": "186cm",
+                "age": "38",
+                "weight": "87kg",
+                "nationality": "Argentina",
+                "dob": "18/05/1979",
+                "shirt_number": "1"
+            },
+            {
+                "name": "Wayne Hennessey",
+                "position": "Goalkeeper",
+                "height": "198cm",
+                "age": "31",
+                "weight": "90kg",
+                "nationality": "Wales",
+                "dob": "24/01/1987",
+                "shirt_number": "13"
+            },
+            {
+                "name": "Joel Ward",
+                "position": "Defender",
+                "height": "188cm",
+                "age": "28",
+                "weight": "83kg",
+                "nationality": "England",
+                "dob": "29/10/1989",
+                "shirt_number": "2"
+            },
+            {
+                "name": "Patrick van Aanholt",
+                "position": "Defender",
+                "height": "176cm",
+                "age": "27",
+                "weight": "74kg",
+                "nationality": "Netherlands",
+                "dob": "29/08/1990",
+                "shirt_number": "3"
+            },
+            {
+                "name": "James Tomkins",
+                "position": "Defender",
+                "height": "192cm",
+                "age": "28",
+                "weight": "74kg",
+                "nationality": "England",
+                "dob": "29/03/1989",
+                "shirt_number": "5"
+            },
+            {
+                "name": "Scott Dann",
+                "position": "Defender",
+                "height": "188cm",
+                "age": "31",
+                "weight": "76kg",
+                "nationality": "England",
+                "dob": "14/02/1987",
+                "shirt_number": "6"
+            },
+            {
+                "name": "Pape Souaré",
+                "position": "Defender",
+                "height": "178cm",
+                "age": "27",
+                "weight": "69kg",
+                "nationality": "Senegal",
+                "dob": "06/06/1990",
+                "shirt_number": "23"
+            },
+            {
+                "name": "Damien Delaney",
+                "position": "Defender",
+                "height": "191cm",
+                "age": "36",
+                "weight": "89kg",
+                "nationality": "Ireland",
+                "dob": "20/07/1981",
+                "shirt_number": "27"
+            },
+            {
+                "name": "Jeffrey Schlupp",
+                "position": "Defender",
+                "height": "178cm",
+                "age": "25",
+                "weight": "72kg",
+                "nationality": "Ghana",
+                "dob": "23/12/1992",
+                "shirt_number": "15"
+            },
+            {
+                "name": "Martin Kelly",
+                "position": "Defender",
+                "height": "191cm",
+                "age": "27",
+                "weight": "77kg",
+                "nationality": "England",
+                "dob": "27/04/1990",
+                "shirt_number": "34"
+            },
+            {
+                "name": "Yohan Cabaye",
+                "position": "Midfielder",
+                "height": "174cm",
+                "age": "32",
+                "weight": "71kg",
+                "nationality": "France",
+                "dob": "14/01/1986",
+                "shirt_number": "7"
+            },
+            {
+                "name": "Andros Townsend",
+                "position": "Midfielder",
+                "height": "181cm",
+                "age": "26",
+                "weight": "77kg",
+                "nationality": "England",
+                "dob": "16/07/1991",
+                "shirt_number": "10"
+            },
+            {
+                "name": "Wilfried Zaha",
+                "position": "Midfielder",
+                "height": "180cm",
+                "age": "25",
+                "weight": "66kg",
+                "nationality": "Cote D'Ivoire",
+                "dob": "10/11/1992",
+                "shirt_number": "11"
+            },
+            {
+                "name": "Lee Chung-yong",
+                "position": "Midfielder",
+                "height": "180cm",
+                "age": "29",
+                "weight": "75kg",
+                "nationality": "South Korea",
+                "dob": "02/07/1988",
+                "shirt_number": "14"
+            },
+            {
+                "name": "James McArthur",
+                "position": "Midfielder",
+                "height": "178cm",
+                "age": "30",
+                "weight": "75kg",
+                "nationality": "Scotland",
+                "dob": "07/10/1987",
+                "shirt_number": "18"
+            },
+            {
+                "name": "Bakary Sako",
+                "position": "Midfielder",
+                "height": "183cm",
+                "age": "29",
+                "weight": "85kg",
+                "nationality": "Mali",
+                "dob": "26/04/1988",
+                "shirt_number": "26"
+            },
+            {
+                "name": "Luka Milivojevic",
+                "position": "Midfielder",
+                "height": "186cm",
+                "age": "26",
+                "weight": "80kg",
+                "nationality": "Serbia",
+                "dob": "07/04/1991",
+                "shirt_number": "4"
+            },
+            {
+                "name": "Jason Puncheon",
+                "position": "Midfielder",
+                "height": "173cm",
+                "age": "31",
+                "weight": "70kg",
+                "nationality": "England",
+                "dob": "26/06/1986",
+                "shirt_number": "42"
+            },
+            {
+                "name": "Christian Benteke",
+                "position": "Forward",
+                "height": "190cm",
+                "age": "27",
+                "weight": "83kg",
+                "nationality": "Belgium",
+                "dob": "03/12/1990",
+                "shirt_number": "17"
+            },
+            {
+                "name": "Connor Wickham",
+                "position": "Forward",
+                "height": "191cm",
+                "age": "24",
+                "weight": "90kg",
+                "nationality": "England",
+                "dob": "31/03/1993",
+                "shirt_number": "21"
+            },
+            {
+                "name": "Ruben Loftus-Cheek",
+                "position": "Midfielder",
+                "height": "191cm",
+                "age": "22",
+                "weight": "88kg",
+                "nationality": "England",
+                "dob": "23/01/1996",
+                "shirt_number": "8"
+            },
+            {
+                "name": "Jairo Riedewald",
+                "position": "Defender",
+                "height": "182cm",
+                "age": "21",
+                "weight": "79kg",
+                "nationality": "Netherlands",
+                "dob": "09/09/1996",
+                "shirt_number": "44"
+            },
+            {
+                "name": "Timothy Fosu-Mensah",
+                "position": "Defender",
+                "height": "190cm",
+                "age": "20",
+                "weight": "78kg",
+                "nationality": "Netherlands",
+                "dob": "02/01/1998",
+                "shirt_number": "24"
+            },
+            {
+                "name": "Jason Eyenga Lokilo",
+                "position": "Midfielder",
+                "height": "",
+                "age": "19",
+                "weight": "",
+                "nationality": "Congo",
+                "dob": "17/09/1998",
+                "shirt_number": "28"
+            },
+            {
+                "name": "Mamadou Sakho",
+                "position": "Defender",
+                "height": "187cm",
+                "age": "28",
+                "weight": "83kg",
+                "nationality": "France",
+                "dob": "13/02/1990",
+                "shirt_number": "12"
+            },
+            {
+                "name": "Levi Lumeka",
+                "position": "Forward",
+                "height": "",
+                "age": "19",
+                "weight": "",
+                "nationality": "England",
+                "dob": "05/09/1998",
+                "shirt_number": "32"
+            },
+            {
+                "name": "Dion Henry",
+                "position": "Goalkeeper",
+                "height": "180cm",
+                "age": "20",
+                "weight": "65kg",
+                "nationality": "England",
+                "dob": "12/09/1997",
+                "shirt_number": "30"
+            },
+            {
+                "name": "Aaron Wan-Bissaka",
+                "position": "Defender",
+                "height": "183cm",
+                "age": "20",
+                "weight": "72kg",
+                "nationality": "England",
+                "dob": "26/11/1997",
+                "shirt_number": "29"
+            },
+            {
+                "name": "Erdal Rakip",
+                "position": "Midfielder",
+                "height": "178cm",
+                "age": "22",
+                "weight": "72kg",
+                "nationality": "Sweden",
+                "dob": "13/02/1996",
+                "shirt_number": "31"
+            },
+            {
+                "name": "Jaroslaw Jach",
+                "position": "Defender",
+                "height": "192cm",
+                "age": "24",
+                "weight": "78kg",
+                "nationality": "Poland",
+                "dob": "17/02/1994",
+                "shirt_number": "33"
+            },
+            {
+                "name": "Alexander Sørloth",
+                "position": "Forward",
+                "height": "194cm",
+                "age": "22",
+                "weight": "90kg",
+                "nationality": "Norway",
+                "dob": "05/12/1995",
+                "shirt_number": "9"
+            },
+            {
+                "name": "Diego Cavalieri",
+                "position": "Goalkeeper",
+                "height": "189cm",
+                "age": "35",
+                "weight": "86kg",
+                "nationality": "Brazil",
+                "dob": "01/12/1982",
+                "shirt_number": "16"
+            },
+            {
+                "name": "Nya Kirby",
+                "position": "Midfielder",
+                "height": "174cm",
+                "age": "18",
+                "weight": "",
+                "nationality": "England",
+                "dob": "31/01/2000",
+                "shirt_number": "36"
+            }
+        ]
+    }
+]

@@ -31,17 +31,22 @@ class Struct:
 
 
 def get_league_table():
-    # TODO: check if the file is older than x minutes
-    # if so attempt to start a thread parallel that will update
-    # the json file, also create a lock that only one get request
-    # can start a thread
+    """
+    Parse the latest league table from the JSON file
+    :return: league table dict
+    """
     with open(TABLE_JSON) as json_file:
         return json.load(json_file)
 
 
 def get_all_teams():
+    """
+    Fetch all teams in the Premier League
+    :return: dict
+    """
 
     source = '/v1/competitions/{}/teams'.format(EPL)
+    
     # renew every 60 minutes
     teams = fd_api.fetch_api_data(source, 60)
     team_list = []
@@ -64,8 +69,9 @@ def get_all_teams():
 
 def list_all_team_matches(team):
     """
-    :param team: sqlalchemy Team object
-    :return:
+    List all team matches
+    :param team: SQLAlchemy Team object
+    :return: dict
     """
 
     list_of_matches = []
@@ -105,11 +111,18 @@ def list_all_team_matches(team):
 
 
 def list_team_players(team, exclude_transferred=True):
+    """
+    List all players assigned to the team
+    :param team: team SQLAlchemy object
+    :param exclude_transferred: do not list players transferred out
+    :return: dict
+    """
 
     player_list = []
 
     if exclude_transferred:
-        players = Player.query.filter(Player.transferred_out == 0).filter(Player.current_team == team.team_id).all()
+        players = Player.query.filter(Player.transferred_out == 0)\
+            .filter(Player.current_team == team.team_id).all()
     else:
         players = Player.query.filter(Player.current_team == team.team_id).all()
 
@@ -135,6 +148,11 @@ def list_team_players(team, exclude_transferred=True):
 
 
 def get_team_information(id):
+    """
+    Get information per team
+    :param id: team database id
+    :return: dict
+    """
 
     team_information = {}
 
@@ -162,26 +180,31 @@ def get_team_information(id):
 
         return team_information
     else:
-        # Go to 404
-        return ''
+        return None
 
 
 def get_all_players():
-
+    """
+    List all players in database
+    :return: dict
+    """
     players = []
     for team in get_all_teams():
-
         # Convert dict to object
         team_obj = Struct(**team)
-
         for player in list_team_players(team_obj, exclude_transferred=False):
             players.append(player)
-
     return players
 
 
 def get_player_image(name, small=True):
-
+    """
+    Match name of player to image
+    Images are sourced via premierleague.com website
+    :param name: players full name
+    :param small: boolean true for 40x40px false 250x250px
+    :return: url link to the players picture
+    """
     small_link = 'https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/40x40/{}.png'
     large_link = 'https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/250x250/{}.png'
 
@@ -199,6 +222,11 @@ def get_player_image(name, small=True):
 
 
 def get_player_information(id):
+    """
+    Get information for player id
+    :param id: players id
+    :return: dict
+    """
 
     # Lambda function
     # If string is None return empty string
@@ -240,10 +268,14 @@ def get_player_information(id):
 
     else:
         # Go to 404
-        return ''
+        return None
 
 
 def list_all_matches():
+    """
+    List all matches of the current season
+    :return: dict
+    """
 
     with open(CLUB_CRESTS) as jsonfile:
         club_crest = json.load(jsonfile)
@@ -283,6 +315,11 @@ def list_all_matches():
 
 
 def get_match_information(id):
+    """
+    Get information about a match id
+    :param id: match id
+    :return: dict
+    """
 
     # Lambda function
     # If string is None return empty string
@@ -318,21 +355,21 @@ def get_match_information(id):
 
     if match is not None:
 
-        match_details = {}
+        match_information = {}
 
         home_team = Team.query.filter_by(team_id=match.home_team).first()
-        match_details['home_team'] = home_team.name
-        match_details['home_crest'] = club_crest[str(home_team.team_id)]
+        match_information['home_team'] = home_team.name
+        match_information['home_crest'] = club_crest[str(home_team.team_id)]
 
         away_team = Team.query.filter_by(team_id=match.away_team).first()
-        match_details['away_team'] = away_team.name
-        match_details['away_crest'] = club_crest[str(away_team.team_id)]
+        match_information['away_team'] = away_team.name
+        match_information['away_crest'] = club_crest[str(away_team.team_id)]
 
-        match_details['home_goals'] = match.home_ft_goals
-        match_details['away_goals'] = match.away_ft_goals
+        match_information['home_goals'] = match.home_ft_goals
+        match_information['away_goals'] = match.away_ft_goals
 
-        match_details['kickoff_time'] = match.kickoff.strftime("%H:%M")
-        match_details['kickoff_date'] = match.kickoff.strftime("%d %B %Y")
+        match_information['kickoff_time'] = match.kickoff.strftime("%H:%M")
+        match_information['kickoff_date'] = match.kickoff.strftime("%d %B %Y")
 
         goals = Goal.query\
             .filter(Goal.match == id)\
@@ -341,16 +378,16 @@ def get_match_information(id):
             .order_by(asc(Goal.minute)).all()
 
         # TODO: add link to player in match details
-        match_details['home_scoring_players'] = []
-        match_details['away_scoring_players'] = []
+        match_information['home_scoring_players'] = []
+        match_information['away_scoring_players'] = []
         for goal in goals:
             goal_info = {'minute': goal.minute, 'extra_time': f(goal.extra_time), 'scorer': goal.scorer}
             if goal.current_team == match.home_team:
-                match_details['home_scoring_players'].append(goal_info)
+                match_information['home_scoring_players'].append(goal_info)
             else:
-                match_details['away_scoring_players'].append(goal_info)
+                match_information['away_scoring_players'].append(goal_info)
 
-        match_details['home_team_stats'] = {
+        match_information['home_team_stats'] = {
             'Shots': match.home_shots,
             'Shots on Target': match.home_shots_on_target,
             'Corners': match.home_corners,
@@ -359,7 +396,7 @@ def get_match_information(id):
             'Red Cards': match.home_red_cards,
         }
 
-        match_details['away_team_stats'] = {
+        match_information['away_team_stats'] = {
             'Shots': match.away_shots,
             'Shots on Target': match.away_shots_on_target,
             'Corners': match.away_corners,
@@ -368,8 +405,7 @@ def get_match_information(id):
             'Red Cards': match.away_red_cards,
         }
 
-        return match_details
+        return match_information
 
     else:
-        # 404
-        return ''
+        return None

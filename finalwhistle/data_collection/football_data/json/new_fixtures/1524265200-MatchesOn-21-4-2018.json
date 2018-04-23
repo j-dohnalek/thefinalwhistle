@@ -1,0 +1,158 @@
+[
+    {
+        "date": "Saturday 21 April 2018",
+        "fixtures": [
+            {
+                "home_team": "West Brom",
+                "away_team": "Liverpool",
+                "score": "2-2",
+                "url": "https://www.premierleague.com/match/22691",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "4",
+                            "own_goal": "false",
+                            "scorer": "Danny Ings",
+                            "assist": "Georginio Wijnaldum"
+                        },
+                        {
+                            "minute": "72",
+                            "own_goal": "false",
+                            "scorer": "Mohamed Salah",
+                            "assist": "Alex Oxlade-Chamberlain"
+                        },
+                        {
+                            "minute": "79",
+                            "own_goal": "false",
+                            "scorer": "Jake Livermore",
+                            "penalty": "true"
+                        },
+                        {
+                            "minute": "88",
+                            "own_goal": "false",
+                            "scorer": "Salomón Rondón",
+                            "assist": "Chris Brunt"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "69",
+                            "card": "yellow",
+                            "player": "Alberto Moreno"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "66",
+                            "in": "Roberto Firmino",
+                            "out": "Danny Ings"
+                        },
+                        {
+                            "minute": "66",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "out": "Sadio Mané"
+                        },
+                        {
+                            "minute": "71",
+                            "in": "Jonny Evans",
+                            "out": "James McClean"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Oliver Burke",
+                            "out": "Kieran Gibbs"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "Dejan Lovren",
+                            "out": "Mohamed Salah"
+                        },
+                        {
+                            "minute": "89",
+                            "in": "Hal Robson-Kanu",
+                            "out": "Jay Rodriguez"
+                        }
+                    ],
+                    "referee": "Stuart Attwell",
+                    "kick_off": "12:30"
+                }
+            },
+            {
+                "home_team": "Watford",
+                "away_team": "Crystal Palace",
+                "score": "0-0",
+                "url": "https://www.premierleague.com/match/22690",
+                "details": {
+                    "goals": [],
+                    "cards": [
+                        {
+                            "minute": "21",
+                            "card": "yellow",
+                            "player": "Joel Ward"
+                        },
+                        {
+                            "minute": "29",
+                            "card": "yellow",
+                            "player": "Abdoulaye Doucouré"
+                        },
+                        {
+                            "minute": "45",
+                            "additional": "2",
+                            "card": "yellow",
+                            "player": "Patrick van Aanholt"
+                        },
+                        {
+                            "minute": "60",
+                            "card": "yellow",
+                            "player": "Adrian Mariappa"
+                        },
+                        {
+                            "minute": "63",
+                            "card": "yellow",
+                            "player": "Wilfried Zaha"
+                        },
+                        {
+                            "minute": "78",
+                            "card": "yellow",
+                            "player": "Ruben Loftus-Cheek"
+                        },
+                        {
+                            "minute": "88",
+                            "card": "yellow",
+                            "player": "James Tomkins"
+                        },
+                        {
+                            "minute": "89",
+                            "card": "yellow",
+                            "player": "Craig Cathcart"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "55",
+                            "in": "Richarlison",
+                            "out": "Roberto Pereyra"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "Kiko Femenía",
+                            "out": "Stefano Okaka"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "Andre Gray",
+                            "out": "Will Hughes"
+                        },
+                        {
+                            "minute": "81",
+                            "in": "Christian Benteke",
+                            "out": "James McArthur"
+                        }
+                    ],
+                    "referee": "Chris Kavanagh",
+                    "kick_off": "15:00"
+                }
+            }
+        ]
+    }
+]
