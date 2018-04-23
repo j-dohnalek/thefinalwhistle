@@ -1,13 +1,11 @@
 /* MAIN CSS */
 
-@font-face {
-    font-family: FuturaMediumBT;
-    src: url('fonts/FuturaMediumBT.ttf');
-    font-weight: normal;
+body {
+  font-family: 'Roboto', sans-serif !important;
 }
 
 .logo {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Pacifico', sans-serif;
     font-size: 25px;
     padding-top: 0;
     padding-bottom: 0;
