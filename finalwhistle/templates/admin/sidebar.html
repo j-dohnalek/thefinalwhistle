@@ -1,0 +1,50 @@
+<nav class="col-md-2 d-none d-md-block bg-light sidebar">
+    <div class="sidebar-sticky">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('home') }}">
+                    <i class="fas fa-arrow-left mr-2"></i> Back to The Final Whistle
+                </a>
+            </li>
+        </ul>
+        <hr>
+
+        <ul class="nav flex-column">
+            <li class="nav-item active">
+                <a class="nav-link active" href="{{ url_for('admin_overview') }}">
+                    <i class="fas fa-home mr-2"></i> Dashboard
+                </a>
+            </li>
+        </ul>
+
+        <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            <span>Editor</span>
+        </h6>
+        <ul class="nav flex-column mb-2">
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="fas fa-plus mr-2"></i> New article
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="fas fa-edit mr-2"></i> Edit articles
+                </a>
+            </li>
+        </ul>
+
+        <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            <span>Admin</span>
+            <a class="d-flex align-items-center text-muted" href="#">
+                <span data-feather="plus-circle"></span>
+            </a>
+        </h6>
+        <ul class="nav flex-column mb-2">
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="fas fa-users mr-2"></i> Users
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
