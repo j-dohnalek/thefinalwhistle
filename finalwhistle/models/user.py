@@ -61,11 +61,11 @@ def create_new_user(email, username, password):
                         password=password)
         db.session.add(new_user)
         db.session.commit()
+        # TODO: send activation email
+        return new_user
     except SQLAlchemyError:
         print('something went wrong when making a new account!')
-        return None
-    # TODO: send activation email
-    return new_user
+    return None
 
 
 class User(UserMixin, db.Model):

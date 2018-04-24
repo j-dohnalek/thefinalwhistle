@@ -3,7 +3,7 @@ from finalwhistle.models.user import attempt_login, create_new_user, get_user_by
 from finalwhistle.views.forms.login import LoginForm
 from finalwhistle.views.forms.registration import RegistrationForm
 from flask import request, render_template, redirect, url_for
-from flask_login import login_required, login_user, logout_user
+from flask_login import login_required, login_user, logout_user, current_user
 
 
 #################################
@@ -11,23 +11,26 @@ from flask_login import login_required, login_user, logout_user
 #################################
 @app.route('/login', methods=['GET', 'POST'])
 def login():
+    if current_user.is_authenticated:
+        return redirect(url_for('home'))
+
     login_form = LoginForm()
     if login_form.validate_on_submit():
         print('login form validated')
         # get login params from request form and attempt to fetch user
         email = request.form['email']
         password = request.form['password']
-        user = attempt_login(email, password)
         # if email/password combo valid, log the user in via flask_login method
-        if user:
+        user = attempt_login(email, password)
+        if user is not None:
             login_user(user)
             return render_template('index.html')
         else:
             error = "Invalid email or password, please try again"
             return render_template('login.html', login_form=login_form, user_error=error)
-    else:
-        print('login form received but did not pass validate_on_submit()')
-        print(request.form)
+    # else:
+    #     print('login form received but did not pass validate_on_submit()')
+    #     print(request.form)
     return render_template('login.html', login_form=login_form)
 
 
