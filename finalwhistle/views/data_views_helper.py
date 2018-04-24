@@ -1,8 +1,10 @@
+# -*- coding: utf-8 -*-
 import finalwhistle.apis.fd_api as fd_api
 from finalwhistle.models.football import *
 from sqlalchemy import or_, desc, func, asc
 import json
 from flask import request
+from finalwhistle import db
 
 # CONSTANTS #####################################################################
 
@@ -218,7 +220,7 @@ def get_all_players():
     for team in get_all_teams():
         # Convert dict to object
         team_obj = Struct(**team)
-        for player in list_team_players(team_obj, exclude_transferred=False):
+        for player in list_team_players(team_obj):
             players.append(player)
     return players
 
@@ -374,6 +376,7 @@ def get_match_information(id):
                      Match.home_team,
                      Match.away_team,
                      Match.kickoff,
+                     Match.main_referee,
                      MatchStatistics.home_ft_goals,
                      MatchStatistics.home_ht_goals,
                      MatchStatistics.home_shots,
@@ -397,6 +400,9 @@ def get_match_information(id):
         match_information = {}
 
         home_team = Team.query.filter_by(team_id=match.home_team).first()
+        stadium = Stadium.query.filter_by(stadium_id=home_team.stadium).first()
+
+        match_information['stadium'] = stadium.name
         match_information['home_team'] = home_team.name
         match_information['home_crest'] = club_crest[str(home_team.team_id)]
 
@@ -410,13 +416,15 @@ def get_match_information(id):
         match_information['kickoff_time'] = match.kickoff.strftime("%H:%M")
         match_information['kickoff_date'] = match.kickoff.strftime("%d %B %Y")
 
+        referee = Referee.query.filter_by(referee_id=match.main_referee).first()
+        match_information['referee'] = referee.name
+
         goals = Goal.query\
             .filter(Goal.match == id)\
             .join(Player, Goal.player == Player.player_id)\
             .add_columns(Goal.minute, Goal.extra_time, Player.name.label('scorer'), Player.current_team)\
             .order_by(asc(Goal.minute)).all()
 
-        # TODO: add link to player in match details
         match_information['home_scoring_players'] = []
         match_information['away_scoring_players'] = []
         for goal in goals:
@@ -448,43 +456,3 @@ def get_match_information(id):
 
     else:
         return None
-
-
-def get_compare_teams():
-    """
-    Compare two team together based on goals, cards, won games, lost games, etc.
-    :return:
-    """
-
-    # No POST request
-    if len(request.form) == 0:
-        return dict(team1=None, team2=None, error=None)
-
-    data = request.form
-
-    try:
-        team1 = int(data['team1'])
-    except ValueError:
-        return dict(team1=None, team2=None, error='2 clubs required, please select 2 clubs')
-
-    try:
-        team2 = int(data['team2'])
-    except ValueError:
-        return dict(team1=None, team2=None, error='2 clubs required, please select 2 clubs')
-
-    # In case data is submitted manually check if teams exist
-    selected_team1 = Team.query.filter_by(team_id=team1)
-    selected_team2 = Team.query.filter_by(team_id=team2)
-
-    if selected_team1 is None or selected_team2 is None or team1 == team2:
-        return dict(team1=None, team2=None, error='Invalid combination of clubs selected, please choose different clubs')
-
-
-def fetch_team_statistics(id):
-    """
-    Fetch statistics for team
-    :param id: team database id
-    :return: dict
-    """
-
-    # Statistic we need:

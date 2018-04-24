@@ -51,6 +51,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url_for('teams_overview') }}">Teams</a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Statistics
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="{{ url_for('compare_teams') }}">Compare Teams</a>
+                            <a class="dropdown-item" href="{{ url_for('top_scorers') }}">Top 10's</a>
+                        </div>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url_for('news_overview') }}">News</a>
                     </li>

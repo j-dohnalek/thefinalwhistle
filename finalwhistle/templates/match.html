@@ -8,39 +8,72 @@
 <div class="container py-4">
     <div class="row">
 
-        <h1>Match Details</h1>
-
-        <table class="table text-center">
-            <tr>
-                <th scope="row">{{ match['home_team'] }}</th>
-                <th><img height="50" src="{{ match['home_crest'] }}" /></th>
-                <th>{{ match['home_goals'] }} : {{ match['away_goals'] }}</th>
-                <th><img height="50" src="{{ match['away_crest'] }}" /></th>
-                <th>{{ match['away_team'] }}</th>
-            </tr>
-        </table>
-
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <table class="table">
-                        {% for goal in match['home_scoring_players'] %}
-                            <tr>
-                                <td scope="row">{{ goal['scorer'] }}</td>
-                                <td>{{ goal['minute'] }}</td>
-                            </tr>
-                        {% endfor %}
-                    </table>
+              <div class="col-sm text-center">
+                  <img height="20" src="{{ url_for('static', filename='images/whistle.svg') }}">
+                {{ match['referee'] }}
+              </div>
+              <div class="col-sm text-center">
+                  <img height="20" src="{{ url_for('static', filename='images/clock.svg') }}">
+                  {{ match['kickoff_date'] }} {{ match['kickoff_time'] }}
+              </div>
+              <div class="col-sm text-center">
+                  <img height="20" src="{{ url_for('static', filename='images/stadium.svg') }}">
+                  {{ match['stadium'] }}
+              </div>
+            </div>
+
+        </div>
+
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-sm text-center">
+                    <img height="100" src="{{ match['home_crest'] }}" />
+                    <h2>{{ match['home_team'] }}</h2>
                 </div>
+                <div class="col-sm text-center">
+                    <h1>{{ match['home_goals'] }} : {{ match['away_goals'] }}</h1>
+                </div>
+                <div class="col-sm text-center">
+                    <img height="100" src="{{ match['away_crest'] }}" />
+                    <h2>{{ match['away_team'] }}</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container pb-5">
+            <div class="row">
                 <div class="col">
-                    <table class="table">
-                        {% for goal in match['away_scoring_players'] %}
-                            <tr>
-                                <td scope="row">{{ goal['scorer'] }}</td>
-                                <td>{{ goal['minute'] }}</td>
-                            </tr>
-                        {% endfor %}
-                    </table>
+
+                    {% for goal in match['home_scoring_players'] %}
+                    <div class="row justify-content-start">
+                        <div class="col-1">
+                            <img height="20" src="{{ url_for('static', filename='images/ball.svg') }}">
+                        </div>
+                        <div class="col-5">
+                            {{ goal['scorer'] }}
+                        </div>
+                        <div class="col-1">{{ goal['minute'] }}</div>
+                    </div>
+                    {% endfor %}
+
+                </div>
+
+                <div class="col">
+
+                    {% for goal in match['away_scoring_players'] %}
+                    <div class="row justify-content-end">
+                        <div class="col-1">
+                            <img height="20" src="{{ url_for('static', filename='images/ball.svg') }}">
+                        </div>
+                        <div class="col-5">
+                            {{ goal['scorer'] }}
+                        </div>
+                        <div class="col-1">{{ goal['minute'] }}</div>
+                    </div>
+                    {% endfor %}
+
                 </div>
             </div>
         </div>

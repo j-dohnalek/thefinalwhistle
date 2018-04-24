@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block custom_head %}
+{% endblock custom_head %}
+
+{% block content %}
+
+<div class="container py-4">
+
+    {% for scorer in scorers %}
+        {{ scorer['player'] }}, {{ scorer['goals'] }} <br>
+
+    {% endfor %}
+
+</div>
+
+{% endblock content %}
+
+{% block custom_scripts %}
+{% endblock custom_scripts %}
