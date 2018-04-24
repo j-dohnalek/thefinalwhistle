@@ -13,6 +13,7 @@
     <link href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ url_for('static', filename='fontawesome/css/fontawesome-all.min.css') }}" rel="stylesheet">
     <link href="{{ url_for('static', filename='admin.css') }}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rambla|Roboto:300,400,700" rel="stylesheet">
 
     <!-- Page unique styles -->
     {% block custom_head %}{% endblock %}
@@ -21,11 +22,14 @@
 
 <body>
 <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
-    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">The Final Whistle</a>
-    <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+    <a class="navbar-brand col-sm-3 col-md-2 mr-0 logo" href="{{ url_for('admin_overview') }}">
+        <img src="{{ url_for('static', filename='images/logo.svg') }}">
+        <span>The Final Whistle</span>
+    </a>
+    <input class="form-control form-control-dark w-100" type="text" placeholder="&#xF002;   Search" style="font-family:FontAwesome, sans-serif">
     <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
-            <a class="nav-link" href="#">Sign out</a>
+            <a class="nav-link" href="{{ url_for('logout') }}">Sign out <i class="fas fa-sign-out-alt ml-1"></i></a>
         </li>
     </ul>
 </nav>

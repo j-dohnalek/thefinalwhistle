@@ -12,12 +12,12 @@
         <table class="table">
             {% for match in data %}
             <tr>
-                <th scope="row"><a href="{{ url_for('match_page', id=match['match_id'])}}">[Link]</a></th>
                 <th>{{ match['home_team'] }}</th>
                 <th><img height="50" src="{{ match['home_crest'] }}" /></th>
                 <th>{{ match['home_goals'] }} : {{ match['away_goals'] }}</th>
                 <th><img height="50" src="{{ match['away_crest'] }}" /></th>
                 <th>{{ match['away_team'] }}</th>
+                <th scope="row"><a href="{{ url_for('match_page', id=match['match_id'])}}">Details</a></th>
             </tr>
             {% endfor %}
         </table>

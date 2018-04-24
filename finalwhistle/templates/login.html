@@ -1,21 +1,28 @@
 {% extends "base.html" %}
 
 {% block custom_head %}
-   <link href="{{ url_for('static', filename='login.css') }}" rel="stylesheet">
-   <meta name="google-signin-client_id" content="CLIENT_ID.apps.googleusercontent.com">
+<link href="{{ url_for('static', filename='login.css') }}" rel="stylesheet">
+<meta name="google-signin-client_id" content="796562272720-qtn5enjj3iqb1g2p3ubh4cnlpqfn3au1.apps.googleusercontent.com">
 {% endblock custom_head %}
 
 {% block content %}
 
-   <section class="bg-light">
+   <section class="bg-light py-5">
       <div class="container">
          <div class="row">
             <form class="text-center form-signin" method="POST" action="/login">
                {# https://flask-wtf.readthedocs.io/en/stable/csrf.html#csrf-protection #}
                {# forms/ajax requests need this token or they'll fail to validate #}
                {{ login_form.csrf_token }}
-               <h2>The Final Whistle</h2>
-               <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+               <img src="{{ url_for('static', filename='images/logo.svg') }}" class="logo" alt="The Final Whistle">
+
+                {% if user_error|length > 0 %}
+                <div class="alert alert-danger" role="alert">
+                    <strong>Ooops!</strong> {{ user_error }}
+                </div>
+                {% endif %}
+
+               <h1 class="h3 my-3 font-weight-normal">Please sign in</h1>
                {# <label for="inputEmail" class="sr-only">Email address</label>#}
                {# <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>#}
                {# <label for="inputPassword" class="sr-only">Password</label>#}
@@ -38,15 +45,14 @@
                   <hr style="width:100px;">
                </div>
                <div id="my-signin2"></div>
-               <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
             </form>
          </div>
       </div>
    </section>
 
-   {% block custom_scripts %}
-      <script src="{{ url_for('static', filename='login.js') }}"></script>
-      <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
-   {% endblock custom_scripts %}
-
 {% endblock content %}
+
+{% block custom_scripts %}
+<script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+<script src="{{ url_for('static', filename='login.js') }}"></script>
+{% endblock custom_scripts %}

@@ -46,6 +46,7 @@ def attempt_login(email, password):
     :return: user object if password correct, else None
     """
     user = get_user_by_email(email)
+    # The user has to be object
     if user is not None:
         if user.password_valid(password):
             return user

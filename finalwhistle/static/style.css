@@ -1,13 +1,23 @@
 /* MAIN CSS */
 
-@font-face {
-    font-family: FuturaMediumBT;
-    src: url('fonts/FuturaMediumBT.ttf');
-    font-weight: normal;
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.logo img {
+    height: 37px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.logo span {
+    font-family: 'Rambla', sans-serif;
+    font-size: 25px;
+    padding-left: 42px;
 }
 
 .logo {
-    font-family: FuturaMediumBT, Arial, sans-serif;
+    font-family: 'Pacifico', sans-serif;
     font-size: 25px;
     padding-top: 0;
     padding-bottom: 0;
@@ -60,4 +70,19 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+/* Profile Page */
+.profile-left {
+	background-color: #f8f8f8;
+	border-radius:5px;
+	border: 1px solid;
+	border-color: #ddd;
+}
 
+.profile-right {
+	background-color: #f8f8f8 !important;
+	border-radius:5px !important;
+	border: 1px solid !important;
+	border-color: #ddd !important;
+	padding: 15px 20px 20px 20px;
+	margin-left: 25px;
+}

@@ -1,0 +1,258 @@
+[
+    {
+        "date": "Sunday 22 April 2018",
+        "fixtures": [
+            {
+                "home_team": "Stoke",
+                "away_team": "Burnley",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22689",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "11",
+                            "own_goal": "false",
+                            "scorer": "Badou Ndiaye",
+                            "assist": "Mame Biram Diouf"
+                        },
+                        {
+                            "minute": "62",
+                            "own_goal": "false",
+                            "scorer": "Ashley Barnes",
+                            "penalty": "true"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "25",
+                            "card": "yellow",
+                            "player": "Ashley Barnes"
+                        },
+                        {
+                            "minute": "85",
+                            "card": "yellow",
+                            "player": "Erik Pieters"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "card": "yellow",
+                            "player": "Badou Ndiaye"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "59",
+                            "in": "Kurt Zouma",
+                            "out": "Glen Johnson"
+                        },
+                        {
+                            "minute": "69",
+                            "in": "Stephen Ireland",
+                            "out": "Moritz Bauer"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Sam Vokes",
+                            "out": "Ashley Barnes"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "Tyrese Campbell",
+                            "out": "Mame Biram Diouf"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "Jeff Hendrick",
+                            "out": "Aaron Lennon"
+                        }
+                    ],
+                    "referee": "Mike Dean",
+                    "kick_off": "13:30"
+                }
+            },
+            {
+                "home_team": "Arsenal",
+                "away_team": "West Ham",
+                "score": "4-1",
+                "url": "https://www.premierleague.com/match/22682",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "51",
+                            "own_goal": "false",
+                            "scorer": "Nacho Monreal",
+                            "assist": "Granit Xhaka"
+                        },
+                        {
+                            "minute": "64",
+                            "own_goal": "false",
+                            "scorer": "Marko Arnautovic",
+                            "assist": "Manuel Lanzini"
+                        },
+                        {
+                            "minute": "82",
+                            "own_goal": "false",
+                            "scorer": "Aaron Ramsey",
+                            "penalty": "true"
+                        },
+                        {
+                            "minute": "85",
+                            "own_goal": "false",
+                            "scorer": "Alexandre Lacazette",
+                            "assist": "Pierre-Emerick Aubameyang"
+                        },
+                        {
+                            "minute": "89",
+                            "own_goal": "false",
+                            "scorer": "Alexandre Lacazette",
+                            "assist": "Aaron Ramsey"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "41",
+                            "card": "yellow",
+                            "player": "Granit Xhaka"
+                        },
+                        {
+                            "minute": "50",
+                            "card": "yellow",
+                            "player": "Pablo Zabaleta"
+                        },
+                        {
+                            "minute": "62",
+                            "card": "yellow",
+                            "player": "Ainsley Maitland-Niles"
+                        },
+                        {
+                            "minute": "74",
+                            "card": "yellow",
+                            "player": "Shkodran Mustafi"
+                        },
+                        {
+                            "minute": "87",
+                            "card": "yellow",
+                            "player": "Marko Arnautovic"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "Ainsley Maitland-Niles",
+                            "out": "Mohamed Elneny"
+                        },
+                        {
+                            "minute": "60",
+                            "in": "Chicharito",
+                            "out": "João Mário"
+                        },
+                        {
+                            "minute": "60",
+                            "in": "Manuel Lanzini",
+                            "out": "Edimilson Fernandes"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "Pierre-Emerick Aubameyang",
+                            "out": "Alex Iwobi"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "Andy Carroll",
+                            "out": "Arthur Masuaku"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "Calum Chambers",
+                            "out": "Danny Welbeck"
+                        }
+                    ],
+                    "referee": "Lee Mason",
+                    "kick_off": "13:30"
+                }
+            },
+            {
+                "home_team": "Man City",
+                "away_team": "Swansea",
+                "score": "5-0",
+                "url": "https://www.premierleague.com/match/22688",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "12",
+                            "own_goal": "false",
+                            "scorer": "David Silva",
+                            "penalty": "true"
+                        },
+                        {
+                            "minute": "16",
+                            "own_goal": "false",
+                            "scorer": "Raheem Sterling",
+                            "assist": "Fabian Delph"
+                        },
+                        {
+                            "minute": "54",
+                            "own_goal": "false",
+                            "scorer": "Kevin De Bruyne",
+                            "assist": "Danilo"
+                        },
+                        {
+                            "minute": "64",
+                            "own_goal": "false",
+                            "scorer": "Bernardo Silva",
+                            "penalty": "true"
+                        },
+                        {
+                            "minute": "88",
+                            "own_goal": "false",
+                            "scorer": "Gabriel Jesus",
+                            "assist": "Yaya Touré"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "40",
+                            "card": "yellow",
+                            "player": "Martin Olsson"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "65",
+                            "in": "Sam Clucas",
+                            "out": "Ki Sung-yueng"
+                        },
+                        {
+                            "minute": "65",
+                            "in": "Yaya Touré",
+                            "out": "Kevin De Bruyne"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "Kyle Bartley",
+                            "out": "Federico Fernández"
+                        },
+                        {
+                            "minute": "71",
+                            "in": "Phil Foden",
+                            "out": "Raheem Sterling"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "Benjamin Mendy",
+                            "out": "Fabian Delph"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "Tammy Abraham",
+                            "out": "Martin Olsson"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "kick_off": "16:30"
+                }
+            }
+        ]
+    }
+]
