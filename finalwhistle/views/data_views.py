@@ -5,7 +5,7 @@ from flask import redirect, url_for
 
 
 from finalwhistle.views.data_views_helper import list_all_matches, get_match_information, STATS, get_all_players, \
-    get_player_information, get_all_teams, get_team_information, get_league_table
+    get_player_information, get_all_teams, get_team_information, get_league_table, get_compare_teams
 
 #####################
 # data view routing #
@@ -70,3 +70,9 @@ def news_overview():
 @app.route('/news/<id>', methods=['GET'])
 def news_page(id):
     return f'news page {id}'
+
+
+@app.route('/compare/teams', methods=['GET', 'POST'])
+def compare_teams():
+    comparison = get_compare_teams()
+    return render_template('compare_teams.html', teams=get_all_teams(), comparison=comparison)

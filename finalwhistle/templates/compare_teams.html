@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block custom_head %}
+{% endblock custom_head %}
+
+{% block content %}
+<div class="container py-4">
+
+    <div class="container">
+        {% if comparison['error'] is not none %}
+            {% if comparison['error']|length > 0 %}
+                <div class="alert alert-danger" role="alert">
+                    {{ comparison['error'] }}
+                </div>
+            {% endif %}
+        {% endif %}
+    </div>
+
+    <form method="post">
+
+        <select name="team1">
+            <option value=""></option>
+            {% for team in teams %}
+                <option value="{{ team['team_id'] }}">{{ team['name'] }}</option>
+            {% endfor %}
+        </select>
+
+        <select name="team2">
+            <option value=""></option>
+            {% for team in teams %}
+                <option value="{{ team['team_id'] }}">{{ team['name'] }}</option>
+            {% endfor %}
+        </select>
+
+        <input type="submit" value="Compare" />
+
+    </form>
+
+    <div class="container">
+        {% if comparison['error'] is not none %}
+            {% if comparison['error']|length == 0 %}
+                All Cool!
+            {% endif %}
+        {% endif %}
+    </div>
+
+
+
+</div>
+
+{% block custom_scripts %}
+{% endblock custom_scripts %}
+
+{% endblock content %}
