@@ -6,25 +6,26 @@ from finalwhistle.models.user import User
 
 
 class RegistrationForm(FlaskForm):
-    email = StringField('e-mail', validators=[
+    email = StringField('E-mail', validators=[
         InputRequired()
     ])
-    username = StringField('username', validators=[
+    username = StringField('Username', validators=[
         InputRequired()
     ])
-    password = PasswordField('password', validators=[
+    password = PasswordField('Password', validators=[
         InputRequired(),
         EqualTo('password_confirm', message='Passwords must match')
     ])
-    password_confirm = PasswordField('repeat password', validators=[
+    password_confirm = PasswordField('Repeat password', validators=[
         InputRequired(),
         EqualTo('password', message='Passwords must match')
     ])
     accept_tos = BooleanField('I agree to the terms of service', validators=[
         InputRequired()
     ])
-    submit = SubmitField('submit')
+    submit = SubmitField('Submit')
 
+    # methods called 'validate_NAME' will act as validators for the form field 'NAME'
     def validate_username(self, username):
         user = User.query.filter_by(username=username.data).first()
         if user is not None:

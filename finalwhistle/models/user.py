@@ -92,7 +92,7 @@ class User(UserMixin, db.Model):
     activation_token = db.Column(db.String, nullable=False, default=new_uuid())
     registered_date = db.Column(db.DateTime, nullable=False, server_default=func.now())
     last_login = db.Column(db.DateTime, nullable=False, server_default=func.now())
-    # Access token is used for password reset requests and the 'remember me' function
+    # Access token is used for password reset requests and the 'remember me'
     access_token = db.Column(db.String, nullable=True)
     access_token_expires_at = db.Column(db.DateTime, nullable=True)
     supported_team_id = db.Column(db.Integer, db.ForeignKey('teams.team_id'), nullable=True)
