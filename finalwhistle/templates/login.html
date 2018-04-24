@@ -32,10 +32,9 @@
                {{ login_form.password.label(class_='sr-only') }}
                {{ login_form.password(id='inputPassword', class_='form-control', placeholder="Password", required=true) }}
                <div class="checkbox mb-3">
-                  <label>
-                     {# <input type="checkbox" value="remember-me">Remember me#}
-                     {{ login_form.remember_me }}
-                  </label>
+                  {# <input type="checkbox" value="remember-me">Remember me#}
+                  {{ login_form.remember_me }}
+                  {{ login_form.remember_me.label }}
                </div>
                {# <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>#}
                {{ login_form.submit(class_='btn btn-lg btn-primary btn-block') }}
