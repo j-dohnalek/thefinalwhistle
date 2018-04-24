@@ -5,7 +5,7 @@
 
 {% block content %}
 
-<div class="container">
+<div class="container py-4">
     <div class="row">
 
         <h1>Match Details</h1>
@@ -26,8 +26,8 @@
                     <table class="table">
                         {% for goal in match['home_scoring_players'] %}
                             <tr>
-                                <th scope="row">{{ goal['scorer'] }}</th>
-                                <th>{{ goal['minute'] }}</th>
+                                <td scope="row">{{ goal['scorer'] }}</td>
+                                <td>{{ goal['minute'] }}</td>
                             </tr>
                         {% endfor %}
                     </table>

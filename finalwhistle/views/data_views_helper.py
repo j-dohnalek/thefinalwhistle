@@ -41,8 +41,6 @@ def get_league_table():
 
     league_table = {}
     for key, value in table.items():
-
-        print(value['club'])
         team = Team.query.filter(Team.name == value['club']).first()
 
         if team is None:
@@ -319,6 +317,9 @@ def list_all_matches():
                      MatchStatistics.away_ft_goals)\
         .order_by(func.DATE(Match.kickoff).desc(), func.TIME(Match.kickoff).asc()).all()
 
+    day_indicator = 0
+    previous_match_date = None
+
     for match in matches:
 
         match_details = {'match_id': match.match_id}
@@ -337,6 +338,16 @@ def list_all_matches():
         match_details['kickoff_time'] = match.kickoff.strftime("%H:%M")
         match_details['kickoff_date'] = match.kickoff.strftime("%d %B %Y")
 
+        # Indicator computes if the match is the first on the day to display
+        # the date on all match page.
+        if previous_match_date is None or match.kickoff.strftime("%d %B %Y") != previous_match_date:
+            day_indicator = 0
+
+        match_details['indicator'] = day_indicator
+
+        day_indicator += 1
+
+        previous_match_date = match.kickoff.strftime("%d %B %Y")
         list_of_matches.append(match_details)
 
     return list_of_matches
