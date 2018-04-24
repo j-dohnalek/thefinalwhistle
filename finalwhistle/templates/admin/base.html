@@ -40,6 +40,16 @@
 <script src="{{ url_for('static', filename='jquery/jquery-3.2.1.min.js') }}"></script>
 <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118132245-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-118132245-1');
+</script>
+
 <!-- Page unique scripts -->
 {% block custom_scripts %}{% endblock %}
 
