@@ -2,6 +2,7 @@ import finalwhistle.apis.fd_api as fd_api
 from finalwhistle.models.football import *
 from sqlalchemy import or_, desc, func, asc
 import json
+from flask import request
 
 # CONSTANTS #####################################################################
 
@@ -49,6 +50,7 @@ def get_league_table():
 
         team_row = {
             "club_id": team.team_id,
+            "club_short": team.name_short,
             "club": value['club'],
             "played": value['played'],
             "won": value['won'],
@@ -435,3 +437,43 @@ def get_match_information(id):
 
     else:
         return None
+
+
+def get_compare_teams():
+    """
+    Compare two team together based on goals, cards, won games, lost games, etc.
+    :return:
+    """
+
+    # No POST request
+    if len(request.form) == 0:
+        return dict(team1=None, team2=None, error=None)
+
+    data = request.form
+
+    try:
+        team1 = int(data['team1'])
+    except ValueError:
+        return dict(team1=None, team2=None, error='2 clubs required, please select 2 clubs')
+
+    try:
+        team2 = int(data['team2'])
+    except ValueError:
+        return dict(team1=None, team2=None, error='2 clubs required, please select 2 clubs')
+
+    # In case data is submitted manually check if teams exist
+    selected_team1 = Team.query.filter_by(team_id=team1)
+    selected_team2 = Team.query.filter_by(team_id=team2)
+
+    if selected_team1 is None or selected_team2 is None or team1 == team2:
+        return dict(team1=None, team2=None, error='Invalid combination of clubs selected, please choose different clubs')
+
+
+def fetch_team_statistics(id):
+    """
+    Fetch statistics for team
+    :param id: team database id
+    :return: dict
+    """
+
+    # Statistic we need:

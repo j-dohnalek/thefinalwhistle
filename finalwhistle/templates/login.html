@@ -14,7 +14,7 @@
                {# https://flask-wtf.readthedocs.io/en/stable/csrf.html#csrf-protection #}
                {# forms/ajax requests need this token or they'll fail to validate #}
                {{ login_form.csrf_token }}
-               <img src="{{ url_for('static', filename='images/logo.svg') }}" class="logo" alt="The Final Whistle">
+               <img width="100" src="{{ url_for('static', filename='images/logo.svg') }}" class="logo" alt="The Final Whistle">
 
                 {% if user_error|length > 0 %}
                 <div class="alert alert-danger" role="alert">

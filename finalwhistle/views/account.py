@@ -28,9 +28,9 @@ def login():
         else:
             error = "Invalid email or password, please try again"
             return render_template('login.html', login_form=login_form, user_error=error)
-    # else:
-    #     print('login form received but did not pass validate_on_submit()')
-    #     print(request.form)
+    else:
+        print('login form received but did not pass validate_on_submit()')
+        print(request.form)
     return render_template('login.html', login_form=login_form)
 
 
@@ -50,6 +50,9 @@ def register():
             return 'new user created'
         else:
             return 'something went wrong and your account wasn\'t created'
+    else:
+        print('login form received but did not pass validate_on_submit()')
+        print(request.form)
     return render_template('register.html', form=registration_form)
 
 
@@ -81,13 +84,16 @@ def verify_email():
     email = request.args.get('username')
     token = request.args.get('token')
     if email is None or token is None:
-        return "url missing 'username' and 'token' args"
+        return "url missing 'username' or 'token' args"
     user = get_user_by_email(email)
     # attempt to activate account
-    if user.activate_account(token):
-        return 'your account has been activated and you have been logged in'
+    if user is not None:
+        if user.activate_account(token):
+            return 'your account has been activated and you have been logged in'
+        else:
+            return 'could not activate account - are you already activated?'
     else:
-        return 'could not activate account - are you already activated?'
+        return 'could not find user from email address'
 
 
 #####################################
