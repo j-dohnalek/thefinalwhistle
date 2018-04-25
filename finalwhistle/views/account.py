@@ -2,7 +2,7 @@ from finalwhistle import app
 from finalwhistle.models.user import attempt_login, create_new_user, get_user_by_email
 from finalwhistle.views.forms.login import LoginForm
 from finalwhistle.views.forms.registration import RegistrationForm
-from flask import request, render_template, redirect, url_for
+from flask import request, render_template, redirect, url_for, flash
 from flask_login import login_required, login_user, logout_user, current_user
 
 
@@ -28,8 +28,8 @@ def login():
         else:
             error = "Invalid email or password, please try again"
             return render_template('login.html', login_form=login_form, user_error=error)
-    else:
-        print('login form received but did not pass validate_on_submit()')
+    if request.method == 'POST':
+        print('login form posted but did not pass validate_on_submit()')
         print(request.form)
     return render_template('login.html', login_form=login_form)
 
@@ -38,22 +38,20 @@ def login():
 def register():
     registration_form = RegistrationForm()
     if registration_form.validate_on_submit():
-        # TODO: account creation login
-        email = request.form['email']
-        username = request.form['username']
-        password = request.form['password']
-        # will return user object if account created successfully
-        new_user = create_new_user(email=email,
-                                   username=username,
-                                   password=password)
+        new_user = create_new_user(request.form['email'],
+                                   request.form['username'],
+                                   request.form['password'],
+                                   request.form['real_name'])
         if new_user is not None:
-            return 'new user created'
+            # TODO: alert/flash message for successfully created account
+            flash('Account created! You may now log in')
+            return redirect(url_for('login'))
         else:
             return 'something went wrong and your account wasn\'t created'
     else:
         print('login form received but did not pass validate_on_submit()')
         print(request.form)
-    return render_template('register.html', form=registration_form)
+    return render_template('register.html', reg_form=registration_form)
 
 
 # testing login required

@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% from 'macros.jinja' import form_input_render_errors %}
+
 {% block custom_head %}
     <link href="{{ url_for('static', filename='login.css') }}" rel="stylesheet">
     <meta name="google-signin-client_id" content="796562272720-qtn5enjj3iqb1g2p3ubh4cnlpqfn3au1.apps.googleusercontent.com">
@@ -13,34 +15,37 @@
                 <div class="col-md-6 offset-md-3">
                     <h2 class="">Create an account</h2>
                     <hr>
-                    <form method="POST" action="">
+                    <form method="POST" action="{{ url_for('register') }}">
                         <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="email" class="form-control" id="name" name="name" placeholder="Enter your name">
+                           {{ reg_form.username.label(for='username') }}
+                           {{ form_input_render_errors(reg_form.username, id="username", placeholder="Enter your username" ) }}
                         </div>
                         <div class="form-group">
-                            <label for="username">Username</label>
-                            <input type="username" class="form-control" id="username" name="username" placeholder="Enter your username">
+                           {{ reg_form.email.label(for='email') }}
+                           {{ form_input_render_errors(reg_form.email, id="email", placeholder="Enter your email" ) }}
                         </div>
                         <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                           {{ reg_form.real_name.label(for='real_name') }}
+                           {{ form_input_render_errors(reg_form.real_name, id="real_name", placeholder="Enter your name" ) }}
+                           <small id="infoHelp" class="form-text text-muted">We'll never share your name or email with anyone else.</small>
                         </div>
                         <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" name="password" placeholder="Password">
-                            <small id="passHelp" class="form-text text-muted">Your password should be at least X characters.</small>
+                           {{ reg_form.password.label(for='password') }}
+                           {{ form_input_render_errors(reg_form.password, id="password", placeholder="Password" ) }}
+                            <small id="passHelp" class="form-text text-muted">
+                               Your password should be at least 6 characters.<br>
+                            </small>
                         </div>
                         <div class="form-group">
-                            <label for="password2">Confirm password</label>
-                            <input type="password2" class="form-control" id="password2" name="password2" placeholder="Confirm password">
+                           {{ reg_form.password_confirm.label(for='password_confirm') }}
+                           {{ form_input_render_errors(reg_form.password_confirm, id="password_confirm", placeholder="Confirm password" ) }}
                         </div>
                         <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="agree-terms">
-                            <label class="form-check-label" for="agree-terms">Please check this box to confirm you are over 13 and agree to the <a href="#">terms of service</a>.</label>
+                           {{ reg_form.accept_tos(class="form-check-input", id="agree-terms") }}
+                           <label class="form-check-label" for="agree-terms">Please check this box to confirm you are over 13 and agree to the <a href="#">terms of service</a>.</label>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                         {{ reg_form.submit(class="btn btn-primary") }}
+                         {{ reg_form.csrf_token }}
                     </form>
                 </div>
             </div>

@@ -76,6 +76,20 @@
     </nav>
 </header>
 
+{#http://flask.pocoo.org/docs/0.10/patterns/flashing/{% with messages = get_flashed_messages() %}#}
+<div class="container-fluid" style="min-height:100%">
+   {% with messages = get_flashed_messages() %}
+      {% if messages %}
+         {% for message in messages %}
+            <div class="alert alert-warning text-center" role="alert">
+               {{ message }}
+            </div>
+         {% endfor %}
+      {% endif %}
+   {% endwith %}
+   {% block body %}{% endblock %}
+</div>
+
 {% block content %}{% endblock %}
 
 <footer class="text-muted">

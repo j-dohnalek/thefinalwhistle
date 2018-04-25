@@ -53,7 +53,7 @@ def attempt_login(email, password):
     return None
 
 
-def create_new_user(email, username, password):
+def create_new_user(email, username, password, name):
     """
     Create and commit a new User object
     :param email:       new user email
@@ -64,7 +64,8 @@ def create_new_user(email, username, password):
     try:
         new_user = User(email=email,
                         username=username,
-                        password=password)
+                        password=password,
+                        name=name)
         db.session.add(new_user)
         db.session.commit()
         # TODO: send activation email
@@ -90,6 +91,7 @@ class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     email = db.Column(db.String(60), nullable=False, unique=True)
     username = db.Column(db.String(16), nullable=False, unique=True)
+    real_name = db.Column(db.String(60))
     pw_hash = db.Column(db.Binary(60), nullable=False, unique=True)
     # Accounts must be activated before they can be used
     activated = db.Column(db.Boolean, nullable=False, default=False)
@@ -106,7 +108,7 @@ class User(UserMixin, db.Model):
     #usergroup_id = db.Column(db.Integer, db.ForeignKey('usergroups.id'), nullable=True)
     #usergroup = db.relationship('UserGroup')
 
-    def __init__(self, email, username, password):
+    def __init__(self, email, username, password, name):
         """
         Creates a new user in the database
         :param email:
@@ -116,7 +118,7 @@ class User(UserMixin, db.Model):
         self.email = email
         self.username = username
         self.pw_hash = hash_password(password)
-
+        self.real_name = name
         # TODO: send account activation email
 
     def __repr__(self):

@@ -1,15 +1,19 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField, BooleanField
-from wtforms.validators import InputRequired, EqualTo, ValidationError
+from wtforms.validators import InputRequired, EqualTo, ValidationError, Email, DataRequired
 
 from finalwhistle.models.user import User
 
 
 class RegistrationForm(FlaskForm):
     email = StringField('E-mail', validators=[
-        InputRequired()
+        InputRequired(),
+        Email()
     ])
     username = StringField('Username', validators=[
+        InputRequired()
+    ])
+    real_name = StringField('Name', validators=[
         InputRequired()
     ])
     password = PasswordField('Password', validators=[
@@ -20,8 +24,8 @@ class RegistrationForm(FlaskForm):
         InputRequired(),
         EqualTo('password', message='Passwords must match')
     ])
-    accept_tos = BooleanField('I agree to the terms of service', validators=[
-        InputRequired()
+    accept_tos = BooleanField('accept_tos', validators=[
+        DataRequired()
     ])
     submit = SubmitField('Submit')
 
@@ -35,3 +39,7 @@ class RegistrationForm(FlaskForm):
         user = User.query.filter_by(email=email.data).first()
         if user is not None:
             raise ValidationError('Email already in use')
+
+    def validate_password(self, password):
+        if len(password.data) < 6:
+            raise ValidationError('Password must be longer than 6 characters')
