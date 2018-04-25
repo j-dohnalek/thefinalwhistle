@@ -1,0 +1,199 @@
+{% extends "admin/base.html" %}
+
+{% block custom_head %}
+{% endblock custom_head %}
+
+{% block content %}
+
+    <div class="container-fluid">
+        <div class="row">
+            {% include 'admin/sidebar.html' %}
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+                    <h1 class="h2">Website statistics</h1>
+                </div>
+
+                <div class="Chartjs">
+                    <h3>This Week vs Last Week (by sessions)</h3>
+                    <figure class="Chartjs-figure" id="chart-1-container"></figure>
+                    <ol class="Chartjs-legend" id="legend-1-container"></ol>
+                </div>
+
+                <div id="chart-1-container"></div>
+
+                <div id="chart-2-container"></div>
+
+                <canvas class="my-4" id="stats" width="900" height="380"></canvas>
+
+            </main>
+        </div>
+    </div>
+{% endblock content %}
+
+{% block custom_scripts %}
+    <!-- Graphs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"></script>
+    <script>
+        var ctx = document.getElementById("stats");
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                datasets: [{
+                    data: [15339, 21345, 18483, 24003, 23489, 24092, 12034],
+                    lineTension: 0,
+                    backgroundColor: 'transparent',
+                    borderColor: '#007bff',
+                    borderWidth: 4,
+                    pointBackgroundColor: '#007bff'
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: false
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        });
+    </script>
+    <script>
+        (function(w,d,s,g,js,fs){
+            g=w.gapi||(w.gapi={});g.analytics={q:[],ready:function(f){this.q.push(f);}};
+            js=d.createElement(s);fs=d.getElementsByTagName(s)[0];
+            js.src='https://apis.google.com/js/platform.js';
+            fs.parentNode.insertBefore(js,fs);js.onload=function(){g.load('analytics');};
+        }(window,document,'script'));
+    </script>
+    <script>
+
+        gapi.analytics.ready(function() {
+
+            /**
+             * Authorize the user with an access token obtained server side.
+             */
+            gapi.analytics.auth.authorize({
+                'serverAuth': {
+                    'access_token': '{{ token }}'
+                }
+            });
+
+
+            // Adjust `now` to experiment with different days, for testing only...
+            var now = moment(); // .subtract(3, 'day');
+
+            var thisWeek = query({
+                'ids': 'ga:174124382',
+                'dimensions': 'ga:date,ga:nthDay',
+                'metrics': 'ga:sessions',
+                'start-date': moment(now).subtract(1, 'day').day(0).format('YYYY-MM-DD'),
+                'end-date': moment(now).format('YYYY-MM-DD')
+            });
+
+            var lastWeek = query({
+                'ids': 'ga:174124382',
+                'dimensions': 'ga:date,ga:nthDay',
+                'metrics': 'ga:sessions',
+                'start-date': moment(now).subtract(1, 'day').day(0).subtract(1, 'week')
+                    .format('YYYY-MM-DD'),
+                'end-date': moment(now).subtract(1, 'day').day(6).subtract(1, 'week')
+                    .format('YYYY-MM-DD')
+            });
+
+            Promise.all([thisWeek, lastWeek]).then(function(results) {
+
+                var data1 = results[0].rows.map(function(row) { return +row[2]; });
+                var data2 = results[1].rows.map(function(row) { return +row[2]; });
+                var labels = results[1].rows.map(function(row) { return +row[0]; });
+
+                labels = labels.map(function(label) {
+                    return moment(label, 'YYYYMMDD').format('ddd');
+                });
+
+                var data = {
+                    labels : labels,
+                    datasets : [
+                        {
+                            label: 'Last Week',
+                            fillColor : 'rgba(220,220,220,0.5)',
+                            strokeColor : 'rgba(220,220,220,1)',
+                            pointColor : 'rgba(220,220,220,1)',
+                            pointStrokeColor : '#fff',
+                            data : data2
+                        },
+                        {
+                            label: 'This Week',
+                            fillColor : 'rgba(151,187,205,0.5)',
+                            strokeColor : 'rgba(151,187,205,1)',
+                            pointColor : 'rgba(151,187,205,1)',
+                            pointStrokeColor : '#fff',
+                            data : data1
+                        }
+                    ]
+                };
+
+                new Chart(makeCanvas('chart-1-container')).Line(data);
+                generateLegend('legend-1-container', data.datasets);
+            });
+
+
+            /**
+             * Creates a new DataChart instance showing sessions over the past 30 days.
+             * It will be rendered inside an element with the id "chart-1-container".
+             */
+            var dataChart1 = new gapi.analytics.googleCharts.DataChart({
+                query: {
+                    'ids': 'ga:174124382', // <-- Replace with the ids value for your view.
+                    'start-date': '30daysAgo',
+                    'end-date': 'today',
+                    'metrics': 'ga:sessions,ga:users',
+                    'dimensions': 'ga:date'
+                },
+                chart: {
+                    'container': 'chart-1-container',
+                    'type': 'LINE',
+                    'options': {
+                        'width': '100%'
+                    }
+                }
+            });
+            dataChart1.execute();
+
+
+            /**
+             * Creates a new DataChart instance showing top 5 most popular demos/tools
+             * amongst returning users only.
+             * It will be rendered inside an element with the id "chart-3-container".
+             */
+            var dataChart2 = new gapi.analytics.googleCharts.DataChart({
+                query: {
+                    'ids': 'ga:174124382', // <-- Replace with the ids value for your view.
+                    'start-date': '30daysAgo',
+                    'end-date': 'today',
+                    'metrics': 'ga:pageviews',
+                    'dimensions': 'ga:pagePathLevel1',
+                    'sort': '-ga:pageviews',
+                    'filters': 'ga:pagePathLevel1!=/',
+                    'max-results': 7
+                },
+                chart: {
+                    'container': 'chart-2-container',
+                    'type': 'PIE',
+                    'options': {
+                        'width': '100%',
+                        'pieHole': 4/9,
+                    }
+                }
+            });
+            dataChart2.execute();
+
+        });
+    </script>
+{% endblock custom_scripts %}
