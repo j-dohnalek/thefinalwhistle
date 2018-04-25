@@ -10,8 +10,6 @@ from finalwhistle.views.data_views_helper import list_all_matches, get_match_inf
 #####################
 # data view routing #
 #####################
-
-
 @app.route('/matches', methods=['GET'])
 def matches_overview():
     return render_template('matches.html', data=list_all_matches())
@@ -64,7 +62,8 @@ def league_table():
 
 @app.route('/news', methods=['GET'])
 def news_overview():
-    return render_template('news.html')
+    from finalwhistle.models.article import get_latest_news
+    return render_template('news.html', news=get_latest_news())
 
 
 @app.route('/news/<id>', methods=['GET'])

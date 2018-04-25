@@ -1,8 +1,7 @@
 {% extends "base.html" %}
 
-{% from 'macros.jinja' import form_input_render_errors %}
-
 {% block custom_head %}
+   {% from 'macros.jinja' import form_input_render_errors %}
     <link href="{{ url_for('static', filename='login.css') }}" rel="stylesheet">
     <meta name="google-signin-client_id" content="796562272720-qtn5enjj3iqb1g2p3ubh4cnlpqfn3au1.apps.googleusercontent.com">
 {% endblock custom_head %}

@@ -5,7 +5,6 @@ from sqlalchemy import func
 from sqlalchemy.exc import SQLAlchemyError
 
 from finalwhistle import db
-from sqlalchemy.orm import validates
 
 
 def create_new_article(author_id, title, body):
@@ -19,6 +18,11 @@ def create_new_article(author_id, title, body):
     except SQLAlchemyError:
         print('something went wrong when making a new account!')
     return None
+
+
+def get_latest_news(count=5):
+    news = Article.query.order_by(Article.submitted_at.desc()).limit(count).all()
+    return news
 
 
 class Article(db.Model):

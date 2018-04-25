@@ -3,7 +3,7 @@ Database models for users/accounts
 """
 from sqlalchemy.exc import SQLAlchemyError
 
-from finalwhistle import db, bcrypt
+from finalwhistle import db, bcrypt, app
 from finalwhistle.helpers import new_uuid
 from sqlalchemy.sql import func
 from flask_login import UserMixin

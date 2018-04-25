@@ -53,9 +53,19 @@ import finalwhistle.models.user
 import finalwhistle.models.article
 import finalwhistle.models.football
 
+
+# http://flask.pocoo.org/docs/0.12/templating/#context-processors
 # Returns the current year
 @app.context_processor
 def current_year():
     import datetime
     now = datetime.datetime.now()
     return dict(current_year=now.year)
+
+
+@app.context_processor
+def rename_me():
+    def user_name_from_id(id):
+        from finalwhistle.models.user import get_user_by_id
+        return get_user_by_id(id).name
+    return dict(user_name_from_id=user_name_from_id)
