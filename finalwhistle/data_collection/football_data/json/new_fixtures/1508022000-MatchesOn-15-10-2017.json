@@ -1,0 +1,178 @@
+[
+    {
+        "date": "Sunday 15 October 2017",
+        "fixtures": [
+            {
+                "home_team": "Brighton",
+                "away_team": "Everton",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22412",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "82",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Anthony Knockaert",
+                            "assist": "Pascal Groß"
+                        },
+                        {
+                            "minute": "90",
+                            "own_goal": "false",
+                            "penalty": "true",
+                            "scorer": "Wayne Rooney"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "56",
+                            "card": "yellow",
+                            "player": "Davy Pröpper"
+                        },
+                        {
+                            "minute": "67",
+                            "card": "yellow",
+                            "player": "Lewis Dunk"
+                        },
+                        {
+                            "minute": "88",
+                            "card": "yellow",
+                            "player": "Bruno"
+                        },
+                        {
+                            "minute": "88",
+                            "card": "yellow",
+                            "player": "Anthony Knockaert"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "card": "yellow",
+                            "player": "Kevin Mirallas"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "69",
+                            "in": "Oumar Niasse",
+                            "out": "Idrissa Gueye"
+                        },
+                        {
+                            "minute": "73",
+                            "in": "José Izquierdo",
+                            "out": "Solly March"
+                        },
+                        {
+                            "minute": "73",
+                            "in": "Uwe Hünemeier",
+                            "out": "Shane Duffy"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "Kevin Mirallas",
+                            "out": "Leighton Baines"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "Isaiah Brown",
+                            "out": "Glenn Murray"
+                        },
+                        {
+                            "minute": "90",
+                            "in": "Tom Davies",
+                            "out": "Wayne Rooney"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "13:30"
+                }
+            },
+            {
+                "home_team": "Southampton",
+                "away_team": "Newcastle",
+                "score": "2-2",
+                "url": "https://www.premierleague.com/match/22418",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "20",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Isaac Hayden"
+                        },
+                        {
+                            "minute": "49",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Manolo Gabbiadini",
+                            "assist": "Nathan Redmond"
+                        },
+                        {
+                            "minute": "51",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Ayoze Pérez"
+                        },
+                        {
+                            "minute": "75",
+                            "own_goal": "false",
+                            "penalty": "true",
+                            "scorer": "Manolo Gabbiadini"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "40",
+                            "card": "yellow",
+                            "player": "DeAndre Yedlin"
+                        },
+                        {
+                            "minute": "77",
+                            "card": "yellow",
+                            "player": "Manolo Gabbiadini"
+                        },
+                        {
+                            "minute": "79",
+                            "card": "yellow",
+                            "player": "Isaac Hayden"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "57",
+                            "in": "Sofiane Boufal",
+                            "out": "Nathan Redmond"
+                        },
+                        {
+                            "minute": "63",
+                            "in": "Mikel Merino",
+                            "out": "Ayoze Pérez"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "Steven Davis",
+                            "out": "Oriol Romeu"
+                        },
+                        {
+                            "minute": "68",
+                            "in": "Dwight Gayle",
+                            "out": "Joselu"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Charlie Austin",
+                            "out": "Shane Long"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Jacob Murphy",
+                            "out": "Christian Atsu"
+                        }
+                    ],
+                    "referee": "Kevin Friend",
+                    "kick_off": "16:00"
+                }
+            }
+        ]
+    }
+]

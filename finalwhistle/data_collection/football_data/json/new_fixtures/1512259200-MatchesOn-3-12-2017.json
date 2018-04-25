@@ -1,0 +1,173 @@
+[
+    {
+        "date": "Sunday 3 December 2017",
+        "fixtures": [
+            {
+                "home_team": "Bournemouth",
+                "away_team": "Southampton",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22483",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "42",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Ryan Fraser",
+                            "assist": "Andrew Surman"
+                        },
+                        {
+                            "minute": "61",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Charlie Austin",
+                            "assist": "Nathan Redmond"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "31",
+                            "card": "yellow",
+                            "player": "Adam Smith"
+                        },
+                        {
+                            "minute": "31",
+                            "card": "yellow",
+                            "player": "Jermain Defoe"
+                        },
+                        {
+                            "minute": "76",
+                            "card": "yellow",
+                            "player": "Mario Lemina"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "Nathan Redmond",
+                            "out": "James Ward-Prowse"
+                        },
+                        {
+                            "minute": "69",
+                            "in": "Callum Wilson",
+                            "out": "Jermain Defoe"
+                        },
+                        {
+                            "minute": "69",
+                            "in": "Jordon Ibe",
+                            "out": "Junior Stanislas"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Mario Lemina",
+                            "out": "Dusan Tadic"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "Manolo Gabbiadini",
+                            "out": "Steven Davis"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "2",
+                            "in": "Benik Afobe",
+                            "out": "Ryan Fraser"
+                        }
+                    ],
+                    "referee": "Jonathan Moss",
+                    "kick_off": "13:30"
+                }
+            },
+            {
+                "home_team": "Man City",
+                "away_team": "West Ham",
+                "score": "2-1",
+                "url": "https://www.premierleague.com/match/22488",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "44",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Angelo Ogbonna",
+                            "assist": "Aaron Cresswell"
+                        },
+                        {
+                            "minute": "57",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Nicolás Otamendi",
+                            "assist": "Gabriel Jesus"
+                        },
+                        {
+                            "minute": "83",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "David Silva",
+                            "assist": "Kevin De Bruyne"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "17",
+                            "card": "yellow",
+                            "player": "Declan Rice"
+                        },
+                        {
+                            "minute": "59",
+                            "card": "yellow",
+                            "player": "Kevin De Bruyne"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "4",
+                            "card": "yellow",
+                            "player": "Adrián"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "5",
+                            "card": "yellow",
+                            "player": "Gabriel Jesus"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "43",
+                            "in": "Diafra Sakho",
+                            "out": "Cheikhou Kouyaté"
+                        },
+                        {
+                            "minute": "45",
+                            "in": "Gabriel Jesus",
+                            "out": "Danilo"
+                        },
+                        {
+                            "minute": "69",
+                            "in": "Marko Arnautovic",
+                            "out": "Manuel Lanzini"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "Fernandinho",
+                            "out": "Sergio Agüero"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "André Ayew",
+                            "out": "Michail Antonio"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "in": "Bernardo Silva",
+                            "out": "Leroy Sané"
+                        }
+                    ],
+                    "referee": "Mike Dean",
+                    "kick_off": "16:00"
+                }
+            }
+        ]
+    }
+]

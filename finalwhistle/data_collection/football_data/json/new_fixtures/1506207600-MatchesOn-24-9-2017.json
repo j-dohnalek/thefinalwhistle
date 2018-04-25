@@ -1,0 +1,66 @@
+[
+    {
+        "date": "Sunday 24 September 2017",
+        "fixtures": [
+            {
+                "home_team": "Brighton",
+                "away_team": "Newcastle",
+                "score": "1-0",
+                "url": "https://www.premierleague.com/match/22393",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "51",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Tomer Hemed",
+                            "assist": "Dale Stephens"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "13",
+                            "card": "yellow",
+                            "player": "Anthony Knockaert"
+                        },
+                        {
+                            "minute": "77",
+                            "card": "yellow",
+                            "player": "Shane Duffy"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "card": "yellow",
+                            "player": "Jamaal Lascelles"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "68",
+                            "in": "Jonjo Shelvey",
+                            "out": "Isaac Hayden"
+                        },
+                        {
+                            "minute": "71",
+                            "in": "Dwight Gayle",
+                            "out": "Joselu"
+                        },
+                        {
+                            "minute": "81",
+                            "in": "Jamie Murphy",
+                            "out": "Anthony Knockaert"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "Jesús Gámez",
+                            "out": "Chancel Mbemba"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "16:00"
+                }
+            }
+        ]
+    }
+]

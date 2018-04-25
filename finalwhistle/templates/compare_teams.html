@@ -6,6 +6,8 @@
 {% block content %}
 <div class="container py-4">
 
+    <h1>Compare Teams</h1>
+
     <div class="container">
         {% if stats['error'] is not none %}
             {% if stats['error']|length > 0 %}
@@ -19,14 +21,14 @@
     <form method="get">
 
         <select name="team1">
-            <option value=""></option>
+            <option value="">Select Team</option>
             {% for team in teams %}
                 <option value="{{ team['team_id'] }}">{{ team['name'] }}</option>
             {% endfor %}
         </select>
 
         <select name="team2">
-            <option value=""></option>
+            <option value="">Select Team</option>
             {% for team in teams %}
                 <option value="{{ team['team_id'] }}">{{ team['name'] }}</option>
             {% endfor %}
@@ -181,7 +183,6 @@
                             </div>
                         </div>
                     </div>
-
 
                     <div class="col-sm">
                         <!-- Team Info -->

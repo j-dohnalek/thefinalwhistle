@@ -1,0 +1,63 @@
+[
+    {
+        "date": "Monday 12 March 2018",
+        "fixtures": [
+            {
+                "home_team": "Stoke",
+                "away_team": "Man City",
+                "score": "0-2",
+                "url": "https://www.premierleague.com/match/22639",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "10",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "David Silva",
+                            "assist": "Raheem Sterling"
+                        },
+                        {
+                            "minute": "50",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "David Silva",
+                            "assist": "Gabriel Jesus"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "73",
+                            "card": "yellow",
+                            "player": "Joe Allen"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "63",
+                            "in": "Peter Crouch",
+                            "out": "Jesé"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "Bernardo Silva",
+                            "out": "Raheem Sterling"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "Ramadan Sobhi",
+                            "out": "Geoff Cameron"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "in": "Ilkay Gündogan",
+                            "out": "Gabriel Jesus"
+                        }
+                    ],
+                    "referee": "Jonathan Moss",
+                    "kick_off": "20:00"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,241 @@
+[
+    {
+        "date": "Sunday 11 February 2018",
+        "fixtures": [
+            {
+                "home_team": "Huddersfield",
+                "away_team": "Bournemouth",
+                "score": "4-1",
+                "url": "https://www.premierleague.com/match/22604",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "7",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Alex Pritchard",
+                            "assist": "Steve Mounie"
+                        },
+                        {
+                            "minute": "13",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Junior Stanislas",
+                            "assist": "Ryan Fraser"
+                        },
+                        {
+                            "minute": "27",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Steve Mounie",
+                            "assist": "Aaron Mooy"
+                        },
+                        {
+                            "minute": "66",
+                            "scorer": "Steve Cook",
+                            "own_goal": "true",
+                            "penalty": "false"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "5",
+                            "own_goal": "false",
+                            "penalty": "true",
+                            "scorer": "Rajiv van La Parra"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "18",
+                            "card": "yellow",
+                            "player": "Dan Gosling"
+                        },
+                        {
+                            "minute": "56",
+                            "card": "yellow",
+                            "player": "Simon Francis"
+                        },
+                        {
+                            "minute": "71",
+                            "card": "yellow",
+                            "player": "Lys Mousset"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "52",
+                            "in": "Terence Kongolo",
+                            "out": "Scott Malone"
+                        },
+                        {
+                            "minute": "58",
+                            "in": "Joshua King",
+                            "out": "Jordon Ibe"
+                        },
+                        {
+                            "minute": "65",
+                            "in": "Collin Quaner",
+                            "out": "Tom Ince"
+                        },
+                        {
+                            "minute": "65",
+                            "in": "Lys Mousset",
+                            "out": "Junior Stanislas"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "Adam Smith",
+                            "out": "Steve Cook"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Philip Billing",
+                            "out": "Aaron Mooy"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "12:00"
+                }
+            },
+            {
+                "home_team": "Newcastle",
+                "away_team": "Man Utd",
+                "score": "1-0",
+                "url": "https://www.premierleague.com/match/22606",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "65",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Matt Ritchie",
+                            "assist": "Dwight Gayle"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "64",
+                            "card": "yellow",
+                            "player": "Chris Smalling"
+                        },
+                        {
+                            "minute": "88",
+                            "card": "yellow",
+                            "player": "Antonio Valencia"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "66",
+                            "in": "Juan Mata",
+                            "out": "Jesse Lingard"
+                        },
+                        {
+                            "minute": "66",
+                            "in": "Michael Carrick",
+                            "out": "Paul Pogba"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "Scott McTominay",
+                            "out": "Nemanja Matic"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "Joselu",
+                            "out": "Dwight Gayle"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "Christian Atsu",
+                            "out": "Kenedy"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "4",
+                            "in": "Isaac Hayden",
+                            "out": "Ayoze Pérez"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "kick_off": "14:15"
+                }
+            },
+            {
+                "home_team": "Southampton",
+                "away_team": "Liverpool",
+                "score": "0-2",
+                "url": "https://www.premierleague.com/match/22607",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "6",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Roberto Firmino",
+                            "assist": "Mohamed Salah"
+                        },
+                        {
+                            "minute": "42",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Mohamed Salah",
+                            "assist": "Roberto Firmino"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "37",
+                            "card": "yellow",
+                            "player": "Joel Matip"
+                        },
+                        {
+                            "minute": "47",
+                            "card": "yellow",
+                            "player": "Emre Can"
+                        },
+                        {
+                            "minute": "62",
+                            "card": "yellow",
+                            "player": "Oriol Romeu"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "57",
+                            "in": "Sofiane Boufal",
+                            "out": "Mario Lemina"
+                        },
+                        {
+                            "minute": "60",
+                            "in": "James Milner",
+                            "out": "Alex Oxlade-Chamberlain"
+                        },
+                        {
+                            "minute": "71",
+                            "in": "Shane Long",
+                            "out": "James Ward-Prowse"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "Adam Lallana",
+                            "out": "Roberto Firmino"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "Steven Davis",
+                            "out": "Oriol Romeu"
+                        },
+                        {
+                            "minute": "89",
+                            "in": "Dejan Lovren",
+                            "out": "Mohamed Salah"
+                        }
+                    ],
+                    "referee": "Martin Atkinson",
+                    "kick_off": "16:30"
+                }
+            }
+        ]
+    }
+]

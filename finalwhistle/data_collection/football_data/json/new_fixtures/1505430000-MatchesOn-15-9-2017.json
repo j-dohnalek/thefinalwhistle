@@ -1,0 +1,69 @@
+[
+    {
+        "date": "Friday 15 September 2017",
+        "fixtures": [
+            {
+                "home_team": "Bournemouth",
+                "away_team": "Brighton",
+                "score": "2-1",
+                "url": "https://www.premierleague.com/match/22382",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "55",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Solly March",
+                            "assist": "Pascal Groß"
+                        },
+                        {
+                            "minute": "67",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Andrew Surman",
+                            "assist": "Jordon Ibe"
+                        },
+                        {
+                            "minute": "73",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Jermain Defoe",
+                            "assist": "Jordon Ibe"
+                        }
+                    ],
+                    "cards": [],
+                    "substitutions": [
+                        {
+                            "minute": "65",
+                            "in": "Jordon Ibe",
+                            "out": "Ryan Fraser"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "José Izquierdo",
+                            "out": "Anthony Knockaert"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "Glenn Murray",
+                            "out": "Pascal Groß"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "Benik Afobe",
+                            "out": "Jermain Defoe"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "in": "Dan Gosling",
+                            "out": "Joshua King"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "kick_off": "20:00"
+                }
+            }
+        ]
+    }
+]

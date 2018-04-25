@@ -7,11 +7,90 @@
 
 <div class="container py-4">
 
-    {% for scorer in scorers %}
-        {{ scorer['player'] }}, {{ scorer['goals'] }} <br>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card my-2">
+                    <div class="card-header">
+                        <h4>Top 10 Goal Scorers</h4>
+                    </div>
+                    <div class="card-body">
+                        <table class="table">
+                            <tbody>
+                                {% for scorer in statistics['goal_scorers'] %}
+                                <tr>
+                                    <td class="text-center"><img src="{{ scorer['image']}}" height="50"></td>
+                                    <td class="text-center"><a href="{{url_for('player_page', id=scorer['id'])}}">{{ scorer['player'] }}</a></td>
+                                    <td class="text-center">{{ scorer['goals'] }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
 
-    {% endfor %}
+                <div class="card my-2">
+                    <div class="card-header">
+                        <h4>Top 10 Yellow Cards</h4>
+                    </div>
+                    <div class="card-body">
+                        <table class="table">
+                            <tbody>
+                                {% for scorer in statistics['yellow_cards'] %}
+                                <tr>
+                                    <td class="text-center"><img src="{{ scorer['image']}}" height="50"></td>
+                                    <td class="text-center"><a href="{{url_for('player_page', id=scorer['id'])}}">{{ scorer['player'] }}</a></td>
+                                    <td class="text-center">{{ scorer['goals'] }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-sm">
+
+                <div class="card my-2">
+                    <div class="card-header">
+                        <h4>Top 10 Assistants</h4>
+                    </div>
+                    <div class="card-body">
+                        <table class="table">
+                            <tbody>
+                                {% for scorer in statistics['assistants'] %}
+                                <tr>
+                                    <td class="text-center"><img src="{{ scorer['image']}}" height="50"></td>
+                                    <td class="text-center"><a href="{{url_for('player_page', id=scorer['id'])}}">{{ scorer['player'] }}</a></td>
+                                    <td class="text-center">{{ scorer['goals'] }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="card my-2">
+                    <div class="card-header">
+                        <h4>Top 10 Red Cards</h4>
+                    </div>
+                    <div class="card-body">
+                        <table class="table">
+                            <tbody>
+                                {% for scorer in statistics['red_cards'] %}
+                                <tr>
+                                    <td class="text-center"><img src="{{ scorer['image']}}" height="50"></td>
+                                    <td class="text-center"><a href="{{url_for('player_page', id=scorer['id'])}}">{{ scorer['player'] }}</a></td>
+                                    <td class="text-center">{{ scorer['goals'] }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 {% endblock content %}

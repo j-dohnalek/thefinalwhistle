@@ -2,11 +2,13 @@ from flask import render_template
 
 from finalwhistle import app
 from finalwhistle.views.data_views import get_league_table
-
+from finalwhistle.views.misc_helper import validate_contact_us
 
 ################
 # misc routing #
 ################
+
+
 @app.route('/', methods=['GET'])
 def home():
     return render_template('index.html', table=get_league_table())
@@ -22,18 +24,16 @@ def about():
     return 'about page'
 
 
-@app.route('/contact-us', methods=['GET'])
+@app.route('/contact-us', methods=['GET', 'POST'])
 def contact_us():
-    return 'contact us form'
+    notification = validate_contact_us()
+    return render_template('contact.html', notification=notification)
 
-
-@app.route('/contact-us', methods=['POST'])
-def perform_contact_us():
-    return 'contact us post'
 
 @app.route('/404', methods=['GET'])
 def error_404():
     return render_template('404.html')
+
 
 @app.route('/500', methods=['GET'])
 def error_500():

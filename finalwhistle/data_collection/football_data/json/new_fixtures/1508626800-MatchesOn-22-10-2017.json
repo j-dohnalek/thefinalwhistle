@@ -1,0 +1,202 @@
+[
+    {
+        "date": "Sunday 22 October 2017",
+        "fixtures": [
+            {
+                "home_team": "Everton",
+                "away_team": "Arsenal",
+                "score": "2-5",
+                "url": "https://www.premierleague.com/match/22423",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "12",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Wayne Rooney"
+                        },
+                        {
+                            "minute": "40",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Nacho Monreal"
+                        },
+                        {
+                            "minute": "53",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Mesut Özil",
+                            "assist": "Alexis Sánchez"
+                        },
+                        {
+                            "minute": "74",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Alexandre Lacazette",
+                            "assist": "Mesut Özil"
+                        },
+                        {
+                            "minute": "90",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Aaron Ramsey",
+                            "assist": "Jack Wilshere"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Oumar Niasse"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "5",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Alexis Sánchez",
+                            "assist": "Aaron Ramsey"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "16",
+                            "card": "yellow",
+                            "player": "Ashley Williams"
+                        },
+                        {
+                            "minute": "34",
+                            "card": "yellow",
+                            "player": "Idrissa Gueye"
+                        },
+                        {
+                            "minute": "68",
+                            "card": "red",
+                            "player": "Idrissa Gueye"
+                        },
+                        {
+                            "minute": "86",
+                            "card": "yellow",
+                            "player": "Laurent Koscielny"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "Tom Davies",
+                            "out": "Ashley Williams"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Ademola Lookman",
+                            "out": "Wayne Rooney"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "Oumar Niasse",
+                            "out": "Dominic Calvert-Lewin"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "Jack Wilshere",
+                            "out": "Alexandre Lacazette"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Francis Coquelin",
+                            "out": "Mesut Özil"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "kick_off": "13:30"
+                }
+            },
+            {
+                "home_team": "Spurs",
+                "away_team": "Liverpool",
+                "score": "4-1",
+                "url": "https://www.premierleague.com/match/22430",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "4",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Harry Kane",
+                            "assist": "Kieran Trippier"
+                        },
+                        {
+                            "minute": "12",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Son Heung-Min",
+                            "assist": "Harry Kane"
+                        },
+                        {
+                            "minute": "24",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Mohamed Salah",
+                            "assist": "Jordan Henderson"
+                        },
+                        {
+                            "minute": "45",
+                            "additional": "3",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Dele Alli"
+                        },
+                        {
+                            "minute": "56",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Harry Kane"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "45",
+                            "additional": "2",
+                            "card": "yellow",
+                            "player": "Emre Can"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "31",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "out": "Dejan Lovren"
+                        },
+                        {
+                            "minute": "69",
+                            "in": "Moussa Sissoko",
+                            "out": "Son Heung-Min"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "Daniel Sturridge",
+                            "out": "Roberto Firmino"
+                        },
+                        {
+                            "minute": "81",
+                            "in": "Eric Dier",
+                            "out": "Christian Eriksen"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "Marko Grujic",
+                            "out": "Emre Can"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "Fernando Llorente",
+                            "out": "Harry Kane"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "16:00"
+                }
+            }
+        ]
+    }
+]

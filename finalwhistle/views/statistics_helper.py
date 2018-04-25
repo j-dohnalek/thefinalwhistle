@@ -5,6 +5,8 @@ from sqlalchemy import or_, desc, func, asc
 from flask import request
 from finalwhistle import db
 
+from finalwhistle.views.data_views_helper import get_player_image, get_player_information
+
 # CONSTANTS #####################################################################
 
 
@@ -14,8 +16,39 @@ PLAYER_IMAGES = ROOT + 'cache/players_images.json'
 
 # FUNCTIONS #####################################################################
 
+def get_player_comparison():
 
-def get_compare_teams():
+    # No POST request
+    if len(request.args) == 0:
+        return dict(team1=None, team2=None, error=None)
+
+    try:
+        player1 = int(request.args.get('p1'))
+    except ValueError:
+        return dict(team1=None, team2=None, error='Two players required, please select two players')
+
+    try:
+        player2 = int(request.args.get('p2'))
+    except ValueError:
+        return dict(team1=None, team2=None, error='Two players required, please select two players')
+
+    # In case data is submitted manually check if teams exist
+    selected_player1 = Player.query.filter_by(player_id=player1)
+    selected_player2 = Player.query.filter_by(player_id=player2)
+
+    if selected_player1 is None or selected_player2 is None or player1 == player2:
+        return dict(team1=None, team2=None, error='Invalid combination of clubs, please choose different clubs')
+
+    return dict(
+        player1=get_player_information(player1),
+        player2=get_player_information(player2),
+        error=''
+    )
+
+    return ''
+
+
+def get_team_comparison():
     """
     Compare two team together based on goals, cards, won games, lost games, etc.
     :return:
@@ -175,6 +208,18 @@ def get_common_matches(team1, team2):
     return list_of_matches
 
 
+def top_tens_statistic():
+
+    top_ten = {
+        'goal_scorers': top_ten_scorers(),
+        'yellow_cards': top_ten_cards(),
+        'red_cards': top_ten_cards(yellow=False),
+        'assistants': top_ten_assists()
+    }
+
+    return top_ten
+
+
 def top_ten_scorers():
     # Away Statistic Summary
     scorers = db.session.query(
@@ -185,8 +230,76 @@ def top_ten_scorers():
     top_scorers = []
     count = 1
     for scorer in scorers:
+
         player = Player.query.filter_by(player_id=scorer.player).first()
-        top_scorers.append(dict(player=player.name, goals=scorer.goals))
+
+        top_scorers.append(
+            dict(
+                image=get_player_image(player.name, small=True),
+                player=player.name,
+                goals=scorer.goals,
+                id=player.player_id
+            )
+        )
+
+        if count == 10:
+            break
+        count += 1
+
+    return top_scorers
+
+
+def top_ten_assists():
+    # Away Statistic Summary
+    scorers = db.session.query(
+        Goal.assist_player,
+        db.func.count(Goal.assist_player).label('assists'),
+    ).group_by(Goal.assist_player).order_by(db.func.count(Goal.assist_player).desc()).all()
+
+    top_scorers = []
+    count = 1
+    for scorer in scorers:
+
+        player = Player.query.filter_by(player_id=scorer.assist_player).first()
+
+        top_scorers.append(
+            dict(
+                image=get_player_image(player.name, small=True),
+                player=player.name,
+                goals=scorer.assists,
+                id=player.player_id
+            )
+        )
+
+        if count == 10:
+            break
+        count += 1
+
+    return top_scorers
+
+
+def top_ten_cards(yellow=True):
+    # Away Statistic Summary
+    statistics = db.session.query(
+        Card.player,
+        db.func.count(Card.player).label('cards'),
+    ).filter(Card.yellow == yellow).group_by(Card.player).order_by(db.func.count(Card.player).desc()).all()
+
+    top_scorers = []
+    count = 1
+    for top_player in statistics:
+
+        player = Player.query.filter_by(player_id=top_player.player).first()
+
+        top_scorers.append(
+            dict(
+                image=get_player_image(player.name, small=True),
+                player=player.name,
+                goals=top_player.cards,
+                id=player.player_id
+            )
+        )
+
         if count == 10:
             break
         count += 1

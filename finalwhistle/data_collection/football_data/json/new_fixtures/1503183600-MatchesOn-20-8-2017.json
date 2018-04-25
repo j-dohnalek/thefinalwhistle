@@ -1,0 +1,193 @@
+[
+    {
+        "date": "Sunday 20 August 2017",
+        "fixtures": [
+            {
+                "home_team": "Huddersfield",
+                "away_team": "Newcastle",
+                "score": "1-0",
+                "url": "https://www.premierleague.com/match/22354",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "50",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Aaron Mooy",
+                            "assist": "Elias Kachunga"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "41",
+                            "card": "yellow",
+                            "player": "Matt Ritchie"
+                        },
+                        {
+                            "minute": "53",
+                            "card": "yellow",
+                            "player": "Isaac Hayden"
+                        },
+                        {
+                            "minute": "64",
+                            "card": "yellow",
+                            "player": "Joselu"
+                        },
+                        {
+                            "minute": "66",
+                            "card": "yellow",
+                            "player": "Philip Billing"
+                        },
+                        {
+                            "minute": "77",
+                            "card": "yellow",
+                            "player": "Kasey Palmer"
+                        },
+                        {
+                            "minute": "88",
+                            "card": "yellow",
+                            "player": "Steve Mounie"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "card": "yellow",
+                            "player": "Jamaal Lascelles"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "52",
+                            "in": "Joselu",
+                            "out": "Dwight Gayle"
+                        },
+                        {
+                            "minute": "69",
+                            "in": "Collin Quaner",
+                            "out": "Rajiv van La Parra"
+                        },
+                        {
+                            "minute": "72",
+                            "in": "Kasey Palmer",
+                            "out": "Elias Kachunga"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Mohamed Diamé",
+                            "out": "Isaac Hayden"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "Jacob Murphy",
+                            "out": "Ayoze Pérez"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "2",
+                            "in": "Michael Hefele",
+                            "out": "Tom Ince"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "kick_off": "13:30"
+                }
+            },
+            {
+                "home_team": "Spurs",
+                "away_team": "Chelsea",
+                "score": "1-2",
+                "url": "https://www.premierleague.com/match/22360",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "24",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Marcos Alonso"
+                        },
+                        {
+                            "minute": "82",
+                            "scorer": "Michy Batshuayi",
+                            "own_goal": "true",
+                            "penalty": "false"
+                        },
+                        {
+                            "minute": "88",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Marcos Alonso",
+                            "assist": "Pedro"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "30",
+                            "card": "yellow",
+                            "player": "Antonio Rüdiger"
+                        },
+                        {
+                            "minute": "31",
+                            "card": "yellow",
+                            "player": "Eric Dier"
+                        },
+                        {
+                            "minute": "38",
+                            "card": "yellow",
+                            "player": "David Luiz"
+                        },
+                        {
+                            "minute": "51",
+                            "card": "yellow",
+                            "player": "Jan Vertonghen"
+                        },
+                        {
+                            "minute": "83",
+                            "card": "yellow",
+                            "player": "Toby Alderweireld"
+                        },
+                        {
+                            "minute": "87",
+                            "card": "yellow",
+                            "player": "Marcos Alonso"
+                        },
+                        {
+                            "minute": "88",
+                            "card": "yellow",
+                            "player": "Harry Kane"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "68",
+                            "in": "Son Heung-Min",
+                            "out": "Eric Dier"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "Pedro",
+                            "out": "Willian"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "Michy Batshuayi",
+                            "out": "Álvaro Morata"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "Moussa Sissoko",
+                            "out": "Ben Davies"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "in": "Vincent Janssen",
+                            "out": "Kieran Trippier"
+                        }
+                    ],
+                    "referee": "Anthony Taylor",
+                    "kick_off": "16:00"
+                }
+            }
+        ]
+    }
+]

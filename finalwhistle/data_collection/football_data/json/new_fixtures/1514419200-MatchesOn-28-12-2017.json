@@ -1,0 +1,93 @@
+[
+    {
+        "date": "Thursday 28 December 2017",
+        "fixtures": [
+            {
+                "home_team": "Crystal Palace",
+                "away_team": "Arsenal",
+                "score": "2-3",
+                "url": "https://www.premierleague.com/match/22534",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "25",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Shkodran Mustafi"
+                        },
+                        {
+                            "minute": "49",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Andros Townsend",
+                            "assist": "Wilfried Zaha"
+                        },
+                        {
+                            "minute": "62",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Alexis Sánchez",
+                            "assist": "Alexandre Lacazette"
+                        },
+                        {
+                            "minute": "66",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Alexis Sánchez",
+                            "assist": "Jack Wilshere"
+                        },
+                        {
+                            "minute": "89",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "James Tomkins",
+                            "assist": "Andros Townsend"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "29",
+                            "card": "yellow",
+                            "player": "Calum Chambers"
+                        },
+                        {
+                            "minute": "45",
+                            "additional": "2",
+                            "card": "yellow",
+                            "player": "Wilfried Zaha"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "53",
+                            "in": "James McArthur",
+                            "out": "Yohan Cabaye"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "Bakary Sako",
+                            "out": "Ruben Loftus-Cheek"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "Francis Coquelin",
+                            "out": "Alexandre Lacazette"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "Timothy Fosu-Mensah",
+                            "out": "Martin Kelly"
+                        },
+                        {
+                            "minute": "87",
+                            "in": "Ainsley Maitland-Niles",
+                            "out": "Granit Xhaka"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "20:00"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,310 @@
+[
+    {
+        "date": "Tuesday 28 November 2017",
+        "fixtures": [
+            {
+                "home_team": "Leicester",
+                "away_team": "Spurs",
+                "score": "2-1",
+                "url": "https://www.premierleague.com/match/22475",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "13",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Jamie Vardy",
+                            "assist": "Marc Albrighton"
+                        },
+                        {
+                            "minute": "45",
+                            "additional": "1",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Riyad Mahrez",
+                            "assist": "Wilfred Ndidi"
+                        },
+                        {
+                            "minute": "79",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Harry Kane",
+                            "assist": "Erik Lamela"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "20",
+                            "card": "yellow",
+                            "player": "Jan Vertonghen"
+                        },
+                        {
+                            "minute": "89",
+                            "card": "yellow",
+                            "player": "Erik Lamela"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "5",
+                            "card": "yellow",
+                            "player": "Kasper Schmeichel"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "57",
+                            "in": "Son Heung-Min",
+                            "out": "Moussa Sissoko"
+                        },
+                        {
+                            "minute": "69",
+                            "in": "Fernando Llorente",
+                            "out": "Mousa Dembélé"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "Demarai Gray",
+                            "out": "Riyad Mahrez"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "Erik Lamela",
+                            "out": "Christian Eriksen"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "Hamza Choudhury",
+                            "out": "Shinji Okazaki"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "Islam Slimani",
+                            "out": "Jamie Vardy"
+                        }
+                    ],
+                    "referee": "Anthony Taylor",
+                    "kick_off": "19:45"
+                }
+            },
+            {
+                "home_team": "Brighton",
+                "away_team": "Crystal Palace",
+                "score": "0-0",
+                "url": "https://www.premierleague.com/match/22474",
+                "details": {
+                    "goals": [],
+                    "cards": [
+                        {
+                            "minute": "48",
+                            "card": "yellow",
+                            "player": "José Izquierdo"
+                        },
+                        {
+                            "minute": "65",
+                            "card": "yellow",
+                            "player": "Lewis Dunk"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "66",
+                            "in": "James McArthur",
+                            "out": "Yohan Cabaye"
+                        },
+                        {
+                            "minute": "71",
+                            "in": "Solly March",
+                            "out": "José Izquierdo"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Isaiah Brown",
+                            "out": "Pascal Groß"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "Tomer Hemed",
+                            "out": "Glenn Murray"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "19:45"
+                }
+            },
+            {
+                "home_team": "West Brom",
+                "away_team": "Newcastle",
+                "score": "2-2",
+                "url": "https://www.premierleague.com/match/22477",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "45",
+                            "additional": "1",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Hal Robson-Kanu",
+                            "assist": "Kieran Gibbs"
+                        },
+                        {
+                            "minute": "56",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Sam Field",
+                            "assist": "Matt Phillips"
+                        },
+                        {
+                            "minute": "59",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Ciaran Clark",
+                            "assist": "Matt Ritchie"
+                        },
+                        {
+                            "minute": "83",
+                            "scorer": "Jonny Evans",
+                            "own_goal": "true",
+                            "penalty": "false"
+                        }
+                    ],
+                    "cards": [],
+                    "substitutions": [
+                        {
+                            "minute": "64",
+                            "in": "Rolando Aarons",
+                            "out": "Jacob Murphy"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "Claudio Yacob",
+                            "out": "Gareth Barry"
+                        },
+                        {
+                            "minute": "73",
+                            "in": "Aleksandar Mitrovic",
+                            "out": "Joselu"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "Jonjo Shelvey",
+                            "out": "Isaac Hayden"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "James McClean",
+                            "out": "Kieran Gibbs"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "Grzegorz Krychowiak",
+                            "out": "Sam Field"
+                        }
+                    ],
+                    "referee": "Lee Probert",
+                    "kick_off": "20:00"
+                }
+            },
+            {
+                "home_team": "Watford",
+                "away_team": "Man Utd",
+                "score": "2-4",
+                "url": "https://www.premierleague.com/match/22476",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "19",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Ashley Young",
+                            "assist": "Jesse Lingard"
+                        },
+                        {
+                            "minute": "25",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Ashley Young"
+                        },
+                        {
+                            "minute": "32",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Anthony Martial",
+                            "assist": "Romelu Lukaku"
+                        },
+                        {
+                            "minute": "77",
+                            "own_goal": "false",
+                            "penalty": "true",
+                            "scorer": "Troy Deeney"
+                        },
+                        {
+                            "minute": "84",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Abdoulaye Doucouré",
+                            "assist": "André Carrillo"
+                        },
+                        {
+                            "minute": "86",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Jesse Lingard",
+                            "assist": "Ander Herrera"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "24",
+                            "card": "yellow",
+                            "player": "Abdoulaye Doucouré"
+                        },
+                        {
+                            "minute": "38",
+                            "card": "yellow",
+                            "player": "Marcos Rojo"
+                        },
+                        {
+                            "minute": "41",
+                            "card": "yellow",
+                            "player": "Adrian Mariappa"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "54",
+                            "in": "Ander Herrera",
+                            "out": "Nemanja Matic"
+                        },
+                        {
+                            "minute": "58",
+                            "in": "Roberto Pereyra",
+                            "out": "Will Hughes"
+                        },
+                        {
+                            "minute": "58",
+                            "in": "André Carrillo",
+                            "out": "Sebastian Prödl"
+                        },
+                        {
+                            "minute": "65",
+                            "in": "Marcus Rashford",
+                            "out": "Anthony Martial"
+                        },
+                        {
+                            "minute": "72",
+                            "in": "Troy Deeney",
+                            "out": "Andre Gray"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "Zlatan Ibrahimovic",
+                            "out": "Jesse Lingard"
+                        }
+                    ],
+                    "referee": "Jonathan Moss",
+                    "kick_off": "20:00"
+                }
+            }
+        ]
+    }
+]

@@ -11,63 +11,89 @@
 
 <div class="container py-4">
 
-    <div class="container">
-        <div class="row">
-            <div class="col-8"><img src="{{data['img']}}" width="250" /></div>
-            <div class="col-4 pull-right"><span class="number">{{ data['shirt_number'] }}</span></div>
+    <div class="row">
+        <div class="col-sm">
+            <div class="container">
+                <div class="card my-2" style="width: 18rem;">
+                    <img class="card-img-top" src="{{data['img']}}" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h3>{{ data['name'] }}</h3>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row">
-            <h1>{{ data['name'] }}</h1>
+        <div class="col-sm">
+            <div class="container">
+                <span class="number">{{ data['shirt_number'] }}</span>
+            </div>
         </div>
     </div>
 
     <div class="row">
-        <table class="table">
-            <tr>
-                <td scope="row">Team</td>
-                <td>{{ data['team'] }}</td>
-            </tr>
-            <tr>
-                <td scope="row">Position</td>
-                <td>{{ data['position'] }}</td>
-            </tr>
-            <tr>
-                <td scope="row">Date of Birth</td>
-                <td>{{ data['dob'] }}</td>
-            </tr>
-            <tr>
-                <td scope="row">Weight</td>
-                <td>{{ data['weight'] }}</td>
-            </tr>
-            <tr>
-                <td scope="row">Height</td>
-                <td>{{ data['height'] }}</td>
-            </tr>
-        </table>
+        <div class="col-sm">
+            <div class="container">
 
-        <table class="table">
+                <div class="card my-2">
+                    <div class="card-header">
+                        <h4>Player Information</h4>
+                    </div>
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td scope="row">Team</td>
+                                <td>{{ data['team'] }}</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Position</td>
+                                <td>{{ data['position'] }}</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Date of Birth</td>
+                                <td>{{ data['dob'] }}</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Weight</td>
+                                <td>{{ data['weight'] }}</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Height</td>
+                                <td>{{ data['height'] }}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-            <tr>
-                <td scope="row">Goal Scored</td>
-                <td>{{ data['goals_scored'] }}</td>
-            </tr>
-
-            <tr>
-                <td scope="row">Goal Assisted</td>
-                <td>{{ data['goals_assisted'] }}</td>
-            </tr>
-
-            <tr>
-                <td scope="row">Yellow Cards</td>
-                <td>{{ data['yellow_cards'] }}</td>
-            </tr>
-
-            <tr>
-                <td scope="row">Red Cards</td>
-                <td>{{ data['red_cards'] }}</td>
-            </tr>
-
-        </table>
+        <div class="col-sm">
+            <div class="container">
+                <div class="card my-2">
+                    <div class="card-header">
+                        <h4>Player Statistics</h4>
+                    </div>
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td scope="row">Goal Scored</td>
+                                <td>{{ data['goals_scored'] }}</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Goal Assisted</td>
+                                <td>{{ data['goals_assisted'] }}</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Yellow Cards</td>
+                                <td>{{ data['yellow_cards'] }}</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Red Cards</td>
+                                <td>{{ data['red_cards'] }}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
