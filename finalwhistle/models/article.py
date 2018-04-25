@@ -36,6 +36,16 @@ class Article(db.Model):
         self.body = body
         self.title = title
 
+    def preview(self, limit=60):
+        """
+        Returns characters up to 'length' after removing html tags from article body
+        :param limit: preview length
+        :return: article preview 'length' characters long
+        """
+        from helpers import remove_html_tags
+        stripped = remove_html_tags(self.body)
+        return stripped[:limit]
+
 
     # http://docs.sqlalchemy.org/en/rel_0_9/orm/mapped_attributes.html#simple-validators
     # @validates('status')
