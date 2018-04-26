@@ -11,7 +11,10 @@ def generate_choices_list():
     """
     team_list = []
     for team in get_all_teams():
-        team_list.append((team.get('team_id'), team.get('name')))
+        try:
+            team_list.append((team.get('team_id'), team.get('name')))
+        except AttributeError as e:
+            print(e)
     return team_list
 
 

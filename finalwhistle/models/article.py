@@ -3,7 +3,6 @@ Database models for news article system
 """
 from sqlalchemy import func
 from sqlalchemy.exc import SQLAlchemyError
-
 from finalwhistle import db
 
 

@@ -2,6 +2,8 @@ from finalwhistle import app
 from finalwhistle.models.user import attempt_login, create_new_user, get_user_by_email
 from finalwhistle.views.forms.login import LoginForm
 from finalwhistle.views.forms.registration import RegistrationForm
+from finalwhistle.views.data_views_helper import get_all_teams, get_league_table
+from finalwhistle.views.forms.edit_account_info import EditAccountInfo
 from flask import request, render_template, redirect, url_for, flash
 from flask_login import login_required, login_user, logout_user, current_user
 
@@ -9,10 +11,6 @@ from flask_login import login_required, login_user, logout_user, current_user
 #################################
 # guest account-related routing #
 #################################
-from views.data_views_helper import get_all_teams, get_league_table
-from views.forms.edit_account_info import EditAccountInfo
-
-
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if current_user.is_authenticated:
