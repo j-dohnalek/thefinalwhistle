@@ -1,0 +1,109 @@
+[
+    {
+        "date": "Friday 11 August 2017",
+        "fixtures": [
+            {
+                "home_team": "Arsenal",
+                "away_team": "Leicester",
+                "score": "4-3",
+                "url": "https://www.premierleague.com/match/22342",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "2",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Alexandre Lacazette",
+                            "assist": "Mohamed Elneny"
+                        },
+                        {
+                            "minute": "5",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Shinji Okazaki",
+                            "assist": "Harry Maguire"
+                        },
+                        {
+                            "minute": "29",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Jamie Vardy",
+                            "assist": "Marc Albrighton"
+                        },
+                        {
+                            "minute": "45",
+                            "additional": "2",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Danny Welbeck",
+                            "assist": "Sead Kolasinac"
+                        },
+                        {
+                            "minute": "56",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Jamie Vardy",
+                            "assist": "Riyad Mahrez"
+                        },
+                        {
+                            "minute": "83",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Aaron Ramsey",
+                            "assist": "Granit Xhaka"
+                        },
+                        {
+                            "minute": "85",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Olivier Giroud",
+                            "assist": "Granit Xhaka"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "90",
+                            "additional": "4",
+                            "card": "yellow",
+                            "player": "Wes Morgan"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "67",
+                            "in": "Aaron Ramsey",
+                            "out": "Mohamed Elneny"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "Olivier Giroud",
+                            "out": "Rob Holding"
+                        },
+                        {
+                            "minute": "72",
+                            "in": "Daniel Amartey",
+                            "out": "Shinji Okazaki"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "Theo Walcott",
+                            "out": "Danny Welbeck"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Kelechi Iheanacho",
+                            "out": "Matty James"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "Demarai Gray",
+                            "out": "Marc Albrighton"
+                        }
+                    ],
+                    "referee": "Mike Dean",
+                    "kick_off": "19:45"
+                }
+            }
+        ]
+    }
+]

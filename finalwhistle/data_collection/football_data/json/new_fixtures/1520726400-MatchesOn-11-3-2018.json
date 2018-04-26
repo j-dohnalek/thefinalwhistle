@@ -1,0 +1,180 @@
+[
+    {
+        "date": "Sunday 11 March 2018",
+        "fixtures": [
+            {
+                "home_team": "Arsenal",
+                "away_team": "Watford",
+                "score": "3-0",
+                "url": "https://www.premierleague.com/match/22632",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "8",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Shkodran Mustafi",
+                            "assist": "Mesut Özil"
+                        },
+                        {
+                            "minute": "59",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Pierre-Emerick Aubameyang",
+                            "assist": "Henrikh Mkhitaryan"
+                        },
+                        {
+                            "minute": "77",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Henrikh Mkhitaryan",
+                            "assist": "Pierre-Emerick Aubameyang"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "55",
+                            "card": "yellow",
+                            "player": "Shkodran Mustafi"
+                        },
+                        {
+                            "minute": "66",
+                            "card": "yellow",
+                            "player": "José Holebas"
+                        },
+                        {
+                            "minute": "90",
+                            "card": "yellow",
+                            "player": "Granit Xhaka"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "62",
+                            "in": "Will Hughes",
+                            "out": "Kiko Femenía"
+                        },
+                        {
+                            "minute": "66",
+                            "in": "Danny Welbeck",
+                            "out": "Alex Iwobi"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "Stefano Okaka",
+                            "out": "Roberto Pereyra"
+                        },
+                        {
+                            "minute": "73",
+                            "in": "Calum Chambers",
+                            "out": "Shkodran Mustafi"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "Jack Wilshere",
+                            "out": "Henrikh Mkhitaryan"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "Miguel Britos",
+                            "out": "Daryl Janmaat"
+                        }
+                    ],
+                    "referee": "Martin Atkinson",
+                    "kick_off": "13:30"
+                }
+            },
+            {
+                "home_team": "Bournemouth",
+                "away_team": "Spurs",
+                "score": "1-4",
+                "url": "https://www.premierleague.com/match/22633",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "7",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Junior Stanislas",
+                            "assist": "Adam Smith"
+                        },
+                        {
+                            "minute": "35",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Dele Alli",
+                            "assist": "Serge Aurier"
+                        },
+                        {
+                            "minute": "62",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Son Heung-Min",
+                            "assist": "Dele Alli"
+                        },
+                        {
+                            "minute": "87",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Son Heung-Min",
+                            "assist": "Christian Eriksen"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Serge Aurier"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "18",
+                            "card": "yellow",
+                            "player": "Danny Rose"
+                        },
+                        {
+                            "minute": "61",
+                            "card": "yellow",
+                            "player": "Dan Gosling"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "34",
+                            "in": "Erik Lamela",
+                            "out": "Harry Kane"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "Joshua King",
+                            "out": "Lys Mousset"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "Jordon Ibe",
+                            "out": "Charlie Daniels"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Jermain Defoe",
+                            "out": "Junior Stanislas"
+                        },
+                        {
+                            "minute": "81",
+                            "in": "Kieran Trippier",
+                            "out": "Danny Rose"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "Moussa Sissoko",
+                            "out": "Dele Alli"
+                        }
+                    ],
+                    "referee": "Mike Dean",
+                    "kick_off": "16:00"
+                }
+            }
+        ]
+    }
+]

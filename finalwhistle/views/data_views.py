@@ -5,13 +5,13 @@ from flask import redirect, url_for
 
 
 from finalwhistle.views.data_views_helper import list_all_matches, get_match_information, STATS, get_all_players, \
-    get_player_information, get_all_teams, get_team_information, get_league_table
+    get_player_information, get_all_teams, get_team_information, get_league_table, list_referees
+
+from finalwhistle.views.statistics_helper import top_tens_statistic, get_team_comparison, get_player_comparison
 
 #####################
 # data view routing #
 #####################
-
-
 @app.route('/matches', methods=['GET'])
 def matches_overview():
     return render_template('matches.html', data=list_all_matches())
@@ -64,9 +64,32 @@ def league_table():
 
 @app.route('/news', methods=['GET'])
 def news_overview():
-    return render_template('news.html')
+    from finalwhistle.models.article import get_latest_news
+    return render_template('news.html', news=get_latest_news())
 
 
 @app.route('/news/<id>', methods=['GET'])
 def news_page(id):
     return f'news page {id}'
+
+
+@app.route('/compare-teams', methods=['GET'])
+def compare_teams():
+    comparison = get_team_comparison()
+    return render_template('compare_teams.html', teams=get_all_teams(), stats=comparison)
+
+
+@app.route('/compare-players', methods=['GET'])
+def compare_players():
+    comparison = get_player_comparison()
+    return render_template('compare_players.html', players=get_all_players(), stats=comparison)
+
+
+@app.route('/top-tens', methods=['GET'])
+def top_tens():
+    return render_template('top_tens.html', statistics=top_tens_statistic())
+
+
+@app.route('/referees', methods=['GET'])
+def referee_overview():
+    return render_template('referees.html', referees=list_referees())

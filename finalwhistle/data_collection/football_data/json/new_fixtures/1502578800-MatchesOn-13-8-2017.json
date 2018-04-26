@@ -1,0 +1,181 @@
+[
+    {
+        "date": "Sunday 13 August 2017",
+        "fixtures": [
+            {
+                "home_team": "Newcastle",
+                "away_team": "Spurs",
+                "score": "0-2",
+                "url": "https://www.premierleague.com/match/22348",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "61",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Dele Alli",
+                            "assist": "Christian Eriksen"
+                        },
+                        {
+                            "minute": "70",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Ben Davies",
+                            "assist": "Christian Eriksen"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "31",
+                            "card": "yellow",
+                            "player": "Harry Kane"
+                        },
+                        {
+                            "minute": "48",
+                            "card": "red",
+                            "player": "Jonjo Shelvey"
+                        },
+                        {
+                            "minute": "52",
+                            "card": "yellow",
+                            "player": "Matt Ritchie"
+                        },
+                        {
+                            "minute": "86",
+                            "card": "yellow",
+                            "player": "Ben Davies"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "7",
+                            "in": "Jamaal Lascelles",
+                            "out": "Paul Dummett"
+                        },
+                        {
+                            "minute": "34",
+                            "in": "Chancel Mbemba",
+                            "out": "Florian Lejeune"
+                        },
+                        {
+                            "minute": "58",
+                            "in": "Son Heung-Min",
+                            "out": "Moussa Sissoko"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Mikel Merino",
+                            "out": "Dwight Gayle"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Victor Wanyama",
+                            "out": "Dele Alli"
+                        },
+                        {
+                            "minute": "90",
+                            "in": "Harry Winks",
+                            "out": "Mousa Dembélé"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "13:30"
+                }
+            },
+            {
+                "home_team": "Man Utd",
+                "away_team": "West Ham",
+                "score": "4-0",
+                "url": "https://www.premierleague.com/match/22347",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "33",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Romelu Lukaku",
+                            "assist": "Marcus Rashford"
+                        },
+                        {
+                            "minute": "53",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Romelu Lukaku",
+                            "assist": "Henrikh Mkhitaryan"
+                        },
+                        {
+                            "minute": "87",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Anthony Martial",
+                            "assist": "Henrikh Mkhitaryan"
+                        },
+                        {
+                            "minute": "90",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Paul Pogba",
+                            "assist": "Anthony Martial"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "43",
+                            "card": "yellow",
+                            "player": "Eric Bailly"
+                        },
+                        {
+                            "minute": "51",
+                            "card": "yellow",
+                            "player": "Pablo Zabaleta"
+                        },
+                        {
+                            "minute": "60",
+                            "card": "yellow",
+                            "player": "Antonio Valencia"
+                        },
+                        {
+                            "minute": "66",
+                            "card": "yellow",
+                            "player": "Angelo Ogbonna"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "60",
+                            "in": "Diafra Sakho",
+                            "out": "Edimilson Fernandes"
+                        },
+                        {
+                            "minute": "61",
+                            "in": "Declan Rice",
+                            "out": "Mark Noble"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Marouane Fellaini",
+                            "out": "Juan Mata"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "Anthony Martial",
+                            "out": "Marcus Rashford"
+                        },
+                        {
+                            "minute": "81",
+                            "in": "Aaron Cresswell",
+                            "out": "Arthur Masuaku"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "Jesse Lingard",
+                            "out": "Henrikh Mkhitaryan"
+                        }
+                    ],
+                    "referee": "Martin Atkinson",
+                    "kick_off": "16:00"
+                }
+            }
+        ]
+    }
+]

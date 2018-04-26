@@ -1,0 +1,88 @@
+[
+    {
+        "date": "Sunday 19 November 2017",
+        "fixtures": [
+            {
+                "home_team": "Watford",
+                "away_team": "West Ham",
+                "score": "2-0",
+                "url": "https://www.premierleague.com/match/22460",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "11",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Will Hughes",
+                            "assist": "Andre Gray"
+                        },
+                        {
+                            "minute": "64",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Richarlison",
+                            "assist": "Will Hughes"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "28",
+                            "card": "yellow",
+                            "player": "Andy Carroll"
+                        },
+                        {
+                            "minute": "29",
+                            "card": "yellow",
+                            "player": "Miguel Britos"
+                        },
+                        {
+                            "minute": "35",
+                            "card": "yellow",
+                            "player": "Marko Arnautovic"
+                        },
+                        {
+                            "minute": "41",
+                            "card": "yellow",
+                            "player": "Pedro Obiang"
+                        },
+                        {
+                            "minute": "83",
+                            "card": "yellow",
+                            "player": "Mark Noble"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "65",
+                            "in": "Diafra Sakho",
+                            "out": "Andy Carroll"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Arthur Masuaku",
+                            "out": "Marko Arnautovic"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "Roberto Pereyra",
+                            "out": "Will Hughes"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "José Holebas",
+                            "out": "Kiko Femenía"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "7",
+                            "in": "André Carrillo",
+                            "out": "Andre Gray"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "16:00"
+                }
+            }
+        ]
+    }
+]

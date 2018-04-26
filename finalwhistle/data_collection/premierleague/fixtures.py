@@ -88,29 +88,43 @@ def parse_events(event, match_info):
 
         # Player scored goal by normal means or by penalty
         # ------------------------------------------------
-        if "Goal" in event_info and "Own" not in event_info:
+        if 'Goal' in event_info and 'Own' not in event_info:
+
+            match_event['own_goal'] = "false"
+            match_event['penalty'] = "false"
 
             scorer = event.find('a', attrs={'class': 'name'})
-            assist = event.find('div', attrs={'class': 'assist'})
-            match_event['own_goal'] = "false"
             match_event['scorer'] = cleanup(scorer.get_text().replace('\n', '').strip())
+
+            assist = event.find('div', attrs={'class': 'assist'})
             if assist is not None:
                 assist = assist.get_text().replace('Ast.', '')
                 match_event['assist'] = cleanup(assist.strip())
-            else:
-                # Assuming if there is no assistant to the goal the goal was most
-                # likely scored by penalty
-                match_event['penalty'] = "true"
+
+            match_info['goals'].append(match_event)
+
+        # Player scored goal by penalty
+        # -----------------------------
+        elif 'penalty' in event_info:
+
+            match_event['own_goal'] = "false"
+            match_event['penalty'] = "true"
+
+            scorer = event.find('a', attrs={'class': 'name'})
+            match_event['scorer'] = cleanup(scorer.get_text().replace('\n', '').strip())
+
             match_info['goals'].append(match_event)
 
         # Player scored own goal
         # ----------------------
-        if "Own Goal" in event_info:
+        elif "Own Goal" in event_info:
+
+            match_event['own_goal'] = "true"
+            match_event['penalty'] = "false"
 
             scorer = event.find('a', attrs={'class': 'name'})
             match_event['scorer'] = cleanup(scorer.get_text().replace('\n', '').strip())
-            match_event['own_goal'] = "true"
-            match_event['penalty'] = "false"
+
             match_info['goals'].append(match_event)
 
         # Match substitutions

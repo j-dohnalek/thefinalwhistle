@@ -1,0 +1,72 @@
+[
+    {
+        "date": "Thursday 4 January 2018",
+        "fixtures": [
+            {
+                "home_team": "Spurs",
+                "away_team": "West Ham",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22549",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "70",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Pedro Obiang",
+                            "assist": "Manuel Lanzini"
+                        },
+                        {
+                            "minute": "84",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Son Heung-Min",
+                            "assist": "Erik Lamela"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "87",
+                            "card": "yellow",
+                            "player": "Andy Carroll"
+                        },
+                        {
+                            "minute": "90",
+                            "card": "yellow",
+                            "player": "Mark Noble"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "64",
+                            "in": "André Ayew",
+                            "out": "Chicharito"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Erik Lamela",
+                            "out": "Moussa Sissoko"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Victor Wanyama",
+                            "out": "Eric Dier"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Fernando Llorente",
+                            "out": "Ben Davies"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "Andy Carroll",
+                            "out": "Manuel Lanzini"
+                        }
+                    ],
+                    "referee": "Mike Dean",
+                    "kick_off": "20:00"
+                }
+            }
+        ]
+    }
+]

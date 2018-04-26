@@ -12,8 +12,15 @@
                         {
                             "minute": "48",
                             "own_goal": "false",
+                            "penalty": "false",
                             "scorer": "Harry Kane",
                             "assist": "Son Heung-Min"
+                        },
+                        {
+                            "minute": "50",
+                            "own_goal": "false",
+                            "penalty": "true",
+                            "scorer": "Pascal Groß"
                         }
                     ],
                     "cards": [

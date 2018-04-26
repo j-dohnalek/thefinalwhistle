@@ -1,7 +1,10 @@
+# -*- coding: utf-8 -*-
 import finalwhistle.apis.fd_api as fd_api
 from finalwhistle.models.football import *
 from sqlalchemy import or_, desc, func, asc
 import json
+from flask import request
+from finalwhistle import db
 
 # CONSTANTS #####################################################################
 
@@ -40,8 +43,6 @@ def get_league_table():
 
     league_table = {}
     for key, value in table.items():
-
-        print(value['club'])
         team = Team.query.filter(Team.name == value['club']).first()
 
         if team is None:
@@ -49,6 +50,7 @@ def get_league_table():
 
         team_row = {
             "club_id": team.team_id,
+            "club_short": team.name_short,
             "club": value['club'],
             "played": value['played'],
             "won": value['won'],
@@ -218,7 +220,7 @@ def get_all_players():
     for team in get_all_teams():
         # Convert dict to object
         team_obj = Struct(**team)
-        for player in list_team_players(team_obj, exclude_transferred=False):
+        for player in list_team_players(team_obj):
             players.append(player)
     return players
 
@@ -317,6 +319,9 @@ def list_all_matches():
                      MatchStatistics.away_ft_goals)\
         .order_by(func.DATE(Match.kickoff).desc(), func.TIME(Match.kickoff).asc()).all()
 
+    day_indicator = 0
+    previous_match_date = None
+
     for match in matches:
 
         match_details = {'match_id': match.match_id}
@@ -335,6 +340,16 @@ def list_all_matches():
         match_details['kickoff_time'] = match.kickoff.strftime("%H:%M")
         match_details['kickoff_date'] = match.kickoff.strftime("%d %B %Y")
 
+        # Indicator computes if the match is the first on the day to display
+        # the date on all match page.
+        if previous_match_date is None or match.kickoff.strftime("%d %B %Y") != previous_match_date:
+            day_indicator = 0
+
+        match_details['indicator'] = day_indicator
+
+        day_indicator += 1
+
+        previous_match_date = match.kickoff.strftime("%d %B %Y")
         list_of_matches.append(match_details)
 
     return list_of_matches
@@ -361,6 +376,7 @@ def get_match_information(id):
                      Match.home_team,
                      Match.away_team,
                      Match.kickoff,
+                     Match.main_referee,
                      MatchStatistics.home_ft_goals,
                      MatchStatistics.home_ht_goals,
                      MatchStatistics.home_shots,
@@ -384,6 +400,9 @@ def get_match_information(id):
         match_information = {}
 
         home_team = Team.query.filter_by(team_id=match.home_team).first()
+        stadium = Stadium.query.filter_by(stadium_id=home_team.stadium).first()
+
+        match_information['stadium'] = stadium.name
         match_information['home_team'] = home_team.name
         match_information['home_crest'] = club_crest[str(home_team.team_id)]
 
@@ -397,13 +416,15 @@ def get_match_information(id):
         match_information['kickoff_time'] = match.kickoff.strftime("%H:%M")
         match_information['kickoff_date'] = match.kickoff.strftime("%d %B %Y")
 
+        referee = Referee.query.filter_by(referee_id=match.main_referee).first()
+        match_information['referee'] = referee.name
+
         goals = Goal.query\
             .filter(Goal.match == id)\
             .join(Player, Goal.player == Player.player_id)\
             .add_columns(Goal.minute, Goal.extra_time, Player.name.label('scorer'), Player.current_team)\
             .order_by(asc(Goal.minute)).all()
 
-        # TODO: add link to player in match details
         match_information['home_scoring_players'] = []
         match_information['away_scoring_players'] = []
         for goal in goals:
@@ -435,3 +456,39 @@ def get_match_information(id):
 
     else:
         return None
+
+
+def list_referees():
+    """
+    List all referees
+    :return: dict
+    """
+    list_of_referees = []
+    referees = Referee.query.all()
+
+    for referee in referees:
+
+        statistic = Match.query.join(MatchStatistics, Match.match_id == MatchStatistics.match) \
+            .add_columns(Match.match_id,
+                         MatchStatistics.home_fouls,
+                         func.sum(MatchStatistics.home_fouls).label('total_home_fouls'),
+                         func.sum(MatchStatistics.home_yellow_cards).label('total_home_yellow'),
+                         func.sum(MatchStatistics.home_red_cards).label('total_home_red'),
+                         func.sum(MatchStatistics.away_fouls).label('total_away_fouls'),
+                         func.sum(MatchStatistics.away_yellow_cards).label('total_away_yellow'),
+                         func.sum(MatchStatistics.away_red_cards).label('total_away_red')) \
+            .filter(Match.main_referee == referee.referee_id) \
+            .group_by(Match.main_referee).first()
+
+        referee_details = {
+            'name': referee.name,
+            'yellow': statistic.total_home_yellow + statistic.total_away_yellow,
+            'red': statistic.total_home_red + statistic.total_away_red,
+            'foul': statistic.total_home_fouls + statistic.total_away_fouls,
+        }
+
+        # Count all matches, cards given (yellow, red)
+        list_of_referees.append(referee_details)
+
+    return list_of_referees
+

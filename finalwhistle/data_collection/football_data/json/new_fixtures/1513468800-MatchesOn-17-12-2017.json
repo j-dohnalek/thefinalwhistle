@@ -1,0 +1,181 @@
+[
+    {
+        "date": "Sunday 17 December 2017",
+        "fixtures": [
+            {
+                "home_team": "West Brom",
+                "away_team": "Man Utd",
+                "score": "1-2",
+                "url": "https://www.premierleague.com/match/22521",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "27",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Romelu Lukaku",
+                            "assist": "Marcus Rashford"
+                        },
+                        {
+                            "minute": "35",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Jesse Lingard",
+                            "assist": "Juan Mata"
+                        },
+                        {
+                            "minute": "77",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Gareth Barry",
+                            "assist": "Jonny Evans"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "53",
+                            "card": "yellow",
+                            "player": "Marcus Rashford"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "card": "yellow",
+                            "player": "Nemanja Matic"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "5",
+                            "card": "yellow",
+                            "player": "Marcos Rojo"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "5",
+                            "card": "yellow",
+                            "player": "Salomón Rondón"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "Gareth Barry",
+                            "out": "Claudio Yacob"
+                        },
+                        {
+                            "minute": "64",
+                            "in": "Jay Rodriguez",
+                            "out": "Oliver Burke"
+                        },
+                        {
+                            "minute": "66",
+                            "in": "Marcos Rojo",
+                            "out": "Antonio Valencia"
+                        },
+                        {
+                            "minute": "72",
+                            "in": "Chris Brunt",
+                            "out": "Grzegorz Krychowiak"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "Anthony Martial",
+                            "out": "Marcus Rashford"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "Scott McTominay",
+                            "out": "Jesse Lingard"
+                        }
+                    ],
+                    "referee": "Anthony Taylor",
+                    "kick_off": "14:15"
+                }
+            },
+            {
+                "home_team": "Bournemouth",
+                "away_team": "Liverpool",
+                "score": "0-4",
+                "url": "https://www.premierleague.com/match/22513",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "20",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Coutinho",
+                            "assist": "Andrew Robertson"
+                        },
+                        {
+                            "minute": "26",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Dejan Lovren",
+                            "assist": "Roberto Firmino"
+                        },
+                        {
+                            "minute": "44",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Mohamed Salah",
+                            "assist": "Alex Oxlade-Chamberlain"
+                        },
+                        {
+                            "minute": "66",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Roberto Firmino",
+                            "assist": "Coutinho"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "10",
+                            "card": "yellow",
+                            "player": "Nathan Aké"
+                        },
+                        {
+                            "minute": "73",
+                            "card": "yellow",
+                            "player": "Adam Lallana"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "31",
+                            "in": "Junior Stanislas",
+                            "out": "Joshua King"
+                        },
+                        {
+                            "minute": "45",
+                            "in": "Ryan Fraser",
+                            "out": "Marc Pugh"
+                        },
+                        {
+                            "minute": "56",
+                            "in": "Steve Cook",
+                            "out": "Charlie Daniels"
+                        },
+                        {
+                            "minute": "71",
+                            "in": "Adam Lallana",
+                            "out": "Mohamed Salah"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Dominic Solanke",
+                            "out": "Roberto Firmino"
+                        },
+                        {
+                            "minute": "87",
+                            "in": "Danny Ings",
+                            "out": "Coutinho"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "16:30"
+                }
+            }
+        ]
+    }
+]

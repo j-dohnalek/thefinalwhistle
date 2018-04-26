@@ -1,0 +1,215 @@
+[
+    {
+        "date": "Tuesday 30 January 2018",
+        "fixtures": [
+            {
+                "home_team": "West Ham",
+                "away_team": "Crystal Palace",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22584",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "24",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Christian Benteke",
+                            "assist": "Andros Townsend"
+                        },
+                        {
+                            "minute": "43",
+                            "own_goal": "false",
+                            "penalty": "true",
+                            "scorer": "Mark Noble"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "4",
+                            "card": "yellow",
+                            "player": "Luka Milivojevic"
+                        },
+                        {
+                            "minute": "45",
+                            "additional": "5",
+                            "card": "yellow",
+                            "player": "James Tomkins"
+                        },
+                        {
+                            "minute": "56",
+                            "card": "yellow",
+                            "player": "Sam Byram"
+                        },
+                        {
+                            "minute": "69",
+                            "card": "yellow",
+                            "player": "Andros Townsend"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "41",
+                            "in": "Yohan Cabaye",
+                            "out": "Bakary Sako"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "Reece Oxford",
+                            "out": "Cheikhou Kouyaté"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "19:45"
+                }
+            },
+            {
+                "home_team": "Swansea",
+                "away_team": "Arsenal",
+                "score": "3-1",
+                "url": "https://www.premierleague.com/match/22583",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "33",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Nacho Monreal",
+                            "assist": "Mesut Özil"
+                        },
+                        {
+                            "minute": "34",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Sam Clucas",
+                            "assist": "Alfie Mawson"
+                        },
+                        {
+                            "minute": "61",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Jordan Ayew"
+                        },
+                        {
+                            "minute": "86",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Sam Clucas"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "54",
+                            "card": "yellow",
+                            "player": "Mohamed Elneny"
+                        },
+                        {
+                            "minute": "69",
+                            "card": "yellow",
+                            "player": "Héctor Bellerín"
+                        },
+                        {
+                            "minute": "75",
+                            "card": "yellow",
+                            "player": "Mesut Özil"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "60",
+                            "in": "Henrikh Mkhitaryan",
+                            "out": "Mohamed Elneny"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Olivier Giroud",
+                            "out": "Alex Iwobi"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "Tom Carroll",
+                            "out": "Nathan Dyer"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "Wilfried Bony",
+                            "out": "Jordan Ayew"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "2",
+                            "in": "Wayne Routledge",
+                            "out": "Sam Clucas"
+                        }
+                    ],
+                    "referee": "Lee Mason",
+                    "kick_off": "19:45"
+                }
+            },
+            {
+                "home_team": "Huddersfield",
+                "away_team": "Liverpool",
+                "score": "0-3",
+                "url": "https://www.premierleague.com/match/22582",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "26",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Emre Can"
+                        },
+                        {
+                            "minute": "45",
+                            "additional": "1",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Roberto Firmino",
+                            "assist": "Sadio Mané"
+                        },
+                        {
+                            "minute": "78",
+                            "own_goal": "false",
+                            "penalty": "true",
+                            "scorer": "Mohamed Salah"
+                        }
+                    ],
+                    "cards": [],
+                    "substitutions": [
+                        {
+                            "minute": "63",
+                            "in": "Collin Quaner",
+                            "out": "Steve Mounie"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "Tom Ince",
+                            "out": "Chris Löwe"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "Rajiv van La Parra",
+                            "out": "Aaron Mooy"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "out": "Mohamed Salah"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "Georginio Wijnaldum",
+                            "out": "Jordan Henderson"
+                        },
+                        {
+                            "minute": "89",
+                            "in": "Dominic Solanke",
+                            "out": "Roberto Firmino"
+                        }
+                    ],
+                    "referee": "Kevin Friend",
+                    "kick_off": "20:00"
+                }
+            }
+        ]
+    }
+]

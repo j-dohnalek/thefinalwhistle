@@ -1,0 +1,225 @@
+[
+    {
+        "date": "Tuesday 12 December 2017",
+        "fixtures": [
+            {
+                "home_team": "Burnley",
+                "away_team": "Stoke",
+                "score": "1-0",
+                "url": "https://www.premierleague.com/match/22502",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "89",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Ashley Barnes",
+                            "assist": "Scott Arfield"
+                        }
+                    ],
+                    "cards": [],
+                    "substitutions": [
+                        {
+                            "minute": "41",
+                            "in": "Charlie Taylor",
+                            "out": "Stephen Ward"
+                        },
+                        {
+                            "minute": "66",
+                            "in": "Kevin Wimmer",
+                            "out": "Kurt Zouma"
+                        },
+                        {
+                            "minute": "71",
+                            "in": "Ashley Barnes",
+                            "out": "Jeff Hendrick"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Sam Vokes",
+                            "out": "Chris Wood"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "Eric Maxim Choupo-Moting",
+                            "out": "Xherdan Shaqiri"
+                        }
+                    ],
+                    "referee": "Mike Jones",
+                    "kick_off": "19:45"
+                }
+            },
+            {
+                "home_team": "Huddersfield",
+                "away_team": "Chelsea",
+                "score": "1-3",
+                "url": "https://www.premierleague.com/match/22504",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "23",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Tiemoué Bakayoko",
+                            "assist": "Willian"
+                        },
+                        {
+                            "minute": "43",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Willian",
+                            "assist": "Marcos Alonso"
+                        },
+                        {
+                            "minute": "50",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Pedro",
+                            "assist": "Willian"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "2",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Laurent Depoitre",
+                            "assist": "Florent Hadergjonaj"
+                        }
+                    ],
+                    "cards": [],
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "Dean Whitehead",
+                            "out": "Jonathan Hogg"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "Florent Hadergjonaj",
+                            "out": "Chris Löwe"
+                        },
+                        {
+                            "minute": "69",
+                            "in": "Michy Batshuayi",
+                            "out": "Eden Hazard"
+                        },
+                        {
+                            "minute": "71",
+                            "in": "Daniel Drinkwater",
+                            "out": "N'Golo Kanté"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Laurent Depoitre",
+                            "out": "Steve Mounie"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "Ethan Ampadu",
+                            "out": "Andreas Christensen"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "20:00"
+                }
+            },
+            {
+                "home_team": "Crystal Palace",
+                "away_team": "Watford",
+                "score": "2-1",
+                "url": "https://www.premierleague.com/match/22503",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "3",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Daryl Janmaat",
+                            "assist": "Richarlison"
+                        },
+                        {
+                            "minute": "89",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Bakary Sako"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "2",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "James McArthur"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "63",
+                            "card": "yellow",
+                            "player": "Luka Milivojevic"
+                        },
+                        {
+                            "minute": "78",
+                            "card": "yellow",
+                            "player": "Tom Cleverley"
+                        },
+                        {
+                            "minute": "85",
+                            "card": "yellow",
+                            "player": "Patrick van Aanholt"
+                        },
+                        {
+                            "minute": "87",
+                            "card": "red",
+                            "player": "Tom Cleverley"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "card": "yellow",
+                            "player": "Roberto Pereyra"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "67",
+                            "in": "Patrick van Aanholt",
+                            "out": "Andros Townsend"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "Bakary Sako",
+                            "out": "Timothy Fosu-Mensah"
+                        },
+                        {
+                            "minute": "71",
+                            "in": "Roberto Pereyra",
+                            "out": "André Carrillo"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "James McArthur",
+                            "out": "Yohan Cabaye"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "Andre Gray",
+                            "out": "Troy Deeney"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "Kiko Femenía",
+                            "out": "Richarlison"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "6",
+                            "out": "Kiko Femenía"
+                        }
+                    ],
+                    "referee": "Lee Mason",
+                    "kick_off": "20:00"
+                }
+            }
+        ]
+    }
+]
