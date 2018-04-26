@@ -2,7 +2,6 @@
 Database models for comment system
 """
 from sqlalchemy import func
-
 from finalwhistle import db
 
 
