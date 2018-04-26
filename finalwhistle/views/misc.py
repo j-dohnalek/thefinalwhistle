@@ -22,6 +22,10 @@ def terms_of_service():
 def privacy_policy():
     return render_template('privacy_policy.html')
 
+@app.route('/community-guidelines', methods=['GET'])
+def community_guidelines():
+    return render_template('community_guidelines.html')
+
 
 @app.route('/about', methods=['GET'])
 def about():
