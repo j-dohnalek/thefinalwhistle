@@ -1,0 +1,152 @@
+[
+    {
+        "date": "Sunday 29 October 2017",
+        "fixtures": [
+            {
+                "home_team": "Brighton",
+                "away_team": "Southampton",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22434",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "7",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Steven Davis"
+                        },
+                        {
+                            "minute": "52",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Glenn Murray",
+                            "assist": "Pascal Groß"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "62",
+                            "card": "yellow",
+                            "player": "Wesley Hoedt"
+                        },
+                        {
+                            "minute": "62",
+                            "card": "yellow",
+                            "player": "Glenn Murray"
+                        },
+                        {
+                            "minute": "79",
+                            "card": "yellow",
+                            "player": "Shane Duffy"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "card": "yellow",
+                            "player": "Gaëtan Bong"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "72",
+                            "in": "Nathan Redmond",
+                            "out": "Sofiane Boufal"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "Isaiah Brown",
+                            "out": "Pascal Groß"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "Shane Long",
+                            "out": "Dusan Tadic"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "Pierre-Emile Højbjerg",
+                            "out": "James Ward-Prowse"
+                        },
+                        {
+                            "minute": "87",
+                            "in": "Solly March",
+                            "out": "José Izquierdo"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "13:30"
+                }
+            },
+            {
+                "home_team": "Leicester",
+                "away_team": "Everton",
+                "score": "2-0",
+                "url": "https://www.premierleague.com/match/22437",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "18",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Jamie Vardy",
+                            "assist": "Riyad Mahrez"
+                        },
+                        {
+                            "minute": "29",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Demarai Gray",
+                            "assist": "Christian Fuchs"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "20",
+                            "card": "yellow",
+                            "player": "Tom Davies"
+                        },
+                        {
+                            "minute": "65",
+                            "card": "yellow",
+                            "player": "Idrissa Gueye"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "Beni Baningime",
+                            "out": "Aaron Lennon"
+                        },
+                        {
+                            "minute": "45",
+                            "in": "Oumar Niasse",
+                            "out": "Kevin Mirallas"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Gylfi Sigurdsson",
+                            "out": "Wayne Rooney"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "Shinji Okazaki",
+                            "out": "Riyad Mahrez"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "Marc Albrighton",
+                            "out": "Ben Chilwell"
+                        },
+                        {
+                            "minute": "90",
+                            "in": "Kelechi Iheanacho",
+                            "out": "Jamie Vardy"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "16:00"
+                }
+            }
+        ]
+    }
+]

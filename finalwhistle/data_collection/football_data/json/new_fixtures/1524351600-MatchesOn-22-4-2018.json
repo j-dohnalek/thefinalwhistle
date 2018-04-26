@@ -12,14 +12,15 @@
                         {
                             "minute": "11",
                             "own_goal": "false",
+                            "penalty": "false",
                             "scorer": "Badou Ndiaye",
                             "assist": "Mame Biram Diouf"
                         },
                         {
                             "minute": "62",
                             "own_goal": "false",
-                            "scorer": "Ashley Barnes",
-                            "penalty": "true"
+                            "penalty": "false",
+                            "scorer": "Ashley Barnes"
                         }
                     ],
                     "cards": [
@@ -81,30 +82,34 @@
                         {
                             "minute": "51",
                             "own_goal": "false",
+                            "penalty": "false",
                             "scorer": "Nacho Monreal",
                             "assist": "Granit Xhaka"
                         },
                         {
                             "minute": "64",
                             "own_goal": "false",
+                            "penalty": "false",
                             "scorer": "Marko Arnautovic",
                             "assist": "Manuel Lanzini"
                         },
                         {
                             "minute": "82",
                             "own_goal": "false",
-                            "scorer": "Aaron Ramsey",
-                            "penalty": "true"
+                            "penalty": "false",
+                            "scorer": "Aaron Ramsey"
                         },
                         {
                             "minute": "85",
                             "own_goal": "false",
+                            "penalty": "false",
                             "scorer": "Alexandre Lacazette",
                             "assist": "Pierre-Emerick Aubameyang"
                         },
                         {
                             "minute": "89",
                             "own_goal": "false",
+                            "penalty": "false",
                             "scorer": "Alexandre Lacazette",
                             "assist": "Aaron Ramsey"
                         }
@@ -182,30 +187,33 @@
                         {
                             "minute": "12",
                             "own_goal": "false",
-                            "scorer": "David Silva",
-                            "penalty": "true"
+                            "penalty": "false",
+                            "scorer": "David Silva"
                         },
                         {
                             "minute": "16",
                             "own_goal": "false",
+                            "penalty": "false",
                             "scorer": "Raheem Sterling",
                             "assist": "Fabian Delph"
                         },
                         {
                             "minute": "54",
                             "own_goal": "false",
+                            "penalty": "false",
                             "scorer": "Kevin De Bruyne",
                             "assist": "Danilo"
                         },
                         {
                             "minute": "64",
                             "own_goal": "false",
-                            "scorer": "Bernardo Silva",
-                            "penalty": "true"
+                            "penalty": "false",
+                            "scorer": "Bernardo Silva"
                         },
                         {
                             "minute": "88",
                             "own_goal": "false",
+                            "penalty": "false",
                             "scorer": "Gabriel Jesus",
                             "assist": "Yaya Touré"
                         }

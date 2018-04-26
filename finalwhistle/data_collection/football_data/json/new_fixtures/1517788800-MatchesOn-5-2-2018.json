@@ -1,0 +1,113 @@
+[
+    {
+        "date": "Monday 5 February 2018",
+        "fixtures": [
+            {
+                "home_team": "Watford",
+                "away_team": "Chelsea",
+                "score": "4-1",
+                "url": "https://www.premierleague.com/match/22600",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "42",
+                            "own_goal": "false",
+                            "penalty": "true",
+                            "scorer": "Troy Deeney"
+                        },
+                        {
+                            "minute": "82",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Eden Hazard"
+                        },
+                        {
+                            "minute": "84",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Daryl Janmaat",
+                            "assist": "Roberto Pereyra"
+                        },
+                        {
+                            "minute": "88",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Gerard Deulofeu",
+                            "assist": "Abdoulaye Doucouré"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Roberto Pereyra",
+                            "assist": "Abdoulaye Doucouré"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "25",
+                            "card": "yellow",
+                            "player": "Tiemoué Bakayoko"
+                        },
+                        {
+                            "minute": "30",
+                            "card": "red",
+                            "player": "Tiemoué Bakayoko"
+                        },
+                        {
+                            "minute": "45",
+                            "card": "yellow",
+                            "player": "Richarlison"
+                        },
+                        {
+                            "minute": "50",
+                            "card": "yellow",
+                            "player": "Sebastian Prödl"
+                        },
+                        {
+                            "minute": "58",
+                            "card": "yellow",
+                            "player": "David Luiz"
+                        },
+                        {
+                            "minute": "62",
+                            "card": "yellow",
+                            "player": "Cesc Fàbregas"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "34",
+                            "in": "Cesc Fàbregas",
+                            "out": "Willian"
+                        },
+                        {
+                            "minute": "64",
+                            "in": "Olivier Giroud",
+                            "out": "Pedro"
+                        },
+                        {
+                            "minute": "65",
+                            "in": "Roberto Pereyra",
+                            "out": "Richarlison"
+                        },
+                        {
+                            "minute": "89",
+                            "in": "André Carrillo",
+                            "out": "Gerard Deulofeu"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "in": "Andre Gray",
+                            "out": "Troy Deeney"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "kick_off": "20:00"
+                }
+            }
+        ]
+    }
+]

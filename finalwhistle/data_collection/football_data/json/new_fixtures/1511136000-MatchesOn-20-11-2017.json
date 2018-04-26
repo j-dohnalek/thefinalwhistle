@@ -1,0 +1,75 @@
+[
+    {
+        "date": "Monday 20 November 2017",
+        "fixtures": [
+            {
+                "home_team": "Brighton",
+                "away_team": "Stoke",
+                "score": "2-2",
+                "url": "https://www.premierleague.com/match/22454",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "28",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Eric Maxim Choupo-Moting",
+                            "assist": "Xherdan Shaqiri"
+                        },
+                        {
+                            "minute": "44",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Pascal Groß",
+                            "assist": "Davy Pröpper"
+                        },
+                        {
+                            "minute": "45",
+                            "additional": "1",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Kurt Zouma"
+                        },
+                        {
+                            "minute": "60",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "José Izquierdo"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "42",
+                            "card": "yellow",
+                            "player": "Glenn Murray"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "73",
+                            "in": "Peter Crouch",
+                            "out": "Xherdan Shaqiri"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Solly March",
+                            "out": "José Izquierdo"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "Isaiah Brown",
+                            "out": "Pascal Groß"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "Ezequiel Schelotto",
+                            "out": "Anthony Knockaert"
+                        }
+                    ],
+                    "referee": "Lee Mason",
+                    "kick_off": "20:00"
+                }
+            }
+        ]
+    }
+]

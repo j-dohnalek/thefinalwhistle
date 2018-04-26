@@ -1,0 +1,196 @@
+[
+    {
+        "date": "Sunday 31 December 2017",
+        "fixtures": [
+            {
+                "home_team": "Crystal Palace",
+                "away_team": "Man City",
+                "score": "0-0",
+                "url": "https://www.premierleague.com/match/22544",
+                "details": {
+                    "goals": [],
+                    "cards": [
+                        {
+                            "minute": "16",
+                            "card": "yellow",
+                            "player": "Scott Dann"
+                        },
+                        {
+                            "minute": "45",
+                            "additional": "6",
+                            "card": "yellow",
+                            "player": "Leroy Sané"
+                        },
+                        {
+                            "minute": "48",
+                            "card": "yellow",
+                            "player": "Patrick van Aanholt"
+                        },
+                        {
+                            "minute": "67",
+                            "card": "yellow",
+                            "player": "Yohan Cabaye"
+                        },
+                        {
+                            "minute": "79",
+                            "card": "yellow",
+                            "player": "Sergio Agüero"
+                        },
+                        {
+                            "minute": "90",
+                            "card": "yellow",
+                            "player": "Yaya Touré"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "card": "yellow",
+                            "player": "Fernandinho"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "2",
+                            "card": "yellow",
+                            "player": "Martin Kelly"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "2",
+                            "card": "yellow",
+                            "player": "Jason Puncheon"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "20",
+                            "in": "Martin Kelly",
+                            "out": "Scott Dann"
+                        },
+                        {
+                            "minute": "23",
+                            "in": "Sergio Agüero",
+                            "out": "Gabriel Jesus"
+                        },
+                        {
+                            "minute": "57",
+                            "in": "Raheem Sterling",
+                            "out": "Ilkay Gündogan"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "Jason Puncheon",
+                            "out": "Yohan Cabaye"
+                        },
+                        {
+                            "minute": "81",
+                            "in": "Yaya Touré",
+                            "out": "Bernardo Silva"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "6",
+                            "in": "Lee Chung-yong",
+                            "out": "Jason Puncheon"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "6",
+                            "out": "Kevin De Bruyne"
+                        }
+                    ],
+                    "referee": "Jonathan Moss",
+                    "kick_off": "12:00"
+                }
+            },
+            {
+                "home_team": "West Brom",
+                "away_team": "Arsenal",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22551",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "83",
+                            "scorer": "James McClean",
+                            "own_goal": "true",
+                            "penalty": "false"
+                        },
+                        {
+                            "minute": "89",
+                            "own_goal": "false",
+                            "penalty": "true",
+                            "scorer": "Jay Rodriguez"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "34",
+                            "card": "yellow",
+                            "player": "Jonny Evans"
+                        },
+                        {
+                            "minute": "58",
+                            "card": "yellow",
+                            "player": "Shkodran Mustafi"
+                        },
+                        {
+                            "minute": "59",
+                            "card": "yellow",
+                            "player": "Chris Brunt"
+                        },
+                        {
+                            "minute": "82",
+                            "card": "yellow",
+                            "player": "Craig Dawson"
+                        },
+                        {
+                            "minute": "88",
+                            "card": "yellow",
+                            "player": "Jack Wilshere"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "5",
+                            "card": "yellow",
+                            "player": "Petr Cech"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "37",
+                            "in": "Ainsley Maitland-Niles",
+                            "out": "Sead Kolasinac"
+                        },
+                        {
+                            "minute": "72",
+                            "in": "Per Mertesacker",
+                            "out": "Laurent Koscielny"
+                        },
+                        {
+                            "minute": "72",
+                            "in": "James McClean",
+                            "out": "Matt Phillips"
+                        },
+                        {
+                            "minute": "72",
+                            "in": "Grzegorz Krychowiak",
+                            "out": "Chris Brunt"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Danny Welbeck",
+                            "out": "Alex Iwobi"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "Allan Nyom",
+                            "out": "Hal Robson-Kanu"
+                        }
+                    ],
+                    "referee": "Mike Dean",
+                    "kick_off": "16:30"
+                }
+            }
+        ]
+    }
+]

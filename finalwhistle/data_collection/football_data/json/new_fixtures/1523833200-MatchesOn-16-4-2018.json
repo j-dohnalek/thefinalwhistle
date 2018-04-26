@@ -12,12 +12,13 @@
                         {
                             "minute": "79",
                             "own_goal": "false",
-                            "scorer": "Peter Crouch",
-                            "penalty": "true"
+                            "penalty": "false",
+                            "scorer": "Peter Crouch"
                         },
                         {
                             "minute": "90",
                             "own_goal": "false",
+                            "penalty": "false",
                             "scorer": "Andy Carroll",
                             "assist": "Aaron Cresswell"
                         }

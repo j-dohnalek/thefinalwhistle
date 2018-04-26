@@ -1,0 +1,91 @@
+[
+    {
+        "date": "Sunday 21 January 2018",
+        "fixtures": [
+            {
+                "home_team": "Southampton",
+                "away_team": "Spurs",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22578",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "15",
+                            "scorer": "Davinson Sánchez",
+                            "own_goal": "true",
+                            "penalty": "false"
+                        },
+                        {
+                            "minute": "18",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Harry Kane",
+                            "assist": "Ben Davies"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "48",
+                            "card": "yellow",
+                            "player": "Jack Stephens"
+                        },
+                        {
+                            "minute": "57",
+                            "card": "yellow",
+                            "player": "Moussa Sissoko"
+                        },
+                        {
+                            "minute": "60",
+                            "card": "yellow",
+                            "player": "Oriol Romeu"
+                        },
+                        {
+                            "minute": "75",
+                            "card": "yellow",
+                            "player": "Mousa Dembélé"
+                        },
+                        {
+                            "minute": "78",
+                            "card": "yellow",
+                            "player": "Kieran Trippier"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "65",
+                            "in": "Sofiane Boufal",
+                            "out": "Pierre-Emile Højbjerg"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "Erik Lamela",
+                            "out": "Son Heung-Min"
+                        },
+                        {
+                            "minute": "72",
+                            "in": "Kieran Trippier",
+                            "out": "Serge Aurier"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "Steven Davis",
+                            "out": "Mario Lemina"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Michael Obafemi",
+                            "out": "Manolo Gabbiadini"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "Victor Wanyama",
+                            "out": "Mousa Dembélé"
+                        }
+                    ],
+                    "referee": "Kevin Friend",
+                    "kick_off": "16:00"
+                }
+            }
+        ]
+    }
+]

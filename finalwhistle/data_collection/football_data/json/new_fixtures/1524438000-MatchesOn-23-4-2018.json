@@ -1,0 +1,76 @@
+[
+    {
+        "date": "Monday 23 April 2018",
+        "fixtures": [
+            {
+                "home_team": "Everton",
+                "away_team": "Newcastle",
+                "score": "1-0",
+                "url": "https://www.premierleague.com/match/22686",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "51",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Theo Walcott"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "75",
+                            "card": "yellow",
+                            "player": "Michael Keane"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "card": "yellow",
+                            "player": "Idrissa Gueye"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "card": "yellow",
+                            "player": "Kenedy"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "52",
+                            "in": "Tom Davies",
+                            "out": "Morgan Schneiderlin"
+                        },
+                        {
+                            "minute": "59",
+                            "in": "Dominic Calvert-Lewin",
+                            "out": "Yannick Bolasie"
+                        },
+                        {
+                            "minute": "63",
+                            "in": "Dwight Gayle",
+                            "out": "Islam Slimani"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "Jacob Murphy",
+                            "out": "Matt Ritchie"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "Mikel Merino",
+                            "out": "Jonjo Shelvey"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "Oumar Niasse",
+                            "out": "Cenk Tosun"
+                        }
+                    ],
+                    "referee": "Robert Madley",
+                    "kick_off": "20:00"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,168 @@
+[
+    {
+        "date": "Sunday 17 September 2017",
+        "fixtures": [
+            {
+                "home_team": "Chelsea",
+                "away_team": "Arsenal",
+                "score": "0-0",
+                "url": "https://www.premierleague.com/match/22383",
+                "details": {
+                    "goals": [],
+                    "cards": [
+                        {
+                            "minute": "52",
+                            "card": "yellow",
+                            "player": "David Luiz"
+                        },
+                        {
+                            "minute": "65",
+                            "card": "yellow",
+                            "player": "Álvaro Morata"
+                        },
+                        {
+                            "minute": "84",
+                            "card": "yellow",
+                            "player": "Mohamed Elneny"
+                        },
+                        {
+                            "minute": "87",
+                            "card": "red",
+                            "player": "David Luiz"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "card": "yellow",
+                            "player": "Sead Kolasinac"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "card": "yellow",
+                            "player": "Héctor Bellerín"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "Tiemoué Bakayoko",
+                            "out": "Pedro"
+                        },
+                        {
+                            "minute": "66",
+                            "in": "Alexis Sánchez",
+                            "out": "Alexandre Lacazette"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "Eden Hazard",
+                            "out": "Willian"
+                        },
+                        {
+                            "minute": "73",
+                            "in": "Olivier Giroud",
+                            "out": "Danny Welbeck"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "Mohamed Elneny",
+                            "out": "Alex Iwobi"
+                        },
+                        {
+                            "minute": "89",
+                            "in": "Andreas Christensen",
+                            "out": "Álvaro Morata"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "13:30"
+                }
+            },
+            {
+                "home_team": "Man Utd",
+                "away_team": "Everton",
+                "score": "4-0",
+                "url": "https://www.premierleague.com/match/22387",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "4",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Antonio Valencia",
+                            "assist": "Nemanja Matic"
+                        },
+                        {
+                            "minute": "83",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Henrikh Mkhitaryan",
+                            "assist": "Romelu Lukaku"
+                        },
+                        {
+                            "minute": "89",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Romelu Lukaku",
+                            "assist": "Jesse Lingard"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "2",
+                            "own_goal": "false",
+                            "penalty": "true",
+                            "scorer": "Anthony Martial"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "63",
+                            "card": "yellow",
+                            "player": "Ashley Williams"
+                        },
+                        {
+                            "minute": "82",
+                            "card": "yellow",
+                            "player": "Eric Bailly"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "61",
+                            "in": "Jesse Lingard",
+                            "out": "Marcus Rashford"
+                        },
+                        {
+                            "minute": "66",
+                            "in": "Sandro Ramírez",
+                            "out": "Tom Davies"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Dominic Calvert-Lewin",
+                            "out": "Idrissa Gueye"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "Ander Herrera",
+                            "out": "Juan Mata"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Kevin Mirallas",
+                            "out": "Wayne Rooney"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "Anthony Martial",
+                            "out": "Henrikh Mkhitaryan"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "16:00"
+                }
+            }
+        ]
+    }
+]

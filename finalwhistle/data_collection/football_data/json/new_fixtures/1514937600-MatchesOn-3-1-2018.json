@@ -1,0 +1,99 @@
+[
+    {
+        "date": "Wednesday 3 January 2018",
+        "fixtures": [
+            {
+                "home_team": "Arsenal",
+                "away_team": "Chelsea",
+                "score": "2-2",
+                "url": "https://www.premierleague.com/match/22552",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "63",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Jack Wilshere"
+                        },
+                        {
+                            "minute": "67",
+                            "own_goal": "false",
+                            "penalty": "true",
+                            "scorer": "Eden Hazard"
+                        },
+                        {
+                            "minute": "84",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Marcos Alonso",
+                            "assist": "Davide Zappacosta"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "2",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Héctor Bellerín"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "31",
+                            "card": "yellow",
+                            "player": "Jack Wilshere"
+                        },
+                        {
+                            "minute": "43",
+                            "card": "yellow",
+                            "player": "Cesc Fàbregas"
+                        },
+                        {
+                            "minute": "53",
+                            "card": "yellow",
+                            "player": "Rob Holding"
+                        },
+                        {
+                            "minute": "67",
+                            "card": "yellow",
+                            "player": "Mesut Özil"
+                        },
+                        {
+                            "minute": "89",
+                            "card": "yellow",
+                            "player": "Thibaut Courtois"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "56",
+                            "in": "Davide Zappacosta",
+                            "out": "Victor Moses"
+                        },
+                        {
+                            "minute": "71",
+                            "in": "Daniel Drinkwater",
+                            "out": "Cesc Fàbregas"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "Danny Welbeck",
+                            "out": "Alexandre Lacazette"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Willian",
+                            "out": "Eden Hazard"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "Theo Walcott",
+                            "out": "Calum Chambers"
+                        }
+                    ],
+                    "referee": "Anthony Taylor",
+                    "kick_off": "19:45"
+                }
+            }
+        ]
+    }
+]

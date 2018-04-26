@@ -1,0 +1,65 @@
+[
+    {
+        "date": "Wednesday 27 December 2017",
+        "fixtures": [
+            {
+                "home_team": "Newcastle",
+                "away_team": "Man City",
+                "score": "0-1",
+                "url": "https://www.premierleague.com/match/22538",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "31",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Raheem Sterling",
+                            "assist": "Kevin De Bruyne"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "75",
+                            "card": "yellow",
+                            "player": "Dwight Gayle"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "11",
+                            "in": "Gabriel Jesus",
+                            "out": "Vincent Kompany"
+                        },
+                        {
+                            "minute": "62",
+                            "in": "Dwight Gayle",
+                            "out": "Joselu"
+                        },
+                        {
+                            "minute": "71",
+                            "in": "Christian Atsu",
+                            "out": "Rolando Aarons"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "Eliaquim Mangala",
+                            "out": "Sergio Agüero"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "Mikel Merino",
+                            "out": "Chancel Mbemba"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "Leroy Sané",
+                            "out": "Bernardo Silva"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "19:45"
+                }
+            }
+        ]
+    }
+]

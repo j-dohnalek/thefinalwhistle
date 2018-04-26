@@ -1,0 +1,137 @@
+[
+    {
+        "date": "Sunday 10 September 2017",
+        "fixtures": [
+            {
+                "home_team": "Burnley",
+                "away_team": "Crystal Palace",
+                "score": "1-0",
+                "url": "https://www.premierleague.com/match/22374",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "3",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Chris Wood"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "34",
+                            "card": "yellow",
+                            "player": "Robbie Brady"
+                        },
+                        {
+                            "minute": "75",
+                            "card": "yellow",
+                            "player": "Christian Benteke"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "36",
+                            "in": "Nick Pope",
+                            "out": "Tom Heaton"
+                        },
+                        {
+                            "minute": "64",
+                            "in": "Ashley Barnes",
+                            "out": "Sam Vokes"
+                        },
+                        {
+                            "minute": "65",
+                            "in": "Levi Lumeka",
+                            "out": "Lee Chung-yong"
+                        },
+                        {
+                            "minute": "81",
+                            "in": "Jairo Riedewald",
+                            "out": "James McArthur"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Ashley Westwood",
+                            "out": "Steven Defour"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "13:30"
+                }
+            },
+            {
+                "home_team": "Swansea",
+                "away_team": "Newcastle",
+                "score": "0-1",
+                "url": "https://www.premierleague.com/match/22380",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "76",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Jamaal Lascelles",
+                            "assist": "Matt Ritchie"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "8",
+                            "card": "yellow",
+                            "player": "Isaac Hayden"
+                        },
+                        {
+                            "minute": "48",
+                            "card": "yellow",
+                            "player": "Kyle Naughton"
+                        },
+                        {
+                            "minute": "49",
+                            "card": "yellow",
+                            "player": "Matt Ritchie"
+                        },
+                        {
+                            "minute": "80",
+                            "card": "yellow",
+                            "player": "Leroy Fer"
+                        },
+                        {
+                            "minute": "87",
+                            "card": "yellow",
+                            "player": "Dwight Gayle"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "59",
+                            "in": "Christian Atsu",
+                            "out": "Jacob Murphy"
+                        },
+                        {
+                            "minute": "69",
+                            "in": "Wilfried Bony",
+                            "out": "Renato Sanches"
+                        },
+                        {
+                            "minute": "69",
+                            "in": "Mohamed Diamé",
+                            "out": "Isaac Hayden"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "Dwight Gayle",
+                            "out": "Joselu"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "Luciano Narsingh",
+                            "out": "Tom Carroll"
+                        }
+                    ],
+                    "referee": "Mike Jones",
+                    "kick_off": "16:00"
+                }
+            }
+        ]
+    }
+]

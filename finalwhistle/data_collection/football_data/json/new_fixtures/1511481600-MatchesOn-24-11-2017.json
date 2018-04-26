@@ -1,0 +1,68 @@
+[
+    {
+        "date": "Friday 24 November 2017",
+        "fixtures": [
+            {
+                "home_team": "West Ham",
+                "away_team": "Leicester",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22471",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "8",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Marc Albrighton"
+                        },
+                        {
+                            "minute": "45",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Cheikhou Kouyaté",
+                            "assist": "Manuel Lanzini"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "79",
+                            "card": "yellow",
+                            "player": "André Ayew"
+                        },
+                        {
+                            "minute": "79",
+                            "card": "yellow",
+                            "player": "Demarai Gray"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "69",
+                            "in": "André Ayew",
+                            "out": "Marko Arnautovic"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "Ben Chilwell",
+                            "out": "Riyad Mahrez"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "2",
+                            "in": "Islam Slimani",
+                            "out": "Demarai Gray"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "4",
+                            "in": "Diafra Sakho",
+                            "out": "Arthur Masuaku"
+                        }
+                    ],
+                    "referee": "Martin Atkinson",
+                    "kick_off": "20:00"
+                }
+            }
+        ]
+    }
+]
