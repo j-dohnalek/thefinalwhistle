@@ -1,0 +1,60 @@
+[
+    {
+        "date": "Monday 22 January 2018",
+        "fixtures": [
+            {
+                "home_team": "Swansea",
+                "away_team": "Liverpool",
+                "score": "1-0",
+                "url": "https://www.premierleague.com/match/22580",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "40",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Alfie Mawson",
+                            "assist": "Federico Fernández"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "44",
+                            "card": "yellow",
+                            "player": "Andrew Robertson"
+                        },
+                        {
+                            "minute": "45",
+                            "card": "yellow",
+                            "player": "Joel Matip"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "64",
+                            "in": "Tom Carroll",
+                            "out": "Nathan Dyer"
+                        },
+                        {
+                            "minute": "68",
+                            "in": "Adam Lallana",
+                            "out": "Alex Oxlade-Chamberlain"
+                        },
+                        {
+                            "minute": "73",
+                            "in": "Danny Ings",
+                            "out": "Georginio Wijnaldum"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "Wilfried Bony",
+                            "out": "Jordan Ayew"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "20:00"
+                }
+            }
+        ]
+    }
+]

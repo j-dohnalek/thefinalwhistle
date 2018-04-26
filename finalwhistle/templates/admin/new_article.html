@@ -20,7 +20,7 @@
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
                 <h1 class="h2">Create new article</h1>
             </div>
-            <form method="post">
+            <form method="post" action="{{ url_for('new_article') }}">
                 <input class="form-control form-control-lg mb-3" type="text" id="title" placeholder="Insert your title here" name="title">
                 <textarea id="text-area" name="body"></textarea>
                 <button class="btn btn-primary mt-3" type="submit">Publish</button>

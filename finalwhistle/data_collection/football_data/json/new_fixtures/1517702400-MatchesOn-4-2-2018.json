@@ -1,0 +1,161 @@
+[
+    {
+        "date": "Sunday 4 February 2018",
+        "fixtures": [
+            {
+                "home_team": "Crystal Palace",
+                "away_team": "Newcastle",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22596",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "22",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Mohamed Diamé",
+                            "assist": "Ayoze Pérez"
+                        },
+                        {
+                            "minute": "55",
+                            "own_goal": "false",
+                            "penalty": "true",
+                            "scorer": "Luka Milivojevic"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "57",
+                            "card": "yellow",
+                            "player": "Paul Dummett"
+                        },
+                        {
+                            "minute": "64",
+                            "card": "yellow",
+                            "player": "Timothy Fosu-Mensah"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "additional": "2",
+                            "in": "Mamadou Sakho",
+                            "out": "Martin Kelly"
+                        },
+                        {
+                            "minute": "57",
+                            "in": "Christian Atsu",
+                            "out": "Kenedy"
+                        },
+                        {
+                            "minute": "65",
+                            "in": "Isaac Hayden",
+                            "out": "Mohamed Diamé"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "Mikel Merino",
+                            "out": "Ayoze Pérez"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "14:15"
+                }
+            },
+            {
+                "home_team": "Liverpool",
+                "away_team": "Spurs",
+                "score": "2-2",
+                "url": "https://www.premierleague.com/match/22598",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "3",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Mohamed Salah"
+                        },
+                        {
+                            "minute": "80",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Victor Wanyama"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Mohamed Salah"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "5",
+                            "own_goal": "false",
+                            "penalty": "true",
+                            "scorer": "Harry Kane"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "42",
+                            "card": "yellow",
+                            "player": "Trent Alexander-Arnold"
+                        },
+                        {
+                            "minute": "58",
+                            "card": "yellow",
+                            "player": "James Milner"
+                        },
+                        {
+                            "minute": "69",
+                            "card": "yellow",
+                            "player": "Dele Alli"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "6",
+                            "card": "yellow",
+                            "player": "Emre Can"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "65",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "out": "Sadio Mané"
+                        },
+                        {
+                            "minute": "65",
+                            "in": "Georginio Wijnaldum",
+                            "out": "Jordan Henderson"
+                        },
+                        {
+                            "minute": "71",
+                            "in": "Erik Lamela",
+                            "out": "Davinson Sánchez"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "Joel Matip",
+                            "out": "James Milner"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "Victor Wanyama",
+                            "out": "Mousa Dembélé"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "2",
+                            "in": "Fernando Llorente",
+                            "out": "Son Heung-Min"
+                        }
+                    ],
+                    "referee": "Jonathan Moss",
+                    "kick_off": "16:30"
+                }
+            }
+        ]
+    }
+]

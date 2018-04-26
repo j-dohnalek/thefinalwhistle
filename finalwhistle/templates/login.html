@@ -10,11 +10,10 @@
    <section class="bg-light py-5">
       <div class="container">
          <div class="row">
-            <form class="text-center form-signin" method="POST" action="/login">
+            <form class="text-center form-signin" method="POST" action="{{ url_for('login') }}">
                {# https://flask-wtf.readthedocs.io/en/stable/csrf.html#csrf-protection #}
                {# forms/ajax requests need this token or they'll fail to validate #}
-               {{ login_form.csrf_token }}
-               <img src="{{ url_for('static', filename='images/logo.svg') }}" class="logo" alt="The Final Whistle">
+               <img width="100" src="{{ url_for('static', filename='images/logo.svg') }}" class="logo" alt="The Final Whistle">
 
                 {% if user_error|length > 0 %}
                 <div class="alert alert-danger" role="alert">
@@ -27,18 +26,18 @@
                {# <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>#}
                {# <label for="inputPassword" class="sr-only">Password</label>#}
                {# <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>#}
-               {{ login_form.email.label(class_='sr-only') }}
-               {{ login_form.email(id='inputEmail', class_='form-control', placeholder="Email address", required=true, autofocus=true) }}
-               {{ login_form.password.label(class_='sr-only') }}
-               {{ login_form.password(id='inputPassword', class_='form-control', placeholder="Password", required=true) }}
+               {{ login_form.email.label(class='sr-only') }}
+               {{ login_form.email(id='inputEmail', class='form-control', placeholder="Email address", required=true, autofocus=true) }}
+               {{ login_form.password.label(class='sr-only') }}
+               {{ login_form.password(id='inputPassword', class='form-control', placeholder="Password", required=true) }}
                <div class="checkbox mb-3">
-                  <label>
-                     {# <input type="checkbox" value="remember-me">Remember me#}
-                     {{ login_form.remember_me }}
-                  </label>
+                  {# <input type="checkbox" value="remember-me">Remember me#}
+                  {{ login_form.remember_me }}
+                  {{ login_form.remember_me.label }}
                </div>
                {# <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>#}
-               {{ login_form.submit(class_='btn btn-lg btn-primary btn-block') }}
+               {{ login_form.submit(class='btn btn-lg btn-primary btn-block') }}
+               {{ login_form.csrf_token }}
                <div>
                   <hr style="width:100px;">
                   <span class="align-middle"> or </span>

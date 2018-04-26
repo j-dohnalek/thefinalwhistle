@@ -1,0 +1,173 @@
+[
+    {
+        "date": "Sunday 4 March 2018",
+        "fixtures": [
+            {
+                "home_team": "Brighton",
+                "away_team": "Arsenal",
+                "score": "2-1",
+                "url": "https://www.premierleague.com/match/22622",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "7",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Lewis Dunk",
+                            "assist": "Shane Duffy"
+                        },
+                        {
+                            "minute": "26",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Glenn Murray",
+                            "assist": "Pascal Groß"
+                        },
+                        {
+                            "minute": "43",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Pierre-Emerick Aubameyang",
+                            "assist": "Granit Xhaka"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "28",
+                            "card": "yellow",
+                            "player": "Sead Kolasinac"
+                        },
+                        {
+                            "minute": "40",
+                            "card": "yellow",
+                            "player": "Jack Wilshere"
+                        },
+                        {
+                            "minute": "54",
+                            "card": "yellow",
+                            "player": "Granit Xhaka"
+                        },
+                        {
+                            "minute": "60",
+                            "card": "yellow",
+                            "player": "Dale Stephens"
+                        },
+                        {
+                            "minute": "64",
+                            "card": "yellow",
+                            "player": "Ezequiel Schelotto"
+                        },
+                        {
+                            "minute": "78",
+                            "card": "yellow",
+                            "player": "Glenn Murray"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "69",
+                            "in": "Bruno",
+                            "out": "Ezequiel Schelotto"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Danny Welbeck",
+                            "out": "Alex Iwobi"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "Solly March",
+                            "out": "Anthony Knockaert"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "Eddie Nketiah",
+                            "out": "Calum Chambers"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "Héctor Bellerín",
+                            "out": "Henrikh Mkhitaryan"
+                        },
+                        {
+                            "minute": "87",
+                            "in": "Beram Kayal",
+                            "out": "Pascal Groß"
+                        }
+                    ],
+                    "referee": "Stuart Attwell",
+                    "kick_off": "13:30"
+                }
+            },
+            {
+                "home_team": "Man City",
+                "away_team": "Chelsea",
+                "score": "1-0",
+                "url": "https://www.premierleague.com/match/22627",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "46",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Bernardo Silva",
+                            "assist": "David Silva"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "24",
+                            "card": "yellow",
+                            "player": "Oleksandr Zinchenko"
+                        },
+                        {
+                            "minute": "47",
+                            "card": "yellow",
+                            "player": "Ilkay Gündogan"
+                        },
+                        {
+                            "minute": "57",
+                            "card": "yellow",
+                            "player": "Antonio Rüdiger"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "78",
+                            "in": "Olivier Giroud",
+                            "out": "Willian"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Emerson",
+                            "out": "Pedro"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "Gabriel Jesus",
+                            "out": "Sergio Agüero"
+                        },
+                        {
+                            "minute": "87",
+                            "in": "Danilo",
+                            "out": "Oleksandr Zinchenko"
+                        },
+                        {
+                            "minute": "90",
+                            "in": "Álvaro Morata",
+                            "out": "Eden Hazard"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "in": "Phil Foden",
+                            "out": "David Silva"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "16:00"
+                }
+            }
+        ]
+    }
+]

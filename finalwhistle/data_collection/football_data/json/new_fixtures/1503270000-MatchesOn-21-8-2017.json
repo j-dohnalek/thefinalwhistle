@@ -1,0 +1,101 @@
+[
+    {
+        "date": "Monday 21 August 2017",
+        "fixtures": [
+            {
+                "home_team": "Man City",
+                "away_team": "Everton",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22357",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "35",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Wayne Rooney",
+                            "assist": "Dominic Calvert-Lewin"
+                        },
+                        {
+                            "minute": "82",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Raheem Sterling"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "7",
+                            "card": "yellow",
+                            "player": "Morgan Schneiderlin"
+                        },
+                        {
+                            "minute": "24",
+                            "card": "yellow",
+                            "player": "Tom Davies"
+                        },
+                        {
+                            "minute": "42",
+                            "card": "yellow",
+                            "player": "Kyle Walker"
+                        },
+                        {
+                            "minute": "44",
+                            "card": "red",
+                            "player": "Kyle Walker"
+                        },
+                        {
+                            "minute": "78",
+                            "card": "yellow",
+                            "player": "Vincent Kompany"
+                        },
+                        {
+                            "minute": "84",
+                            "card": "yellow",
+                            "player": "Wayne Rooney"
+                        },
+                        {
+                            "minute": "88",
+                            "card": "red",
+                            "player": "Morgan Schneiderlin"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "Raheem Sterling",
+                            "out": "Gabriel Jesus"
+                        },
+                        {
+                            "minute": "61",
+                            "in": "Davy Klaassen",
+                            "out": "Ashley Williams"
+                        },
+                        {
+                            "minute": "61",
+                            "in": "Gylfi Sigurdsson",
+                            "out": "Tom Davies"
+                        },
+                        {
+                            "minute": "65",
+                            "in": "Danilo",
+                            "out": "John Stones"
+                        },
+                        {
+                            "minute": "69",
+                            "in": "Bernardo Silva",
+                            "out": "Leroy Sané"
+                        },
+                        {
+                            "minute": "90",
+                            "in": "Muhamed Besic",
+                            "out": "Wayne Rooney"
+                        }
+                    ],
+                    "referee": "Robert Madley",
+                    "kick_off": "20:00"
+                }
+            }
+        ]
+    }
+]

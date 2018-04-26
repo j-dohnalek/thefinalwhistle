@@ -1,0 +1,261 @@
+[
+    {
+        "date": "Sunday 10 December 2017",
+        "fixtures": [
+            {
+                "home_team": "Southampton",
+                "away_team": "Arsenal",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22498",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "3",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Charlie Austin",
+                            "assist": "Dusan Tadic"
+                        },
+                        {
+                            "minute": "88",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Olivier Giroud",
+                            "assist": "Alexis Sánchez"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "78",
+                            "card": "yellow",
+                            "player": "Héctor Bellerín"
+                        },
+                        {
+                            "minute": "82",
+                            "card": "yellow",
+                            "player": "Jack Stephens"
+                        },
+                        {
+                            "minute": "84",
+                            "card": "yellow",
+                            "player": "Oriol Romeu"
+                        },
+                        {
+                            "minute": "90",
+                            "card": "yellow",
+                            "player": "Jack Wilshere"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "64",
+                            "in": "Danny Welbeck",
+                            "out": "Per Mertesacker"
+                        },
+                        {
+                            "minute": "69",
+                            "in": "Jack Wilshere",
+                            "out": "Granit Xhaka"
+                        },
+                        {
+                            "minute": "72",
+                            "in": "Olivier Giroud",
+                            "out": "Alexandre Lacazette"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Sofiane Boufal",
+                            "out": "Nathan Redmond"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "Manolo Gabbiadini",
+                            "out": "Charlie Austin"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "Steven Davis",
+                            "out": "Dusan Tadic"
+                        }
+                    ],
+                    "referee": "Robert Madley",
+                    "kick_off": "12:00"
+                }
+            },
+            {
+                "home_team": "Liverpool",
+                "away_team": "Everton",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22495",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "42",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Mohamed Salah",
+                            "assist": "Joseph Gomez"
+                        },
+                        {
+                            "minute": "77",
+                            "own_goal": "false",
+                            "penalty": "true",
+                            "scorer": "Wayne Rooney"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "36",
+                            "card": "yellow",
+                            "player": "Gylfi Sigurdsson"
+                        },
+                        {
+                            "minute": "42",
+                            "card": "yellow",
+                            "player": "Idrissa Gueye"
+                        },
+                        {
+                            "minute": "76",
+                            "card": "yellow",
+                            "player": "Dejan Lovren"
+                        },
+                        {
+                            "minute": "85",
+                            "card": "yellow",
+                            "player": "Morgan Schneiderlin"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "Aaron Lennon",
+                            "out": "Tom Davies"
+                        },
+                        {
+                            "minute": "45",
+                            "in": "Morgan Schneiderlin",
+                            "out": "Oumar Niasse"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "Roberto Firmino",
+                            "out": "Mohamed Salah"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "Coutinho",
+                            "out": "Alex Oxlade-Chamberlain"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Danny Ings",
+                            "out": "Dominic Solanke"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "Phil Jagielka",
+                            "out": "Wayne Rooney"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "kick_off": "14:15"
+                }
+            },
+            {
+                "home_team": "Man Utd",
+                "away_team": "Man City",
+                "score": "1-2",
+                "url": "https://www.premierleague.com/match/22496",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "43",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "David Silva"
+                        },
+                        {
+                            "minute": "45",
+                            "additional": "2",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Marcus Rashford"
+                        },
+                        {
+                            "minute": "54",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Nicolás Otamendi"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "4",
+                            "card": "yellow",
+                            "player": "Kyle Walker"
+                        },
+                        {
+                            "minute": "36",
+                            "card": "yellow",
+                            "player": "Marcos Rojo"
+                        },
+                        {
+                            "minute": "63",
+                            "card": "yellow",
+                            "player": "Marcus Rashford"
+                        },
+                        {
+                            "minute": "73",
+                            "card": "yellow",
+                            "player": "David Silva"
+                        },
+                        {
+                            "minute": "79",
+                            "card": "yellow",
+                            "player": "Ander Herrera"
+                        },
+                        {
+                            "minute": "90",
+                            "card": "yellow",
+                            "player": "Ashley Young"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "Ilkay Gündogan",
+                            "out": "Vincent Kompany"
+                        },
+                        {
+                            "minute": "45",
+                            "in": "Victor Lindelöf",
+                            "out": "Marcos Rojo"
+                        },
+                        {
+                            "minute": "59",
+                            "in": "Eliaquim Mangala",
+                            "out": "Gabriel Jesus"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Zlatan Ibrahimovic",
+                            "out": "Jesse Lingard"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Juan Mata",
+                            "out": "Ander Herrera"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "Bernardo Silva",
+                            "out": "Leroy Sané"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "16:30"
+                }
+            }
+        ]
+    }
+]

@@ -51,6 +51,17 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url_for('teams_overview') }}">Teams</a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Statistics
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="{{ url_for('compare_teams') }}">Compare Teams</a>
+                            <a class="dropdown-item" href="{{ url_for('compare_players') }}">Compare Players</a>
+                            <a class="dropdown-item" href="{{ url_for('top_tens') }}">Top 10's</a>
+                            <a class="dropdown-item" href="{{ url_for('referee_overview') }}">Referees</a>
+                        </div>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url_for('news_overview') }}">News</a>
                     </li>
@@ -75,6 +86,20 @@
         </div>
     </nav>
 </header>
+
+{#http://flask.pocoo.org/docs/0.10/patterns/flashing/#}
+<div class="container-fluid" style="min-height:100%">
+   {% with messages = get_flashed_messages() %}
+      {% if messages %}
+         {% for message in messages %}
+            <div class="alert alert-warning text-center" role="alert">
+               {{ message }}
+            </div>
+         {% endfor %}
+      {% endif %}
+   {% endwith %}
+   {% block body %}{% endblock %}
+</div>
 
 {% block content %}{% endblock %}
 

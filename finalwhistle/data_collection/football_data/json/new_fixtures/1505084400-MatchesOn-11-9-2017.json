@@ -1,0 +1,82 @@
+[
+    {
+        "date": "Monday 11 September 2017",
+        "fixtures": [
+            {
+                "home_team": "West Ham",
+                "away_team": "Huddersfield",
+                "score": "2-0",
+                "url": "https://www.premierleague.com/match/22381",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "72",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Pedro Obiang",
+                            "assist": "André Ayew"
+                        },
+                        {
+                            "minute": "77",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "André Ayew"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "25",
+                            "card": "yellow",
+                            "player": "Zanka"
+                        },
+                        {
+                            "minute": "45",
+                            "card": "yellow",
+                            "player": "Philip Billing"
+                        },
+                        {
+                            "minute": "49",
+                            "card": "yellow",
+                            "player": "Pablo Zabaleta"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "63",
+                            "in": "Scott Malone",
+                            "out": "Chris Löwe"
+                        },
+                        {
+                            "minute": "64",
+                            "in": "André Ayew",
+                            "out": "Chicharito"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "Abdelhamid Sabiri",
+                            "out": "Elias Kachunga"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Diafra Sakho",
+                            "out": "Andy Carroll"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "Laurent Depoitre",
+                            "out": "Philip Billing"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "in": "Declan Rice",
+                            "out": "Pedro Obiang"
+                        }
+                    ],
+                    "referee": "Kevin Friend",
+                    "kick_off": "20:00"
+                }
+            }
+        ]
+    }
+]

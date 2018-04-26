@@ -1,0 +1,82 @@
+[
+    {
+        "date": "Monday 16 October 2017",
+        "fixtures": [
+            {
+                "home_team": "Leicester",
+                "away_team": "West Brom",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22415",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "63",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Nacer Chadli"
+                        },
+                        {
+                            "minute": "80",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Riyad Mahrez",
+                            "assist": "Islam Slimani"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "8",
+                            "card": "yellow",
+                            "player": "Ahmed Hegazi"
+                        },
+                        {
+                            "minute": "47",
+                            "card": "yellow",
+                            "player": "Boaz Myhill"
+                        },
+                        {
+                            "minute": "62",
+                            "card": "yellow",
+                            "player": "Kelechi Iheanacho"
+                        },
+                        {
+                            "minute": "68",
+                            "card": "yellow",
+                            "player": "Marc Albrighton"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "74",
+                            "in": "Ben Chilwell",
+                            "out": "Danny Simpson"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Islam Slimani",
+                            "out": "Kelechi Iheanacho"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "Gareth McAuley",
+                            "out": "Nacer Chadli"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "James McClean",
+                            "out": "Jay Rodriguez"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "4",
+                            "in": "Andy King",
+                            "out": "Vicente Iborra"
+                        }
+                    ],
+                    "referee": "Mike Dean",
+                    "kick_off": "20:00"
+                }
+            }
+        ]
+    }
+]

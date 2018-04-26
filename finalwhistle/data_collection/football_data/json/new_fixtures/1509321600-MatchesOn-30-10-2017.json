@@ -1,0 +1,65 @@
+[
+    {
+        "date": "Monday 30 October 2017",
+        "fixtures": [
+            {
+                "home_team": "Burnley",
+                "away_team": "Newcastle",
+                "score": "1-0",
+                "url": "https://www.premierleague.com/match/22435",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "74",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Jeff Hendrick",
+                            "assist": "Johann Berg Gudmundsson"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "45",
+                            "card": "yellow",
+                            "player": "Johann Berg Gudmundsson"
+                        },
+                        {
+                            "minute": "62",
+                            "card": "yellow",
+                            "player": "Jack Cork"
+                        },
+                        {
+                            "minute": "75",
+                            "card": "yellow",
+                            "player": "James Tarkowski"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "76",
+                            "in": "Ashley Westwood",
+                            "out": "Steven Defour"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Isaac Hayden",
+                            "out": "Ayoze Pérez"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "Jacob Murphy",
+                            "out": "Matt Ritchie"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "Dwight Gayle",
+                            "out": "Mohamed Diamé"
+                        }
+                    ],
+                    "referee": "Mike Dean",
+                    "kick_off": "20:00"
+                }
+            }
+        ]
+    }
+]

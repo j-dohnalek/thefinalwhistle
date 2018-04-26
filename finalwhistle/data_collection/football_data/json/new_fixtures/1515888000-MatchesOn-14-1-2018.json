@@ -1,0 +1,206 @@
+[
+    {
+        "date": "Sunday 14 January 2018",
+        "fixtures": [
+            {
+                "home_team": "Bournemouth",
+                "away_team": "Arsenal",
+                "score": "2-1",
+                "url": "https://www.premierleague.com/match/22562",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "52",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Héctor Bellerín",
+                            "assist": "Alex Iwobi"
+                        },
+                        {
+                            "minute": "70",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Callum Wilson",
+                            "assist": "Ryan Fraser"
+                        },
+                        {
+                            "minute": "74",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Jordon Ibe",
+                            "assist": "Callum Wilson"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "21",
+                            "card": "yellow",
+                            "player": "Dan Gosling"
+                        },
+                        {
+                            "minute": "31",
+                            "card": "yellow",
+                            "player": "Simon Francis"
+                        },
+                        {
+                            "minute": "56",
+                            "card": "yellow",
+                            "player": "Granit Xhaka"
+                        },
+                        {
+                            "minute": "71",
+                            "card": "yellow",
+                            "player": "Jack Wilshere"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "63",
+                            "in": "Lys Mousset",
+                            "out": "Charlie Daniels"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Aaron Ramsey",
+                            "out": "Calum Chambers"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Theo Walcott",
+                            "out": "Alex Iwobi"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "Marc Pugh",
+                            "out": "Jordon Ibe"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "in": "Benik Afobe",
+                            "out": "Callum Wilson"
+                        }
+                    ],
+                    "referee": "Kevin Friend",
+                    "kick_off": "13:30"
+                }
+            },
+            {
+                "home_team": "Liverpool",
+                "away_team": "Man City",
+                "score": "4-3",
+                "url": "https://www.premierleague.com/match/22566",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "9",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Alex Oxlade-Chamberlain",
+                            "assist": "Roberto Firmino"
+                        },
+                        {
+                            "minute": "40",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Leroy Sané",
+                            "assist": "Kyle Walker"
+                        },
+                        {
+                            "minute": "59",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Roberto Firmino",
+                            "assist": "Alex Oxlade-Chamberlain"
+                        },
+                        {
+                            "minute": "61",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Sadio Mané",
+                            "assist": "Mohamed Salah"
+                        },
+                        {
+                            "minute": "68",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Mohamed Salah"
+                        },
+                        {
+                            "minute": "84",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Bernardo Silva"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Ilkay Gündogan",
+                            "assist": "Sergio Agüero"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "60",
+                            "card": "yellow",
+                            "player": "Roberto Firmino"
+                        },
+                        {
+                            "minute": "65",
+                            "card": "yellow",
+                            "player": "Nicolás Otamendi"
+                        },
+                        {
+                            "minute": "69",
+                            "card": "yellow",
+                            "player": "Raheem Sterling"
+                        },
+                        {
+                            "minute": "72",
+                            "card": "yellow",
+                            "player": "Fernandinho"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "card": "yellow",
+                            "player": "James Milner"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "31",
+                            "in": "Danilo",
+                            "out": "Fabian Delph"
+                        },
+                        {
+                            "minute": "71",
+                            "in": "Bernardo Silva",
+                            "out": "Raheem Sterling"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "James Milner",
+                            "out": "Emre Can"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "Adam Lallana",
+                            "out": "Mohamed Salah"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "4",
+                            "in": "Ragnar Klavan",
+                            "out": "Sadio Mané"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "16:00"
+                }
+            }
+        ]
+    }
+]

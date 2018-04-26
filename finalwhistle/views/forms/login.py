@@ -1,11 +1,15 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField, BooleanField
-from wtforms.validators import InputRequired, Length
+from wtforms.validators import InputRequired
 
 
 class LoginForm(FlaskForm):
     # TODO: allow users to login with either username or email
-    email = StringField('e-mail')
-    password = PasswordField('password')
-    remember_me = BooleanField('remember me')
-    submit = SubmitField('submit')
+    email = StringField('E-mail address', validators=[
+        InputRequired()
+    ])
+    password = PasswordField('Password', validators=[
+        InputRequired()
+    ])
+    remember_me = BooleanField('Remember me')
+    submit = SubmitField('Submit')

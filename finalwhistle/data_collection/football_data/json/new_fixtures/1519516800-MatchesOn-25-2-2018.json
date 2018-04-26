@@ -1,0 +1,138 @@
+[
+    {
+        "date": "Sunday 25 February 2018",
+        "fixtures": [
+            {
+                "home_team": "Crystal Palace",
+                "away_team": "Spurs",
+                "score": "0-1",
+                "url": "https://www.premierleague.com/match/22616",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "88",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Harry Kane",
+                            "assist": "Christian Eriksen"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "45",
+                            "additional": "1",
+                            "card": "yellow",
+                            "player": "Mousa Dembélé"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "66",
+                            "in": "Lucas Moura",
+                            "out": "Erik Lamela"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "Son Heung-Min",
+                            "out": "Mousa Dembélé"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "Damien Delaney",
+                            "out": "James Tomkins"
+                        },
+                        {
+                            "minute": "87",
+                            "in": "Lee Chung-yong",
+                            "out": "Andros Townsend"
+                        }
+                    ],
+                    "referee": "Kevin Friend",
+                    "kick_off": "12:00"
+                }
+            },
+            {
+                "home_team": "Man Utd",
+                "away_team": "Chelsea",
+                "score": "2-1",
+                "url": "https://www.premierleague.com/match/22619",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "32",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Willian",
+                            "assist": "Eden Hazard"
+                        },
+                        {
+                            "minute": "39",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Romelu Lukaku",
+                            "assist": "Anthony Martial"
+                        },
+                        {
+                            "minute": "75",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Jesse Lingard",
+                            "assist": "Romelu Lukaku"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "30",
+                            "card": "yellow",
+                            "player": "N'Golo Kanté"
+                        },
+                        {
+                            "minute": "68",
+                            "card": "yellow",
+                            "player": "Antonio Valencia"
+                        },
+                        {
+                            "minute": "85",
+                            "card": "yellow",
+                            "player": "Nemanja Matic"
+                        },
+                        {
+                            "minute": "88",
+                            "card": "yellow",
+                            "player": "Álvaro Morata"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "64",
+                            "in": "Jesse Lingard",
+                            "out": "Anthony Martial"
+                        },
+                        {
+                            "minute": "73",
+                            "in": "Pedro",
+                            "out": "Eden Hazard"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "Olivier Giroud",
+                            "out": "Victor Moses"
+                        },
+                        {
+                            "minute": "81",
+                            "in": "Cesc Fàbregas",
+                            "out": "Daniel Drinkwater"
+                        },
+                        {
+                            "minute": "81",
+                            "in": "Eric Bailly",
+                            "out": "Alexis Sánchez"
+                        }
+                    ],
+                    "referee": "Martin Atkinson",
+                    "kick_off": "14:05"
+                }
+            }
+        ]
+    }
+]

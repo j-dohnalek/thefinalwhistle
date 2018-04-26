@@ -1,0 +1,74 @@
+[
+    {
+        "date": "Friday 20 October 2017",
+        "fixtures": [
+            {
+                "home_team": "West Ham",
+                "away_team": "Brighton",
+                "score": "0-3",
+                "url": "https://www.premierleague.com/match/22431",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "10",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Glenn Murray",
+                            "assist": "Pascal Groß"
+                        },
+                        {
+                            "minute": "45",
+                            "additional": "2",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "José Izquierdo",
+                            "assist": "Davy Pröpper"
+                        },
+                        {
+                            "minute": "75",
+                            "own_goal": "false",
+                            "penalty": "true",
+                            "scorer": "Glenn Murray"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "23",
+                            "card": "yellow",
+                            "player": "Chicharito"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "André Ayew",
+                            "out": "Cheikhou Kouyaté"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "Solly March",
+                            "out": "José Izquierdo"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Edimilson Fernandes",
+                            "out": "Marko Arnautovic"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Isaiah Brown",
+                            "out": "Pascal Groß"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "Ezequiel Schelotto",
+                            "out": "Anthony Knockaert"
+                        }
+                    ],
+                    "referee": "Martin Atkinson",
+                    "kick_off": "20:00"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,208 @@
+[
+    {
+        "date": "Sunday 1 October 2017",
+        "fixtures": [
+            {
+                "home_team": "Arsenal",
+                "away_team": "Brighton",
+                "score": "2-0",
+                "url": "https://www.premierleague.com/match/22402",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "16",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Nacho Monreal"
+                        },
+                        {
+                            "minute": "56",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Alex Iwobi",
+                            "assist": "Alexis Sánchez"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "17",
+                            "card": "yellow",
+                            "player": "Pascal Groß"
+                        },
+                        {
+                            "minute": "39",
+                            "card": "yellow",
+                            "player": "Shane Duffy"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "71",
+                            "in": "Olivier Giroud",
+                            "out": "Alexandre Lacazette"
+                        },
+                        {
+                            "minute": "71",
+                            "in": "Theo Walcott",
+                            "out": "Alex Iwobi"
+                        },
+                        {
+                            "minute": "72",
+                            "in": "Ezequiel Schelotto",
+                            "out": "Solly March"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Anthony Knockaert",
+                            "out": "José Izquierdo"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Glenn Murray",
+                            "out": "Isaiah Brown"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "Mohamed Elneny",
+                            "out": "Granit Xhaka"
+                        }
+                    ],
+                    "referee": "Kevin Friend",
+                    "kick_off": "12:00"
+                }
+            },
+            {
+                "home_team": "Everton",
+                "away_team": "Burnley",
+                "score": "0-1",
+                "url": "https://www.premierleague.com/match/22405",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "21",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Jeff Hendrick",
+                            "assist": "Stephen Ward"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "40",
+                            "card": "yellow",
+                            "player": "Steven Defour"
+                        },
+                        {
+                            "minute": "42",
+                            "card": "yellow",
+                            "player": "Scott Arfield"
+                        },
+                        {
+                            "minute": "49",
+                            "card": "yellow",
+                            "player": "Dominic Calvert-Lewin"
+                        },
+                        {
+                            "minute": "58",
+                            "card": "yellow",
+                            "player": "Leighton Baines"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "63",
+                            "in": "Wayne Rooney",
+                            "out": "Morgan Schneiderlin"
+                        },
+                        {
+                            "minute": "69",
+                            "in": "Tom Davies",
+                            "out": "Nikola Vlasic"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Sandro Ramírez",
+                            "out": "Oumar Niasse"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "Ashley Barnes",
+                            "out": "Jeff Hendrick"
+                        }
+                    ],
+                    "referee": "Jonathan Moss",
+                    "kick_off": "14:15"
+                }
+            },
+            {
+                "home_team": "Newcastle",
+                "away_team": "Liverpool",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22408",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "29",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Coutinho"
+                        },
+                        {
+                            "minute": "36",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Joselu"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "55",
+                            "card": "yellow",
+                            "player": "Ayoze Pérez"
+                        },
+                        {
+                            "minute": "58",
+                            "card": "yellow",
+                            "player": "Joseph Gomez"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "74",
+                            "in": "Roberto Firmino",
+                            "out": "Daniel Sturridge"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Dominic Solanke",
+                            "out": "Sadio Mané"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Isaac Hayden",
+                            "out": "Mikel Merino"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "Dwight Gayle",
+                            "out": "Joselu"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "Alex Oxlade-Chamberlain",
+                            "out": "Mohamed Salah"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "in": "Mohamed Diamé",
+                            "out": "Ayoze Pérez"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "kick_off": "16:30"
+                }
+            }
+        ]
+    }
+]

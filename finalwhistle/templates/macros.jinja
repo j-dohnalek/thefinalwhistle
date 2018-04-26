@@ -1,0 +1,48 @@
+<!--
+snippet for rendering form fields + labels and displaying validation errors adapted from [1]
+[1] http://flask.pocoo.org/docs/0.12/patterns/wtforms/#forms-in-templates
+-->
+{% macro render_field(field) %}
+  <dt>{{ field.label }}
+  <dd>{{ field(**kwargs)|safe }}
+  {% if field.errors %}
+    <ul class="form_errors">
+    {% for error in field.errors %}
+      <li>{{ error }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+  </dd>
+{% endmacro %}
+
+{% macro form_input_render_errors(field) %}
+   {{ field(class="form-control", **kwargs)|safe }}
+  {% if field.errors %}
+    <ul class="form-error">
+    {% for error in field.errors %}
+      <li>{{ error }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endmacro %}
+
+{% macro render_article_overview(article) %}
+   <div class="row">
+      <div class="card mb-4 box-shadow">
+         <img class="card-img-top" data-src="holder.js/100px450?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+         <div class="card-body">
+            <h2 class="card-title">{{ article.title }}</h2>
+            <h6 class="card-subtitle mb-3 text-muted">by userid {{ article.author_id }}</h6>
+            <p class="card-text">{{ article.preview }}</p>
+            <div class="d-flex justify-content-between align-items-center">
+               <div>
+                  <a class="btn" href="{{ url_for('news_page', id=article.id) }}">More</a>
+                  <button type="button" class="btn btn-sm btn-outline-primary" onclick="location.href='{{ url_for('news_page', id=article.id) }}';"><i class="fas fa-plus"></i> Read more...</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-comment"></i> 3 comments</button>
+               </div>
+               <small class="text-muted">9 mins ago</small>
+            </div>
+         </div>
+      </div>
+   </div>
+{% endmacro %}
