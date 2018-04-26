@@ -2,6 +2,7 @@
 Database models for users/accounts
 """
 from sqlalchemy.exc import SQLAlchemyError
+from sqlalchemy.orm import validates
 
 from finalwhistle import db, bcrypt, app
 from finalwhistle.helpers import new_uuid
@@ -108,6 +109,14 @@ class User(UserMixin, db.Model):
     #usergroup_id = db.Column(db.Integer, db.ForeignKey('usergroups.id'), nullable=True)
     #usergroup = db.relationship('UserGroup')
 
+    @validates('supported_team_id')
+    def validate_supported_team_id(self, key, team_id):
+        from finalwhistle.models.football import Team
+        max = len(Team.query.all())
+        if team_id < 1 or team_id > max:
+            raise ValueError('Tried to set supported_team_id outside range ')
+        return team_id
+
     def __init__(self, email, username, password, name):
         """
         Creates a new user in the database
@@ -164,6 +173,7 @@ class User(UserMixin, db.Model):
         """
         user = get_user_by_email(email)
         if user.password_valid(password):
+            user.last_login = func.now()
             return user
         else:
             # can implement failed login attempt tracker here
