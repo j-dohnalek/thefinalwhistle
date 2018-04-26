@@ -21,7 +21,7 @@ def terms_of_service():
 
 @app.route('/about', methods=['GET'])
 def about():
-    return 'about page'
+    return render_template('about.html')
 
 
 @app.route('/contact-us', methods=['GET', 'POST'])

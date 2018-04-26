@@ -27,7 +27,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark box-shadow">
         <div class="container">
             <a class="navbar-brand logo" href="{{ url_for('home') }}">
-                <img src="{{ url_for('static', filename='images/logo.svg') }}">
+                <img src="{{ url_for('static', filename='images/logo.svg') }}" alt="The Final Whistle">
                 <span>The Final Whistle</span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -102,6 +102,16 @@
 <script src="{{ url_for('static', filename='popper/popper.min.js') }}"></script>
 <script src="{{ url_for('static', filename='jquery/jquery-3.2.1.min.js') }}"></script>
 <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118132245-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-118132245-1');
+</script>
 
 <!-- Page unique scripts -->
 {% block custom_scripts %}{% endblock %}
