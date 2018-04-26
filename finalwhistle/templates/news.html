@@ -6,9 +6,9 @@
 {% block content %}
 
 <section class="album bg-light">
-   {% from 'macros.jinja' import render_article %}
+   {% from 'macros.jinja' import render_article_overview %}
    {% for article in news %}
-      {{ render_article(article) }}
+      {{ render_article_overview(article) }}
    {% endfor %}
 </section>
 

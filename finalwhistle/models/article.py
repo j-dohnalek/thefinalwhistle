@@ -29,6 +29,7 @@ class Article(db.Model):
     __tablename__ = 'articles'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     author_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    # TODO: map author_name attribute
     title = db.Column(db.String(255), nullable=False)
     body = db.Column(db.String, nullable=False)
     submitted_at = db.Column(db.DateTime, nullable=False, server_default=func.now())
@@ -40,6 +41,7 @@ class Article(db.Model):
         self.body = body
         self.title = title
 
+    # TODO: fix or move functionality to jinja
     def preview(self, limit=60):
         """
         Returns characters up to 'length' after removing html tags from article body
