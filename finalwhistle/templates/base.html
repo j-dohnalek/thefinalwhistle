@@ -105,10 +105,19 @@
 
 <footer class="text-muted">
     <div class="container">
-        <p class="float-right">
-            <a href="#"><i class="fas fa-arrow-up"></i> Back to top</a>
-        </p>
-        <p>&copy; {{ current_year }} – The Final Whistle</p>
+        <div class="row">
+            <div class="col-md-4">
+                <p>&copy; {{ current_year }} – The Final Whistle</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <p class="text-center">
+                    <a href="{{ url_for('terms_of_service') }}">Terms of Service</a>
+                </p>
+            </div>
+            <div class="col-md-4 text-right">
+                <a href="#"><i class="fas fa-arrow-up"></i> Back to top</a>
+            </div>
+        </div>
     </div>
 </footer>
 
