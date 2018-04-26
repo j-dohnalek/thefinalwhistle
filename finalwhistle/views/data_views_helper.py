@@ -456,3 +456,39 @@ def get_match_information(id):
 
     else:
         return None
+
+
+def list_referees():
+    """
+    List all referees
+    :return: dict
+    """
+    list_of_referees = []
+    referees = Referee.query.all()
+
+    for referee in referees:
+
+        statistic = Match.query.join(MatchStatistics, Match.match_id == MatchStatistics.match) \
+            .add_columns(Match.match_id,
+                         MatchStatistics.home_fouls,
+                         func.sum(MatchStatistics.home_fouls).label('total_home_fouls'),
+                         func.sum(MatchStatistics.home_yellow_cards).label('total_home_yellow'),
+                         func.sum(MatchStatistics.home_red_cards).label('total_home_red'),
+                         func.sum(MatchStatistics.away_fouls).label('total_away_fouls'),
+                         func.sum(MatchStatistics.away_yellow_cards).label('total_away_yellow'),
+                         func.sum(MatchStatistics.away_red_cards).label('total_away_red')) \
+            .filter(Match.main_referee == referee.referee_id) \
+            .group_by(Match.main_referee).first()
+
+        referee_details = {
+            'name': referee.name,
+            'yellow': statistic.total_home_yellow + statistic.total_away_yellow,
+            'red': statistic.total_home_red + statistic.total_away_red,
+            'foul': statistic.total_home_fouls + statistic.total_away_fouls,
+        }
+
+        # Count all matches, cards given (yellow, red)
+        list_of_referees.append(referee_details)
+
+    return list_of_referees
+
