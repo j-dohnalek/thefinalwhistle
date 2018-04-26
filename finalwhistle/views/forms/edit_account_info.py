@@ -1,5 +1,6 @@
+from flask_login import current_user
 from flask_wtf import FlaskForm
-from wtforms import StringField, SelectField
+from wtforms import StringField, SelectField, SubmitField
 
 from finalwhistle.views.data_views_helper import get_all_teams
 
@@ -18,7 +19,15 @@ def generate_choices_list():
     return team_list
 
 
-class EditAccountInfo(FlaskForm):
-    real_name = StringField('Real name')
+def user_real_name_or_blank():
+    try:
+        return current_user.real_name
+    except AttributeError:
+        return ''
+
+
+class EditAccountInfoForm(FlaskForm):
+    real_name = StringField('Real name', default=user_real_name_or_blank())
     favourite_team = SelectField('Favourite team', choices=generate_choices_list())
+    submit = SubmitField(label='Save changes')
 
