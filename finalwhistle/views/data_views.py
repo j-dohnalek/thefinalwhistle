@@ -5,7 +5,7 @@ from flask import redirect, url_for
 
 
 from finalwhistle.views.data_views_helper import list_all_matches, get_match_information, STATS, get_all_players, \
-    get_player_information, get_all_teams, get_team_information, get_league_table
+    get_player_information, get_all_teams, get_team_information, get_league_table, list_referees
 
 from finalwhistle.views.statistics_helper import top_tens_statistic, get_team_comparison, get_player_comparison
 
@@ -89,3 +89,8 @@ def compare_players():
 @app.route('/top-tens', methods=['GET'])
 def top_tens():
     return render_template('top_tens.html', statistics=top_tens_statistic())
+
+
+@app.route('/referees', methods=['GET'])
+def referee_overview():
+    return render_template('referees.html', referees=list_referees())
