@@ -9,11 +9,14 @@ from flask_login import login_required, login_user, logout_user, current_user
 #################################
 # guest account-related routing #
 #################################
+from views.data_views_helper import get_all_teams, get_league_table
+from views.forms.edit_account_info import EditAccountInfo
+
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if current_user.is_authenticated:
         return redirect(url_for('home'))
-
     login_form = LoginForm()
     if login_form.validate_on_submit():
         print('login form validated')
@@ -24,7 +27,7 @@ def login():
         user = attempt_login(email, password)
         if user is not None:
             login_user(user)
-            return render_template('index.html')
+            return redirect(url_for('home'))
         else:
             error = "Invalid email or password, please try again"
             return render_template('login.html', login_form=login_form, user_error=error)
@@ -107,7 +110,8 @@ def logout():
 @app.route('/account', methods=['GET'])
 @login_required
 def edit_profile():
-    return render_template('account.html')
+    profile_form = EditAccountInfo()
+    return render_template('account.html', profile_form=profile_form)
 
 
 @app.route('/profile/<int:user_id>', methods=['GET'])
