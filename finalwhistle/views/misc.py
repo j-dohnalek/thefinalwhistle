@@ -39,10 +39,12 @@ def contact_us():
 
 
 @app.route('/404', methods=['GET'])
-def error_404():
+@app.errorhandler(404)
+def error_404(e):
     return render_template('404.html')
 
 
 @app.route('/500', methods=['GET'])
-def error_500():
+@app.errorhandler(500)
+def error_500(e):
     return render_template('500.html')
