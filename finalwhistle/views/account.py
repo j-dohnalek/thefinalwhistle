@@ -1,7 +1,9 @@
-from finalwhistle import app
+from finalwhistle import app, db
 from finalwhistle.models.user import attempt_login, create_new_user, get_user_by_email
 from finalwhistle.views.forms.login import LoginForm
 from finalwhistle.views.forms.registration import RegistrationForm
+from finalwhistle.views.data_views_helper import get_all_teams, get_league_table
+from finalwhistle.views.forms.edit_account_info import EditAccountInfoForm
 from flask import request, render_template, redirect, url_for, flash
 from flask_login import login_required, login_user, logout_user, current_user
 
@@ -13,7 +15,6 @@ from flask_login import login_required, login_user, logout_user, current_user
 def login():
     if current_user.is_authenticated:
         return redirect(url_for('home'))
-
     login_form = LoginForm()
     if login_form.validate_on_submit():
         print('login form validated')
@@ -24,7 +25,7 @@ def login():
         user = attempt_login(email, password)
         if user is not None:
             login_user(user)
-            return render_template('index.html')
+            return redirect(url_for('home'))
         else:
             error = "Invalid email or password, please try again"
             return render_template('login.html', login_form=login_form, user_error=error)
@@ -103,11 +104,29 @@ def logout():
     logout_user()
     return redirect(url_for('login'))
 
-
-@app.route('/account', methods=['GET'])
+# TODO: fix changes to user not committing
+@app.route('/account', methods=['GET', 'POST'])
 @login_required
 def edit_profile():
-    return render_template('account.html')
+    profile_form = EditAccountInfoForm()
+    if profile_form.validate_on_submit():
+        print('profile edit accepted')
+        print(request.form)
+        try:
+            new_favourite_team_id = int(request.form.get('favourite_team'))
+        except ValueError:
+            print('received non-numerial favourite_team from account edit form')
+            print('this should not happen! sending the user back to the homepage')
+            print('no profile changes have been committed to db')
+            return redirect(url_for('home'))
+        new_real_name = request.form.get('real_name')
+        if new_favourite_team_id is not (None or ''):
+            current_user.supported_team_id = new_favourite_team_id
+            db.commit()
+        if new_favourite_team_id is not (None or ''):
+            current_user.real_name = new_real_name
+            db.commit()
+    return render_template('account.html', profile_form=profile_form)
 
 
 @app.route('/profile/<int:user_id>', methods=['GET'])

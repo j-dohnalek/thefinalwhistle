@@ -3,7 +3,6 @@ Database models for news article system
 """
 from sqlalchemy import func
 from sqlalchemy.exc import SQLAlchemyError
-
 from finalwhistle import db
 
 
@@ -29,6 +28,7 @@ class Article(db.Model):
     __tablename__ = 'articles'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     author_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    author = db.relationship('User')
     # TODO: map author_name attribute
     title = db.Column(db.String(255), nullable=False)
     body = db.Column(db.String, nullable=False)
