@@ -1,6 +1,6 @@
 from flask import render_template
 
-from finalwhistle import app
+from finalwhistle import app, db
 from flask import redirect, url_for
 
 
@@ -12,8 +12,6 @@ from finalwhistle.views.statistics_helper import top_tens_statistic, get_team_co
 #####################
 # data view routing #
 #####################
-
-
 @app.route('/matches', methods=['GET'])
 def matches_overview():
     return render_template('matches.html', data=list_all_matches())
@@ -72,7 +70,8 @@ def news_overview():
 
 @app.route('/news/<id>', methods=['GET'])
 def news_page(id):
-    return f'news page {id}'
+    from finalwhistle.models.article import Article
+    return render_template('news_post.html', article=db.session.query(Article).filter_by(id=id).first())
 
 
 @app.route('/compare-teams', methods=['GET'])

@@ -1,0 +1,188 @@
+{% extends "base.html" %}
+
+{% block custom_head %}
+{% endblock custom_head %}
+
+{% block content %}
+
+    <section>
+        <div class="container py-4">
+            <div class="row">
+                <h1 class="pb-2">Community Guidelines</h1>
+                <p>
+                    Participation in The Final Whistle website constitutes agreement to the following guidelines, which
+                    apply to posts, profile information, any other content on this site and participation in general.
+                </p>
+                <p>
+                    Because of the live nature of the discussions on this community, it is not possible for us to review
+                    and/or confirm the accuracy or validity of a message before it is posted. If you believe that someone
+                    has violated our User Guidelines or you have spotted content that may otherwise require attention,
+                    please contact us with a link to the content and a brief description of what you believe is wrong.
+                    Notification is voluntary and anonymous, but in no case should a user respond to a situation personally,
+                    thereby aggravating the situation further. Responding to a violation in an inflammatory manner is a
+                    violation in itself and will result in appropriate action.
+                </p>
+                <p>
+                    Any content that violates our User Guidelines will be removed. Interpretation of our guidelines is
+                    at the discretion of staff.
+                </p>
+                <ol>
+                    <li>
+                        <p>
+                            Advertisements are not allowed. Generally speaking, posts made specifically for the promotion
+                            of a website, product or service are considered advertising or, at least, posts made that
+                            unnecessarily send people to a website that you are in some way affiliated with. It does not
+                            matter if it is a commercial website, a personal website, a non profit website, etc.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            You are not allowed to post an affiliate URL that leads to you earning cash, banner impressions,
+                            credits, points, etc.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Do not post personal, real-life information such as home addresses and home phone numbers.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            As this is an English-speaking community, we require that posted content be in the English
+                            language, so that it can be well received and properly monitored.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Vulgar language and inappropriate material is not allowed and will be removed. Abbreviations,
+                            self censoring, and attempts to circumvent the word censoring feature of the community software
+                            also violate this guideline. If your post contains a word that is censored by the software,
+                            you must remove that word or the post will be removed. If you feel that the censor is acting
+                            in error, please <a href="{{ url_for('contact_us') }}">contact us</a>.
+                        </p>
+                        <p>
+                            We try to maintain a family friendly atmosphere whenever it is possible within the main subject
+                            matter of this community. Please keep this in mind when participating.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            When linking to outside websites, you must ensure that the content of the link is appropriate
+                            for our community, in line with the guidelines laid out here. This includes mentioning or
+                            referencing a site, even if the mention is not hyperlinked. If you post a link and that link
+                            is automatically censored, it is considered to be an inappropriate link and you should remove
+                            it from your post immediately. If left, all posts that feature inappropriate links will be removed.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Posts that discuss illegal activities, transactions, or websites that are involved in illegal
+                            activities will be removed. This includes the posting of information that you have obtained
+                            illegally.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Political and religious discussions are not allowed on this website. If it is believed that
+                            the end result of a discussion will be political or religious, the post may be removed.
+                            Likewise, strong political and religious sentiments should be kept out of profiles, signatures,
+                            and other content.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Do not post copyrighted materials (articles, videos, audio, etc.) that you do not have permission
+                            to reproduce or distribute. For text articles, most of the time you may quote a small portion
+                            of the article (usually no more than 1/5 or 1/6) and you must link to the source (if online)
+                            or provide the source (if offline). Posting the entire article, even with the source, constitutes
+                            copyright infringement.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            When posting and linking to images, videos, files, etc., please refrain from hotlinking. This
+                            is the direct linking to images (.jpg, .jpeg, .gif, .png, etc.), video (.avi, .mov, .mpg,
+                            .mpeg, .wmv, etc.), audio (.mp3, .wav, etc.), archives (.zip, .rar, etc.) or otherwise
+                            downloadable or streamable files, on servers that you do not have permission to link to,
+                            instead of linking to the page where the item can be found. This includes providing a direct
+                            link to the file, even if that file is not embedded into your post. This practice costs the
+                            server owner money and resources.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Respect is the name of the game. You must respect your fellow members. Please refrain from
+                            inflammatory and defamatory comments as well as flaming, taunting, and general disrespect.
+                            Do not simply put down the opinion or advice given by others. If you don't agree with it,
+                            say why - respectfully. Don't just tell them they're wrong. Do not make uninvited remarks
+                            about typos, duplicate posts, posting styles, etc.
+                        </p>
+                        <p>
+                            When an opinion-based discussion is being had, do not state things like "there is no argument"
+                            as if your opinion is the only one or the only one that matters. When someone has clearly
+                            stated their opinion, do not say things like "Are you serious?" and "Are you kidding me?"
+                            Remember, this is not a debate club. This is a friendly discussion community. Allow people
+                            to have their opinion. No one is to act as some sort of opinion judge, responding to each one
+                            to say whether they agree with it or whether it is a valid, well thought out opinion.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Each user is allowed to create one account. If you would like to change your username, please
+                            contact us and, most likely, we can do it for you while you can keep all of your profile data,
+                            posts, and other content.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Automated account creation, participation, and content scraping is not permitted.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            We know that people will have to leave our community (of their own free will or otherwise)
+                            from time to time and to that end, we do not delete accounts, posts, or other content posted
+                            on our community. All content is granted to us with perpetual electronic publishing rights
+                            because any content posted on this community becomes a part of the community, even if you no
+                            longer are. You may request an item to be removed at any time, but we will decide when and if
+                            to remove content from our community. If you wish to no longer be identified with our community,
+                            we will be glad to close your account and alter your profile information to remove all identifying
+                            characteristics. After account closure, you will no longer be able to participate in this
+                            community and this action is not reversible.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The Final Whistle have the final say on anything. If you have a problem, you may make a
+                            complaint to us directly and not publicly on the website. Creating threads or posts that
+                            question or reference administrative decisions or potential administrative decisions, such
+                            as post removals and thread closures, is not permitted. We are not perfect and if you feel
+                            that we have made a mistake, please privately contact us and we will review the situation.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Whenever you are participating in this community, please keep in mind that we strive to
+                            create a fun, friendly and inviting atmosphere.
+                        </p>
+                    </li>
+                    <p>
+                        Freedom of speech rights do not extend to privately owned websites, such as this one. These
+                        guidelines detail the types of behaviour and activities that are allowed here
+                    </p>
+                </ol>
+                <p>
+                    If a user violates our guidelines and shows a disregard for them, our staff and our community,
+                    they run the risk of losing their account. We reserve the right to deactivate any account and
+                    to edit or remove any content without warning. These guidelines are subject to change at any
+                    time without notice.
+                </p>
+                <p>Thank you for visiting The Final Whistle.</p>
+            </div>
+        </div>
+    </section>
+
+{% endblock content %}
+
+{% block custom_scripts %}
+{% endblock custom_scripts %}

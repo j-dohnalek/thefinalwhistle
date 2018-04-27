@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 from finalwhistle.apis import fd_api
 from finalwhistle.models.football import *
 from sqlalchemy import or_, desc, func, asc

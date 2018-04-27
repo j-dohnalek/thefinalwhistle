@@ -82,15 +82,17 @@ def get_all_teams():
     for team in teams['teams']:
 
         club = Team.query.filter_by(api_id=team['id']).first()
-
-        team_list.append(
-            {
-                'team_id': club.team_id,
-                'api_id': team['id'],
-                'name': team['name'],
-                'crestUrl': team['crestUrl']
-            }
-        )
+        try:
+            team_list.append(
+                {
+                    'team_id': club.team_id,
+                    'api_id': team['id'],
+                    'name': team['name'],
+                    'crestUrl': team['crestUrl']
+                }
+            )
+        except AttributeError as e:
+            print(e)
 
     return team_list
 

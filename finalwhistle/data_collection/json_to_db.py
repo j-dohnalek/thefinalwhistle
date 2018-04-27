@@ -3,11 +3,11 @@ from finalwhistle.models.football import ClubStaff, Player, Transfer, MatchStati
 from finalwhistle.models.football import Match, Card, Goal, Substitution
 from finalwhistle.data_collection.misc import get_or_create, record_exists
 
-import finalwhistle.models.user
-import finalwhistle.models.comment
-import finalwhistle.models.article
-import finalwhistle.models.football
-import finalwhistle.models.contact
+import models.user
+import models.comment
+import models.article
+import models.football
+import models.contact
 
 
 from finalwhistle import app
