@@ -11,7 +11,7 @@
 
             <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-                    <h1 class="h2">Website statistics</h1>
+                    <h1 class="h2">Website analytics</h1>
                 </div>
 
                 <h3>Page views and sessions per day</h3>
@@ -48,14 +48,7 @@
 {% block custom_scripts %}
     <!-- Graphs -->
     <script src="{{ url_for('static', filename='moment/moment.js') }}"></script>
-    <script>
-        (function(w,d,s,g,js,fs){
-            g=w.gapi||(w.gapi={});g.analytics={q:[],ready:function(f){this.q.push(f);}};
-            js=d.createElement(s);fs=d.getElementsByTagName(s)[0];
-            js.src='https://apis.google.com/js/platform.js';
-            fs.parentNode.insertBefore(js,fs);js.onload=function(){g.load('analytics');};
-        }(window,document,'script'));
-    </script>
+    <script src="{{ url_for('static', filename='analytics.js') }}"></script>
     <script>
 
         gapi.analytics.ready(function() {

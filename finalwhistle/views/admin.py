@@ -32,7 +32,7 @@ def new_article():
 @app.route('/admin/articles', methods=['GET'])
 @login_required
 def articles_overview():
-    return render_template('admin/articles.html')
+    return render_template('admin/articles.html', token=get_access_token())
 
 @app.route('/admin/stats', methods=['GET'])
 @login_required
