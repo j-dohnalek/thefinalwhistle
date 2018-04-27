@@ -4,8 +4,10 @@ from pathlib import Path
 import os, time
 
 
+CACHE_PATH = os.path.dirname(os.path.realpath(__file__)) + '/../cache/tmp/'
+
 API_TOKEN = 'ac6a29cb48594f87a2c770e05b4d6b35'
-CACHE_PATH = 'finalwhistle/cache/tmp/'
+#CACHE_PATH = 'finalwhistle/cache/tmp/'
 API_URL = 'api.football-data.org'
 DEBUG = False
 
