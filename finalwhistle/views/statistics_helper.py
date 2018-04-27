@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-import finalwhistle.apis.fd_api as fd_api
+
+from finalwhistle.apis import fd_api
 from finalwhistle.models.football import *
 from sqlalchemy import or_, desc, func, asc
 from flask import request
 from finalwhistle import db
-
 from finalwhistle.views.data_views_helper import get_player_image, get_player_information
 
 # CONSTANTS #####################################################################
