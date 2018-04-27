@@ -30,12 +30,12 @@ git clone https://github.com/tmoscrip/thefinalwhistle.git
 
 Create python 3.6 environment
 ```
-pyvenv-3.6 .env
+pyvenv-3.6 env
 ```
 
 Activate environment
 ```
-source .env/bin/activate
+source env/bin/activate
 ```
 Navigate to the folder with the setup.py
 ```
