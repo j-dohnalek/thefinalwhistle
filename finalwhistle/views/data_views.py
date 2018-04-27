@@ -12,6 +12,8 @@ from finalwhistle.views.statistics_helper import top_tens_statistic, get_team_co
 #####################
 # data view routing #
 #####################
+
+
 @app.route('/matches', methods=['GET'])
 def matches_overview():
     return render_template('matches.html', data=list_all_matches())

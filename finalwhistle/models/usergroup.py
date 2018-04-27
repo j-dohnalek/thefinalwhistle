@@ -1,8 +1,6 @@
 """
 Database models for permissions and security groups system
-
 See [1] for explanation of 'permissions' table and info on many-to-many relationships
-
 [1] http://flask-sqlalchemy.pocoo.org/2.3/models/#many-to-many-relationships
 """
 from finalwhistle import db

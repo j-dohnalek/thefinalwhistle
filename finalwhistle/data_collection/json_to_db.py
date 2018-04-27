@@ -2,10 +2,11 @@ from finalwhistle.models.football import Referee, League, Season, Stadium, Team
 from finalwhistle.models.football import ClubStaff, Player, Transfer, MatchStatistics
 from finalwhistle.models.football import Match, Card, Goal, Substitution
 from finalwhistle.data_collection.misc import get_or_create, record_exists
+
 import finalwhistle.models.user
 import finalwhistle.models.comment
-import finalwhistle.models.user
 import finalwhistle.models.article
+import finalwhistle.models.football
 import finalwhistle.models.contact
 
 
@@ -46,7 +47,23 @@ session = db.session
 def create_database():
     print('Create DB .. OK!')
     db.create_all(app=app)
-    #db.create_all()
+
+
+def clean_tables():
+    Referee.__table__.drop()
+    League.__table__.drop()
+    Season.__table__.drop()
+    Stadium.__table__.drop()
+    Team.__table__.drop()
+    ClubStaff.__table__.drop()
+    Player.__table__.drop()
+    Transfer.__table__.drop()
+    MatchStatistics.__table__.drop()
+    Match.__table__.drop()
+    Card.__table__.drop()
+    Goal.__table__.drop()
+    Substitution.__table__.drop()
+
 
 
 def parse_referee():
@@ -539,6 +556,7 @@ def parse_statistics():
 if __name__ == '__main__':
 
     create_database()
+    #clean_tables()
     parse_referee()
     parse_league()
     parse_season()
