@@ -16,7 +16,15 @@ def home():
 
 @app.route('/terms-of-service', methods=['GET'])
 def terms_of_service():
-    return 'terms of service page'
+    return render_template('terms.html')
+
+@app.route('/privacy-policy', methods=['GET'])
+def privacy_policy():
+    return render_template('privacy_policy.html')
+
+@app.route('/community-guidelines', methods=['GET'])
+def community_guidelines():
+    return render_template('community_guidelines.html')
 
 
 @app.route('/about', methods=['GET'])
