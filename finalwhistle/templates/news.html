@@ -6,10 +6,16 @@
 {% block content %}
 
 <section class="album bg-light">
-   {% from 'macros.jinja' import render_article_overview %}
-   {% for article in news %}
-      {{ render_article_overview(article) }}
-   {% endfor %}
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-12">
+                {% from 'macros.jinja' import render_article_overview %}
+                {% for article in news %}
+                    {{ render_article_overview(article) }}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
 </section>
 
 {% endblock content %}
