@@ -74,6 +74,10 @@ table .no-border-top {
     border-top:0;
 }
 
+.heading {
+    font-family: 'Rambla', sans-serif;
+}
+
 /* Profile Page */
 .profile-left {
 	background-color: #f8f8f8;
