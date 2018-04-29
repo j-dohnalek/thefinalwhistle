@@ -39,8 +39,8 @@ def user_fav_team_or_1():
 
 
 class EditAccountInfoForm(FlaskForm):
-    real_name = StringField('Real name', default=user_real_name_or_blank())
-    favourite_team = SelectField('Favourite team', choices=generate_choices_list(), coerce=int, default=user_fav_team_or_blank())
+    real_name = StringField('Real name', default=user_real_name_or_empty_string())
+    favourite_team = SelectField('Favourite team', choices=generate_choices_list(), coerce=int, default=user_fav_team_or_1())
     submit = SubmitField('Save changes')
 
 
@@ -55,7 +55,6 @@ class ChangePasswordForm(FlaskForm):
         EqualTo('new_pw', message='Passwords must match')
     ])
     submit = SubmitField('Update password')
-
 
     def validate_current_pw(self, current_pw):
         print(current_pw.data)
