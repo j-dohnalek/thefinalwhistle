@@ -101,25 +101,20 @@ def logout():
 def edit_profile():
     profile_form = EditAccountInfoForm()
     password_form = ChangePasswordForm()
+    # profile form logic
     if profile_form.validate_on_submit():
-        try:
-            new_favourite_team_id = int(request.form.get('favourite_team'))
-        except ValueError:
-            print('received non-numerial favourite_team from account edit form')
-            print('this should not happen! sending the user back to the homepage')
-            print('no profile changes have been committed to db')
-            return redirect(url_for('home'))
+        new_favourite_team_id = request.form.get('favourite_team')
         new_real_name = request.form.get('real_name')
         if new_favourite_team_id is not (None or ''):
-            current_user.supported_team_id = new_favourite_team_id
-            db.session.commit()
-        if new_favourite_team_id is not (None or ''):
-            current_user.real_name = new_real_name
-            db.session.commit()
-
+            current_user.set_supported_team(new_favourite_team_id)
+        if new_real_name is not (None or ''):
+            current_user.set_real_name(new_real_name)
+    # password form logic
     if password_form.validate_on_submit():
-        pass
-
+        current_user.set_password(request.form.get('new_pw'))
+    else:
+        print(password_form.data)
+        print(password_form.errors)
     return render_template('account.html', profile_form=profile_form, password_form=password_form)
 
 

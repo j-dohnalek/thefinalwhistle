@@ -1,6 +1,6 @@
 from flask_login import current_user
 from flask_wtf import FlaskForm
-from wtforms import StringField, SelectField, SubmitField
+from wtforms import StringField, SelectField, SubmitField, PasswordField
 from wtforms.validators import InputRequired, EqualTo, ValidationError
 
 from finalwhistle.views.data_views_helper import get_all_teams
@@ -45,20 +45,19 @@ class EditAccountInfoForm(FlaskForm):
 
 
 class ChangePasswordForm(FlaskForm):
-    current_pw = StringField('Current password')
-    new_pw = StringField('New password', validators=[
+    current_pw = PasswordField('Current password')
+    new_pw = PasswordField('New password', validators=[
         InputRequired(),
         EqualTo('new_pw_repeat', message='Passwords must match')
     ])
-    new_pw_repeat = StringField('Repeat new password', validators=[
+    new_pw_repeat = PasswordField('Repeat new password', validators=[
         InputRequired(),
         EqualTo('new_pw', message='Passwords must match')
     ])
     submit = SubmitField('Update password')
 
 
-    def validate_current_pw(self, password):
-        from models.user import hash_password
-        match = hash_password(password) == current_user.pw_hash
-        if not match:
+    def validate_current_pw(self, current_pw):
+        print(current_pw.data)
+        if not current_user.password_valid(current_pw.data):
             raise ValidationError('Incorrect password')

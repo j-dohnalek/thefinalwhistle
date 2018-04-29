@@ -134,6 +134,11 @@ class User(UserMixin, db.Model):
     def __repr__(self):
         return f'<User> {self.id}: {self.email}'
 
+    def set_password(self, password):
+        self.pw_hash = hash_password(password)
+        db.session.add(self)
+        db.session.commit()
+
     def password_valid(self, password):
         """
         Checks if supplied password is valid for the account
@@ -180,3 +185,21 @@ class User(UserMixin, db.Model):
             # can implement failed login attempt tracker here
             pass
         return None
+
+    def set_real_name(self, name):
+        self.real_name = name
+        db.session.add(self)
+        db.session.commit()
+
+    def set_supported_team(self, team_id):
+        try:
+            team_id = int(team_id)
+            self.supported_team_id = team_id
+            db.session.add(self)
+            db.session.commit()
+        except (ValueError, TypeError) as e:
+            print('tried to set supported team to something which couldn\'t be cast to int')
+            print(e)
+
+
+
