@@ -83,6 +83,7 @@ table .no-border-top {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position-y: -150px;
+    border-radius: 0;
 }
 
 /* Profile Page */
