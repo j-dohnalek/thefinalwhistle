@@ -1,1 +1,0 @@
-from finalwhistle import app

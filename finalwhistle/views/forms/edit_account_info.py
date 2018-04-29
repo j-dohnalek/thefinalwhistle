@@ -1,6 +1,7 @@
 from flask_login import current_user
 from flask_wtf import FlaskForm
 from wtforms import StringField, SelectField, SubmitField
+from wtforms.validators import InputRequired, EqualTo, ValidationError
 
 from finalwhistle.views.data_views_helper import get_all_teams
 
@@ -26,6 +27,7 @@ def user_real_name_or_blank():
         print('no real name set')
     return ''
 
+
 def user_fav_team_or_blank():
     try:
         id = current_user.supported_team_id
@@ -39,9 +41,24 @@ def user_fav_team_or_blank():
 class EditAccountInfoForm(FlaskForm):
     real_name = StringField('Real name', default=user_real_name_or_blank())
     favourite_team = SelectField('Favourite team', choices=generate_choices_list(), coerce=int, default=user_fav_team_or_blank())
-    submit = SubmitField(label='Save changes')
+    submit = SubmitField('Save changes')
 
-class ChangePassword(FlaskForm):
+
+class ChangePasswordForm(FlaskForm):
     current_pw = StringField('Current password')
-    new_pw = StringField('New password')
-    new_pw_repeat = StringField('Repeat new password')
+    new_pw = StringField('New password', validators=[
+        InputRequired(),
+        EqualTo('new_pw_repeat', message='Passwords must match')
+    ])
+    new_pw_repeat = StringField('Repeat new password', validators=[
+        InputRequired(),
+        EqualTo('new_pw', message='Passwords must match')
+    ])
+    submit = SubmitField('Update password')
+
+
+    def validate_current_pw(self, password):
+        from models.user import hash_password
+        match = hash_password(password) == current_user.pw_hash
+        if not match:
+            raise ValidationError('Incorrect password')

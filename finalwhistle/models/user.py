@@ -108,6 +108,7 @@ class User(UserMixin, db.Model):
     supported_team = db.relationship('Team')
     #usergroup_id = db.Column(db.Integer, db.ForeignKey('usergroups.id'), nullable=True)
     #usergroup = db.relationship('UserGroup')
+    is_superuser = db.Column(db.Boolean, nullable=False, default=False)
 
     @validates('supported_team_id')
     def validate_supported_team_id(self, key, team_id):
