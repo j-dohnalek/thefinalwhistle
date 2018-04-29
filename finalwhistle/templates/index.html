@@ -3,14 +3,16 @@
 {% block content %}
 <main role="main">
 
-    <section class="jumbotron text-center">
+    <section class="jumbotron banner-1" style="background-image: url({{ url_for('static', filename='images/stadium.jpg') }});">
         <div class="container">
-            <h1 class="jumbotron-heading">Album example</h1>
-            <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-            <p>
-                <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-            </p>
+            <div class="card box-shadow" style="background: rgba(255,255,255,0.8);">
+                <div class="card-body">
+                    <img src="(src home team">
+                    <h2 class="font-weight-light">Home Team 2 -- 5 Away Team</h2>
+                    <img src="(src away team">
+                    <a href="(link to match details)">View match</a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -33,7 +35,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="card mb-4 box-shadow">
                         <img class="card-img-top" data-src="holder.js/100px450?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
                         <div class="card-body">
@@ -92,26 +93,26 @@
                     <div class="card mb-4 box-shadow">
                         <div class="card-body">
                             <h5 class="card-title">League Table</h5>
-                            <table class="table table-sm table-hover">
+                            <table class="table table-sm table-hover mb-0">
                                 <thead>
-                                    <th scope="col"></th>
-                                    <th scope="col">Team</th>
-                                    <th scope="col">P</th>
-                                    <th scope="col">GD</th>
-                                    <th scope="col">Pts</th>
+                                    <td scope="col"></td>
+                                    <td scope="col">Team</td>
+                                    <td scope="col" class="text-right">P</td>
+                                    <td scope="col" class="text-right">GD</td>
+                                    <td scope="col" class="text-right">Pts</td>
                                 </thead>
                                 <tbody>
                                     {% for position in range(1, table|length + 1) %}
                                     <tr>
-                                        <th scope="row">{{ position }}.</th>
-                                        <th>
+                                        <td scope="row">{{ position }}.</td>
+                                        <td>
                                             <a href="{{ url_for('team_page', id=table[position|string]['club_id']) }}">
                                                 {{ table[position|string]['club_short'] }}
                                             </a>
-                                        </th>
-                                        <th>{{ table[position|string]['played'] }}</th>
-                                        <th>{{ table[position|string]['gd'] }}</th>
-                                        <th>{{ table[position|string]['points'] }}</th>
+                                        </td>
+                                        <td class="text-right">{{ table[position|string]['played'] }}</td>
+                                        <td class="text-right">{{ table[position|string]['gd'] }}</td>
+                                        <td class="text-right">{{ table[position|string]['points'] }}</td>
                                     </tr>
                                     {% endfor %}
                                 </tbody>
