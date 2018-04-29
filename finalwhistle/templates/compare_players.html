@@ -6,7 +6,10 @@
 {% block content %}
 <div class="container py-4">
 
-    <h1>Compare Players</h1>
+    <div class="pb-4">
+        <h1 class="mb-0">Compare Players</h1>
+        <h4 class="text-muted font-weight-light">Season 2017/18</h4>
+    </div>
 
     <div class="container">
         {% if stats['error'] is not none %}
@@ -19,173 +22,178 @@
     </div>
 
     <form method="get">
-
-        <select name="p1">
-            <option value="">Select Player</option>
-            {% for player in players %}
-                <option value="{{ player['id'] }}">{{ player['name'] }}</option>
-            {% endfor %}
-        </select>
-
-        <select name="p2">
-            <option value="">Select Player</option>
-            {% for player in players %}
-                <option value="{{ player['id'] }}">{{ player['name'] }}</option>
-            {% endfor %}
-        </select>
-
-        <input type="submit" value="Compare" />
-
-    </form>
-
-    <div class="container">
-        {% if stats['error'] is not none and stats['error']|length == 0 %}
-
-        <div class="container py-5">
-            <div class="row">
-
-                <div class="col-sm">
-                    <div class="container">
-
-                        <div class="container text-center">
-                            <img src="{{stats['player1']['img']}}" width="250" />
-                            <h2>{{ stats['player1']['name'] }}</h2>
-                        </div>
-
-                        <div class="card my-2">
-                            <div class="card-header">
-                                <h4>Player Information</h4>
-                            </div>
-                            <div class="card-body">
-                                <table class="table">
-                                    <tr>
-                                        <td scope="row">Shirt Number</td>
-                                        <td>{{ stats['player1']['shirt_number'] }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">Team</td>
-                                        <td>{{ stats['player1']['team'] }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">Position</td>
-                                        <td>{{ stats['player1']['position'] }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">Date of Birth</td>
-                                        <td>{{ stats['player1']['dob'] }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">Weight</td>
-                                        <td>{{ stats['player1']['weight'] }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">Height</td>
-                                        <td>{{ stats['player1']['height'] }}</td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-
-                        <div class="card my-2">
-                            <div class="card-header">
-                                <h4>Player Statistics</h4>
-                            </div>
-                            <div class="card-body">
-                                <table class="table">
-                                    <tr>
-                                        <td scope="row">Goal Scored</td>
-                                        <td>{{ stats['player1']['goals_scored'] }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">Goal Assisted</td>
-                                        <td>{{ stats['player1']['goals_assisted'] }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">Yellow Cards</td>
-                                        <td>{{ stats['player1']['yellow_cards'] }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">Red Cards</td>
-                                        <td>{{ stats['player1']['red_cards'] }}</td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
+        <div class="form-row">
+            <div class="col-10">
+                <div class="form-row">
+                    <div class="col-6">
+                        <select name="p1" class="form-control">
+                            <option value="" selected disabled>Select Player</option>
+                            {% for player in players %}
+                                <option value="{{ player['id'] }}">{{ player['name'] }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="col-6">
+                        <select name="p2" class="form-control">
+                            <option value="" selected disabled>Select Player</option>
+                            {% for player in players %}
+                                <option value="{{ player['id'] }}">{{ player['name'] }}</option>
+                            {% endfor %}
+                        </select>
                     </div>
                 </div>
+            </div>
+            <div class="col-2 text-right">
+                <input type="submit" class="btn btn-primary btn-block" type="submit" value="Compare" />
+            </div>
+        </div>
+    </form>
 
-                <div class="col-sm">
-                    <div class="container text-center">
-                            <img src="{{stats['player2']['img']}}" width="250" />
-                            <h2>{{ stats['player2']['name'] }}</h2>
+    {% if stats['error'] is not none and stats['error']|length == 0 %}
+
+        <div class="row">
+
+            <div class="col-sm">
+
+                <div class="text-center py-5">
+                    <img src="{{stats['player1']['img']}}" width="250" />
+                    <h2 class="heading pt-4">{{ stats['player1']['name'] }}</h2>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-header text-center">
+                        <h5 class="mb-0">Player Information</h5>
+                    </div>
+                    <table class="table mb-0">
+                        <tr>
+                            <th scope="row">Shirt Number</th>
+                            <td>{{ stats['player1']['shirt_number'] }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Team</th>
+                            <td>{{ stats['player1']['team'] }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Position</th>
+                            <td>{{ stats['player1']['position'] }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Date of Birth</th>
+                            <td>{{ stats['player1']['dob'] }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Weight</th>
+                            <td>{{ stats['player1']['weight'] }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Height</th>
+                            <td>{{ stats['player1']['height'] }}</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-header text-center">
+                        <h5 class="mb-0">Player Statistics</h5>
+                    </div>
+                    <table class="table mb-0">
+                        <tr>
+                            <th scope="row">Goals Scored</th>
+                            <td>{{ stats['player1']['goals_scored'] }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Goals Assisted</th>
+                            <td>{{ stats['player1']['goals_assisted'] }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Yellow Cards</th>
+                            <td>{{ stats['player1']['yellow_cards'] }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Red Cards</th>
+                            <td>{{ stats['player1']['red_cards'] }}</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+            <div class="col-sm">
+                <div class="text-center py-5">
+                    <img src="{{stats['player2']['img']}}" width="250" />
+                    <h2 class="heading pt-4">{{ stats['player2']['name'] }}</h2>
+                </div>
+
+                    <div class="card mb-4">
+                        <div class="card-header text-center">
+                            <h5 class="mb-0">Player Information</h5>
+                        </div>
+                        <table class="table mb-0">
+                            <tr>
+                                <th scope="row">Shirt Number</th>
+                                <td>{{ stats['player2']['shirt_number'] }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Team</th>
+                                <td>{{ stats['player2']['team'] }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Position</th>
+                                <td>{{ stats['player2']['position'] }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Date of Birth</th>
+                                <td>{{ stats['player2']['dob'] }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Weight</th>
+                                <td>{{ stats['player2']['weight'] }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Height</th>
+                                <td>{{ stats['player2']['height'] }}</td>
+                            </tr>
+                        </table>
                     </div>
 
-                        <div class="card my-2">
-                            <div class="card-header">
-                                <h4>Player Information</h4>
-                            </div>
-                            <div class="card-body">
-                                <table class="table">
-                                    <tr>
-                                        <td scope="row">Shirt Number</td>
-                                        <td>{{ stats['player2']['shirt_number'] }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">Team</td>
-                                        <td>{{ stats['player2']['team'] }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">Position</td>
-                                        <td>{{ stats['player2']['position'] }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">Date of Birth</td>
-                                        <td>{{ stats['player2']['dob'] }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">Weight</td>
-                                        <td>{{ stats['player2']['weight'] }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">Height</td>
-                                        <td>{{ stats['player2']['height'] }}</td>
-                                    </tr>
-                                </table>
-                            </div>
+                    <div class="card mb-4">
+                        <div class="card-header text-center">
+                            <h5 class="mb-0">Player Statistics</h5>
                         </div>
-
-                        <div class="card my-2">
-                            <div class="card-header">
-                                <h4>Player Statistics</h4>
-                            </div>
-                            <div class="card-body">
-                                <table class="table">
-                                    <tr>
-                                        <td scope="row">Goal Scored</td>
-                                        <td>{{ stats['player2']['goals_scored'] }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">Goal Assisted</td>
-                                        <td>{{ stats['player2']['goals_assisted'] }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">Yellow Cards</td>
-                                        <td>{{ stats['player2']['yellow_cards'] }}</td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">Red Cards</td>
-                                        <td>{{ stats['player2']['red_cards'] }}</td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
+                        <table class="table mb-0">
+                            <tr>
+                                <th scope="row">Goals Scored</th>
+                                <td>{{ stats['player2']['goals_scored'] }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Goals Assisted</th>
+                                <td>{{ stats['player2']['goals_assisted'] }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Yellow Cards</th>
+                                <td>{{ stats['player2']['yellow_cards'] }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Red Cards</th>
+                                <td>{{ stats['player2']['red_cards'] }}</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
         </div>
 
-        {% endif %}
+    {% else %}
+
+    <div class="text-center text-muted py-5">
+        <div class="py-5">
+            <div class="py-5">
+                <h3 class="py-5 font-weight-light"><i class="fas fa-arrow-up mr-3"></i> Please select two players to compare their details <i class="fas fa-arrow-up ml-3"></i></h3>
+            </div>
+        </div>
     </div>
+
+    {% endif %}
 
 </div>
 
