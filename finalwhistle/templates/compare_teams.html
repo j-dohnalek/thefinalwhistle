@@ -6,7 +6,11 @@
 {% block content %}
 <div class="container py-4">
 
-    <h1 class="pb-3">Compare Teams</h1>
+    <div class="pb-4">
+        <h1 class="mb-0">Compare Teams</h1>
+        <h4 class="text-muted font-weight-light">Season 2017/18</h4>
+    </div>
+
 
     <div class="container">
         {% if stats['error'] is not none %}
@@ -333,6 +337,16 @@
                 {% endfor %}
             </table>
         </div>
+
+    {% else %}
+
+    <div class="text-center text-muted py-5">
+        <div class="py-5">
+            <div class="py-5">
+                <h3 class="py-5 font-weight-light"><i class="fas fa-arrow-up mr-3"></i> Please select two players to compare their details <i class="fas fa-arrow-up ml-3"></i></h3>
+            </div>
+        </div>
+    </div>
 
     {% endif %}
 </div>
