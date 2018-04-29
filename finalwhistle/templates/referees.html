@@ -6,29 +6,30 @@
 {% block content %}
 
 <div class="container py-4">
-    <div class="row">
-        <h1>Referees</h1>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="row">Referee name</th>
-                    <th>Yellow cards</th>
-                    <th>Red cards</th>
-                    <th>Total Fouls</th>
-                </tr>
-            </thead>
-            {% for referee in referees %}
-            <tbody>
-                <tr>
-                    <td scope="row">{{ referee['name'] }}</td>
-                    <td>{{ referee['yellow'] }}</a></td>
-                    <td>{{ referee['red'] }}</td>
-                    <td>{{ referee['foul'] }}</td>
-                </tr>
-            </tbody>
-            {% endfor %}
-        </table>
+    <div class="pb-4">
+        <h1 class="mb-0">Referees</h1>
+        <h4 class="text-muted font-weight-light">Season 2017/18</h4>
     </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Referee name</th>
+                <th scope="col" class="text-right">Yellow cards</th>
+                <th scope="col" class="text-right">Red cards</th>
+                <th scope="col" class="text-right">Total Fouls</th>
+            </tr>
+        </thead>
+        {% for referee in referees %}
+        <tbody>
+            <tr>
+                <td>{{ referee['name'] }}</td>
+                <td class="text-right">{{ referee['yellow'] }}</a></td>
+                <td class="text-right">{{ referee['red'] }}</td>
+                <td class="text-right">{{ referee['foul'] }}</td>
+            </tr>
+        </tbody>
+        {% endfor %}
+    </table>
 </div>
 
 {% endblock content %}
