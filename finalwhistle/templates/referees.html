@@ -14,18 +14,18 @@
         <thead>
             <tr>
                 <th scope="col">Referee name</th>
+                <th scope="col" class="text-right">Total Matches</th>
                 <th scope="col" class="text-right">Yellow cards</th>
                 <th scope="col" class="text-right">Red cards</th>
-                <th scope="col" class="text-right">Total Fouls</th>
             </tr>
         </thead>
         {% for referee in referees %}
         <tbody>
             <tr>
                 <td>{{ referee['name'] }}</td>
+                <td class="text-right">{{ referee['matches'] }}</td>
                 <td class="text-right">{{ referee['yellow'] }}</a></td>
                 <td class="text-right">{{ referee['red'] }}</td>
-                <td class="text-right">{{ referee['foul'] }}</td>
             </tr>
         </tbody>
         {% endfor %}
