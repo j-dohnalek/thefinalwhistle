@@ -28,6 +28,6 @@ def user_real_name_or_blank():
 
 class EditAccountInfoForm(FlaskForm):
     real_name = StringField('Real name', default=user_real_name_or_blank())
-    favourite_team = SelectField('Favourite team', choices=generate_choices_list())
+    favourite_team = SelectField('Favourite team', choices=generate_choices_list(), coerce=int)
     submit = SubmitField(label='Save changes')
 

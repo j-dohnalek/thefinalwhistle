@@ -122,10 +122,10 @@ def edit_profile():
         new_real_name = request.form.get('real_name')
         if new_favourite_team_id is not (None or ''):
             current_user.supported_team_id = new_favourite_team_id
-            db.commit()
+            db.session.commit()
         if new_favourite_team_id is not (None or ''):
             current_user.real_name = new_real_name
-            db.commit()
+            db.session.commit()
     return render_template('account.html', profile_form=profile_form)
 
 
