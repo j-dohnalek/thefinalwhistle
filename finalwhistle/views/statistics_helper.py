@@ -58,8 +58,6 @@ def get_team_comparison():
     """
     invalid = False
 
-    print(request.args)
-
     # No POST request
     if len(request.args) == 0:
         return dict(team1=None, team2=None, error=None)

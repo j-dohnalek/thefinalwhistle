@@ -8,7 +8,7 @@
             <div class="card box-shadow" style="background: rgba(255,255,255,0.8);">
                 <div class="card-body">
                     <img height="50" src="{{ last_match['home_crest'] }}" alt="{{ last_match['home_team'] }}" />
-                    <h2 class="font-weight-light">{{last_match['home_team']}} 2 : 5 {{last_match['away_team']}}</h2>
+                    <h2 class="font-weight-light">{{last_match['home_team']}} {{ last_match['home_goals'] }} : {{ last_match['away_goals'] }} {{last_match['away_team']}}</h2>
                     <img height="50" src="{{ last_match['away_crest'] }}" alt="{{ last_match['away_team'] }}" />
                     <a href="{{ url_for('match_page', id=last_match['match_id'])}}">
                         View match
