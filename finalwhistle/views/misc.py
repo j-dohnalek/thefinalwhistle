@@ -1,7 +1,7 @@
 from flask import render_template
 
 from finalwhistle import app
-from finalwhistle.views.data_views import get_league_table
+from finalwhistle.views.data_views import get_league_table, list_all_matches
 from finalwhistle.views.misc_helper import validate_contact_us
 
 ################
@@ -11,7 +11,7 @@ from finalwhistle.views.misc_helper import validate_contact_us
 
 @app.route('/', methods=['GET'])
 def home():
-    return render_template('index.html', table=get_league_table())
+    return render_template('index.html', table=get_league_table(), matches=list_all_matches(5))
 
 
 @app.route('/terms-of-service', methods=['GET'])

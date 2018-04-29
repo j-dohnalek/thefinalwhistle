@@ -301,11 +301,15 @@ def get_player_information(id):
         return None
 
 
-def list_all_matches():
+def list_all_matches(limit=-1):
     """
     List all matches of the current season
+    :param limit -1 select all, or number above 1 to select n records
     :return: dict
     """
+
+    if limit == -1:
+        limit = len(Match.query.all())
 
     with open(CLUB_CRESTS) as jsonfile:
         club_crest = json.load(jsonfile)
@@ -319,7 +323,7 @@ def list_all_matches():
                      Match.kickoff,
                      MatchStatistics.home_ft_goals,
                      MatchStatistics.away_ft_goals)\
-        .order_by(func.DATE(Match.kickoff).desc(), func.TIME(Match.kickoff).asc()).all()
+        .order_by(func.DATE(Match.kickoff).desc(), func.TIME(Match.kickoff).asc()).limit(limit).all()
 
     day_indicator = 0
     previous_match_date = None
