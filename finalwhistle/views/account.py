@@ -106,12 +106,15 @@ def edit_profile():
         new_favourite_team_id = request.form.get('favourite_team')
         new_real_name = request.form.get('real_name')
         if new_favourite_team_id is not (None or ''):
-            current_user.set_supported_team(new_favourite_team_id)
+            if current_user.set_supported_team(new_favourite_team_id):
+                flash('Supported team updated!')
         if new_real_name is not (None or ''):
-            current_user.set_real_name(new_real_name)
+            if current_user.set_real_name(new_real_name):
+                flash('Name updated!')
     # password form logic
     if password_form.validate_on_submit():
-        current_user.set_password(request.form.get('new_pw'))
+        if current_user.set_password(request.form.get('new_pw')):
+            flash('Password changed!')
     else:
         print(password_form.data)
         print(password_form.errors)

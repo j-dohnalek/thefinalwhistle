@@ -134,11 +134,6 @@ class User(UserMixin, db.Model):
     def __repr__(self):
         return f'<User> {self.id}: {self.email}'
 
-    def set_password(self, password):
-        self.pw_hash = hash_password(password)
-        db.session.add(self)
-        db.session.commit()
-
     def password_valid(self, password):
         """
         Checks if supplied password is valid for the account
@@ -187,19 +182,35 @@ class User(UserMixin, db.Model):
         return None
 
     def set_real_name(self, name):
-        self.real_name = name
-        db.session.add(self)
-        db.session.commit()
+        try:
+            self.real_name = name
+            db.session.add(self)
+            db.session.commit()
+        except:
+            pass
+        return False
 
     def set_supported_team(self, team_id):
         try:
             team_id = int(team_id)
+            if team_id == self.supported_team_id:
+                return False
             self.supported_team_id = team_id
             db.session.add(self)
             db.session.commit()
+            return True
         except (ValueError, TypeError) as e:
             print('tried to set supported team to something which couldn\'t be cast to int')
             print(e)
+        return False
 
+    def set_password(self, password):
+        try:
+            self.pw_hash = hash_password(password)
+            db.session.add(self)
+            db.session.commit()
+            return True
+        except:
+            return False
 
 
