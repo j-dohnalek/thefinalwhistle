@@ -8,41 +8,44 @@
 
 <div class="container py-4">
     <div class="row">
-        <h1>League Table</h1>
+        <div class="pb-4">
+            <h1 class="mb-0">League Table</h1>
+            <h4 class="text-muted font-weight-light">Season 2017/18</h4>
+        </div>
         <table class="table">
             <thead>
                 <tr>
                     <th scope="col"></th>
                     <th scope="col">Team</th>
-                    <th scope="col">Played</th>
-                    <th scope="col">Won</th>
-                    <th scope="col">Drawn</th>
-                    <th scope="col">Lost</th>
-                    <th scope="col">For</th>
-                    <th scope="col">Against</th>
-                    <th scope="col">GD</th>
-                    <th scope="col">Points</th>
+                    <th scope="col" class="text-center">Played</th>
+                    <th scope="col" class="text-center">Won</th>
+                    <th scope="col" class="text-center">Drawn</th>
+                    <th scope="col" class="text-center">Lost</th>
+                    <th scope="col" class="text-center">For</th>
+                    <th scope="col" class="text-center">Against</th>
+                    <th scope="col" class="text-center">GD</th>
+                    <th scope="col" class="text-center">Points</th>
                 </tr>
             </thead>
             <tbody>
-            {% for position in range(1, table|length + 1) %}
-            <tr>
-                <th scope="row">{{ position }}.</th>
-                <th>
-                    <a href="{{ url_for('team_page', id=table[position|string]['club_id']) }}">
-                        {{ table[position|string]['club'] }}
-                    </a>
-                </th>
-                <th>{{ table[position|string]['played'] }}</th>
-                <th>{{ table[position|string]['won'] }}</th>
-                <th>{{ table[position|string]['drawn'] }}</th>
-                <th>{{ table[position|string]['lost'] }}</th>
-                <th>{{ table[position|string]['ga'] }}</th>
-                <th>{{ table[position|string]['gd'] }}</th>
-                <th>{{ table[position|string]['gf'] }}</th>
-                <th>{{ table[position|string]['points'] }}</th>
-            </tr>
-            {% endfor %}
+                {% for position in range(1, table|length + 1) %}
+                    <tr>
+                        <th scope="row">{{ position }}.</th>
+                        <td>
+                            <a href="{{ url_for('team_page', id=table[position|string]['club_id']) }}">
+                                {{ table[position|string]['club'] }}
+                            </a>
+                        </td>
+                        <td class="text-center">{{ table[position|string]['played'] }}</td>
+                        <td class="text-center">{{ table[position|string]['won'] }}</td>
+                        <td class="text-center">{{ table[position|string]['drawn'] }}</td>
+                        <td class="text-center">{{ table[position|string]['lost'] }}</td>
+                        <td class="text-center">{{ table[position|string]['ga'] }}</td>
+                        <td class="text-center">{{ table[position|string]['gd'] }}</td>
+                        <td class="text-center">{{ table[position|string]['gf'] }}</td>
+                        <td class="text-center">{{ table[position|string]['points'] }}</td>
+                    </tr>
+                {% endfor %}
             </tbody>
         </table>
     </div>
