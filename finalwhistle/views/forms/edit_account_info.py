@@ -20,7 +20,7 @@ def generate_choices_list():
     return team_list
 
 
-def user_real_name_or_blank():
+def user_real_name_or_empty_string():
     try:
         return current_user.real_name
     except AttributeError:
@@ -28,14 +28,14 @@ def user_real_name_or_blank():
     return ''
 
 
-def user_fav_team_or_blank():
+def user_fav_team_or_1():
     try:
         id = current_user.supported_team_id
         if not id is (None or ''):
             return id
     except AttributeError:
         print('no fav team selected')
-        return 1
+    return 1
 
 
 class EditAccountInfoForm(FlaskForm):
