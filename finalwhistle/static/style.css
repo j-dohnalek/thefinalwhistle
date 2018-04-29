@@ -78,6 +78,13 @@ table .no-border-top {
     font-family: 'Rambla', sans-serif;
 }
 
+/* Home page - banner */
+.banner-1 {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position-y: -150px;
+}
+
 /* Profile Page */
 .profile-left {
 	background-color: #f8f8f8;
