@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import finalwhistle.apis.fd_api as fd_api
+from finalwhistle.apis import fd_api
 from finalwhistle.models.football import *
 from sqlalchemy import or_, desc, func, asc
 import json
@@ -301,11 +301,15 @@ def get_player_information(id):
         return None
 
 
-def list_all_matches():
+def list_all_matches(limit=-1):
     """
     List all matches of the current season
+    :param limit -1 select all, or number above 1 to select n records
     :return: dict
     """
+
+    if limit == -1:
+        limit = len(Match.query.all())
 
     with open(CLUB_CRESTS) as jsonfile:
         club_crest = json.load(jsonfile)
@@ -319,7 +323,7 @@ def list_all_matches():
                      Match.kickoff,
                      MatchStatistics.home_ft_goals,
                      MatchStatistics.away_ft_goals)\
-        .order_by(func.DATE(Match.kickoff).desc(), func.TIME(Match.kickoff).asc()).all()
+        .order_by(func.DATE(Match.kickoff).desc(), func.TIME(Match.kickoff).asc()).limit(limit).all()
 
     day_indicator = 0
     previous_match_date = None
@@ -329,11 +333,11 @@ def list_all_matches():
         match_details = {'match_id': match.match_id}
 
         home_team = Team.query.filter_by(team_id=match.home_team).first()
-        match_details['home_team'] = home_team.name
+        match_details['home_team'] = home_team.name_short
         match_details['home_crest'] = club_crest[str(home_team.team_id)]
 
         away_team = Team.query.filter_by(team_id=match.away_team).first()
-        match_details['away_team'] = away_team.name
+        match_details['away_team'] = away_team.name_short
         match_details['away_crest'] = club_crest[str(away_team.team_id)]
 
         match_details['home_goals'] = match.home_ft_goals

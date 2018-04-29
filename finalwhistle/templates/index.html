@@ -35,7 +35,58 @@
                             </div>
                         </div>
                     </div>
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="holder.js/100px450?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="card mb-4 box-shadow">
+                        <div class="card-body">
+                            <p class="card-text">
+                            <h5 class="card-title">Last 5 Matches</h5>
+                                <table class="table">
+                                {% for match in matches %}
+                                    {% if match['indicator'] == 0 %}
+                                    <tr>
+                                    {% else %}
+                                    <tr class="no-border-top">
+                                    {% endif %}
+                                        <td>
+                                            {% if match['indicator'] == 0 %}
+                                                {{ match['kickoff_date'] }}
+                                            {% endif %}
+                                        </td>
+                                        <td class="text-right align-middle"> {{ match['home_team'] }} </td>
+                                        <td class="text-center align-middle">
+                                            <img height="50" src="{{ match['home_crest'] }}" alt="{{ match['home_team'] }}" />
+                                        </td>
+                                        <td class="text-center align-middle">
+                                            {{ match['home_goals'] }} : {{ match['away_goals'] }}
+                                        </td>
+                                        <td class="text-center align-middle">
+                                            <img height="50" src="{{ match['away_crest'] }}" alt="{{ match['home_team'] }}" />
+                                        </td>
+                                        <td class="text-left align-middle">{{ match['away_team'] }}</td>
+                                        <td class="align-middle">
+                                            <a class="btn btn-sm btn-outline-primary" href="{{ url_for('match_page', id=match['match_id'])}}">
+                                                <i class="fas fa-arrow-right"></i> Details
+                                            </a>
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+                                </table>
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-md-4">
@@ -64,7 +115,6 @@
                                         <td class="text-right">{{ table[position|string]['points'] }}</td>
                                     </tr>
                                     {% endfor %}
-
                                 </tbody>
                             </table>
                         </div>

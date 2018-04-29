@@ -21,3 +21,41 @@ http://jinja.pocoo.org/docs/2.10/templates/
 
 https://flask-wtf.readthedocs.io/en/stable/  
 
+# Deploy app to Ubuntu 16.04 Server
+
+Clone the repository
+```
+git clone https://github.com/tmoscrip/thefinalwhistle.git
+```
+
+Create python 3.6 environment
+```
+pyvenv-3.6 env
+```
+
+Activate environment
+```
+source env/bin/activate
+```
+Navigate to the folder with the setup.py
+```
+cd thefinalwhistle/
+```
+Install the finalwhistle & all remaining requirements
+```
+pip install -e .
+pip install -r requirements.txt
+```
+Setup the environment
+```
+export FLASK_APP=finalwhistle
+export FLASK_DEBUG=true
+export FINALWHISTLE_SECRET_KEY=123123123123
+```
+
+**!! Make sure you are in the directory which includes the setup.py !!**
+
+Start the application
+```
+flask run
+```

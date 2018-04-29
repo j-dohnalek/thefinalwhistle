@@ -1,0 +1,163 @@
+[
+    {
+        "date": "Sunday 29 April 2018",
+        "fixtures": [
+            {
+                "home_team": "West Ham",
+                "away_team": "Man City",
+                "score": "1-4",
+                "url": "https://www.premierleague.com/match/22701",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "13",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Leroy Sané",
+                            "assist": "Raheem Sterling"
+                        },
+                        {
+                            "minute": "27",
+                            "own_goal": "true",
+                            "penalty": "false",
+                            "scorer": "Pablo Zabaleta"
+                        },
+                        {
+                            "minute": "42",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Aaron Cresswell"
+                        },
+                        {
+                            "minute": "53",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Gabriel Jesus",
+                            "assist": "Raheem Sterling"
+                        },
+                        {
+                            "minute": "64",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Fernandinho",
+                            "assist": "Raheem Sterling"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "37",
+                            "card": "yellow",
+                            "player": "Nicolás Otamendi"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "61",
+                            "in": "Danilo",
+                            "out": "Kyle Walker"
+                        },
+                        {
+                            "minute": "65",
+                            "in": "João Mário",
+                            "out": "Edimilson Fernandes"
+                        },
+                        {
+                            "minute": "66",
+                            "in": "Arthur Masuaku",
+                            "out": "Patrice Evra"
+                        },
+                        {
+                            "minute": "66",
+                            "in": "Chicharito",
+                            "out": "Manuel Lanzini"
+                        },
+                        {
+                            "minute": "71",
+                            "in": "Yaya Touré",
+                            "out": "Ilkay Gündogan"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "Lukas Nmecha",
+                            "out": "Gabriel Jesus"
+                        }
+                    ],
+                    "referee": "Neil Swarbrick",
+                    "kick_off": "14:15"
+                }
+            },
+            {
+                "home_team": "Man Utd",
+                "away_team": "Arsenal",
+                "score": "2-1",
+                "url": "https://www.premierleague.com/match/22696",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "16",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Paul Pogba"
+                        },
+                        {
+                            "minute": "51",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Henrikh Mkhitaryan",
+                            "assist": "Granit Xhaka"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Marouane Fellaini",
+                            "assist": "Ashley Young"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "24",
+                            "card": "yellow",
+                            "player": "Granit Xhaka"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "50",
+                            "in": "Marcus Rashford",
+                            "out": "Romelu Lukaku"
+                        },
+                        {
+                            "minute": "64",
+                            "in": "Danny Welbeck",
+                            "out": "Reiss Nelson"
+                        },
+                        {
+                            "minute": "64",
+                            "in": "Nacho Monreal",
+                            "out": "Sead Kolasinac"
+                        },
+                        {
+                            "minute": "64",
+                            "in": "Anthony Martial",
+                            "out": "Ander Herrera"
+                        },
+                        {
+                            "minute": "64",
+                            "in": "Marouane Fellaini",
+                            "out": "Jesse Lingard"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Joe Willock",
+                            "out": "Henrikh Mkhitaryan"
+                        }
+                    ],
+                    "referee": "Kevin Friend",
+                    "kick_off": "16:30"
+                }
+            }
+        ]
+    }
+]
