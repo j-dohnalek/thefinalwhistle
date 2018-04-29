@@ -6,22 +6,20 @@
 {% block content %}
 
 <div class="container py-4">
-    <div class="row">
-        <div class="pb-4">
-            <h1 class="mb-0">Players</h1>
-            <h4 class="text-muted font-weight-light">Season 2017/18</h4>
-        </div>
-        <table class="table">
-            {% for player in data %}
-                <tr>
-                    <th scope="row"><img src="{{ player['img'] }}" width="50" /></th>
-                    <th>{{ player['shirt_number'] }}</th>
-                    <th><a href="{{url_for('player_page', id=player['id'])}}"> {{ player['name'] }}</a></th>
-                    <th>{{ player['position'] }}</th>
-                </tr>
-            {% endfor %}
-        </table>
+    <div class="pb-4">
+        <h1 class="mb-0">Players</h1>
+        <h4 class="text-muted font-weight-light">Season 2017/18</h4>
     </div>
+    <table class="table">
+        {% for player in data %}
+            <tr>
+                <th scope="row"><img src="{{ player['img'] }}" width="50" /></th>
+                <th>{{ player['shirt_number'] }}</th>
+                <th><a href="{{url_for('player_page', id=player['id'])}}"> {{ player['name'] }}</a></th>
+                <th>{{ player['position'] }}</th>
+            </tr>
+        {% endfor %}
+    </table>
 </div>
 
 {% endblock content %}
