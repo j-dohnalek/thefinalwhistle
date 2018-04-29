@@ -329,11 +329,11 @@ def list_all_matches():
         match_details = {'match_id': match.match_id}
 
         home_team = Team.query.filter_by(team_id=match.home_team).first()
-        match_details['home_team'] = home_team.name
+        match_details['home_team'] = home_team.name_short
         match_details['home_crest'] = club_crest[str(home_team.team_id)]
 
         away_team = Team.query.filter_by(team_id=match.away_team).first()
-        match_details['away_team'] = away_team.name
+        match_details['away_team'] = away_team.name_short
         match_details['away_crest'] = club_crest[str(away_team.team_id)]
 
         match_details['home_goals'] = match.home_ft_goals

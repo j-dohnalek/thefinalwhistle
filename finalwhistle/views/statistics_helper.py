@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import json
 from finalwhistle.apis import fd_api
 from finalwhistle.models.football import *
 from sqlalchemy import or_, desc, func, asc
@@ -10,7 +11,9 @@ from finalwhistle.views.data_views_helper import get_player_image, get_player_in
 
 
 ROOT = 'finalwhistle/'
+
 PLAYER_IMAGES = ROOT + 'cache/players_images.json'
+CLUB_CRESTS = ROOT + 'cache/club_crests.json'
 
 
 # FUNCTIONS #####################################################################
@@ -52,6 +55,9 @@ def get_team_comparison():
     Compare two team together based on goals, cards, won games, lost games, etc.
     :return:
     """
+    invalid = False
+
+    print(request.args)
 
     # No POST request
     if len(request.args) == 0:
@@ -59,12 +65,13 @@ def get_team_comparison():
 
     try:
         team1 = int(request.args.get('team1'))
-    except ValueError:
-        return dict(team1=None, team2=None, error='2 clubs required, please select 2 clubs')
-
-    try:
         team2 = int(request.args.get('team2'))
     except ValueError:
+        invalid = True
+    except TypeError:
+        invalid = True
+
+    if invalid:
         return dict(team1=None, team2=None, error='2 clubs required, please select 2 clubs')
 
     # In case data is submitted manually check if teams exist
@@ -177,6 +184,9 @@ def get_common_matches(team1, team2):
     :return: list of matches
     """
 
+    with open(CLUB_CRESTS) as jsonfile:
+        club_crest = json.load(jsonfile)
+
     list_of_matches = []
 
     matches = Match.query.join(MatchStatistics, Match.match_id == MatchStatistics.match) \
@@ -194,6 +204,9 @@ def get_common_matches(team1, team2):
             match_details = {}
             home_team = Team.query.filter_by(team_id=match.home_team).first()
             away_team = Team.query.filter_by(team_id=match.away_team).first()
+
+            match_details['home_crest'] = club_crest[str(home_team.team_id)]
+            match_details['away_crest'] = club_crest[str(away_team.team_id)]
 
             match_details['match_id'] = match.match_id
             match_details['home_team'] = home_team.name
