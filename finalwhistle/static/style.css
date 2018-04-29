@@ -70,6 +70,14 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+table .no-border-top {
+    border-top:0;
+}
+
+.heading {
+    font-family: 'Rambla', sans-serif;
+}
+
 /* Profile Page */
 .profile-left {
 	background-color: #f8f8f8;

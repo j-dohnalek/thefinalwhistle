@@ -92,7 +92,11 @@
                     </div>
 
                     <div class="tab-pane fade" id="help" role="tabpanel" aria-labelledby="help">
-                        If you need help or have any issues with your account. Please contact us through the Contact Us page.
+                        <div class="text-center py-3 heading">
+                            <img class="py-2" src="{{ url_for('static', filename='images/logo.svg') }}" alt="The Final Whistle" width="100px">
+                            <h2>The Final Whistle</h2>
+                        </div>
+                        If you need help or have any issues with your account, please contact us through the <a href="{{ url_for('contact_us') }}">Contact Us</a> page.
                     </div>
 
                 </div>

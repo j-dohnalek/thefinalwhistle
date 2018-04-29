@@ -13,8 +13,24 @@
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
                 <h1 class="h2">Articles</h1>
             </div>
-            <div>
-
+            <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="#">
+                <div class="card-body">
+                    <h2 class="card-title"></h2>
+                    <h6 class="card-subtitle mb-3 text-muted">by userid 1</h6>
+                    <p class="card-text"></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <button type="button" class="btn btn-sm btn-outline-secondary mr-2"><i class="fas fa-comment"></i> 3 comments</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary mr-2" id="views"><i class="fas fa-circle-notch fa-spin"></i></button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary mr-2"><i class="fas fa-clock"></i> Posted 9 mins ago</button>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-sm btn-outline-primary mr-2"><i class="fas fa-edit"></i> Edit article</a>
+                            <a href="#" class="btn btn-sm btn-outline-danger"><i class="fas fa-times"></i> Delete article</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
     </div>
@@ -22,4 +38,35 @@
 {% endblock content %}
 
 {% block custom_scripts %}
+    <script src="{{ url_for('static', filename='analytics.js') }}"></script>
+    <script>
+        gapi.analytics.ready(function() {
+
+            /**
+             * Authorize the user with an access token obtained server side.
+             */
+            gapi.analytics.auth.authorize({
+                'serverAuth': {
+                    'access_token': '{{ token }}'
+                }
+            });
+
+            gapi.client.analytics.data.ga.get({
+                'dimensions': 'ga:pagePath',
+                'metrics': 'ga:pageviews',
+                'filters': 'ga:pagePath=~/news/*',
+                'start-date': 'yesterday',
+                'end-date': 'yesterday',
+                'ids': "ga:174124382"
+            }).execute(function(results) {
+                renderData(results);
+            });
+
+        });
+
+        function renderData(data) {
+            console.log(data);
+            $('#views').html('<i class="fas fa-chart-line"></i> ' + data.totalsForAllResults['ga:pageviews'] + ' views');
+        }
+    </script>
 {% endblock custom_scripts %}

@@ -11,19 +11,24 @@
 
         <table class="table">
             {% for match in data %}
-            <tr>
-                <td>
-                    {% if match['indicator'] == 0 %}
-                        {{ match['kickoff_date'] }}
-                    {% endif %}
-                </td>
-                <td>{{ match['home_team'] }}</td>
-                <td><img height="50" src="{{ match['home_crest'] }}" /></td>
-                <td>{{ match['home_goals'] }} : {{ match['away_goals'] }}</td>
-                <td><img height="50" src="{{ match['away_crest'] }}" /></td>
-                <td>{{ match['away_team'] }}</td>
-                <td scope="row"><a href="{{ url_for('match_page', id=match['match_id'])}}">Details</a></td>
-            </tr>
+                {% if match['indicator'] == 0 %}
+                <tr>
+                {% else %}
+                <tr class="no-border-top">
+                {% endif %}
+
+                    <td>
+                        {% if match['indicator'] == 0 %}
+                            {{ match['kickoff_date'] }}
+                        {% endif %}
+                    </td>
+                    <td class="text-right align-middle"> {{ match['home_team'] }} </td>
+                    <td class="text-center align-middle"><img height="50" src="{{ match['home_crest'] }}" alt="{{ match['home_team'] }}" /></td>
+                    <td class="text-center align-middle"> {{ match['home_goals'] }} : {{ match['away_goals'] }} </td>
+                    <td class="text-center align-middle"><img height="50" src="{{ match['away_crest'] }}" alt="{{ match['home_team'] }}" /></td>
+                    <td class="text-left align-middle">{{ match['away_team'] }}</td>
+                    <td class="align-middle"><a class="btn btn-sm btn-outline-primary" href="{{ url_for('match_page', id=match['match_id'])}}"><i class="fas fa-arrow-right"></i> Details</a></td>
+                </tr>
             {% endfor %}
         </table>
     </div>

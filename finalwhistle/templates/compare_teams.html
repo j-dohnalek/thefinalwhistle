@@ -6,7 +6,7 @@
 {% block content %}
 <div class="container py-4">
 
-    <h1>Compare Teams</h1>
+    <h1 class="pb-3">Compare Teams</h1>
 
     <div class="container">
         {% if stats['error'] is not none %}
@@ -19,338 +19,322 @@
     </div>
 
     <form method="get">
-
-        <select name="team1">
-            <option value="">Select Team</option>
-            {% for team in teams %}
-                <option value="{{ team['team_id'] }}">{{ team['name'] }}</option>
-            {% endfor %}
-        </select>
-
-        <select name="team2">
-            <option value="">Select Team</option>
-            {% for team in teams %}
-                <option value="{{ team['team_id'] }}">{{ team['name'] }}</option>
-            {% endfor %}
-        </select>
-
-        <input type="submit" value="Compare" />
-
+        <div class="form-row">
+            <div class="col-10">
+                <div class="form-row">
+                    <div class="col-6">
+                        <select class="form-control" name="team1">
+                            <option value="" selected disabled>Select Team</option>
+                            {% for team in teams %}
+                                <option value="{{ team['team_id'] }}">{{ team['name'] }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="col-6">
+                        <select class="form-control" name="team2">
+                            <option value="" selected disabled>Select Team</option>
+                            {% for team in teams %}
+                                <option value="{{ team['team_id'] }}">{{ team['name'] }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 text-right">
+                <input type="submit" class="btn btn-primary btn-block" type="submit" value="Compare" />
+            </div>
+        </div>
     </form>
 
-    <div class="container">
-        {% if stats['error'] is not none and stats['error']|length == 0 %}
+    {% if stats['error'] is not none and stats['error']|length == 0 %}
+        <div class="row">
+            <div class="col-sm">
 
-            <div class="container py-5">
-                <div class="row">
-                    <div class="col-sm">
-
-                        <!-- Team Info -->
-                        <div class="container text-center">
-                            <img height="100" src="{{ stats['team1']['crest'] }}" />
-                            <h2>{{ stats['team1']['name'] }}</h2>
-                        </div>
-
-                        <div class="card my-2">
-                            <div class="card-header">
-                                <h4>Matches Played</h4>
-                            </div>
-                            <div class="card-body">
-                                <table class="table">
-                                    <thead>
-                                        <th class="text-center">Home</th>
-                                        <th class="text-center">Away</th>
-                                        <th class="text-center">Total</th>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="text-center">{{ stats['team1']['matches_home'] }}</td>
-                                            <td class="text-center">{{ stats['team1']['matches_away'] }}</td>
-                                            <td class="text-center">{{ stats['team1']['matches_total'] }}</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-
-                        <!-- Statistic about goals -->
-                        <div class="card my-2">
-                            <div class="card-header">
-                                <h4>Goal Statistics</h4>
-                            </div>
-                            <div class="card-body">
-                                <table class="table">
-                                    <thead>
-                                        <th></th>
-                                        <th class="text-right">Home</th>
-                                        <th class="text-right">Away</th>
-                                        <th class="text-right">Total</th>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Goals</td>
-                                            <td class="text-right">{{ stats['team1']['home']['goals'] }}</td>
-                                            <td class="text-right">{{ stats['team1']['away']['goals'] }}</td>
-                                            <td class="text-right">{{ stats['team1']['total']['goals'] }}</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Shots</td>
-                                            <td class="text-right">{{ stats['team1']['home']['shots'] }}</td>
-                                            <td class="text-right">{{ stats['team1']['away']['shots'] }}</td>
-                                            <td class="text-right">{{ stats['team1']['total']['shots'] }}</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Shots On Target</td>
-                                            <td class="text-right">{{ stats['team1']['home']['shots_on_target'] }}</td>
-                                            <td class="text-right">{{ stats['team1']['away']['shots_on_target'] }}</td>
-                                            <td class="text-right">{{ stats['team1']['total']['shots_on_target'] }}</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Shooting accuracy % </td>
-                                            <td class="text-right">
-                                                {% if stats['team1']['home']['shots'] > 0 %}
-                                                {{ ((stats['team1']['home']['shots_on_target'] / stats['team1']['home']['shots']) * 100)|round|int }}%
-                                                {% endif %}
-                                            </td>
-                                            <td class="text-right">
-                                                {% if stats['team1']['home']['shots'] > 0 %}
-                                                {{ ((stats['team1']['away']['shots_on_target'] / stats['team1']['away']['shots']) * 100)|round|int }}%
-                                                {% endif %}
-                                            </td>
-                                            <td class="text-right">
-                                                {% if stats['team1']['home']['shots'] > 0 %}
-                                                {{ ((stats['team1']['total']['shots_on_target'] / stats['team1']['total']['shots']) * 100)|round|int }}%
-                                                {% endif %}
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Shots to Goals % </td>
-                                            <td class="text-right">
-                                                {% if stats['team1']['home']['shots_on_target'] > 0 %}
-                                                {{ ((stats['team1']['home']['goals'] / stats['team1']['home']['shots_on_target']) * 100)|round|int }}%
-                                                {% endif %}
-                                            </td>
-                                            <td class="text-right">
-                                                {% if stats['team1']['home']['shots_on_target'] > 0 %}
-                                                {{ ((stats['team1']['away']['goals'] / stats['team1']['away']['shots_on_target']) * 100)|round|int }}%
-                                                {% endif %}
-                                            </td>
-                                            <td class="text-right">
-                                                {% if stats['team1']['home']['shots_on_target'] > 0 %}
-                                                {{ ((stats['team1']['total']['goals'] / stats['team1']['total']['shots_on_target']) * 100)|round|int }}%
-                                                {% endif %}
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-
-                        <!-- Statistic about fouls -->
-                        <div class="card my-2">
-                            <div class="card-header">
-                                <h4>Foul Statistics</h4>
-                            </div>
-                            <div class="card-body">
-                                <table class="table">
-                                    <thead>
-                                        <th></th>
-                                        <th class="text-right">Home</th>
-                                        <th class="text-right">Away</th>
-                                        <th class="text-right">Total</th>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Fouls</td>
-                                            <td class="text-right">{{ stats['team1']['home']['fouls'] }}</td>
-                                            <td class="text-right">{{ stats['team1']['away']['fouls'] }}</td>
-                                            <td class="text-right">{{ stats['team1']['total']['fouls'] }}</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Yellow</td>
-                                            <td class="text-right">{{ stats['team1']['home']['yellow_cards'] }}</td>
-                                            <td class="text-right">{{ stats['team1']['away']['yellow_cards'] }}</td>
-                                            <td class="text-right">{{ stats['team1']['total']['yellow_cards'] }}</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Red</td>
-                                            <td class="text-right">{{ stats['team1']['home']['red_cards'] }}</td>
-                                            <td class="text-right">{{ stats['team1']['away']['red_cards'] }}</td>
-                                            <td class="text-right">{{ stats['team1']['total']['red_cards'] }}</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm">
-                        <!-- Team Info -->
-                        <div class="container text-center">
-                            <img height="100" src="{{ stats['team2']['crest'] }}" />
-                            <h2>{{ stats['team2']['name'] }}</h2>
-                        </div>
-
-                        <div class="card my-2">
-                            <div class="card-header">
-                                <h4>Matches Played</h4>
-                            </div>
-                            <div class="card-body">
-                                <table class="table">
-                                    <thead>
-                                        <th class="text-center">Home</th>
-                                        <th class="text-center">Away</th>
-                                        <th class="text-center">Total</th>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="text-center">{{ stats['team2']['matches_home'] }}</td>
-                                            <td class="text-center">{{ stats['team2']['matches_away'] }}</td>
-                                            <td class="text-center">{{ stats['team2']['matches_total'] }}</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-
-                        <!-- Statistic about goals -->
-                        <div class="card my-2">
-                            <div class="card-header">
-                                <h4>Goal Statistics</h4>
-                            </div>
-                            <div class="card-body">
-                                <table class="table">
-                                    <thead>
-                                        <th></th>
-                                        <th class="text-right">Home</th>
-                                        <th class="text-right">Away</th>
-                                        <th class="text-right">Total</th>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Goals</td>
-                                            <td class="text-right">{{ stats['team2']['home']['goals'] }}</td>
-                                            <td class="text-right">{{ stats['team2']['away']['goals'] }}</td>
-                                            <td class="text-right">{{ stats['team2']['total']['goals'] }}</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Shots</td>
-                                            <td class="text-right">{{ stats['team2']['home']['shots'] }}</td>
-                                            <td class="text-right">{{ stats['team2']['away']['shots'] }}</td>
-                                            <td class="text-right">{{ stats['team2']['total']['shots'] }}</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Shots On Target</td>
-                                            <td class="text-right">{{ stats['team2']['home']['shots_on_target'] }}</td>
-                                            <td class="text-right">{{ stats['team2']['away']['shots_on_target'] }}</td>
-                                            <td class="text-right">{{ stats['team2']['total']['shots_on_target'] }}</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Shooting accuracy % </td>
-                                            <td class="text-right">
-                                                {% if stats['team2']['home']['shots'] > 0 %}
-                                                {{ ((stats['team2']['home']['shots_on_target'] / stats['team2']['home']['shots']) * 100)|round|int }}%
-                                                {% endif %}
-                                            </td>
-                                            <td class="text-right">
-                                                {% if stats['team2']['home']['shots'] > 0 %}
-                                                {{ ((stats['team2']['away']['shots_on_target'] / stats['team2']['away']['shots']) * 100)|round|int }}%
-                                                {% endif %}
-                                            </td>
-                                            <td class="text-right">
-                                                {% if stats['team2']['home']['shots'] > 0 %}
-                                                {{ ((stats['team2']['total']['shots_on_target'] / stats['team2']['total']['shots']) * 100)|round|int }}%
-                                                {% endif %}
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Shots to Goals % </td>
-                                            <td class="text-right">
-                                                {% if stats['team2']['home']['shots_on_target'] > 0 %}
-                                                {{ ((stats['team2']['home']['goals'] / stats['team2']['home']['shots_on_target']) * 100)|round|int }}%
-                                                {% endif %}
-                                            </td>
-                                            <td class="text-right">
-                                                {% if stats['team2']['home']['shots_on_target'] > 0 %}
-                                                {{ ((stats['team2']['away']['goals'] / stats['team2']['away']['shots_on_target']) * 100)|round|int }}%
-                                                {% endif %}
-                                            </td>
-                                            <td class="text-right">
-                                                {% if stats['team2']['home']['shots_on_target'] > 0 %}
-                                                {{ ((stats['team2']['total']['goals'] / stats['team2']['total']['shots_on_target']) * 100)|round|int }}%
-                                                {% endif %}
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-
-                        <!-- Statistic about fouls -->
-                        <div class="card my-2">
-                            <div class="card-header">
-                                <h4>Foul Statistics</h4>
-                            </div>
-                            <div class="card-body">
-                                <table class="table">
-                                    <thead>
-                                        <th></th>
-                                        <th class="text-right">Home</th>
-                                        <th class="text-right">Away</th>
-                                        <th class="text-right">Total</th>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Fouls</td>
-                                            <td class="text-right">{{ stats['team2']['home']['fouls'] }}</td>
-                                            <td class="text-right">{{ stats['team2']['away']['fouls'] }}</td>
-                                            <td class="text-right">{{ stats['team2']['total']['fouls'] }}</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Yellow</td>
-                                            <td class="text-right">{{ stats['team2']['home']['yellow_cards'] }}</td>
-                                            <td class="text-right">{{ stats['team2']['away']['yellow_cards'] }}</td>
-                                            <td class="text-right">{{ stats['team2']['total']['yellow_cards'] }}</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Red</td>
-                                            <td class="text-right">{{ stats['team2']['home']['red_cards'] }}</td>
-                                            <td class="text-right">{{ stats['team2']['away']['red_cards'] }}</td>
-                                            <td class="text-right">{{ stats['team2']['total']['red_cards'] }}</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-
+                <!-- Team Info -->
+                <div class="text-center py-5">
+                    <img height="100" src="{{ stats['team1']['crest'] }}" />
+                    <h2 class="heading">{{ stats['team1']['name'] }}</h2>
                 </div>
-            </div>
 
-            <div class="container">
-                <div class="card">
-                    <div class="card-header">
-                        <h4>Common Games</h4>
+                <div class="card mb-4">
+                    <div class="card-header text-center">
+                        <h5 class="mb-0">Matches Played</h5>
                     </div>
-                    <div class="card-body">
-                        <table class="table">
-                        {% for match in stats['common'] %}
-                        <tr>
-                            <td>{{ match['home_team'] }}</td>
-                            <td><img height="50" src="{{ match['home_crest'] }}" /></td>
-                            <td>{{ match['home_goals'] }} : {{ match['away_goals'] }}</td>
-                            <td><img height="50" src="{{ match['away_crest'] }}" /></td>
-                            <td>{{ match['away_team'] }}</td>
-                            <td scope="row"><a href="{{ url_for('match_page', id=match['match_id'])}}">Details</a></td>
-                        </tr>
-                        {% endfor %}
+                    <table class="table mb-0">
+                        <thead>
+                            <th class="text-center">Home</th>
+                            <th class="text-center">Away</th>
+                            <th class="text-center">Total</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-center">{{ stats['team1']['matches_home'] }}</td>
+                                <td class="text-center">{{ stats['team1']['matches_away'] }}</td>
+                                <td class="text-center">{{ stats['team1']['matches_total'] }}</td>
+                            </tr>
+                        </tbody>
                     </table>
+                </div>
+
+                <!-- Statistic about goals -->
+                <div class="card mb-4">
+                    <div class="card-header text-center">
+                        <h5 class="mb-0">Goal Statistics</h5>
                     </div>
+                    <table class="table mb-0">
+                        <thead>
+                            <th></th>
+                            <th class="text-right">Home</th>
+                            <th class="text-right">Away</th>
+                            <th class="text-right">Total</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Goals</td>
+                                <td class="text-right">{{ stats['team1']['home']['goals'] }}</td>
+                                <td class="text-right">{{ stats['team1']['away']['goals'] }}</td>
+                                <td class="text-right">{{ stats['team1']['total']['goals'] }}</td>
+                            </tr>
+                            <tr>
+                                <td>Shots</td>
+                                <td class="text-right">{{ stats['team1']['home']['shots'] }}</td>
+                                <td class="text-right">{{ stats['team1']['away']['shots'] }}</td>
+                                <td class="text-right">{{ stats['team1']['total']['shots'] }}</td>
+                            </tr>
+                            <tr>
+                                <td>Shots On Target</td>
+                                <td class="text-right">{{ stats['team1']['home']['shots_on_target'] }}</td>
+                                <td class="text-right">{{ stats['team1']['away']['shots_on_target'] }}</td>
+                                <td class="text-right">{{ stats['team1']['total']['shots_on_target'] }}</td>
+                            </tr>
+                            <tr>
+                                <td>Shooting accuracy % </td>
+                                <td class="text-right">
+                                    {% if stats['team1']['home']['shots'] > 0 %}
+                                    {{ ((stats['team1']['home']['shots_on_target'] / stats['team1']['home']['shots']) * 100)|round|int }}%
+                                    {% endif %}
+                                </td>
+                                <td class="text-right">
+                                    {% if stats['team1']['home']['shots'] > 0 %}
+                                    {{ ((stats['team1']['away']['shots_on_target'] / stats['team1']['away']['shots']) * 100)|round|int }}%
+                                    {% endif %}
+                                </td>
+                                <td class="text-right">
+                                    {% if stats['team1']['home']['shots'] > 0 %}
+                                    {{ ((stats['team1']['total']['shots_on_target'] / stats['team1']['total']['shots']) * 100)|round|int }}%
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Shots to Goals % </td>
+                                <td class="text-right">
+                                    {% if stats['team1']['home']['shots_on_target'] > 0 %}
+                                    {{ ((stats['team1']['home']['goals'] / stats['team1']['home']['shots_on_target']) * 100)|round|int }}%
+                                    {% endif %}
+                                </td>
+                                <td class="text-right">
+                                    {% if stats['team1']['home']['shots_on_target'] > 0 %}
+                                    {{ ((stats['team1']['away']['goals'] / stats['team1']['away']['shots_on_target']) * 100)|round|int }}%
+                                    {% endif %}
+                                </td>
+                                <td class="text-right">
+                                    {% if stats['team1']['home']['shots_on_target'] > 0 %}
+                                    {{ ((stats['team1']['total']['goals'] / stats['team1']['total']['shots_on_target']) * 100)|round|int }}%
+                                    {% endif %}
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Statistic about fouls -->
+                <div class="card mb-4">
+                    <div class="card-header text-center">
+                        <h5 class="mb-0">Foul Statistics</h5>
+                    </div>
+                    <table class="table mb-0">
+                        <thead>
+                            <th></th>
+                            <th class="text-right">Home</th>
+                            <th class="text-right">Away</th>
+                            <th class="text-right">Total</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Fouls</td>
+                                <td class="text-right">{{ stats['team1']['home']['fouls'] }}</td>
+                                <td class="text-right">{{ stats['team1']['away']['fouls'] }}</td>
+                                <td class="text-right">{{ stats['team1']['total']['fouls'] }}</td>
+                            </tr>
+                            <tr>
+                                <td>Yellow</td>
+                                <td class="text-right">{{ stats['team1']['home']['yellow_cards'] }}</td>
+                                <td class="text-right">{{ stats['team1']['away']['yellow_cards'] }}</td>
+                                <td class="text-right">{{ stats['team1']['total']['yellow_cards'] }}</td>
+                            </tr>
+                            <tr>
+                                <td>Red</td>
+                                <td class="text-right">{{ stats['team1']['home']['red_cards'] }}</td>
+                                <td class="text-right">{{ stats['team1']['away']['red_cards'] }}</td>
+                                <td class="text-right">{{ stats['team1']['total']['red_cards'] }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
 
-        {% endif %}
-    </div>
+            <div class="col-sm">
+                <!-- Team Info -->
+                <div class="text-center py-5">
+                    <img height="100" src="{{ stats['team2']['crest'] }}" />
+                    <h2 class="heading">{{ stats['team2']['name'] }}</h2>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-header text-center">
+                        <h5 class="mb-0">Matches Played</h5>
+                    </div>
+                    <table class="table mb-0">
+                        <thead>
+                            <th class="text-center">Home</th>
+                            <th class="text-center">Away</th>
+                            <th class="text-center">Total</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-center">{{ stats['team2']['matches_home'] }}</td>
+                                <td class="text-center">{{ stats['team2']['matches_away'] }}</td>
+                                <td class="text-center">{{ stats['team2']['matches_total'] }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Statistic about goals -->
+                <div class="card mb-4">
+                    <div class="card-header text-center">
+                        <h5 class="mb-0">Goal Statistics</h5>
+                    </div>
+                    <table class="table mb-0">
+                        <thead>
+                            <th></th>
+                            <th class="text-right">Home</th>
+                            <th class="text-right">Away</th>
+                            <th class="text-right">Total</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Goals</td>
+                                <td class="text-right">{{ stats['team2']['home']['goals'] }}</td>
+                                <td class="text-right">{{ stats['team2']['away']['goals'] }}</td>
+                                <td class="text-right">{{ stats['team2']['total']['goals'] }}</td>
+                            </tr>
+                            <tr>
+                                <td>Shots</td>
+                                <td class="text-right">{{ stats['team2']['home']['shots'] }}</td>
+                                <td class="text-right">{{ stats['team2']['away']['shots'] }}</td>
+                                <td class="text-right">{{ stats['team2']['total']['shots'] }}</td>
+                            </tr>
+                            <tr>
+                                <td>Shots On Target</td>
+                                <td class="text-right">{{ stats['team2']['home']['shots_on_target'] }}</td>
+                                <td class="text-right">{{ stats['team2']['away']['shots_on_target'] }}</td>
+                                <td class="text-right">{{ stats['team2']['total']['shots_on_target'] }}</td>
+                            </tr>
+                            <tr>
+                                <td>Shooting accuracy % </td>
+                                <td class="text-right">
+                                    {% if stats['team2']['home']['shots'] > 0 %}
+                                    {{ ((stats['team2']['home']['shots_on_target'] / stats['team2']['home']['shots']) * 100)|round|int }}%
+                                    {% endif %}
+                                </td>
+                                <td class="text-right">
+                                    {% if stats['team2']['home']['shots'] > 0 %}
+                                    {{ ((stats['team2']['away']['shots_on_target'] / stats['team2']['away']['shots']) * 100)|round|int }}%
+                                    {% endif %}
+                                </td>
+                                <td class="text-right">
+                                    {% if stats['team2']['home']['shots'] > 0 %}
+                                    {{ ((stats['team2']['total']['shots_on_target'] / stats['team2']['total']['shots']) * 100)|round|int }}%
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Shots to Goals % </td>
+                                <td class="text-right">
+                                    {% if stats['team2']['home']['shots_on_target'] > 0 %}
+                                    {{ ((stats['team2']['home']['goals'] / stats['team2']['home']['shots_on_target']) * 100)|round|int }}%
+                                    {% endif %}
+                                </td>
+                                <td class="text-right">
+                                    {% if stats['team2']['home']['shots_on_target'] > 0 %}
+                                    {{ ((stats['team2']['away']['goals'] / stats['team2']['away']['shots_on_target']) * 100)|round|int }}%
+                                    {% endif %}
+                                </td>
+                                <td class="text-right">
+                                    {% if stats['team2']['home']['shots_on_target'] > 0 %}
+                                    {{ ((stats['team2']['total']['goals'] / stats['team2']['total']['shots_on_target']) * 100)|round|int }}%
+                                    {% endif %}
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Statistic about fouls -->
+                <div class="card mb-4">
+                    <div class="card-header text-center">
+                        <h5 class="mb-0">Foul Statistics</h5>
+                    </div>
+                    <table class="table mb-0">
+                        <thead>
+                            <th></th>
+                            <th class="text-right">Home</th>
+                            <th class="text-right">Away</th>
+                            <th class="text-right">Total</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Fouls</td>
+                                <td class="text-right">{{ stats['team2']['home']['fouls'] }}</td>
+                                <td class="text-right">{{ stats['team2']['away']['fouls'] }}</td>
+                                <td class="text-right">{{ stats['team2']['total']['fouls'] }}</td>
+                            </tr>
+                            <tr>
+                                <td>Yellow</td>
+                                <td class="text-right">{{ stats['team2']['home']['yellow_cards'] }}</td>
+                                <td class="text-right">{{ stats['team2']['away']['yellow_cards'] }}</td>
+                                <td class="text-right">{{ stats['team2']['total']['yellow_cards'] }}</td>
+                            </tr>
+                            <tr>
+                                <td>Red</td>
+                                <td class="text-right">{{ stats['team2']['home']['red_cards'] }}</td>
+                                <td class="text-right">{{ stats['team2']['away']['red_cards'] }}</td>
+                                <td class="text-right">{{ stats['team2']['total']['red_cards'] }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header text-center">
+                <h5 class="mb-0">Matches played against each other</h5>
+            </div>
+            <table class="table mb-0">
+                {% for match in stats['common'] %}
+                    <tr>
+                        <td class="text-right">{{ match['home_team'] }} <img height="50" src="{{ match['home_crest'] }}" /></td>
+                        <td class="text-center">{{ match['home_goals'] }} : {{ match['away_goals'] }}</td>
+                        <td><img height="50" src="{{ match['away_crest'] }}" /> {{ match['away_team'] }}</td>
+                        <td class="text-right"><a class="btn btn-sm btn-outline-primary" href="{{ url_for('match_page', id=match['match_id'])}}"><i class="fas fa-arrow-right"></i> View match</a></td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+
+    {% endif %}
 </div>
 
 {% block custom_scripts %}
