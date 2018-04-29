@@ -2,8 +2,7 @@ from finalwhistle import app, db
 from finalwhistle.models.user import attempt_login, create_new_user, get_user_by_email
 from finalwhistle.views.forms.login import LoginForm
 from finalwhistle.views.forms.registration import RegistrationForm
-from finalwhistle.views.data_views_helper import get_all_teams, get_league_table
-from finalwhistle.views.forms.edit_account_info import EditAccountInfoForm
+from finalwhistle.views.forms.edit_account_info import EditAccountInfoForm, ChangePasswordForm
 from flask import request, render_template, redirect, url_for, flash
 from flask_login import login_required, login_user, logout_user, current_user
 
@@ -55,13 +54,6 @@ def register():
     return render_template('register.html', reg_form=registration_form)
 
 
-# testing login required
-@app.route('/restricted', methods=['GET'])
-@login_required
-def restricted():
-    return 'restricted page'
-
-
 @app.route('/reset-password', methods=['GET'])
 def reset_password():
     return 'reset password form'
@@ -104,29 +96,29 @@ def logout():
     logout_user()
     return redirect(url_for('login'))
 
-# TODO: fix changes to user not committing
 @app.route('/account', methods=['GET', 'POST'])
 @login_required
 def edit_profile():
     profile_form = EditAccountInfoForm()
+    password_form = ChangePasswordForm()
+    # profile form logic
     if profile_form.validate_on_submit():
-        print('profile edit accepted')
-        print(request.form)
-        try:
-            new_favourite_team_id = int(request.form.get('favourite_team'))
-        except ValueError:
-            print('received non-numerial favourite_team from account edit form')
-            print('this should not happen! sending the user back to the homepage')
-            print('no profile changes have been committed to db')
-            return redirect(url_for('home'))
+        new_favourite_team_id = request.form.get('favourite_team')
         new_real_name = request.form.get('real_name')
         if new_favourite_team_id is not (None or ''):
-            current_user.supported_team_id = new_favourite_team_id
-            db.commit()
-        if new_favourite_team_id is not (None or ''):
-            current_user.real_name = new_real_name
-            db.commit()
-    return render_template('account.html', profile_form=profile_form)
+            if current_user.set_supported_team(new_favourite_team_id):
+                flash('Supported team updated!')
+        if new_real_name is not (None or ''):
+            if current_user.set_real_name(new_real_name):
+                flash('Name updated!')
+    # password form logic
+    if password_form.validate_on_submit():
+        if current_user.set_password(request.form.get('new_pw')):
+            flash('Password changed!')
+    else:
+        print(password_form.data)
+        print(password_form.errors)
+    return render_template('account.html', profile_form=profile_form, password_form=password_form)
 
 
 @app.route('/profile/<int:user_id>', methods=['GET'])

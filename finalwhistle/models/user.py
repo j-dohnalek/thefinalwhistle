@@ -108,6 +108,7 @@ class User(UserMixin, db.Model):
     supported_team = db.relationship('Team')
     #usergroup_id = db.Column(db.Integer, db.ForeignKey('usergroups.id'), nullable=True)
     #usergroup = db.relationship('UserGroup')
+    is_superuser = db.Column(db.Boolean, nullable=False, default=False)
 
     @validates('supported_team_id')
     def validate_supported_team_id(self, key, team_id):
@@ -179,3 +180,37 @@ class User(UserMixin, db.Model):
             # can implement failed login attempt tracker here
             pass
         return None
+
+    def set_real_name(self, name):
+        try:
+            self.real_name = name
+            db.session.add(self)
+            db.session.commit()
+        except:
+            pass
+        return False
+
+    def set_supported_team(self, team_id):
+        try:
+            team_id = int(team_id)
+            if team_id == self.supported_team_id:
+                return False
+            self.supported_team_id = team_id
+            db.session.add(self)
+            db.session.commit()
+            return True
+        except (ValueError, TypeError) as e:
+            print('tried to set supported team to something which couldn\'t be cast to int')
+            print(e)
+        return False
+
+    def set_password(self, password):
+        try:
+            self.pw_hash = hash_password(password)
+            db.session.add(self)
+            db.session.commit()
+            return True
+        except:
+            return False
+
+
