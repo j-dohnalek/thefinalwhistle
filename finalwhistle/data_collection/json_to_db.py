@@ -232,8 +232,6 @@ def parse_new_fixtures():
     """
     try:
 
-        game_count = 0
-        missing = ''
         for src in glob.glob(NEW_FIXTURES):
 
             with open(src) as outfile:
@@ -272,17 +270,14 @@ def parse_new_fixtures():
                                               kickoff=kickoff,
                                               season=season.season_id,
                                               main_referee=referee.referee_id)
-                        game_count += 1
 
                     except AttributeError:
-                        print('{} {} {} {}'.format(fixture['details']['referee'],
-                                                   fixture['home_team'],
-                                                   fixture['away_team'],
-                                                   fixtures['date']))
-                        import sys
-                        sys.exit()
+                        print('[Referee] {} {} {} {}'.format(fixture['details']['referee'],
+                                                             fixture['home_team'],
+                                                             fixture['away_team'],
+                                                             fixtures['date']))
 
-
+                    # Parse match goals
                     for event in (fixture['details']['goals']):
 
                         player = session.query(Player).filter_by(name=event['scorer']).first()
@@ -298,11 +293,10 @@ def parse_new_fixtures():
                             pass
 
                         except AttributeError:
-
-                            missing += '<br>{} {} {} {}'.format(event['assist'],
+                            print('[Player] {} {} {} {}'.format(event['assist'],
                                                                 fixture['home_team'],
                                                                 fixture['away_team'],
-                                                                fixture['date'])
+                                                                fixtures['date']))
 
                         extra_time = 0
                         try:
@@ -326,16 +320,17 @@ def parse_new_fixtures():
                                       extra_time=extra_time,
                                       minute=event['minute'])
 
+                    # Parse match cards
                     for event in (fixture['details']['cards']):
 
                         try:
                             player = session.query(Player).filter_by(name=event['player']).first()
                             player_id = player.player_id
                         except AttributeError:
-                            print('{} {} {} {}'.format(event['player'],
-                                                       fixture['home_team'],
-                                                       fixture['away_team'],
-                                                       fixtures['date']))
+                            print('[Player] {} {} {} {}'.format(event['player'],
+                                                                fixture['home_team'],
+                                                                fixture['away_team'],
+                                                                fixtures['date']))
                             break
 
                         extra_time = 0
@@ -358,6 +353,7 @@ def parse_new_fixtures():
                                       extra_time=extra_time,
                                       minute=event['minute'])
 
+                    # Parse match substitutions
                     for event in (fixture['details']['substitutions']):
 
                         player_out = None
@@ -365,10 +361,10 @@ def parse_new_fixtures():
                             player = session.query(Player).filter_by(name=event['out']).first()
                             player_out = player.player_id
                         except AttributeError:
-                            print('{} {} {} {}'.format(event['player'],
-                                                       fixture['home_team'],
-                                                       fixture['away_team'],
-                                                       fixtures['date']))
+                            print('[Player] {} {} {} {}'.format(event['out'],
+                                                                fixture['home_team'],
+                                                                fixture['away_team'],
+                                                                fixtures['date']))
                             break
 
                         player_in = None
@@ -379,10 +375,10 @@ def parse_new_fixtures():
                             pass
 
                         except AttributeError:
-                            print('{} {} {} {}'.format(event['player'],
-                                                       fixture['home_team'],
-                                                       fixture['away_team'],
-                                                       fixtures['date']))
+                            print('[Player] {} {} {} {}'.format(event['in'],
+                                                                fixture['home_team'],
+                                                                fixture['away_team'],
+                                                                fixtures['date']))
                             break
 
                         extra_time = 0
