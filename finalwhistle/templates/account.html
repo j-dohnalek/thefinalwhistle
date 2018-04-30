@@ -126,5 +126,9 @@
         var filename = $(this).val().split('\\').pop();
         $('#image-label').html(filename);
     });
+
+    var favouriteTeam = {{ current_user.supported_team_id }};
+    $('#favourite-team').val(favouriteTeam).change();
+
 </script>
 {% endblock custom_scripts %}
