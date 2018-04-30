@@ -50,6 +50,7 @@ def attempt_login(email, password):
     # The user has to be object
     if user is not None:
         if user.password_valid(password):
+            user.update_last_login()
             return user
     return None
 
@@ -213,4 +214,8 @@ class User(UserMixin, db.Model):
         except:
             return False
 
+    def update_last_login(self):
+        self.last_login = datetime.datetime.now()
+        db.session.add(self)
+        db.session.commit()
 
