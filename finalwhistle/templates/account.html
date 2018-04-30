@@ -75,19 +75,27 @@
                     <div class="tab-pane fade" id="change-password" role="tabpanel" aria-labelledby="change-password">
                         <form method="post" id="form-change-password" action="" enctype="multipart/form-data">
                             <div class="form-group">
-                                <label class="control-label">Old password</label>
-                                <input type="password" id="old-password" name="old-password" class="form-control">
+                                <!--<label class="control-label">Old password</label>-->
+                                <!--<input type="password" id="old-password" name="old-password" class="form-control">-->
+                                {{ password_form.current_pw.label(class='control-label', for='old-password') }}
+                                {{ password_form.current_pw(id='old-password', class='form-control') }}
                             </div>
                             <hr>
                             <div class="form-group">
-                                <label class="control-label">New password</label>
-                                <input type="password" id="new-password" name="new-password" class="form-control">
+                                <!--<label class="control-label">New password</label>-->
+                                <!--<input type="password" id="new-password" name="new-password" class="form-control">-->
+                                {{ password_form.new_pw.label(class='control-label', for='new-password') }}
+                                {{ password_form.new_pw(id='new-password', class='form-control') }}
                             </div>
                             <div class="form-group">
-                                <label class="control-label">Repeat password</label>
-                                <input type="password" id="repeat-password" name="repeat-password" class="form-control">
+                                <!--<label class="control-label">Repeat password</label>-->
+                                <!--<input type="password" id="repeat-password" name="repeat-password" class="form-control">-->
+                                {{ password_form.new_pw_repeat.label(class='control-label', for='repeat-password') }}
+                                {{ password_form.new_pw_repeat(id='repeat-password', class='form-control') }}
                             </div>
-                            <button type="submit" class="btn btn-primary" id="update-password">Update password</button>
+                            {{ password_form.submit(class='btn btn-primary', id='update-password') }}
+                            {{ password_form.csrf_token }}
+                            <!--<button type="submit" class="btn btn-primary" id="update-password">Update password</button>-->
                         </form>
                     </div>
 
@@ -96,7 +104,8 @@
                             <img class="py-2" src="{{ url_for('static', filename='images/logo.svg') }}" alt="The Final Whistle" width="100px">
                             <h2>The Final Whistle</h2>
                         </div>
-                        If you need help or have any issues with your account, please contact us through the <a href="{{ url_for('contact_us') }}">Contact Us</a> page.
+                        If you need help or have any issues with your account, please contact us through the
+                        <a href="{{ url_for('contact_us') }}">Contact Us</a> page.
                     </div>
 
                 </div>

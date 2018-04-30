@@ -6074,3 +6074,24 @@ JavaScript error: https://s1.adform.net/banners/scripts/dt/digitrust.js, line 59
 1525025245994	Marionette	WARN	TLS certificate errors will be ignored for this session
 [Child 7757, Chrome_ChildThread] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 [Child 7757, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1525073011004	geckodriver	INFO	geckodriver 0.19.1
+1525073011009	geckodriver	INFO	Listening on 127.0.0.1:38233
+1525073012143	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.s131MlQx9qDb"
+*** You are running in headless mode.
+1525073012716	Marionette	INFO	Enabled via --marionette
+1525073013796	Marionette	INFO	Listening on port 41507
+1525073013854	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 6879, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1525073067110	geckodriver	INFO	geckodriver 0.19.1
+1525073067113	geckodriver	INFO	Listening on 127.0.0.1:43757
+1525073068264	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-profile" "/tmp/rust_mozprofile.FYi17h2YQaV9"
+*** You are running in headless mode.
+1525073068800	Marionette	INFO	Enabled via --marionette
+1525073069900	Marionette	INFO	Listening on port 39407
+1525073069986	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7133, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Sandbox: Unexpected EOF, op 0 flags 00 path /usr/share/locale/en_GB/LC_MESSAGES/libc.mo
+[Child 7078, Chrome_ChildThread] WARNING: pipe error (36): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7078, Chrome_ChildThread] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7078, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353

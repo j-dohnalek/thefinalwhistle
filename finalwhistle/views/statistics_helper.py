@@ -24,14 +24,17 @@ def get_player_comparison():
     if len(request.args) == 0:
         return dict(team1=None, team2=None, error=None)
 
-    try:
-        player1 = int(request.args.get('p1'))
-    except ValueError:
-        return dict(team1=None, team2=None, error='Two players required, please select two players')
+    invalid = False
 
     try:
+        player1 = int(request.args.get('p1'))
         player2 = int(request.args.get('p2'))
     except ValueError:
+        invalid = True
+    except TypeError:
+        invalid = True
+
+    if invalid:
         return dict(team1=None, team2=None, error='Two players required, please select two players')
 
     # In case data is submitted manually check if teams exist
@@ -47,8 +50,6 @@ def get_player_comparison():
         error=''
     )
 
-    return ''
-
 
 def get_team_comparison():
     """
@@ -56,8 +57,6 @@ def get_team_comparison():
     :return:
     """
     invalid = False
-
-    print(request.args)
 
     # No POST request
     if len(request.args) == 0:
