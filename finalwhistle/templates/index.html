@@ -3,17 +3,27 @@
 {% block content %}
 <main role="main">
 
-    <section class="jumbotron banner-1" style="background-image: url({{ url_for('static', filename='images/stadium.jpg') }});">
+    <section class="banner banner-1" style="background-image: url({{ url_for('static', filename='images/stadium.jpg') }});">
         <div class="container">
-            <div class="card box-shadow" style="background: rgba(255,255,255,0.8);">
-                <div class="card-body">
-                    <img height="50" src="{{ last_match['home_crest'] }}" alt="{{ last_match['home_team'] }}" />
-                    <h2 class="font-weight-light">{{last_match['home_team']}} {{ last_match['home_goals'] }} : {{ last_match['away_goals'] }} {{last_match['away_team']}}</h2>
-                    <img height="50" src="{{ last_match['away_crest'] }}" alt="{{ last_match['away_team'] }}" />
-                    <a href="{{ url_for('match_page', id=last_match['match_id'])}}">
-                        View match
-                    </a>
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <div class="card box-shadow" style="background: rgba(255,255,255,0.8);">
+                        <div class="card-body text-center p-4">
+                            <img height="70px" src="{{ last_match['home_crest'] }}" alt="{{ last_match['home_team'] }}" />
+                            <h1 class="heading d-inline mb-0 px-3 align-middle"> {{last_match['home_team']}} </h1>
+                            <h1 class="font-weight-light d-inline mb-0 align-middle"> {{ last_match['home_goals'] }} : {{ last_match['away_goals'] }} </h1>
+                            <h1 class="heading d-inline mb-0 px-3 align-middle"> {{last_match['away_team']}} </h1>
+                            <img height="70px" src="{{ last_match['away_crest'] }}" alt="{{ last_match['away_team'] }}" />
+                            <div>
+                                <a class="btn btn-outline-dark mt-3" href="{{ url_for('match_page', id=last_match['match_id'])}}">
+                                    View match <i class="fas fa-futbol"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -25,41 +35,39 @@
                 <div class="col-md-8">
                     <div class="card mb-4 box-shadow">
                         <div class="card-body">
-                            <p class="card-text">
-                            <h5 class="card-title">Last 3 Matches</h5>
-                                <table class="table">
-                                {% for match in matches %}
-                                    {% if match['indicator'] == 0 %}
-                                    <tr>
-                                    {% else %}
-                                    <tr class="no-border-top">
-                                    {% endif %}
-                                        <td>
-                                            {% if match['indicator'] == 0 %}
-                                                {{ match['kickoff_date'] }}
-                                            {% endif %}
-                                        </td>
-                                        <td class="text-right align-middle"> {{ match['home_team'] }} </td>
-                                        <td class="text-center align-middle">
-                                            <img height="50" src="{{ match['home_crest'] }}" alt="{{ match['home_team'] }}" />
-                                        </td>
-                                        <td class="text-center align-middle">
-                                            {{ match['home_goals'] }} : {{ match['away_goals'] }}
-                                        </td>
-                                        <td class="text-center align-middle">
-                                            <img height="50" src="{{ match['away_crest'] }}" alt="{{ match['home_team'] }}" />
-                                        </td>
-                                        <td class="text-left align-middle">{{ match['away_team'] }}</td>
-                                        <td class="align-middle">
-                                            <a class="btn btn-sm btn-outline-primary" href="{{ url_for('match_page', id=match['match_id'])}}">
-                                                <i class="fas fa-arrow-right"></i> Details
-                                            </a>
-                                        </td>
-                                    </tr>
-                                {% endfor %}
-                                </table>
-                            </p>
+                            <h5 class="card-title mb-0">Last matches</h5>
                         </div>
+                        <table class="table mb-0">
+                        {% for match in matches %}
+                            {% if match['indicator'] == 0 %}
+                            <tr>
+                            {% else %}
+                            <tr class="no-border-top">
+                            {% endif %}
+                                <td>
+                                    {% if match['indicator'] == 0 %}
+                                        {{ match['kickoff_date'] }}
+                                    {% endif %}
+                                </td>
+                                <td class="text-right align-middle"> {{ match['home_team'] }} </td>
+                                <td class="text-center align-middle">
+                                    <img height="50" src="{{ match['home_crest'] }}" alt="{{ match['home_team'] }}" />
+                                </td>
+                                <td class="text-center align-middle">
+                                    <h3 class="font-weight-light mb-0">{{ match['home_goals'] }} : {{ match['away_goals'] }}</h3>
+                                </td>
+                                <td class="text-center align-middle">
+                                    <img height="50" src="{{ match['away_crest'] }}" alt="{{ match['home_team'] }}" />
+                                </td>
+                                <td class="text-left align-middle">{{ match['away_team'] }}</td>
+                                <td class="align-middle">
+                                    <a class="btn btn-sm btn-outline-primary" href="{{ url_for('match_page', id=match['match_id'])}}">
+                                        <i class="fas fa-arrow-right"></i> Details
+                                    </a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                        </table>
                     </div>
 
                     <div class="card mb-4 box-shadow">
@@ -72,19 +80,6 @@
                                     <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-comment"></i> 3 comments</button>
                                 </div>
                                 <small class="text-muted">9 mins ago</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px450?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
                             </div>
                         </div>
                     </div>

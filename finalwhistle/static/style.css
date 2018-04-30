@@ -23,35 +23,6 @@ body {
     padding-bottom: 0;
 }
 
-:root {
-  --jumbotron-padding-y: 3rem;
-}
-
-.jumbotron {
-  padding-top: var(--jumbotron-padding-y);
-  padding-bottom: var(--jumbotron-padding-y);
-  margin-bottom: 0;
-  background-color: #fff;
-}
-@media (min-width: 768px) {
-  .jumbotron {
-    padding-top: calc(var(--jumbotron-padding-y) * 2);
-    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
-  }
-}
-
-.jumbotron p:last-child {
-  margin-bottom: 0;
-}
-
-.jumbotron-heading {
-  font-weight: 300;
-}
-
-.jumbotron .container {
-  max-width: 40rem;
-}
-
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -82,8 +53,38 @@ table .no-border-top {
 .banner-1 {
     background-repeat: no-repeat;
     background-size: 100% auto;
-    background-position-y: -150px;
+    background-position-y: -310px;
     border-radius: 0;
+}
+
+:root {
+    --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: calc(var(--jumbotron-padding-y) * 2);
+        padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+}
+
+.banner .container {
+    padding: 100px 0;
 }
 
 /* Profile Page */
