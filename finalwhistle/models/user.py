@@ -8,6 +8,7 @@ from finalwhistle import db, bcrypt, app
 from finalwhistle.helpers import new_uuid
 from sqlalchemy.sql import func
 from flask_login import UserMixin
+import datetime
 
 
 def hash_password(password):
