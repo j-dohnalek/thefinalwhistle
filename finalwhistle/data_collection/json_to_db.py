@@ -281,9 +281,14 @@ def parse_new_fixtures():
                     for event in (fixture['details']['goals']):
 
                         player = session.query(Player).filter_by(name=event['scorer']).first()
+
                         own_goal = False
                         if 'true' in event['own_goal']:
                             own_goal = True
+
+                        penalty = False
+                        if 'true' in event['penalty']:
+                            penalty = True
 
                         assist = None
                         try:
@@ -305,11 +310,6 @@ def parse_new_fixtures():
                                 extra_time = 0
                         except KeyError:
                             pass
-
-                        penalty = False
-                        if assist is None:
-                            if own_goal:
-                                penalty = False
 
                         get_or_create(session, Goal,
                                       match=match.match_id,

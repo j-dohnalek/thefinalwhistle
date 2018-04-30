@@ -72,7 +72,15 @@
                         <div class="col-5">
                             {{ goal['scorer'] }}
                         </div>
-                        <div class="col-1">{{ goal['minute'] }}</div>
+                        <div class="col-2">
+                            {{ goal['minute'] }}
+                            {% if goal['own_goal'] %}
+                            (og)
+                            {% endif %}
+                            {% if goal['penalty'] %}
+                            (pen)
+                            {% endif %}
+                        </div>
                     </div>
                     {% endfor %}
 
@@ -88,7 +96,15 @@
                         <div class="col-5">
                             {{ goal['scorer'] }}
                         </div>
-                        <div class="col-1">{{ goal['minute'] }}</div>
+                        <div class="col-2">
+                            {{ goal['minute'] }}
+                            {% if goal['own_goal'] %}
+                            (og)
+                            {% endif %}
+                            {% if goal['penalty'] %}
+                            (pen)
+                            {% endif %}
+                        </div>
                     </div>
                     {% endfor %}
 
