@@ -140,6 +140,29 @@
     gtag('config', 'UA-118132245-1');
 </script>
 
+<!-- EU Cookie Consent -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='cookieconsent/cookieconsent.min.css') }}" />
+<script src="{{ url_for('static', filename='cookieconsent/cookieconsent.min.js') }}"></script>
+<script>
+    window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#353a3f"
+                },
+                "button": {
+                    "background": "transparent",
+                    "text": "#007bff",
+                    "border": "#007bff"
+                }
+            },
+            "content": {
+                "dismiss": "Got it!",
+                "href": "https://finalwhistle.ddns.net/privacy-policy"
+            }
+        })});
+</script>
+
 <!-- Page unique scripts -->
 {% block custom_scripts %}{% endblock %}
 
