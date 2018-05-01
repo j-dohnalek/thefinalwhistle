@@ -6,17 +6,17 @@
 .titleBox {background-color:#fdfdfd; padding:20px; }
 .titleBox label{ color:#444; margin:0;  display:inline-block; }
 .commentBox { padding:10px; border-top:1px dotted #bbb; }
-.commentBox .form-group:first-child, .actionBox .form-group:first-child { width:80%; }
-.commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) { width:18%; }
+.commentBox .form-group:first-child, .actionBox .form-group:first-child { width:100%; }
+.commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) { width:10em; }
 .actionBox .form-group * { width:100%; }
 .taskDescription { margin-top:10px 0; }
-.commentList { padding:0; list-style:none; max-height:200px; overflow:auto; }
+.commentList { padding:0; list-style:none;}
 .commentList li { margin:0; margin-top:10px; }
 .commentList li > div { display:table-cell; }
 .commenterImage { width:30px; margin-right:5px; height:100%; float:left; }
 .commenterImage img { width:100%;  border-radius:50%; }
 .commentText p { margin:0; }
-.sub-text { color:#aaa; font-family:verdana; font-size:11px; }
+.sub-text { color:#aaa; font-size:12px; }
 .actionBox { border-top:1px dotted #bbb; padding:10px; }
 </style>
 {% endblock custom_head %}
@@ -24,6 +24,19 @@
 {% block content %}
 
 <div class="container py-4">
+
+    {% if confirmation['error'] is not none %}
+        <div class="alert alert-danger" role="alert">
+            {{ confirmation['error'] }}
+        </div>
+    {% endif %}
+
+    {% if confirmation['success'] is not none %}
+        <div class="alert alert-success" role="alert">
+            {{ confirmation['success'] }}
+        </div>
+    {% endif %}
+
     <div class="row">
 
         <div class="container">
@@ -133,10 +146,14 @@
 
     <div class="detailBox">
         <div class="titleBox">
-          <h4>Comment Area</h4>
+            <h4>
+                Comment Area
+                <section id="comments">
+            </h4>
+
         </div>
         <div class="commentBox">
-            <div class="container">
+            <div class="container p-2">
                 <h4>The Final Whistle Comment Policy</h4>
                 <p class="taskDescription">
                     We welcome relevant (stay on topic), respectful comments. Comments with links require approval before being published.
@@ -145,48 +162,104 @@
         </div>
         <div class="actionBox">
             <ul class="commentList">
-                <li>
-                    <div class="commenterImage">
-                      <img src="http://placekitten.com/50/50" />
-                    </div>
-                    <div class="commentText">
-                        <p class="">Hello this is a test comment.</p>
-                        <span class="date sub-text">on March 5th, 2018</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="commenterImage">
-                      <img src="http://placekitten.com/45/45" />
-                    </div>
-                    <div class="commentText">
-                        <p class="">Hello this is a test comment and this comment is particularly very long and it goes on and on and on.</p>
-                        <span class="date sub-text">on March 5th, 2018</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="commenterImage">
-                      <img src="http://placekitten.com/40/40" />
-                    </div>
-                    <div class="commentText">
-                        <p class="">Hello this is a test comment.</p>
-                        <span class="date sub-text">on March 5th, 2018</span>
-                    </div>
-                </li>
+                {% if comments|length > 0 %}
+                    {% for parent_comment in comments %}
+                        <li>
+                            <div class="commenterImage">
+                              <img src="{{ url_for('static', filename='images/gravatar.jpg') }}" />
+                            </div>
+                            <div class="commentText">
+                                <p class="">{{ parent_comment['body'] }}</p>
+                                <span class="date sub-text">
+                                    on {{ parent_comment['posted_at'] }} <a href="javascript:replyTo('comment{{parent_comment['id']}}')">Reply</a>
+                                </span>
+                            </div>
+                        </li>
+                        {% if parent_comment['children']|length > 0 %}
+                            {% for child_comment in parent_comment['children'] %}
+                                <li>
+                                    <div class="commenterImage ml-5">
+                                      <img src="{{ url_for('static', filename='images/gravatar.jpg') }}" />
+                                    </div>
+                                    <div class="commentText">
+                                        <p class="">{{ child_comment['body'] }}</p>
+                                        <span class="date sub-text">on {{ parent_comment['posted_at'] }}</span>
+                                    </div>
+                                </li>
+                            {% endfor %}
+                            <li>
+                                {% if current_user.is_authenticated %}
+                                <form id="comment{{parent_comment['id']}}" class="form-inline ml-5" role="form" method="post" style="display:none;">
+                                    <div class="form-group">
+                                        <label style="justify-content: normal;" for="textarea">Message</label>
+                                        <textarea class="form-control" id="textarea" name="message" rows="2"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button class="btn btn-primary mb-2 mt-2">Post Message</button>
+                                    </div>
+                                    <input type="hidden" name="parent" value="{{parent_comment['id']}}">
+                                    <input type="hidden" name="match" value="{{ match_id }}">
+                                </form>
+                                {% else %}
+                                <div id="comment{{parent_comment['id']}}" class="alert alert-warning ml-5" role="alert" style="display:none;">
+                                  Only registered users can post, please log in <a href="{{ url_for('login')}}">here</a>
+                                </div>
+                                {% endif %}
+                            </li>
+                        {% else %}
+                            <li>
+                                {% if current_user.is_authenticated %}
+                                <form id="comment{{parent_comment['id']}}" class="form-inline" role="form" method="post" style="display:none;">
+                                    <div class="form-group">
+                                        <label style="justify-content: normal;" for="textarea">Message</label>
+                                        <textarea class="form-control" id="textarea" name="message" rows="2"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button class="btn btn-primary mb-2 mt-2">Post Message</button>
+                                    </div>
+                                    <input type="hidden" name="parent" value="{{parent_comment['id']}}">
+                                    <input type="hidden" name="match" value="{{ match_id }}">
+                                </form>
+                                {% else %}
+                                <div id="comment{{parent_comment['id']}}" class="alert alert-warning" role="alert" style="display:none;">
+                                  Only registered users can post, please log in <a href="{{ url_for('login')}}">here</a>
+                                </div>
+                                {% endif %}
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                {% else %}
+                <li><h5 class="ml-5"> No comments yet ...</h5></li>
+                {% endif %}
             </ul>
+        </div>
+
+        <div class="actionBox">
+            {% if current_user.is_authenticated %}
             <form class="form-inline" role="form" method="post">
                 <div class="form-group">
-                    <input class="form-control" type="text" placeholder="Your comments" />
+                    <label style="justify-content: normal;" for="textarea">Message</label>
+                    <textarea class="form-control" id="textarea" name="message" rows="2"></textarea>
                 </div>
                 <div class="form-group">
-                    <button class="btn btn-default">Add</button>
+                    <button class="btn btn-primary mb-2 mt-2">Post Message</button>
                 </div>
+                <input type="hidden" name="match" value="{{ match_id }}">
             </form>
+            {% else %}
+            <div class="alert alert-warning" role="alert">
+              Only registered users can post, please log in <a href="{{ url_for('login')}}">here</a>
+            </div>
+            {% endif %}
         </div>
     </div>
 </div>
 
 
 {% block custom_scripts %}
+<script>
+function replyTo(id){ $("#"+id).css("display","block"); }
+</script>
 {% endblock custom_scripts %}
 
 {% endblock content %}

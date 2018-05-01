@@ -8,6 +8,8 @@ from finalwhistle.views.data_views_helper import list_all_matches, get_match_inf
     get_player_information, get_all_teams, get_team_information, get_league_table, list_referees
 
 from finalwhistle.views.statistics_helper import top_tens_statistic, get_team_comparison, get_player_comparison
+from finalwhistle.views.comment_helper import get_match_comments, handle_match_comment_reply
+
 
 #####################
 # data view routing #
@@ -17,14 +19,21 @@ def matches_overview():
     return render_template('matches.html', data=list_all_matches())
 
 
-@app.route('/matches/<id>', methods=['GET'])
+@app.route('/matches/<id>', methods=['GET', 'POST'])
 def match_page(id):
     match_information = get_match_information(id)
 
     if match_information is None:
         return redirect(url_for('error_404'))
 
-    return render_template('match.html', match=match_information, statistics=STATS)
+    confirmation = handle_match_comment_reply()
+    comments = get_match_comments(id)
+    return render_template('match.html',
+                           match_id=id,
+                           match=match_information,
+                           statistics=STATS,
+                           comments=comments,
+                           confirmation=confirmation)
 
 
 @app.route('/players', methods=['GET'])

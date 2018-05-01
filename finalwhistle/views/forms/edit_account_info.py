@@ -4,7 +4,7 @@ from wtforms import StringField, SelectField, SubmitField, PasswordField
 from wtforms.validators import InputRequired, EqualTo, ValidationError
 
 from finalwhistle.views.data_views_helper import get_all_teams
-
+import sqlalchemy
 
 def generate_choices_list():
     """
@@ -12,11 +12,16 @@ def generate_choices_list():
     :return: List of tuples (team_id, team_name) for all teams
     """
     team_list = []
-    for team in get_all_teams():
-        try:
-            team_list.append((team.get('team_id'), team.get('name')))
-        except AttributeError as e:
-            print(e)
+
+    try:
+        for team in get_all_teams():
+            try:
+                team_list.append((team.get('team_id'), team.get('name')))
+            except AttributeError as e:
+                print(e)
+    except sqlalchemy.exc.OperationalError:
+        return []
+
     return team_list
 
 

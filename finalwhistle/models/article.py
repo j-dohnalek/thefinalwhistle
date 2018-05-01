@@ -5,6 +5,8 @@ from sqlalchemy import func
 from sqlalchemy.exc import SQLAlchemyError
 from finalwhistle import db
 
+from sqlalchemy.ext.declarative import declared_attr
+
 
 def create_new_article(author_id, title, body):
     try:
@@ -25,9 +27,10 @@ def get_latest_news(count=5):
 
 
 class Article(db.Model):
+
     __tablename__ = 'articles'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    author_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    #author_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
     author = db.relationship('User')
     # TODO: map author_name attribute
     title = db.Column(db.String(255), nullable=False)
@@ -35,6 +38,11 @@ class Article(db.Model):
     submitted_at = db.Column(db.DateTime, nullable=False, server_default=func.now())
     # last_edited = db.Column(db.DateTime, nullable=False)
     # status = db.Column(db.String, nullable=False)
+
+    @declared_attr
+    def author_id(self):
+        return db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+
 
     def __init__(self, author_id, title, body):
         self.author_id = author_id
