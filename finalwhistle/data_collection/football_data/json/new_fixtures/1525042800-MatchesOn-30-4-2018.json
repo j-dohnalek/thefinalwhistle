@@ -1,0 +1,72 @@
+[
+    {
+        "date": "Monday 30 April 2018",
+        "fixtures": [
+            {
+                "home_team": "Spurs",
+                "away_team": "Watford",
+                "score": "2-0",
+                "url": "https://www.premierleague.com/match/22700",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "16",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Dele Alli",
+                            "assist": "Christian Eriksen"
+                        },
+                        {
+                            "minute": "48",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Harry Kane",
+                            "assist": "Kieran Trippier"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "64",
+                            "card": "yellow",
+                            "player": "Victor Wanyama"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "63",
+                            "in": "Victor Wanyama",
+                            "out": "Mousa Dembélé"
+                        },
+                        {
+                            "minute": "64",
+                            "in": "Gerard Deulofeu",
+                            "out": "Kiko Femenía"
+                        },
+                        {
+                            "minute": "64",
+                            "in": "Troy Deeney",
+                            "out": "Andre Gray"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Moussa Sissoko",
+                            "out": "Son Heung-Min"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Erik Lamela",
+                            "out": "Dele Alli"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "André Carrillo",
+                            "out": "Will Hughes"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "20:00"
+                }
+            }
+        ]
+    }
+]
