@@ -17,18 +17,31 @@ import urllib.error
 
 #################################
 
-ROOT = os.path.dirname(os.path.realpath(__file__)) + '/'
+ROOT = os.path.dirname(os.path.realpath(__file__)) + '/football_data/'
 
-REFEREE = ROOT + 'football_data/json/list_of_referees.json'
-STADIUM = ROOT + 'football_data/json/list_of_stadiums.json'
-CLUB_STAFF = ROOT + 'football_data/json/list_of_managers.json'
-NEW_FIXTURES = ROOT + 'football_data/json/new_fixtures/*.json'
-TRANSFERS = ROOT + 'football_data/json/transfers/*.json'
-PLAYERS = ROOT + 'football_data/json/players/*.json'
-STATISTICS = ROOT + 'football_data/tmp/E0.csv'
+# list of referees
+REFEREE = ROOT + 'json/list_of_referees.json'
+
+# list of stadiums
+STADIUM = ROOT + 'json/list_of_stadiums.json'
+
+# list of club staff
+CLUB_STAFF = ROOT + 'json/list_of_managers.json'
+
+# list of fixtures
+NEW_FIXTURES = ROOT + 'json/new_fixtures/*.json'
+
+# list of all transfers
+TRANSFERS = ROOT + 'json/transfers/*.json'
+
+# lists of all players
+PLAYERS = ROOT + 'json/players/*.json'
+
+# Statistics for all matches
+STATISTICS = ROOT + 'tmp/E0.csv'
 STATISTICS_URL = 'http://www.football-data.co.uk/mmz4281/1718/E0.csv'
-STATISTICS_BACKUP = ROOT + 'football_data/csv/E0.csv'
-SQL_LITE = ROOT + 'test.db'
+STATISTICS_BACKUP = ROOT + 'csv/E0.csv'
+
 session = db.session
 
 ################################

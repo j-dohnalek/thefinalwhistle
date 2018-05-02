@@ -3,11 +3,9 @@ import json
 from pathlib import Path
 import os, time
 
-
-CACHE_PATH = os.path.dirname(os.path.realpath(__file__)) + '/../cache/tmp/'
-
+# https://stackoverflow.com/questions/9856683/using-pythons-os-path-how-do-i-go-up-one-directory
+CACHE_PATH = "{}/".format(os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'cache', 'tmp')))
 API_TOKEN = 'ac6a29cb48594f87a2c770e05b4d6b35'
-#CACHE_PATH = 'finalwhistle/cache/tmp/'
 API_URL = 'api.football-data.org'
 DEBUG = False
 
@@ -28,9 +26,7 @@ def fetch_api_data(url, minutes, override=False):
     :param override:
     :return: JSON Response
     """
-
     use_by = time.time() - minutes * 60
-
     filepath = url_to_filename(url)+'.json'
     my_file = Path(CACHE_PATH+filepath)
 
@@ -48,13 +44,10 @@ def fetch_api_data(url, minutes, override=False):
         write_to_json(CACHE_PATH, filepath, response)
 
     else:
-
         if DEBUG:
             print("Fetching cached ...")
-
         with open(CACHE_PATH+filepath) as json_data:
             response = json.load(json_data)
-
     return response
 
 
