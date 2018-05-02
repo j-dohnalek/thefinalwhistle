@@ -428,13 +428,26 @@ def get_match_information(id):
         goals = Goal.query\
             .filter(Goal.match == id)\
             .join(Player, Goal.player == Player.player_id)\
-            .add_columns(Goal.minute, Goal.extra_time, Player.name.label('scorer'), Player.current_team)\
+            .add_columns(Goal.minute,
+                         Goal.extra_time,
+                         Player.name.label('scorer'),
+                         Player.current_team,
+                         Goal.own_goal,
+                         Goal.penalty)\
             .order_by(asc(Goal.minute)).all()
 
         match_information['home_scoring_players'] = []
         match_information['away_scoring_players'] = []
         for goal in goals:
-            goal_info = {'minute': goal.minute, 'extra_time': f(goal.extra_time), 'scorer': goal.scorer}
+
+            goal_info = {
+                'minute': goal.minute,
+                'extra_time': f(goal.extra_time),
+                'scorer': goal.scorer,
+                'own_goal': goal.own_goal,
+                'penalty': goal.penalty
+            }
+
             if goal.current_team == match.home_team:
                 match_information['home_scoring_players'].append(goal_info)
             else:

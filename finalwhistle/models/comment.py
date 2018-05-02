@@ -8,15 +8,21 @@ from finalwhistle import db
 
 
 class Comment(object):
-    __abstract__ = True
-    __tablename__ = 'comments'
+    #__abstract__ = True
+    #__tablename__ = 'comments'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     posted_at = db.Column(db.DateTime, server_default=func.now())
     edited_at = db.Column(db.DateTime, server_onupdate=func.now())
 
+    body = db.Column(db.Text, nullable=True)
+
     @declared_attr
     def posted_by(self):
         return db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+
+    @declared_attr
+    def parent_id(self):
+        return db.Column(db.Integer, db.ForeignKey('match_comments.id'), nullable=True, server_default='0')
 
 
 class ArticleComment(db.Model, Comment):

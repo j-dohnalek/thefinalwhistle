@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
-import json
 from datetime import datetime
+import json
+import os
 
 # MY LIBS ######################################################################
 
@@ -12,9 +13,10 @@ from finalwhistle.data_collection.premierleague.helper import FireMyFox
 
 
 URL = "https://www.premierleague.com/results?team=FIRST&co=1&se=79&cl=-1"
-JSON_PATH = 'football_data/json/new_fixtures/{}.json'
-FIXTURE_CACHE = 'football_data/json/fixture.cache.json'
 
+ROOT = "{}/".format(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'football_data', 'json')))
+JSON_PATH = ROOT + 'new_fixtures/{}.json'
+FIXTURE_CACHE = ROOT + 'fixture.cache.json'
 
 # FUNCTIONS ####################################################################
 

@@ -17,18 +17,31 @@ import urllib.error
 
 #################################
 
-ROOT = os.path.dirname(os.path.realpath(__file__)) + '/'
+ROOT = os.path.dirname(os.path.realpath(__file__)) + '/football_data/'
 
-REFEREE = ROOT + 'football_data/json/list_of_referees.json'
-STADIUM = ROOT + 'football_data/json/list_of_stadiums.json'
-CLUB_STAFF = ROOT + 'football_data/json/list_of_managers.json'
-NEW_FIXTURES = ROOT + 'football_data/json/new_fixtures/*.json'
-TRANSFERS = ROOT + 'football_data/json/transfers/*.json'
-PLAYERS = ROOT + 'football_data/json/players/*.json'
-STATISTICS = ROOT + 'football_data/tmp/E0.csv'
+# list of referees
+REFEREE = ROOT + 'json/list_of_referees.json'
+
+# list of stadiums
+STADIUM = ROOT + 'json/list_of_stadiums.json'
+
+# list of club staff
+CLUB_STAFF = ROOT + 'json/list_of_managers.json'
+
+# list of fixtures
+NEW_FIXTURES = ROOT + 'json/new_fixtures/*.json'
+
+# list of all transfers
+TRANSFERS = ROOT + 'json/transfers/*.json'
+
+# lists of all players
+PLAYERS = ROOT + 'json/players/*.json'
+
+# Statistics for all matches
+STATISTICS = ROOT + 'tmp/E0.csv'
 STATISTICS_URL = 'http://www.football-data.co.uk/mmz4281/1718/E0.csv'
-STATISTICS_BACKUP = ROOT + 'football_data/csv/E0.csv'
-SQL_LITE = ROOT + 'test.db'
+STATISTICS_BACKUP = ROOT + 'csv/E0.csv'
+
 session = db.session
 
 ################################
@@ -281,9 +294,14 @@ def parse_new_fixtures():
                     for event in (fixture['details']['goals']):
 
                         player = session.query(Player).filter_by(name=event['scorer']).first()
+
                         own_goal = False
                         if 'true' in event['own_goal']:
                             own_goal = True
+
+                        penalty = False
+                        if 'true' in event['penalty']:
+                            penalty = True
 
                         assist = None
                         try:
@@ -305,11 +323,6 @@ def parse_new_fixtures():
                                 extra_time = 0
                         except KeyError:
                             pass
-
-                        penalty = False
-                        if assist is None:
-                            if own_goal:
-                                penalty = False
 
                         get_or_create(session, Goal,
                                       match=match.match_id,
