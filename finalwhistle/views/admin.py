@@ -12,6 +12,11 @@ from flask import request
 def admin_overview():
     return render_template('admin/index.html')
 
+@app.route('/admin/users', methods=['GET'])
+@login_required
+def users_overview():
+    return render_template('admin/users.html')
+
 @app.route('/admin/articles/new', methods=['GET', 'POST'])
 @login_required
 def new_article():
