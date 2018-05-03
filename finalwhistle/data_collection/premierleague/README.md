@@ -7,5 +7,5 @@ https://www.digitalocean.com/community/tutorials/how-to-scrape-web-pages-with-be
 http://www.techbeamers.com/selenium-webdriver-python-tutorial/
 
 ## Files
-### get_fixtures.py
+### fixtures.py
 Fetch all the required data from premierleague.com for premier league matches. The data will include goals, cards, substitutions, etc.
