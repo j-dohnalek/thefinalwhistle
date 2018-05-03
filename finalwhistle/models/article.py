@@ -35,6 +35,7 @@ class Article(db.Model):
     # TODO: map author_name attribute
     title = db.Column(db.String(255), nullable=False)
     body = db.Column(db.String, nullable=False)
+    featured_image = db.Column(db.String, nullable=False)
     submitted_at = db.Column(db.DateTime, nullable=False, server_default=func.now())
     # last_edited = db.Column(db.DateTime, nullable=False)
     # status = db.Column(db.String, nullable=False)

@@ -18,8 +18,6 @@
 .actionBox { padding:0.75em; }
 </style>
 
-<script src="{{ url_for('static', filename='holder.js') }}"></script>
-
 {% endblock custom_head %}
 
 {% block content %}
@@ -42,7 +40,7 @@
         <div class="row">
             <div class="col">
                 <div class="card mb-4 box-shadow">
-                    <img id="featured" class="card-img-top" src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Featured Image" alt="Card image cap">
+                    <img id="featured" class="card-img-top" src="{{ article.featured_image }}" alt="Card image cap">
                     <div class="card-body">
                         <h2 class="card-title">{{ article.title }}</h2>
                         <p class="card-text">

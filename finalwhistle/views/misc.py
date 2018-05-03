@@ -1,6 +1,7 @@
 from flask import render_template
 
-from finalwhistle import app
+from finalwhistle.models.article import Article
+from finalwhistle import app, db
 from finalwhistle.views.data_views import get_league_table, list_all_matches
 from finalwhistle.views.misc_helper import validate_contact_us
 
@@ -11,7 +12,9 @@ from finalwhistle.views.misc_helper import validate_contact_us
 
 @app.route('/', methods=['GET'])
 def home():
+    from finalwhistle.models.article import get_latest_news
     return render_template('index.html',
+                           news=get_latest_news(2),
                            table=get_league_table(),
                            matches=list_all_matches(3),
                            last_match=list_all_matches(1)[0])
