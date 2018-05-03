@@ -90,7 +90,7 @@
                                 <tbody>
                                     {% for position in range(1, table|length + 1) %}
                                     <tr>
-                                        <td scope="row">{{ position }}.</td>
+                                        <td>{{ position }}.</td>
                                         <td>
                                             <a href="{{ url_for('team_page', id=table[position|string]['club_id']) }}">
                                                 {{ table[position|string]['club_short'] }}
