@@ -7,6 +7,9 @@ from finalwhistle import db
 
 from sqlalchemy.ext.declarative import declared_attr
 
+from finalwhistle.models.user import User
+from finalwhistle.models.comment import ArticleComment
+
 
 def create_new_article(author_id, title, body):
     try:
@@ -33,9 +36,18 @@ def update_existing_article(id, title, body):
     return None
 
 
-
 def get_latest_news(count=5):
-    news = Article.query.order_by(Article.submitted_at.desc()).limit(count).all()
+    news = Article.query \
+        .join(User, User.id == Article.author_id) \
+        .outerjoin(ArticleComment, ArticleComment.article_id == Article.id) \
+        .add_columns(User.real_name,
+                     Article.id,
+                     Article.body,
+                     Article.submitted_at,
+                     Article.title,
+                     Article.featured_image,
+                     func.count(ArticleComment.id).label('comments')) \
+        .group_by(Article.id).order_by(Article.submitted_at.desc()).limit(count).all()
     return news
 
 

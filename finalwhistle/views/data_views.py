@@ -1,9 +1,13 @@
 from finalwhistle.models.article import Article
 from finalwhistle.models.comment import MatchComment, ArticleComment
 
+from finalwhistle.models.user import User
+
 from flask import render_template
 from finalwhistle import app, db
 from flask import redirect, url_for
+
+from sqlalchemy import func
 
 from finalwhistle.views.data_views_helper import list_all_matches, get_match_information, STATS, get_all_players, \
     get_player_information, get_all_teams, get_team_information, get_league_table, list_referees
@@ -86,8 +90,21 @@ def news_page(id):
 
     confirmation = handle_comment_post(ArticleComment)
     comments = get_comments(ArticleComment, id)
+
+    article = Article.query.filter(Article.id == id) \
+        .join(User, User.id == Article.author_id) \
+        .outerjoin(ArticleComment, ArticleComment.article_id == Article.id) \
+        .add_columns(User.real_name,
+                     Article.id,
+                     Article.body,
+                     Article.submitted_at,
+                     Article.title,
+                     Article.featured_image,
+                     func.count(ArticleComment.id).label('comments')) \
+        .group_by(Article.id).first()
+
     return render_template('news_post.html',
-                           article=db.session.query(Article).filter_by(id=id).first(),
+                           article=article,
                            article_id=id,
                            confirmation=confirmation,
                            comments=comments)
