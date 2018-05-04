@@ -6,6 +6,7 @@ from finalwhistle import app
 from finalwhistle.models.article import create_new_article
 
 from finalwhistle.models.user import User
+from finalwhistle.models.article import Article
 
 from flask import request
 
@@ -39,7 +40,11 @@ def new_article():
 @app.route('/admin/articles', methods=['GET'])
 @login_required
 def articles_overview():
-    return render_template('admin/articles.html', token=get_access_token())
+
+    articles = Article.query.join(User, User.id == Article.author_id)\
+        .add_columns(User.real_name, Article.id, Article.title, Article.featured_image).all()
+
+    return render_template('admin/articles.html', token=get_access_token(), articles=articles)
 
 @app.route('/admin/stats', methods=['GET'])
 @login_required
