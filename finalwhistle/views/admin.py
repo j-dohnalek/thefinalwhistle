@@ -10,7 +10,12 @@ from flask import request
 @app.route('/admin', methods=['GET'])
 @login_required
 def admin_overview():
-    return render_template('admin/index.html')
+    return render_template('admin/index.html', token=get_access_token())
+
+@app.route('/admin/users', methods=['GET'])
+@login_required
+def users_overview():
+    return render_template('admin/users.html')
 
 @app.route('/admin/articles/new', methods=['GET', 'POST'])
 @login_required
