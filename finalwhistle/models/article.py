@@ -21,6 +21,19 @@ def create_new_article(author_id, title, body):
     return None
 
 
+def update_existing_article(id, title, body):
+    try:
+        article = Article.query.filter_by(id=id).first()
+        article.title = title
+        article.body = body
+        db.session.commit()
+        return article
+    except SQLAlchemyError:
+        print('something went wrong when making a new account!')
+    return None
+
+
+
 def get_latest_news(count=5):
     news = Article.query.order_by(Article.submitted_at.desc()).limit(count).all()
     return news

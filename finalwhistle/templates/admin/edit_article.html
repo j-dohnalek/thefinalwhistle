@@ -23,7 +23,7 @@
             <form method="post" action="{{ url_for('edit_article', id=article.id) }}">
                 <input class="form-control form-control-lg mb-3" type="text" id="title" value="{{ article.title }}" name="title">
                 <textarea id="text-area" name="body">{{ article.body }}</textarea>
-                <button class="btn btn-primary mt-3" type="submit">Publish</button>
+                <button class="btn btn-primary mt-3" type="submit">Update</button>
             </form>
         </main>
     </div>

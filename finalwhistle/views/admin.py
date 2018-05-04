@@ -3,7 +3,7 @@ from flask_login import login_required, login_user, logout_user, current_user
 from finalwhistle.data_collection.analytics.access_token import get_access_token
 
 from finalwhistle import app
-from finalwhistle.models.article import create_new_article
+from finalwhistle.models.article import create_new_article, update_existing_article
 
 from finalwhistle.models.user import User
 from finalwhistle.models.article import Article
@@ -44,7 +44,22 @@ def new_article():
 @app.route('/admin/articles/edit/<id>', methods=['GET', 'POST'])
 @login_required
 def edit_article(id):
+
     article = Article.query.filter(Article.id == id).first()
+
+    if request.method == 'POST':
+        form = request.form
+        title = form.get('title')
+        body = form.get('body')
+        if title is not None and body is not None:
+            article = update_existing_article(id, title, body)
+            if article is not None:
+                flash('Article Updated!')
+                return redirect(url_for('edit_article', id=id))
+            else:
+                flash('Article could not be posted - please inform an administrator')
+                return redirect(url_for('new_article'))
+
     return render_template('admin/edit_article.html', article=article)
 
 
