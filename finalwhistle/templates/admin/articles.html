@@ -28,7 +28,9 @@
                             <button type="button" class="btn btn-sm btn-outline-secondary mr-2"><i class="fas fa-clock"></i> Posted 9 mins ago</button>
                         </div>
                         <div>
-                            <a href="#" class="btn btn-sm btn-outline-primary mr-2"><i class="fas fa-edit"></i> Edit article</a>
+                            <a href="{{ url_for('edit_article', id=article.id) }}" class="btn btn-sm btn-outline-primary mr-2">
+                                <i class="fas fa-edit"></i> Edit article
+                            </a>
                             <a href="#" class="btn btn-sm btn-outline-danger"><i class="fas fa-times"></i> Delete article</a>
                         </div>
                     </div>

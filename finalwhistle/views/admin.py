@@ -10,15 +10,18 @@ from finalwhistle.models.article import Article
 
 from flask import request
 
+
 @app.route('/admin', methods=['GET'])
 @login_required
 def admin_overview():
     return render_template('admin/index.html', token=get_access_token())
 
+
 @app.route('/admin/users', methods=['GET'])
 @login_required
 def users_overview():
     return render_template('admin/users.html', users=User.query.all())
+
 
 @app.route('/admin/articles/new', methods=['GET', 'POST'])
 @login_required
@@ -37,6 +40,14 @@ def new_article():
                 return redirect(url_for('new_article'))
     return render_template('admin/new_article.html')
 
+
+@app.route('/admin/articles/edit/<id>', methods=['GET', 'POST'])
+@login_required
+def edit_article(id):
+    article = Article.query.filter(Article.id == id).first()
+    return render_template('admin/edit_article.html', article=article)
+
+
 @app.route('/admin/articles', methods=['GET'])
 @login_required
 def articles_overview():
@@ -45,6 +56,7 @@ def articles_overview():
         .add_columns(User.real_name, Article.id, Article.title, Article.featured_image).all()
 
     return render_template('admin/articles.html', token=get_access_token(), articles=articles)
+
 
 @app.route('/admin/stats', methods=['GET'])
 @login_required
