@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-<main role="main">
+<main>
 
     <section class="banner banner-1" style="background-image: url({{ url_for('static', filename='images/stadium.jpg') }});">
         <div class="container">
@@ -19,11 +19,9 @@
                                     View match <i class="fas fa-futbol"></i>
                                 </a>
                             </div>
-
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -70,19 +68,10 @@
                         </table>
                     </div>
 
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px450?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">This is a widoyder card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div>
-                                    <button type="button" class="btn btn-sm btn-outline-primary"><i class="fas fa-plus"></i> Read more...</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-comment"></i> 3 comments</button>
-                                </div>
-                                <small class="text-muted">9 mins ago</small>
-                            </div>
-                        </div>
-                    </div>
+                    {% from 'macros.jinja' import render_article_overview %}
+                    {% for article in news %}
+                        {{ render_article_overview(article) }}
+                    {% endfor %}
 
                 </div>
 
@@ -92,16 +81,16 @@
                             <h5 class="card-title">League Table</h5>
                             <table class="table table-sm table-hover mb-0">
                                 <thead>
-                                    <td scope="col"></td>
-                                    <td scope="col">Team</td>
-                                    <td scope="col" class="text-right">P</td>
-                                    <td scope="col" class="text-right">GD</td>
-                                    <td scope="col" class="text-right">Pts</td>
+                                    <th scope="col"></th>
+                                    <th scope="col">Team</th>
+                                    <th scope="col" class="text-right">P</th>
+                                    <th scope="col" class="text-right">GD</th>
+                                    <th scope="col" class="text-right">Pts</th>
                                 </thead>
                                 <tbody>
                                     {% for position in range(1, table|length + 1) %}
                                     <tr>
-                                        <td scope="row">{{ position }}.</td>
+                                        <td>{{ position }}.</td>
                                         <td>
                                             <a href="{{ url_for('team_page', id=table[position|string]['club_id']) }}">
                                                 {{ table[position|string]['club_short'] }}

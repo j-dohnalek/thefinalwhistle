@@ -2,22 +2,20 @@
 
 {% block custom_head %}
 <style>
-.detailBox {width:100%; border:1px solid #bbb;}
-.titleBox {background-color:#fdfdfd; padding:20px; }
-.titleBox label{ color:#444; margin:0;  display:inline-block; }
-.commentBox { padding:10px; border-top:1px dotted #bbb; }
-.commentBox .form-group:first-child, .actionBox .form-group:first-child { width:100%; }
-.commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) { width:10em; }
+.detailBox {width:100%;}
+.commentBox {border-bottom:3px #ccc solid; margin:1em;}
+.commentBox .form-group:first-child, .actionBox .form-group:first-child {width:100%;}
+.commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) {width:10em;}
 .actionBox .form-group * { width:100%; }
-.taskDescription { margin-top:10px 0; }
+.taskDescription { margin-top:0.5em 0; }
 .commentList { padding:0; list-style:none;}
-.commentList li { margin:0; margin-top:10px; }
+.commentList li { margin:0; margin-top:0.5em; }
 .commentList li > div { display:table-cell; }
-.commenterImage { width:30px; margin-right:5px; height:100%; float:left; }
-.commenterImage img { width:100%;  border-radius:50%; }
+.commenterImage { width:40px; margin-right:5px; height:100%; float:left; }
+.commenterImage img { width:100%;}
 .commentText p { margin:0; }
-.sub-text { color:#aaa; font-size:12px; }
-.actionBox { border-top:1px dotted #bbb; padding:10px; }
+.sub-text { color:#aaa; font-size:0.80em; }
+.actionBox { padding:0.75em; }
 </style>
 {% endblock custom_head %}
 
@@ -144,20 +142,15 @@
         </div>
     </div>
 
-    <div class="detailBox">
-        <div class="titleBox">
-            <h4>
-                Comment Area
-                <section id="comments">
-            </h4>
-
-        </div>
+    <div class="card">
         <div class="commentBox">
             <div class="container p-2">
-                <h4>The Final Whistle Comment Policy</h4>
-                <p class="taskDescription">
-                    We welcome relevant (stay on topic), respectful comments. Comments with links require approval before being published.
-                </p>
+                <div class="alert alert-secondary" role="alert">
+                    <h4>The Final Whistle Comment Policy</h4>
+                    <p class="taskDescription">
+                        We welcome relevant (stay on topic), respectful comments.
+                    </p>
+                </div>
             </div>
         </div>
         <div class="actionBox">
@@ -198,7 +191,7 @@
                                         <button class="btn btn-primary mb-2 mt-2">Post Message</button>
                                     </div>
                                     <input type="hidden" name="parent" value="{{parent_comment['id']}}">
-                                    <input type="hidden" name="match" value="{{ match_id }}">
+                                    <input type="hidden" name="page_id" value="{{ match_id }}">
                                 </form>
                                 {% else %}
                                 <div id="comment{{parent_comment['id']}}" class="alert alert-warning ml-5" role="alert" style="display:none;">
@@ -218,7 +211,7 @@
                                         <button class="btn btn-primary mb-2 mt-2">Post Message</button>
                                     </div>
                                     <input type="hidden" name="parent" value="{{parent_comment['id']}}">
-                                    <input type="hidden" name="match" value="{{ match_id }}">
+                                    <input type="hidden" name="page_id" value="{{ match_id }}">
                                 </form>
                                 {% else %}
                                 <div id="comment{{parent_comment['id']}}" class="alert alert-warning" role="alert" style="display:none;">
@@ -244,7 +237,7 @@
                 <div class="form-group">
                     <button class="btn btn-primary mb-2 mt-2">Post Message</button>
                 </div>
-                <input type="hidden" name="match" value="{{ match_id }}">
+                <input type="hidden" name="page_id" value="{{ match_id }}">
             </form>
             {% else %}
             <div class="alert alert-warning" role="alert">

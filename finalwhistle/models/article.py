@@ -7,6 +7,9 @@ from finalwhistle import db
 
 from sqlalchemy.ext.declarative import declared_attr
 
+from finalwhistle.models.user import User
+from finalwhistle.models.comment import ArticleComment
+
 
 def create_new_article(author_id, title, body):
     try:
@@ -21,8 +24,30 @@ def create_new_article(author_id, title, body):
     return None
 
 
+def update_existing_article(id, title, body):
+    try:
+        article = Article.query.filter_by(id=id).first()
+        article.title = title
+        article.body = body
+        db.session.commit()
+        return article
+    except SQLAlchemyError:
+        print('something went wrong when making a new account!')
+    return None
+
+
 def get_latest_news(count=5):
-    news = Article.query.order_by(Article.submitted_at.desc()).limit(count).all()
+    news = Article.query \
+        .join(User, User.id == Article.author_id) \
+        .outerjoin(ArticleComment, ArticleComment.article_id == Article.id) \
+        .add_columns(User.real_name,
+                     Article.id,
+                     Article.body,
+                     Article.submitted_at,
+                     Article.title,
+                     Article.featured_image,
+                     func.count(ArticleComment.id).label('comments')) \
+        .group_by(Article.id).order_by(Article.submitted_at.desc()).limit(count).all()
     return news
 
 
@@ -35,6 +60,7 @@ class Article(db.Model):
     # TODO: map author_name attribute
     title = db.Column(db.String(255), nullable=False)
     body = db.Column(db.String, nullable=False)
+    featured_image = db.Column(db.String, nullable=False)
     submitted_at = db.Column(db.DateTime, nullable=False, server_default=func.now())
     # last_edited = db.Column(db.DateTime, nullable=False)
     # status = db.Column(db.String, nullable=False)

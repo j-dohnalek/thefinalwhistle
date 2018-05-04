@@ -1,14 +1,19 @@
-from flask import render_template
+from finalwhistle.models.article import Article
+from finalwhistle.models.comment import MatchComment, ArticleComment
 
+from finalwhistle.models.user import User
+
+from flask import render_template
 from finalwhistle import app, db
 from flask import redirect, url_for
 
+from sqlalchemy import func
 
 from finalwhistle.views.data_views_helper import list_all_matches, get_match_information, STATS, get_all_players, \
     get_player_information, get_all_teams, get_team_information, get_league_table, list_referees
 
 from finalwhistle.views.statistics_helper import top_tens_statistic, get_team_comparison, get_player_comparison
-from finalwhistle.views.comment_helper import get_match_comments, handle_match_comment_reply
+from finalwhistle.views.comment_helper import get_comments, handle_comment_post
 
 
 #####################
@@ -26,8 +31,8 @@ def match_page(id):
     if match_information is None:
         return redirect(url_for('error_404'))
 
-    confirmation = handle_match_comment_reply()
-    comments = get_match_comments(id)
+    confirmation = handle_comment_post(MatchComment)
+    comments = get_comments(MatchComment, id)
     return render_template('match.html',
                            match_id=id,
                            match=match_information,
@@ -77,10 +82,32 @@ def news_overview():
     return render_template('news.html', news=get_latest_news())
 
 
-@app.route('/news/<id>', methods=['GET'])
+@app.route('/news/<id>', methods=['GET', 'POST'])
 def news_page(id):
-    from finalwhistle.models.article import Article
-    return render_template('news_post.html', article=db.session.query(Article).filter_by(id=id).first())
+
+    if Article.query.filter(Article.id == id).first() is None:
+        return redirect(url_for('error_404'))
+
+    confirmation = handle_comment_post(ArticleComment)
+    comments = get_comments(ArticleComment, id)
+
+    article = Article.query.filter(Article.id == id) \
+        .join(User, User.id == Article.author_id) \
+        .outerjoin(ArticleComment, ArticleComment.article_id == Article.id) \
+        .add_columns(User.real_name,
+                     Article.id,
+                     Article.body,
+                     Article.submitted_at,
+                     Article.title,
+                     Article.featured_image,
+                     func.count(ArticleComment.id).label('comments')) \
+        .group_by(Article.id).first()
+
+    return render_template('news_post.html',
+                           article=article,
+                           article_id=id,
+                           confirmation=confirmation,
+                           comments=comments)
 
 
 @app.route('/compare-teams', methods=['GET'])

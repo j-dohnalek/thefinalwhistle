@@ -66,6 +66,7 @@
                         <a class="nav-link" href="{{ url_for('news_overview') }}">News</a>
                     </li>
                     {% if current_user.is_authenticated %}
+                    <li class="nav-item">
                         <div class="dropdown">
                             <button class="btn btn-sm btn-secondary dropdown-toggle my-1 ml-lg-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-user-circle"></i> Hi {{ current_user.username }}
@@ -77,9 +78,14 @@
                                 <a class="dropdown-item" href="{{ url_for('logout') }}">Sign out</a>
                             </div>
                         </div>
+                    </li>
                     {% else %}
+                    <li class="nav-item">
                         <a class="btn btn-sm btn-secondary mb-2 mx-lg-2 my-lg-1" href="{{ url_for('login') }}">Log in</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="btn btn-sm btn-primary my-lg-1" href="{{ url_for('register') }}">Register</a>
+                    </li>
                     {% endif %}
                 </ul>
             </div>
@@ -124,6 +130,10 @@
         </div>
     </div>
 </footer>
+
+<!-- Holder.js for create placeholder images -->
+<script src="{{ url_for('static', filename='holder.js') }}"></script>
+
 
 <!-- Bootstrap core JavaScript & JQuery -->
 <script src="{{ url_for('static', filename='popper/popper.min.js') }}"></script>
