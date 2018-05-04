@@ -42,7 +42,8 @@
                 <div class="card mb-4 box-shadow">
                     <img id="featured" class="card-img-top" src="{{ url_for('static', filename=article.featured_image) }}" alt="Card image cap">
                     <div class="card-body">
-                        <h2 class="card-title">{{ article.title }}</h2>
+                        <h1 class="card-title">{{ article.title }}</h1>
+                        <h6 class="card-title">by {{ article.real_name }}</h6>
                         <p class="card-text">
                             {{ article.body|safe }}
                         </p>
@@ -60,28 +61,6 @@
                                 <button type="button" class="btn btn-sm btn-outline-secondary mr-2">
                                     <i class="fas fa-clock"></i> Posted {{ article.submitted_at.strftime('%d %B %Y') }}
                                 </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="card mb-4 box-shadow">
-                    <div class="card-body">
-                        <div>
-                            <div>
-                                Author
-                            </div>
-                            <div>
-                                Main comment text
-                            </div>
-                            <div>
-                                3 mins ago
                             </div>
                         </div>
                     </div>
