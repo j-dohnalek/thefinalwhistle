@@ -1,12 +1,14 @@
 from flask import render_template, redirect, url_for, flash
 from flask_login import login_required, login_user, logout_user, current_user
 from finalwhistle.data_collection.analytics.access_token import get_access_token
+from sqlalchemy import func
 
 from finalwhistle import app
 from finalwhistle.models.article import create_new_article, update_existing_article
 
 from finalwhistle.models.user import User
 from finalwhistle.models.article import Article
+from finalwhistle.models.comment import ArticleComment
 
 from flask import request
 
@@ -67,8 +69,16 @@ def edit_article(id):
 @login_required
 def articles_overview():
 
-    articles = Article.query.join(User, User.id == Article.author_id)\
-        .add_columns(User.real_name, Article.id, Article.title, Article.featured_image).all()
+    articles = Article.query\
+        .join(User, User.id == Article.author_id)\
+        .outerjoin(ArticleComment, ArticleComment.article_id == Article.id)\
+        .add_columns(User.real_name,
+                     Article.id,
+                     Article.submitted_at,
+                     Article.title,
+                     Article.featured_image,
+                     func.count(ArticleComment.id).label('comments'))\
+        .group_by(Article.id).all()
 
     return render_template('admin/articles.html', token=get_access_token(), articles=articles)
 
