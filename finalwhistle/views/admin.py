@@ -5,6 +5,8 @@ from finalwhistle.data_collection.analytics.access_token import get_access_token
 from finalwhistle import app
 from finalwhistle.models.article import create_new_article
 
+from finalwhistle.models.user import User
+
 from flask import request
 
 @app.route('/admin', methods=['GET'])
@@ -15,7 +17,7 @@ def admin_overview():
 @app.route('/admin/users', methods=['GET'])
 @login_required
 def users_overview():
-    return render_template('admin/users.html')
+    return render_template('admin/users.html', users=User.query.all())
 
 @app.route('/admin/articles/new', methods=['GET', 'POST'])
 @login_required

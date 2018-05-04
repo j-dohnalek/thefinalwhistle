@@ -69,6 +69,7 @@ def create_new_user(email, username, password, name):
                         username=username,
                         password=password,
                         name=name)
+
         db.session.add(new_user)
         db.session.commit()
         # TODO: send activation email
