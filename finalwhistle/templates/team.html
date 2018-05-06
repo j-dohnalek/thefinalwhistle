@@ -27,7 +27,7 @@
         <tbody>
             <tr>
                 <th scope="row"><h1>{{team['name']}}</h1></th>
-                <th><img src="{{ team['crestUrl'] }}" height="200" /></th>
+                <th><img src="{{ team['crestUrl'] }}" height="200" alt="{{team['name']}} crest"/></th>
             </tr>
         </tbody>
     </table>
@@ -51,8 +51,8 @@
     <!-- Nav tabs -->
     <div class="card">
         <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#matches" aria-controls="home" role="tab" data-toggle="tab">Matches</a></li>
-            <li role="presentation"><a href="#players" aria-controls="profile" role="tab" data-toggle="tab">Players</a></li>
+            <li role="presentation" class="active"><a href="#matches" role="tab" data-toggle="tab">Matches</a></li>
+            <li role="presentation"><a href="#players" role="tab" data-toggle="tab">Players</a></li>
         </ul>
 
         <!-- Tab panes -->
