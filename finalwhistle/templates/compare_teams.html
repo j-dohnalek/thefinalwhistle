@@ -196,7 +196,7 @@
             <div class="col-sm">
                 <!-- Team Info -->
                 <div class="text-center py-5">
-                    <img height="100" src="{{ stats['team2']['crest'] }}" tag="{{ stats['team2']['name'] }}"/>
+                    <img height="100" src="{{ stats['team2']['crest'] }}" alt="{{ stats['team2']['name'] }}"/>
                     <h2 class="heading">{{ stats['team2']['name'] }}</h2>
                 </div>
 
@@ -341,9 +341,9 @@
             <table class="table mb-0">
                 {% for match in stats['common'] %}
                     <tr>
-                        <td class="text-right">{{ match['home_team'] }} <img height="50" src="{{ match['home_crest'] }}" /></td>
+                        <td class="text-right">{{ match['home_team'] }} <img height="50" src="{{ match['home_crest'] }}" alt="{{ match['home_team'] }}"/></td>
                         <td class="text-center">{{ match['home_goals'] }} : {{ match['away_goals'] }}</td>
-                        <td><img height="50" src="{{ match['away_crest'] }}" /> {{ match['away_team'] }}</td>
+                        <td><img height="50" src="{{ match['away_crest'] }}" alt="{{ match['away_team'] }}"/> {{ match['away_team'] }}</td>
                         <td class="text-right"><a class="btn btn-sm btn-outline-primary" href="{{ url_for('match_page', id=match['match_id'])}}"><i class="fas fa-arrow-right"></i> View match</a></td>
                     </tr>
                 {% endfor %}
