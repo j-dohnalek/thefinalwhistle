@@ -164,7 +164,8 @@
                             <div class="commentText">
                                 <p class="">{{ parent_comment['body'] }}</p>
                                 <span class="date sub-text">
-                                    on {{ parent_comment['posted_at'] }} <a href="javascript:replyTo('comment{{parent_comment['id']}}')">Reply</a>
+                                    on {{ parent_comment['posted_at'] }} by {{ parent_comment['username'] }}
+                                    <a href="javascript:replyTo('comment{{parent_comment['id']}}')">Reply</a>
                                 </span>
                             </div>
                         </li>
@@ -176,7 +177,9 @@
                                     </div>
                                     <div class="commentText">
                                         <p class="">{{ child_comment['body'] }}</p>
-                                        <span class="date sub-text">on {{ child_comment['posted_at'] }}</span>
+                                        <span class="date sub-text">
+                                            on {{ child_comment['posted_at'] }} by {{ child_comment['username'] }}
+                                        </span>
                                     </div>
                                 </li>
                             {% endfor %}
