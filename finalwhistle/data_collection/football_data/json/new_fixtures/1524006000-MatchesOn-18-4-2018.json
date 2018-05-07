@@ -79,7 +79,53 @@
                         }
                     ],
                     "referee": "Graham Scott",
-                    "kick_off": "19:45"
+                    "kick_off": "19:45",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "44.4",
+                            "away": "55.6"
+                        },
+                        "shots_on_target": {
+                            "home": "2",
+                            "away": "4"
+                        },
+                        "shots": {
+                            "home": "13",
+                            "away": "13"
+                        },
+                        "touches": {
+                            "home": "630",
+                            "away": "746"
+                        },
+                        "passes": {
+                            "home": "428",
+                            "away": "556"
+                        },
+                        "tackles": {
+                            "home": "10",
+                            "away": "19"
+                        },
+                        "clearances": {
+                            "home": "26",
+                            "away": "25"
+                        },
+                        "corners": {
+                            "home": "8",
+                            "away": "5"
+                        },
+                        "offsides": {
+                            "home": "1",
+                            "away": "3"
+                        },
+                        "yellow_cards": {
+                            "home": "3",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "9",
+                            "away": "8"
+                        }
+                    }
                 }
             }
         ]

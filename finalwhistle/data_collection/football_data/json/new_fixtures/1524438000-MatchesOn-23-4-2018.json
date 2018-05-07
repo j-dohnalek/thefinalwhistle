@@ -68,7 +68,53 @@
                         }
                     ],
                     "referee": "Robert Madley",
-                    "kick_off": "20:00"
+                    "kick_off": "20:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "56.5",
+                            "away": "43.5"
+                        },
+                        "shots_on_target": {
+                            "home": "1",
+                            "away": "2"
+                        },
+                        "shots": {
+                            "home": "9",
+                            "away": "9"
+                        },
+                        "touches": {
+                            "home": "714",
+                            "away": "570"
+                        },
+                        "passes": {
+                            "home": "478",
+                            "away": "362"
+                        },
+                        "tackles": {
+                            "home": "13",
+                            "away": "19"
+                        },
+                        "clearances": {
+                            "home": "42",
+                            "away": "30"
+                        },
+                        "corners": {
+                            "home": "4",
+                            "away": "6"
+                        },
+                        "offsides": {
+                            "home": "4",
+                            "away": "1"
+                        },
+                        "yellow_cards": {
+                            "home": "2",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "10",
+                            "away": "11"
+                        }
+                    }
                 }
             }
         ]

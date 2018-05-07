@@ -43,7 +43,49 @@
                         }
                     ],
                     "referee": "Michael Oliver",
-                    "kick_off": "12:30"
+                    "kick_off": "12:30",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "38.1",
+                            "away": "61.9"
+                        },
+                        "shots_on_target": {
+                            "home": "1",
+                            "away": "3"
+                        },
+                        "shots": {
+                            "home": "6",
+                            "away": "10"
+                        },
+                        "touches": {
+                            "home": "547",
+                            "away": "767"
+                        },
+                        "passes": {
+                            "home": "359",
+                            "away": "588"
+                        },
+                        "tackles": {
+                            "home": "16",
+                            "away": "12"
+                        },
+                        "clearances": {
+                            "home": "31",
+                            "away": "19"
+                        },
+                        "corners": {
+                            "home": "3",
+                            "away": "2"
+                        },
+                        "offsides": {
+                            "home": "4",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "12",
+                            "away": "7"
+                        }
+                    }
                 }
             },
             {
@@ -120,7 +162,53 @@
                         }
                     ],
                     "referee": "Roger East",
-                    "kick_off": "15:00"
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "51.7",
+                            "away": "48.3"
+                        },
+                        "shots_on_target": {
+                            "home": "3",
+                            "away": "1"
+                        },
+                        "shots": {
+                            "home": "15",
+                            "away": "7"
+                        },
+                        "touches": {
+                            "home": "673",
+                            "away": "622"
+                        },
+                        "passes": {
+                            "home": "479",
+                            "away": "452"
+                        },
+                        "tackles": {
+                            "home": "13",
+                            "away": "13"
+                        },
+                        "clearances": {
+                            "home": "20",
+                            "away": "25"
+                        },
+                        "corners": {
+                            "home": "5",
+                            "away": "1"
+                        },
+                        "offsides": {
+                            "home": "6",
+                            "away": "1"
+                        },
+                        "yellow_cards": {
+                            "home": "3",
+                            "away": "2"
+                        },
+                        "fouls_conceded": {
+                            "home": "15",
+                            "away": "5"
+                        }
+                    }
                 }
             },
             {
@@ -202,7 +290,53 @@
                         }
                     ],
                     "referee": "Paul Tierney",
-                    "kick_off": "15:00"
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "60.5",
+                            "away": "39.5"
+                        },
+                        "shots_on_target": {
+                            "home": "5",
+                            "away": "4"
+                        },
+                        "shots": {
+                            "home": "14",
+                            "away": "7"
+                        },
+                        "touches": {
+                            "home": "633",
+                            "away": "491"
+                        },
+                        "passes": {
+                            "home": "435",
+                            "away": "292"
+                        },
+                        "tackles": {
+                            "home": "9",
+                            "away": "13"
+                        },
+                        "clearances": {
+                            "home": "23",
+                            "away": "49"
+                        },
+                        "corners": {
+                            "home": "11",
+                            "away": "1"
+                        },
+                        "offsides": {
+                            "home": "3",
+                            "away": "2"
+                        },
+                        "yellow_cards": {
+                            "home": "2",
+                            "away": "2"
+                        },
+                        "fouls_conceded": {
+                            "home": "18",
+                            "away": "12"
+                        }
+                    }
                 }
             },
             {
@@ -308,7 +442,53 @@
                         }
                     ],
                     "referee": "Graham Scott",
-                    "kick_off": "15:00"
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "33.3",
+                            "away": "66.7"
+                        },
+                        "shots_on_target": {
+                            "home": "4",
+                            "away": "4"
+                        },
+                        "shots": {
+                            "home": "10",
+                            "away": "15"
+                        },
+                        "touches": {
+                            "home": "456",
+                            "away": "757"
+                        },
+                        "passes": {
+                            "home": "263",
+                            "away": "550"
+                        },
+                        "tackles": {
+                            "home": "24",
+                            "away": "15"
+                        },
+                        "clearances": {
+                            "home": "29",
+                            "away": "28"
+                        },
+                        "corners": {
+                            "home": "6",
+                            "away": "3"
+                        },
+                        "offsides": {
+                            "home": "2",
+                            "away": "3"
+                        },
+                        "yellow_cards": {
+                            "home": "4",
+                            "away": "3"
+                        },
+                        "fouls_conceded": {
+                            "home": "19",
+                            "away": "8"
+                        }
+                    }
                 }
             },
             {
@@ -395,7 +575,53 @@
                         }
                     ],
                     "referee": "Stuart Attwell",
-                    "kick_off": "15:00"
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "66.3",
+                            "away": "33.7"
+                        },
+                        "shots_on_target": {
+                            "home": "1",
+                            "away": "4"
+                        },
+                        "shots": {
+                            "home": "8",
+                            "away": "8"
+                        },
+                        "touches": {
+                            "home": "719",
+                            "away": "447"
+                        },
+                        "passes": {
+                            "home": "518",
+                            "away": "272"
+                        },
+                        "tackles": {
+                            "home": "9",
+                            "away": "13"
+                        },
+                        "clearances": {
+                            "home": "14",
+                            "away": "27"
+                        },
+                        "corners": {
+                            "home": "7",
+                            "away": "5"
+                        },
+                        "offsides": {
+                            "home": "3",
+                            "away": "3"
+                        },
+                        "yellow_cards": {
+                            "home": "1",
+                            "away": "3"
+                        },
+                        "fouls_conceded": {
+                            "home": "7",
+                            "away": "14"
+                        }
+                    }
                 }
             },
             {
@@ -407,9 +633,9 @@
                     "goals": [
                         {
                             "minute": "29",
-                            "scorer": "Jonas Lössl",
                             "own_goal": "true",
-                            "penalty": "false"
+                            "penalty": "false",
+                            "scorer": "Jonas Lössl"
                         },
                         {
                             "minute": "32",
@@ -459,7 +685,57 @@
                         }
                     ],
                     "referee": "Anthony Taylor",
-                    "kick_off": "15:00"
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "40.8",
+                            "away": "59.2"
+                        },
+                        "shots_on_target": {
+                            "home": "4",
+                            "away": "5"
+                        },
+                        "shots": {
+                            "home": "13",
+                            "away": "15"
+                        },
+                        "touches": {
+                            "home": "553",
+                            "away": "721"
+                        },
+                        "passes": {
+                            "home": "360",
+                            "away": "525"
+                        },
+                        "tackles": {
+                            "home": "17",
+                            "away": "19"
+                        },
+                        "clearances": {
+                            "home": "30",
+                            "away": "20"
+                        },
+                        "corners": {
+                            "home": "5",
+                            "away": "3"
+                        },
+                        "offsides": {
+                            "home": "3",
+                            "away": "3"
+                        },
+                        "yellow_cards": {
+                            "home": "1",
+                            "away": "0"
+                        },
+                        "red_cards": {
+                            "home": "1",
+                            "away": "0"
+                        },
+                        "fouls_conceded": {
+                            "home": "13",
+                            "away": "7"
+                        }
+                    }
                 }
             },
             {
@@ -539,7 +815,53 @@
                         }
                     ],
                     "referee": "Jonathan Moss",
-                    "kick_off": "15:00"
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "52.7",
+                            "away": "47.3"
+                        },
+                        "shots_on_target": {
+                            "home": "5",
+                            "away": "6"
+                        },
+                        "shots": {
+                            "home": "21",
+                            "away": "13"
+                        },
+                        "touches": {
+                            "home": "664",
+                            "away": "643"
+                        },
+                        "passes": {
+                            "home": "472",
+                            "away": "445"
+                        },
+                        "tackles": {
+                            "home": "7",
+                            "away": "15"
+                        },
+                        "clearances": {
+                            "home": "12",
+                            "away": "35"
+                        },
+                        "corners": {
+                            "home": "11",
+                            "away": "3"
+                        },
+                        "offsides": {
+                            "home": "3",
+                            "away": "1"
+                        },
+                        "yellow_cards": {
+                            "home": "2",
+                            "away": "2"
+                        },
+                        "fouls_conceded": {
+                            "home": "8",
+                            "away": "9"
+                        }
+                    }
                 }
             },
             {
@@ -669,7 +991,53 @@
                         }
                     ],
                     "referee": "Martin Atkinson",
-                    "kick_off": "17:30"
+                    "kick_off": "17:30",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "64.8",
+                            "away": "35.2"
+                        },
+                        "shots_on_target": {
+                            "home": "6",
+                            "away": "4"
+                        },
+                        "shots": {
+                            "home": "20",
+                            "away": "5"
+                        },
+                        "touches": {
+                            "home": "764",
+                            "away": "505"
+                        },
+                        "passes": {
+                            "home": "596",
+                            "away": "318"
+                        },
+                        "tackles": {
+                            "home": "11",
+                            "away": "11"
+                        },
+                        "clearances": {
+                            "home": "14",
+                            "away": "14"
+                        },
+                        "corners": {
+                            "home": "8",
+                            "away": "4"
+                        },
+                        "offsides": {
+                            "home": "0",
+                            "away": "2"
+                        },
+                        "yellow_cards": {
+                            "home": "6",
+                            "away": "3"
+                        },
+                        "fouls_conceded": {
+                            "home": "17",
+                            "away": "9"
+                        }
+                    }
                 }
             }
         ]

@@ -1,0 +1,801 @@
+[
+    {
+        "date": "Saturday 5 May 2018",
+        "fixtures": [
+            {
+                "home_team": "Stoke",
+                "away_team": "Crystal Palace",
+                "score": "1-2",
+                "url": "https://www.premierleague.com/match/22709",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "43",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Xherdan Shaqiri"
+                        },
+                        {
+                            "minute": "68",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "James McArthur",
+                            "assist": "Ruben Loftus-Cheek"
+                        },
+                        {
+                            "minute": "86",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Patrick van Aanholt"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "54",
+                            "card": "yellow",
+                            "player": "Luka Milivojevic"
+                        },
+                        {
+                            "minute": "63",
+                            "card": "yellow",
+                            "player": "Moritz Bauer"
+                        },
+                        {
+                            "minute": "64",
+                            "card": "yellow",
+                            "player": "Glen Johnson"
+                        },
+                        {
+                            "minute": "64",
+                            "card": "yellow",
+                            "player": "James Tomkins"
+                        },
+                        {
+                            "minute": "81",
+                            "card": "yellow",
+                            "player": "Badou Ndiaye"
+                        },
+                        {
+                            "minute": "85",
+                            "card": "yellow",
+                            "player": "Erik Pieters"
+                        },
+                        {
+                            "minute": "89",
+                            "card": "yellow",
+                            "player": "Xherdan Shaqiri"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "40",
+                            "in": "Martin Kelly",
+                            "out": "Joel Ward"
+                        },
+                        {
+                            "minute": "63",
+                            "in": "Christian Benteke",
+                            "out": "Yohan Cabaye"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "Ramadan Sobhi",
+                            "out": "Peter Crouch"
+                        },
+                        {
+                            "minute": "77",
+                            "in": "Tyrese Campbell",
+                            "out": "Glen Johnson"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "Jeffrey Schlupp",
+                            "out": "Andros Townsend"
+                        }
+                    ],
+                    "referee": "Martin Atkinson",
+                    "kick_off": "12:30",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "41.1",
+                            "away": "58.9"
+                        },
+                        "shots_on_target": {
+                            "home": "2",
+                            "away": "2"
+                        },
+                        "shots": {
+                            "home": "7",
+                            "away": "13"
+                        },
+                        "touches": {
+                            "home": "452",
+                            "away": "612"
+                        },
+                        "passes": {
+                            "home": "283",
+                            "away": "411"
+                        },
+                        "tackles": {
+                            "home": "18",
+                            "away": "7"
+                        },
+                        "clearances": {
+                            "home": "29",
+                            "away": "26"
+                        },
+                        "corners": {
+                            "home": "1",
+                            "away": "7"
+                        },
+                        "offsides": {
+                            "home": "2",
+                            "away": "2"
+                        },
+                        "yellow_cards": {
+                            "home": "5",
+                            "away": "2"
+                        },
+                        "fouls_conceded": {
+                            "home": "18",
+                            "away": "12"
+                        }
+                    }
+                }
+            },
+            {
+                "home_team": "West Brom",
+                "away_team": "Spurs",
+                "score": "1-0",
+                "url": "https://www.premierleague.com/match/22711",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "90",
+                            "additional": "2",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Jake Livermore"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "61",
+                            "card": "yellow",
+                            "player": "Ahmed Hegazi"
+                        },
+                        {
+                            "minute": "65",
+                            "card": "yellow",
+                            "player": "Allan Nyom"
+                        },
+                        {
+                            "minute": "65",
+                            "card": "yellow",
+                            "player": "Danny Rose"
+                        },
+                        {
+                            "minute": "79",
+                            "card": "yellow",
+                            "player": "James McClean"
+                        },
+                        {
+                            "minute": "82",
+                            "card": "yellow",
+                            "player": "Chris Brunt"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "67",
+                            "in": "Son Heung-Min",
+                            "out": "Dele Alli"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Daniel Sturridge",
+                            "out": "Salomón Rondón"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "Lucas Moura",
+                            "out": "Erik Lamela"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "Nacer Chadli",
+                            "out": "Jay Rodriguez"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "Fernando Llorente",
+                            "out": "Jan Vertonghen"
+                        },
+                        {
+                            "minute": "87",
+                            "in": "Grzegorz Krychowiak",
+                            "out": "James McClean"
+                        }
+                    ],
+                    "referee": "Mike Jones",
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "26.2",
+                            "away": "73.8"
+                        },
+                        "shots_on_target": {
+                            "home": "1",
+                            "away": "5"
+                        },
+                        "shots": {
+                            "home": "9",
+                            "away": "18"
+                        },
+                        "touches": {
+                            "home": "410",
+                            "away": "813"
+                        },
+                        "passes": {
+                            "home": "210",
+                            "away": "615"
+                        },
+                        "tackles": {
+                            "home": "16",
+                            "away": "13"
+                        },
+                        "clearances": {
+                            "home": "45",
+                            "away": "25"
+                        },
+                        "corners": {
+                            "home": "5",
+                            "away": "9"
+                        },
+                        "offsides": {
+                            "home": "2",
+                            "away": "0"
+                        },
+                        "yellow_cards": {
+                            "home": "4",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "13",
+                            "away": "12"
+                        }
+                    }
+                }
+            },
+            {
+                "home_team": "Watford",
+                "away_team": "Newcastle",
+                "score": "2-1",
+                "url": "https://www.premierleague.com/match/22710",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "2",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Roberto Pereyra",
+                            "assist": "Abdoulaye Doucouré"
+                        },
+                        {
+                            "minute": "28",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Andre Gray",
+                            "assist": "Roberto Pereyra"
+                        },
+                        {
+                            "minute": "55",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Ayoze Pérez",
+                            "assist": "Javier Manquillo"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "42",
+                            "card": "yellow",
+                            "player": "Ayoze Pérez"
+                        },
+                        {
+                            "minute": "58",
+                            "card": "yellow",
+                            "player": "Christian Kabasele"
+                        },
+                        {
+                            "minute": "72",
+                            "card": "yellow",
+                            "player": "José Holebas"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "53",
+                            "in": "Matt Ritchie",
+                            "out": "Jacob Murphy"
+                        },
+                        {
+                            "minute": "56",
+                            "in": "Gerard Deulofeu",
+                            "out": "Roberto Pereyra"
+                        },
+                        {
+                            "minute": "62",
+                            "in": "Adrian Mariappa",
+                            "out": "Troy Deeney"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "DeAndre Yedlin",
+                            "out": "Javier Manquillo"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "Richarlison",
+                            "out": "Andre Gray"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "Mikel Merino",
+                            "out": "Mohamed Diamé"
+                        }
+                    ],
+                    "referee": "Roger East",
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "39.2",
+                            "away": "60.8"
+                        },
+                        "shots_on_target": {
+                            "home": "8",
+                            "away": "1"
+                        },
+                        "shots": {
+                            "home": "11",
+                            "away": "9"
+                        },
+                        "touches": {
+                            "home": "560",
+                            "away": "761"
+                        },
+                        "passes": {
+                            "home": "384",
+                            "away": "577"
+                        },
+                        "tackles": {
+                            "home": "14",
+                            "away": "8"
+                        },
+                        "clearances": {
+                            "home": "41",
+                            "away": "16"
+                        },
+                        "corners": {
+                            "home": "2",
+                            "away": "5"
+                        },
+                        "offsides": {
+                            "home": "5",
+                            "away": "3"
+                        },
+                        "yellow_cards": {
+                            "home": "2",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "9",
+                            "away": "11"
+                        }
+                    }
+                }
+            },
+            {
+                "home_team": "Leicester",
+                "away_team": "West Ham",
+                "score": "0-2",
+                "url": "https://www.premierleague.com/match/22707",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "34",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "João Mário",
+                            "assist": "Marko Arnautovic"
+                        },
+                        {
+                            "minute": "64",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Mark Noble"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "41",
+                            "card": "yellow",
+                            "player": "Marko Arnautovic"
+                        },
+                        {
+                            "minute": "49",
+                            "card": "yellow",
+                            "player": "Aaron Cresswell"
+                        },
+                        {
+                            "minute": "64",
+                            "card": "yellow",
+                            "player": "Aleksandar Dragovic"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "Aleksandar Dragovic",
+                            "out": "Vicente Iborra"
+                        },
+                        {
+                            "minute": "61",
+                            "in": "Demarai Gray",
+                            "out": "Fousseni Diabaté"
+                        },
+                        {
+                            "minute": "61",
+                            "in": "Kelechi Iheanacho",
+                            "out": "Hamza Choudhury"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "Andy Carroll",
+                            "out": "Manuel Lanzini"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "Edimilson Fernandes",
+                            "out": "Marko Arnautovic"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "in": "Patrice Evra",
+                            "out": "Arthur Masuaku"
+                        }
+                    ],
+                    "referee": "Chris Kavanagh",
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "54",
+                            "away": "46"
+                        },
+                        "shots_on_target": {
+                            "home": "2",
+                            "away": "3"
+                        },
+                        "shots": {
+                            "home": "13",
+                            "away": "13"
+                        },
+                        "touches": {
+                            "home": "620",
+                            "away": "591"
+                        },
+                        "passes": {
+                            "home": "417",
+                            "away": "363"
+                        },
+                        "tackles": {
+                            "home": "23",
+                            "away": "20"
+                        },
+                        "clearances": {
+                            "home": "26",
+                            "away": "36"
+                        },
+                        "corners": {
+                            "home": "8",
+                            "away": "3"
+                        },
+                        "offsides": {
+                            "home": "2",
+                            "away": "2"
+                        },
+                        "yellow_cards": {
+                            "home": "1",
+                            "away": "2"
+                        },
+                        "fouls_conceded": {
+                            "home": "8",
+                            "away": "9"
+                        }
+                    }
+                }
+            },
+            {
+                "home_team": "Bournemouth",
+                "away_team": "Swansea",
+                "score": "1-0",
+                "url": "https://www.premierleague.com/match/22703",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "37",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Ryan Fraser",
+                            "assist": "Andrew Surman"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "36",
+                            "card": "yellow",
+                            "player": "Martin Olsson"
+                        },
+                        {
+                            "minute": "51",
+                            "card": "yellow",
+                            "player": "Joshua King"
+                        },
+                        {
+                            "minute": "58",
+                            "card": "yellow",
+                            "player": "Mike van der Hoorn"
+                        },
+                        {
+                            "minute": "70",
+                            "card": "yellow",
+                            "player": "Alfie Mawson"
+                        },
+                        {
+                            "minute": "82",
+                            "card": "yellow",
+                            "player": "Andy King"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "59",
+                            "in": "Tammy Abraham",
+                            "out": "Nathan Dyer"
+                        },
+                        {
+                            "minute": "72",
+                            "in": "Andy King",
+                            "out": "Mike van der Hoorn"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "Luciano Narsingh",
+                            "out": "Ki Sung-yueng"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "Dan Gosling",
+                            "out": "Marc Pugh"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "in": "Lys Mousset",
+                            "out": "Joshua King"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "4",
+                            "in": "Tyrone Mings",
+                            "out": "Callum Wilson"
+                        }
+                    ],
+                    "referee": "Kevin Friend",
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "45.2",
+                            "away": "54.8"
+                        },
+                        "shots_on_target": {
+                            "home": "5",
+                            "away": "3"
+                        },
+                        "shots": {
+                            "home": "13",
+                            "away": "12"
+                        },
+                        "touches": {
+                            "home": "575",
+                            "away": "624"
+                        },
+                        "passes": {
+                            "home": "365",
+                            "away": "446"
+                        },
+                        "tackles": {
+                            "home": "5",
+                            "away": "23"
+                        },
+                        "clearances": {
+                            "home": "45",
+                            "away": "23"
+                        },
+                        "corners": {
+                            "home": "11",
+                            "away": "6"
+                        },
+                        "offsides": {
+                            "home": "4",
+                            "away": "1"
+                        },
+                        "yellow_cards": {
+                            "home": "1",
+                            "away": "4"
+                        },
+                        "fouls_conceded": {
+                            "home": "10",
+                            "away": "10"
+                        }
+                    }
+                }
+            },
+            {
+                "home_team": "Everton",
+                "away_team": "Southampton",
+                "score": "1-1",
+                "url": "https://www.premierleague.com/match/22706",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "56",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Nathan Redmond",
+                            "assist": "Cédric Soares"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "6",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Tom Davies",
+                            "assist": "Idrissa Gueye"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "45",
+                            "card": "yellow",
+                            "player": "Charlie Austin"
+                        },
+                        {
+                            "minute": "53",
+                            "card": "yellow",
+                            "player": "Oriol Romeu"
+                        },
+                        {
+                            "minute": "71",
+                            "card": "yellow",
+                            "player": "Maya Yoshida"
+                        },
+                        {
+                            "minute": "77",
+                            "card": "yellow",
+                            "player": "Morgan Schneiderlin"
+                        },
+                        {
+                            "minute": "85",
+                            "card": "red",
+                            "player": "Maya Yoshida"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "card": "yellow",
+                            "player": "Wesley Hoedt"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "6",
+                            "card": "yellow",
+                            "player": "Tom Davies"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "7",
+                            "card": "yellow",
+                            "player": "Shane Long"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "Ramiro Funes Mori",
+                            "out": "Yannick Bolasie"
+                        },
+                        {
+                            "minute": "45",
+                            "in": "Nathan Redmond",
+                            "out": "Mario Lemina"
+                        },
+                        {
+                            "minute": "58",
+                            "in": "Oumar Niasse",
+                            "out": "Nikola Vlasic"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "James Ward-Prowse",
+                            "out": "Dusan Tadic"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Shane Long",
+                            "out": "Charlie Austin"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "Davy Klaassen",
+                            "out": "Phil Jagielka"
+                        }
+                    ],
+                    "referee": "Jonathan Moss",
+                    "kick_off": "17:30",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "54.4",
+                            "away": "45.6"
+                        },
+                        "shots_on_target": {
+                            "home": "3",
+                            "away": "5"
+                        },
+                        "shots": {
+                            "home": "9",
+                            "away": "11"
+                        },
+                        "touches": {
+                            "home": "602",
+                            "away": "545"
+                        },
+                        "passes": {
+                            "home": "415",
+                            "away": "358"
+                        },
+                        "tackles": {
+                            "home": "11",
+                            "away": "17"
+                        },
+                        "clearances": {
+                            "home": "19",
+                            "away": "29"
+                        },
+                        "corners": {
+                            "home": "3",
+                            "away": "4"
+                        },
+                        "offsides": {
+                            "home": "2",
+                            "away": "4"
+                        },
+                        "yellow_cards": {
+                            "home": "2",
+                            "away": "4"
+                        },
+                        "red_cards": {
+                            "home": "0",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "14",
+                            "away": "12"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

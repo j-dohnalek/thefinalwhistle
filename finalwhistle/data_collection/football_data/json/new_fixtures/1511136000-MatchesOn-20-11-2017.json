@@ -67,7 +67,53 @@
                         }
                     ],
                     "referee": "Lee Mason",
-                    "kick_off": "20:00"
+                    "kick_off": "20:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "53.8",
+                            "away": "46.2"
+                        },
+                        "shots_on_target": {
+                            "home": "3",
+                            "away": "6"
+                        },
+                        "shots": {
+                            "home": "9",
+                            "away": "13"
+                        },
+                        "touches": {
+                            "home": "635",
+                            "away": "590"
+                        },
+                        "passes": {
+                            "home": "462",
+                            "away": "396"
+                        },
+                        "tackles": {
+                            "home": "14",
+                            "away": "10"
+                        },
+                        "clearances": {
+                            "home": "17",
+                            "away": "27"
+                        },
+                        "corners": {
+                            "home": "6",
+                            "away": "7"
+                        },
+                        "offsides": {
+                            "home": "3",
+                            "away": "1"
+                        },
+                        "yellow_cards": {
+                            "home": "1",
+                            "away": "0"
+                        },
+                        "fouls_conceded": {
+                            "home": "13",
+                            "away": "5"
+                        }
+                    }
                 }
             }
         ]

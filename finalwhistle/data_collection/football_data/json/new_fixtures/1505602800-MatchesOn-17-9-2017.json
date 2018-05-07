@@ -76,7 +76,57 @@
                         }
                     ],
                     "referee": "Michael Oliver",
-                    "kick_off": "13:30"
+                    "kick_off": "13:30",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "50.6",
+                            "away": "49.4"
+                        },
+                        "shots_on_target": {
+                            "home": "4",
+                            "away": "2"
+                        },
+                        "shots": {
+                            "home": "13",
+                            "away": "11"
+                        },
+                        "touches": {
+                            "home": "729",
+                            "away": "706"
+                        },
+                        "passes": {
+                            "home": "532",
+                            "away": "520"
+                        },
+                        "tackles": {
+                            "home": "13",
+                            "away": "19"
+                        },
+                        "clearances": {
+                            "home": "21",
+                            "away": "24"
+                        },
+                        "corners": {
+                            "home": "5",
+                            "away": "1"
+                        },
+                        "offsides": {
+                            "home": "4",
+                            "away": "2"
+                        },
+                        "yellow_cards": {
+                            "home": "2",
+                            "away": "3"
+                        },
+                        "red_cards": {
+                            "home": "1",
+                            "away": "0"
+                        },
+                        "fouls_conceded": {
+                            "home": "11",
+                            "away": "15"
+                        }
+                    }
                 }
             },
             {
@@ -160,7 +210,53 @@
                         }
                     ],
                     "referee": "Andre Marriner",
-                    "kick_off": "16:00"
+                    "kick_off": "16:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "49.2",
+                            "away": "50.8"
+                        },
+                        "shots_on_target": {
+                            "home": "7",
+                            "away": "3"
+                        },
+                        "shots": {
+                            "home": "16",
+                            "away": "7"
+                        },
+                        "touches": {
+                            "home": "665",
+                            "away": "682"
+                        },
+                        "passes": {
+                            "home": "476",
+                            "away": "510"
+                        },
+                        "tackles": {
+                            "home": "14",
+                            "away": "22"
+                        },
+                        "clearances": {
+                            "home": "13",
+                            "away": "29"
+                        },
+                        "corners": {
+                            "home": "4",
+                            "away": "1"
+                        },
+                        "offsides": {
+                            "home": "2",
+                            "away": "3"
+                        },
+                        "yellow_cards": {
+                            "home": "1",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "15",
+                            "away": "14"
+                        }
+                    }
                 }
             }
         ]

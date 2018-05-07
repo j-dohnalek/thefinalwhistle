@@ -101,7 +101,53 @@
                         }
                     ],
                     "referee": "Mike Dean",
-                    "kick_off": "19:45"
+                    "kick_off": "19:45",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "70",
+                            "away": "30"
+                        },
+                        "shots_on_target": {
+                            "home": "10",
+                            "away": "3"
+                        },
+                        "shots": {
+                            "home": "27",
+                            "away": "6"
+                        },
+                        "touches": {
+                            "home": "859",
+                            "away": "459"
+                        },
+                        "passes": {
+                            "home": "632",
+                            "away": "263"
+                        },
+                        "tackles": {
+                            "home": "23",
+                            "away": "17"
+                        },
+                        "clearances": {
+                            "home": "30",
+                            "away": "24"
+                        },
+                        "corners": {
+                            "home": "9",
+                            "away": "4"
+                        },
+                        "offsides": {
+                            "home": "5",
+                            "away": "3"
+                        },
+                        "yellow_cards": {
+                            "home": "0",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "9",
+                            "away": "12"
+                        }
+                    }
                 }
             }
         ]

@@ -220,17 +220,6 @@ class MatchStatistics(db.Model):
     # ft - full time goals
     home_ft_goals = db.Column(db.Integer, nullable=False)
     away_ft_goals = db.Column(db.Integer, nullable=False)
-
-    # ht - half time goals
-    home_ht_goals = db.Column(db.Integer, nullable=False)
-    away_ht_goals = db.Column(db.Integer, nullable=False)
-
-    # 1 - home team win
-    # 2 - away team win
-    # 3 - draw
-    ft_result = db.Column(db.Integer, nullable=False)
-    ht_result = db.Column(db.Integer, nullable=False)
-
     home_shots = db.Column(db.Integer, nullable=False)
     away_shots = db.Column(db.Integer, nullable=False)
     home_shots_on_target = db.Column(db.Integer, nullable=False)
