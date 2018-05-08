@@ -3,7 +3,7 @@
 {% block content %}
 <main>
 
-    <section class="banner banner-1" style="background-image: url({{ url_for('static', filename='images/stadium.jpg') }});">
+    <section class="banner banner-1 d-none d-lg-block" style="background-image: url({{ url_for('static', filename='images/stadium.jpg') }});">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 offset-md-2">
@@ -30,7 +30,7 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-lg-8">
                     <div class="card mb-4 box-shadow">
                         <div class="card-body">
                             <h5 class="card-title mb-0">Last matches</h5>
@@ -75,7 +75,7 @@
 
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <div class="card mb-4 box-shadow">
                         <div class="card-body">
                             <h5 class="card-title">League Table</h5>
