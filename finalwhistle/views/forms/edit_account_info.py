@@ -1,7 +1,7 @@
 from flask_login import current_user
 from flask_wtf import FlaskForm
 from wtforms import StringField, SelectField, SubmitField, PasswordField
-from wtforms.validators import InputRequired, EqualTo, ValidationError
+from wtforms.validators import InputRequired, EqualTo, ValidationError, Length
 
 from finalwhistle.views.data_views_helper import get_all_teams
 import sqlalchemy
@@ -62,6 +62,9 @@ class ChangePasswordForm(FlaskForm):
     submit = SubmitField('Update password')
 
     def validate_current_pw(self, current_pw):
-        print(current_pw.data)
         if not current_user.password_valid(current_pw.data):
             raise ValidationError('Incorrect password')
+
+    def validate_new_pw(self, password):
+        if len(password.data) < 6:
+            raise ValidationError('Password must be longer than 6 characters')
