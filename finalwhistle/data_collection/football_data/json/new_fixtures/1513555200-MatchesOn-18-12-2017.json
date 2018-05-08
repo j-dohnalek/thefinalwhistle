@@ -97,7 +97,53 @@
                         }
                     ],
                     "referee": "Jonathan Moss",
-                    "kick_off": "20:00"
+                    "kick_off": "20:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "51.1",
+                            "away": "48.9"
+                        },
+                        "shots_on_target": {
+                            "home": "7",
+                            "away": "3"
+                        },
+                        "shots": {
+                            "home": "12",
+                            "away": "8"
+                        },
+                        "touches": {
+                            "home": "617",
+                            "away": "603"
+                        },
+                        "passes": {
+                            "home": "445",
+                            "away": "431"
+                        },
+                        "tackles": {
+                            "home": "17",
+                            "away": "14"
+                        },
+                        "clearances": {
+                            "home": "17",
+                            "away": "22"
+                        },
+                        "corners": {
+                            "home": "6",
+                            "away": "3"
+                        },
+                        "offsides": {
+                            "home": "1",
+                            "away": "0"
+                        },
+                        "yellow_cards": {
+                            "home": "2",
+                            "away": "3"
+                        },
+                        "fouls_conceded": {
+                            "home": "12",
+                            "away": "12"
+                        }
+                    }
                 }
             }
         ]

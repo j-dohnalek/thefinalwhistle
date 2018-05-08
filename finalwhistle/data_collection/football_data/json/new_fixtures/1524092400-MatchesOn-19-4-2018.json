@@ -45,7 +45,49 @@
                         }
                     ],
                     "referee": "Roger East",
-                    "kick_off": "19:45"
+                    "kick_off": "19:45",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "54.4",
+                            "away": "45.6"
+                        },
+                        "shots_on_target": {
+                            "home": "3",
+                            "away": "2"
+                        },
+                        "shots": {
+                            "home": "11",
+                            "away": "6"
+                        },
+                        "touches": {
+                            "home": "678",
+                            "away": "610"
+                        },
+                        "passes": {
+                            "home": "452",
+                            "away": "384"
+                        },
+                        "tackles": {
+                            "home": "17",
+                            "away": "17"
+                        },
+                        "clearances": {
+                            "home": "29",
+                            "away": "33"
+                        },
+                        "corners": {
+                            "home": "11",
+                            "away": "3"
+                        },
+                        "offsides": {
+                            "home": "3",
+                            "away": "2"
+                        },
+                        "fouls_conceded": {
+                            "home": "10",
+                            "away": "10"
+                        }
+                    }
                 }
             },
             {
@@ -57,9 +99,9 @@
                     "goals": [
                         {
                             "minute": "20",
-                            "scorer": "Kevin Long",
                             "own_goal": "true",
-                            "penalty": "false"
+                            "penalty": "false",
+                            "scorer": "Kevin Long"
                         },
                         {
                             "minute": "64",
@@ -106,7 +148,53 @@
                         }
                     ],
                     "referee": "Robert Madley",
-                    "kick_off": "19:45"
+                    "kick_off": "19:45",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "39.2",
+                            "away": "60.8"
+                        },
+                        "shots_on_target": {
+                            "home": "2",
+                            "away": "5"
+                        },
+                        "shots": {
+                            "home": "5",
+                            "away": "16"
+                        },
+                        "touches": {
+                            "home": "551",
+                            "away": "798"
+                        },
+                        "passes": {
+                            "home": "389",
+                            "away": "609"
+                        },
+                        "tackles": {
+                            "home": "13",
+                            "away": "8"
+                        },
+                        "clearances": {
+                            "home": "25",
+                            "away": "28"
+                        },
+                        "corners": {
+                            "home": "3",
+                            "away": "2"
+                        },
+                        "offsides": {
+                            "home": "3",
+                            "away": "1"
+                        },
+                        "yellow_cards": {
+                            "home": "1",
+                            "away": "0"
+                        },
+                        "fouls_conceded": {
+                            "home": "9",
+                            "away": "11"
+                        }
+                    }
                 }
             }
         ]

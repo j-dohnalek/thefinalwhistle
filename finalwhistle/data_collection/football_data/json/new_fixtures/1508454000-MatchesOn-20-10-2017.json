@@ -66,7 +66,53 @@
                         }
                     ],
                     "referee": "Martin Atkinson",
-                    "kick_off": "20:00"
+                    "kick_off": "20:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "65",
+                            "away": "35"
+                        },
+                        "shots_on_target": {
+                            "home": "2",
+                            "away": "5"
+                        },
+                        "shots": {
+                            "home": "16",
+                            "away": "7"
+                        },
+                        "touches": {
+                            "home": "786",
+                            "away": "527"
+                        },
+                        "passes": {
+                            "home": "604",
+                            "away": "337"
+                        },
+                        "tackles": {
+                            "home": "15",
+                            "away": "10"
+                        },
+                        "clearances": {
+                            "home": "3",
+                            "away": "45"
+                        },
+                        "corners": {
+                            "home": "10",
+                            "away": "3"
+                        },
+                        "offsides": {
+                            "home": "3",
+                            "away": "1"
+                        },
+                        "yellow_cards": {
+                            "home": "1",
+                            "away": "0"
+                        },
+                        "fouls_conceded": {
+                            "home": "5",
+                            "away": "13"
+                        }
+                    }
                 }
             }
         ]

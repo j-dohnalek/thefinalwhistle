@@ -37,10 +37,11 @@ TRANSFERS = ROOT + 'json/transfers/*.json'
 # lists of all players
 PLAYERS = ROOT + 'json/players/*.json'
 
-# Statistics for all matches
-STATISTICS = ROOT + 'tmp/E0.csv'
-STATISTICS_URL = 'http://www.football-data.co.uk/mmz4281/1718/E0.csv'
-STATISTICS_BACKUP = ROOT + 'csv/E0.csv'
+
+# lists of all players
+NEW_PLAYERS = ROOT + 'tmp/new_players.json'
+
+SEASON = 1
 
 session = db.session
 
@@ -238,6 +239,71 @@ def parse_transfers():
     print('Parse transfers .. OK!')
 
 
+def parse_new_players():
+    """ Insert all new player found on premierleague.com  """
+
+    try:
+        with open(NEW_PLAYERS) as outfile:
+            players = json.load(outfile)
+
+        for player in players:
+
+            new_club = Team.query.filter_by(name=player['new_club']).first()
+            old_club = Team.query.filter_by(name=player['old_club']).first()
+
+            consider_inserting = False
+            team_id = -1
+
+            if new_club is None and old_club is None:
+                # Transfer from team in different league to team in different league
+                pass
+
+            if new_club is not None and old_club is None:
+                # Transfer from team in different league to PL team
+                consider_inserting = True
+                team_id = new_club.team_id
+
+            if new_club is None and old_club is not None:
+                # Transfer from PL team to team in different league
+                pass
+
+            if new_club is not None and old_club is not None:
+
+                # Transfer from PL team to PL team
+                consider_inserting = True
+                team_id = new_club.team_id
+
+            if consider_inserting:
+
+                date_format = '%d/%m/%Y'
+                date = None
+
+                try:
+                    date = datetime.strptime(player['dob'], date_format)
+                except ValueError:
+                    pass
+
+                shirt_number = None
+                if player['shirt_number'] != '-1':
+                    shirt_number = player['shirt_number']
+
+                if not record_exists(session, Player, name=player['name']):
+                    get_or_create(session, Player,
+                                  name=player['name'],
+                                  current_team=team_id,
+                                  shirt_number=shirt_number,
+                                  height=player['height'].replace('cm', ''),
+                                  weight=player['weight'].replace('kg', ''),
+                                  position=player['position'],
+                                  nationality=player['nationality'],
+                                  dob=date)
+
+    finally:
+        session.close()
+
+    print('Parse new players .. OK!')
+
+
 def parse_new_fixtures():
     """
     Insert all matches to database
@@ -275,14 +341,13 @@ def parse_new_fixtures():
 
                     referee = session.query(Referee).filter_by(name=fixture['details']['referee']).first()
 
-                    match = None
                     try:
-                        match = get_or_create(session, Match,
-                                              home_team=home_team.team_id,
-                                              away_team=away_team.team_id,
-                                              kickoff=kickoff,
-                                              season=season.season_id,
-                                              main_referee=referee.referee_id)
+                        get_or_create(session, Match,
+                                      home_team=home_team.team_id,
+                                      away_team=away_team.team_id,
+                                      kickoff=kickoff,
+                                      season=season.season_id,
+                                      main_referee=referee.referee_id)
 
                     except AttributeError:
                         print('[Referee] {} {} {} {}'.format(fixture['details']['referee'],
@@ -290,8 +355,168 @@ def parse_new_fixtures():
                                                              fixture['away_team'],
                                                              fixtures['date']))
 
+    finally:
+        session.close()
+
+    print('Parse new fixtures .. OK!')
+
+
+def parse_match_statistics():
+    """
+    Insert all matches to database
+    :return:
+    """
+    try:
+
+        for src in glob.glob(NEW_FIXTURES):
+
+            with open(src) as outfile:
+                match_day = json.load(outfile)
+
+            for fixtures in match_day:
+                match_date = fixtures['date']
+                for fixture in fixtures['fixtures']:
+
+                    kickoff_datetime = "{} {}".format(match_date, fixture['details']['kick_off'])
+                    kickoff = datetime.strptime(kickoff_datetime, '%A %d %B %Y %H:%M')
+
+                    # The season is scheduled to finish on May
+                    season_end = datetime.strptime('31 Jul {}'.format(kickoff.year), '%d %b %Y')
+                    if kickoff > season_end:
+                        end_year = kickoff.year + 1
+                    else:
+                        end_year = kickoff.year
+
+                    season = session.query(Season).filter(
+                        sqlalchemy.extract('year', Season.end_year) == end_year).first()
+
+                    home_team = session.query(Team).filter_by(name_short=fixture['home_team']).first()
+                    away_team = session.query(Team).filter_by(name_short=fixture['away_team']).first()
+
+                    # Translate special cases
+                    fixture['details']['referee'] = fixture['details']['referee'].replace('Anthony', 'Andy')
+
+                    referee = session.query(Referee).filter_by(name=fixture['details']['referee']).first()
+
+                    match = Match.query.filter(Match.home_team == home_team.team_id)\
+                        .filter(Match.away_team == away_team.team_id)\
+                        .filter(Match.kickoff == kickoff)\
+                        .filter(Match.season == season.season_id)\
+                        .filter(Match.main_referee == referee.referee_id).first()
+
+                    ft_goals_home = fixture['score'].split('-')[0]
+                    ft_goals_away = fixture['score'].split('-')[1]
+
+                    shots_home = 0
+                    shots_away = 0
+                    try:
+                        shots_home = fixture['details']['statistic']['shots']['home']
+                        shots_away = fixture['details']['statistic']['shots']['away']
+                    except KeyError:
+                        pass
+
+                    shots_on_target_home = 0
+                    shots_on_target_away = 0
+                    try:
+                        shots_on_target_home = fixture['details']['statistic']['shots_on_target']['home']
+                        shots_on_target_away = fixture['details']['statistic']['shots_on_target']['away']
+                    except KeyError:
+                        pass
+
+                    fouls_home = 0
+                    fouls_away = 0
+                    try:
+                        fouls_home = fixture['details']['statistic']['fouls_conceded']['home']
+                        fouls_away = fixture['details']['statistic']['fouls_conceded']['away']
+                    except KeyError:
+                        pass
+
+                    corners_home = 0
+                    corners_away = 0
+                    try:
+                        corners_home = fixture['details']['statistic']['corners']['home']
+                        corners_away = fixture['details']['statistic']['corners']['away']
+                    except KeyError:
+                        pass
+
+                    yellow_cards_home = 0
+                    yellow_cards_away = 0
+                    try:
+                        yellow_cards_home = fixture['details']['statistic']['yellow_cards']['home']
+                        yellow_cards_away = fixture['details']['statistic']['yellow_cards']['away']
+                    except KeyError:
+                        pass
+
+                    red_cards_home = 0
+                    red_cards_away = 0
+                    try:
+                        red_cards_home = fixture['details']['statistic']['red_cards']['home']
+                        red_cards_away = fixture['details']['statistic']['red_cards']['away']
+                    except KeyError:
+                        pass
+
+                    get_or_create(session, MatchStatistics,
+                                  match=match.match_id,
+                                  home_team=home_team.team_id, away_team=away_team.team_id,
+                                  home_ft_goals=ft_goals_home, away_ft_goals=ft_goals_away,
+                                  home_shots=shots_home, away_shots=shots_away,
+                                  home_shots_on_target=shots_on_target_home, away_shots_on_target=shots_on_target_away,
+                                  home_corners=corners_home, away_corners=corners_away,
+                                  home_fouls=fouls_home, away_fouls=fouls_away,
+                                  home_yellow_cards=yellow_cards_home, away_yellow_cards=yellow_cards_away,
+                                  home_red_cards=red_cards_home, away_red_cards=red_cards_away)
+
+    finally:
+        session.close()
+
+    print('Parse match statistics .. OK!')
+
+
+def parse_player_statistics():
+    """
+    Insert all matches to database
+    :return:
+    """
+    try:
+
+        for src in glob.glob(NEW_FIXTURES):
+
+            with open(src) as outfile:
+                match_day = json.load(outfile)
+
+            for fixtures in match_day:
+                match_date = fixtures['date']
+                for fixture in fixtures['fixtures']:
+
+                    kickoff_datetime = "{} {}".format(match_date, fixture['details']['kick_off'])
+                    kickoff = datetime.strptime(kickoff_datetime, '%A %d %B %Y %H:%M')
+
+                    # The season is scheduled to finish on May
+                    season_end = datetime.strptime('31 Jul {}'.format(kickoff.year), '%d %b %Y')
+                    if kickoff > season_end:
+                        end_year = kickoff.year + 1
+                    else:
+                        end_year = kickoff.year
+
+                    season = session.query(Season).filter(
+                        sqlalchemy.extract('year', Season.end_year) == end_year).first()
+
+                    home_team = session.query(Team).filter_by(name_short=fixture['home_team']).first()
+                    away_team = session.query(Team).filter_by(name_short=fixture['away_team']).first()
+
+                    # Translate special cases
+                    fixture['details']['referee'] = fixture['details']['referee'].replace('Anthony', 'Andy')
+
+                    referee = session.query(Referee).filter_by(name=fixture['details']['referee']).first()
+
+                    match = Match.query.filter(Match.home_team == home_team.team_id) \
+                        .filter(Match.away_team == away_team.team_id) \
+                        .filter(Match.kickoff == kickoff) \
+                        .filter(Match.season == season.season_id) \
+                        .filter(Match.main_referee == referee.referee_id).first()
+
                     # Parse match goals
-                    for event in (fixture['details']['goals']):
+                    for event in fixture['details']['goals']:
 
                         player = session.query(Player).filter_by(name=event['scorer']).first()
 
@@ -334,7 +559,7 @@ def parse_new_fixtures():
                                       minute=event['minute'])
 
                     # Parse match cards
-                    for event in (fixture['details']['cards']):
+                    for event in fixture['details']['cards']:
 
                         try:
                             player = session.query(Player).filter_by(name=event['player']).first()
@@ -367,7 +592,7 @@ def parse_new_fixtures():
                                       minute=event['minute'])
 
                     # Parse match substitutions
-                    for event in (fixture['details']['substitutions']):
+                    for event in fixture['details']['substitutions']:
 
                         player_out = None
                         try:
@@ -409,125 +634,11 @@ def parse_new_fixtures():
                                       player_in=player_in,
                                       extra_time=extra_time,
                                       minute=event['minute'])
+
     finally:
         session.close()
 
-    print('Parse new fixtures .. OK!')
-
-
-def parse_statistics():
-    """
-    Insert all statistics to database
-
-
-    Div = League Division
-    Date = Match Date (dd/mm/yy)
-    HomeTeam = Home Team
-    AwayTeam = Away Team
-    FTHG and HG = Full Time Home Team Goals
-    FTAG and AG = Full Time Away Team Goals
-    FTR and Res = Full Time Result (H=Home Win, D=Draw, A=Away Win)
-    HTHG = Half Time Home Team Goals
-    HTAG = Half Time Away Team Goals
-    HTR = Half Time Result (H=Home Win, D=Draw, A=Away Win)Match Statistics (where available)
-    Attendance = Crowd Attendance
-    Referee = Match Referee
-    HS = Home Team Shots
-    AS = Away Team Shots
-    HST = Home Team Shots on Target
-    AST = Away Team Shots on Target
-    HC = Home Team Corners
-    AC = Away Team Corners
-    HF = Home Team Fouls Committed
-    AF = Away Team Fouls Committed
-    HY = Home Team Yellow Cards
-    AY = Away Team Yellow Cards
-    HR = Home Team Red Cards
-    AR = Away Team Red Cards
-
-    For more details see: http://www.football-data.co.uk/notes.txt
-    """
-    csv_file = STATISTICS_BACKUP
-
-    try:
-        try:
-            urllib.request.urlretrieve(STATISTICS_URL, STATISTICS)
-            csv_file = open(STATISTICS, 'r')
-            copyfile(STATISTICS, STATISTICS_BACKUP)
-        except urllib.error.URLError:
-            pass
-
-        fieldnames = ("Div", "Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "FTR", "HTHG", "HTAG", "HTR", "Referee",
-                      "HS", "AS", "HST", "AST", "HF", "AF", "HC", "AC", "HY", "AY", "HR", "AR")
-
-        reader = csv.DictReader(csv_file, fieldnames)
-        ignore_first_line = True
-        for row in reader:
-            if ignore_first_line:
-                ignore_first_line = False
-
-            else:
-                # Translate the football team to name_short in database
-                row["HomeTeam"] = row["HomeTeam"].replace('United', 'Utd')
-                row["AwayTeam"] = row["AwayTeam"].replace('United', 'Utd')
-                row["HomeTeam"] = row["HomeTeam"].replace('Tottenham', 'Spurs')
-                row["AwayTeam"] = row["AwayTeam"].replace('Tottenham', 'Spurs')
-
-                home_team = session.query(Team).filter_by(name_short=row["HomeTeam"]).first()
-                away_team = session.query(Team).filter_by(name_short=row["AwayTeam"]).first()
-
-                try:
-                    home_team_id = home_team.team_id
-                except AttributeError:
-                    return '[H] {} vs {} on {}'.format(row["HomeTeam"], row["AwayTeam"], row['Date'])
-
-                try:
-                    away_team_id = away_team.team_id
-                except AttributeError:
-                    return '[A] {} vs {} on {}'.format(row["HomeTeam"], row["AwayTeam"], row['Date'])
-
-                match_day = datetime.strptime(row['Date'], '%d/%m/%y')
-
-                kickoff_casted = sqlalchemy.cast(Match.kickoff, sqlalchemy.Date)
-                match_day_casted = sqlalchemy.cast(match_day, sqlalchemy.Date)
-                match = session.query(Match).filter(Match.home_team == home_team_id) \
-                    .filter(Match.away_team == away_team_id) \
-                    .filter(kickoff_casted == match_day_casted).first()
-                try:
-                    match_id = match.match_id
-                except AttributeError:
-                    return '[M] {} vs {} on {}'.format(row["HomeTeam"], row["AwayTeam"], row['Date'])
-
-                result = {'H': 1, 'A': 2, 'D': 3}
-
-                get_or_create(session,
-                              MatchStatistics,
-                              match=match_id,
-                              home_team=home_team_id,
-                              away_team=away_team_id,
-                              home_ft_goals=row['FTHG'],
-                              away_ft_goals=row['FTAG'],
-                              home_ht_goals=row['HTHG'],
-                              away_ht_goals=row['HTAG'],
-                              ft_result=result[row['FTR']],
-                              ht_result=result[row['HTR']],
-                              home_shots=row['HS'],
-                              away_shots=row['AS'],
-                              home_shots_on_target=row['HST'],
-                              away_shots_on_target=row['AST'],
-                              home_corners=row['HC'],
-                              away_corners=row['AC'],
-                              home_fouls=row['HF'],
-                              away_fouls=row['AF'],
-                              home_yellow_cards=row['HY'],
-                              away_yellow_cards=row['AY'],
-                              home_red_cards=row['HR'],
-                              away_red_cards=row['AR'])
-
-        os.remove(STATISTICS)
-    finally:
-        session.close()
-    print('Parse statistics .. OK!')
+    print('Parse player statistics .. OK!')
 
 
 if __name__ == '__main__':
@@ -540,6 +651,8 @@ if __name__ == '__main__':
     parse_club_staff()
     parse_players()
     parse_transfers()
+    parse_new_players()
     parse_new_fixtures()
-    parse_statistics()
+    parse_match_statistics()
+    parse_player_statistics()
     print('Database up to date!')

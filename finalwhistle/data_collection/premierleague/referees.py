@@ -68,4 +68,3 @@ def fetch_referees():
     with open(JSON_PATH, 'w') as outfile:
         values = [{"referees": v} for k, v in pl_referees.items()]
         json.dump(values, outfile, ensure_ascii=False, indent=4)
-        print('Writing JSON: {}'.format(JSON_PATH))

@@ -3,213 +3,6 @@
         "date": "Saturday 13 January 2018",
         "fixtures": [
             {
-                "home_team": "Crystal Palace",
-                "away_team": "Burnley",
-                "score": "1-0",
-                "url": "https://www.premierleague.com/match/22564",
-                "details": {
-                    "goals": [
-                        {
-                            "minute": "21",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Bakary Sako",
-                            "assist": "Christian Benteke"
-                        }
-                    ],
-                    "cards": [
-                        {
-                            "minute": "42",
-                            "card": "yellow",
-                            "player": "Steven Defour"
-                        },
-                        {
-                            "minute": "83",
-                            "card": "yellow",
-                            "player": "Phil Bardsley"
-                        },
-                        {
-                            "minute": "85",
-                            "card": "yellow",
-                            "player": "Charlie Taylor"
-                        }
-                    ],
-                    "substitutions": [
-                        {
-                            "minute": "63",
-                            "in": "Georges-Kévin Nkoudou",
-                            "out": "Jeff Hendrick"
-                        },
-                        {
-                            "minute": "85",
-                            "in": "Nahki Wells",
-                            "out": "Johann Berg Gudmundsson"
-                        }
-                    ],
-                    "referee": "Michael Oliver",
-                    "kick_off": "15:00"
-                }
-            },
-            {
-                "home_team": "Chelsea",
-                "away_team": "Leicester",
-                "score": "0-0",
-                "url": "https://www.premierleague.com/match/22563",
-                "details": {
-                    "goals": [],
-                    "cards": [
-                        {
-                            "minute": "18",
-                            "card": "yellow",
-                            "player": "Matty James"
-                        },
-                        {
-                            "minute": "56",
-                            "card": "yellow",
-                            "player": "N'Golo Kanté"
-                        },
-                        {
-                            "minute": "61",
-                            "card": "yellow",
-                            "player": "Shinji Okazaki"
-                        },
-                        {
-                            "minute": "63",
-                            "card": "yellow",
-                            "player": "Ben Chilwell"
-                        },
-                        {
-                            "minute": "68",
-                            "card": "red",
-                            "player": "Ben Chilwell"
-                        },
-                        {
-                            "minute": "87",
-                            "card": "yellow",
-                            "player": "Álvaro Morata"
-                        }
-                    ],
-                    "substitutions": [
-                        {
-                            "minute": "33",
-                            "in": "Andreas Christensen",
-                            "out": "Gary Cahill"
-                        },
-                        {
-                            "minute": "58",
-                            "in": "Pedro",
-                            "out": "Eden Hazard"
-                        },
-                        {
-                            "minute": "58",
-                            "in": "Willian",
-                            "out": "Cesc Fàbregas"
-                        },
-                        {
-                            "minute": "73",
-                            "in": "Christian Fuchs",
-                            "out": "Shinji Okazaki"
-                        },
-                        {
-                            "minute": "82",
-                            "in": "Demarai Gray",
-                            "out": "Jamie Vardy"
-                        },
-                        {
-                            "minute": "90",
-                            "in": "Vicente Iborra",
-                            "out": "Matty James"
-                        }
-                    ],
-                    "referee": "Mike Jones",
-                    "kick_off": "15:00"
-                }
-            },
-            {
-                "home_team": "Spurs",
-                "away_team": "Everton",
-                "score": "4-0",
-                "url": "https://www.premierleague.com/match/22569",
-                "details": {
-                    "goals": [
-                        {
-                            "minute": "26",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Son Heung-Min",
-                            "assist": "Serge Aurier"
-                        },
-                        {
-                            "minute": "47",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Harry Kane",
-                            "assist": "Son Heung-Min"
-                        },
-                        {
-                            "minute": "59",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Harry Kane",
-                            "assist": "Eric Dier"
-                        },
-                        {
-                            "minute": "81",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Christian Eriksen",
-                            "assist": "Dele Alli"
-                        }
-                    ],
-                    "cards": [
-                        {
-                            "minute": "45",
-                            "card": "yellow",
-                            "player": "Phil Jagielka"
-                        },
-                        {
-                            "minute": "75",
-                            "card": "yellow",
-                            "player": "Wayne Rooney"
-                        }
-                    ],
-                    "substitutions": [
-                        {
-                            "minute": "57",
-                            "in": "Aaron Lennon",
-                            "out": "Yannick Bolasie"
-                        },
-                        {
-                            "minute": "62",
-                            "in": "Dominic Calvert-Lewin",
-                            "out": "Cenk Tosun"
-                        },
-                        {
-                            "minute": "72",
-                            "in": "Morgan Schneiderlin",
-                            "out": "James McCarthy"
-                        },
-                        {
-                            "minute": "74",
-                            "in": "Victor Wanyama",
-                            "out": "Eric Dier"
-                        },
-                        {
-                            "minute": "82",
-                            "in": "Moussa Sissoko",
-                            "out": "Mousa Dembélé"
-                        },
-                        {
-                            "minute": "87",
-                            "in": "Erik Lamela",
-                            "out": "Christian Eriksen"
-                        }
-                    ],
-                    "referee": "Craig Pawson",
-                    "kick_off": "17:30"
-                }
-            },
-            {
                 "home_team": "West Brom",
                 "away_team": "Brighton",
                 "score": "2-0",
@@ -265,7 +58,49 @@
                         }
                     ],
                     "referee": "Martin Atkinson",
-                    "kick_off": "15:00"
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "44.1",
+                            "away": "55.9"
+                        },
+                        "shots_on_target": {
+                            "home": "4",
+                            "away": "1"
+                        },
+                        "shots": {
+                            "home": "15",
+                            "away": "13"
+                        },
+                        "touches": {
+                            "home": "545",
+                            "away": "638"
+                        },
+                        "passes": {
+                            "home": "355",
+                            "away": "450"
+                        },
+                        "tackles": {
+                            "home": "9",
+                            "away": "17"
+                        },
+                        "clearances": {
+                            "home": "25",
+                            "away": "35"
+                        },
+                        "corners": {
+                            "home": "9",
+                            "away": "6"
+                        },
+                        "offsides": {
+                            "home": "3",
+                            "away": "2"
+                        },
+                        "fouls_conceded": {
+                            "home": "8",
+                            "away": "15"
+                        }
+                    }
                 }
             },
             {
@@ -364,7 +199,53 @@
                         }
                     ],
                     "referee": "Roger East",
-                    "kick_off": "15:00"
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "55.6",
+                            "away": "44.4"
+                        },
+                        "shots_on_target": {
+                            "home": "4",
+                            "away": "4"
+                        },
+                        "shots": {
+                            "home": "16",
+                            "away": "10"
+                        },
+                        "touches": {
+                            "home": "686",
+                            "away": "582"
+                        },
+                        "passes": {
+                            "home": "464",
+                            "away": "376"
+                        },
+                        "tackles": {
+                            "home": "14",
+                            "away": "15"
+                        },
+                        "clearances": {
+                            "home": "21",
+                            "away": "32"
+                        },
+                        "corners": {
+                            "home": "5",
+                            "away": "4"
+                        },
+                        "offsides": {
+                            "home": "0",
+                            "away": "3"
+                        },
+                        "yellow_cards": {
+                            "home": "0",
+                            "away": "5"
+                        },
+                        "fouls_conceded": {
+                            "home": "11",
+                            "away": "13"
+                        }
+                    }
                 }
             },
             {
@@ -432,7 +313,53 @@
                         }
                     ],
                     "referee": "Graham Scott",
-                    "kick_off": "15:00"
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "42.2",
+                            "away": "57.8"
+                        },
+                        "shots_on_target": {
+                            "home": "4",
+                            "away": "5"
+                        },
+                        "shots": {
+                            "home": "12",
+                            "away": "8"
+                        },
+                        "touches": {
+                            "home": "543",
+                            "away": "681"
+                        },
+                        "passes": {
+                            "home": "369",
+                            "away": "500"
+                        },
+                        "tackles": {
+                            "home": "22",
+                            "away": "8"
+                        },
+                        "clearances": {
+                            "home": "19",
+                            "away": "20"
+                        },
+                        "corners": {
+                            "home": "4",
+                            "away": "5"
+                        },
+                        "offsides": {
+                            "home": "2",
+                            "away": "0"
+                        },
+                        "yellow_cards": {
+                            "home": "0",
+                            "away": "3"
+                        },
+                        "fouls_conceded": {
+                            "home": "11",
+                            "away": "10"
+                        }
+                    }
                 }
             },
             {
@@ -512,7 +439,402 @@
                         }
                     ],
                     "referee": "Jonathan Moss",
-                    "kick_off": "15:00"
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "64.8",
+                            "away": "35.2"
+                        },
+                        "shots_on_target": {
+                            "home": "2",
+                            "away": "6"
+                        },
+                        "shots": {
+                            "home": "8",
+                            "away": "8"
+                        },
+                        "touches": {
+                            "home": "736",
+                            "away": "508"
+                        },
+                        "passes": {
+                            "home": "548",
+                            "away": "306"
+                        },
+                        "tackles": {
+                            "home": "13",
+                            "away": "21"
+                        },
+                        "clearances": {
+                            "home": "20",
+                            "away": "30"
+                        },
+                        "corners": {
+                            "home": "7",
+                            "away": "3"
+                        },
+                        "offsides": {
+                            "home": "0",
+                            "away": "5"
+                        },
+                        "yellow_cards": {
+                            "home": "1",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "7",
+                            "away": "9"
+                        }
+                    }
+                }
+            },
+            {
+                "home_team": "Crystal Palace",
+                "away_team": "Burnley",
+                "score": "1-0",
+                "url": "https://www.premierleague.com/match/22564",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "21",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Bakary Sako",
+                            "assist": "Christian Benteke"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "42",
+                            "card": "yellow",
+                            "player": "Steven Defour"
+                        },
+                        {
+                            "minute": "83",
+                            "card": "yellow",
+                            "player": "Phil Bardsley"
+                        },
+                        {
+                            "minute": "85",
+                            "card": "yellow",
+                            "player": "Charlie Taylor"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "63",
+                            "in": "Georges-Kévin Nkoudou",
+                            "out": "Jeff Hendrick"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "Nahki Wells",
+                            "out": "Johann Berg Gudmundsson"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "44.2",
+                            "away": "55.8"
+                        },
+                        "shots_on_target": {
+                            "home": "2",
+                            "away": "2"
+                        },
+                        "shots": {
+                            "home": "17",
+                            "away": "8"
+                        },
+                        "touches": {
+                            "home": "522",
+                            "away": "615"
+                        },
+                        "passes": {
+                            "home": "324",
+                            "away": "415"
+                        },
+                        "tackles": {
+                            "home": "18",
+                            "away": "19"
+                        },
+                        "clearances": {
+                            "home": "27",
+                            "away": "21"
+                        },
+                        "corners": {
+                            "home": "3",
+                            "away": "2"
+                        },
+                        "offsides": {
+                            "home": "0",
+                            "away": "4"
+                        },
+                        "yellow_cards": {
+                            "home": "0",
+                            "away": "3"
+                        },
+                        "fouls_conceded": {
+                            "home": "16",
+                            "away": "10"
+                        }
+                    }
+                }
+            },
+            {
+                "home_team": "Chelsea",
+                "away_team": "Leicester",
+                "score": "0-0",
+                "url": "https://www.premierleague.com/match/22563",
+                "details": {
+                    "goals": [],
+                    "cards": [
+                        {
+                            "minute": "18",
+                            "card": "yellow",
+                            "player": "Matty James"
+                        },
+                        {
+                            "minute": "56",
+                            "card": "yellow",
+                            "player": "N'Golo Kanté"
+                        },
+                        {
+                            "minute": "61",
+                            "card": "yellow",
+                            "player": "Shinji Okazaki"
+                        },
+                        {
+                            "minute": "63",
+                            "card": "yellow",
+                            "player": "Ben Chilwell"
+                        },
+                        {
+                            "minute": "68",
+                            "card": "red",
+                            "player": "Ben Chilwell"
+                        },
+                        {
+                            "minute": "87",
+                            "card": "yellow",
+                            "player": "Álvaro Morata"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "33",
+                            "in": "Andreas Christensen",
+                            "out": "Gary Cahill"
+                        },
+                        {
+                            "minute": "58",
+                            "in": "Pedro",
+                            "out": "Eden Hazard"
+                        },
+                        {
+                            "minute": "58",
+                            "in": "Willian",
+                            "out": "Cesc Fàbregas"
+                        },
+                        {
+                            "minute": "73",
+                            "in": "Christian Fuchs",
+                            "out": "Shinji Okazaki"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Demarai Gray",
+                            "out": "Jamie Vardy"
+                        },
+                        {
+                            "minute": "90",
+                            "in": "Vicente Iborra",
+                            "out": "Matty James"
+                        }
+                    ],
+                    "referee": "Mike Jones",
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "55.5",
+                            "away": "44.5"
+                        },
+                        "shots_on_target": {
+                            "home": "7",
+                            "away": "1"
+                        },
+                        "shots": {
+                            "home": "17",
+                            "away": "14"
+                        },
+                        "touches": {
+                            "home": "704",
+                            "away": "615"
+                        },
+                        "passes": {
+                            "home": "511",
+                            "away": "415"
+                        },
+                        "tackles": {
+                            "home": "13",
+                            "away": "14"
+                        },
+                        "clearances": {
+                            "home": "15",
+                            "away": "24"
+                        },
+                        "corners": {
+                            "home": "6",
+                            "away": "3"
+                        },
+                        "offsides": {
+                            "home": "5",
+                            "away": "3"
+                        },
+                        "yellow_cards": {
+                            "home": "2",
+                            "away": "2"
+                        },
+                        "red_cards": {
+                            "home": "0",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "14",
+                            "away": "13"
+                        }
+                    }
+                }
+            },
+            {
+                "home_team": "Spurs",
+                "away_team": "Everton",
+                "score": "4-0",
+                "url": "https://www.premierleague.com/match/22569",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "26",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Son Heung-Min",
+                            "assist": "Serge Aurier"
+                        },
+                        {
+                            "minute": "47",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Harry Kane",
+                            "assist": "Son Heung-Min"
+                        },
+                        {
+                            "minute": "59",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Harry Kane",
+                            "assist": "Eric Dier"
+                        },
+                        {
+                            "minute": "81",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Christian Eriksen",
+                            "assist": "Dele Alli"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "45",
+                            "card": "yellow",
+                            "player": "Phil Jagielka"
+                        },
+                        {
+                            "minute": "75",
+                            "card": "yellow",
+                            "player": "Wayne Rooney"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "57",
+                            "in": "Aaron Lennon",
+                            "out": "Yannick Bolasie"
+                        },
+                        {
+                            "minute": "62",
+                            "in": "Dominic Calvert-Lewin",
+                            "out": "Cenk Tosun"
+                        },
+                        {
+                            "minute": "72",
+                            "in": "Morgan Schneiderlin",
+                            "out": "James McCarthy"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Victor Wanyama",
+                            "out": "Eric Dier"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Moussa Sissoko",
+                            "out": "Mousa Dembélé"
+                        },
+                        {
+                            "minute": "87",
+                            "in": "Erik Lamela",
+                            "out": "Christian Eriksen"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "kick_off": "17:30",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "61.5",
+                            "away": "38.5"
+                        },
+                        "shots_on_target": {
+                            "home": "10",
+                            "away": "0"
+                        },
+                        "shots": {
+                            "home": "20",
+                            "away": "7"
+                        },
+                        "touches": {
+                            "home": "785",
+                            "away": "561"
+                        },
+                        "passes": {
+                            "home": "579",
+                            "away": "360"
+                        },
+                        "tackles": {
+                            "home": "18",
+                            "away": "17"
+                        },
+                        "clearances": {
+                            "home": "22",
+                            "away": "24"
+                        },
+                        "corners": {
+                            "home": "3",
+                            "away": "3"
+                        },
+                        "offsides": {
+                            "home": "2",
+                            "away": "7"
+                        },
+                        "yellow_cards": {
+                            "home": "0",
+                            "away": "2"
+                        },
+                        "fouls_conceded": {
+                            "home": "11",
+                            "away": "15"
+                        }
+                    }
                 }
             }
         ]

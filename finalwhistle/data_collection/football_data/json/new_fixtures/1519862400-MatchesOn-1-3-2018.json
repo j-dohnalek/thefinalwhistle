@@ -61,7 +61,53 @@
                         }
                     ],
                     "referee": "Andre Marriner",
-                    "kick_off": "19:45"
+                    "kick_off": "19:45",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "45.8",
+                            "away": "54.2"
+                        },
+                        "shots_on_target": {
+                            "home": "5",
+                            "away": "5"
+                        },
+                        "shots": {
+                            "home": "10",
+                            "away": "9"
+                        },
+                        "touches": {
+                            "home": "718",
+                            "away": "859"
+                        },
+                        "passes": {
+                            "home": "538",
+                            "away": "653"
+                        },
+                        "tackles": {
+                            "home": "24",
+                            "away": "11"
+                        },
+                        "clearances": {
+                            "home": "11",
+                            "away": "31"
+                        },
+                        "corners": {
+                            "home": "6",
+                            "away": "1"
+                        },
+                        "offsides": {
+                            "home": "0",
+                            "away": "1"
+                        },
+                        "yellow_cards": {
+                            "home": "1",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "11",
+                            "away": "11"
+                        }
+                    }
                 }
             }
         ]

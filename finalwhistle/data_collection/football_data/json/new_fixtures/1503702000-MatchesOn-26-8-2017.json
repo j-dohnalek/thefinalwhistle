@@ -3,168 +3,6 @@
         "date": "Saturday 26 August 2017",
         "fixtures": [
             {
-                "home_team": "Crystal Palace",
-                "away_team": "Swansea",
-                "score": "0-2",
-                "url": "https://www.premierleague.com/match/22364",
-                "details": {
-                    "goals": [
-                        {
-                            "minute": "44",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Tammy Abraham",
-                            "assist": "Leroy Fer"
-                        },
-                        {
-                            "minute": "48",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Jordan Ayew",
-                            "assist": "Kyle Naughton"
-                        }
-                    ],
-                    "cards": [
-                        {
-                            "minute": "10",
-                            "card": "yellow",
-                            "player": "Christian Benteke"
-                        },
-                        {
-                            "minute": "77",
-                            "card": "yellow",
-                            "player": "Joel Ward"
-                        },
-                        {
-                            "minute": "79",
-                            "card": "yellow",
-                            "player": "Yohan Cabaye"
-                        },
-                        {
-                            "minute": "80",
-                            "card": "yellow",
-                            "player": "Leroy Fer"
-                        },
-                        {
-                            "minute": "90",
-                            "additional": "3",
-                            "card": "yellow",
-                            "player": "Jason Puncheon"
-                        }
-                    ],
-                    "substitutions": [
-                        {
-                            "minute": "41",
-                            "in": "Martin Kelly",
-                            "out": "James Tomkins"
-                        },
-                        {
-                            "minute": "45",
-                            "in": "Lee Chung-yong",
-                            "out": "Patrick van Aanholt"
-                        },
-                        {
-                            "minute": "58",
-                            "in": "Yohan Cabaye",
-                            "out": "Luka Milivojevic"
-                        },
-                        {
-                            "minute": "70",
-                            "in": "Wayne Routledge",
-                            "out": "Mike van der Hoorn"
-                        },
-                        {
-                            "minute": "78",
-                            "in": "Oliver McBurnie",
-                            "out": "Tammy Abraham"
-                        },
-                        {
-                            "minute": "88",
-                            "in": "Angel Rangel",
-                            "out": "Kyle Naughton"
-                        }
-                    ],
-                    "referee": "Andre Marriner",
-                    "kick_off": "15:00"
-                }
-            },
-            {
-                "home_team": "Man Utd",
-                "away_team": "Leicester",
-                "score": "2-0",
-                "url": "https://www.premierleague.com/match/22367",
-                "details": {
-                    "goals": [
-                        {
-                            "minute": "70",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Marcus Rashford",
-                            "assist": "Henrikh Mkhitaryan"
-                        },
-                        {
-                            "minute": "82",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Marouane Fellaini",
-                            "assist": "Jesse Lingard"
-                        }
-                    ],
-                    "cards": [
-                        {
-                            "minute": "54",
-                            "card": "yellow",
-                            "player": "Henrikh Mkhitaryan"
-                        },
-                        {
-                            "minute": "89",
-                            "card": "yellow",
-                            "player": "Matty James"
-                        },
-                        {
-                            "minute": "90",
-                            "additional": "5",
-                            "card": "yellow",
-                            "player": "Kasper Schmeichel"
-                        }
-                    ],
-                    "substitutions": [
-                        {
-                            "minute": "60",
-                            "in": "Demarai Gray",
-                            "out": "Marc Albrighton"
-                        },
-                        {
-                            "minute": "60",
-                            "in": "Andy King",
-                            "out": "Shinji Okazaki"
-                        },
-                        {
-                            "minute": "67",
-                            "in": "Marcus Rashford",
-                            "out": "Juan Mata"
-                        },
-                        {
-                            "minute": "74",
-                            "in": "Marouane Fellaini",
-                            "out": "Henrikh Mkhitaryan"
-                        },
-                        {
-                            "minute": "76",
-                            "in": "Jesse Lingard",
-                            "out": "Anthony Martial"
-                        },
-                        {
-                            "minute": "76",
-                            "in": "Islam Slimani",
-                            "out": "Jamie Vardy"
-                        }
-                    ],
-                    "referee": "Michael Oliver",
-                    "kick_off": "17:30"
-                }
-            },
-            {
                 "home_team": "Bournemouth",
                 "away_team": "Man City",
                 "score": "1-2",
@@ -284,7 +122,57 @@
                         }
                     ],
                     "referee": "Mike Dean",
-                    "kick_off": "12:30"
+                    "kick_off": "12:30",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "29.8",
+                            "away": "70.2"
+                        },
+                        "shots_on_target": {
+                            "home": "3",
+                            "away": "8"
+                        },
+                        "shots": {
+                            "home": "9",
+                            "away": "19"
+                        },
+                        "touches": {
+                            "home": "450",
+                            "away": "849"
+                        },
+                        "passes": {
+                            "home": "258",
+                            "away": "604"
+                        },
+                        "tackles": {
+                            "home": "20",
+                            "away": "13"
+                        },
+                        "clearances": {
+                            "home": "31",
+                            "away": "35"
+                        },
+                        "corners": {
+                            "home": "2",
+                            "away": "5"
+                        },
+                        "offsides": {
+                            "home": "0",
+                            "away": "3"
+                        },
+                        "yellow_cards": {
+                            "home": "5",
+                            "away": "4"
+                        },
+                        "red_cards": {
+                            "home": "0",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "13",
+                            "away": "14"
+                        }
+                    }
                 }
             },
             {
@@ -340,7 +228,57 @@
                         }
                     ],
                     "referee": "Graham Scott",
-                    "kick_off": "15:00"
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "42.2",
+                            "away": "57.8"
+                        },
+                        "shots_on_target": {
+                            "home": "0",
+                            "away": "2"
+                        },
+                        "shots": {
+                            "home": "8",
+                            "away": "16"
+                        },
+                        "touches": {
+                            "home": "514",
+                            "away": "611"
+                        },
+                        "passes": {
+                            "home": "334",
+                            "away": "433"
+                        },
+                        "tackles": {
+                            "home": "10",
+                            "away": "12"
+                        },
+                        "clearances": {
+                            "home": "36",
+                            "away": "22"
+                        },
+                        "corners": {
+                            "home": "3",
+                            "away": "11"
+                        },
+                        "offsides": {
+                            "home": "0",
+                            "away": "5"
+                        },
+                        "yellow_cards": {
+                            "home": "0",
+                            "away": "1"
+                        },
+                        "red_cards": {
+                            "home": "1",
+                            "away": "0"
+                        },
+                        "fouls_conceded": {
+                            "home": "7",
+                            "away": "18"
+                        }
+                    }
                 }
             },
             {
@@ -427,7 +365,53 @@
                         }
                     ],
                     "referee": "Neil Swarbrick",
-                    "kick_off": "15:00"
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "37.5",
+                            "away": "62.5"
+                        },
+                        "shots_on_target": {
+                            "home": "8",
+                            "away": "3"
+                        },
+                        "shots": {
+                            "home": "17",
+                            "away": "8"
+                        },
+                        "touches": {
+                            "home": "457",
+                            "away": "661"
+                        },
+                        "passes": {
+                            "home": "271",
+                            "away": "473"
+                        },
+                        "tackles": {
+                            "home": "14",
+                            "away": "17"
+                        },
+                        "clearances": {
+                            "home": "21",
+                            "away": "22"
+                        },
+                        "corners": {
+                            "home": "7",
+                            "away": "5"
+                        },
+                        "offsides": {
+                            "home": "0",
+                            "away": "2"
+                        },
+                        "yellow_cards": {
+                            "home": "1",
+                            "away": "3"
+                        },
+                        "fouls_conceded": {
+                            "home": "17",
+                            "away": "11"
+                        }
+                    }
                 }
             },
             {
@@ -478,7 +462,307 @@
                         }
                     ],
                     "referee": "Stuart Attwell",
-                    "kick_off": "15:00"
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "44.7",
+                            "away": "55.3"
+                        },
+                        "shots_on_target": {
+                            "home": "6",
+                            "away": "3"
+                        },
+                        "shots": {
+                            "home": "16",
+                            "away": "6"
+                        },
+                        "touches": {
+                            "home": "581",
+                            "away": "704"
+                        },
+                        "passes": {
+                            "home": "378",
+                            "away": "502"
+                        },
+                        "tackles": {
+                            "home": "17",
+                            "away": "16"
+                        },
+                        "clearances": {
+                            "home": "19",
+                            "away": "29"
+                        },
+                        "corners": {
+                            "home": "5",
+                            "away": "4"
+                        },
+                        "offsides": {
+                            "home": "0",
+                            "away": "3"
+                        },
+                        "yellow_cards": {
+                            "home": "0",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "10",
+                            "away": "10"
+                        }
+                    }
+                }
+            },
+            {
+                "home_team": "Crystal Palace",
+                "away_team": "Swansea",
+                "score": "0-2",
+                "url": "https://www.premierleague.com/match/22364",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "44",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Tammy Abraham",
+                            "assist": "Leroy Fer"
+                        },
+                        {
+                            "minute": "48",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Jordan Ayew",
+                            "assist": "Kyle Naughton"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "10",
+                            "card": "yellow",
+                            "player": "Christian Benteke"
+                        },
+                        {
+                            "minute": "77",
+                            "card": "yellow",
+                            "player": "Joel Ward"
+                        },
+                        {
+                            "minute": "79",
+                            "card": "yellow",
+                            "player": "Yohan Cabaye"
+                        },
+                        {
+                            "minute": "80",
+                            "card": "yellow",
+                            "player": "Leroy Fer"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "card": "yellow",
+                            "player": "Jason Puncheon"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "41",
+                            "in": "Martin Kelly",
+                            "out": "James Tomkins"
+                        },
+                        {
+                            "minute": "45",
+                            "in": "Lee Chung-yong",
+                            "out": "Patrick van Aanholt"
+                        },
+                        {
+                            "minute": "58",
+                            "in": "Yohan Cabaye",
+                            "out": "Luka Milivojevic"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "Wayne Routledge",
+                            "out": "Mike van der Hoorn"
+                        },
+                        {
+                            "minute": "78",
+                            "in": "Oliver McBurnie",
+                            "out": "Tammy Abraham"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "Angel Rangel",
+                            "out": "Kyle Naughton"
+                        }
+                    ],
+                    "referee": "Andre Marriner",
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "53.1",
+                            "away": "46.9"
+                        },
+                        "shots_on_target": {
+                            "home": "3",
+                            "away": "3"
+                        },
+                        "shots": {
+                            "home": "16",
+                            "away": "7"
+                        },
+                        "touches": {
+                            "home": "674",
+                            "away": "618"
+                        },
+                        "passes": {
+                            "home": "504",
+                            "away": "464"
+                        },
+                        "tackles": {
+                            "home": "16",
+                            "away": "20"
+                        },
+                        "clearances": {
+                            "home": "9",
+                            "away": "28"
+                        },
+                        "corners": {
+                            "home": "1",
+                            "away": "1"
+                        },
+                        "offsides": {
+                            "home": "0",
+                            "away": "3"
+                        },
+                        "yellow_cards": {
+                            "home": "4",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "9",
+                            "away": "6"
+                        }
+                    }
+                }
+            },
+            {
+                "home_team": "Man Utd",
+                "away_team": "Leicester",
+                "score": "2-0",
+                "url": "https://www.premierleague.com/match/22367",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "70",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Marcus Rashford",
+                            "assist": "Henrikh Mkhitaryan"
+                        },
+                        {
+                            "minute": "82",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Marouane Fellaini",
+                            "assist": "Jesse Lingard"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "54",
+                            "card": "yellow",
+                            "player": "Henrikh Mkhitaryan"
+                        },
+                        {
+                            "minute": "89",
+                            "card": "yellow",
+                            "player": "Matty James"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "5",
+                            "card": "yellow",
+                            "player": "Kasper Schmeichel"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "60",
+                            "in": "Demarai Gray",
+                            "out": "Marc Albrighton"
+                        },
+                        {
+                            "minute": "60",
+                            "in": "Andy King",
+                            "out": "Shinji Okazaki"
+                        },
+                        {
+                            "minute": "67",
+                            "in": "Marcus Rashford",
+                            "out": "Juan Mata"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Marouane Fellaini",
+                            "out": "Henrikh Mkhitaryan"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Jesse Lingard",
+                            "out": "Anthony Martial"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Islam Slimani",
+                            "out": "Jamie Vardy"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "17:30",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "69.1",
+                            "away": "30.9"
+                        },
+                        "shots_on_target": {
+                            "home": "7",
+                            "away": "4"
+                        },
+                        "shots": {
+                            "home": "22",
+                            "away": "11"
+                        },
+                        "touches": {
+                            "home": "863",
+                            "away": "493"
+                        },
+                        "passes": {
+                            "home": "662",
+                            "away": "300"
+                        },
+                        "tackles": {
+                            "home": "9",
+                            "away": "22"
+                        },
+                        "clearances": {
+                            "home": "17",
+                            "away": "41"
+                        },
+                        "corners": {
+                            "home": "9",
+                            "away": "3"
+                        },
+                        "offsides": {
+                            "home": "2",
+                            "away": "3"
+                        },
+                        "yellow_cards": {
+                            "home": "1",
+                            "away": "2"
+                        },
+                        "fouls_conceded": {
+                            "home": "8",
+                            "away": "7"
+                        }
+                    }
                 }
             }
         ]

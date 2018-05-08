@@ -9,11 +9,11 @@
                 <div class="col-md-8 offset-md-2">
                     <div class="card box-shadow" style="background: rgba(255,255,255,0.8);">
                         <div class="card-body text-center p-4">
-                            <img height="70px" src="{{ last_match['home_crest'] }}" alt="{{ last_match['home_team'] }}" />
+                            <img height="70" src="{{ last_match['home_crest'] }}" alt="{{ last_match['home_team'] }}" />
                             <h1 class="heading d-inline mb-0 px-3 align-middle"> {{last_match['home_team']}} </h1>
                             <h1 class="font-weight-light d-inline mb-0 align-middle"> {{ last_match['home_goals'] }} : {{ last_match['away_goals'] }} </h1>
                             <h1 class="heading d-inline mb-0 px-3 align-middle"> {{last_match['away_team']}} </h1>
-                            <img height="70px" src="{{ last_match['away_crest'] }}" alt="{{ last_match['away_team'] }}" />
+                            <img height="70" src="{{ last_match['away_crest'] }}" alt="{{ last_match['away_team'] }}" />
                             <div>
                                 <a class="btn btn-outline-dark mt-3" href="{{ url_for('match_page', id=last_match['match_id'])}}">
                                     View match <i class="fas fa-futbol"></i>
@@ -81,11 +81,13 @@
                             <h5 class="card-title">League Table</h5>
                             <table class="table table-sm table-hover mb-0">
                                 <thead>
-                                    <th scope="col"></th>
-                                    <th scope="col">Team</th>
-                                    <th scope="col" class="text-right">P</th>
-                                    <th scope="col" class="text-right">GD</th>
-                                    <th scope="col" class="text-right">Pts</th>
+                                    <tr>
+                                        <th scope="col"></th>
+                                        <th scope="col"> Team</th>
+                                        <th scope="col" class="text-right">P</th>
+                                        <th scope="col" class="text-right">GD</th>
+                                        <th scope="col" class="text-right">Pts</th>
+                                    </tr>
                                 </thead>
                                 <tbody>
                                     {% for position in range(1, table|length + 1) %}
