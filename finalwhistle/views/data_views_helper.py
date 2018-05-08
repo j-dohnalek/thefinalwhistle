@@ -3,8 +3,7 @@ from finalwhistle.apis import fd_api
 from finalwhistle.models.football import *
 from sqlalchemy import or_, desc, func, asc
 import json
-from flask import request
-from finalwhistle import db
+from finalwhistle.apis.fd_api import EPL
 
 # CONSTANTS #####################################################################
 
@@ -15,8 +14,8 @@ CLUB_CRESTS = ROOT + 'cache/club_crests.json'
 TABLE_JSON = ROOT + 'cache/tmp/table.json'
 PLAYER_IMAGES = ROOT + 'cache/players_images.json'
 
-EPL = 445  # English Premier League 2017-2018
 STATS = ['Shots', 'Shots on Target', 'Corners', 'Fouls', 'Yellow Cards', 'Red Cards']
+
 
 # CLASS #########################################################################
 
@@ -76,7 +75,7 @@ def get_all_teams():
     source = '/v1/competitions/{}/teams'.format(EPL)
     
     # renew every 60 minutes
-    teams = fd_api.fetch_api_data(source, 60)
+    teams = fd_api.fetch_api_data(source, 9999)
     team_list = []
 
     for team in teams['teams']:
