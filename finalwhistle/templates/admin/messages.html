@@ -1,0 +1,29 @@
+{% extends "admin/base.html" %}
+
+{% block custom_head %}
+{% endblock custom_head %}
+
+{% block content %}
+
+<div class="container-fluid">
+    <div class="row">
+        {% include 'admin/sidebar.html' %}
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+            {% for message in messages %}
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ message.sender_name }}, {{ message.sender_email }}</h5>
+                        <h6 class="card-subtitle mb-4 text-muted">Subject: {{ message.subject }}</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">Body:</h6>
+                        <p class="card-text"> {{ message.body }}</p>
+                        <a href="{{ url_for('message_overview') }}?delete={{ message.id }}" class="btn btn-danger">Delete</a>
+                    </div>
+                </div>
+            {% endfor %}
+        </main>
+    </div>
+</div>
+{% endblock content %}
+
+{% block custom_scripts %}
+{% endblock custom_scripts %}

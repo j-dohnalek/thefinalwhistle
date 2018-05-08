@@ -1,4 +1,4 @@
-from premierleague import get_fixtures as ws
+from finalwhistle.data_collection.premierleague import fixtures as ws
 import unittest
 
 

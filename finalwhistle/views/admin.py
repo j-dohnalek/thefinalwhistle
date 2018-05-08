@@ -7,6 +7,7 @@ from finalwhistle.models.article import create_new_article, update_existing_arti
 
 from finalwhistle.models.user import User
 from finalwhistle.models.article import Article
+from finalwhistle.models.contact import fetch_all_messages, delete_message
 
 from flask import request
 
@@ -39,6 +40,23 @@ def new_article():
                 flash('Article could not be posted - please inform an administrator')
                 return redirect(url_for('new_article'))
     return render_template('admin/new_article.html')
+
+
+@app.route('/admin/messages', methods=['GET'])
+@login_required
+def message_overview():
+    messages = fetch_all_messages()
+    if request.method == 'GET':
+        try:
+            id = int(request.args.get('delete'))
+            messages = delete_message(id)
+            return redirect(url_for('message_overview'))
+        except ValueError:
+            pass
+        except TypeError:
+            pass
+
+    return render_template('admin/messages.html', messages=messages)
 
 
 @app.route('/admin/articles/edit/<id>', methods=['GET', 'POST'])
