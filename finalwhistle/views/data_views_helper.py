@@ -74,8 +74,8 @@ def get_all_teams():
 
     source = '/v1/competitions/{}/teams'.format(EPL)
     
-    # renew every 60 minutes
-    teams = fd_api.fetch_api_data(source, 9999)
+    # renew every 7 * 24 * 60 minutes
+    teams = fd_api.fetch_api_data(source, 10080)
     team_list = []
 
     for team in teams['teams']:
@@ -198,8 +198,9 @@ def get_team_information(id):
 
         source = '/v1/teams/{}'.format(team.api_id)
 
-        # renew every 2000 minutes
-        team_json = fd_api.fetch_api_data(source, 2000)
+        # renew every 7 * 24 * 60 minutes
+        team_json = fd_api.fetch_api_data(source, 10080)
+
         team_information['name'] = team.name
         team_information['crestUrl'] = team_json['crestUrl']
         team_information['stadium'] = team.stadium
