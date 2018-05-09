@@ -1,0 +1,121 @@
+[
+    {
+        "date": "Tuesday 8 May 2018",
+        "fixtures": [
+            {
+                "home_team": "Swansea",
+                "away_team": "Southampton",
+                "score": "0-1",
+                "url": "https://www.premierleague.com/match/22649",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "72",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Manolo Gabbiadini"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "20",
+                            "card": "yellow",
+                            "player": "Ki Sung-yueng"
+                        },
+                        {
+                            "minute": "38",
+                            "card": "yellow",
+                            "player": "Oriol Romeu"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "4",
+                            "card": "yellow",
+                            "player": "Federico Fernández"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "62",
+                            "in": "Tammy Abraham",
+                            "out": "Martin Olsson"
+                        },
+                        {
+                            "minute": "64",
+                            "in": "Shane Long",
+                            "out": "Nathan Redmond"
+                        },
+                        {
+                            "minute": "68",
+                            "in": "Manolo Gabbiadini",
+                            "out": "Jan Bednarek"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "Luciano Narsingh",
+                            "out": "Kyle Naughton"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Tom Carroll",
+                            "out": "Andy King"
+                        },
+                        {
+                            "minute": "83",
+                            "in": "Sam McQueen",
+                            "out": "Dusan Tadic"
+                        }
+                    ],
+                    "referee": "Michael Oliver",
+                    "kick_off": "19:45",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "53.5",
+                            "away": "46.5"
+                        },
+                        "shots_on_target": {
+                            "home": "3",
+                            "away": "8"
+                        },
+                        "shots": {
+                            "home": "11",
+                            "away": "13"
+                        },
+                        "touches": {
+                            "home": "622",
+                            "away": "564"
+                        },
+                        "passes": {
+                            "home": "417",
+                            "away": "370"
+                        },
+                        "tackles": {
+                            "home": "11",
+                            "away": "13"
+                        },
+                        "clearances": {
+                            "home": "18",
+                            "away": "56"
+                        },
+                        "corners": {
+                            "home": "7",
+                            "away": "6"
+                        },
+                        "offsides": {
+                            "home": "2",
+                            "away": "0"
+                        },
+                        "yellow_cards": {
+                            "home": "2",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "7",
+                            "away": "15"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]
