@@ -5,8 +5,9 @@ from finalwhistle.data_collection.analytics.access_token import get_access_token
 from finalwhistle import app
 from finalwhistle.models.article import create_new_article, update_existing_article
 
-from finalwhistle.models.user import User
+from finalwhistle.models.user import User, update_privilege
 from finalwhistle.models.article import Article
+from finalwhistle.models.contact import fetch_all_messages, delete_message
 
 from flask import request
 
@@ -20,6 +21,26 @@ def admin_overview():
 @app.route('/admin/users', methods=['GET'])
 @login_required
 def users_overview():
+
+    if request.method == 'GET':
+        editor = request.args.get('editor')
+        not_editor = request.args.get('noteditor')
+        try:
+            if editor is not None:
+                id = int(request.args.get('editor'))
+                update_privilege(id, 'editor', True)
+                return redirect(url_for('users_overview'))
+
+            if not_editor is not None:
+                id = int(request.args.get('noteditor'))
+                update_privilege(id, 'editor', False)
+                return redirect(url_for('users_overview'))
+
+        except ValueError:
+            pass
+        except TypeError:
+            pass
+
     return render_template('admin/users.html', users=User.query.all())
 
 
@@ -39,6 +60,23 @@ def new_article():
                 flash('Article could not be posted - please inform an administrator')
                 return redirect(url_for('new_article'))
     return render_template('admin/new_article.html')
+
+
+@app.route('/admin/messages', methods=['GET'])
+@login_required
+def message_overview():
+    messages = fetch_all_messages()
+    if request.method == 'GET':
+        try:
+            id = int(request.args.get('delete'))
+            messages = delete_message(id)
+            return redirect(url_for('message_overview'))
+        except ValueError:
+            pass
+        except TypeError:
+            pass
+
+    return render_template('admin/messages.html', messages=messages)
 
 
 @app.route('/admin/articles/edit/<id>', methods=['GET', 'POST'])

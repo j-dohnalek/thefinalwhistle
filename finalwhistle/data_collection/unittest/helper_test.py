@@ -1,4 +1,4 @@
-from premierleague import helper
+from finalwhistle.data_collection.premierleague import helper
 from flask_config import app as srv
 
 import unittest
