@@ -15,7 +15,8 @@ def create_new_article(author_id, title, body):
     try:
         new_article = Article(author_id=author_id,
                               title=title,
-                              body=body)
+                              body=body,
+                              featured_image='images/featured/default.jpg')
         db.session.add(new_article)
         db.session.commit()
         return new_article
