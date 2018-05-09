@@ -23,10 +23,19 @@ def admin_overview():
 def users_overview():
 
     if request.method == 'GET':
+        editor = request.args.get('editor')
+        not_editor = request.args.get('noteditor')
         try:
-            id = int(request.args.get('editor'))
-            update_privilege(id, 'editor', True)
-            return redirect(url_for('users_overview'))
+            if editor is not None:
+                id = int(request.args.get('editor'))
+                update_privilege(id, 'editor', True)
+                return redirect(url_for('users_overview'))
+
+            if not_editor is not None:
+                id = int(request.args.get('noteditor'))
+                update_privilege(id, 'editor', False)
+                return redirect(url_for('users_overview'))
+
         except ValueError:
             pass
         except TypeError:
