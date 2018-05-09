@@ -34,9 +34,6 @@ def fetch_api_data(url, minutes, override=False):
     # Check for the cached version exists
     if not my_file.is_file() or override or os.path.getatime(CACHE_PATH+file_path) < use_by:
 
-        if DEBUG:
-            print("Fetching online ...")
-
         connection = http.client.HTTPConnection(API_URL)
         headers = {'X-Auth-Token': API_TOKEN, 'X-Response-Control': 'minified'}
         connection.request('GET', url, None, headers)
@@ -45,11 +42,10 @@ def fetch_api_data(url, minutes, override=False):
 
         with open(CACHE_PATH + file_path, 'w') as outfile:
             json.dump(response, outfile, ensure_ascii=False, indent=4)
-            print('Caching {}'.format(file_path))
+            print('api.football-data.org .. caching {}'.format(file_path))
 
     else:
-        if DEBUG:
-            print("Fetching cached ...")
         with open(CACHE_PATH+file_path) as json_data:
             response = json.load(json_data)
+
     return response
