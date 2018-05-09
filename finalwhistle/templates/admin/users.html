@@ -14,23 +14,32 @@
                 <h1 class="h2">Users</h1>
             </div>
             <div class="row">
-
                 {% for user in users %}
-                <div class="col-md-6">
-                    <div class="card mb-4 box-shadow">
-                        <div class="card-body">
-                            <img src="http://hefefertilizer.com/img/users/alvaro.jpeg" class="rounded float-left mr-3" width="100px" alt="profile picture">
-                            <h2 class="card-title">{{ user.real_name }}</h2>
-                            <h6 class="card-subtitle mb-3 text-muted">{{ user.email }}</h6>
-                            <div class="d-flex justify-content-end align-items-center">
-                                <div>
-                                    <a href="#" class="btn btn-sm btn-outline-primary mr-2"><i class="fas fa-pencil-alt"></i> Make user editor</a>
-                                    <a href="#" class="btn btn-sm btn-outline-danger"><i class="fas fa-times"></i> Block user</a>
+                    {% if current_user.id != user.id %}
+                        <div class="col-md-6">
+                            <div class="card mb-4 box-shadow">
+                                <div class="card-body">
+                                    <img src="http://hefefertilizer.com/img/users/alvaro.jpeg"
+                                         class="rounded float-left mr-3"
+                                         width="100px" alt="profile picture">
+                                    <h2 class="card-title">{{ user.real_name }}</h2>
+                                    <h6 class="card-subtitle mb-3 text-muted">{{ user.email }}</h6>
+                                    <div class="d-flex justify-content-end align-items-center">
+                                        <div>
+                                            <a href="{{ url_for('users_overview') }}/?editor={{ user.id }}"
+                                               class="btn btn-sm btn-outline-primary mr-2">
+                                                <i class="fas fa-pencil-alt"></i> Make user editor
+                                            </a>
+                                            <a href="#"
+                                               class="btn btn-sm btn-outline-danger">
+                                                <i class="fas fa-times"></i> Block user
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    {% endif %}
                 {% endfor %}
 
             </div>

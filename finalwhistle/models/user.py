@@ -56,6 +56,37 @@ def attempt_login(email, password):
     return None
 
 
+def update_privilege(id, mode, new_state):
+    """
+    Update user privilege
+    :param id: user id
+    :param mode:
+    :param new_state:
+    :return:
+    """
+    try:
+        if User.query.filter(User.id == id).first() is None:
+            return None
+    except Exception:
+        return None
+
+    if 'editor' in mode and (new_state or not new_state):
+        user = User.query.filter_by(id=id).first()
+        user.is_editor = new_state
+        db.session.commit()
+        return user
+
+    """
+    if 'block' in mode and (new_state or not new_state):
+        user = User.query.filter_by(id=id).first()
+        user.blocked = new_state
+        db.session.commit()
+        return user
+    """
+
+    return None
+
+
 def create_new_user(email, username, password, name):
     """
     Create and commit a new User object
@@ -112,6 +143,7 @@ class User(UserMixin, db.Model):
     #usergroup_id = db.Column(db.Integer, db.ForeignKey('usergroups.id'), nullable=True)
     #usergroup = db.relationship('UserGroup')
     is_superuser = db.Column(db.Boolean, nullable=False, default=False)
+    is_editor = db.Column(db.Boolean, nullable=False, default=False)
 
     @validates('supported_team_id')
     def validate_supported_team_id(self, key, team_id):

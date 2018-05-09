@@ -5,7 +5,7 @@ from finalwhistle.data_collection.analytics.access_token import get_access_token
 from finalwhistle import app
 from finalwhistle.models.article import create_new_article, update_existing_article
 
-from finalwhistle.models.user import User
+from finalwhistle.models.user import User, update_privilege
 from finalwhistle.models.article import Article
 from finalwhistle.models.contact import fetch_all_messages, delete_message
 
@@ -21,6 +21,17 @@ def admin_overview():
 @app.route('/admin/users', methods=['GET'])
 @login_required
 def users_overview():
+
+    if request.method == 'GET':
+        try:
+            id = int(request.args.get('editor'))
+            update_privilege(id, 'editor', True)
+            return redirect(url_for('users_overview'))
+        except ValueError:
+            pass
+        except TypeError:
+            pass
+
     return render_template('admin/users.html', users=User.query.all())
 
 
