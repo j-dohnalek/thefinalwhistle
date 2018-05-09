@@ -22,11 +22,10 @@
 
 <body>
 <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
-    <a class="navbar-brand col-sm-3 col-md-2 mr-0 logo" href="{{ url_for('admin_overview') }}">
+    <a class="navbar-brand col-sm-3 col-md-2 mr-0 p-2 logo" href="{{ url_for('admin_overview') }}">
         <img src="{{ url_for('static', filename='images/logo.svg') }}">
         <span>The Final Whistle</span>
     </a>
-    <input class="form-control form-control-dark w-100" type="text" placeholder="&#xF002;   Search" style="font-family:FontAwesome, sans-serif">
     <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
             <a class="nav-link" href="{{ url_for('logout') }}">Sign out <i class="fas fa-sign-out-alt ml-1"></i></a>
