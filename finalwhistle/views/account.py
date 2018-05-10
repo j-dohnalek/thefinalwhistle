@@ -55,13 +55,8 @@ def register():
 
 
 @app.route('/forgot-password', methods=['GET'])
-def reset_password():
+def forgot_password():
     return render_template('forgot_password.html')
-
-
-@app.route('/forgot-password', methods=['POST'])
-def perform_reset_password():
-    return 'reset password post'
 
 
 @app.route('/verify-email', methods=['GET'])
