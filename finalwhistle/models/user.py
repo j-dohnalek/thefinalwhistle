@@ -76,13 +76,11 @@ def update_privilege(id, mode, new_state):
         db.session.commit()
         return user
 
-    """
     if 'block' in mode and (new_state or not new_state):
         user = User.query.filter_by(id=id).first()
-        user.blocked = new_state
+        user.is_blocked = new_state
         db.session.commit()
         return user
-    """
 
     return None
 
@@ -132,7 +130,6 @@ class User(UserMixin, db.Model):
     activated = db.Column(db.Boolean, nullable=False, default=False)
     # The user is emailed the activation token which can be entered by attempting to login or by clicking
     # a link emailed to them
-    activation_token = db.Column(db.String, nullable=False, default=new_uuid())
     registered_date = db.Column(db.DateTime, nullable=False, server_default=func.now())
     last_login = db.Column(db.DateTime, nullable=False, server_default=func.now())
     # Access token is used for password reset requests and the 'remember me' function
@@ -144,6 +141,7 @@ class User(UserMixin, db.Model):
     #usergroup = db.relationship('UserGroup')
     is_superuser = db.Column(db.Boolean, nullable=False, default=False)
     is_editor = db.Column(db.Boolean, nullable=False, default=False)
+    is_blocked = db.Column(db.Boolean, nullable=False, default=False)
 
     @validates('supported_team_id')
     def validate_supported_team_id(self, key, team_id):

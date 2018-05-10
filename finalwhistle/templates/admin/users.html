@@ -37,10 +37,19 @@
                                                 <i class="fas fa-pencil-alt"></i> Remove editor rights
                                             </a>
                                             {% endif %}
-                                            <a href="#"
+                                            {% if not user.is_blocked %}
+                                            <a href="{{ url_for('users_overview') }}?block={{ user.id }}"
                                                class="btn btn-sm btn-outline-danger">
                                                 <i class="fas fa-times"></i> Block user
                                             </a>
+                                            {% else %}
+                                            <a href="{{ url_for('users_overview') }}?unblock={{ user.id }}"
+                                               class="btn btn-sm btn-outline-success">
+                                                <i class="fas fa-times"></i> Unblock user
+                                            </a>
+                                            {% endif %}
+
+
                                         </div>
                                     </div>
                                 </div>

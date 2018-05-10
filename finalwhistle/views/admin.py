@@ -25,6 +25,9 @@ def users_overview():
     if request.method == 'GET':
         editor = request.args.get('editor')
         not_editor = request.args.get('noteditor')
+        blocked = request.args.get('block')
+        not_blocked = request.args.get('unblock')
+
         try:
             if editor is not None:
                 id = int(request.args.get('editor'))
@@ -34,6 +37,16 @@ def users_overview():
             if not_editor is not None:
                 id = int(request.args.get('noteditor'))
                 update_privilege(id, 'editor', False)
+                return redirect(url_for('users_overview'))
+
+            if blocked is not None:
+                id = int(request.args.get('block'))
+                update_privilege(id, 'block', True)
+                return redirect(url_for('users_overview'))
+
+            if not_blocked is not None:
+                id = int(request.args.get('unblock'))
+                update_privilege(id, 'block', False)
                 return redirect(url_for('users_overview'))
 
         except ValueError:
