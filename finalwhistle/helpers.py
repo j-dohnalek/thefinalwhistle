@@ -27,7 +27,7 @@ def remove_html_tags(text):
 def require_editor(f):
     @wraps(f)
     def decorated_function(*args, **kwargs):
-        if not current_user.is_editor:
+        if not (current_user.is_editor or current_user.is_superuser):
             flash('You do not have access to that page')
             return redirect(url_for('home'))
         return f(*args, **kwargs)
