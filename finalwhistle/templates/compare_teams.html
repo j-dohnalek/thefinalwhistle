@@ -87,6 +87,11 @@
                     <div class="card-header text-center">
                         <h5 class="mb-0">Goal Statistics</h5>
                     </div>
+                    <div class="px-md-5">
+                        <div class="px-lg-5 my-3">
+                            <canvas id="goal-1" height="250"></canvas>
+                        </div>
+                    </div>
                     <table class="table mb-0">
                         <thead>
                             <tr>
@@ -160,6 +165,11 @@
                     <div class="card-header text-center">
                         <h5 class="mb-0">Foul Statistics</h5>
                     </div>
+                    <div class="px-md-5">
+                        <div class="px-lg-5 my-3">
+                            <canvas id="foul-1" height="250"></canvas>
+                        </div>
+                    </div>
                     <table class="table mb-0">
                         <thead>
                             <tr>
@@ -226,6 +236,11 @@
                 <div class="card mb-4">
                     <div class="card-header text-center">
                         <h5 class="mb-0">Goal Statistics</h5>
+                    </div>
+                    <div class="px-md-5">
+                        <div class="px-lg-5 my-3">
+                            <canvas id="goal-2" height="250"></canvas>
+                        </div>
                     </div>
                     <table class="table mb-0">
                         <thead>
@@ -300,6 +315,11 @@
                     <div class="card-header text-center">
                         <h5 class="mb-0">Foul Statistics</h5>
                     </div>
+                    <div class="px-md-5">
+                        <div class="px-lg-5 my-3">
+                            <canvas id="foul-2" height="250"></canvas>
+                        </div>
+                    </div>
                     <table class="table mb-0">
                         <thead>
                             <tr>
@@ -364,6 +384,185 @@
 </div>
 
 {% block custom_scripts %}
+    {% if stats['error'] is not none and stats['error']|length == 0 %}
+        <script src="{{ url_for('static', filename='chartjs/chart.min.js') }}"></script>
+
+        <script>
+            var goal1 = document.getElementById('goal-1').getContext('2d');
+            goal1.width = 200;
+            var goal1chart = new Chart(goal1, {
+                // The type of chart we want to create
+                type: 'bar',
+
+                // The data for our dataset
+                data: {
+                    labels: ["Goals home", "Goals away"],
+                    datasets: [{
+                        label: "goals",
+                        fillColor: "#34495e",
+                        borderColor: "#34495e",
+                        backgroundColor: "#34495e",
+                        pointBackgroundColor: "#55bae7",
+                        pointBorderColor: "#55bae7",
+                        pointHoverBackgroundColor: "#55bae7",
+                        pointHoverBorderColor: "#55bae7",
+                        data: [{{ stats['team1']['home']['goals'] }}, {{ stats['team1']['away']['goals'] }}],
+                    }],
+
+                },
+
+                // Configuration options go here
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true,
+                                max: {{ max_number([stats['team1']['home']['goals'], stats['team1']['away']['goals'], stats['team2']['home']['goals'], stats['team2']['away']['goals']]) }}
+                            }
+                        }],
+                    },
+                }
+            });
+
+            var goal2 = document.getElementById('goal-2').getContext('2d');
+            goal2.width = 200;
+            var goal2chart = new Chart(goal2, {
+                // The type of chart we want to create
+                type: 'bar',
+
+                // The data for our dataset
+                data: {
+                    labels: ["Goals home", "Goals away"],
+                    datasets: [{
+                        label: "goals",
+                        fillColor: "#34495e",
+                        borderColor: "#34495e",
+                        backgroundColor: "#34495e",
+                        pointBackgroundColor: "#55bae7",
+                        pointBorderColor: "#55bae7",
+                        pointHoverBackgroundColor: "#55bae7",
+                        pointHoverBorderColor: "#55bae7",
+                        data: [{{ stats['team2']['home']['goals'] }}, {{ stats['team2']['away']['goals'] }}],
+                    }],
+
+                },
+
+                // Configuration options go here
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true,
+                                max: {{ max_number([stats['team1']['home']['goals'], stats['team1']['away']['goals'], stats['team2']['home']['goals'], stats['team2']['away']['goals']]) }}
+                            }
+                        }]
+                    },
+                }
+            });
+
+            var foul1 = document.getElementById('foul-1').getContext('2d');
+            foul1.width = 200;
+            var foul2chart = new Chart(foul1, {
+                // The type of chart we want to create
+                type: 'bar',
+
+                // The data for our dataset
+                data: {
+                    labels: ["Fouls", "Yellow cards", "Red cards"],
+                    datasets: [{
+                        label: "home",
+                        fillColor: "#34495e",
+                        borderColor: "#34495e",
+                        backgroundColor: "#34495e",
+                        pointBackgroundColor: "#55bae7",
+                        pointBorderColor: "#55bae7",
+                        pointHoverBackgroundColor: "#55bae7",
+                        pointHoverBorderColor: "#55bae7",
+                        data: [{{ stats['team1']['home']['fouls'] }}, {{ stats['team1']['home']['yellow_cards'] }}, {{ stats['team1']['home']['red_cards'] }}],
+                    },
+                    {
+                        label: "away",
+                        fillColor: "#566f84",
+                        borderColor: "#566f84",
+                        backgroundColor: "#566f84",
+                        pointBackgroundColor: "#566f84",
+                        pointBorderColor: "#55bae7",
+                        pointHoverBackgroundColor: "#55bae7",
+                        pointHoverBorderColor: "#55bae7",
+                        data: [{{ stats['team1']['away']['fouls'] }}, {{ stats['team1']['away']['yellow_cards'] }}, {{ stats['team1']['away']['red_cards'] }}],
+                    }],
+
+                },
+
+                // Configuration options go here
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true,
+                                max: {{ max_number([stats['team1']['home']['fouls'], stats['team1']['away']['fouls'], stats['team2']['home']['fouls'], stats['team2']['away']['fouls']]) }}
+                            }
+                        }],
+                    },
+                }
+            });
+
+            var foul2 = document.getElementById('foul-2').getContext('2d');
+            foul2.width = 200;
+            var foul2chart = new Chart(foul2, {
+                // The type of chart we want to create
+                type: 'bar',
+
+                // The data for our dataset
+                data: {
+                    labels: ["Fouls", "Yellow cards", "Red cards"],
+                    datasets: [{
+                        label: "home",
+                        fillColor: "#34495e",
+                        borderColor: "#34495e",
+                        backgroundColor: "#34495e",
+                        pointBackgroundColor: "#55bae7",
+                        pointBorderColor: "#55bae7",
+                        pointHoverBackgroundColor: "#55bae7",
+                        pointHoverBorderColor: "#55bae7",
+                        data: [{{ stats['team2']['home']['fouls'] }}, {{ stats['team2']['home']['yellow_cards'] }}, {{ stats['team2']['home']['red_cards'] }}],
+                    },
+                    {
+                        label: "away",
+                        fillColor: "#566f84",
+                        borderColor: "#566f84",
+                        backgroundColor: "#566f84",
+                        pointBackgroundColor: "#566f84",
+                        pointBorderColor: "#55bae7",
+                        pointHoverBackgroundColor: "#55bae7",
+                        pointHoverBorderColor: "#55bae7",
+                        data: [{{ stats['team2']['away']['fouls'] }}, {{ stats['team2']['away']['yellow_cards'] }}, {{ stats['team2']['away']['red_cards'] }}],
+                    }],
+
+                },
+
+                // Configuration options go here
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true,
+                                max: {{ max_number([stats['team1']['home']['fouls'], stats['team1']['away']['fouls'], stats['team2']['home']['fouls'], stats['team2']['away']['fouls']]) }}
+                            }
+                        }],
+                    },
+                }
+            });
+        </script>
+    {% endif %}
 {% endblock custom_scripts %}
 
 {% endblock content %}
