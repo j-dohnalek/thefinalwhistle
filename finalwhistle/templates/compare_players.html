@@ -96,6 +96,11 @@
                     <div class="card-header text-center">
                         <h5 class="mb-0">Player Statistics</h5>
                     </div>
+                    <div class="px-md-5">
+                        <div class="px-lg-5 my-3">
+                            <canvas id="stats-1" height="250"></canvas>
+                        </div>
+                    </div>
                     <table class="table mb-0">
                         <tr>
                             <th scope="row">Goals Scored</th>
@@ -160,6 +165,11 @@
                         <div class="card-header text-center">
                             <h5 class="mb-0">Player Statistics</h5>
                         </div>
+                        <div class="px-md-5">
+                            <div class="px-lg-5 my-3">
+                                <canvas id="stats-2" height="250"></canvas>
+                            </div>
+                        </div>
                         <table class="table mb-0">
                             <tr>
                                 <th scope="row">Goals Scored</th>
@@ -197,6 +207,87 @@
 
 
 {% block custom_scripts %}
+    {% if stats['error'] is not none and stats['error']|length == 0 %}
+        <script src="{{ url_for('static', filename='chartjs/chart.min.js') }}"></script>
+
+        <script>
+            var stats1 = document.getElementById('stats-1').getContext('2d');
+            stats1.width = 200;
+            var stats1chart = new Chart(stats1, {
+                // The type of chart we want to create
+                type: 'bar',
+
+                // The data for our dataset
+                data: {
+                    labels: ["Goals Scored", "Goals Assisted"],
+                    datasets: [{
+                        label: "goals",
+                        fillColor: "#34495e",
+                        borderColor: "#34495e",
+                        backgroundColor: "#34495e",
+                        pointBackgroundColor: "#55bae7",
+                        pointBorderColor: "#55bae7",
+                        pointHoverBackgroundColor: "#55bae7",
+                        pointHoverBorderColor: "#55bae7",
+                        data: [{{ stats['player1']['goals_scored'] }}, {{ stats['player1']['goals_assisted'] }}],
+                    }]
+                },
+
+                // Configuration options go here
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                fixedStepSize: 1,
+                                beginAtZero: true,
+                                max: {{ max_number([stats['player1']['goals_scored'], stats['player2']['goals_scored'], stats['player1']['goals_assisted'], stats['player2']['goals_assisted'] ]) }}
+                            }
+                        }],
+                    },
+                }
+            });
+
+            var stats2 = document.getElementById('stats-2').getContext('2d');
+            stats2.width = 200;
+            var stats2chart = new Chart(stats2, {
+                // The type of chart we want to create
+                type: 'bar',
+
+                // The data for our dataset
+                data: {
+                    labels: ["Goals Scored", "Goals Assisted"],
+                    datasets: [{
+                        label: "goals",
+                        fillColor: "#34495e",
+                        borderColor: "#34495e",
+                        backgroundColor: "#34495e",
+                        pointBackgroundColor: "#55bae7",
+                        pointBorderColor: "#55bae7",
+                        pointHoverBackgroundColor: "#55bae7",
+                        pointHoverBorderColor: "#55bae7",
+                        data: [{{ stats['player2']['goals_scored'] }}, {{ stats['player2']['goals_assisted'] }}],
+                    }]
+                },
+
+                // Configuration options go here
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                fixedStepSize: 1,
+                                beginAtZero: true,
+                                max: {{ max_number([stats['player1']['goals_scored'], stats['player2']['goals_scored'], stats['player1']['goals_assisted'], stats['player2']['goals_assisted'] ]) }}
+                            }
+                        }],
+                    },
+                }
+            });
+        </script>
+    {% endif %}
 {% endblock custom_scripts %}
 
 {% endblock content %}
