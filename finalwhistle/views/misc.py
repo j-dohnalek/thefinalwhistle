@@ -1,15 +1,13 @@
 from flask import render_template
+from flask_mail import Message
 
-from finalwhistle.models.article import Article
-from finalwhistle import app, db
+from finalwhistle import app, mail
 from finalwhistle.views.data_views import get_league_table, list_all_matches
 from finalwhistle.views.misc_helper import validate_contact_us
 
 ################
 # misc routing #
 ################
-
-
 @app.route('/', methods=['GET'])
 def home():
     from finalwhistle.models.article import get_latest_news
@@ -59,6 +57,7 @@ def error_404_2(e):
 @app.route('/500', methods=['GET'])
 def error_500():
     return render_template('500.html')
+
 
 @app.errorhandler(500)
 def error_500_2(e):
