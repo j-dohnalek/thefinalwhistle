@@ -15,7 +15,8 @@ def create_new_article(author_id, title, body):
     try:
         new_article = Article(author_id=author_id,
                               title=title,
-                              body=body)
+                              body=body,
+                              featured_image='images/featured/default.jpg')
         db.session.add(new_article)
         db.session.commit()
         return new_article
@@ -69,11 +70,11 @@ class Article(db.Model):
     def author_id(self):
         return db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
 
-
-    def __init__(self, author_id, title, body):
+    def __init__(self, author_id, title, body, featured_image):
         self.author_id = author_id
         self.body = body
         self.title = title
+        self.featured_image = featured_image
 
     # http://docs.sqlalchemy.org/en/rel_0_9/orm/mapped_attributes.html#simple-validators
     # @validates('status')

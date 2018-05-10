@@ -1,5 +1,7 @@
+from pprint import pprint
+
 from finalwhistle import app, db
-from finalwhistle.models.user import attempt_login, create_new_user, get_user_by_email
+from finalwhistle.models.user import attempt_login, create_new_user, get_user_by_email, UserNotActivated, UserIsBlocked
 from finalwhistle.views.forms.login import LoginForm
 from finalwhistle.views.forms.registration import RegistrationForm
 from finalwhistle.views.forms.edit_account_info import EditAccountInfoForm, ChangePasswordForm
@@ -15,22 +17,32 @@ def login():
     if current_user.is_authenticated:
         return redirect(url_for('home'))
     login_form = LoginForm()
+
     if login_form.validate_on_submit():
-        print('login form validated')
         # get login params from request form and attempt to fetch user
-        email = request.form['email']
-        password = request.form['password']
+        email = str(request.form['email'])
+        password = str(request.form['password'])
+
         # if email/password combo valid, log the user in via flask_login method
-        user = attempt_login(email, password)
-        if user is not None:
-            login_user(user)
-            return redirect(url_for('home'))
-        else:
-            error = "Invalid email or password, please try again"
-            return render_template('login.html', login_form=login_form, user_error=error)
-    if request.method == 'POST':
-        print('login form posted but did not pass validate_on_submit()')
-        print(request.form)
+        try:
+            user = attempt_login(email, password)
+
+            if user is not None:
+                login_user(user)
+                return redirect(url_for('home'))
+
+            else:
+                error = "Invalid email or password, please try again"
+                return render_template('login.html', login_form=login_form, user_error=error)
+
+        except UserNotActivated:
+            flash('You must first activate your account through the email you have been sent')
+            return redirect(url_for('login'))
+
+        except UserIsBlocked:
+            flash('Your account has been disabled, please contact an administrator')
+            return redirect(url_for('login'))
+
     return render_template('login.html', login_form=login_form)
 
 
@@ -38,48 +50,60 @@ def login():
 def register():
     registration_form = RegistrationForm()
     if registration_form.validate_on_submit():
-        new_user = create_new_user(request.form['email'],
-                                   request.form['username'],
-                                   request.form['password'],
-                                   request.form['real_name'])
+        new_user = create_new_user(registration_form.data['email'],
+                                   registration_form.data['username'],
+                                   registration_form.data['password'],
+                                   registration_form.data['real_name'])
         if new_user is not None:
-            # TODO: alert/flash message for successfully created account
-            flash('Account created! You may now log in')
+            flash('Please activate your account through the email we have sent you before logging in')
             return redirect(url_for('login'))
         else:
-            return 'something went wrong and your account wasn\'t created'
-    else:
-        print('login form received but did not pass validate_on_submit()')
-        print(request.form)
+            flash('An error occurred when creating your account, please contact an administrator')
+            return redirect(url_for('home'))
     return render_template('register.html', reg_form=registration_form)
-
 
 @app.route('/forgot-password', methods=['GET'])
 def forgot_password():
     return render_template('forgot_password.html')
-
-
+  
 @app.route('/verify-email', methods=['GET'])
 def verify_email():
+
     # try:
     #     email = request.args['username']
     #     token = request.args['token']
     # except KeyError:
     #     return "url missing 'username' and 'token' args"
     # cleaner code - check vs None vs catching exceptions
-    email = request.args.get('username')
+    pprint(request.args)
+
+    email = request.args.get('email')
     token = request.args.get('token')
     if email is None or token is None:
-        return "url missing 'username' or 'token' args"
+        flash('There was an error activating your account')
+        return redirect(url_for('home'))
     user = get_user_by_email(email)
     # attempt to activate account
     if user is not None:
         if user.activate_account(token):
-            return 'your account has been activated and you have been logged in'
+            flash('Your account has been activated and you are now logged in!')
+            login_user(user)
+            return redirect(url_for('home'))
         else:
-            return 'could not activate account - are you already activated?'
+            flash('There was an error activating your account')
+            return redirect(url_for('home'))
     else:
-        return 'could not find user from email address'
+        return redirect(url_for('home'))
+
+
+@app.route('/reset-password', methods=['GET'])
+def reset_password():
+    return 'reset password form'
+
+
+@app.route('/reset-password', methods=['POST'])
+def perform_reset_password():
+    return 'reset password post'
 
 
 #####################################

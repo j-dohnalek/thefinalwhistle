@@ -8,6 +8,9 @@ from flask_login import LoginManager
 # Create server and configure
 app = Flask(__name__)
 app.debug = True
+# CHANGE IN PRODUCTION
+app.config['SERVER_NAME'] = '127.0.0.1:5000'
+app.config['PREFERRED_URL_SCHEME'] = 'http'
 app.config['BASEDIR'] = os.path.dirname(os.path.realpath(__file__))
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(app.config['BASEDIR'], 'test.db')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
@@ -22,11 +25,22 @@ except KeyError:
         print('Trying to run outside of debug mode without OS provided secret key, exiting')
         exit(1)
 
+
+# flask-mail config
+app.config['MAIL_SERVER'] = 'smtp.gmail.com'
+app.config['MAIL_PORT'] = 465
+app.config['MAIL_USE_SSL'] = True
+app.config['MAIL_USERNAME'] = 'thefinalwhistleapp@gmail.com'
+app.config['MAIL_DEFAULT_SENDER'] = 'thefinalwhistleapp@gmail.com'
+app.config['MAIL_PASSWORD'] = 'tfw12191'
+
 # Initialise Flask extensions
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
 mail = Mail(app)
 login = LoginManager(app)
+
+
 
 # tell flask_login which view to redirect users to when they need to log in
 login.login_view = 'login'

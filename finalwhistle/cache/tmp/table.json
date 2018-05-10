@@ -1,14 +1,14 @@
 {
     "1": {
         "club": "Manchester City",
-        "played": "36",
-        "won": "30",
+        "played": "37",
+        "won": "31",
         "drawn": "4",
         "lost": "2",
-        "gf": "102",
-        "ga": "26",
-        "gd": "+76",
-        "points": "94"
+        "gf": "105",
+        "ga": "27",
+        "gd": "+78",
+        "points": "97"
     },
     "2": {
         "club": "Manchester United",
@@ -22,6 +22,17 @@
         "points": "77"
     },
     "3": {
+        "club": "Tottenham Hotspur",
+        "played": "37",
+        "won": "22",
+        "drawn": "8",
+        "lost": "7",
+        "gf": "69",
+        "ga": "32",
+        "gd": "+37",
+        "points": "74"
+    },
+    "4": {
         "club": "Liverpool",
         "played": "37",
         "won": "20",
@@ -32,37 +43,26 @@
         "gd": "+42",
         "points": "72"
     },
-    "4": {
-        "club": "Tottenham Hotspur",
-        "played": "36",
-        "won": "21",
-        "drawn": "8",
-        "lost": "7",
-        "gf": "68",
-        "ga": "32",
-        "gd": "+36",
-        "points": "71"
-    },
     "5": {
         "club": "Chelsea",
-        "played": "36",
+        "played": "37",
         "won": "21",
-        "drawn": "6",
+        "drawn": "7",
         "lost": "9",
-        "gf": "61",
-        "ga": "34",
+        "gf": "62",
+        "ga": "35",
         "gd": "+27",
-        "points": "69"
+        "points": "70"
     },
     "6": {
         "club": "Arsenal",
-        "played": "36",
+        "played": "37",
         "won": "18",
         "drawn": "6",
-        "lost": "12",
-        "gf": "72",
-        "ga": "48",
-        "gd": "+24",
+        "lost": "13",
+        "gf": "73",
+        "ga": "51",
+        "gd": "+22",
         "points": "60"
     },
     "7": {
@@ -89,24 +89,24 @@
     },
     "9": {
         "club": "Leicester City",
-        "played": "36",
-        "won": "11",
+        "played": "37",
+        "won": "12",
         "drawn": "11",
         "lost": "14",
-        "gf": "49",
-        "ga": "54",
-        "gd": "-5",
-        "points": "44"
+        "gf": "52",
+        "ga": "55",
+        "gd": "-3",
+        "points": "47"
     },
     "10": {
         "club": "Newcastle United",
-        "played": "36",
+        "played": "37",
         "won": "11",
         "drawn": "8",
-        "lost": "17",
+        "lost": "18",
         "gf": "36",
-        "ga": "46",
-        "gd": "-10",
+        "ga": "47",
+        "gd": "-11",
         "points": "41"
     },
     "11": {
@@ -144,13 +144,13 @@
     },
     "14": {
         "club": "Brighton and Hove Albion",
-        "played": "36",
+        "played": "37",
         "won": "9",
         "drawn": "13",
-        "lost": "14",
-        "gf": "33",
-        "ga": "47",
-        "gd": "-14",
+        "lost": "15",
+        "gf": "34",
+        "ga": "50",
+        "gd": "-16",
         "points": "40"
     },
     "15": {
@@ -166,35 +166,35 @@
     },
     "16": {
         "club": "Huddersfield Town",
-        "played": "36",
+        "played": "37",
         "won": "9",
-        "drawn": "9",
+        "drawn": "10",
         "lost": "18",
-        "gf": "27",
-        "ga": "56",
+        "gf": "28",
+        "ga": "57",
         "gd": "-29",
-        "points": "36"
+        "points": "37"
     },
     "17": {
         "club": "Southampton",
-        "played": "36",
-        "won": "6",
+        "played": "37",
+        "won": "7",
         "drawn": "15",
         "lost": "15",
-        "gf": "36",
+        "gf": "37",
         "ga": "55",
-        "gd": "-19",
-        "points": "33"
+        "gd": "-18",
+        "points": "36"
     },
     "18": {
         "club": "Swansea City",
-        "played": "36",
+        "played": "37",
         "won": "8",
         "drawn": "9",
-        "lost": "19",
+        "lost": "20",
         "gf": "27",
-        "ga": "53",
-        "gd": "-26",
+        "ga": "54",
+        "gd": "-27",
         "points": "33"
     },
     "19": {

@@ -41,5 +41,8 @@ class RegistrationForm(FlaskForm):
             raise ValidationError('Email already in use')
 
     def validate_password(self, password):
-        if len(password.data) < 6:
-            raise ValidationError('Password must be longer than 6 characters')
+        from finalwhistle.models.user import validate_password
+        try:
+            validate_password(password.data)
+        except:
+            raise ValidationError('Please enter a password with at least 1 uppercase letter, 1 lowercase letter and 1 number')

@@ -144,7 +144,7 @@
                                     </form>
                                     {% else %}
                                     <div id="comment{{parent_comment['id']}}" class="alert alert-warning" role="alert" style="display:none;">
-                                      Only registered users can post, please log in <a href="{{ url_for('login')}}">here</a>
+                                        Only registered users can post here, please register <a href="{{ url_for('register')}}">here</a> or log in <a href="{{ url_for('login')}}">here</a> if you already registered
                                     </div>
                                     {% endif %}
                                 </li>
@@ -170,7 +170,7 @@
                 </form>
                 {% else %}
                 <div class="alert alert-warning" role="alert">
-                  Only registered users can post, please log in <a href="{{ url_for('login')}}">here</a>
+                    Only registered users can post here, please register <a href="{{ url_for('register')}}">here</a> or log in <a href="{{ url_for('login')}}">here</a> if you already registered
                 </div>
                 {% endif %}
             </div>

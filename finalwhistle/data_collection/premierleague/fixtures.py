@@ -46,7 +46,7 @@ def fetch_game_info(match_url, match_info):
     my_driver = MyDriver()
     driver = my_driver.driver
     driver.get(match_url)
-    # print("Visiting", match_url)
+    print("Visiting", match_url)
 
     element = WebDriverWait(driver, 15).until(
         EC.element_to_be_clickable((By.XPATH, "//main[@id='mainContent']/div/section/div[2]/div[2]/div/div/div/ul/li[3]"))

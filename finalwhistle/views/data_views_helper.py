@@ -3,8 +3,7 @@ from finalwhistle.apis import fd_api
 from finalwhistle.models.football import *
 from sqlalchemy import or_, desc, func, asc
 import json
-from flask import request
-from finalwhistle import db
+from finalwhistle.apis.fd_api import EPL
 
 # CONSTANTS #####################################################################
 
@@ -15,8 +14,8 @@ CLUB_CRESTS = ROOT + 'cache/club_crests.json'
 TABLE_JSON = ROOT + 'cache/tmp/table.json'
 PLAYER_IMAGES = ROOT + 'cache/players_images.json'
 
-EPL = 445  # English Premier League 2017-2018
 STATS = ['Shots', 'Shots on Target', 'Corners', 'Fouls', 'Yellow Cards', 'Red Cards']
+
 
 # CLASS #########################################################################
 
@@ -75,8 +74,8 @@ def get_all_teams():
 
     source = '/v1/competitions/{}/teams'.format(EPL)
     
-    # renew every 60 minutes
-    teams = fd_api.fetch_api_data(source, 60)
+    # renew every 7 * 24 * 60 minutes
+    teams = fd_api.fetch_api_data(source, 10080)
     team_list = []
 
     for team in teams['teams']:
@@ -199,8 +198,9 @@ def get_team_information(id):
 
         source = '/v1/teams/{}'.format(team.api_id)
 
-        # renew every 2000 minutes
-        team_json = fd_api.fetch_api_data(source, 2000)
+        # renew every 7 * 24 * 60 minutes
+        team_json = fd_api.fetch_api_data(source, 10080)
+
         team_information['name'] = team.name
         team_information['crestUrl'] = team_json['crestUrl']
         team_information['stadium'] = team.stadium
