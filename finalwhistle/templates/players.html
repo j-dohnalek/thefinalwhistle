@@ -13,8 +13,9 @@
     <table class="table">
         {% for player in data %}
             <tr>
-                <th scope="row" class="text-center"><img src="{{ player['img'] }}" width="50" /></th>
+                <th scope="row" class="text-center"><img src="{{ player['img'] }}" width="50" alt="{{ player['name'] }}" /></th>
                 <th style="vertical-align: middle;"><h5 class="h2 font-weight-light text-center mb-0">{{ player['shirt_number'] }}</h5></th>
+              
                 <td style="vertical-align: middle;"><h5 class="font-weight-light mb-0"><a href="{{url_for('player_page', id=player['id'])}}"> {{ player['name'] }}</a></h5></td>
                 <td style="vertical-align: middle;">{{ player['position'] }}</td>
             </tr>

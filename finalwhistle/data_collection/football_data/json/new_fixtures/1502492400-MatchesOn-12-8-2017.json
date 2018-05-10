@@ -3,242 +3,6 @@
         "date": "Saturday 12 August 2017",
         "fixtures": [
             {
-                "home_team": "Watford",
-                "away_team": "Liverpool",
-                "score": "3-3",
-                "url": "https://www.premierleague.com/match/22350",
-                "details": {
-                    "goals": [
-                        {
-                            "minute": "8",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Stefano Okaka",
-                            "assist": "José Holebas"
-                        },
-                        {
-                            "minute": "29",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Sadio Mané",
-                            "assist": "Emre Can"
-                        },
-                        {
-                            "minute": "32",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Abdoulaye Doucouré"
-                        },
-                        {
-                            "minute": "55",
-                            "own_goal": "false",
-                            "penalty": "true",
-                            "scorer": "Roberto Firmino"
-                        },
-                        {
-                            "minute": "57",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Mohamed Salah",
-                            "assist": "Roberto Firmino"
-                        },
-                        {
-                            "minute": "90",
-                            "additional": "3",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Miguel Britos"
-                        }
-                    ],
-                    "cards": [
-                        {
-                            "minute": "37",
-                            "card": "yellow",
-                            "player": "Sadio Mané"
-                        },
-                        {
-                            "minute": "61",
-                            "card": "yellow",
-                            "player": "Trent Alexander-Arnold"
-                        },
-                        {
-                            "minute": "88",
-                            "card": "yellow",
-                            "player": "Simon Mignolet"
-                        }
-                    ],
-                    "substitutions": [
-                        {
-                            "minute": "18",
-                            "in": "Kiko Femenía",
-                            "out": "Daryl Janmaat"
-                        },
-                        {
-                            "minute": "49",
-                            "in": "Richarlison",
-                            "out": "Roberto Pereyra"
-                        },
-                        {
-                            "minute": "63",
-                            "in": "Andre Gray",
-                            "out": "Stefano Okaka"
-                        },
-                        {
-                            "minute": "81",
-                            "in": "Divock Origi",
-                            "out": "Roberto Firmino"
-                        },
-                        {
-                            "minute": "86",
-                            "in": "James Milner",
-                            "out": "Mohamed Salah"
-                        },
-                        {
-                            "minute": "90",
-                            "additional": "1",
-                            "in": "Joseph Gomez",
-                            "out": "Trent Alexander-Arnold"
-                        }
-                    ],
-                    "referee": "Anthony Taylor",
-                    "kick_off": "12:30"
-                }
-            },
-            {
-                "home_team": "West Brom",
-                "away_team": "Bournemouth",
-                "score": "1-0",
-                "url": "https://www.premierleague.com/match/22351",
-                "details": {
-                    "goals": [
-                        {
-                            "minute": "31",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Ahmed Hegazi",
-                            "assist": "Chris Brunt"
-                        }
-                    ],
-                    "cards": [
-                        {
-                            "minute": "34",
-                            "card": "yellow",
-                            "player": "Claudio Yacob"
-                        },
-                        {
-                            "minute": "82",
-                            "card": "yellow",
-                            "player": "Jay Rodriguez"
-                        },
-                        {
-                            "minute": "86",
-                            "card": "yellow",
-                            "player": "Harry Arter"
-                        },
-                        {
-                            "minute": "90",
-                            "additional": "5",
-                            "card": "yellow",
-                            "player": "Hal Robson-Kanu"
-                        }
-                    ],
-                    "substitutions": [
-                        {
-                            "minute": "45",
-                            "in": "Jordon Ibe",
-                            "out": "Marc Pugh"
-                        },
-                        {
-                            "minute": "64",
-                            "in": "Jermain Defoe",
-                            "out": "Benik Afobe"
-                        },
-                        {
-                            "minute": "70",
-                            "in": "Rekeem Harper",
-                            "out": "Sam Field"
-                        },
-                        {
-                            "minute": "72",
-                            "in": "Hal Robson-Kanu",
-                            "out": "Matt Phillips"
-                        },
-                        {
-                            "minute": "80",
-                            "in": "Adam Smith",
-                            "out": "Simon Francis"
-                        },
-                        {
-                            "minute": "88",
-                            "in": "Salomón Rondón",
-                            "out": "Jay Rodriguez"
-                        }
-                    ],
-                    "referee": "Robert Madley",
-                    "kick_off": "15:00"
-                }
-            },
-            {
-                "home_team": "Southampton",
-                "away_team": "Swansea",
-                "score": "0-0",
-                "url": "https://www.premierleague.com/match/22349",
-                "details": {
-                    "goals": [],
-                    "cards": [
-                        {
-                            "minute": "16",
-                            "card": "yellow",
-                            "player": "Nathan Redmond"
-                        },
-                        {
-                            "minute": "33",
-                            "card": "yellow",
-                            "player": "Oriol Romeu"
-                        },
-                        {
-                            "minute": "90",
-                            "card": "yellow",
-                            "player": "Jay Fulton"
-                        }
-                    ],
-                    "substitutions": [
-                        {
-                            "minute": "69",
-                            "in": "Charlie Austin",
-                            "out": "Manolo Gabbiadini"
-                        },
-                        {
-                            "minute": "71",
-                            "in": "Sofiane Boufal",
-                            "out": "James Ward-Prowse"
-                        },
-                        {
-                            "minute": "74",
-                            "in": "Jay Fulton",
-                            "out": "Leon Britton"
-                        },
-                        {
-                            "minute": "81",
-                            "in": "Kyle Bartley",
-                            "out": "Tammy Abraham"
-                        },
-                        {
-                            "minute": "86",
-                            "in": "Oliver McBurnie",
-                            "out": "Wayne Routledge"
-                        },
-                        {
-                            "minute": "86",
-                            "in": "Sam McQueen",
-                            "out": "Ryan Bertrand"
-                        }
-                    ],
-                    "referee": "Mike Jones",
-                    "kick_off": "15:00"
-                }
-            },
-            {
                 "home_team": "Everton",
                 "away_team": "Stoke",
                 "score": "1-0",
@@ -294,7 +58,53 @@
                         }
                     ],
                     "referee": "Neil Swarbrick",
-                    "kick_off": "15:00"
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "61.6",
+                            "away": "38.4"
+                        },
+                        "shots_on_target": {
+                            "home": "4",
+                            "away": "1"
+                        },
+                        "shots": {
+                            "home": "9",
+                            "away": "9"
+                        },
+                        "touches": {
+                            "home": "702",
+                            "away": "521"
+                        },
+                        "passes": {
+                            "home": "497",
+                            "away": "292"
+                        },
+                        "tackles": {
+                            "home": "17",
+                            "away": "18"
+                        },
+                        "clearances": {
+                            "home": "43",
+                            "away": "24"
+                        },
+                        "corners": {
+                            "home": "6",
+                            "away": "7"
+                        },
+                        "offsides": {
+                            "home": "2",
+                            "away": "6"
+                        },
+                        "yellow_cards": {
+                            "home": "1",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "13",
+                            "away": "10"
+                        }
+                    }
                 }
             },
             {
@@ -306,9 +116,9 @@
                     "goals": [
                         {
                             "minute": "23",
-                            "scorer": "Joel Ward",
                             "own_goal": "true",
-                            "penalty": "false"
+                            "penalty": "false",
+                            "scorer": "Joel Ward"
                         },
                         {
                             "minute": "26",
@@ -375,7 +185,53 @@
                         }
                     ],
                     "referee": "Jonathan Moss",
-                    "kick_off": "15:00"
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "56.7",
+                            "away": "43.3"
+                        },
+                        "shots_on_target": {
+                            "home": "4",
+                            "away": "6"
+                        },
+                        "shots": {
+                            "home": "14",
+                            "away": "9"
+                        },
+                        "touches": {
+                            "home": "632",
+                            "away": "500"
+                        },
+                        "passes": {
+                            "home": "391",
+                            "away": "306"
+                        },
+                        "tackles": {
+                            "home": "24",
+                            "away": "28"
+                        },
+                        "clearances": {
+                            "home": "18",
+                            "away": "29"
+                        },
+                        "corners": {
+                            "home": "12",
+                            "away": "9"
+                        },
+                        "offsides": {
+                            "home": "0",
+                            "away": "2"
+                        },
+                        "yellow_cards": {
+                            "home": "1",
+                            "away": "3"
+                        },
+                        "fouls_conceded": {
+                            "home": "7",
+                            "away": "19"
+                        }
+                    }
                 }
             },
             {
@@ -497,7 +353,57 @@
                         }
                     ],
                     "referee": "Craig Pawson",
-                    "kick_off": "15:00"
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "61.9",
+                            "away": "38.1"
+                        },
+                        "shots_on_target": {
+                            "home": "6",
+                            "away": "5"
+                        },
+                        "shots": {
+                            "home": "19",
+                            "away": "10"
+                        },
+                        "touches": {
+                            "home": "692",
+                            "away": "485"
+                        },
+                        "passes": {
+                            "home": "521",
+                            "away": "320"
+                        },
+                        "tackles": {
+                            "home": "10",
+                            "away": "8"
+                        },
+                        "clearances": {
+                            "home": "22",
+                            "away": "42"
+                        },
+                        "corners": {
+                            "home": "8",
+                            "away": "5"
+                        },
+                        "offsides": {
+                            "home": "2",
+                            "away": "1"
+                        },
+                        "yellow_cards": {
+                            "home": "3",
+                            "away": "3"
+                        },
+                        "red_cards": {
+                            "home": "2",
+                            "away": "0"
+                        },
+                        "fouls_conceded": {
+                            "home": "16",
+                            "away": "11"
+                        }
+                    }
                 }
             },
             {
@@ -516,9 +422,9 @@
                         },
                         {
                             "minute": "75",
-                            "scorer": "Lewis Dunk",
                             "own_goal": "true",
-                            "penalty": "false"
+                            "penalty": "false",
+                            "scorer": "Lewis Dunk"
                         }
                     ],
                     "cards": [
@@ -566,7 +472,427 @@
                         }
                     ],
                     "referee": "Michael Oliver",
-                    "kick_off": "17:30"
+                    "kick_off": "17:30",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "21.8",
+                            "away": "78.2"
+                        },
+                        "shots_on_target": {
+                            "home": "2",
+                            "away": "4"
+                        },
+                        "shots": {
+                            "home": "6",
+                            "away": "14"
+                        },
+                        "touches": {
+                            "home": "375",
+                            "away": "918"
+                        },
+                        "passes": {
+                            "home": "213",
+                            "away": "768"
+                        },
+                        "tackles": {
+                            "home": "10",
+                            "away": "10"
+                        },
+                        "clearances": {
+                            "home": "39",
+                            "away": "8"
+                        },
+                        "corners": {
+                            "home": "3",
+                            "away": "10"
+                        },
+                        "offsides": {
+                            "home": "6",
+                            "away": "1"
+                        },
+                        "yellow_cards": {
+                            "home": "0",
+                            "away": "2"
+                        },
+                        "fouls_conceded": {
+                            "home": "6",
+                            "away": "9"
+                        }
+                    }
+                }
+            },
+            {
+                "home_team": "Watford",
+                "away_team": "Liverpool",
+                "score": "3-3",
+                "url": "https://www.premierleague.com/match/22350",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "8",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Stefano Okaka",
+                            "assist": "José Holebas"
+                        },
+                        {
+                            "minute": "29",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Sadio Mané",
+                            "assist": "Emre Can"
+                        },
+                        {
+                            "minute": "32",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Abdoulaye Doucouré"
+                        },
+                        {
+                            "minute": "55",
+                            "own_goal": "false",
+                            "penalty": "true",
+                            "scorer": "Roberto Firmino"
+                        },
+                        {
+                            "minute": "57",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Mohamed Salah",
+                            "assist": "Roberto Firmino"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Miguel Britos"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "37",
+                            "card": "yellow",
+                            "player": "Sadio Mané"
+                        },
+                        {
+                            "minute": "61",
+                            "card": "yellow",
+                            "player": "Trent Alexander-Arnold"
+                        },
+                        {
+                            "minute": "88",
+                            "card": "yellow",
+                            "player": "Simon Mignolet"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "18",
+                            "in": "Kiko Femenía",
+                            "out": "Daryl Janmaat"
+                        },
+                        {
+                            "minute": "49",
+                            "in": "Richarlison",
+                            "out": "Roberto Pereyra"
+                        },
+                        {
+                            "minute": "63",
+                            "in": "Andre Gray",
+                            "out": "Stefano Okaka"
+                        },
+                        {
+                            "minute": "81",
+                            "in": "Divock Origi",
+                            "out": "Roberto Firmino"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "James Milner",
+                            "out": "Mohamed Salah"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "1",
+                            "in": "Joseph Gomez",
+                            "out": "Trent Alexander-Arnold"
+                        }
+                    ],
+                    "referee": "Anthony Taylor",
+                    "kick_off": "12:30",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "45.6",
+                            "away": "54.4"
+                        },
+                        "shots_on_target": {
+                            "home": "4",
+                            "away": "5"
+                        },
+                        "shots": {
+                            "home": "9",
+                            "away": "14"
+                        },
+                        "touches": {
+                            "home": "595",
+                            "away": "682"
+                        },
+                        "passes": {
+                            "home": "395",
+                            "away": "477"
+                        },
+                        "tackles": {
+                            "home": "19",
+                            "away": "20"
+                        },
+                        "clearances": {
+                            "home": "28",
+                            "away": "22"
+                        },
+                        "corners": {
+                            "home": "3",
+                            "away": "3"
+                        },
+                        "offsides": {
+                            "home": "3",
+                            "away": "1"
+                        },
+                        "yellow_cards": {
+                            "home": "0",
+                            "away": "3"
+                        },
+                        "fouls_conceded": {
+                            "home": "14",
+                            "away": "8"
+                        }
+                    }
+                }
+            },
+            {
+                "home_team": "West Brom",
+                "away_team": "Bournemouth",
+                "score": "1-0",
+                "url": "https://www.premierleague.com/match/22351",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "31",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Ahmed Hegazi",
+                            "assist": "Chris Brunt"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "34",
+                            "card": "yellow",
+                            "player": "Claudio Yacob"
+                        },
+                        {
+                            "minute": "82",
+                            "card": "yellow",
+                            "player": "Jay Rodriguez"
+                        },
+                        {
+                            "minute": "86",
+                            "card": "yellow",
+                            "player": "Harry Arter"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "5",
+                            "card": "yellow",
+                            "player": "Hal Robson-Kanu"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "45",
+                            "in": "Jordon Ibe",
+                            "out": "Marc Pugh"
+                        },
+                        {
+                            "minute": "64",
+                            "in": "Jermain Defoe",
+                            "out": "Benik Afobe"
+                        },
+                        {
+                            "minute": "70",
+                            "in": "Rekeem Harper",
+                            "out": "Sam Field"
+                        },
+                        {
+                            "minute": "72",
+                            "in": "Hal Robson-Kanu",
+                            "out": "Matt Phillips"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "Adam Smith",
+                            "out": "Simon Francis"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "Salomón Rondón",
+                            "out": "Jay Rodriguez"
+                        }
+                    ],
+                    "referee": "Robert Madley",
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "28.7",
+                            "away": "71.3"
+                        },
+                        "shots_on_target": {
+                            "home": "6",
+                            "away": "2"
+                        },
+                        "shots": {
+                            "home": "16",
+                            "away": "9"
+                        },
+                        "touches": {
+                            "home": "419",
+                            "away": "775"
+                        },
+                        "passes": {
+                            "home": "242",
+                            "away": "612"
+                        },
+                        "tackles": {
+                            "home": "19",
+                            "away": "16"
+                        },
+                        "clearances": {
+                            "home": "26",
+                            "away": "17"
+                        },
+                        "corners": {
+                            "home": "8",
+                            "away": "2"
+                        },
+                        "offsides": {
+                            "home": "2",
+                            "away": "0"
+                        },
+                        "yellow_cards": {
+                            "home": "3",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "15",
+                            "away": "3"
+                        }
+                    }
+                }
+            },
+            {
+                "home_team": "Southampton",
+                "away_team": "Swansea",
+                "score": "0-0",
+                "url": "https://www.premierleague.com/match/22349",
+                "details": {
+                    "goals": [],
+                    "cards": [
+                        {
+                            "minute": "16",
+                            "card": "yellow",
+                            "player": "Nathan Redmond"
+                        },
+                        {
+                            "minute": "33",
+                            "card": "yellow",
+                            "player": "Oriol Romeu"
+                        },
+                        {
+                            "minute": "90",
+                            "card": "yellow",
+                            "player": "Jay Fulton"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "69",
+                            "in": "Charlie Austin",
+                            "out": "Manolo Gabbiadini"
+                        },
+                        {
+                            "minute": "71",
+                            "in": "Sofiane Boufal",
+                            "out": "James Ward-Prowse"
+                        },
+                        {
+                            "minute": "74",
+                            "in": "Jay Fulton",
+                            "out": "Leon Britton"
+                        },
+                        {
+                            "minute": "81",
+                            "in": "Kyle Bartley",
+                            "out": "Tammy Abraham"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "Oliver McBurnie",
+                            "out": "Wayne Routledge"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "Sam McQueen",
+                            "out": "Ryan Bertrand"
+                        }
+                    ],
+                    "referee": "Mike Jones",
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "59.6",
+                            "away": "40.4"
+                        },
+                        "shots_on_target": {
+                            "home": "2",
+                            "away": "0"
+                        },
+                        "shots": {
+                            "home": "29",
+                            "away": "4"
+                        },
+                        "touches": {
+                            "home": "707",
+                            "away": "532"
+                        },
+                        "passes": {
+                            "home": "518",
+                            "away": "365"
+                        },
+                        "tackles": {
+                            "home": "12",
+                            "away": "11"
+                        },
+                        "clearances": {
+                            "home": "11",
+                            "away": "38"
+                        },
+                        "corners": {
+                            "home": "13",
+                            "away": "0"
+                        },
+                        "offsides": {
+                            "home": "0",
+                            "away": "1"
+                        },
+                        "yellow_cards": {
+                            "home": "2",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "10",
+                            "away": "13"
+                        }
+                    }
                 }
             }
         ]

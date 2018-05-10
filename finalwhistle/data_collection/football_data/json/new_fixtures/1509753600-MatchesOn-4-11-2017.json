@@ -3,6 +3,434 @@
         "date": "Saturday 4 November 2017",
         "fixtures": [
             {
+                "home_team": "Stoke",
+                "away_team": "Leicester",
+                "score": "2-2",
+                "url": "https://www.premierleague.com/match/22448",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "33",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Vicente Iborra",
+                            "assist": "Harry Maguire"
+                        },
+                        {
+                            "minute": "39",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Xherdan Shaqiri",
+                            "assist": "Eric Maxim Choupo-Moting"
+                        },
+                        {
+                            "minute": "60",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Riyad Mahrez",
+                            "assist": "Wilfred Ndidi"
+                        },
+                        {
+                            "minute": "73",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Peter Crouch",
+                            "assist": "Xherdan Shaqiri"
+                        }
+                    ],
+                    "cards": [],
+                    "substitutions": [
+                        {
+                            "minute": "58",
+                            "in": "Kelechi Iheanacho",
+                            "out": "Shinji Okazaki"
+                        },
+                        {
+                            "minute": "66",
+                            "in": "Andy King",
+                            "out": "Vicente Iborra"
+                        },
+                        {
+                            "minute": "69",
+                            "in": "Peter Crouch",
+                            "out": "Ramadan Sobhi"
+                        },
+                        {
+                            "minute": "80",
+                            "in": "Marc Albrighton",
+                            "out": "Demarai Gray"
+                        },
+                        {
+                            "minute": "86",
+                            "in": "Saido Berahino",
+                            "out": "Mame Biram Diouf"
+                        }
+                    ],
+                    "referee": "Robert Madley",
+                    "kick_off": "12:30",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "47.2",
+                            "away": "52.8"
+                        },
+                        "shots_on_target": {
+                            "home": "7",
+                            "away": "4"
+                        },
+                        "shots": {
+                            "home": "11",
+                            "away": "14"
+                        },
+                        "touches": {
+                            "home": "550",
+                            "away": "613"
+                        },
+                        "passes": {
+                            "home": "379",
+                            "away": "424"
+                        },
+                        "tackles": {
+                            "home": "15",
+                            "away": "14"
+                        },
+                        "clearances": {
+                            "home": "18",
+                            "away": "24"
+                        },
+                        "corners": {
+                            "home": "4",
+                            "away": "10"
+                        },
+                        "offsides": {
+                            "home": "0",
+                            "away": "5"
+                        },
+                        "fouls_conceded": {
+                            "home": "12",
+                            "away": "8"
+                        }
+                    }
+                }
+            },
+            {
+                "home_team": "Swansea",
+                "away_team": "Brighton",
+                "score": "0-1",
+                "url": "https://www.premierleague.com/match/22449",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "29",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Glenn Murray",
+                            "assist": "Anthony Knockaert"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "29",
+                            "card": "yellow",
+                            "player": "Federico Fernández"
+                        },
+                        {
+                            "minute": "37",
+                            "card": "yellow",
+                            "player": "Lewis Dunk"
+                        },
+                        {
+                            "minute": "66",
+                            "card": "yellow",
+                            "player": "Sam Clucas"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "59",
+                            "in": "Luciano Narsingh",
+                            "out": "Tom Carroll"
+                        },
+                        {
+                            "minute": "66",
+                            "in": "Solly March",
+                            "out": "José Izquierdo"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "Tomer Hemed",
+                            "out": "Glenn Murray"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "Wayne Routledge",
+                            "out": "Sam Clucas"
+                        },
+                        {
+                            "minute": "79",
+                            "in": "Oliver McBurnie",
+                            "out": "Jordan Ayew"
+                        },
+                        {
+                            "minute": "85",
+                            "in": "Isaiah Brown",
+                            "out": "Pascal Groß"
+                        }
+                    ],
+                    "referee": "Mike Dean",
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "56.1",
+                            "away": "43.9"
+                        },
+                        "shots_on_target": {
+                            "home": "2",
+                            "away": "2"
+                        },
+                        "shots": {
+                            "home": "12",
+                            "away": "5"
+                        },
+                        "touches": {
+                            "home": "653",
+                            "away": "542"
+                        },
+                        "passes": {
+                            "home": "468",
+                            "away": "371"
+                        },
+                        "tackles": {
+                            "home": "12",
+                            "away": "17"
+                        },
+                        "clearances": {
+                            "home": "19",
+                            "away": "36"
+                        },
+                        "corners": {
+                            "home": "8",
+                            "away": "7"
+                        },
+                        "offsides": {
+                            "home": "1",
+                            "away": "2"
+                        },
+                        "yellow_cards": {
+                            "home": "2",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "13",
+                            "away": "12"
+                        }
+                    }
+                }
+            },
+            {
+                "home_team": "Southampton",
+                "away_team": "Burnley",
+                "score": "0-1",
+                "url": "https://www.premierleague.com/match/22447",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "81",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Sam Vokes",
+                            "assist": "Johann Berg Gudmundsson"
+                        }
+                    ],
+                    "cards": [],
+                    "substitutions": [
+                        {
+                            "minute": "65",
+                            "in": "Charlie Austin",
+                            "out": "Manolo Gabbiadini"
+                        },
+                        {
+                            "minute": "65",
+                            "in": "Ashley Barnes",
+                            "out": "Jeff Hendrick"
+                        },
+                        {
+                            "minute": "65",
+                            "in": "Sam Vokes",
+                            "out": "Chris Wood"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Shane Long",
+                            "out": "Dusan Tadic"
+                        },
+                        {
+                            "minute": "90",
+                            "in": "James Ward-Prowse",
+                            "out": "Sofiane Boufal"
+                        }
+                    ],
+                    "referee": "Lee Probert",
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "62.8",
+                            "away": "37.2"
+                        },
+                        "shots_on_target": {
+                            "home": "3",
+                            "away": "1"
+                        },
+                        "shots": {
+                            "home": "13",
+                            "away": "5"
+                        },
+                        "touches": {
+                            "home": "748",
+                            "away": "516"
+                        },
+                        "passes": {
+                            "home": "575",
+                            "away": "344"
+                        },
+                        "tackles": {
+                            "home": "15",
+                            "away": "11"
+                        },
+                        "clearances": {
+                            "home": "18",
+                            "away": "35"
+                        },
+                        "corners": {
+                            "home": "9",
+                            "away": "1"
+                        },
+                        "offsides": {
+                            "home": "2",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "4",
+                            "away": "4"
+                        }
+                    }
+                }
+            },
+            {
+                "home_team": "Newcastle",
+                "away_team": "Bournemouth",
+                "score": "0-1",
+                "url": "https://www.premierleague.com/match/22446",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "90",
+                            "additional": "2",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Steve Cook",
+                            "assist": "Andrew Surman"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "20",
+                            "card": "yellow",
+                            "player": "Andrew Surman"
+                        },
+                        {
+                            "minute": "63",
+                            "card": "yellow",
+                            "player": "Florian Lejeune"
+                        },
+                        {
+                            "minute": "77",
+                            "card": "yellow",
+                            "player": "Simon Francis"
+                        },
+                        {
+                            "minute": "84",
+                            "card": "yellow",
+                            "player": "Jonjo Shelvey"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "55",
+                            "in": "Ciaran Clark",
+                            "out": "Jamaal Lascelles"
+                        },
+                        {
+                            "minute": "68",
+                            "in": "Ayoze Pérez",
+                            "out": "Joselu"
+                        },
+                        {
+                            "minute": "75",
+                            "in": "Adam Smith",
+                            "out": "Callum Wilson"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Jermain Defoe",
+                            "out": "Jordon Ibe"
+                        },
+                        {
+                            "minute": "82",
+                            "in": "Jacob Murphy",
+                            "out": "Christian Atsu"
+                        }
+                    ],
+                    "referee": "Paul Tierney",
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "48",
+                            "away": "52"
+                        },
+                        "shots_on_target": {
+                            "home": "4",
+                            "away": "6"
+                        },
+                        "shots": {
+                            "home": "16",
+                            "away": "16"
+                        },
+                        "touches": {
+                            "home": "569",
+                            "away": "594"
+                        },
+                        "passes": {
+                            "home": "373",
+                            "away": "407"
+                        },
+                        "tackles": {
+                            "home": "19",
+                            "away": "10"
+                        },
+                        "clearances": {
+                            "home": "28",
+                            "away": "24"
+                        },
+                        "corners": {
+                            "home": "11",
+                            "away": "9"
+                        },
+                        "offsides": {
+                            "home": "5",
+                            "away": "1"
+                        },
+                        "yellow_cards": {
+                            "home": "2",
+                            "away": "2"
+                        },
+                        "fouls_conceded": {
+                            "home": "11",
+                            "away": "12"
+                        }
+                    }
+                }
+            },
+            {
                 "home_team": "Huddersfield",
                 "away_team": "West Brom",
                 "score": "1-0",
@@ -88,7 +516,57 @@
                         }
                     ],
                     "referee": "Roger East",
-                    "kick_off": "15:00"
+                    "kick_off": "15:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "50.1",
+                            "away": "49.9"
+                        },
+                        "shots_on_target": {
+                            "home": "3",
+                            "away": "3"
+                        },
+                        "shots": {
+                            "home": "7",
+                            "away": "9"
+                        },
+                        "touches": {
+                            "home": "618",
+                            "away": "599"
+                        },
+                        "passes": {
+                            "home": "421",
+                            "away": "417"
+                        },
+                        "tackles": {
+                            "home": "20",
+                            "away": "13"
+                        },
+                        "clearances": {
+                            "home": "33",
+                            "away": "18"
+                        },
+                        "corners": {
+                            "home": "3",
+                            "away": "5"
+                        },
+                        "offsides": {
+                            "home": "4",
+                            "away": "4"
+                        },
+                        "yellow_cards": {
+                            "home": "1",
+                            "away": "4"
+                        },
+                        "red_cards": {
+                            "home": "1",
+                            "away": "0"
+                        },
+                        "fouls_conceded": {
+                            "home": "8",
+                            "away": "15"
+                        }
+                    }
                 }
             },
             {
@@ -182,259 +660,53 @@
                         }
                     ],
                     "referee": "Neil Swarbrick",
-                    "kick_off": "17:30"
-                }
-            },
-            {
-                "home_team": "Stoke",
-                "away_team": "Leicester",
-                "score": "2-2",
-                "url": "https://www.premierleague.com/match/22448",
-                "details": {
-                    "goals": [
-                        {
-                            "minute": "33",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Vicente Iborra",
-                            "assist": "Harry Maguire"
+                    "kick_off": "17:30",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "48",
+                            "away": "52"
                         },
-                        {
-                            "minute": "39",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Xherdan Shaqiri",
-                            "assist": "Eric Maxim Choupo-Moting"
+                        "shots_on_target": {
+                            "home": "1",
+                            "away": "7"
                         },
-                        {
-                            "minute": "60",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Riyad Mahrez",
-                            "assist": "Wilfred Ndidi"
+                        "shots": {
+                            "home": "6",
+                            "away": "15"
                         },
-                        {
-                            "minute": "73",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Peter Crouch",
-                            "assist": "Xherdan Shaqiri"
+                        "touches": {
+                            "home": "622",
+                            "away": "657"
+                        },
+                        "passes": {
+                            "home": "442",
+                            "away": "488"
+                        },
+                        "tackles": {
+                            "home": "10",
+                            "away": "20"
+                        },
+                        "clearances": {
+                            "home": "14",
+                            "away": "20"
+                        },
+                        "corners": {
+                            "home": "2",
+                            "away": "3"
+                        },
+                        "offsides": {
+                            "home": "5",
+                            "away": "1"
+                        },
+                        "yellow_cards": {
+                            "home": "3",
+                            "away": "0"
+                        },
+                        "fouls_conceded": {
+                            "home": "9",
+                            "away": "13"
                         }
-                    ],
-                    "cards": [],
-                    "substitutions": [
-                        {
-                            "minute": "58",
-                            "in": "Kelechi Iheanacho",
-                            "out": "Shinji Okazaki"
-                        },
-                        {
-                            "minute": "66",
-                            "in": "Andy King",
-                            "out": "Vicente Iborra"
-                        },
-                        {
-                            "minute": "69",
-                            "in": "Peter Crouch",
-                            "out": "Ramadan Sobhi"
-                        },
-                        {
-                            "minute": "80",
-                            "in": "Marc Albrighton",
-                            "out": "Demarai Gray"
-                        },
-                        {
-                            "minute": "86",
-                            "in": "Saido Berahino",
-                            "out": "Mame Biram Diouf"
-                        }
-                    ],
-                    "referee": "Robert Madley",
-                    "kick_off": "12:30"
-                }
-            },
-            {
-                "home_team": "Swansea",
-                "away_team": "Brighton",
-                "score": "0-1",
-                "url": "https://www.premierleague.com/match/22449",
-                "details": {
-                    "goals": [
-                        {
-                            "minute": "29",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Glenn Murray",
-                            "assist": "Anthony Knockaert"
-                        }
-                    ],
-                    "cards": [
-                        {
-                            "minute": "29",
-                            "card": "yellow",
-                            "player": "Federico Fernández"
-                        },
-                        {
-                            "minute": "37",
-                            "card": "yellow",
-                            "player": "Lewis Dunk"
-                        },
-                        {
-                            "minute": "66",
-                            "card": "yellow",
-                            "player": "Sam Clucas"
-                        }
-                    ],
-                    "substitutions": [
-                        {
-                            "minute": "59",
-                            "in": "Luciano Narsingh",
-                            "out": "Tom Carroll"
-                        },
-                        {
-                            "minute": "66",
-                            "in": "Solly March",
-                            "out": "José Izquierdo"
-                        },
-                        {
-                            "minute": "79",
-                            "in": "Tomer Hemed",
-                            "out": "Glenn Murray"
-                        },
-                        {
-                            "minute": "79",
-                            "in": "Wayne Routledge",
-                            "out": "Sam Clucas"
-                        },
-                        {
-                            "minute": "79",
-                            "in": "Oliver McBurnie",
-                            "out": "Jordan Ayew"
-                        },
-                        {
-                            "minute": "85",
-                            "in": "Isaiah Brown",
-                            "out": "Pascal Groß"
-                        }
-                    ],
-                    "referee": "Mike Dean",
-                    "kick_off": "15:00"
-                }
-            },
-            {
-                "home_team": "Southampton",
-                "away_team": "Burnley",
-                "score": "0-1",
-                "url": "https://www.premierleague.com/match/22447",
-                "details": {
-                    "goals": [
-                        {
-                            "minute": "81",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Sam Vokes",
-                            "assist": "Johann Berg Gudmundsson"
-                        }
-                    ],
-                    "cards": [],
-                    "substitutions": [
-                        {
-                            "minute": "65",
-                            "in": "Charlie Austin",
-                            "out": "Manolo Gabbiadini"
-                        },
-                        {
-                            "minute": "65",
-                            "in": "Ashley Barnes",
-                            "out": "Jeff Hendrick"
-                        },
-                        {
-                            "minute": "65",
-                            "in": "Sam Vokes",
-                            "out": "Chris Wood"
-                        },
-                        {
-                            "minute": "76",
-                            "in": "Shane Long",
-                            "out": "Dusan Tadic"
-                        },
-                        {
-                            "minute": "90",
-                            "in": "James Ward-Prowse",
-                            "out": "Sofiane Boufal"
-                        }
-                    ],
-                    "referee": "Lee Probert",
-                    "kick_off": "15:00"
-                }
-            },
-            {
-                "home_team": "Newcastle",
-                "away_team": "Bournemouth",
-                "score": "0-1",
-                "url": "https://www.premierleague.com/match/22446",
-                "details": {
-                    "goals": [
-                        {
-                            "minute": "90",
-                            "additional": "2",
-                            "own_goal": "false",
-                            "penalty": "false",
-                            "scorer": "Steve Cook",
-                            "assist": "Andrew Surman"
-                        }
-                    ],
-                    "cards": [
-                        {
-                            "minute": "20",
-                            "card": "yellow",
-                            "player": "Andrew Surman"
-                        },
-                        {
-                            "minute": "63",
-                            "card": "yellow",
-                            "player": "Florian Lejeune"
-                        },
-                        {
-                            "minute": "77",
-                            "card": "yellow",
-                            "player": "Simon Francis"
-                        },
-                        {
-                            "minute": "84",
-                            "card": "yellow",
-                            "player": "Jonjo Shelvey"
-                        }
-                    ],
-                    "substitutions": [
-                        {
-                            "minute": "55",
-                            "in": "Ciaran Clark",
-                            "out": "Jamaal Lascelles"
-                        },
-                        {
-                            "minute": "68",
-                            "in": "Ayoze Pérez",
-                            "out": "Joselu"
-                        },
-                        {
-                            "minute": "75",
-                            "in": "Adam Smith",
-                            "out": "Callum Wilson"
-                        },
-                        {
-                            "minute": "76",
-                            "in": "Jermain Defoe",
-                            "out": "Jordon Ibe"
-                        },
-                        {
-                            "minute": "82",
-                            "in": "Jacob Murphy",
-                            "out": "Christian Atsu"
-                        }
-                    ],
-                    "referee": "Paul Tierney",
-                    "kick_off": "15:00"
+                    }
                 }
             }
         ]

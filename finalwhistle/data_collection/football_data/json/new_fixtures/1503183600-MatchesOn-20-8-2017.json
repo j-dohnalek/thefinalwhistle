@@ -89,7 +89,53 @@
                         }
                     ],
                     "referee": "Craig Pawson",
-                    "kick_off": "13:30"
+                    "kick_off": "13:30",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "52.7",
+                            "away": "47.3"
+                        },
+                        "shots_on_target": {
+                            "home": "3",
+                            "away": "5"
+                        },
+                        "shots": {
+                            "home": "7",
+                            "away": "13"
+                        },
+                        "touches": {
+                            "home": "674",
+                            "away": "611"
+                        },
+                        "passes": {
+                            "home": "456",
+                            "away": "415"
+                        },
+                        "tackles": {
+                            "home": "24",
+                            "away": "18"
+                        },
+                        "clearances": {
+                            "home": "29",
+                            "away": "27"
+                        },
+                        "corners": {
+                            "home": "7",
+                            "away": "3"
+                        },
+                        "offsides": {
+                            "home": "4",
+                            "away": "5"
+                        },
+                        "yellow_cards": {
+                            "home": "3",
+                            "away": "4"
+                        },
+                        "fouls_conceded": {
+                            "home": "13",
+                            "away": "10"
+                        }
+                    }
                 }
             },
             {
@@ -107,9 +153,9 @@
                         },
                         {
                             "minute": "82",
-                            "scorer": "Michy Batshuayi",
                             "own_goal": "true",
-                            "penalty": "false"
+                            "penalty": "false",
+                            "scorer": "Michy Batshuayi"
                         },
                         {
                             "minute": "88",
@@ -185,7 +231,49 @@
                         }
                     ],
                     "referee": "Anthony Taylor",
-                    "kick_off": "16:00"
+                    "kick_off": "16:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "67.7",
+                            "away": "32.3"
+                        },
+                        "shots_on_target": {
+                            "home": "6",
+                            "away": "2"
+                        },
+                        "shots": {
+                            "home": "18",
+                            "away": "9"
+                        },
+                        "touches": {
+                            "home": "820",
+                            "away": "498"
+                        },
+                        "passes": {
+                            "home": "592",
+                            "away": "280"
+                        },
+                        "tackles": {
+                            "home": "14",
+                            "away": "31"
+                        },
+                        "clearances": {
+                            "home": "14",
+                            "away": "40"
+                        },
+                        "corners": {
+                            "home": "14",
+                            "away": "3"
+                        },
+                        "yellow_cards": {
+                            "home": "4",
+                            "away": "3"
+                        },
+                        "fouls_conceded": {
+                            "home": "14",
+                            "away": "21"
+                        }
+                    }
                 }
             }
         ]

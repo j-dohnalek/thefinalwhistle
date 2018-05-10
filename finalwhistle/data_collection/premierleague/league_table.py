@@ -89,4 +89,3 @@ def get_league_table():
     # Write the data to json
     with open(PATH, 'w') as outfile:
         json.dump(table, outfile, ensure_ascii=False, indent=4)
-        print('Writing JSON: {}'.format(PATH))

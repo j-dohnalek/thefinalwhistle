@@ -25,10 +25,20 @@ import os
 
 
 SCROLL_PAUSE_TIME = 1
-DEBUG = True
+DEBUG = False
 
 
 # CLASSES ######################################################################
+
+
+class PageError(Exception):
+    """ Error raised if element can not be found on the page """
+
+    def __init__(self, value):
+        self.value = value
+
+    def __str__(self):
+        return repr(self.value)
 
 
 class MyDriver:
@@ -160,8 +170,7 @@ class FireMyFox():
             attempts_to_load += 1
 
         if not stop_termination:
-            print("The failed to load content from {}, terminating program".format(self.__url__))
-            sys.exit(0)
+            raise PageError("Failed to load content from {}, terminating process".format(self.__url__))
 
         html = self.__driver__.page_source
         if not self.__leave_open__:

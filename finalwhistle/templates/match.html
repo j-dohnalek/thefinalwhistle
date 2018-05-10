@@ -7,7 +7,6 @@
 .commentBox .form-group:first-child, .actionBox .form-group:first-child {width:100%;}
 .commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) {width:10em;}
 .actionBox .form-group * { width:100%; }
-.taskDescription { margin-top:0.5em 0; }
 .commentList { padding:0; list-style:none;}
 .commentList li { margin:0; margin-top:0.5em; }
 .commentList li > div { display:table-cell; }
@@ -59,14 +58,14 @@
             <div class="row">
                 <div class="col-sm text-center">
                     <img height="100" src="{{ match['home_crest'] }}" />
-                    <h2>{{ match['home_team'] }}</h2>
+                    <h2 class="heading mt-2">{{ match['home_team'] }}</h2>
                 </div>
                 <div class="col-sm text-center">
-                    <h1>{{ match['home_goals'] }} : {{ match['away_goals'] }}</h1>
+                    <h1 class="font-weight-light display-4 pt-4 font-weight-light">{{ match['home_goals'] }} : {{ match['away_goals'] }}</h1>
                 </div>
                 <div class="col-sm text-center">
                     <img height="100" src="{{ match['away_crest'] }}" />
-                    <h2>{{ match['away_team'] }}</h2>
+                    <h2 class="heading mt-2">{{ match['away_team'] }}</h2>
                 </div>
             </div>
         </div>
@@ -123,34 +122,28 @@
             </div>
         </div>
         <div class="container">
-            <div class="card my-2">
+            <div class="card mb-4">
                 <div class="card-header">
-                    <h4>Match Statistics</h4>
+                    <h4 class="mb-0">Match Statistics</h4>
                 </div>
-                <div class="card-body">
-                    <table class="table text-center">
-                        {% for statistic in statistics %}
-                            <tr>
-                                <td>{{ match['home_team_stats'][statistic] }}</td>
-                                <td>{{ statistic }}</td>
-                                <td>{{ match['away_team_stats'][statistic] }}</td>
-                            </tr>
-                        {% endfor %}
-                    </table>
-                </div>
+                <table class="table text-center mb-0">
+                    {% for statistic in statistics %}
+                        <tr>
+                            <td>{{ match['home_team_stats'][statistic] }}</td>
+                            <th>{{ statistic }}</th>
+                            <td>{{ match['away_team_stats'][statistic] }}</td>
+                        </tr>
+                    {% endfor %}
+                </table>
             </div>
         </div>
     </div>
 
     <div class="card">
         <div class="commentBox">
-            <div class="container p-2">
-                <div class="alert alert-secondary" role="alert">
-                    <h4>The Final Whistle Comment Policy</h4>
-                    <p class="taskDescription">
-                        We welcome relevant (stay on topic), respectful comments.
-                    </p>
-                </div>
+            <div class="alert alert-secondary" role="alert">
+                <h4>The Final Whistle Comment Policy</h4>
+                    We welcome relevant (stay on topic), respectful comments. Please check our <a href="{{ url_for('community_guidelines')}}" target="_blank">Community Guidelines</a> for more information.
             </div>
         </div>
         <div class="actionBox">
@@ -164,7 +157,8 @@
                             <div class="commentText">
                                 <p class="">{{ parent_comment['body'] }}</p>
                                 <span class="date sub-text">
-                                    on {{ parent_comment['posted_at'] }} <a href="javascript:replyTo('comment{{parent_comment['id']}}')">Reply</a>
+                                    on {{ parent_comment['posted_at'] }} by {{ parent_comment['username'] }}
+                                    <a href="javascript:replyTo('comment{{parent_comment['id']}}')">Reply</a>
                                 </span>
                             </div>
                         </li>
@@ -176,7 +170,9 @@
                                     </div>
                                     <div class="commentText">
                                         <p class="">{{ child_comment['body'] }}</p>
-                                        <span class="date sub-text">on {{ child_comment['posted_at'] }}</span>
+                                        <span class="date sub-text">
+                                            on {{ child_comment['posted_at'] }} by {{ child_comment['username'] }}
+                                        </span>
                                     </div>
                                 </li>
                             {% endfor %}

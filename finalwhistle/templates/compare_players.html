@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="col-2 text-right">
-                <input type="submit" class="btn btn-primary btn-block" type="submit" value="Compare" />
+                <input type="submit" class="btn btn-primary btn-block" value="Compare" />
             </div>
         </div>
     </form>
@@ -56,7 +56,7 @@
             <div class="col-sm">
 
                 <div class="text-center py-5">
-                    <img src="{{stats['player1']['img']}}" width="250" />
+                    <img src="{{stats['player1']['img']}}" width="250" alt="{{ stats['player1']['name'] }}" />
                     <h2 class="heading pt-4">{{ stats['player1']['name'] }}</h2>
                 </div>
 
@@ -120,7 +120,7 @@
 
             <div class="col-sm">
                 <div class="text-center py-5">
-                    <img src="{{stats['player2']['img']}}" width="250" />
+                    <img src="{{stats['player2']['img']}}" width="250" alt="{{ stats['player2']['name'] }}"/>
                     <h2 class="heading pt-4">{{ stats['player2']['name'] }}</h2>
                 </div>
 
@@ -195,7 +195,6 @@
 
     {% endif %}
 
-</div>
 
 {% block custom_scripts %}
 {% endblock custom_scripts %}

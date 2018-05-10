@@ -3,17 +3,17 @@
 {% block content %}
 <main>
 
-    <section class="banner banner-1" style="background-image: url({{ url_for('static', filename='images/stadium.jpg') }});">
+    <section class="banner banner-1 d-none d-lg-block" style="background-image: url({{ url_for('static', filename='images/stadium.jpg') }});">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 offset-md-2">
                     <div class="card box-shadow" style="background: rgba(255,255,255,0.8);">
                         <div class="card-body text-center p-4">
-                            <img height="70px" src="{{ last_match['home_crest'] }}" alt="{{ last_match['home_team'] }}" />
+                            <img height="70" src="{{ last_match['home_crest'] }}" alt="{{ last_match['home_team'] }}" />
                             <h1 class="heading d-inline mb-0 px-3 align-middle"> {{last_match['home_team']}} </h1>
                             <h1 class="font-weight-light d-inline mb-0 align-middle"> {{ last_match['home_goals'] }} : {{ last_match['away_goals'] }} </h1>
                             <h1 class="heading d-inline mb-0 px-3 align-middle"> {{last_match['away_team']}} </h1>
-                            <img height="70px" src="{{ last_match['away_crest'] }}" alt="{{ last_match['away_team'] }}" />
+                            <img height="70" src="{{ last_match['away_crest'] }}" alt="{{ last_match['away_team'] }}" />
                             <div>
                                 <a class="btn btn-outline-dark mt-3" href="{{ url_for('match_page', id=last_match['match_id'])}}">
                                     View match <i class="fas fa-futbol"></i>
@@ -30,24 +30,22 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-lg-8">
                     <div class="card mb-4 box-shadow">
                         <div class="card-body">
-                            <h5 class="card-title mb-0">Last matches</h5>
+                            <h5 class="card-title mb-0">Latest matches</h5>
                         </div>
-                        <table class="table mb-0">
+                        <table class="table mb-0" style="table-layout:fixed;">
                         {% for match in matches %}
                             {% if match['indicator'] == 0 %}
+                            <tr>
+                                <td colspan="6"><h4 class="text-center mb-0 font-weight-light">{{ match['kickoff_date'] }}</h4></td>
+                            </tr>
                             <tr>
                             {% else %}
                             <tr class="no-border-top">
                             {% endif %}
-                                <td>
-                                    {% if match['indicator'] == 0 %}
-                                        {{ match['kickoff_date'] }}
-                                    {% endif %}
-                                </td>
-                                <td class="text-right align-middle"> {{ match['home_team'] }} </td>
+                            <td class="text-right align-middle"><span class="d-none d-md-block"> {{ match['home_team'] }} </span></td>
                                 <td class="text-center align-middle">
                                     <img height="50" src="{{ match['home_crest'] }}" alt="{{ match['home_team'] }}" />
                                 </td>
@@ -57,7 +55,7 @@
                                 <td class="text-center align-middle">
                                     <img height="50" src="{{ match['away_crest'] }}" alt="{{ match['home_team'] }}" />
                                 </td>
-                                <td class="text-left align-middle">{{ match['away_team'] }}</td>
+                                <td class="text-left align-middle"><span class="d-none d-md-block"> {{ match['away_team'] }} </span></td>
                                 <td class="align-middle">
                                     <a class="btn btn-sm btn-outline-primary" href="{{ url_for('match_page', id=match['match_id'])}}">
                                         <i class="fas fa-arrow-right"></i> Details
@@ -75,17 +73,19 @@
 
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <div class="card mb-4 box-shadow">
                         <div class="card-body">
                             <h5 class="card-title">League Table</h5>
                             <table class="table table-sm table-hover mb-0">
                                 <thead>
-                                    <th scope="col"></th>
-                                    <th scope="col">Team</th>
-                                    <th scope="col" class="text-right">P</th>
-                                    <th scope="col" class="text-right">GD</th>
-                                    <th scope="col" class="text-right">Pts</th>
+                                    <tr>
+                                        <th scope="col"></th>
+                                        <th scope="col"> Team</th>
+                                        <th scope="col" class="text-right">P</th>
+                                        <th scope="col" class="text-right">GD</th>
+                                        <th scope="col" class="text-right">Pts</th>
+                                    </tr>
                                 </thead>
                                 <tbody>
                                     {% for position in range(1, table|length + 1) %}

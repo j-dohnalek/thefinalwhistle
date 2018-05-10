@@ -93,7 +93,57 @@
                         }
                     ],
                     "referee": "Robert Madley",
-                    "kick_off": "20:00"
+                    "kick_off": "20:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "65.4",
+                            "away": "34.6"
+                        },
+                        "shots_on_target": {
+                            "home": "6",
+                            "away": "2"
+                        },
+                        "shots": {
+                            "home": "19",
+                            "away": "7"
+                        },
+                        "touches": {
+                            "home": "745",
+                            "away": "477"
+                        },
+                        "passes": {
+                            "home": "560",
+                            "away": "301"
+                        },
+                        "tackles": {
+                            "home": "12",
+                            "away": "19"
+                        },
+                        "clearances": {
+                            "home": "6",
+                            "away": "30"
+                        },
+                        "corners": {
+                            "home": "7",
+                            "away": "1"
+                        },
+                        "offsides": {
+                            "home": "0",
+                            "away": "3"
+                        },
+                        "yellow_cards": {
+                            "home": "1",
+                            "away": "2"
+                        },
+                        "red_cards": {
+                            "home": "1",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "7",
+                            "away": "9"
+                        }
+                    }
                 }
             }
         ]

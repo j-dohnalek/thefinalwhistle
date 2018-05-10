@@ -21,7 +21,7 @@
                     <tbody>
                         {% for scorer in statistics['goal_scorers'] %}
                         <tr>
-                            <td class="text-center" style="vertical-align: middle;"><img src="{{ scorer['image']}}" height="50"></td>
+                            <td class="text-center" style="vertical-align: middle;"><img src="{{ scorer['image']}}" alt="{{ scorer['player'] }}" height="50"></td>
                             <td style="vertical-align: middle;"><h5 class="font-weight-light mb-0"><a href="{{url_for('player_page', id=scorer['id'])}}">{{ scorer['player'] }}</a></h5></td>
                             <td class="text-center" style="vertical-align: middle;">{{ scorer['goals'] }}</td>
                         </tr>
@@ -38,7 +38,7 @@
                     <tbody>
                         {% for scorer in statistics['yellow_cards'] %}
                         <tr>
-                            <td class="text-center" style="vertical-align: middle;"><img src="{{ scorer['image']}}" height="50"></td>
+                            <td class="text-center" style="vertical-align: middle;"><img src="{{ scorer['image']}}" alt="{{ scorer['player'] }}" height="50"></td>
                             <td style="vertical-align: middle;"><h5 class="font-weight-light mb-0"><a href="{{url_for('player_page', id=scorer['id'])}}">{{ scorer['player'] }}</a></h5></td>
                             <td class="text-center" style="vertical-align: middle;">{{ scorer['goals'] }}</td>
                         </tr>
@@ -58,7 +58,7 @@
                     <tbody>
                         {% for scorer in statistics['assistants'] %}
                         <tr>
-                            <td class="text-center" style="vertical-align: middle;"><img src="{{ scorer['image']}}" height="50"></td>
+                            <td class="text-center" style="vertical-align: middle;"><img src="{{ scorer['image']}}" alt="{{ scorer['player'] }}" height="50"></td>
                             <td style="vertical-align: middle;"><h5 class="font-weight-light mb-0"><a href="{{url_for('player_page', id=scorer['id'])}}">{{ scorer['player'] }}</a></h5></td>
                             <td class="text-center" style="vertical-align: middle;">{{ scorer['goals'] }}</td>
                         </tr>
@@ -75,7 +75,7 @@
                     <tbody>
                         {% for scorer in statistics['red_cards'] %}
                             <tr>
-                                <td class="text-center" style="vertical-align: middle;"><img src="{{ scorer['image']}}" height="50"></td>
+                                <td class="text-center" style="vertical-align: middle;"><img src="{{ scorer['image']}}" alt="{{ scorer['player'] }}" height="50"></td>
                                 <td style="vertical-align: middle;"><h5 class="font-weight-light mb-0"><a href="{{url_for('player_page', id=scorer['id'])}}">{{ scorer['player'] }}</a></h5></td>
                                 <td class="text-center" style="vertical-align: middle;">{{ scorer['goals'] }}</td>
                             </tr>

@@ -74,7 +74,53 @@
                         }
                     ],
                     "referee": "Kevin Friend",
-                    "kick_off": "20:00"
+                    "kick_off": "20:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "43.5",
+                            "away": "56.5"
+                        },
+                        "shots_on_target": {
+                            "home": "3",
+                            "away": "2"
+                        },
+                        "shots": {
+                            "home": "19",
+                            "away": "10"
+                        },
+                        "touches": {
+                            "home": "535",
+                            "away": "636"
+                        },
+                        "passes": {
+                            "home": "311",
+                            "away": "426"
+                        },
+                        "tackles": {
+                            "home": "21",
+                            "away": "19"
+                        },
+                        "clearances": {
+                            "home": "23",
+                            "away": "44"
+                        },
+                        "corners": {
+                            "home": "10",
+                            "away": "3"
+                        },
+                        "offsides": {
+                            "home": "0",
+                            "away": "1"
+                        },
+                        "yellow_cards": {
+                            "home": "1",
+                            "away": "2"
+                        },
+                        "fouls_conceded": {
+                            "home": "11",
+                            "away": "14"
+                        }
+                    }
                 }
             }
         ]

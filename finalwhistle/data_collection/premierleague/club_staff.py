@@ -74,4 +74,3 @@ def fetch_club_staff():
     with open(JSON_PATH, 'w') as outfile:
         values = [{"club": k, "managers": v} for k, v in club_managers.items()]
         json.dump(values, outfile, ensure_ascii=False, indent=4)
-        print('Writing JSON: {}'.format(JSON_PATH))

@@ -1,0 +1,116 @@
+[
+    {
+        "date": "Friday 4 May 2018",
+        "fixtures": [
+            {
+                "home_team": "Brighton",
+                "away_team": "Man Utd",
+                "score": "1-0",
+                "url": "https://www.premierleague.com/match/22704",
+                "details": {
+                    "goals": [
+                        {
+                            "minute": "57",
+                            "own_goal": "false",
+                            "penalty": "false",
+                            "scorer": "Pascal Groß"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "minute": "47",
+                            "card": "yellow",
+                            "player": "Glenn Murray"
+                        },
+                        {
+                            "minute": "67",
+                            "card": "yellow",
+                            "player": "Pascal Groß"
+                        }
+                    ],
+                    "substitutions": [
+                        {
+                            "minute": "68",
+                            "in": "Jesse Lingard",
+                            "out": "Marouane Fellaini"
+                        },
+                        {
+                            "minute": "68",
+                            "in": "Luke Shaw",
+                            "out": "Matteo Darmian"
+                        },
+                        {
+                            "minute": "76",
+                            "in": "Scott McTominay",
+                            "out": "Marcos Rojo"
+                        },
+                        {
+                            "minute": "84",
+                            "in": "Beram Kayal",
+                            "out": "Pascal Groß"
+                        },
+                        {
+                            "minute": "88",
+                            "in": "Solly March",
+                            "out": "José Izquierdo"
+                        },
+                        {
+                            "minute": "90",
+                            "additional": "3",
+                            "in": "Leonardo Ulloa",
+                            "out": "Glenn Murray"
+                        }
+                    ],
+                    "referee": "Craig Pawson",
+                    "kick_off": "20:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "31.7",
+                            "away": "68.3"
+                        },
+                        "shots_on_target": {
+                            "home": "4",
+                            "away": "3"
+                        },
+                        "shots": {
+                            "home": "11",
+                            "away": "16"
+                        },
+                        "touches": {
+                            "home": "475",
+                            "away": "862"
+                        },
+                        "passes": {
+                            "home": "313",
+                            "away": "675"
+                        },
+                        "tackles": {
+                            "home": "19",
+                            "away": "8"
+                        },
+                        "clearances": {
+                            "home": "22",
+                            "away": "19"
+                        },
+                        "corners": {
+                            "home": "5",
+                            "away": "6"
+                        },
+                        "offsides": {
+                            "home": "1",
+                            "away": "2"
+                        },
+                        "yellow_cards": {
+                            "home": "2",
+                            "away": "0"
+                        },
+                        "fouls_conceded": {
+                            "home": "5",
+                            "away": "3"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

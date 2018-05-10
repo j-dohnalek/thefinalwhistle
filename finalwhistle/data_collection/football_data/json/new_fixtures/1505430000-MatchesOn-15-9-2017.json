@@ -61,7 +61,49 @@
                         }
                     ],
                     "referee": "Craig Pawson",
-                    "kick_off": "20:00"
+                    "kick_off": "20:00",
+                    "statistic": {
+                        "possession_percent": {
+                            "home": "62.5",
+                            "away": "37.5"
+                        },
+                        "shots_on_target": {
+                            "home": "3",
+                            "away": "2"
+                        },
+                        "shots": {
+                            "home": "15",
+                            "away": "9"
+                        },
+                        "touches": {
+                            "home": "839",
+                            "away": "560"
+                        },
+                        "passes": {
+                            "home": "647",
+                            "away": "390"
+                        },
+                        "tackles": {
+                            "home": "12",
+                            "away": "19"
+                        },
+                        "clearances": {
+                            "home": "14",
+                            "away": "25"
+                        },
+                        "corners": {
+                            "home": "6",
+                            "away": "4"
+                        },
+                        "offsides": {
+                            "home": "1",
+                            "away": "1"
+                        },
+                        "fouls_conceded": {
+                            "home": "5",
+                            "away": "12"
+                        }
+                    }
                 }
             }
         ]
