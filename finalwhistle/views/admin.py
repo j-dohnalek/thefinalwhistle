@@ -11,17 +11,20 @@ from finalwhistle.models.contact import fetch_all_messages, delete_message
 
 from flask import request
 
+from helpers import require_admin, require_editor
+
 
 @app.route('/admin', methods=['GET'])
 @login_required
+@require_admin
 def admin_overview():
     return render_template('admin/index.html', token=get_access_token())
 
 
 @app.route('/admin/users', methods=['GET'])
 @login_required
+@require_admin
 def users_overview():
-
     if request.method == 'GET':
         editor = request.args.get('editor')
         not_editor = request.args.get('noteditor')
@@ -46,6 +49,7 @@ def users_overview():
 
 @app.route('/admin/articles/new', methods=['GET', 'POST'])
 @login_required
+@require_editor
 def new_article():
     if request.method == 'POST':
         form = request.form
@@ -64,6 +68,7 @@ def new_article():
 
 @app.route('/admin/messages', methods=['GET'])
 @login_required
+@require_admin
 def message_overview():
     messages = fetch_all_messages()
     if request.method == 'GET':
@@ -80,6 +85,7 @@ def message_overview():
 
 
 @app.route('/admin/articles/edit/<id>', methods=['GET', 'POST'])
+@require_editor
 @login_required
 def edit_article(id):
 
@@ -102,6 +108,7 @@ def edit_article(id):
 
 
 @app.route('/admin/articles', methods=['GET'])
+@require_editor
 @login_required
 def articles_overview():
     from finalwhistle.models.article import get_latest_news
@@ -109,6 +116,7 @@ def articles_overview():
 
 
 @app.route('/admin/stats', methods=['GET'])
+@require_admin
 @login_required
 def analytics_overview():
     return render_template('admin/stats.html', token=get_access_token())
