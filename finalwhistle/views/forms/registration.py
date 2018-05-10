@@ -42,4 +42,7 @@ class RegistrationForm(FlaskForm):
 
     def validate_password(self, password):
         from finalwhistle.models.user import validate_password
-        validate_password(password.data)
+        try:
+            validate_password(password.data)
+        except:
+            raise ValidationError('Please enter a password with at least 1 uppercase letter, 1 lowercase letter and 1 number')
