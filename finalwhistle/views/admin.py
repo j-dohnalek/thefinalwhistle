@@ -16,7 +16,7 @@ from helpers import require_admin, require_editor
 
 @app.route('/admin', methods=['GET'])
 @login_required
-@require_editor
+@require_admin
 def admin_overview():
     return render_template('admin/index.html', token=get_access_token())
 
@@ -98,8 +98,8 @@ def message_overview():
 
 
 @app.route('/admin/articles/edit/<id>', methods=['GET', 'POST'])
-@login_required
 @require_editor
+@login_required
 def edit_article(id):
 
     article = Article.query.filter(Article.id == id).first()
@@ -121,15 +121,15 @@ def edit_article(id):
 
 
 @app.route('/admin/articles', methods=['GET'])
-@login_required
 @require_editor
+@login_required
 def articles_overview():
     from finalwhistle.models.article import get_latest_news
     return render_template('admin/articles.html', token=get_access_token(), articles=get_latest_news())
 
 
 @app.route('/admin/stats', methods=['GET'])
-@login_required
 @require_admin
+@login_required
 def analytics_overview():
     return render_template('admin/stats.html', token=get_access_token())

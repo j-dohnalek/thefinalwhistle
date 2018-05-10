@@ -6,6 +6,9 @@ from finalwhistle.data_collection.json_to_db import parse_new_fixtures, parse_ma
 
 def update():
 
+    print("Updating league table cache")
+    league_table.get_league_table()
+
     print("Updating referee cache")
     referees.fetch_referees()
     parse_referee()
@@ -25,9 +28,6 @@ def update():
     print("Updating match statistics cache")
     parse_match_statistics()
     parse_player_statistics()
-
-    print("Updating league table cache")
-    league_table.get_league_table()
 
 
 if __name__ == '__main__':
