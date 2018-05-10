@@ -54,12 +54,12 @@ def register():
     return render_template('register.html', reg_form=registration_form)
 
 
-@app.route('/reset-password', methods=['GET'])
+@app.route('/forgot-password', methods=['GET'])
 def reset_password():
-    return render_template('reset_password.html')
+    return render_template('forgot_password.html')
 
 
-@app.route('/reset-password', methods=['POST'])
+@app.route('/forgot-password', methods=['POST'])
 def perform_reset_password():
     return 'reset password post'
 
