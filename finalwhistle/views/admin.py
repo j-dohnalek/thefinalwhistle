@@ -5,26 +5,64 @@ from finalwhistle.data_collection.analytics.access_token import get_access_token
 from finalwhistle import app
 from finalwhistle.models.article import create_new_article, update_existing_article
 
-from finalwhistle.models.user import User
+from finalwhistle.models.user import User, update_privilege
 from finalwhistle.models.article import Article
+from finalwhistle.models.contact import fetch_all_messages, delete_message
 
 from flask import request
+
+from helpers import require_admin, require_editor
 
 
 @app.route('/admin', methods=['GET'])
 @login_required
+@require_admin
 def admin_overview():
     return render_template('admin/index.html', token=get_access_token())
 
 
 @app.route('/admin/users', methods=['GET'])
 @login_required
+@require_admin
 def users_overview():
+    if request.method == 'GET':
+        editor = request.args.get('editor')
+        not_editor = request.args.get('noteditor')
+        blocked = request.args.get('block')
+        not_blocked = request.args.get('unblock')
+
+        try:
+            if editor is not None:
+                id = int(request.args.get('editor'))
+                update_privilege(id, 'editor', True)
+                return redirect(url_for('users_overview'))
+
+            if not_editor is not None:
+                id = int(request.args.get('noteditor'))
+                update_privilege(id, 'editor', False)
+                return redirect(url_for('users_overview'))
+
+            if blocked is not None:
+                id = int(request.args.get('block'))
+                update_privilege(id, 'block', True)
+                return redirect(url_for('users_overview'))
+
+            if not_blocked is not None:
+                id = int(request.args.get('unblock'))
+                update_privilege(id, 'block', False)
+                return redirect(url_for('users_overview'))
+
+        except ValueError:
+            pass
+        except TypeError:
+            pass
+
     return render_template('admin/users.html', users=User.query.all())
 
 
 @app.route('/admin/articles/new', methods=['GET', 'POST'])
 @login_required
+@require_editor
 def new_article():
     if request.method == 'POST':
         form = request.form
@@ -41,7 +79,26 @@ def new_article():
     return render_template('admin/new_article.html')
 
 
+@app.route('/admin/messages', methods=['GET'])
+@login_required
+@require_admin
+def message_overview():
+    messages = fetch_all_messages()
+    if request.method == 'GET':
+        try:
+            id = int(request.args.get('delete'))
+            messages = delete_message(id)
+            return redirect(url_for('message_overview'))
+        except ValueError:
+            pass
+        except TypeError:
+            pass
+
+    return render_template('admin/messages.html', messages=messages)
+
+
 @app.route('/admin/articles/edit/<id>', methods=['GET', 'POST'])
+@require_editor
 @login_required
 def edit_article(id):
 
@@ -64,6 +121,7 @@ def edit_article(id):
 
 
 @app.route('/admin/articles', methods=['GET'])
+@require_editor
 @login_required
 def articles_overview():
     from finalwhistle.models.article import get_latest_news
@@ -71,6 +129,7 @@ def articles_overview():
 
 
 @app.route('/admin/stats', methods=['GET'])
+@require_admin
 @login_required
 def analytics_overview():
     return render_template('admin/stats.html', token=get_access_token())

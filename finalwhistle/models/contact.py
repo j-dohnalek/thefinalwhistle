@@ -2,7 +2,28 @@
 Database model for contact page message
 """
 from finalwhistle import db
-from sqlalchemy import func
+from sqlalchemy import func, asc
+
+
+def fetch_all_messages():
+    """
+    Fetch all messages sent through the contact form
+    :return:
+    """
+    return Message.query.order_by(asc(Message.id)).all()
+
+
+def delete_message(id):
+    """
+    Delete message
+    :param id: id of message to delete
+    :return: list of messages
+    """
+    message = Message.query.filter(Message.id == id).first()
+    if message is not None:
+        Message.query.filter(Message.id == id).delete()
+        db.session.commit()
+    return fetch_all_messages()
 
 
 class Message(db.Model):
