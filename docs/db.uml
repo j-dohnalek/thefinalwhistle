@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>1bb338ed-3653-46b6-bf8f-3dc35f80ed39</OriginalElement>
+  <nodes>
+    <node x="1510.8201247165534" y="1079.0">1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.transfers</node>
+    <node x="1036.8201247165534" y="1092.0">1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.substitutions</node>
+    <node x="0.0" y="1092.0">1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.articles</node>
+    <node x="1121.9782870928832" y="67.9794933655005">1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.messages</node>
+    <node x="265.2367913832202" y="1079.0">1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.match_comments</node>
+    <node x="1273.8201247165534" y="1066.0">1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.goals</node>
+    <node x="68.33333333333348" y="412.0">1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.users</node>
+    <node x="613.2367913832202" y="13.0">1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.stadiums</node>
+    <node x="789.8201247165534" y="214.0">1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.referees</node>
+    <node x="674.732823129252" y="529.0">1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.matches</node>
+    <node x="1130.1951247165534" y="477.0">1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.players</node>
+    <node x="103.33333333333348" y="1488.0">1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.article_comments</node>
+    <node x="1562.5701247165534" y="214.0">1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.seasons</node>
+    <node x="498.4867913832201" y="162.0">1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.teams</node>
+    <node x="799.8201247165534" y="1092.0">1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.cards</node>
+    <node x="425.2367913832201" y="0.0">1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.leagues</node>
+    <node x="510.8201247165535" y="936.0">1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.match_statistics</node>
+    <node x="378.3333333333334" y="555.0">1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.clubstaff</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.teams" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.stadiums">
+      <point x="53.75" y="-95.0" />
+      <point x="659.7367913832202" y="137.0" />
+      <point x="702.7367913832202" y="137.0" />
+      <point x="0.0" y="43.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.cards" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.players">
+      <point x="54.25" y="-95.0" />
+      <point x="962.5701247165534" y="906.0" />
+      <point x="1148.6951247165534" y="906.0" />
+      <point x="-92.5" y="147.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.cards" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.matches">
+      <point x="-54.25" y="-95.0" />
+      <point x="854.0701247165534" y="916.0" />
+      <point x="771.732823129252" y="916.0" />
+      <point x="0.0" y="95.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.substitutions" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.players">
+      <point x="0.0" y="-95.0" />
+      <point x="1145.3201247165534" y="916.0" />
+      <point x="1185.6951247165534" y="916.0" />
+      <point x="-55.5" y="147.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.matches" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.seasons">
+      <point x="72.75" y="-95.0" />
+      <point x="844.482823129252" y="392.0" />
+      <point x="1605.3201247165534" y="392.0" />
+      <point x="-42.75" y="43.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.players" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.teams">
+      <point x="0.0" y="-147.0" />
+      <point x="1241.1951247165534" y="372.0" />
+      <point x="698.1296485260773" y="372.0" />
+      <point x="92.14285714285711" y="95.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.goals" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.players">
+      <point x="0.0" y="-121.0" />
+      <point x="1382.3201247165534" y="876.0" />
+      <point x="1259.6951247165534" y="876.0" />
+      <point x="18.5" y="147.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.matches" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.referees">
+      <point x="24.25" y="-95.0" />
+      <point x="795.982823129252" y="382.0" />
+      <point x="878.3201247165534" y="382.0" />
+      <point x="0.0" y="43.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.article_comments" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.articles">
+      <point x="-61.66666666666674" y="-108.0" />
+      <point x="134.16666666666674" y="1463.0" />
+      <point x="106.5" y="1463.0" />
+      <point x="0.0" y="95.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.matches" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.teams">
+      <point x="-24.25" y="-95.0" />
+      <point x="747.482823129252" y="382.0" />
+      <point x="667.4153628117915" y="382.0" />
+      <point x="61.42857142857133" y="95.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.match_comments" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.match_comments">
+      <point x="-46.25" y="108.0" />
+      <point x="311.4867913832202" y="1315.0" />
+      <point x="245.23679138322018" y="1315.0" />
+      <point x="245.23679138322018" y="1187.0" />
+      <point x="-92.5" y="-0.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.teams" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.leagues">
+      <point x="-53.75" y="-95.0" />
+      <point x="552.2367913832202" y="137.0" />
+      <point x="509.2367913832201" y="137.0" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.match_comments" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.users">
+      <point x="-46.25" y="-108.0" />
+      <point x="311.4867913832202" y="916.0" />
+      <point x="310.0000000000002" y="916.0" />
+      <point x="96.66666666666674" y="212.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.users" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.teams">
+      <point x="0.0" y="-212.0" />
+      <point x="213.33333333333348" y="382.0" />
+      <point x="513.8439342403631" y="382.0" />
+      <point x="-92.14285714285711" y="95.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.article_comments" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.match_comments">
+      <point x="61.66666666666674" y="-108.0" />
+      <point x="257.5000000000002" y="1463.0" />
+      <point x="403.9867913832202" y="1463.0" />
+      <point x="46.25" y="108.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.match_statistics" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.teams">
+      <point x="0.0" y="-251.0" />
+      <point x="645.3201247165534" y="906.0" />
+      <point x="585.8333333333335" y="906.0" />
+      <point x="585.8333333333335" y="392.0" />
+      <point x="605.9867913832202" y="392.0" />
+      <point x="0.0" y="95.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.match_statistics" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.matches">
+      <point x="89.66666666666674" y="-251.0" />
+      <point x="734.9867913832202" y="916.0" />
+      <point x="732.932823129252" y="916.0" />
+      <point x="-38.799999999999955" y="95.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.transfers" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.seasons">
+      <point x="60.0" y="-108.0" />
+      <point x="42.75" y="43.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.match_comments" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.matches">
+      <point x="46.25" y="-108.0" />
+      <point x="403.9867913832202" y="916.0" />
+      <point x="694.132823129252" y="916.0" />
+      <point x="-77.60000000000002" y="95.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.goals" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.matches">
+      <point x="-72.33333333333326" y="-121.0" />
+      <point x="1309.9867913832202" y="886.0" />
+      <point x="849.3328231292521" y="886.0" />
+      <point x="77.60000000000014" y="95.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.clubstaff" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.teams">
+      <point x="0.0" y="-69.0" />
+      <point x="471.3333333333334" y="392.0" />
+      <point x="544.5582199546488" y="392.0" />
+      <point x="-61.42857142857133" y="95.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.transfers" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.players">
+      <point x="-60.0" y="-108.0" />
+      <point x="1570.8201247165534" y="856.0" />
+      <point x="1333.6951247165534" y="856.0" />
+      <point x="92.5" y="147.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.substitutions" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.matches">
+      <point x="-72.33333333333331" y="-95.0" />
+      <point x="1072.9867913832202" y="896.0" />
+      <point x="810.5328231292519" y="896.0" />
+      <point x="38.799999999999955" y="95.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.articles" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.users">
+      <point x="0.0" y="-95.0" />
+      <point x="106.5" y="916.0" />
+      <point x="116.66666666666674" y="916.0" />
+      <point x="-96.66666666666674" y="212.0" />
+    </edge>
+    <edge source="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.article_comments" target="1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.users">
+      <point x="0.0" y="-108.0" />
+      <point x="195.83333333333348" y="1463.0" />
+      <point x="223.5" y="1463.0" />
+      <point x="223.5" y="916.0" />
+      <point x="213.33333333333348" y="916.0" />
+      <point x="0.0" y="212.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6007246376811594" x="1008.1182147165262" y="683.496984318456" />
+  <SelectedNodes>
+    <node>1bb338ed-3653-46b6-bf8f-3dc35f80ed39.TABLE:main.messages</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Key columns</Category>
+  </Categories>
+</Diagram>
+
