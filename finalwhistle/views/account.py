@@ -56,7 +56,7 @@ def register():
 
 @app.route('/reset-password', methods=['GET'])
 def reset_password():
-    return 'reset password form'
+    return render_template('reset_password.html')
 
 
 @app.route('/reset-password', methods=['POST'])
