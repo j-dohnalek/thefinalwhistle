@@ -16,7 +16,7 @@
                <img width="100" src="{{ url_for('static', filename='images/logo.svg') }}" class="logo" alt="The Final Whistle">
 
                 {% if user_error|length > 0 %}
-                <div class="alert alert-danger" role="alert">
+                <div class="alert alert-danger mt-3" role="alert">
                     <strong>Ooops!</strong> {{ user_error }}
                 </div>
                 {% endif %}
@@ -30,8 +30,11 @@
                   {{ login_form.remember_me }}
                   {{ login_form.remember_me.label }}
                </div>
-               {{ login_form.submit(class='btn btn-lg btn-primary btn-block') }}
-               {{ login_form.csrf_token }}
+               <div class="mb-3">
+                  {{ login_form.submit(class='btn btn-lg btn-primary btn-block') }}
+                  {{ login_form.csrf_token }}
+               </div>
+               <a href="{{ url_for('forgot_password') }}">Forgot your password?</a>
                <!--<div id="my-signin2"></div>-->
             </form>
          </div>

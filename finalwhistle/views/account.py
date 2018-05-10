@@ -62,7 +62,10 @@ def register():
             return redirect(url_for('home'))
     return render_template('register.html', reg_form=registration_form)
 
-
+@app.route('/forgot-password', methods=['GET'])
+def forgot_password():
+    return render_template('forgot_password.html')
+  
 @app.route('/verify-email', methods=['GET'])
 def verify_email():
 
