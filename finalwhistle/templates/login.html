@@ -16,7 +16,7 @@
                <img width="100" src="{{ url_for('static', filename='images/logo.svg') }}" class="logo" alt="The Final Whistle">
 
                 {% if user_error|length > 0 %}
-                <div class="alert alert-danger" role="alert">
+                <div class="alert alert-danger mt-3" role="alert">
                     <strong>Ooops!</strong> {{ user_error }}
                 </div>
                 {% endif %}
