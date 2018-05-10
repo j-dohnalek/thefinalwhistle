@@ -18,11 +18,11 @@ snippet for rendering form fields + labels and displaying validation errors adap
 {% macro form_input_render_errors(field) %}
    {{ field(class="form-control", **kwargs)|safe }}
   {% if field.errors %}
-    <ul class="form-error">
+    <div class="text-danger">
     {% for error in field.errors %}
-      <li>{{ error }}</li>
+      {{ error }}
     {% endfor %}
-    </ul>
+    </div>
   {% endif %}
 {% endmacro %}
 
