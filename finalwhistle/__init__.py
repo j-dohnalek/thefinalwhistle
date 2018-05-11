@@ -76,6 +76,12 @@ def current_year():
     now = datetime.datetime.now()
     return dict(current_year=now.year)
 
+@app.context_processor
+def utility_processor():
+    def max_number(numbers):
+        return max(numbers)
+    return dict(max_number=max_number)
+
 
 @app.context_processor
 def rename_me():
