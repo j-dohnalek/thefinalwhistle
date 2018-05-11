@@ -30,9 +30,9 @@ except KeyError:
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
 app.config['MAIL_USE_SSL'] = True
-app.config['MAIL_USERNAME'] = 'thefinalwhistleapp@gmail.com'
-app.config['MAIL_DEFAULT_SENDER'] = 'thefinalwhistleapp@gmail.com'
-app.config['MAIL_PASSWORD'] = 'tfw12191'
+app.config['MAIL_USERNAME'] = os.environ['FLASK_MAIL_USERNAME']
+app.config['MAIL_DEFAULT_SENDER'] = os.environ['FLASK_MAIL_DEFAULT_SENDER']
+app.config['MAIL_PASSWORD'] = os.environ['FLASK_MAIL_PASSWORD']
 
 # Initialise Flask extensions
 db = SQLAlchemy(app)
